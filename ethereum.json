@@ -1,0 +1,26 @@
+[
+  {
+    "name": "MAGIC",
+    "address": "0xb0c7a3ba49c7a6eaba6cd4a96c55a1391070ac9a",
+    "symbol": "MAGIC",
+    "decimals": 18,
+    "chainId": 1,
+    "logoURI": "https://raw.githubusercontent.com/sushiswap/assets/master/blockchains/arbitrum/assets/0x539bdE0d7Dbd336b79148AA742883198BBF60342/logo.png"
+  },
+  {
+    "name": "LooksRare",
+    "address": "0xf4d2888d29D722226FafA5d9B24F9164c092421E",
+    "symbol": "LOOKS",
+    "decimals": 18,
+    "chainId": 1,
+    "logoURI": "https://etherscan.io/token/images/looksrare_32.png"
+  },
+  {
+    "name": "Metis Token",
+    "address": "0x9e32b13ce7f2e80a01932b42553652e053d6ed8e",
+    "symbol": "Metis",
+    "decimals": 18,
+    "chainId": 1,
+    "logoURI": "https://assets.coingecko.com/coins/images/15595/small/metis.PNG"
+  }
+]

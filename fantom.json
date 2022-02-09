@@ -1,0 +1,18 @@
+[
+  {
+    "name": "0xDAO",
+    "address": "0xc165d941481e68696f43ee6e99bfb2b23e0e3114",
+    "symbol": "OXD",
+    "decimals": 18,
+    "chainId": 250,
+    "logoURI": "https://assets.coingecko.com/coins/images/22888/small/rjks-OoT_400x400.jpg?1642827011"
+  },
+  {
+    "name": "TOMB",
+    "address": "0x6c021Ae822BEa943b2E66552bDe1D2696a53fbB7",
+    "symbol": "TOMB",
+    "decimals": 18,
+    "chainId": 250,
+    "logoURI": "https://ftmscan.com/token/images/tomb_32.png"
+  }
+]

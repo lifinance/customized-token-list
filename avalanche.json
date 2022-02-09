@@ -1,0 +1,10 @@
+[
+  {
+    "name": "Defrost Finance Token",
+    "address": "0x47EB6F7525C1aA999FBC9ee92715F5231eB1241D",
+    "symbol": "MELT",
+    "decimals": 18,
+    "chainId": 43114,
+    "logoURI": "https://snowtrace.io/token/images/defrostfinance_32.png"
+  }
+]
