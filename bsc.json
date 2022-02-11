@@ -6,5 +6,21 @@
     "decimals": 18,
     "chainId": 56,
     "logoURI": "https://assets.coingecko.com/coins/images/15595/small/metis.PNG"
+  },
+  {
+    "name": "BoleToken",
+    "address": "0x3375AfA606F5836154C95F1Df5830EA2e4F41DF2",
+    "symbol": "BOLE",
+    "decimals": 18,
+    "chainId": 56,
+    "logoURI": "https://bscscan.com/token/images/boleinc_32.png"
+  },
+  {
+    "name": "Dinoland Metaverse",
+    "address": "0x6B9481FB5465ef9Ab9347b332058D894aB09B2f6",
+    "symbol": "DNL",
+    "decimals": 18,
+    "chainId": 56,
+    "logoURI": "https://bscscan.com/token/images/dinoland_32.png"
   }
 ]
