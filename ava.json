@@ -6,5 +6,13 @@
     "decimals": 18,
     "chainId": 43114,
     "logoURI": "https://snowtrace.io/token/images/defrostfinance_32.png"
+  },
+  {
+    "name": "Platypus",
+    "address": "0x22d4002028f537599bE9f666d1c4Fa138522f9c8",
+    "symbol": "PTP",
+    "decimals": 18,
+    "chainId": 43114,
+    "logoURI": "https://snowtrace.io/token/images/platypusfinance_32.png"
   }
 ]
