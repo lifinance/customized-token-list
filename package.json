@@ -1,0 +1,22 @@
+{
+  "name": "customized-token-list",
+  "version": "0.0.1",
+  "description": "Custom token list for li.finance",
+  "scripts": {
+    "eslint": "eslint . --ext .json"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lifinance/customized-token-list.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/lifinance/customized-token-list/issues"
+  },
+  "homepage": "https://github.com/lifinance/customized-token-list#readme",
+  "devDependencies": {
+    "eslint": "^8.9.0",
+    "eslint-plugin-json": "^3.1.0"
+  }
+}
