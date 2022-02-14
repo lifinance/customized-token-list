@@ -27,8 +27,7 @@ jobs:
           node-version: 12
 
       - name: Install Node.js dependencies
-        run: npm ci
-
+        run: yarn install
 
       - name: Run lint
         uses: wearerequired/lint-action@v1
