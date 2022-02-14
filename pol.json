@@ -30,5 +30,5 @@
     "decimals": 18,
     "chainId": 137,
     "logoURI": "https://nomics.com/_next/image?url=https%3A%2F%2Fs3.us-east-2.amazonaws.com%2Fnomics-api%2Fstatic%2Fimages%2Fcurrencies%2FIXT2.jpg&w=48&q=75"
-  },
+  }
 ]
