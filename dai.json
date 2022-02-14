@@ -6,7 +6,7 @@
     "decimals": 18,
     "chainId": 100,
     "logoURI": "https://minerva.digital/i/MIVA-Token_200x200.png"
-  },
+  }
   {
     "name": "Own a fraction",
     "address": "0x2bf2ba13735160624a0feae98f6ac8f70885ea61",
@@ -14,5 +14,5 @@
     "decimals": 18,
     "chainId": 100,
     "logoURI": "https://assets.coingecko.com/coins/images/15099/large/fraction.png?1619691519"
-  }
+  },
 ]
