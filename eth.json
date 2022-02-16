@@ -30,5 +30,13 @@
     "decimals": 18,
     "chainId": 1,
     "logoURI": "https://assets.coingecko.com/coins/images/23633/small/logo-60b81ff87b40b11739105acf5ad1e075.png?1644903256"
+  },
+   {
+    "name": "Cult DAO",
+    "address": "0xf0f9d895aca5c8678f706fb8216fa22957685a13",
+    "symbol": "CULT",
+    "decimals": 18,
+    "chainId": 1,
+    "logoURI": "https://etherscan.io/token/images/cultdao_32.png?=v1"
   }
 ]
