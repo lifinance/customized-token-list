@@ -30,5 +30,13 @@
     "decimals": 18,
     "chainId": 137,
     "logoURI": "https://assets.coingecko.com/coins/images/20927/small/IXT_SYMBOL_SVG_RGB_BLACK.png?1637934555"
+  },
+    {
+    "name": "miMATIC",
+    "address": "0xa3Fa99A148fA48D14Ed51d610c367C61876997F1",
+    "symbol": "miMATIC",
+    "decimals": 18,
+    "chainId": 137,
+    "logoURI": "https://polygonscan.com/token/images/miMatic_32.png"
   }
 ]
