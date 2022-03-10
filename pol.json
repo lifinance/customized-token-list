@@ -38,5 +38,13 @@
     "decimals": 18,
     "chainId": 137,
     "logoURI": "https://polygonscan.com/token/images/miMatic_32.png"
+  },
+    {
+    "name": "Cougar Token",
+    "address": "0x047fD3B3D2366F9babe105ade4598E263d6c699c",
+    "symbol": "COUGAR",
+    "decimals": 18,
+    "chainId": 137,
+    "logoURI": "https://drive.google.com/file/d/1v-QESAasfXCAQBtPo6IT6hnt2woz9rzS/view"
   }
 ]
