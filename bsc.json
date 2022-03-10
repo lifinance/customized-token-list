@@ -22,5 +22,13 @@
     "decimals": 18,
     "chainId": 56,
     "logoURI": "https://bscscan.com/token/images/dinoland_32.png"
+  },
+  {
+    "name": "CougarSwap Token",
+    "address": "0x26d88B1E61E22Da3f1A1BA95A1bA278f6FCef00b",
+    "symbol": "CGS",
+    "decimals": 18,
+    "chainId": 56,
+    "logoURI": "https://drive.google.com/file/d/1v-QESAasfXCAQBtPo6IT6hnt2woz9rzS/view"
   }
 ]
