@@ -22,5 +22,13 @@
     "decimals": 18,
     "chainId": 250,
     "logoURI": "https://github.com/Layer3Org/spiritswap-tokens-list-icon/blob/master/token-list/images/0x5cc61a78f164885776aa610fb0fe1257df78e59b.png?raw=true"
+  },
+  {
+    "name": "Cougar Token",
+    "address": "0x5a2e451Fb1b46FDE7718315661013ae1aE68e28C",
+    "symbol": "CGS",
+    "decimals": 18,
+    "chainId": 250,
+    "logoURI": "https://assets.coingecko.com/coins/images/19402/small/logo.png?1644812043"
   }
 ]
