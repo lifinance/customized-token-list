@@ -14,5 +14,13 @@
     "decimals": 18,
     "chainId": 43114,
     "logoURI": "https://snowtrace.io/token/images/platypusfinance_32.png"
+  },
+  {
+    "name": "Cougar Token",
+    "address": "0x727C43b707C6Fe3ACD92f17EFAC8e05476DFa81c",
+    "symbol": "CGS",
+    "decimals": 18,
+    "chainId": 43114,
+    "logoURI": "https://drive.google.com/file/d/1v-QESAasfXCAQBtPo6IT6hnt2woz9rzS/view"
   }
 ]
