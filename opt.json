@@ -1,1 +1,9 @@
-[]
+[
+  {
+    "name": "OPTIMISM",
+    "address": "0x4200000000000000000000000000000000000042",
+    "symbol": "OP",
+    "decimals": 18,
+    "chainId": 10,
+    "logoURI": "https://optimistic.etherscan.io/token/images/optimism_32.png"
+  },
