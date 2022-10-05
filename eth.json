@@ -54,5 +54,13 @@
     "decimals": 18,
     "chainId": 1,
     "logoURI": "https://etherscan.io/token/images/apecoin_32.png"
+  },
+  {
+    "name": "Jigstack",
+    "address": "0x1F8A626883d7724DBd59eF51CBD4BF1Cf2016D13",
+    "symbol": "STAK",
+    "decimals": 18,
+    "chainId": 1,
+    "logoURI": "https: //assets.coingecko.com/coins/images/14978/small/jigstack.PNG?1619216498"
   }
 ]
