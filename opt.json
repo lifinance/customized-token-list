@@ -6,5 +6,12 @@
     "decimals": 18,
     "chainId": 10,
     "logoURI": "https://optimistic.etherscan.io/token/images/optimism_32.png"
-  }
+  },
+  {
+    "name": "BOB",
+    "address": "0xB0B195aEFA3650A6908f15CdaC7D92F8a5791B0B",
+    "symbol": "BOB",
+    "decimals": 18,
+    "chainId": 10,
+    "logoURI": "https://assets.coingecko.com/coins/images/27266/small/Bob-logo.png?1663073030"
 ]
