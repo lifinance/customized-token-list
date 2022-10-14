@@ -46,5 +46,21 @@
     "decimals": 18,
     "chainId": 137,
     "logoURI": "https://assets.coingecko.com/coins/images/19402/small/logo.png?1644812043"
+  },
+  {
+    "name": "Jigstack",
+    "address": "0x46A5D492788f8AFdfC743Ab7D7bD13F996249ED5",
+    "symbol": "STAK",
+    "decimals": 18,
+    "chainId": 137,
+    "logoURI": "https://assets.coingecko.com/coins/images/14978/small/jigstack.PNG?1619216498"
+  },
+  {
+    "name": "BOB",
+    "address": "0xB0B195aEFA3650A6908f15CdaC7D92F8a5791B0B",
+    "symbol": "BOB",
+    "decimals": 18,
+    "chainId": 137,
+    "logoURI": "https://assets.coingecko.com/coins/images/27266/small/Bob-logo.png?1663073030"
   }
 ]
