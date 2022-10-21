@@ -30,5 +30,37 @@
     "decimals": 18,
     "chainId": 56,
     "logoURI": "https://assets.coingecko.com/coins/images/19402/small/logo.png?1644812043"
+  },
+  {
+    "name": "Wrapped AllianceBlock Token",
+    "address": "0x42f3008F6945f052C31e7680F7f78c512099b904",
+    "symbol": "WALBT",
+    "decimals": 18,
+    "chainId": 56,
+    "logoURI": "https://static.debank.com/image/bsc_token/logo_url/0x42f3008f6945f052c31e7680f7f78c512099b904/9867892d0aaa519c537d8189a0551750.png"
+  },
+  {
+    "name": "Wrapped Enjinstarter",
+    "address": "0x09f423ac3c9babbff6f94d372b16e4206e71439f",
+    "symbol": "WEJS",
+    "decimals": 18,
+    "chainId": 56,
+    "logoURI": "https://static.debank.com/image/bsc_token/logo_url/0x09f423ac3c9babbff6f94d372b16e4206e71439f/e1abf5c4cf738f2d2f04f81769a8e5d9.png"
+  },
+  {
+    "name": "Transient",
+    "address": "0xeeed90aa795c0e7d90fcec0fcfaa7bf6fc13c20a",
+    "symbol": "TSCT",
+    "decimals": 18,
+    "chainId": 56,
+    "logoURI": "https://static.debank.com/image/bsc_token/logo_url/0xeeed90aa795c0e7d90fcec0fcfaa7bf6fc13c20a/ac8c76483ddc219334d49e5423a564a3.png"
+  },
+  {
+    "name": "RITE Coin",
+    "address": "0x0F5D54b27bDb556823F96f2536496550f8816dC5",
+    "symbol": "RITE",
+    "decimals": 18,
+    "chainId": 56,
+    "logoURI": "https://static.debank.com/image/bsc_token/logo_url/0x0f5d54b27bdb556823f96f2536496550f8816dc5/50fdaf528d6c4643059c8b6592fc4536.png"
   }
 ]
