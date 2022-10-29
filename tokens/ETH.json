@@ -70,5 +70,13 @@
     "decimals": 18,
     "chainId": 1,
     "logoURI": "https://assets.coingecko.com/coins/images/27266/small/Bob-logo.png?1663073030"
+  },
+  {
+    "name": "Transient",
+    "address": "0x805ea9c07b49dd23ce11ec66dc6d8a2957385035",
+    "symbol": "TSCT",
+    "decimals": 18,
+    "chainId": 1,
+    "logoURI": "https://static.debank.com/image/bsc_token/logo_url/0xeeed90aa795c0e7d90fcec0fcfaa7bf6fc13c20a/ac8c76483ddc219334d49e5423a564a3.png"
   }
 ]
