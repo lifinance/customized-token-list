@@ -62,5 +62,13 @@
     "decimals": 18,
     "chainId": 56,
     "logoURI": "https://static.debank.com/image/bsc_token/logo_url/0x0f5d54b27bdb556823f96f2536496550f8816dc5/50fdaf528d6c4643059c8b6592fc4536.png"
+  },
+  {
+    "name": "BOB",
+    "address": "0xb0b195aefa3650a6908f15cdac7d92f8a5791b0b",
+    "symbol": "BOB",
+    "decimals": 18,
+    "chainId": 56,
+    "logoURI": "https://assets.coingecko.com/coins/images/27266/small/Bob-logo.png?1663073030"
   }
 ]
