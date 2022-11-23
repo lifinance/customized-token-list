@@ -61,7 +61,7 @@
     "symbol": "STAK",
     "decimals": 18,
     "chainId": 1,
-    "logoURI": "https: //assets.coingecko.com/coins/images/14978/small/jigstack.PNG?1619216498"
+    "logoURI": "https://assets.coingecko.com/coins/images/14978/small/jigstack.PNG?1619216498"
   },
   {
     "name": "BOB",
@@ -78,5 +78,13 @@
     "decimals": 18,
     "chainId": 1,
     "logoURI": "https://static.debank.com/image/bsc_token/logo_url/0xeeed90aa795c0e7d90fcec0fcfaa7bf6fc13c20a/ac8c76483ddc219334d49e5423a564a3.png"
+  },
+  {
+    "name": "Poundtoken",
+    "address": "0x86b4dbe5d203e634a12364c0e428fa242a3fba98",
+    "symbol": "GBPT",
+    "decimals": 18,
+    "chainId": 1,
+    "logoURI": "https://etherscan.io/token/images/gbptoken_32.png"
   }
 ]
