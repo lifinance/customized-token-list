@@ -6,5 +6,13 @@
     "decimals": 18,
     "chainId": 42161,
     "logoURI": "https://raw.githubusercontent.com/sushiswap/assets/master/blockchains/arbitrum/assets/0x539bdE0d7Dbd336b79148AA742883198BBF60342/logo.png"
+  },
+  {
+    "name": "Gains Network",
+    "address": "0x18c11fd286c5ec11c3b683caa813b77f5163a122",
+    "symbol": "GNS",
+    "decimals": 18,
+    "chainId": 42161,
+    "logoURI": "https://static.debank.com/image/arb_token/logo_url/0x18c11fd286c5ec11c3b683caa813b77f5163a122/35fda8612eb2354b2436925648e7a87e.png"
   }
 ]
