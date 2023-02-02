@@ -14,5 +14,13 @@
     "decimals": 18,
     "chainId": 42161,
     "logoURI": "https://static.debank.com/image/arb_token/logo_url/0x18c11fd286c5ec11c3b683caa813b77f5163a122/35fda8612eb2354b2436925648e7a87e.png"
+  },
+  {
+    "name": "GMX",
+    "address": "0xfc5a1a6eb076a2c7ad06ed22c90d7e710e35ad0a",
+    "symbol": "GMX",
+    "decimals": 18,
+    "chainId": 42161,
+    "logoURI": "https://static.debank.com/image/arb_token/logo_url/0xfc5a1a6eb076a2c7ad06ed22c90d7e710e35ad0a/b4e362278f64a738b878e5393fa29837.png"
   }
 ]

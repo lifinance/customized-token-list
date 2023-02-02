@@ -22,5 +22,13 @@
     "decimals": 18,
     "chainId": 43114,
     "logoURI": "https://assets.coingecko.com/coins/images/19402/small/logo.png?1644812043"
+  },
+  {
+    "name": "GMX",
+    "address": "0x62edc0692bd897d2295872a9ffcac5425011c661",
+    "symbol": "GMX",
+    "decimals": 18,
+    "chainId": 43114,
+    "logoURI": "https://static.debank.com/image/avax_token/logo_url/0x62edc0692bd897d2295872a9ffcac5425011c661/b4e362278f64a738b878e5393fa29837.png"
   }
 ]
