@@ -100,5 +100,13 @@
     "symbol": "MAHA",
     "decimals": 18,
     "logoURI": "https://static.debank.com/image/eth_token/logo_url/0x745407c86df8db893011912d3ab28e68b62e49b0/99948ee1cfc4ab1e5a88c50090e36206.png"
+  },
+  {
+    "name": "AllianceBlock Nexera",
+    "address": "0x644192291cc835A93d6330b24EA5f5FEdD0eEF9e",
+    "symbol": "NXRA",
+    "decimals": 18,
+    "chainId": 1,
+    "logoURI": "https://i.imgur.com/voD8CiS.png"
   }
 ]

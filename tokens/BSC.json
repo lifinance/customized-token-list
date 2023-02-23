@@ -70,5 +70,13 @@
     "decimals": 18,
     "chainId": 56,
     "logoURI": "https://assets.coingecko.com/coins/images/27266/small/Bob-logo.png?1663073030"
+  },
+  {
+    "name": "AllianceBlock Nexera",
+    "address": "0x644192291cc835A93d6330b24EA5f5FEdD0eEF9e",
+    "symbol": "NXRA",
+    "decimals": 18,
+    "chainId": 56,
+    "logoURI": "https://i.imgur.com/voD8CiS.png"
   }
 ]
