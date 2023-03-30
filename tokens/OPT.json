@@ -14,5 +14,13 @@
     "decimals": 18,
     "chainId": 10,
     "logoURI": "https://assets.coingecko.com/coins/images/27266/small/Bob-logo.png?1663073030"
-   }
+  },
+  {
+    "name": "Own a fraction",
+    "address": "0xbd80cfa9d93a87d1bb895f810ea348e496611cd4",
+    "symbol": "FRACTION",
+    "decimals": 18,
+    "chainId": 10,
+    "logoURI": "https://fraction.fyi/static/FRACTION-TokenIcon-LIFI-256x256.png"
+  }
 ]

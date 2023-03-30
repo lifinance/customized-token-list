@@ -22,5 +22,13 @@
     "decimals": 18,
     "chainId": 42161,
     "logoURI": "https://static.debank.com/image/arb_token/logo_url/0xfc5a1a6eb076a2c7ad06ed22c90d7e710e35ad0a/b4e362278f64a738b878e5393fa29837.png"
+  },
+  {
+    "name": "Own a fraction",
+    "address": "0x2bf2ba13735160624a0feae98f6ac8f70885ea61",
+    "symbol": "FRACTION",
+    "decimals": 18,
+    "chainId": 42161,
+    "logoURI": "https://fraction.fyi/static/FRACTION-TokenIcon-LIFI-256x256.png"
   }
 ]
