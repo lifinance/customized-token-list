@@ -30,5 +30,13 @@
     "decimals": 18,
     "chainId": 42161,
     "logoURI": "https://fraction.fyi/static/FRACTION-TokenIcon-LIFI-256x256.png"
+  },
+  {
+    "name": "Relay Token",
+    "address": "0x1426CF37CAA89628C4DA2864e40cF75E6d66Ac6b",
+    "symbol": "RELAY",
+    "decimals": 18,
+    "chainId": 42161,
+    "logoURI": "https://assets.coingecko.com/coins/images/17816/small/relay-logo-200.png?1629339288"
   }
 ]
