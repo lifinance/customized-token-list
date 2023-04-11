@@ -78,5 +78,13 @@
     "decimals": 18,
     "chainId": 137,
     "logoURI": "https://i.imgur.com/voD8CiS.png"
+  },
+  {
+    "name": "Relay Token",
+    "address": "0x904371845Bc56dCbBcf0225ef84a669b2fD6bd0d",
+    "symbol": "RELAY",
+    "decimals": 18,
+    "chainId": 137,
+    "logoURI": "https://assets.coingecko.com/coins/images/17816/small/relay-logo-200.png?1629339288"
   }
 ]
