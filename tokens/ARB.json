@@ -38,5 +38,13 @@
     "decimals": 18,
     "chainId": 42161,
     "logoURI": "https://assets.coingecko.com/coins/images/17816/small/relay-logo-200.png?1629339288"
+  },
+  {
+    "name": "BOB Token",
+    "address": "0xB0B195aEFA3650A6908f15CdaC7D92F8a5791B0B",
+    "symbol": "BOB",
+    "decimals": 18,
+    "chainId": 42161,
+    "logoURI": "https://arbiscan.io/token/images/bobtoken_32.png"
   }
 ]
