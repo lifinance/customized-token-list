@@ -94,5 +94,13 @@
     "decimals": 4,
     "chainId": 137,
     "logoURI": "https://assets.coingecko.com/coins/images/8472/small/MicrosoftTeams-image_%286%29.png?1674480131"
+  },
+  {
+    "name": "Monerium EUR emoney",
+    "address": "0x18ec0a6e18e5bc3784fdd3a3634b31245ab704f6",
+    "symbol": "EURe",
+    "decimals": 18,
+    "chainId": 137,
+    "logoURI": "https://assets.coingecko.com/coins/images/23354/small/eur.png?1643926562"
   }
 ]

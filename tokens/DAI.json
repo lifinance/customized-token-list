@@ -14,5 +14,13 @@
     "decimals": 18,
     "chainId": 100,
     "logoURI": "https://fraction.fyi/static/FRACTION-TokenIcon-LIFI-256x256.png"
+  },
+  {
+    "name": "Monerium EUR emoney",
+    "address": "0xcb444e90d8198415266c6a2724b7900fb12fc56e",
+    "symbol": "EURe",
+    "decimals": 18,
+    "chainId": 100,
+    "logoURI": "https://assets.coingecko.com/coins/images/23354/small/eur.png?1643926562"
   }
 ]
