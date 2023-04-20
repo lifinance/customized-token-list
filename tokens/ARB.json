@@ -46,5 +46,13 @@
     "decimals": 18,
     "chainId": 42161,
     "logoURI": "https://arbiscan.io/token/images/bobtoken_32.png"
+  },
+  {
+    "name": "Sperax",
+    "address": "0x5575552988A3A80504bBaeB1311674fCFd40aD4B",
+    "symbol": "SPA",
+    "decimals": 18,
+    "chainId": 42161,
+    "logoURI": "https://arbiscan.io/token/images/speraxtoken_32.png"
   }
 ]
