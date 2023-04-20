@@ -6,5 +6,13 @@
     "decimals": 18,
     "chainId": 1284,
     "logoURI": "https://icodrops.com/wp-content/uploads/2021/12/ZooDAO_logo.jpeg"
+  },
+  {
+    "name": "xcRMRK",
+    "address": "0xecf2adaff1de8a512f6e8bfe67a2c836edb25da3",
+    "symbol": "xcRMRK",
+    "decimals": 10,
+    "chainId": 1284,
+    "logoURI": "https://static.debank.com/image/movr_token/logo_url/0xffffffff893264794d9d57e1e0e21e0042af5a0a/fd049786331b33bc6205de366961bb2d.png"
   }
 ]
