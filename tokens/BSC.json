@@ -108,7 +108,7 @@
     "address": "0xAD6742A35fB341A9Cc6ad674738Dd8da98b94Fb1",
     "symbol": "WOM",
     "decimals": 18,
-    "chainId": 42161,
+    "chainId": 56,
     "logoURI": "https://bscscan.com/token/images/wombatex_32.png"
   }
 ]
