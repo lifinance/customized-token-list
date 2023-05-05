@@ -19,7 +19,7 @@
     "name": "USDC",
     "address": "0xf56dc6695cf1f5c364edebc7dc7077ac9b586068",
     "symbol": "USDC",
-    "decimals": 18,
+    "decimals": 6,
     "chainId": 59140,
     "logoURI": "https://static.debank.com/image/coin/logo_url/usdc/e87790bfe0b3f2ea855dc29069b38818.png"
   },
@@ -27,7 +27,7 @@
     "name": "USDT (Hop Test)",
     "address": "0x1990bc6dfe2ef605bfc08f5a23564db75642ad73",
     "symbol": "USDT",
-    "decimals": 18,
+    "decimals": 6,
     "chainId": 59140,
     "logoURI": "https://static.debank.com/image/coin/logo_url/usdt/23af7472292cb41dc39b3f1146ead0fe.png"
   },
