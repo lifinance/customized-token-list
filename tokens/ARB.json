@@ -62,5 +62,13 @@
     "decimals": 18,
     "chainId": 42161,
     "logoURI": "https://bscscan.com/token/images/wombatex_32.png"
+  },
+  {
+    "name": "Mumu The Bull",
+    "address": "0x27e2209f4CeAebed97899eA2d8302Dee690d3820",
+    "symbol": "MUMU",
+    "decimals": 9,
+    "chainId": 42161,
+    "logoURI": "https://assets.coingecko.com/coins/images/30185/small/mumu_200x200.png?1683600598"
   }
 ]
