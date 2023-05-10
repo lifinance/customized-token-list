@@ -64,6 +64,13 @@
     "logoURI": "https://bscscan.com/token/images/wombatex_32.png"
   },
   {
+    "name": "Stably USD",
+    "address": "0x097BF766E427F5CcD306F21Ba05632e0Be849B0E",
+    "symbol": "USDS",
+    "decimals": 6,
+    "chainId": 42161,
+    "logoURI": "https://arbiscan.io/token/images/stably_32.png"
+  },
     "name": "Mumu The Bull",
     "address": "0x27e2209f4CeAebed97899eA2d8302Dee690d3820",
     "symbol": "MUMU",
