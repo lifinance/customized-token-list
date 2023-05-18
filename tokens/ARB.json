@@ -71,6 +71,7 @@
     "chainId": 42161,
     "logoURI": "https://arbiscan.io/token/images/stably_32.png"
   },
+  {
     "name": "Mumu The Bull",
     "address": "0x27e2209f4CeAebed97899eA2d8302Dee690d3820",
     "symbol": "MUMU",
@@ -78,6 +79,7 @@
     "chainId": 42161,
     "logoURI": "https://assets.coingecko.com/coins/images/30185/small/mumu_200x200.png?1683600598"
   },
+  {
     "name": "Chronos",
     "address": "0x15b2fb8f08E4Ac1Ce019EADAe02eE92AeDF06851",
     "symbol": "CHR",
