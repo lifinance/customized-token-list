@@ -22,5 +22,13 @@
     "decimals": 18,
     "chainId": 10,
     "logoURI": "https://fraction.fyi/static/FRACTION-TokenIcon-LIFI-256x256.png"
+  },
+  {
+    "name": "MUMMY",
+    "address": "0x47536F17F4fF30e64A96a7555826b8f9e66ec468",
+    "symbol": "MMY",
+    "decimals": 18,
+    "chainId": 10,
+    "logoURI": "https://optimistic.etherscan.io/token/images/mummyfinance_32.png"
   }
 ]
