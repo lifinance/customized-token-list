@@ -132,5 +132,13 @@
     "decimals": 18,
     "chainId": 1,
     "logoURI": "https://assets.coingecko.com/coins/images/23354/small/eur.png?1643926562"
+  },
+  {
+    "name": "IPOR Token",
+    "address": "0x1e4746dC744503b53b4A082cB3607B169a289090",
+    "symbol": "IPOR",
+    "decimals": 18,
+    "chainId": 1,
+    "logoURI": "https://etherscan.io/token/images/ipor_32.png"
   }
 ]
