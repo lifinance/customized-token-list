@@ -140,5 +140,13 @@
     "decimals": 18,
     "chainId": 1,
     "logoURI": "https://etherscan.io/token/images/ipor_32.png"
+  },
+  {
+    "name": "SquidGrow",
+    "address": "0xd8Fa690304D2B2824D918C0c7376e2823704557A",
+    "symbol": "SquidGrow",
+    "decimals": 9,
+    "chainId": 1,
+    "logoURI": "https://etherscan.io/token/images/squidgrow_32.png"
   }
 ]
