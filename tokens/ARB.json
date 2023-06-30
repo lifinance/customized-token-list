@@ -86,5 +86,13 @@
     "decimals": 18,
     "chainId": 42161,
     "logoURI": "https://arbiscan.io/token/images/chronos_32.png"
+  },
+  {
+    "name": "MUMMY",
+    "address": "0xA6D7D0e650aa40FFa42d845A354c12c2bc0aB15f",
+    "symbol": "MMY",
+    "decimals": 18,
+    "chainId": 42161,
+    "logoURI": "https://assets.coingecko.com/coins/images/28547/small/Logo_MMY.png?1671599329"
   }
 ]
