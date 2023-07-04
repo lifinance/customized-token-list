@@ -110,5 +110,13 @@
     "decimals": 18,
     "chainId": 56,
     "logoURI": "https://bscscan.com/token/images/wombatex_32.png"
+  },
+  {
+    "name": "Copiosa Coin",
+    "address": "0x8789337a176e6e7223Ff115F1CD85C993D42C25c",
+    "symbol": "COP",
+    "decimals": 18,
+    "chainId": 56,
+    "logoURI": "https://bscscan.com/token/images/copiosacoin2_32.png"
   }
 ]
