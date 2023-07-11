@@ -30,5 +30,13 @@
     "decimals": 18,
     "chainId": 10,
     "logoURI": "https://optimistic.etherscan.io/token/images/mummyfinance_32.png"
+  },
+  {
+    "name": "OPX",
+    "address": "0xcdB4bB51801A1F399d4402c61bC098a72c382E65",
+    "symbol": "OPX",
+    "decimals": 18,
+    "chainId": 10,
+    "logoURI": "https://www.geckoterminal.com/_next/image?url=https%3A%2F%2Fassets.coingecko.com%2Fcoins%2Fimages%2F28225%2Fsmall%2Flogo_OPX.png%3F1668501930&w=64&q=75"
   }
 ]
