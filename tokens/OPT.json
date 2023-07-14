@@ -8,6 +8,14 @@
     "logoURI": "https://optimistic.etherscan.io/token/images/optimism_32.png"
   },
   {
+    "name": "Layer2DAO",
+    "address": "0xd52f94DF742a6F4B4C8b033369fE13A41782Bf44",
+    "symbol": "L2DAO",
+    "decimals": 18,
+    "chainId": 10,
+    "logoURI": "https://assets.coingecko.com/coins/images/23699/large/Khp7Y4Sn.png?1645081048"
+  },
+  {
     "name": "BOB",
     "address": "0xB0B195aEFA3650A6908f15CdaC7D92F8a5791B0B",
     "symbol": "BOB",
