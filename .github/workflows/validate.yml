@@ -2,11 +2,6 @@ name: Validate Tokens
 
 on:
   pull_request:
-    types:
-      - opened
-  push:
-    branches:
-      - 'refs/pull/*/head'
 
 jobs:
   test:
