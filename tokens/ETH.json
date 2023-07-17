@@ -99,7 +99,6 @@
     "name": "MahaDAO",
     "address": "0x745407c86df8db893011912d3ab28e68b62e49b0",
     "symbol": "MAHA",
-    "decimals": 18,
     "chainId": 1,
     "logoURI": "https://static.debank.com/image/eth_token/logo_url/0x745407c86df8db893011912d3ab28e68b62e49b0/99948ee1cfc4ab1e5a88c50090e36206.png"
   },
