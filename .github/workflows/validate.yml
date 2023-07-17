@@ -1,0 +1,26 @@
+name: Validate Tokens
+
+on:
+  pull_request:
+    types:
+      - opened
+  push:
+    branches:
+      - 'refs/pull/*/head'
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+
+      - name: Set up Node.js
+        uses: actions/setup-node@v1
+        with:
+          node-version: 12
+
+      - name: Install Node.js dependencies
+        run: yarn install
+
+      - name: Validate
+        run: yarn test
