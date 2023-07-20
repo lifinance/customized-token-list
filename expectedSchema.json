@@ -1,0 +1,32 @@
+{
+  "type": "object",
+  "properties": {
+    "name": {
+      "type": "string"
+    },
+    "address": {
+      "type": "string"
+    },
+    "symbol": {
+      "type": "string"
+    },
+    "decimals": {
+      "type": "integer"
+    },
+    "chainId": {
+      "type": "integer"
+    },
+    "logoURI": {
+      "type": "string"
+    }
+  },
+  "required": [
+    "name",
+    "address",
+    "symbol",
+    "decimals",
+    "chainId",
+    "logoURI"
+  ],
+  "additionalProperties": false
+}
