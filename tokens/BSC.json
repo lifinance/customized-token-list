@@ -126,5 +126,21 @@
     "decimals": 9,
     "chainId": 56,
     "logoURI": "https://assets.coingecko.com/coins/images/26573/small/Squidgrow-Logo.png?1673589821"
+  },
+  {
+    "name": "STABLE Token",
+    "symbol": "STABLE",
+    "address": "0xa3870fbBeb730BA99e4107051612af3465CA9F5e",
+    "chainId": 56,
+    "decimals": 18,
+    "logoURI": "https://raw.githubusercontent.com/USDFI/Official-USDFI-Graphics/main/TOKENS/STABLE_icon.svg"
+  },
+  {
+    "name": "USDFI Token",
+    "symbol": "USDFI",
+    "address": "0x11A38e06699b238D6D9A0C7A01f3AC63a07ad318",
+    "chainId": 56,
+    "decimals": 18,
+    "logoURI": "https://raw.githubusercontent.com/USDFI/Official-USDFI-Graphics/main/TOKENS/USDFI_icon.svg"
   }
 ]
