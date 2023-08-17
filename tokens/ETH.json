@@ -150,5 +150,13 @@
     "decimals": 9,
     "chainId": 1,
     "logoURI": "https://etherscan.io/token/images/squidgrow_32.png"
+  },
+  {
+    "name": "BetSwirl v2",
+    "address": "0x94025780a1ab58868d9b2dbbb775f44b32e8e6e5",
+    "symbol": "BETS",
+    "decimals": 18,
+    "chainId": 1,
+    "logoURI": "https://etherscan.io/token/images/betswirl_32.png"
   }
 ]

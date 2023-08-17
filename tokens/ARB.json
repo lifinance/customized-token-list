@@ -102,5 +102,13 @@
     "decimals": 18,
     "chainId": 42161,
     "logoURI": "https://assets.coingecko.com/coins/images/28547/small/Logo_MMY.png?1671599329"
+  },
+  {
+    "name": "BetSwirl v2",
+    "address": "0x94025780a1ab58868d9b2dbbb775f44b32e8e6e5",
+    "symbol": "BETS",
+    "decimals": 18,
+    "chainId": 42161,
+    "logoURI": "https://etherscan.io/token/images/betswirl_32.png"
   }
 ]
