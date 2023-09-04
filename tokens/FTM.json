@@ -38,5 +38,13 @@
     "decimals": 18,
     "chainId": 250,
     "logoURI": "https://ftmscan.com/token/images/mummyfinance_32.png"
+  },
+  {
+    "name": "Axelar Wrapped USDC",
+    "address": "0x1B6382DBDEa11d97f24495C9A90b7c88469134a4",
+    "symbol": "axlUSDC",
+    "decimals": 6,
+    "chainId": 250,
+    "logoURI": "https://ftmscan.com/token/images/axlusdc_32.png"
   }
 ]
