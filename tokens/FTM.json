@@ -46,5 +46,13 @@
     "decimals": 6,
     "chainId": 250,
     "logoURI": "https://ftmscan.com/token/images/axlusdc_32.png"
+  },
+  {
+    "name": "Multichain USD Coin",
+    "address": "0x04068da6c83afcfa0e13ba15a6696662335d5b75",
+    "symbol": "USDC",
+    "decimals": 6,
+    "chainId": 250,
+    "logoURI": "https://ftmscan.com/token/images/axlusdc_32.png"
   }
 ]
