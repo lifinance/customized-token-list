@@ -110,5 +110,13 @@
     "decimals": 18,
     "chainId": 42161,
     "logoURI": "https://etherscan.io/token/images/betswirl_32.png"
+  },
+  {
+    "name": "Mozaic",
+    "address": "0x20547341E58fB558637FA15379C92e11F7b7F710",
+    "symbol": "MOZ",
+    "decimals": 18,
+    "chainId": 42161,
+    "logoURI": "https://arbiscan.io/token/images/mozaic_32.png"
   }
 ]
