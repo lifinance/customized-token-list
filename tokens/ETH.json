@@ -158,5 +158,13 @@
     "decimals": 18,
     "chainId": 1,
     "logoURI": "https://etherscan.io/token/images/betswirl_32.png"
+  },
+  {
+    "name": "Wombat Token",
+    "address": "0xc0B314a8c08637685Fc3daFC477b92028c540CFB",
+    "symbol": "WOM",
+    "decimals": 18,
+    "chainId": 1,
+    "logoURI": "https://assets.coingecko.com/coins/images/26946/small/Wombat_Token.png?1660982422"
   }
 ]
