@@ -118,5 +118,13 @@
     "decimals": 18,
     "chainId": 42161,
     "logoURI": "https://arbiscan.io/token/images/mozaic_32.png"
+  },
+  {
+    "name": "Wombat Token",
+    "address": "0x7B5EB3940021Ec0e8e463D5dBB4B7B09a89DDF96",
+    "symbol": "WOM",
+    "decimals": 18,
+    "chainId": 42161,
+    "logoURI": "https://assets.coingecko.com/coins/images/26946/small/Wombat_Token.png?1660982422"
   }
 ]
