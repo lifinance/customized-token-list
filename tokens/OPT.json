@@ -67,6 +67,7 @@
     "chainId": 10,
     "symbol": "LZ-ANGLE",
     "decimals": 18,
-    "name": "LayerZero Bridge ANGLE"
+    "name": "LayerZero Bridge ANGLE",
+    "logoURI": "https://arbiscan.io/images/main/empty-token.png?v=1"
   }
 ]

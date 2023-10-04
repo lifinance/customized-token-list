@@ -164,7 +164,8 @@
     "chainId": 42161,
     "symbol": "UXD",
     "decimals": 18,
-    "name": "UXD"
+    "name": "UXD",
+    "logoURI": "https://s2.coinmarketcap.com/static/img/coins/64x64/15028.png"
  },
  {
     "address": "0x2297aEbD383787A160DD0d9F71508148769342E3",
@@ -195,7 +196,8 @@
     "chainId": 42161,
     "symbol": "SHROOM",
     "decimals": 18,
-    "name": "Magic Shroom"
+    "name": "Magic Shroom",
+    "logoURI": "https://arbiscan.io/token/images/magicshroom_32.png"
  },
  {
     "address": "0x84E0a246DD437d911989E89667816A9Ed97a1284",
@@ -226,6 +228,7 @@
     "chainId": 42161,
     "symbol": "LZ-ANGLE",
     "decimals": 18,
-    "name": "LayerZero Bridge ANGLE"
+    "name": "LayerZero Bridge ANGLE",
+    "logoURI": "https://arbiscan.io/images/main/empty-token.png?v=1"
  }
 ]
