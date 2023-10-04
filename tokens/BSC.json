@@ -164,7 +164,7 @@
     "chainId": 56,
     "symbol": "LZ-ANGLE",
     "decimals": 18,
-    "name": "LayerZero Bridge ANGLE",
+    "name": "LayerZero Bridge ANGLE"
   },
   {
     "address": "0xe9f183fc656656f1f17af1f2b0df79b8ff9ad8ed",
