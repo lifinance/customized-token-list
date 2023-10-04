@@ -118,5 +118,29 @@
     "chainId": 137,
     "name": "Verse",
     "logoURI": "https://token-icons.s3.amazonaws.com/0x249ca82617ec3dfb2589c4c17ab7ec9765350a18.png"
-  }
+  },
+  {
+    "address": "0x84E0a246DD437d911989E89667816A9Ed97a1284",
+    "chainId": 137,
+    "symbol": "FOX",
+    "decimals": 18,
+    "name": "Magic Fox",
+    "logoURI": "https://static.debank.com/image/matic_token/logo_url/0x84e0a246dd437d911989e89667816a9ed97a1284/73f774924d0d80ab0a0f7a1cb0fc09c8.png"
+ },
+ {
+    "address": "0xb092e1BF50f518b3Ebf7eD26A40015183aE36AC2",
+    "chainId": 137,
+    "symbol": "TAROT",
+    "decimals": 18,
+    "name": "Tarot",
+    "logoURI": "https://static.debank.com/image/project/logo_url/tarot/233920bfdf23b95af19a7224a0983b27.png"
+ },
+ {
+    "address": "0x0c1ebbb61374da1a8c57cb6681bf27178360d36f",
+    "chainId": 137,
+    "symbol": "LZ-agEUR",
+    "decimals": 18,
+    "name": "LayerZero Bridge agEUR",
+    "logoURI": "https://static.debank.com/image/op_token/logo_url/0x9485aca5bbbe1667ad97c7fe7c4531a624c8b1ed/0b65e0ca11e9f04e2da1958dbc365114.png"
+ }
 ]

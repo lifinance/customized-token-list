@@ -22,5 +22,13 @@
     "decimals": 18,
     "chainId": 100,
     "logoURI": "https://assets.coingecko.com/coins/images/23354/small/eur.png?1643926562"
-  }
+  },
+  {
+    "address": "0xfa5ed56a203466cbbc2430a43c66b9d8723528e7",
+    "chainId": 100,
+    "symbol": "LZ-agEUR",
+    "decimals": 18,
+    "name": "LayerZero Bridge agEUR",
+    "logoURI": "https://static.debank.com/image/op_token/logo_url/0x9485aca5bbbe1667ad97c7fe7c4531a624c8b1ed/0b65e0ca11e9f04e2da1958dbc365114.png"
+ }
 ]

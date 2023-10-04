@@ -158,5 +158,20 @@
     "decimals": 18,
     "chainId": 56,
     "logoURI": "https://assets.coingecko.com/coins/images/26946/small/Wombat_Token.png?1660982422"
+  },
+  {
+    "address": "0x16cd38b1b54e7abf307cb2697e2d9321e843d5aa",
+    "chainId": 56,
+    "symbol": "LZ-ANGLE",
+    "decimals": 18,
+    "name": "LayerZero Bridge ANGLE",
+  },
+  {
+    "address": "0xe9f183fc656656f1f17af1f2b0df79b8ff9ad8ed",
+    "chainId": 56,
+    "symbol": "LZ-agEUR",
+    "decimals": 18,
+    "name": "LayerZero Bridge agEUR",
+    "logoURI": "https://static.debank.com/image/op_token/logo_url/0x9485aca5bbbe1667ad97c7fe7c4531a624c8b1ed/0b65e0ca11e9f04e2da1958dbc365114.png"
   }
 ]

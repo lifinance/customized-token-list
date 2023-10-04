@@ -46,5 +46,27 @@
     "decimals": 18,
     "chainId": 10,
     "logoURI": "https://www.geckoterminal.com/_next/image?url=https%3A%2F%2Fassets.coingecko.com%2Fcoins%2Fimages%2F28225%2Fsmall%2Flogo_OPX.png%3F1668501930&w=64&q=75"
+  },
+  {
+  "chainId": 10,
+  "symbol": "STG",
+  "decimals": 18,
+  "name": "StargateToken",
+  "logoURI": "https: //static.debank.com/image/op_token/logo_url/0x296f55f8fb28e498b858d0bcda06d955b2cb3f97/3e78cc5b8a3f077a619a7ce556b41b25.png"
+  },
+  {
+    "address": "0x840b25c87b626a259ca5ac32124fa752f0230a72",
+    "chainId": 10,
+    "symbol": "LZ-agEUR",
+    "decimals": 18,
+    "name": "LayerZero Bridge agEUR",
+    "logoURI": "https://static.debank.com/image/op_token/logo_url/0x9485aca5bbbe1667ad97c7fe7c4531a624c8b1ed/0b65e0ca11e9f04e2da1958dbc365114.png"
+  },
+  {
+    "address": "0x9201cc18965792808549566e6b06b016d915313a",
+    "chainId": 10,
+    "symbol": "LZ-ANGLE",
+    "decimals": 18,
+    "name": "LayerZero Bridge ANGLE",
   }
 ]

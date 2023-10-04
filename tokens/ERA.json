@@ -1,0 +1,10 @@
+[
+    {
+       "address":"0x7F2FD959013eEC5144269ac6edD0015Cb10968Fc",
+       "chainId":324,
+       "symbol":"TAROT",
+       "decimals":18,
+       "name":"Tarot",
+       "logoURI":"https://static.debank.com/image/op_token/logo_url/0x375488f097176507e39b9653b88fdc52cde736bf/279c43a0188f1a56de7921e454091a52.png"
+    }
+ ]
