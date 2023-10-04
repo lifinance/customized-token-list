@@ -110,5 +110,13 @@
     "decimals": 18,
     "chainId": 137,
     "logoURI": "https://etherscan.io/token/images/betswirl_32.png"
+  },
+  {
+    "address": "0xc708d6f2153933daa50b2d0758955be0a93a8fec",
+    "symbol": "VERSE",
+    "decimals": 18,
+    "chainId": 137,
+    "name": "Verse",
+    "logoURI": "https://token-icons.s3.amazonaws.com/0x249ca82617ec3dfb2589c4c17ab7ec9765350a18.png"
   }
 ]
