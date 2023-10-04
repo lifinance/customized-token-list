@@ -246,5 +246,29 @@
     "decimals": 18,
     "name": "mPendleOFT",
     "logoURI": "https://static.debank.com/image/eth_token/logo_url/0x83e817e1574e2201a005ec0f7e700ed5606f555e/b1d3bfeae0c8d3677c5ae4f9278a610a.png"
+  },
+  {
+    "address":"0x31429d1856aD1377A8A0079410B297e1a9e214c2",
+    "chainId":1,
+    "symbol":"ANGLE",
+    "decimals":18,
+    "name":"ANGLE",
+    "logoURI":"https://static.debank.com/image/eth_token/logo_url/0x31429d1856ad1377a8a0079410b297e1a9e214c2/950fda44a9f4598d2a7a6e9df24b7332.png"
+  },
+  {
+    "address":"0x1a7e4e63778B4f12a199C062f3eFdD288afCBce8",
+    "chainId":1,
+    "symbol":"agEUR",
+    "decimals":18,
+    "name":"agEUR",
+    "logoURI":"https://static.debank.com/image/eth_token/logo_url/0x1a7e4e63778b4f12a199c062f3efdd288afcbce8/950fda44a9f4598d2a7a6e9df24b7332.png"
+  },
+  {
+    "address":"0x64aa3364F17a4D01c6f1751Fd97C2BD3D7e7f1D5",
+    "chainId":1,
+    "symbol":"OHM",
+    "decimals":9,
+    "name":"Olympus",
+    "logoURI":"https://static.debank.com/image/eth_token/logo_url/0x64aa3364f17a4d01c6f1751fd97c2bd3d7e7f1d5/0ad387f86fba0c16654cfb0f720df5d6.png"
   }
 ]

@@ -1,10 +1,10 @@
 [
-    {
-       "address": "0xf1ddcaca7d17f8030ab2eb54f2d9811365efe123",
-       "chainId": 42220,
-       "symbol": "LZ-agEUR",
-       "decimals": 18,
-       "name": "LayerZero Bridge agEUR",
-       "logoURI": "https://static.debank.com/image/op_token/logo_url/0x9485aca5bbbe1667ad97c7fe7c4531a624c8b1ed/0b65e0ca11e9f04e2da1958dbc365114.png"
-    }
+  {
+    "address":"0xC16B81Af351BA9e64C1a069E3Ab18c244A1E3049",
+    "chainId":42220,
+    "symbol":"agEUR",
+    "decimals":18,
+    "name":"agEUR",
+    "logoURI":"https://static.debank.com/image/op_token/logo_url/0x9485aca5bbbe1667ad97c7fe7c4531a624c8b1ed/0b65e0ca11e9f04e2da1958dbc365114.png"
+  }
  ]

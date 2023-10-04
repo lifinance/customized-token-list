@@ -215,20 +215,28 @@
     "name": "mPendle",
     "logoURI": "https://static.debank.com/image/arb_token/logo_url/0xb688ba096b7bb75d7841e47163cd12d18b36a5bf/a77c276341191c453fb402456bbbf528.png"
  },
- {
-    "address": "0x16cd38b1b54e7abf307cb2697e2d9321e843d5aa",
-    "chainId": 42161,
-    "symbol": "LZ-agEUR",
-    "decimals": 18,
-    "name": "LayerZero Bridge agEUR",
-    "logoURI": "https://static.debank.com/image/op_token/logo_url/0x9485aca5bbbe1667ad97c7fe7c4531a624c8b1ed/0b65e0ca11e9f04e2da1958dbc365114.png"
- },
- {
-    "address": "0x366cee609a64037a4910868c5b3cd62b9d019695",
-    "chainId": 42161,
-    "symbol": "LZ-ANGLE",
-    "decimals": 18,
-    "name": "LayerZero Bridge ANGLE",
-    "logoURI": "https://arbiscan.io/images/main/empty-token.png?v=1"
- }
+  {
+    "address":"0xFA5Ed56A203466CbBC2430a43c66b9D8723528E7",
+    "chainId":42161,
+    "symbol":"agEUR",
+    "decimals":18,
+    "name":"agEUR",
+    "logoURI":"https://static.debank.com/image/op_token/logo_url/0x9485aca5bbbe1667ad97c7fe7c4531a624c8b1ed/0b65e0ca11e9f04e2da1958dbc365114.png"
+  },
+  {
+    "address":"0x656B80B667a46869144047E6e6C0000C81610253",
+    "chainId":42161,
+    "symbol":"ANGLE",
+    "decimals":18,
+    "name":"ANGLE_arbitrum",
+    "logoURI":"https://static.debank.com/image/project/logo_url/op_angle/306ffce483295499c5b62e264148d468.png"
+  },
+  {
+    "address":"0xf0cb2dc0db5e6c66b9a70ac27b06b878da017028",
+    "chainId":42161,
+    "symbol":"OHM",
+    "decimals":9,
+    "name":"Olympus",
+    "logoURI":"https://static.debank.com/image/arb_token/logo_url/0xf0cb2dc0db5e6c66b9a70ac27b06b878da017028/7740d1be6042635426e97a08697d0ab9.png"
+  }
 ]

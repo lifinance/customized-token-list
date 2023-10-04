@@ -103,20 +103,20 @@
     "name": "Tarot",
     "logoURI": "https://static.debank.com/image/avax_token/logo_url/0x5ecfec22aa950cb5a3b4fd7249dc30b2bd160f18/9c4751e1ed427ce9f073f649c0e0e553.png"
  },
- {
-    "address": "0x14c00080f97b9069ae3b4eb506ee8a633f8f5434",
-    "chainId": 43114,
-    "symbol": "LZ-agEUR",
-    "decimals": 18,
-    "name": "LayerZero Bridge agEUR",
-    "logoURI": "https://static.debank.com/image/op_token/logo_url/0x9485aca5bbbe1667ad97c7fe7c4531a624c8b1ed/0b65e0ca11e9f04e2da1958dbc365114.png"
- },
- {
-    "address": "0xc011882d0f7672d8942e7fe2248c174eed640c8f",
-    "chainId": 43114,
-    "symbol": "LZ-ANGLE",
-    "decimals": 18,
-    "name": "LayerZero Bridge ANGLE",
-    "logoURI": "https://arbiscan.io/images/main/empty-token.png?v=1"
- }
+  {
+    "address":"0xAEC8318a9a59bAEb39861d10ff6C7f7bf1F96C57",
+    "chainId":43114,
+    "symbol":"agEUR",
+    "decimals":18,
+    "name":"agEUR",
+    "logoURI":"https://static.debank.com/image/avax_token/logo_url/0xaec8318a9a59baeb39861d10ff6c7f7bf1f96c57/0b65e0ca11e9f04e2da1958dbc365114.png"
+  },
+  {
+    "address":"0x5EE94c25e3d5113CD055537340B9d19CFA4D9217",
+    "chainId":43114,
+    "symbol":"ANGLE",
+    "decimals":18,
+    "name":"ANGLE_avalanche",
+    "logoURI":"https://static.debank.com/image/project/logo_url/angle/306ffce483295499c5b62e264148d468.png"
+  }
 ]

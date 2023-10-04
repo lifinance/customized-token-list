@@ -135,12 +135,12 @@
     "name": "Tarot",
     "logoURI": "https://static.debank.com/image/project/logo_url/tarot/233920bfdf23b95af19a7224a0983b27.png"
  },
- {
-    "address": "0x0c1ebbb61374da1a8c57cb6681bf27178360d36f",
-    "chainId": 137,
-    "symbol": "LZ-agEUR",
-    "decimals": 18,
-    "name": "LayerZero Bridge agEUR",
-    "logoURI": "https://static.debank.com/image/op_token/logo_url/0x9485aca5bbbe1667ad97c7fe7c4531a624c8b1ed/0b65e0ca11e9f04e2da1958dbc365114.png"
- }
+  {
+    "address":"0xE0B52e49357Fd4DAf2c15e02058DCE6BC0057db4",
+    "chainId":137,
+    "symbol":"agEUR",
+    "decimals":18,
+    "name":"agEUR",
+    "logoURI":"https://static.debank.com/image/matic_token/logo_url/0xe0b52e49357fd4daf2c15e02058dce6bc0057db4/950fda44a9f4598d2a7a6e9df24b7332.png"
+  }
 ]
