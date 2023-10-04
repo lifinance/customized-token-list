@@ -1,0 +1,10 @@
+[
+    {
+       "address": "0x0caE51e1032e8461f4806e26332c030E34De3aDb",
+       "chainId": 1285,
+       "symbol": "MIM",
+       "decimals": 18,
+       "name": "Magic Internet Money",
+       "logoURI": "https://static.debank.com/image/movr_token/logo_url/0x0cae51e1032e8461f4806e26332c030e34de3adb/7d0c0fb6eab1b7a8a9bfb7dcc04cb11e.png"
+    }
+ ]

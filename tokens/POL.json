@@ -118,5 +118,29 @@
     "chainId": 137,
     "name": "Verse",
     "logoURI": "https://token-icons.s3.amazonaws.com/0x249ca82617ec3dfb2589c4c17ab7ec9765350a18.png"
+  },
+  {
+    "address": "0x84E0a246DD437d911989E89667816A9Ed97a1284",
+    "chainId": 137,
+    "symbol": "FOX",
+    "decimals": 18,
+    "name": "Magic Fox",
+    "logoURI": "https://static.debank.com/image/matic_token/logo_url/0x84e0a246dd437d911989e89667816a9ed97a1284/73f774924d0d80ab0a0f7a1cb0fc09c8.png"
+ },
+ {
+    "address": "0xb092e1BF50f518b3Ebf7eD26A40015183aE36AC2",
+    "chainId": 137,
+    "symbol": "TAROT",
+    "decimals": 18,
+    "name": "Tarot",
+    "logoURI": "https://static.debank.com/image/project/logo_url/tarot/233920bfdf23b95af19a7224a0983b27.png"
+ },
+  {
+    "address":"0xE0B52e49357Fd4DAf2c15e02058DCE6BC0057db4",
+    "chainId":137,
+    "symbol":"agEUR",
+    "decimals":18,
+    "name":"agEUR",
+    "logoURI":"https://static.debank.com/image/matic_token/logo_url/0xe0b52e49357fd4daf2c15e02058dce6bc0057db4/950fda44a9f4598d2a7a6e9df24b7332.png"
   }
 ]

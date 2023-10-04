@@ -158,5 +158,21 @@
     "decimals": 18,
     "chainId": 56,
     "logoURI": "https://assets.coingecko.com/coins/images/26946/small/Wombat_Token.png?1660982422"
+  },
+  {
+    "address":"0x97B6897AAd7aBa3861c04C0e6388Fc02AF1F227f",
+    "chainId":56,
+    "symbol":"ANGLE",
+    "decimals":18,
+    "name":"ANGLE_bsc",
+    "logoURI":"https://static.debank.com/image/project/logo_url/op_angle/306ffce483295499c5b62e264148d468.png"
+  },
+  {
+    "address":"0x12f31B73D812C6Bb0d735a218c086d44D5fe5f89",
+    "chainId":56,
+    "symbol":"agEUR",
+    "decimals":18,
+    "name":"agEUR",
+    "logoURI":"https://static.debank.com/image/bsc_token/logo_url/0x12f31b73d812c6bb0d735a218c086d44d5fe5f89/0b65e0ca11e9f04e2da1958dbc365114.png"
   }
 ]

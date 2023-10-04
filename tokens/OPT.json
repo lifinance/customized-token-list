@@ -46,5 +46,38 @@
     "decimals": 18,
     "chainId": 10,
     "logoURI": "https://www.geckoterminal.com/_next/image?url=https%3A%2F%2Fassets.coingecko.com%2Fcoins%2Fimages%2F28225%2Fsmall%2Flogo_OPX.png%3F1668501930&w=64&q=75"
+  },
+  {
+    "address": "0x296f55f8fb28e498b858d0bcda06d955b2cb3f97",
+  "chainId": 10,
+  "symbol": "STG",
+  "decimals": 18,
+  "name": "StargateToken",
+  "logoURI": "https: //static.debank.com/image/op_token/logo_url/0x296f55f8fb28e498b858d0bcda06d955b2cb3f97/3e78cc5b8a3f077a619a7ce556b41b25.png"
+  },
+  {
+    "address":"0x9485aca5bbBE1667AD97c7fE7C4531a624C8b1ED",
+    "chainId":10,
+    "symbol":"agEUR",
+    "decimals":18,
+    "name":"agEUR",
+    "logoURI":"https://static.debank.com/image/op_token/logo_url/0x9485aca5bbbe1667ad97c7fe7c4531a624c8b1ed/0b65e0ca11e9f04e2da1958dbc365114.png"
+  },
+  {
+    "address":"0x58441E37255b09F9f545e9Dc957F1C41658ff665",
+    "chainId":10,
+    "symbol":"ANGLE",
+    "decimals":18,
+    "name":"ANGLE_optimism",
+    "logoURI":"https://static.debank.com/image/project/logo_url/op_angle/306ffce483295499c5b62e264148d468.png"
+  },
+  {
+    "address":"0x060cb087a9730e13aa191f31a6d86bff8dfcdcc0",
+    "chainId":10,
+    "symbol":"OHM",
+    "decimals":9,
+    "name":"Olympus",
+    "logoURI":"https://static.debank.com/image/eth_token/logo_url/0x64aa3364f17a4d01c6f1751fd97c2bd3d7e7f1d5/0ad387f86fba0c16654cfb0f720df5d6.png"
+
   }
 ]

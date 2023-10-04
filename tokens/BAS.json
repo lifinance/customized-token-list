@@ -19,4 +19,21 @@
 	"decimals": 18,
 	"chainId": 8453,
 	"logoURI": "https://static.debank.com/image/base_token/logo_url/0x27d2decb4bfc9c76f0309b8e88dec3a601fe25a8/4e8bf57d21f195fa7c693b8558d1965e.png"
-}]
+},
+{
+	"address": "0xF544251D25f3d243A36B07e7E7962a678f952691",
+	"chainId": 8453,
+	"symbol": "TAROT",
+	"decimals": 18,
+	"name": "Tarot",
+	"logoURI": "https://static.debank.com/image/project/logo_url/tarot/233920bfdf23b95af19a7224a0983b27.png"
+ },
+ {
+	"address": "0xe3b53af74a4bf62ae5511055290838050bf764df",
+	"chainId": 8453,
+	"symbol": "STG",
+	"decimals": 18,
+	"name": "StargateToken",
+	"logoURI": "https://static.debank.com/image/project/logo_url/stargate/3c6fbbbb1e62793ee34effb91d8769e7.png"
+ }
+]

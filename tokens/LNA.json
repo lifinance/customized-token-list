@@ -1,0 +1,10 @@
+[
+    {
+       "address": "0x808d7c71ad2ba3fa531b068a2417c63106bc0949",
+       "chainId": 59144,
+       "symbol": "STG",
+       "decimals": 18,
+       "name": "StargateToken",
+       "logoURI": "https://static.debank.com/image/project/logo_url/stargate/3c6fbbbb1e62793ee34effb91d8769e7.png"
+    }
+ ]
