@@ -270,5 +270,13 @@
     "decimals":9,
     "name":"Olympus",
     "logoURI":"https://static.debank.com/image/eth_token/logo_url/0x64aa3364f17a4d01c6f1751fd97c2bd3d7e7f1d5/0ad387f86fba0c16654cfb0f720df5d6.png"
+  },
+  {
+    "address":"0x644192291cc835A93d6330b24EA5f5FEdD0eEF9e",
+    "chainId":1,
+    "symbol":"NXRA",
+    "decimals":18,
+    "name":"AllianceBlock Nexera Token",
+    "logoURI":"https://assets.coingecko.com/coins/images/29181/small/nxra.png?1696528139"
   }
 ]
