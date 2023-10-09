@@ -142,5 +142,13 @@
     "decimals":18,
     "name":"agEUR",
     "logoURI":"https://static.debank.com/image/matic_token/logo_url/0xe0b52e49357fd4daf2c15e02058dce6bc0057db4/950fda44a9f4598d2a7a6e9df24b7332.png"
+  },
+  {
+    "address":"0x644192291cc835A93d6330b24EA5f5FEdD0eEF9e",
+    "chainId":137,
+    "symbol":"NXRA",
+    "decimals":18,
+    "name":"AllianceBlock Nexera Token",
+    "logoURI":"https://assets.coingecko.com/coins/images/29181/small/nxra.png?1696528139"
   }
 ]
