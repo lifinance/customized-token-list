@@ -118,5 +118,21 @@
     "decimals":18,
     "name":"ANGLE_avalanche",
     "logoURI":"https://static.debank.com/image/project/logo_url/angle/306ffce483295499c5b62e264148d468.png"
+  },
+  {
+    "address":"0x644192291cc835A93d6330b24EA5f5FEdD0eEF9e",
+    "chainId":43114,
+    "symbol":"NXRA",
+    "decimals":18,
+    "name":"AllianceBlock Nexera Token",
+    "logoURI":"https://assets.coingecko.com/coins/images/29181/small/nxra.png?1696528139"
+  },
+  {
+    "address":"0xb418417374fcA27bb54169D3C777492e6Fe17Ee7",
+    "chainId":43114,
+    "symbol":"DUA",
+    "decimals":18,
+    "name":"DUA",
+    "logoURI":"https://assets.coingecko.com/coins/images/27976/small/Screenshot_2023-06-13_at_11.58.02_AM.png?1696526994"
   }
 ]
