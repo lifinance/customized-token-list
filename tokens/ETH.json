@@ -286,5 +286,13 @@
     "decimals":18,
     "name":"DUA",
     "logoURI":"https://assets.coingecko.com/coins/images/27976/small/Screenshot_2023-06-13_at_11.58.02_AM.png?1696526994"
+  },
+  {
+    "address":"0x19062190B1925b5b6689D7073fDfC8c2976EF8Cb",
+    "chainId":1,
+    "symbol":"BZZ",
+    "decimals":16,
+    "name":"Swarm",
+    "logoURI":"https://assets.coingecko.com/coins/images/16509/standard/Circle_Orange_onWhite.png?1696516071"
   }
 ]
