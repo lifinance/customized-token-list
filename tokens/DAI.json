@@ -30,5 +30,13 @@
     "decimals":18,
     "name":"agEUR",
     "logoURI":"https://static.debank.com/image/op_token/logo_url/0x9485aca5bbbe1667ad97c7fe7c4531a624c8b1ed/0b65e0ca11e9f04e2da1958dbc365114.png"
+  },
+  {
+    "address":"0xdBF3Ea6F5beE45c02255B2c26a16F300502F68da",
+    "chainId":100,
+    "symbol":"BZZ",
+    "decimals":16,
+    "name":"Swarm",
+    "logoURI":"https://assets.coingecko.com/coins/images/16509/standard/Circle_Orange_onWhite.png?1696516071"
   }
 ]
