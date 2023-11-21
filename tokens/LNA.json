@@ -6,5 +6,13 @@
        "decimals": 18,
        "name": "StargateToken",
        "logoURI": "https://static.debank.com/image/project/logo_url/stargate/3c6fbbbb1e62793ee34effb91d8769e7.png"
+    },
+    {
+       "address": "0x1be3735dd0c0eb229fb11094b6c277192349ebbf",
+       "chainId": 59144,
+       "symbol": "LUBE",
+       "decimals": 18,
+       "name": "Lube",
+       "logoURI": "https://assets.coingecko.com/coins/images/33070/standard/200x200.png?1700536826"
     }
  ]
