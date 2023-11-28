@@ -182,5 +182,13 @@
     "decimals":18,
     "name":"AllianceBlock Nexera Token",
     "logoURI":"https://assets.coingecko.com/coins/images/29181/small/nxra.png?1696528139"
+  },
+  {
+    "address":"0x0034719300501B06E10Ebb1D07ea5967301F0941",
+    "chainId":56,
+    "symbol":"xALGO",
+    "decimals":6,
+    "name":"Governance xAlgo",
+    "logoURI":"https://raw.githubusercontent.com/Folks-Finance/brand-assets/main/ASSETS/SVG/xAlgo.svg"
   }
 ]
