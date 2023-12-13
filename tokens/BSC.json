@@ -160,6 +160,14 @@
     "logoURI": "https://assets.coingecko.com/coins/images/26946/small/Wombat_Token.png?1660982422"
   },
   {
+    "name": "Agatech",
+    "address": "0xb427e47e8fDD678278d2A91EEaC014ffcDDaF029",
+    "symbol": "AGATA",
+    "decimals": 18,
+    "chainId": 56,
+    "logoURI": "https://s2.coinmarketcap.com/static/img/coins/64x64/28592.png"
+  },
+  {
     "address":"0x97B6897AAd7aBa3861c04C0e6388Fc02AF1F227f",
     "chainId":56,
     "symbol":"ANGLE",
