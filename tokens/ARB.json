@@ -238,5 +238,13 @@
     "decimals":9,
     "name":"Olympus",
     "logoURI":"https://static.debank.com/image/arb_token/logo_url/0xf0cb2dc0db5e6c66b9a70ac27b06b878da017028/7740d1be6042635426e97a08697d0ab9.png"
+  },
+  {
+    "address":"0x55380fe7A1910dFf29A47B622057ab4139DA42C5",
+    "chainId":42161,
+    "symbol":"xETH",
+    "decimals":18,
+    "name":"f(x) Protocol Leveraged ETH",
+    "logoURI":"https://assets.coingecko.com/coins/images/32165/standard/0xe063f04f280c60aeca68b38341c2eecbec703ae2.png?1696724194"
   }
 ]
