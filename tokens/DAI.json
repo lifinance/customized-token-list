@@ -24,6 +24,14 @@
     "logoURI": "https://assets.coingecko.com/coins/images/23354/small/eur.png?1643926562"
   },
   {
+    "name": "Monerium GBP emoney",
+    "address": "0x5Cb9073902F2035222B9749F8fB0c9BFe5527108",
+    "symbol": "GBPe",
+    "decimals": 18,
+    "chainId": 100,
+    "logoURI": "https://monerium.app/tokens/gbp/gbp.png"
+  },
+  {
     "address":"0x4b1E2c2762667331Bc91648052F646d1b0d35984",
     "chainId":100,
     "symbol":"agEUR",
