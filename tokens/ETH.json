@@ -294,5 +294,13 @@
     "decimals":16,
     "name":"Swarm",
     "logoURI":"https://assets.coingecko.com/coins/images/16509/standard/Circle_Orange_onWhite.png?1696516071"
+  },
+  {
+    "address":"0xe063F04f280c60aECa68b38341C2eEcBeC703ae2",
+    "chainId":1,
+    "symbol":"xETH",
+    "decimals":18,
+    "name":"f(x) Protocol Leveraged ETH",
+    "logoURI":"https://assets.coingecko.com/coins/images/32165/standard/0xe063f04f280c60aeca68b38341c2eecbec703ae2.png?1696724194"
   }
 ]
