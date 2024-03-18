@@ -248,51 +248,67 @@
     "logoURI": "https://static.debank.com/image/eth_token/logo_url/0x83e817e1574e2201a005ec0f7e700ed5606f555e/b1d3bfeae0c8d3677c5ae4f9278a610a.png"
   },
   {
-    "address":"0x31429d1856aD1377A8A0079410B297e1a9e214c2",
-    "chainId":1,
-    "symbol":"ANGLE",
-    "decimals":18,
-    "name":"ANGLE",
-    "logoURI":"https://static.debank.com/image/eth_token/logo_url/0x31429d1856ad1377a8a0079410b297e1a9e214c2/950fda44a9f4598d2a7a6e9df24b7332.png"
+    "address": "0x31429d1856aD1377A8A0079410B297e1a9e214c2",
+    "chainId": 1,
+    "symbol": "ANGLE",
+    "decimals": 18,
+    "name": "ANGLE",
+    "logoURI": "https://static.debank.com/image/eth_token/logo_url/0x31429d1856ad1377a8a0079410b297e1a9e214c2/950fda44a9f4598d2a7a6e9df24b7332.png"
   },
   {
-    "address":"0x1a7e4e63778B4f12a199C062f3eFdD288afCBce8",
-    "chainId":1,
-    "symbol":"agEUR",
-    "decimals":18,
-    "name":"agEUR",
-    "logoURI":"https://static.debank.com/image/eth_token/logo_url/0x1a7e4e63778b4f12a199c062f3efdd288afcbce8/950fda44a9f4598d2a7a6e9df24b7332.png"
+    "address": "0x1a7e4e63778B4f12a199C062f3eFdD288afCBce8",
+    "chainId": 1,
+    "symbol": "agEUR",
+    "decimals": 18,
+    "name": "agEUR",
+    "logoURI": "https://static.debank.com/image/eth_token/logo_url/0x1a7e4e63778b4f12a199c062f3efdd288afcbce8/950fda44a9f4598d2a7a6e9df24b7332.png"
   },
   {
-    "address":"0x64aa3364F17a4D01c6f1751Fd97C2BD3D7e7f1D5",
-    "chainId":1,
-    "symbol":"OHM",
-    "decimals":9,
-    "name":"Olympus",
-    "logoURI":"https://static.debank.com/image/eth_token/logo_url/0x64aa3364f17a4d01c6f1751fd97c2bd3d7e7f1d5/0ad387f86fba0c16654cfb0f720df5d6.png"
+    "address": "0x64aa3364F17a4D01c6f1751Fd97C2BD3D7e7f1D5",
+    "chainId": 1,
+    "symbol": "OHM",
+    "decimals": 9,
+    "name": "Olympus",
+    "logoURI": "https://static.debank.com/image/eth_token/logo_url/0x64aa3364f17a4d01c6f1751fd97c2bd3d7e7f1d5/0ad387f86fba0c16654cfb0f720df5d6.png"
   },
   {
-    "address":"0x644192291cc835A93d6330b24EA5f5FEdD0eEF9e",
-    "chainId":1,
-    "symbol":"NXRA",
-    "decimals":18,
-    "name":"AllianceBlock Nexera Token",
-    "logoURI":"https://assets.coingecko.com/coins/images/29181/small/nxra.png?1696528139"
+    "address": "0x644192291cc835A93d6330b24EA5f5FEdD0eEF9e",
+    "chainId": 1,
+    "symbol": "NXRA",
+    "decimals": 18,
+    "name": "AllianceBlock Nexera Token",
+    "logoURI": "https://assets.coingecko.com/coins/images/29181/small/nxra.png?1696528139"
   },
   {
-    "address":"0x6c249b6F6492864d914361308601A7aBb32E68f8",
-    "chainId":1,
-    "symbol":"DUA",
-    "decimals":18,
-    "name":"DUA",
-    "logoURI":"https://assets.coingecko.com/coins/images/27976/small/Screenshot_2023-06-13_at_11.58.02_AM.png?1696526994"
+    "address": "0x6c249b6F6492864d914361308601A7aBb32E68f8",
+    "chainId": 1,
+    "symbol": "DUA",
+    "decimals": 18,
+    "name": "DUA",
+    "logoURI": "https://assets.coingecko.com/coins/images/27976/small/Screenshot_2023-06-13_at_11.58.02_AM.png?1696526994"
   },
   {
-    "address":"0x19062190B1925b5b6689D7073fDfC8c2976EF8Cb",
-    "chainId":1,
-    "symbol":"BZZ",
-    "decimals":16,
-    "name":"Swarm",
-    "logoURI":"https://assets.coingecko.com/coins/images/16509/standard/Circle_Orange_onWhite.png?1696516071"
+    "address": "0x19062190B1925b5b6689D7073fDfC8c2976EF8Cb",
+    "chainId": 1,
+    "symbol": "BZZ",
+    "decimals": 16,
+    "name": "Swarm",
+    "logoURI": "https://assets.coingecko.com/coins/images/16509/standard/Circle_Orange_onWhite.png?1696516071"
+  },
+  {
+    "address": "0xd9a442856c234a39a81a089c06451ebaa4306a72",
+    "chainId": 1,
+    "decimals": 18,
+    "logoURI": "https://assets.coingecko.com/coins/images/35176/small/pufETH-200-200-resolution.png",
+    "name": "pufETH",
+    "symbol": "pufETH"
+  },
+  {
+    "address": "0xCd5fE23C85820F7B72D0926FC9b05b43E359b7ee",
+    "chainId": 1,
+    "decimals": 18,
+    "logoURI": "https://assets.coingecko.com/coins/images/33033/small/weETH.png",
+    "name": "Wrapped eETH",
+    "symbol": "weETH"
   }
 ]

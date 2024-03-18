@@ -1,10 +1,18 @@
 [
   {
-    "address":"0xA61BeB4A3d02decb01039e378237032B351125B4",
-    "chainId":1101,
-    "symbol":"agEUR",
-    "decimals":18,
-    "name":"agEUR",
-    "logoURI":"https://static.debank.com/image/bsc_token/logo_url/0x12f31b73d812c6bb0d735a218c086d44d5fe5f89/0b65e0ca11e9f04e2da1958dbc365114.png"
+    "address": "0xA61BeB4A3d02decb01039e378237032B351125B4",
+    "chainId": 1101,
+    "symbol": "agEUR",
+    "decimals": 18,
+    "name": "agEUR",
+    "logoURI": "https://static.debank.com/image/bsc_token/logo_url/0x12f31b73d812c6bb0d735a218c086d44d5fe5f89/0b65e0ca11e9f04e2da1958dbc365114.png"
+  },
+  {
+    "address": "0xcD68DFf4415358c35a28f96Fd5bF7083B22De1D6",
+    "chainId": 1101,
+    "decimals": 18,
+    "logoURI": "https://assets.coingecko.com/coins/images/33033/small/weETH.png",
+    "name": "Wrapped eETH",
+    "symbol": "weETH"
   }
- ]
+]
