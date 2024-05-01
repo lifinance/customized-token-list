@@ -1,39 +1,155 @@
-[{
-	"name": "Toshi Token",
-	"address": "0x8544FE9D190fD7EC52860abBf45088E81Ee24a8c",
-	"symbol": "TOSHI",
-	"decimals": 18,
-	"chainId": 8453,
-	"logoURI": "https://basescan.org/token/images/toshibase2_32.png"
-}, {
-	"name": "Horizon",
-	"address": "0x081AD949deFe648774C3B8deBe0E4F28a80716dc",
-	"symbol": "HZN",
-	"decimals": 18,
-	"chainId": 8453,
+[
+  {
+    "name": "Toshi Token",
+    "address": "0x8544FE9D190fD7EC52860abBf45088E81Ee24a8c",
+    "symbol": "TOSHI",
+    "decimals": 18,
+    "chainId": 8453,
+    "logoURI": "https://basescan.org/token/images/toshibase2_32.png"
+  },
+  {
+    "name": "Horizon",
+    "address": "0x081AD949deFe648774C3B8deBe0E4F28a80716dc",
+    "symbol": "HZN",
+    "decimals": 18,
+    "chainId": 8453,
     "logoURI": "https://s2.coinmarketcap.com/static/img/coins/64x64/9237.png"
-}, {
-	"name": "Bald",
-	"address": "0x27D2DECb4bFC9C76F0309b8E88dec3a601Fe25a8",
-	"symbol": "BALD",
-	"decimals": 18,
-	"chainId": 8453,
-	"logoURI": "https://static.debank.com/image/base_token/logo_url/0x27d2decb4bfc9c76f0309b8e88dec3a601fe25a8/4e8bf57d21f195fa7c693b8558d1965e.png"
-},
-{
-	"address": "0xF544251D25f3d243A36B07e7E7962a678f952691",
-	"chainId": 8453,
-	"symbol": "TAROT",
-	"decimals": 18,
-	"name": "Tarot",
-	"logoURI": "https://static.debank.com/image/project/logo_url/tarot/233920bfdf23b95af19a7224a0983b27.png"
- },
- {
-	"address": "0xe3b53af74a4bf62ae5511055290838050bf764df",
-	"chainId": 8453,
-	"symbol": "STG",
-	"decimals": 18,
-	"name": "StargateToken",
-	"logoURI": "https://static.debank.com/image/project/logo_url/stargate/3c6fbbbb1e62793ee34effb91d8769e7.png"
- }
+  },
+  {
+    "name": "Bald",
+    "address": "0x27D2DECb4bFC9C76F0309b8E88dec3a601Fe25a8",
+    "symbol": "BALD",
+    "decimals": 18,
+    "chainId": 8453,
+    "logoURI": "https://static.debank.com/image/base_token/logo_url/0x27d2decb4bfc9c76f0309b8e88dec3a601fe25a8/4e8bf57d21f195fa7c693b8558d1965e.png"
+  },
+  {
+    "address": "0xF544251D25f3d243A36B07e7E7962a678f952691",
+    "chainId": 8453,
+    "symbol": "TAROT",
+    "decimals": 18,
+    "name": "Tarot",
+    "logoURI": "https://static.debank.com/image/project/logo_url/tarot/233920bfdf23b95af19a7224a0983b27.png"
+  },
+  {
+    "address": "0xe3b53af74a4bf62ae5511055290838050bf764df",
+    "chainId": 8453,
+    "symbol": "STG",
+    "decimals": 18,
+    "name": "StargateToken",
+    "logoURI": "https://static.debank.com/image/project/logo_url/stargate/3c6fbbbb1e62793ee34effb91d8769e7.png"
+  },
+  {
+    "address": "0x2f85d372Bef829e866f8917378Ff20A88E7FC403",
+    "chainId": 8453,
+    "logoURI": "https://strapi.li.finance/uploads/coolcoin_b7e2f7f32f.webp",
+    "decimals": 10,
+    "name": "CoolCoin",
+    "symbol": "$COOL"
+  },
+  {
+    "address": "0x532f27101965dd16442E59d40670FaF5eBB142E4",
+    "chainId": 8453,
+    "logoURI": "https://strapi.li.finance/uploads/brett_ca2d328cc8.jpeg",
+    "decimals": 18,
+    "name": "Brett",
+    "symbol": "BRETT"
+  },
+  {
+    "address": "0x70737489DFDf1A29b7584d40500d3561bD4Fe196",
+    "chainId": 8453,
+    "logoURI": "https://strapi.li.finance/uploads/bored_70d2ad205b.webp",
+    "decimals": 18,
+    "name": "BORED",
+    "symbol": "BORED"
+  },
+  {
+    "address": "0xAC1Bd2486aAf3B5C0fc3Fd868558b082a531B2B4",
+    "chainId": 8453,
+    "logoURI": "https://strapi.li.finance/uploads/toshi_51fef7e455.webp",
+    "decimals": 18,
+    "name": "Toshi",
+    "symbol": "TOSHI"
+  },
+  {
+    "address": "0x13741C5dF9aB03E7Aa9Fb3Bf1f714551dD5A5F8a",
+    "chainId": 8453,
+    "logoURI": "https://strapi.li.finance/uploads/noggles_320fcae2c0.webp",
+    "decimals": 18,
+    "name": "Noggles",
+    "symbol": "NOGS"
+  },
+  {
+    "address": "0xFF0C532FDB8Cd566Ae169C1CB157ff2Bdc83E105",
+    "chainId": 8453,
+    "logoURI": "https://strapi.li.finance/uploads/frenpet_21607d080c.webp",
+    "decimals": 18,
+    "name": "Fren Pet",
+    "symbol": "Fren Pet"
+  },
+  {
+    "address": "0x6921B130D297cc43754afba22e5EAc0FBf8Db75b",
+    "chainId": 8453,
+    "logoURI": "https://strapi.li.finance/uploads/doginme_2c08ffbeef.png",
+    "decimals": 18,
+    "name": "doginme",
+    "symbol": "doginme"
+  },
+
+  {
+    "address": "0x4ed4E862860beD51a9570b96d89aF5E1B0Efefed",
+    "chainId": 8453,
+    "logoURI": "https://strapi.li.finance/uploads/degen_38108fbdaa.webp",
+    "decimals": 18,
+    "name": "Degen",
+    "symbol": "DEGEN"
+  },
+  {
+    "address": "0x3e05D37CFBd8caaad9E3322D35CC727AfaFF63E3",
+    "chainId": 8453,
+    "logoURI": "https://strapi.li.finance/uploads/beng_fb10df317b.webp",
+    "decimals": 18,
+    "name": "Based Peng",
+    "symbol": "BENG"
+  },
+  {
+    "address": "0xE3086852A4B125803C815a158249ae468A3254Ca",
+    "chainId": 8453,
+    "logoURI": "https://strapi.li.finance/uploads/mfercoin_logo_6e4f3a463d.webp",
+    "decimals": 18,
+    "name": "mfercoin",
+    "symbol": "$mfer"
+  },
+  {
+    "address": "0x7d9CE55D54FF3FEddb611fC63fF63ec01F26D15F",
+    "chainId": 8453,
+    "logoURI": "https://strapi.li.finance/uploads/fungi_f67f34fe47.webp",
+    "decimals": 9,
+    "name": "Fungi",
+    "symbol": "FUNGI"
+  },
+  {
+    "address": "0x85E90a5430AF45776548ADB82eE4cD9E33B08077",
+    "chainId": 8453,
+    "logoURI": "https://strapi.li.finance/uploads/dino_83f477aa75.webp",
+    "decimals": 18,
+    "name": "DINO",
+    "symbol": "DINO"
+  },
+  {
+    "address": "0x347F500323D51E9350285Daf299ddB529009e6AE",
+    "chainId": 8453,
+    "logoURI": "https://strapi.li.finance/uploads/blerf_cbc846af8d.webp",
+    "decimals": 18,
+    "name": "BLERF",
+    "symbol": "BLERF"
+  },
+  {
+    "address": "0xfEA9DcDc9E23a9068bF557AD5b186675C61d33eA",
+    "chainId": 8453,
+    "logoURI": "https://strapi.li.finance/uploads/based_shiba_inu_08cbdab0a4.webp",
+    "decimals": 18,
+    "name": "Based Shiba Inu",
+    "symbol": "BSHIB"
+  }
 ]
