@@ -151,5 +151,13 @@
     "decimals": 18,
     "name": "Based Shiba Inu",
     "symbol": "BSHIB"
+  },
+  {
+    "address": "0x59E25CC1E5a9AbDA2593debD74A5215836A10C9a",
+    "chainId": 8453,
+    "logoURI": "https://altcoinsbox.com/wp-content/uploads/2023/02/base-logo-in-blue-600x600.webp",
+    "decimals": 9,
+    "name": "BABY",
+    "symbol": "BABY"
   }
 ]
