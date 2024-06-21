@@ -262,5 +262,13 @@
     "decimals": 18,
     "name": "ArbiDoge",
     "symbol": "ADoge"
+  },
+  {
+    "address": "0x0022228a2cc5E7eF0274A7Baa600d44da5aB5776",
+    "chainId": 42161,
+    "logoURI": "https://assets.coingecko.com/coins/images/33952/standard/colored.png?1703763176",
+    "decimals": 18,
+    "name": "Staked USDA",
+    "symbol": "stUSD"
   }
 ]
