@@ -23,7 +23,7 @@
     "chainId": 137,
     "logoURI": "https://assets.coingecko.com/coins/images/17638/small/Ue3Hfh8.png?1630737936"
   },
-    {
+  {
     "name": "PlanetIX",
     "address": "0xe06bd4f5aac8d0aa337d13ec88db6defc6eaeefe",
     "symbol": "IXT",
@@ -31,7 +31,7 @@
     "chainId": 137,
     "logoURI": "https://assets.coingecko.com/coins/images/20927/small/IXT_SYMBOL_SVG_RGB_BLACK.png?1637934555"
   },
-    {
+  {
     "name": "miMATIC",
     "address": "0xa3Fa99A148fA48D14Ed51d610c367C61876997F1",
     "symbol": "miMATIC",
@@ -39,7 +39,7 @@
     "chainId": 137,
     "logoURI": "https://polygonscan.com/token/images/miMatic_32.png"
   },
-    {
+  {
     "name": "Cougar Token",
     "address": "0x047fD3B3D2366F9babe105ade4598E263d6c699c",
     "symbol": "CGS",
@@ -126,29 +126,37 @@
     "decimals": 18,
     "name": "Magic Fox",
     "logoURI": "https://static.debank.com/image/matic_token/logo_url/0x84e0a246dd437d911989e89667816a9ed97a1284/73f774924d0d80ab0a0f7a1cb0fc09c8.png"
- },
- {
+  },
+  {
     "address": "0xb092e1BF50f518b3Ebf7eD26A40015183aE36AC2",
     "chainId": 137,
     "symbol": "TAROT",
     "decimals": 18,
     "name": "Tarot",
     "logoURI": "https://static.debank.com/image/project/logo_url/tarot/233920bfdf23b95af19a7224a0983b27.png"
- },
-  {
-    "address":"0xE0B52e49357Fd4DAf2c15e02058DCE6BC0057db4",
-    "chainId":137,
-    "symbol":"agEUR",
-    "decimals":18,
-    "name":"agEUR",
-    "logoURI":"https://static.debank.com/image/matic_token/logo_url/0xe0b52e49357fd4daf2c15e02058dce6bc0057db4/950fda44a9f4598d2a7a6e9df24b7332.png"
   },
   {
-    "address":"0x644192291cc835A93d6330b24EA5f5FEdD0eEF9e",
-    "chainId":137,
-    "symbol":"NXRA",
-    "decimals":18,
-    "name":"AllianceBlock Nexera Token",
-    "logoURI":"https://assets.coingecko.com/coins/images/29181/small/nxra.png?1696528139"
+    "address": "0xE0B52e49357Fd4DAf2c15e02058DCE6BC0057db4",
+    "chainId": 137,
+    "symbol": "EURA",
+    "decimals": 18,
+    "name": "EURA (previously agEUR)",
+    "logoURI": "https://raw.githubusercontent.com/AngleProtocol/angle-token-list/main/src/assets/tokens/EURA.svg"
+  },
+  {
+    "address": "0x0000206329b97DB379d5E1Bf586BbDB969C63274",
+    "chainId": 137,
+    "symbol": "USDA",
+    "decimals": 18,
+    "name": "USDA",
+    "logoURI": "https://raw.githubusercontent.com/AngleProtocol/angle-token-list/main/src/assets/tokens/USDA.svg"
+  },
+  {
+    "address": "0x644192291cc835A93d6330b24EA5f5FEdD0eEF9e",
+    "chainId": 137,
+    "symbol": "NXRA",
+    "decimals": 18,
+    "name": "AllianceBlock Nexera Token",
+    "logoURI": "https://assets.coingecko.com/coins/images/29181/small/nxra.png?1696528139"
   }
 ]

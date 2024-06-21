@@ -151,5 +151,21 @@
     "decimals": 18,
     "name": "Based Shiba Inu",
     "symbol": "BSHIB"
+  },
+  {
+    "address": "0xA61BeB4A3d02decb01039e378237032B351125B4",
+    "chainId": 8453,
+    "symbol": "EURA",
+    "decimals": 18,
+    "name": "EURA (previously agEUR)",
+    "logoURI": "https://raw.githubusercontent.com/AngleProtocol/angle-token-list/main/src/assets/tokens/EURA.svg"
+  },
+  {
+    "address": "0x0000206329b97DB379d5E1Bf586BbDB969C63274",
+    "chainId": 8453,
+    "symbol": "USDA",
+    "decimals": 18,
+    "name": "USDA",
+    "logoURI": "https://raw.githubusercontent.com/AngleProtocol/angle-token-list/main/src/assets/tokens/USDA.svg"
   }
 ]
