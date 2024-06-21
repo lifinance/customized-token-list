@@ -272,6 +272,14 @@
     "logoURI": "https://raw.githubusercontent.com/AngleProtocol/angle-token-list/main/src/assets/tokens/USDA.svg"
   },
   {
+    "address": "0x0022228a2cc5E7eF0274A7Baa600d44da5aB5776",
+    "chainId": 1,
+    "logoURI": "https://raw.githubusercontent.com/AngleProtocol/angle-token-list/main/src/assets/tokens/stUSD.svg",
+    "decimals": 18,
+    "name": "Staked USDA",
+    "symbol": "stUSD"
+  },
+  {
     "address": "0x64aa3364F17a4D01c6f1751Fd97C2BD3D7e7f1D5",
     "chainId": 1,
     "symbol": "OHM",
