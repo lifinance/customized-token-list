@@ -158,5 +158,13 @@
     "decimals": 18,
     "name": "AllianceBlock Nexera Token",
     "logoURI": "https://assets.coingecko.com/coins/images/29181/small/nxra.png?1696528139"
+ },
+  {
+    "address":"0x3d2bD0e15829AA5C362a4144FdF4A1112fa29B5c",
+    "chainId":137,
+    "symbol":"BONSAI",
+    "decimals":18,
+    "name":"Bonsai Token",
+    "logoURI":"https://www.bonsai.meme/static/Bonsai_Token_256x256.jpg"
   }
 ]
