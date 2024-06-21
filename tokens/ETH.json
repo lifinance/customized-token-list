@@ -264,6 +264,14 @@
     "logoURI": "https://raw.githubusercontent.com/AngleProtocol/angle-token-list/main/src/assets/tokens/EURA.svg"
   },
   {
+    "address": "0x004626A008B1aCdC4c74ab51644093b155e59A23",
+    "chainId": 1,
+    "logoURI": "https://raw.githubusercontent.com/AngleProtocol/angle-token-list/main/src/assets/tokens/stEUR.svg",
+    "decimals": 18,
+    "name": "Staked EURA",
+    "symbol": "stEUR"
+  },
+  {
     "address": "0x0000206329b97DB379d5E1Bf586BbDB969C63274",
     "chainId": 1,
     "symbol": "USDA",
