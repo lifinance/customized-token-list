@@ -232,6 +232,14 @@
     "logoURI": "https://raw.githubusercontent.com/AngleProtocol/angle-token-list/main/src/assets/tokens/USDA.svg"
   },
   {
+    "address": "0x004626A008B1aCdC4c74ab51644093b155e59A23",
+    "chainId": 42161,
+    "logoURI": "https://raw.githubusercontent.com/AngleProtocol/angle-token-list/main/src/assets/tokens/stEUR.svg",
+    "decimals": 18,
+    "name": "Staked EURA",
+    "symbol": "stEUR"
+  },
+  {
     "address": "0x0022228a2cc5E7eF0274A7Baa600d44da5aB5776",
     "chainId": 42161,
     "logoURI": "https://raw.githubusercontent.com/AngleProtocol/angle-token-list/main/src/assets/tokens/stUSD.svg",
@@ -278,13 +286,5 @@
     "decimals": 18,
     "name": "ArbiDoge",
     "symbol": "ADoge"
-  },
-  {
-    "address": "0x0022228a2cc5E7eF0274A7Baa600d44da5aB5776",
-    "chainId": 42161,
-    "logoURI": "https://assets.coingecko.com/coins/images/33952/standard/colored.png?1703763176",
-    "decimals": 18,
-    "name": "Staked USDA",
-    "symbol": "stUSD"
   }
 ]

@@ -144,6 +144,14 @@
     "logoURI": "https://raw.githubusercontent.com/AngleProtocol/angle-token-list/main/src/assets/tokens/EURA.svg"
   },
   {
+    "address": "0x004626A008B1aCdC4c74ab51644093b155e59A23",
+    "chainId": 137,
+    "logoURI": "https://raw.githubusercontent.com/AngleProtocol/angle-token-list/main/src/assets/tokens/stEUR.svg",
+    "decimals": 18,
+    "name": "Staked EURA",
+    "symbol": "stEUR"
+  },
+  {
     "address": "0x0000206329b97DB379d5E1Bf586BbDB969C63274",
     "chainId": 137,
     "symbol": "USDA",
@@ -152,19 +160,27 @@
     "logoURI": "https://raw.githubusercontent.com/AngleProtocol/angle-token-list/main/src/assets/tokens/USDA.svg"
   },
   {
+    "address": "0x0022228a2cc5E7eF0274A7Baa600d44da5aB5776",
+    "chainId": 137,
+    "logoURI": "https://raw.githubusercontent.com/AngleProtocol/angle-token-list/main/src/assets/tokens/stUSD.svg",
+    "decimals": 18,
+    "name": "Staked USDA",
+    "symbol": "stUSD"
+  },
+  {
     "address": "0x644192291cc835A93d6330b24EA5f5FEdD0eEF9e",
     "chainId": 137,
     "symbol": "NXRA",
     "decimals": 18,
     "name": "AllianceBlock Nexera Token",
     "logoURI": "https://assets.coingecko.com/coins/images/29181/small/nxra.png?1696528139"
- },
+  },
   {
-    "address":"0x3d2bD0e15829AA5C362a4144FdF4A1112fa29B5c",
-    "chainId":137,
-    "symbol":"BONSAI",
-    "decimals":18,
-    "name":"Bonsai Token",
-    "logoURI":"https://www.bonsai.meme/static/Bonsai_Token_256x256.jpg"
+    "address": "0x3d2bD0e15829AA5C362a4144FdF4A1112fa29B5c",
+    "chainId": 137,
+    "symbol": "BONSAI",
+    "decimals": 18,
+    "name": "Bonsai Token",
+    "logoURI": "https://www.bonsai.meme/static/Bonsai_Token_256x256.jpg"
   }
 ]
