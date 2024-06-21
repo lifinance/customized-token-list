@@ -169,6 +169,14 @@
     "logoURI": "https://raw.githubusercontent.com/AngleProtocol/angle-token-list/main/src/assets/tokens/USDA.svg"
   },
   {
+    "address": "0x0022228a2cc5E7eF0274A7Baa600d44da5aB5776",
+    "chainId": 8453,
+    "logoURI": "https://raw.githubusercontent.com/AngleProtocol/angle-token-list/main/src/assets/tokens/stUSD.svg",
+    "decimals": 18,
+    "name": "Staked USDA",
+    "symbol": "stUSD"
+  },
+  {
     "address": "0x0e0c9756a3290cD782CF4aB73ac24D25291c9564",
     "chainId": 8453,
     "logoURI": "https://assets.smold.app/api/token/8453/0x0e0c9756a3290cd782cf4ab73ac24d25291c9564/logo.svg",
