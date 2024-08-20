@@ -13,6 +13,8 @@ And if we can validate the token:
 - we can find usd prices via debank or zerion APIs
 - the token is not a spam/fee taking token
 
+You can also add scam tokens to /denyTokens/network.json and we will block this token in our system.
+
 ## How to add your token
 
 To add your token find the file representing the chain your token is in in the **tokens** folder. 
@@ -27,6 +29,21 @@ Add your token as the last element in the list (don't forget the `,` after the p
     "decimals": 18,
     "name": "nice Name",
     "symbol": "SYMBOL"
+  }
+]
+```
+
+## How to block a token
+
+To add a scam token find the file representing the chain the token is in in the **denyTokens** folder. 
+
+Add the token as the last element in the list (don't forget the `,` after the previous token):
+```json
+  },  <== Add the comma
+  {
+    "address": "0xde3a24028580884448a5397872046a019649b084",
+    "chainId": 43114,
+    "reason": "Deprecated USDT token on AVA", <= add an optional reason why the token should be blocked
   }
 ]
 ```
