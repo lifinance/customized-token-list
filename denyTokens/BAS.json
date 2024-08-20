@@ -1,0 +1,12 @@
+[
+  {
+    "chainId": 8453,
+    "address": "0x4200000000000000000000000000000000000042",
+    "reason": "proxy not a token"
+  },
+  {
+    "address": "0x0e7fd21d78b9cd54998d6496483dc24085c9a871",
+    "chainId": 8453,
+    "reason": "AlfaFrens scam on on Base"
+  }
+]
