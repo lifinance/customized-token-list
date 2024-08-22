@@ -342,5 +342,13 @@
     "decimals": 18,
     "name": "Pepe",
     "symbol": "PEPE"
+  },
+  {
+    "address": "0xeA4170A365952c666A9f34950771E51841732de9",
+    "chainId": 1,
+    "logoURI": "https://assets.coingecko.com/coins/images/39298/standard/filter_ai_token_logo.png",
+    "decimals": 18,
+    "name": "Filter AI",
+    "symbol": "FILTER"
   }
 ]
