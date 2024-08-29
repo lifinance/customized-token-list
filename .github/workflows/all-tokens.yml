@@ -1,0 +1,41 @@
+name: Add all.json containing all tokens on PR Merge
+
+on:
+  push:
+  pull_request:
+    types: [closed]
+
+jobs:
+  add-file:
+    # if: github.event.pull_request.merged == true
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Set up Node.js
+        uses: actions/setup-node@v1
+        with:
+          node-version: 18
+
+      - name: Install peerdeps
+        run: npm install -g install-peerdeps ts-node yarn
+
+      - name: Install dependencies
+        run: yarn install
+
+      - name: Install peer dependencies
+        run: install-peerdeps -Y @lifi/sdk 
+
+      - name: Run generateAll.ts script
+        run: ts-node generateAll.ts
+
+      - name: Commit and push changes
+        run: |
+          git config --global user.name "github-actions[bot]"
+          git config --global user.email "github-actions[bot]@users.noreply.github.com"
+          git add -f tokens/all.json
+          git commit -m "Update tokens/all.json on PR merge"
+          git push
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
