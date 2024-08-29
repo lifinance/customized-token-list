@@ -342,5 +342,13 @@
     "decimals": 18,
     "name": "Pepe",
     "symbol": "PEPE"
+  },
+  {
+    "address": "0x385d65ed9241e415cfc689c3e0bcf5ab2f0505c2",
+    "chainId": 1,
+    "logoURI": "https://s2.coinmarketcap.com/static/img/coins/64x64/31642.png",
+    "decimals": 18,
+    "name": "MollarsToken",
+    "symbol": "MOLLARS"
   }
 ]
