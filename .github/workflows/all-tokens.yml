@@ -1,7 +1,9 @@
 name: Add all.json containing all tokens on PR Merge
 
+permissions:
+  contents: write
+
 on:
-  push:
   pull_request:
     types: [closed]
 
