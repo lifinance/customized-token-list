@@ -1,0 +1,16 @@
+[
+  {
+    "chainId": 43114,
+    "address": "0x2d5563da42b06fbbf9c67b7dc073cf6a7842239e",
+    "reason": "Unknown token (NON EXISTING ON NETWORK)"
+  },
+  {
+    "chainId": 43114,
+    "address": "0xde3a24028580884448a5397872046a019649b084",
+    "reason": "Deprecated USDT token on AVA"
+  },
+  {
+    "chainId": 43114,
+    "address": "0xf9d922c055a3f1759299467dafafdf43be844f7a"
+  }
+]

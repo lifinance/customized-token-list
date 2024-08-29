@@ -106,10 +106,18 @@
   {
     "address": "0xAEC8318a9a59bAEb39861d10ff6C7f7bf1F96C57",
     "chainId": 43114,
-    "symbol": "agEUR",
+    "symbol": "EURA",
     "decimals": 18,
-    "name": "agEUR",
-    "logoURI": "https://static.debank.com/image/avax_token/logo_url/0xaec8318a9a59baeb39861d10ff6c7f7bf1f96c57/0b65e0ca11e9f04e2da1958dbc365114.png"
+    "name": "EURA (previously agEUR)",
+    "logoURI": "https://raw.githubusercontent.com/AngleProtocol/angle-token-list/main/src/assets/tokens/EURA.svg"
+  },
+  {
+    "address": "0x0000206329b97DB379d5E1Bf586BbDB969C63274",
+    "chainId": 43114,
+    "symbol": "USDA",
+    "decimals": 18,
+    "name": "USDA",
+    "logoURI": "https://raw.githubusercontent.com/AngleProtocol/angle-token-list/main/src/assets/tokens/USDA.svg"
   },
   {
     "address": "0x5EE94c25e3d5113CD055537340B9d19CFA4D9217",

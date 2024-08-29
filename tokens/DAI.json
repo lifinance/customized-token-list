@@ -32,19 +32,43 @@
     "logoURI": "https://monerium.app/tokens/gbp/gbp.png"
   },
   {
-    "address":"0x4b1E2c2762667331Bc91648052F646d1b0d35984",
-    "chainId":100,
-    "symbol":"agEUR",
-    "decimals":18,
-    "name":"agEUR",
-    "logoURI":"https://static.debank.com/image/op_token/logo_url/0x9485aca5bbbe1667ad97c7fe7c4531a624c8b1ed/0b65e0ca11e9f04e2da1958dbc365114.png"
+    "address": "0x4b1E2c2762667331Bc91648052F646d1b0d35984",
+    "chainId": 100,
+    "symbol": "EURA",
+    "decimals": 18,
+    "name": "EURA (previously agEUR)",
+    "logoURI": "https://raw.githubusercontent.com/AngleProtocol/angle-token-list/main/src/assets/tokens/EURA.svg"
   },
   {
-    "address":"0xdBF3Ea6F5beE45c02255B2c26a16F300502F68da",
-    "chainId":100,
-    "symbol":"BZZ",
-    "decimals":16,
-    "name":"Swarm",
-    "logoURI":"https://assets.coingecko.com/coins/images/16509/standard/Circle_Orange_onWhite.png?1696516071"
+    "address": "0x004626A008B1aCdC4c74ab51644093b155e59A23",
+    "chainId": 100,
+    "logoURI": "https://raw.githubusercontent.com/AngleProtocol/angle-token-list/main/src/assets/tokens/stEUR.svg",
+    "decimals": 18,
+    "name": "Staked EURA",
+    "symbol": "stEUR"
+  },
+  {
+    "address": "0x0000206329b97DB379d5E1Bf586BbDB969C63274",
+    "chainId": 100,
+    "symbol": "USDA",
+    "decimals": 18,
+    "name": "USDA",
+    "logoURI": "https://raw.githubusercontent.com/AngleProtocol/angle-token-list/main/src/assets/tokens/USDA.svg"
+  },
+  {
+    "address": "0x0022228a2cc5E7eF0274A7Baa600d44da5aB5776",
+    "chainId": 100,
+    "logoURI": "https://raw.githubusercontent.com/AngleProtocol/angle-token-list/main/src/assets/tokens/stUSD.svg",
+    "decimals": 18,
+    "name": "Staked USDA",
+    "symbol": "stUSD"
+  },
+  {
+    "address": "0xdBF3Ea6F5beE45c02255B2c26a16F300502F68da",
+    "chainId": 100,
+    "symbol": "BZZ",
+    "decimals": 16,
+    "name": "Swarm",
+    "logoURI": "https://assets.coingecko.com/coins/images/16509/standard/Circle_Orange_onWhite.png?1696516071"
   }
 ]

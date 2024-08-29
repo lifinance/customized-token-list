@@ -1,0 +1,18 @@
+[
+  {
+    "chainId": 42220,
+    "address": "0xf2283840ce37dae0a06b40a9a80603977f36fa3f"
+  },
+  {
+    "address": "0xef4229c8c3250c675f21bcefa42f58efbff6002a",
+    "chainId": 42220
+  },
+  {
+    "address": "0x88eec49252c8cbc039dcdb394c0c2ba2f1637ea0",
+    "chainId": 42220
+  },
+  {
+    "address": "0x0000000000000000000000000000000000000000",
+    "chainId": 42220
+  }
+]
