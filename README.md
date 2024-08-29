@@ -4,22 +4,23 @@ LI.FI supports any token passed to the API as long as we can validate it and fin
 
 The API exposes a list of tokens that UIs can use as default to give their users tokens to choose from. e.g. our widget uses that list: https://li.quest/v1/tokens
 
-We automatically include tokens in that token list if they are listed in one of the token list we support:
-- lists of assets the bridges suppoert
-- offical lists of exchanges we support
-- in own custom token list (this repository)
+We automatically include tokens in that token list if they are listed in one of the token lists we support:
+- lists of assets the bridges support
+- official lists of exchanges we support
+- our own custom token list (this repository)
 
 And if we can validate the token:
-- we can find usd prices via debank or zerion APIs
-- the token is not a spam/fee taking token
+- we can find USD prices via Debank or Zerion APIs
+- the token is not a spam/fee-taking token
 
 You can also add scam tokens to /denyTokens/network.json and we will block this token in our system.
 
 ## How to add your token
 
-To add your token find the file representing the chain your token is in in the **tokens** folder. 
+To add your token find the file representing the chain your token is in in the **tokens** folder.
 
 Add your token as the last element in the list (don't forget the `,` after the previous token):
+
 ```json
   },  <== Add the comma
   {
@@ -27,10 +28,11 @@ Add your token as the last element in the list (don't forget the `,` after the p
     "chainId": 42161,
     "logoURI": "https://yoursite.com/token.svg", <= permanent link to an image of your token
     "decimals": 18,
-    "name": "nice Name",
+    "name": "Nice Name",
     "symbol": "SYMBOL"
   }
 ]
+
 ```
 
 ## How to block a token
@@ -38,6 +40,7 @@ Add your token as the last element in the list (don't forget the `,` after the p
 To add a scam token find the file representing the chain the token is in in the **denyTokens** folder. 
 
 Add the token as the last element in the list (don't forget the `,` after the previous token):
+
 ```json
   },  <== Add the comma
   {
@@ -48,4 +51,4 @@ Add the token as the last element in the list (don't forget the `,` after the pr
 ]
 ```
 
-Create a PR with the change describing why we should add that token. Link your project, coingecko and profiles so we can validate the token.
+Create a PR with the change describing why we should add that token. Link your project, CoinGecko and profiles so we can validate the token.
