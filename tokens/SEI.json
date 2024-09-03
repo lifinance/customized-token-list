@@ -4,7 +4,7 @@
     "chainId": 1329,
     "symbol": "wETH",
     "decimals": 18,
-    "name": "Wrapped ETH",
+    "name": "Wrapped Ether",
     "logoURI": "https://static.debank.com/image/op_token/logo_url/0x4200000000000000000000000000000000000006/61844453e63cf81301f845d7864236f6.png"
   }
 ]
