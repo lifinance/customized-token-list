@@ -191,5 +191,21 @@
     "decimals": 18,
     "name": "Anime",
     "symbol": "ANIME"
-  }
+  },
+  {
+    "address": "0x04D5ddf5f3a8939889F11E97f8c4BB48317F1938",
+    "chainId": 8453,
+    "logoURI": "https://anzen.finance/assets/tokens/usdz-token-128.png",
+    "decimals": 18,
+    "name": "Anzen USDz",
+    "symbol": "USDz"
+  },
+  {
+    "address": "0xe31eE12bDFDD0573D634124611e85338e2cBF0cF",
+    "chainId": 8453,
+    "logoURI": "https://anzen.finance/assets/tokens/susdz-token-128.png",
+    "decimals": 18,
+    "name": "Anzen Staked USDz",
+    "symbol": "sUSDz"
+  }  
 ]
