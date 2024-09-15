@@ -346,14 +346,6 @@
   {
     "address": "0xa469b7ee9ee773642b3e93e842e5d9b5baa10067",
     "chainId": 1,
-    "logoURI": "https://anzen.finance/assets/usdz-coin-256.png",
-    "decimals": 18,
-    "name": "Anzen USDz",
-    "symbol": "USDz"
-  },
-  {
-    "address": "0xa469b7ee9ee773642b3e93e842e5d9b5baa10067",
-    "chainId": 1,
     "logoURI": "https://anzen.finance/assets/tokens/usdz-token-128.png",
     "decimals": 18,
     "name": "Anzen USDz",
