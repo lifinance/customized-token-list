@@ -274,7 +274,7 @@
   {
     "address": "0xF9CA0EC182a94f6231Df9b14BD147eF7Fb9FA17C",
     "chainId": 42161,
-    "logoURI": "https://strapi.li.finance/uploads/boner_0d3e84c172.webp",
+    "logoURI": "https://strapi.jumper.exchange/uploads/boner_0d3e84c172.webp",
     "decimals": 18,
     "name": "Boner",
     "symbol": "BONER"
@@ -282,9 +282,17 @@
   {
     "address": "0x155f0DD04424939368972f4e1838687d6a831151",
     "chainId": 42161,
-    "logoURI": "https://strapi.li.finance/uploads/adoge_364ca65f7d.webp",
+    "logoURI": "https://strapi.jumper.exchange/uploads/adoge_364ca65f7d.webp",
     "decimals": 18,
     "name": "ArbiDoge",
     "symbol": "ADoge"
+  },
+  {
+    "address": "0x3212dc0F8c834e4DE893532d27CC9B6001684DB0",
+    "chainId": 42161,
+    "logoURI": "https://strapi.jumper.exchange/uploads/pear_b24b608ea0.png",
+    "decimals": 18,
+    "name": "Pear",
+    "symbol": "PEAR"
   }
 ]
