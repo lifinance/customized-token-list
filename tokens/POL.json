@@ -182,5 +182,13 @@
     "decimals": 18,
     "name": "Bonsai Token",
     "logoURI": "https://www.bonsai.meme/static/Bonsai_Token_256x256.jpg"
+  },
+  {
+    "address": "0x0D9447E16072b636b4a1E8f2b8C644e58F3eaA6A",
+    "chainId": 137,
+    "symbol": "UAHT",
+    "decimals": 2,
+    "name": "uaht.io",
+    "logoURI": "https://uaht.io/icon.png"
   }
 ]
