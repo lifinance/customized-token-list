@@ -343,12 +343,20 @@
     "name": "Pepe",
     "symbol": "PEPE"
   },
-    {
+  {
     "address": "0x419D0d8BdD9aF5e606Ae2232ed285Aff190E711b",
     "chainId": 1,
     "logoURI": "https://static.debank.com/image/eth_token/logo_url/0x419d0d8bdd9af5e606ae2232ed285aff190e711b/17e38a53283964d43bba3be951edcb26.png",
     "decimals": 18,
     "name": "FunFair",
     "symbol": "FUN"
+  },
+  {
+    "address": "0xe471f93c2be15b64e9ec63bbf485446cb934e8c4",
+    "chainId": 1,
+    "logoURI": "https://static.debank.com/image/eth_token/logo_url/0xa735a3af76cc30791c61c10d585833829d36cbe0/574009b28ce2f77459a084c68d347564.png",
+    "decimals": 18,
+    "name": "Image Generation AI",
+    "symbol": "imgnAI"
   }
 ]
