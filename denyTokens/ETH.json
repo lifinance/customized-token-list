@@ -282,5 +282,10 @@
   {
     "address": "0x5a3e6a77ba2f983ec0d371ea3b475f8bc0811ad5",
     "chainId": 1
+  },
+  {
+    "address": "0xd69f306549e9d96f183b1aeca30b8f4353c2ecc3",
+    "chainId": 1,
+    "reason": "uint96 approvals do not allow max approval"
   }
 ]
