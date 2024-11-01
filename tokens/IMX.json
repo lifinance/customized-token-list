@@ -38,5 +38,21 @@
     "symbol": "NFTL",
     "decimals": 18,
     "logoURI": "https://niftyleague.com/img/logo/NFTL.png"
+  },
+  {
+    "chainId": "13371",
+    "address": "0x699797abcdc2e20165fE4bAC5efbAa652490E6E2",
+    "name": "Vendetta",
+    "symbol": "VDT",
+    "decimals": 18,
+    "logoURI": "https://assets.coingecko.com/coins/images/35185/large/logo_200_blk.png"
+  },
+  {
+    "chainId": "13371",
+    "address": "0x9f6884b94c36cb32519440F0497E12a8F0dE7130",
+    "name": "MEE Governance Token",
+    "symbol": "MEE",
+    "decimals": 18,
+    "logoURI": "https://assets.coingecko.com/coins/images/27588/standard/MEE_200x200.png"
   }
 ]
