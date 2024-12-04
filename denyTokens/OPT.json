@@ -2,5 +2,9 @@
   {
   "address": "0x346e03f8cce9fe01dcb3d0da3e9d00dc2c0e08f0",
   "chainId": 10
+  },
+  {
+  "address": "0xf6B4185FCf8aF291c0E3927fbEab7046b4f6A8CA",  // fake USDT token
+  "chainId": 10
   }
 ]
