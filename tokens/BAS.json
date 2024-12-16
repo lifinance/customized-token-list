@@ -1,5 +1,13 @@
 [
   {
+    "name": "The Innovation Game",
+    "address": "0x0C03Ce270B4826Ec62e7DD007f0B716068639F7B",
+    "symbol": "TIG",
+    "decimals": 18,
+    "chainId": 8453,
+    "logoURI": "https://assets.coingecko.com/coins/images/50669/standard/TIG_Logo_200x200.png"
+  },
+  {
     "name": "Toshi Token",
     "address": "0x8544FE9D190fD7EC52860abBf45088E81Ee24a8c",
     "symbol": "TOSHI",
