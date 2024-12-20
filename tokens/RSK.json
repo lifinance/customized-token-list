@@ -1,0 +1,10 @@
+[
+  {
+    "name": "RIF",
+    "address": "0x2acc95758f8b5f583470ba265eb685a8f45fc9d5",
+    "symbol": "RIF",
+    "decimals": 18,
+    "chainId": 30,
+    "logoURI": "https://assets.coingecko.com/coins/images/7460/small/8befc44a46c247e8a3f7fc8abba586b1_%283%29.png"
+  }
+]
