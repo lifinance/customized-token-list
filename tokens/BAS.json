@@ -207,5 +207,13 @@
     "decimals": 18,
     "name": "Image Generation AI",
     "symbol": "imgnAI"
+  },
+    {
+    "address": "0xe656c7067aeba98f2671e92b3f3611a01dd87bc3",
+    "chainId": 8453,
+    "logoURI": "https://496476276-files.gitbook.io/~/files/v0/b/gitbook-x-prod.appspot.com/o/spaces%2F8h7qQqQqo2Jc9kccJQTQ%2Fuploads%2FOPzxkmJQPhIJVtKZqkWb%2FANZ%20symbol%403x.svg?alt=media&token=19b3f825-029f-4bfb-bea8-96d8a2ca2e46",
+    "decimals": 18,
+    "name": "Anzen Finance",
+    "symbol": "ANZ"
   }
 ]
