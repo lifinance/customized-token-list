@@ -6,5 +6,13 @@
        "decimals":18,
        "name":"Tarot",
        "logoURI":"https://static.debank.com/image/op_token/logo_url/0x375488f097176507e39b9653b88fdc52cde736bf/279c43a0188f1a56de7921e454091a52.png"
+    },
+    {
+       "address":"0x5165ec33b491d7b67260B3143f96Bb4aC4736398",
+       "chainId":324,
+       "symbol":"LONG",
+       "decimals":18,
+       "name":"Long",
+       "logoURI":"https://static.debank.com/image/era_token/logo_url/0x5165ec33b491d7b67260b3143f96bb4ac4736398/3e61868b9b13b95a7e6809647050f474.png"
     }
  ]
