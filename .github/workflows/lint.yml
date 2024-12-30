@@ -11,8 +11,5 @@ jobs:
 
       - uses: ./.github/actions/install
 
-      - name: Run lint
-        uses: wearerequired/lint-action@v1
-        with:
-          eslint: true
-          eslint_extensions: json
+      - name: Lint
+        run: pnpm lint

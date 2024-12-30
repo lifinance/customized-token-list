@@ -3,7 +3,7 @@
   "version": "0.0.1",
   "description": "Custom token list for li.finance",
   "scripts": {
-    "eslint": "eslint .",
+    "lint": "eslint .",
     "test": "jest"
   },
   "repository": {
