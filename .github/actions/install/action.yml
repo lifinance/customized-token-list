@@ -1,21 +1,38 @@
-name: Install pnpm
+name: 'Install cached modules'
+description: 'Run pnpm install with cached modules'
 
-jobs:
-  build:
-    runs-on: ubuntu-latest
-    strategy:
-      matrix:
-        node-version: [20]
-    steps:
-    - uses: actions/checkout@v4
-    - name: Install pnpm
-      uses: pnpm/action-setup@v4
-      with:
-        version: 8
-    - name: Use Node.js ${{ matrix.node-version }}
+runs:
+  using: 'composite'
+  steps:
+    - name: Setup Node.js
       uses: actions/setup-node@v4
       with:
-        node-version: ${{ matrix.node-version }}
-        cache: 'pnpm'
+        node-version: lts/*
+
+    - name: Fix URLs in pnpm-lock.yaml
+      shell: bash
+      run: sed -i 's|git/github\.com+\(.*\)|github.com/\1|g' pnpm-lock.yaml
+
+    - name: Install pnpm
+      uses: pnpm/action-setup@v4
+      id: pnpm-install
+      with:
+        run_install: false
+
+    - name: Get pnpm store directory
+      id: pnpm-cache
+      shell: bash
+      run: |
+        echo "STORE_PATH=$(pnpm store path)" >> $GITHUB_OUTPUT
+
+    - name: Setup pnpm cache
+      uses: actions/cache@v3
+      with:
+        path: ${{ steps.pnpm-cache.outputs.STORE_PATH }}
+        key: pnpm-store-${{ hashFiles('**/pnpm-lock.yaml') }}
+        restore-keys: |
+          pnpm-store-
+
     - name: Install dependencies
-      run: pnpm install
+      shell: bash
+      run: pnpm install --frozen-lockfile
