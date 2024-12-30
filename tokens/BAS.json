@@ -1,5 +1,13 @@
 [
   {
+    "name": "The Innovation Game",
+    "address": "0x0C03Ce270B4826Ec62e7DD007f0B716068639F7B",
+    "symbol": "TIG",
+    "decimals": 18,
+    "chainId": 8453,
+    "logoURI": "https://assets.coingecko.com/coins/images/50669/standard/TIG_Logo_200x200.png"
+  },
+  {
     "name": "Toshi Token",
     "address": "0x8544FE9D190fD7EC52860abBf45088E81Ee24a8c",
     "symbol": "TOSHI",
@@ -191,5 +199,21 @@
     "decimals": 18,
     "name": "Anime",
     "symbol": "ANIME"
+  }, 
+  {
+    "address": "0x18e692c03de43972fe81058f322fa542ae1a5e2c",
+    "chainId": 8453,
+    "logoURI": "https://static.debank.com/image/eth_token/logo_url/0xa735a3af76cc30791c61c10d585833829d36cbe0/574009b28ce2f77459a084c68d347564.png",
+    "decimals": 18,
+    "name": "Image Generation AI",
+    "symbol": "imgnAI"
+  },
+    {
+    "address": "0xe656c7067aeba98f2671e92b3f3611a01dd87bc3",
+    "chainId": 8453,
+    "logoURI": "https://anzen.finance/anz-token.svg",
+    "decimals": 18,
+    "name": "Anzen Finance",
+    "symbol": "ANZ"
   }
 ]
