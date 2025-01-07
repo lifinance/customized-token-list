@@ -11,9 +11,6 @@
       "type": "string"
     }
   },
-  "required": [
-    "address",
-    "chainId"
-  ],
+  "required": ["address", "chainId"],
   "additionalProperties": false
 }
