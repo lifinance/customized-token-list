@@ -20,13 +20,6 @@
       "type": "string"
     }
   },
-  "required": [
-    "name",
-    "address",
-    "symbol",
-    "decimals",
-    "chainId",
-    "logoURI"
-  ],
+  "required": ["name", "address", "symbol", "decimals", "chainId", "logoURI"],
   "additionalProperties": false
 }
