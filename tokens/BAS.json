@@ -222,5 +222,13 @@
     "decimals": 18,
     "name": "Anzen Finance",
     "symbol": "ANZ"
+  },
+  {
+    "address": "0x3E64cD8Fd4d2FAe3D7f4710817885B0941838d0B",
+    "chainId": 8453,
+    "logoURI": "https://dd.dexscreener.com/ds-data/tokens/base/0x3e64cd8fd4d2fae3d7f4710817885b0941838d0b.png",
+    "decimals": 18,
+    "name": "3 Beras Capital",
+    "symbol": "3BC"
   }
 ]
