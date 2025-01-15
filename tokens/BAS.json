@@ -230,5 +230,13 @@
     "decimals": 18,
     "name": "3 Beras Capital",
     "symbol": "3BC"
+  },
+  {
+    "address": "0x9d0E8f5b25384C7310CB8C6aE32C8fbeb645d083",
+    "chainId": 8453,
+    "logoURI": "https://coin-images.coingecko.com/coins/images/52889/small/Token_Logo.png?1734601695",
+    "decimals": 18,
+    "name": "Derive",
+    "symbol": "DRV"
   }
 ]
