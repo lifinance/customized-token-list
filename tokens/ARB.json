@@ -294,5 +294,13 @@
     "decimals": 18,
     "name": "Pear",
     "symbol": "PEAR"
+  },
+  {
+    "address": "0x77b7787a09818502305C95d68A2571F090abb135",
+    "chainId": 42161,
+    "logoURI": "https://coin-images.coingecko.com/coins/images/52889/small/Token_Logo.png?1734601695",
+    "decimals": 18,
+    "name": "Derive",
+    "symbol": "DRV"
   }
 ]

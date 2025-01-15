@@ -110,5 +110,13 @@
     "logoURI": "https://assets.coingecko.com/coins/images/33033/small/weETH.png",
     "name": "Wrapped eETH",
     "symbol": "weETH"
+  },
+  {
+    "address": "0x33800De7E817A70A694F31476313A7c572BBa100",
+    "chainId": 10,
+    "logoURI": "https://coin-images.coingecko.com/coins/images/52889/small/Token_Logo.png?1734601695",
+    "decimals": 18,
+    "name": "Derive",
+    "symbol": "DRV"
   }
 ]

@@ -358,5 +358,13 @@
     "decimals": 18,
     "name": "Image Generation AI",
     "symbol": "imgnAI"
+  },
+  {
+    "address": "0xB1D1eae60EEA9525032a6DCb4c1CE336a1dE71BE",
+    "chainId": 1,
+    "logoURI": "https://coin-images.coingecko.com/coins/images/52889/small/Token_Logo.png?1734601695",
+    "decimals": 18,
+    "name": "Derive",
+    "symbol": "DRV"
   }
 ]
