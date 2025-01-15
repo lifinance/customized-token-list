@@ -206,7 +206,7 @@
     "decimals": 18,
     "name": "Anime",
     "symbol": "ANIME"
-  }, 
+  },
   {
     "address": "0x18e692c03de43972fe81058f322fa542ae1a5e2c",
     "chainId": 8453,
@@ -238,5 +238,21 @@
     "decimals": 18,
     "name": "Derive",
     "symbol": "DRV"
+  },
+  {
+    "name": "mBASIS",
+    "address": "0x1C2757c1FeF1038428b5bEF062495ce94BBe92b2",
+    "symbol": "mBASIS",
+    "decimals": 18,
+    "chainId": 1,
+    "logoURI": "https://assets.coingecko.com/coins/images/50593/standard/mBASIS_logo.png?1728444389"
+  },
+  {
+    "name": "mTBILL",
+    "address": "0xDD629E5241CbC5919847783e6C96B2De4754e438",
+    "symbol": "mTBILL",
+    "decimals": 18,
+    "chainId": 1,
+    "logoURI": "https://assets.coingecko.com/coins/images/37839/standard/mTBILL_token.png?1728417279"
   }
 ]
