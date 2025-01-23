@@ -366,5 +366,29 @@
     "decimals": 18,
     "name": "Derive",
     "symbol": "DRV"
+  },
+  {
+    "name": "mBASIS",
+    "address": "0x2a8c22E3b10036f3AEF5875d04f8441d4188b656",
+    "symbol": "mBASIS",
+    "decimals": 18,
+    "chainId": 1,
+    "logoURI": "https://assets.coingecko.com/coins/images/50593/standard/mBASIS_logo.png?1728444389"
+  },
+  {
+    "name": "mTBILL",
+    "address": "0xdd629e5241cbc5919847783e6c96b2de4754e438",
+    "symbol": "mTBILL",
+    "decimals": 18,
+    "chainId": 1,
+    "logoURI": "https://assets.coingecko.com/coins/images/37839/standard/mTBILL_token.png?1728417279"
+  },
+  {
+    "name": "mBTC",
+    "address": "0x007115416AB6c266329a03B09a8aa39aC2eF7d9d",
+    "symbol": "mBTC",
+    "decimals": 18,
+    "chainId": 1,
+    "logoURI": "https://assets.coingecko.com/coins/images/51055/standard/mbtc.png?1729875716"
   }
 ]
