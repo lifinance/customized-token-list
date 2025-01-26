@@ -1,5 +1,13 @@
 [
   {
+    "name": "Backed CSPX S&P 500",
+    "address": "0xC3cE78B037DDA1B966D31EC7979d3f3a38571A8E",
+    "symbol": "bCSPX",
+    "decimals": 18,
+    "chainId": 8453,
+    "logoURI": "https://assets.coingecko.com/coins/images/31891/standard/b-CSPX-200x200.png"
+  },
+  {
     "name": "The Innovation Game",
     "address": "0x0C03Ce270B4826Ec62e7DD007f0B716068639F7B",
     "symbol": "TIG",
