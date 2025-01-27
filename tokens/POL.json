@@ -1,5 +1,13 @@
 [
   {
+    "name": "Backed CSPX S&P 500",
+    "address": "0x1e2C4fb7eDE391d116E6B41cD0608260e8801D59",
+    "symbol": "bCSPX",
+    "decimals": 18,
+    "chainId": 137,
+    "logoURI": "https://assets.coingecko.com/coins/images/31891/standard/b-CSPX-200x200.png"
+  },
+  {
     "name": "Minerva Wallet SuperToken",
     "address": "0xc0b2983a17573660053beeed6fdb1053107cf387",
     "symbol": "MIVA",
