@@ -190,5 +190,13 @@
     "decimals": 18,
     "name": "Bonsai Token",
     "logoURI": "https://www.bonsai.meme/static/Bonsai_Token_256x256.jpg"
+  },
+  {
+    "name": "Fluid",
+    "address": "0xf50d05a1402d0adafa880d36050736f9f6ee7dee",
+    "symbol": "FLUID",
+    "decimals": 18,
+    "chainId": 137,
+    "logoURI": "https://etherscan.io/token/images/fluid_32.png"
   }
 ]

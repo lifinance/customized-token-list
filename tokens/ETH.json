@@ -398,5 +398,13 @@
     "decimals": 18,
     "chainId": 1,
     "logoURI": "https://assets.coingecko.com/coins/images/51055/standard/mbtc.png?1729875716"
+  },  
+  {
+    "name": "Fluid",
+    "address": "0x6f40d4A6237C257fff2dB00FA0510DeEECd303eb",
+    "symbol": "FLUID",
+    "decimals": 18,
+    "chainId": 1,
+    "logoURI": "https://etherscan.io/token/images/fluid_32.png"
   }
 ]
