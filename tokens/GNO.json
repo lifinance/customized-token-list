@@ -1,0 +1,10 @@
+[
+  {
+    "name": "Monerium GBP emoney",
+    "address": "0x5cb9073902f2035222b9749f8fb0c9bfe5527108",
+    "symbol": "GBPe",
+    "decimals": 18,
+    "chainId": 100,
+    "logoURI": "https://monerium.app/tokens/gbp/gbp.png"
+  }
+]
