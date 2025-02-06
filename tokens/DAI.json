@@ -78,5 +78,13 @@
     "decimals": 16,
     "name": "Swarm",
     "logoURI": "https://assets.coingecko.com/coins/images/16509/standard/Circle_Orange_onWhite.png?1696516071"
+  },
+  {
+    "address": "0x5cb9073902f2035222b9749f8fb0c9bfe5527108",
+    "chainId": 100,
+    "symbol": "GBPe",
+    "decimals": 18,
+    "name": "Monerium GBP emoney",
+    "logoURI": "https://monerium.app/tokens/gbp/gbp.png"
   }
 ]
