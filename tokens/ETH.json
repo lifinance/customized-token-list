@@ -406,5 +406,13 @@
     "decimals": 18,
     "chainId": 1,
     "logoURI": "https://etherscan.io/token/images/fluid_32.png"
+  },
+  {
+    "name": "Lift Dollar",
+    "address": "0xbdc7c08592ee4aa51d06c27ee23d5087d65adbcd",
+    "symbol": "USDL",
+    "decimals": 18,
+    "chainId": 1,
+    "logoURI": "https://etherscan.io/token/images/liftdollar_32.png"
   }
 ]
