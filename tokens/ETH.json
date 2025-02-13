@@ -408,6 +408,14 @@
     "logoURI": "https://etherscan.io/token/images/fluid_32.png"
   },
   {
+    "name": "VANA",
+    "address": "0x7ff7fa94b8b66ef313f7970d4eebd2cb3103a2c0",
+    "symbol": "VANA",
+    "decimals": 18,
+    "chainId": 1,
+    "logoURI": "https://assets.coingecko.com/coins/images/51404/small/logo.png?1731086679"
+  },
+  {
     "name": "Lift Dollar",
     "address": "0xbdc7c08592ee4aa51d06c27ee23d5087d65adbcd",
     "symbol": "USDL",
