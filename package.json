@@ -10,12 +10,16 @@
     "type": "git",
     "url": "git+https://github.com/lifinance/customized-token-list.git"
   },
-  "author": "",
+  "author": {
+    "name": "LI.FI",
+    "url": "https://li.fi"
+  },
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/lifinance/customized-token-list/issues"
   },
   "homepage": "https://github.com/lifinance/customized-token-list#readme",
+  "packageManager": "pnpm@9.15.0",
   "devDependencies": {
     "@eslint/compat": "^1.2.4",
     "@eslint/json": "^0.9.0",
