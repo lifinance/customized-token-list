@@ -12,4 +12,4 @@ jobs:
       - uses: ./.github/actions/install
 
       - name: Lint
-        run: pnpm lint
+        run: pnpm run lint

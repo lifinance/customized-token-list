@@ -12,4 +12,4 @@ jobs:
       - uses: ./.github/actions/install
 
       - name: Validate
-        run: pnpm test
+        run: pnpm run test
