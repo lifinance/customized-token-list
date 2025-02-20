@@ -1,5 +1,13 @@
 [
   {
+    "name": "Backed CSPX S&P 500",
+    "address": "0x1e2C4fb7eDE391d116E6B41cD0608260e8801D59",
+    "symbol": "bCSPX",
+    "decimals": 18,
+    "chainId": 137,
+    "logoURI": "https://assets.coingecko.com/coins/images/31891/standard/b-CSPX-200x200.png"
+  },
+  {
     "name": "Minerva Wallet SuperToken",
     "address": "0xc0b2983a17573660053beeed6fdb1053107cf387",
     "symbol": "MIVA",
@@ -182,5 +190,29 @@
     "decimals": 18,
     "name": "Bonsai Token",
     "logoURI": "https://www.bonsai.meme/static/Bonsai_Token_256x256.jpg"
+  },
+  {
+    "name": "Fluid",
+    "address": "0xf50d05a1402d0adafa880d36050736f9f6ee7dee",
+    "symbol": "FLUID",
+    "decimals": 18,
+    "chainId": 137,
+    "logoURI": "https://etherscan.io/token/images/fluid_32.png"
+  },
+  {
+    "address": "0x7ff7fa94b8b66ef313f7970d4eebd2cb3103a2c0",
+    "chainId": 56,
+    "symbol": "VANA",
+    "decimals": 137,
+    "name": "VANA",
+    "logoURI": "https://assets.coingecko.com/coins/images/51404/small/logo.png?1731086679"
+  },
+  {
+    "address": "0x649a2DA7B28E0D54c13D5eFf95d3A660652742cC",
+    "chainId": 137,
+    "symbol": "IDRX",
+    "decimals": 0,
+    "name": "IDRX",
+    "logoURI": "https://assets.coingecko.com/coins/images/34883/standard/IDRX_BLUE_COIN_200x200.png?1734983273"
   }
 ]

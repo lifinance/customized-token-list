@@ -1,5 +1,13 @@
 [
   {
+    "name": "Backed CSPX S&P 500",
+    "address": "0x1e2C4fb7eDE391d116E6B41cD0608260e8801D59",
+    "symbol": "bCSPX",
+    "decimals": 18,
+    "chainId": 1,
+    "logoURI": "https://assets.coingecko.com/coins/images/31891/standard/b-CSPX-200x200.png"
+  },
+  {
     "name": "MAGIC",
     "address": "0xb0c7a3ba49c7a6eaba6cd4a96c55a1391070ac9a",
     "symbol": "MAGIC",
@@ -358,5 +366,61 @@
     "decimals": 18,
     "name": "Image Generation AI",
     "symbol": "imgnAI"
+  },
+  {
+    "address": "0xB1D1eae60EEA9525032a6DCb4c1CE336a1dE71BE",
+    "chainId": 1,
+    "logoURI": "https://coin-images.coingecko.com/coins/images/52889/small/Token_Logo.png?1734601695",
+    "decimals": 18,
+    "name": "Derive",
+    "symbol": "DRV"
+  },
+  {
+    "name": "mBASIS",
+    "address": "0x2a8c22E3b10036f3AEF5875d04f8441d4188b656",
+    "symbol": "mBASIS",
+    "decimals": 18,
+    "chainId": 1,
+    "logoURI": "https://assets.coingecko.com/coins/images/50593/standard/mBASIS_logo.png?1728444389"
+  },
+  {
+    "name": "mTBILL",
+    "address": "0xdd629e5241cbc5919847783e6c96b2de4754e438",
+    "symbol": "mTBILL",
+    "decimals": 18,
+    "chainId": 1,
+    "logoURI": "https://assets.coingecko.com/coins/images/37839/standard/mTBILL_token.png?1728417279"
+  },
+  {
+    "name": "mBTC",
+    "address": "0x007115416AB6c266329a03B09a8aa39aC2eF7d9d",
+    "symbol": "mBTC",
+    "decimals": 18,
+    "chainId": 1,
+    "logoURI": "https://assets.coingecko.com/coins/images/51055/standard/mbtc.png?1729875716"
+  },  
+  {
+    "name": "Fluid",
+    "address": "0x6f40d4A6237C257fff2dB00FA0510DeEECd303eb",
+    "symbol": "FLUID",
+    "decimals": 18,
+    "chainId": 1,
+    "logoURI": "https://etherscan.io/token/images/fluid_32.png"
+  },
+  {
+    "name": "VANA",
+    "address": "0x7ff7fa94b8b66ef313f7970d4eebd2cb3103a2c0",
+    "symbol": "VANA",
+    "decimals": 18,
+    "chainId": 1,
+    "logoURI": "https://assets.coingecko.com/coins/images/51404/small/logo.png?1731086679"
+  },
+  {
+    "name": "Lift Dollar",
+    "address": "0xbdc7c08592ee4aa51d06c27ee23d5087d65adbcd",
+    "symbol": "USDL",
+    "decimals": 18,
+    "chainId": 1,
+    "logoURI": "https://etherscan.io/token/images/liftdollar_32.png"
   }
 ]

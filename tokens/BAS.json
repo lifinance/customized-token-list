@@ -1,5 +1,13 @@
 [
   {
+    "name": "Backed CSPX S&P 500",
+    "address": "0xC3cE78B037DDA1B966D31EC7979d3f3a38571A8E",
+    "symbol": "bCSPX",
+    "decimals": 18,
+    "chainId": 8453,
+    "logoURI": "https://assets.coingecko.com/coins/images/31891/standard/b-CSPX-200x200.png"
+  },
+  {
     "name": "The Innovation Game",
     "address": "0x0C03Ce270B4826Ec62e7DD007f0B716068639F7B",
     "symbol": "TIG",
@@ -103,7 +111,6 @@
     "name": "doginme",
     "symbol": "doginme"
   },
-
   {
     "address": "0x4ed4E862860beD51a9570b96d89aF5E1B0Efefed",
     "chainId": 8453,
@@ -111,6 +118,14 @@
     "decimals": 18,
     "name": "Degen",
     "symbol": "DEGEN"
+  },
+  {
+    "address": "0x000096630066820566162C94874A776532705231",
+    "chainId": 8453,
+    "logoURI": "https://raw.githubusercontent.com/idriss-xyz/contribution-guide/refs/heads/main/logo.svg",
+    "decimals": 18,
+    "name": "IDRISS",
+    "symbol": "IDRISS"
   },
   {
     "address": "0x3e05D37CFBd8caaad9E3322D35CC727AfaFF63E3",
@@ -217,11 +232,57 @@
     "symbol": "ANZ"
   },
   {
-    "address": "0x98d0baa52b2D063E780DE12F615f963Fe8537553",
+    "address": "0x3E64cD8Fd4d2FAe3D7f4710817885B0941838d0B",
+    "chainId": 8453,
+    "logoURI": "https://dd.dexscreener.com/ds-data/tokens/base/0x3e64cd8fd4d2fae3d7f4710817885b0941838d0b.png",
+    "decimals": 18,
+    "name": "3 Beras Capital",
+    "symbol": "3BC"
+  },
+  {
+    "address": "0x9d0E8f5b25384C7310CB8C6aE32C8fbeb645d083",
+    "chainId": 8453,
+    "logoURI": "https://coin-images.coingecko.com/coins/images/52889/small/Token_Logo.png?1734601695",
+    "decimals": 18,
+    "name": "Derive",
+    "symbol": "DRV"
+  },
+  {
+    "name": "mBASIS",
+    "address": "0x1C2757c1FeF1038428b5bEF062495ce94BBe92b2",
+    "symbol": "mBASIS",
+    "decimals": 18,
+    "chainId": 1,
+    "logoURI": "https://assets.coingecko.com/coins/images/50593/standard/mBASIS_logo.png?1728444389"
+  },
+  {
+    "name": "mTBILL",
+    "address": "0xDD629E5241CbC5919847783e6C96B2De4754e438",
+    "symbol": "mTBILL",
+    "decimals": 18,
+    "chainId": 1,
+    "logoURI": "https://assets.coingecko.com/coins/images/37839/standard/mTBILL_token.png?1728417279"
+  },
+  {
+    "address": "0x7ff7fa94b8b66ef313f7970d4eebd2cb3103a2c0",
+    "chainId": 8453,
+    "symbol": "VANA",
+    "decimals": 18,
+    "name": "VANA",
+    "logoURI": "https://assets.coingecko.com/coins/images/51404/small/logo.png?1731086679"
+  },
+  {
+    "address": "0x18Bc5bcC660cf2B9cE3cd51a404aFe1a0cBD3C22",
+    "chainId": 8453,
+    "symbol": "IDRX",
+    "decimals": 2,
+    "name": "IDRX",
+    "logoURI": "https://assets.coingecko.com/coins/images/34883/standard/IDRX_BLUE_COIN_200x200.png?1734983273"
+  },
+      "address": "0x98d0baa52b2D063E780DE12F615f963Fe8537553",
     "chainId": 8453,
     "logoURI": "https://s2.coinmarketcap.com/static/img/coins/64x64/35763.png",
     "decimals": 18,
     "name": "Kaito",
     "symbol": "KAITO"
-  }
 ]

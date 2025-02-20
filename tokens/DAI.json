@@ -1,5 +1,13 @@
 [
   {
+    "name": "Backed CSPX S&P 500",
+    "address": "0x1e2C4fb7eDE391d116E6B41cD0608260e8801D59",
+    "symbol": "bCSPX",
+    "decimals": 18,
+    "chainId": 100,
+    "logoURI": "https://assets.coingecko.com/coins/images/31891/standard/b-CSPX-200x200.png"
+  },
+  {
     "name": "Minerva Wallet SuperToken",
     "address": "0x63e62989d9eb2d37dfdb1f93a22f063635b07d51",
     "symbol": "MIVA",
@@ -70,5 +78,13 @@
     "decimals": 16,
     "name": "Swarm",
     "logoURI": "https://assets.coingecko.com/coins/images/16509/standard/Circle_Orange_onWhite.png?1696516071"
+  },
+  {
+    "address": "0x5cb9073902f2035222b9749f8fb0c9bfe5527108",
+    "chainId": 100,
+    "symbol": "GBPe",
+    "decimals": 18,
+    "name": "Monerium GBP emoney",
+    "logoURI": "https://monerium.app/tokens/gbp/gbp.png"
   }
 ]

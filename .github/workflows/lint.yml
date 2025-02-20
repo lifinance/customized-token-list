@@ -9,16 +9,7 @@ jobs:
     steps:
       - uses: actions/checkout@v2
 
-      - name: Set up Node.js
-        uses: actions/setup-node@v1
-        with:
-          node-version: 18
+      - uses: ./.github/actions/install
 
-      - name: Install Node.js dependencies
-        run: yarn install
-
-      - name: Run lint
-        uses: wearerequired/lint-action@v1
-        with:
-          eslint: true
-          eslint_extensions: json
+      - name: Lint
+        run: pnpm run lint

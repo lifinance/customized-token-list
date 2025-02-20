@@ -1,5 +1,13 @@
 [
   {
+    "name": "Backed CSPX S&P 500",
+    "address": "0x1e2C4fb7eDE391d116E6B41cD0608260e8801D59",
+    "symbol": "bCSPX",
+    "decimals": 18,
+    "chainId": 42161,
+    "logoURI": "https://assets.coingecko.com/coins/images/31891/standard/b-CSPX-200x200.png"
+  },
+  {
     "name": "Layer2DAO",
     "address": "0x2CaB3abfC1670D1a452dF502e216a66883cDf079",
     "symbol": "L2DAO",
@@ -294,5 +302,21 @@
     "decimals": 18,
     "name": "Pear",
     "symbol": "PEAR"
+  },
+  {
+    "address": "0x77b7787a09818502305C95d68A2571F090abb135",
+    "chainId": 42161,
+    "logoURI": "https://coin-images.coingecko.com/coins/images/52889/small/Token_Logo.png?1734601695",
+    "decimals": 18,
+    "name": "Derive",
+    "symbol": "DRV"
+  },
+  {
+    "address": "0x7ff7fa94b8b66ef313f7970d4eebd2cb3103a2c0",
+    "chainId": 42161,
+    "symbol": "VANA",
+    "decimals": 18,
+    "name": "VANA",
+    "logoURI": "https://assets.coingecko.com/coins/images/51404/small/logo.png?1731086679"
   }
 ]

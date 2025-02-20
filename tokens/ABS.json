@@ -1,0 +1,10 @@
+[
+  {
+    "name": "Pudgy Penguins",
+    "address": "0x9eBe3A824Ca958e4b3Da772D2065518F009CBa62",
+    "symbol": "PENGU",
+    "decimals": 18,
+    "chainId": 2741,
+    "logoURI": "https://img.reservoir.tools/images/v2/abstract/SOH16Rml4teTwteHGv7mzFPoR1RDmrxetEov4ZKPdr8CYgqfVfhFwsW1UkTuBQ3a%2FNdYKidF15cP4O5fsctct9K93ey9EXyv2l1YcYkecnLIFh7o7jtBa8LTRZ%2BhHcil?width=250"
+  }
+]
