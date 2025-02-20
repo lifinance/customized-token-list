@@ -199,7 +199,7 @@
     "decimals": 18,
     "name": "Anime",
     "symbol": "ANIME"
-  }, 
+  },
   {
     "address": "0x18e692c03de43972fe81058f322fa542ae1a5e2c",
     "chainId": 8453,
@@ -208,12 +208,20 @@
     "name": "Image Generation AI",
     "symbol": "imgnAI"
   },
-    {
+  {
     "address": "0xe656c7067aeba98f2671e92b3f3611a01dd87bc3",
     "chainId": 8453,
     "logoURI": "https://anzen.finance/anz-token.svg",
     "decimals": 18,
     "name": "Anzen Finance",
     "symbol": "ANZ"
+  },
+  {
+    "address": "0x98d0baa52b2D063E780DE12F615f963Fe8537553",
+    "chainId": 8453,
+    "logoURI": "https://s2.coinmarketcap.com/static/img/coins/64x64/35763.png",
+    "decimals": 18,
+    "name": "Kaito",
+    "symbol": "KAITO"
   }
 ]
