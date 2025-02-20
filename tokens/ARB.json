@@ -318,5 +318,21 @@
     "decimals": 18,
     "name": "VANA",
     "logoURI": "https://assets.coingecko.com/coins/images/51404/small/logo.png?1731086679"
+  },
+  {
+    "name": "USDS",
+    "address": "0x6491c05A82219b8D1479057361ff1654749b876b",
+    "symbol": "USDS",
+    "decimals": 18,
+    "chainId": 42161,
+    "logoURI": "https://etherscan.io/token/images/skyusds_32.svg"
+  },
+  {
+    "name": "Savings USDS",
+    "address": "0xdDb46999F8891663a8F2828d25298f70416d7610",
+    "symbol": "sUSDS",
+    "decimals": 18,
+    "chainId": 42161,
+    "logoURI": "https://etherscan.io/token/images/skysusds_32.svg"
   }
 ]
