@@ -278,5 +278,13 @@
     "decimals": 2,
     "name": "IDRX",
     "logoURI": "https://assets.coingecko.com/coins/images/34883/standard/IDRX_BLUE_COIN_200x200.png?1734983273"
+  },
+  {
+    "address": "0x98d0baa52b2D063E780DE12F615f963Fe8537553",
+    "chainId": 8453,
+    "logoURI": "https://s2.coinmarketcap.com/static/img/coins/64x64/35763.png",
+    "decimals": 18,
+    "name": "Kaito",
+    "symbol": "KAITO"
   }
 ]
