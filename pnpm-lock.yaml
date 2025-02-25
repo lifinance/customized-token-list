@@ -14,6 +14,9 @@ importers:
       '@eslint/json':
         specifier: ^0.9.0
         version: 0.9.0
+      '@lifi/types':
+        specifier: ^16.10.0
+        version: 16.10.0
       '@types/jest':
         specifier: ^29.5.3
         version: 29.5.14
@@ -31,7 +34,7 @@ importers:
         version: 9.1.0(eslint@9.17.0)
       eslint-plugin-prettier:
         specifier: ^5.2.1
-        version: 5.2.1(eslint-config-prettier@9.1.0)(eslint@9.17.0)(prettier@3.4.2)
+        version: 5.2.1(eslint-config-prettier@9.1.0(eslint@9.17.0))(eslint@9.17.0)(prettier@3.4.2)
       jest:
         specifier: ^29.6.1
         version: 29.7.0(@types/node@22.10.2)
@@ -40,7 +43,7 @@ importers:
         version: 3.4.2
       ts-jest:
         specifier: ^29.1.1
-        version: 29.2.5(@babel/core@7.26.0)(jest@29.7.0)(typescript@5.7.2)
+        version: 29.2.5(@babel/core@7.26.0)(@jest/transform@29.7.0)(@jest/types@29.6.3)(babel-jest@29.7.0(@babel/core@7.26.0))(jest@29.7.0(@types/node@22.10.2))(typescript@5.7.2)
       typescript:
         specifier: ^5.1.6
         version: 5.7.2
@@ -374,6 +377,9 @@ packages:
 
   '@jridgewell/trace-mapping@0.3.25':
     resolution: {integrity: sha512-vNk6aEwybGtawWmy/PzwnGDOjCkLWSD2wqvjGGAgOAwCGWySYXfYoxt00IJkTF+8Lb57DwOb3Aa0o9CApepiYQ==}
+
+  '@lifi/types@16.10.0':
+    resolution: {integrity: sha512-bwlhO7rwb2vXCnHkbjLQSUQciAG6pF0a4I7eQ1Gnfuedm4vHTjmWoBRwAK5GjgwL9k4Qokppt1OYxeCNXHsxcg==}
 
   '@pkgr/core@0.1.1':
     resolution: {integrity: sha512-cq8o4cWH0ibXh9VGi5P20Tu9XF/0fFXl9EUinr9QfTM7a7p0oTA4iJRCQWppXR1Pg8dSM0UCItCkPwsk9qWWYA==}
@@ -1700,7 +1706,7 @@ snapshots:
   '@eslint-community/regexpp@4.12.1': {}
 
   '@eslint/compat@1.2.4(eslint@9.17.0)':
-    dependencies:
+    optionalDependencies:
       eslint: 9.17.0
 
   '@eslint/config-array@0.19.1':
@@ -1945,6 +1951,8 @@ snapshots:
     dependencies:
       '@jridgewell/resolve-uri': 3.1.2
       '@jridgewell/sourcemap-codec': 1.5.0
+
+  '@lifi/types@16.10.0': {}
 
   '@pkgr/core@0.1.1': {}
 
@@ -2244,13 +2252,14 @@ snapshots:
     dependencies:
       eslint: 9.17.0
 
-  eslint-plugin-prettier@5.2.1(eslint-config-prettier@9.1.0)(eslint@9.17.0)(prettier@3.4.2):
+  eslint-plugin-prettier@5.2.1(eslint-config-prettier@9.1.0(eslint@9.17.0))(eslint@9.17.0)(prettier@3.4.2):
     dependencies:
       eslint: 9.17.0
-      eslint-config-prettier: 9.1.0(eslint@9.17.0)
       prettier: 3.4.2
       prettier-linter-helpers: 1.0.0
       synckit: 0.9.2
+    optionalDependencies:
+      eslint-config-prettier: 9.1.0(eslint@9.17.0)
 
   eslint-scope@8.2.0:
     dependencies:
@@ -2576,7 +2585,6 @@ snapshots:
       '@babel/core': 7.26.0
       '@jest/test-sequencer': 29.7.0
       '@jest/types': 29.6.3
-      '@types/node': 22.10.2
       babel-jest: 29.7.0(@babel/core@7.26.0)
       chalk: 4.1.2
       ci-info: 3.9.0
@@ -2596,6 +2604,8 @@ snapshots:
       pretty-format: 29.7.0
       slash: 3.0.0
       strip-json-comments: 3.1.1
+    optionalDependencies:
+      '@types/node': 22.10.2
     transitivePeerDependencies:
       - babel-plugin-macros
       - supports-color
@@ -2677,7 +2687,7 @@ snapshots:
       jest-util: 29.7.0
 
   jest-pnp-resolver@1.2.3(jest-resolve@29.7.0):
-    dependencies:
+    optionalDependencies:
       jest-resolve: 29.7.0
 
   jest-regex-util@29.6.3: {}
@@ -3110,9 +3120,8 @@ snapshots:
     dependencies:
       is-number: 7.0.0
 
-  ts-jest@29.2.5(@babel/core@7.26.0)(jest@29.7.0)(typescript@5.7.2):
+  ts-jest@29.2.5(@babel/core@7.26.0)(@jest/transform@29.7.0)(@jest/types@29.6.3)(babel-jest@29.7.0(@babel/core@7.26.0))(jest@29.7.0(@types/node@22.10.2))(typescript@5.7.2):
     dependencies:
-      '@babel/core': 7.26.0
       bs-logger: 0.2.6
       ejs: 3.1.10
       fast-json-stable-stringify: 2.1.0
@@ -3124,6 +3133,11 @@ snapshots:
       semver: 7.6.3
       typescript: 5.7.2
       yargs-parser: 21.1.1
+    optionalDependencies:
+      '@babel/core': 7.26.0
+      '@jest/transform': 29.7.0
+      '@jest/types': 29.6.3
+      babel-jest: 29.7.0(@babel/core@7.26.0)
 
   tslib@2.8.1: {}
 

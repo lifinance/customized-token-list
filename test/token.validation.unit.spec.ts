@@ -2,6 +2,7 @@ import * as fs from 'fs'
 import TokenSchema from '../tokenExpectedSchema.json'
 import DenyTokenSchema from '../denyTokenExpectedSchema.json'
 import Ajv from 'ajv'
+import { ChainId } from '@lifi/types'
 
 const reduceTokens = (path: string) =>
   fs
@@ -40,5 +41,17 @@ describe('Token validation', () => {
     )('Should be a valid deny token %s on chain %s', (_, __, token) => {
       expect(denyTokenValidator(token)).toBeTruthy()
     })
+  })
+})
+
+describe.only('Token File Name Validation', () => {
+  const tokenFileNames = fs.readdirSync('./tokens')
+  // Remove .json from file name
+  const chainNamesFromTokenFileNames = tokenFileNames.map((fileName) =>
+    fileName.replace('.json', '')
+  )
+  const chainNamesFromTypes = Object.keys(ChainId)
+  it.each(chainNamesFromTokenFileNames)('file name %s.json should be valid', (chainName) => {
+    expect(chainNamesFromTypes.includes(chainName)).toBe(true)
   })
 })
