@@ -416,6 +416,14 @@
     "symbol": "PEPE"
   },
   {
+    "address": "0x385d65ed9241e415cfc689c3e0bcf5ab2f0505c2",
+    "chainId": 1,
+    "logoURI": "https://s2.coinmarketcap.com/static/img/coins/64x64/31642.png",
+    "decimals": 18,
+    "name": "MollarsToken",
+    "symbol": "MOLLARS"
+  },
+  {
     "address": "0x419D0d8BdD9aF5e606Ae2232ed285Aff190E711b",
     "chainId": 1,
     "logoURI": "https://static.debank.com/image/eth_token/logo_url/0x419d0d8bdd9af5e606ae2232ed285aff190e711b/17e38a53283964d43bba3be951edcb26.png",
