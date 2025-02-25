@@ -1,5 +1,77 @@
 [
   {
+    "name": "Backed CSPX S&P 500",
+    "address": "0x1e2C4fb7eDE391d116E6B41cD0608260e8801D59",
+    "symbol": "bCSPX",
+    "decimals": 18,
+    "chainId": 42161,
+    "logoURI": "https://assets.coingecko.com/coins/images/31891/standard/bCSPX_200p.png?1740041074"
+  },
+  {
+    "name": "Backed Coinbase",
+    "address": "0xbbcb0356bB9e6B3Faa5CbF9E5F36185d53403Ac9",
+    "symbol": "bCOIN",
+    "decimals": 18,
+    "chainId": 42161,
+    "logoURI": "https://assets.coingecko.com/coins/images/54429/standard/bCOIN_200p.png?1740041341"
+  },
+  {
+    "name": "Wrapped Backed Coinbase",
+    "address": "0xDEc933e2392AD908263e70A386fbF34e703Ffe8F",
+    "symbol": "wbCOIN",
+    "decimals": 18,
+    "chainId": 42161,
+    "logoURI": "https://assets.coingecko.com/coins/images/54429/standard/bCOIN_200p.png?1740041341"
+  },
+  {
+    "name": "Backed Tesla",
+    "address": "0x14A5f2872396802C3Cc8942A39Ab3E4118EE5038",
+    "symbol": "bTSLA",
+    "decimals": 18,
+    "chainId": 42161,
+    "logoURI": "https://assets.coingecko.com/coins/images/54428/standard/bTSLA_200p.png?1740041458"
+  },
+  {
+    "name": "Wrapped Backed Tesla",
+    "address": "0x1f82284C1658Ad71C576f7230E6C2DEE7901c1FA",
+    "symbol": "wbTSLA",
+    "decimals": 18,
+    "chainId": 42161,
+    "logoURI": "https://assets.coingecko.com/coins/images/54428/standard/bTSLA_200p.png?1740041458"
+  },
+  {
+    "name": "Backed NVIDIA",
+    "address": "0xA34C5e0AbE843E10461E2C9586Ea03E55Dbcc495",
+    "symbol": "bNVDA",
+    "decimals": 18,
+    "chainId": 42161,
+    "logoURI": "https://assets.coingecko.com/coins/images/38911/standard/bNVDA_200p.png?1740041447"
+  },
+  {
+    "name": "Wrapped Backed NVIDIA",
+    "address": "0x7E8101A1C322D394b3961498c7D40d2DFA94C392",
+    "symbol": "wbNVDA",
+    "decimals": 18,
+    "chainId": 42161,
+    "logoURI": "https://assets.coingecko.com/coins/images/38911/standard/bNVDA_200p.png?1740041447"
+  },
+  {
+    "name": "Backed Strategy",
+    "address": "0xaC28C9178ACc8BA4A11A29E013a3A2627086e422",
+    "symbol": "bMSTR",
+    "decimals": 18,
+    "chainId": 42161,
+    "logoURI": "https://assets.coingecko.com/coins/images/38914/standard/bMSTR_200p.png?1740041420"
+  },
+  {
+    "name": "Wrapped Backed Strategy",
+    "address": "0x1a4F71B0Ff3C22540887bcf83b50054a213c673d",
+    "symbol": "wbMSTR",
+    "decimals": 18,
+    "chainId": 42161,
+    "logoURI": "https://assets.coingecko.com/coins/images/38914/standard/bMSTR_200p.png?1740041420"
+  },
+  {
     "name": "Layer2DAO",
     "address": "0x2CaB3abfC1670D1a452dF502e216a66883cDf079",
     "symbol": "L2DAO",
@@ -274,7 +346,7 @@
   {
     "address": "0xF9CA0EC182a94f6231Df9b14BD147eF7Fb9FA17C",
     "chainId": 42161,
-    "logoURI": "https://strapi.li.finance/uploads/boner_0d3e84c172.webp",
+    "logoURI": "https://strapi.jumper.exchange/uploads/boner_0d3e84c172.webp",
     "decimals": 18,
     "name": "Boner",
     "symbol": "BONER"
@@ -282,9 +354,49 @@
   {
     "address": "0x155f0DD04424939368972f4e1838687d6a831151",
     "chainId": 42161,
-    "logoURI": "https://strapi.li.finance/uploads/adoge_364ca65f7d.webp",
+    "logoURI": "https://strapi.jumper.exchange/uploads/adoge_364ca65f7d.webp",
     "decimals": 18,
     "name": "ArbiDoge",
     "symbol": "ADoge"
+  },
+  {
+    "address": "0x3212dc0F8c834e4DE893532d27CC9B6001684DB0",
+    "chainId": 42161,
+    "logoURI": "https://strapi.jumper.exchange/uploads/pear_b24b608ea0.png",
+    "decimals": 18,
+    "name": "Pear",
+    "symbol": "PEAR"
+  },
+  {
+    "address": "0x77b7787a09818502305C95d68A2571F090abb135",
+    "chainId": 42161,
+    "logoURI": "https://coin-images.coingecko.com/coins/images/52889/small/Token_Logo.png?1734601695",
+    "decimals": 18,
+    "name": "Derive",
+    "symbol": "DRV"
+  },
+  {
+    "address": "0x7ff7fa94b8b66ef313f7970d4eebd2cb3103a2c0",
+    "chainId": 42161,
+    "symbol": "VANA",
+    "decimals": 18,
+    "name": "VANA",
+    "logoURI": "https://assets.coingecko.com/coins/images/51404/small/logo.png?1731086679"
+  },
+  {
+    "name": "USDS",
+    "address": "0x6491c05A82219b8D1479057361ff1654749b876b",
+    "symbol": "USDS",
+    "decimals": 18,
+    "chainId": 42161,
+    "logoURI": "https://etherscan.io/token/images/skyusds_32.svg"
+  },
+  {
+    "name": "Savings USDS",
+    "address": "0xdDb46999F8891663a8F2828d25298f70416d7610",
+    "symbol": "sUSDS",
+    "decimals": 18,
+    "chainId": 42161,
+    "logoURI": "https://etherscan.io/token/images/skysusds_32.svg"
   }
 ]

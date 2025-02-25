@@ -1,0 +1,16 @@
+{
+  "type": "object",
+  "properties": {
+    "address": {
+      "type": "string"
+    },
+    "chainId": {
+      "type": "integer"
+    },
+    "reason": {
+      "type": "string"
+    }
+  },
+  "required": ["address", "chainId"],
+  "additionalProperties": false
+}

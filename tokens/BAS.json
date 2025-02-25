@@ -1,5 +1,85 @@
 [
   {
+    "name": "Backed CSPX S&P 500",
+    "address": "0xC3cE78B037DDA1B966D31EC7979d3f3a38571A8E",
+    "symbol": "bCSPX",
+    "decimals": 18,
+    "chainId": 8453,
+    "logoURI": "https://assets.coingecko.com/coins/images/31891/standard/bCSPX_200p.png?1740041074"
+  },
+  {
+    "name": "Backed Coinbase",
+    "address": "0xbbcb0356bB9e6B3Faa5CbF9E5F36185d53403Ac9",
+    "symbol": "bCOIN",
+    "decimals": 18,
+    "chainId": 8453,
+    "logoURI": "https://assets.coingecko.com/coins/images/54429/standard/bCOIN_200p.png?1740041341"
+  },
+  {
+    "name": "Wrapped Backed Coinbase",
+    "address": "0xDEc933e2392AD908263e70A386fbF34e703Ffe8F",
+    "symbol": "wbCOIN",
+    "decimals": 18,
+    "chainId": 8453,
+    "logoURI": "https://assets.coingecko.com/coins/images/54429/standard/bCOIN_200p.png?1740041341"
+  },
+  {
+    "name": "Backed Tesla",
+    "address": "0x14A5f2872396802C3Cc8942A39Ab3E4118EE5038",
+    "symbol": "bTSLA",
+    "decimals": 18,
+    "chainId": 8453,
+    "logoURI": "https://assets.coingecko.com/coins/images/54428/standard/bTSLA_200p.png?1740041458"
+  },
+  {
+    "name": "Wrapped Backed Tesla",
+    "address": "0x1f82284C1658Ad71C576f7230E6C2DEE7901c1FA",
+    "symbol": "wbTSLA",
+    "decimals": 18,
+    "chainId": 8453,
+    "logoURI": "https://assets.coingecko.com/coins/images/54428/standard/bTSLA_200p.png?1740041458"
+  },
+  {
+    "name": "Backed NVIDIA",
+    "address": "0xA34C5e0AbE843E10461E2C9586Ea03E55Dbcc495",
+    "symbol": "bNVDA",
+    "decimals": 18,
+    "chainId": 8453,
+    "logoURI": "https://assets.coingecko.com/coins/images/38911/standard/bNVDA_200p.png?1740041447"
+  },
+  {
+    "name": "Wrapped Backed NVIDIA",
+    "address": "0x7E8101A1C322D394b3961498c7D40d2DFA94C392",
+    "symbol": "wbNVDA",
+    "decimals": 18,
+    "chainId": 8453,
+    "logoURI": "https://assets.coingecko.com/coins/images/38911/standard/bNVDA_200p.png?1740041447"
+  },
+  {
+    "name": "Backed Strategy",
+    "address": "0xaC28C9178ACc8BA4A11A29E013a3A2627086e422",
+    "symbol": "bMSTR",
+    "decimals": 18,
+    "chainId": 8453,
+    "logoURI": "https://assets.coingecko.com/coins/images/38914/standard/bMSTR_200p.png?1740041420"
+  },
+  {
+    "name": "Wrapped Backed Strategy",
+    "address": "0x1a4F71B0Ff3C22540887bcf83b50054a213c673d",
+    "symbol": "wbMSTR",
+    "decimals": 18,
+    "chainId": 8453,
+    "logoURI": "https://assets.coingecko.com/coins/images/38914/standard/bMSTR_200p.png?1740041420"
+  },
+  {
+    "name": "The Innovation Game",
+    "address": "0x0C03Ce270B4826Ec62e7DD007f0B716068639F7B",
+    "symbol": "TIG",
+    "decimals": 18,
+    "chainId": 8453,
+    "logoURI": "https://assets.coingecko.com/coins/images/50669/standard/TIG_Logo_200x200.png"
+  },
+  {
     "name": "Toshi Token",
     "address": "0x8544FE9D190fD7EC52860abBf45088E81Ee24a8c",
     "symbol": "TOSHI",
@@ -42,7 +122,7 @@
   {
     "address": "0x2f85d372Bef829e866f8917378Ff20A88E7FC403",
     "chainId": 8453,
-    "logoURI": "https://strapi.li.finance/uploads/coolcoin_b7e2f7f32f.webp",
+    "logoURI": "https://strapi.jumper.exchange/uploads/coolcoin_b7e2f7f32f.webp",
     "decimals": 10,
     "name": "CoolCoin",
     "symbol": "$COOL"
@@ -50,7 +130,7 @@
   {
     "address": "0x532f27101965dd16442E59d40670FaF5eBB142E4",
     "chainId": 8453,
-    "logoURI": "https://strapi.li.finance/uploads/brett_ca2d328cc8.jpeg",
+    "logoURI": "https://strapi.jumper.exchange/uploads/brett_ca2d328cc8.jpeg",
     "decimals": 18,
     "name": "Brett",
     "symbol": "BRETT"
@@ -58,7 +138,7 @@
   {
     "address": "0x70737489DFDf1A29b7584d40500d3561bD4Fe196",
     "chainId": 8453,
-    "logoURI": "https://strapi.li.finance/uploads/bored_70d2ad205b.webp",
+    "logoURI": "https://strapi.jumper.exchange/uploads/bored_70d2ad205b.webp",
     "decimals": 18,
     "name": "BORED",
     "symbol": "BORED"
@@ -66,7 +146,7 @@
   {
     "address": "0xAC1Bd2486aAf3B5C0fc3Fd868558b082a531B2B4",
     "chainId": 8453,
-    "logoURI": "https://strapi.li.finance/uploads/toshi_51fef7e455.webp",
+    "logoURI": "https://strapi.jumper.exchange/uploads/toshi_51fef7e455.webp",
     "decimals": 18,
     "name": "Toshi",
     "symbol": "TOSHI"
@@ -74,7 +154,7 @@
   {
     "address": "0x13741C5dF9aB03E7Aa9Fb3Bf1f714551dD5A5F8a",
     "chainId": 8453,
-    "logoURI": "https://strapi.li.finance/uploads/noggles_320fcae2c0.webp",
+    "logoURI": "https://strapi.jumper.exchange/uploads/noggles_320fcae2c0.webp",
     "decimals": 18,
     "name": "Noggles",
     "symbol": "NOGS"
@@ -82,7 +162,7 @@
   {
     "address": "0xFF0C532FDB8Cd566Ae169C1CB157ff2Bdc83E105",
     "chainId": 8453,
-    "logoURI": "https://strapi.li.finance/uploads/frenpet_21607d080c.webp",
+    "logoURI": "https://strapi.jumper.exchange/uploads/frenpet_21607d080c.webp",
     "decimals": 18,
     "name": "Fren Pet",
     "symbol": "Fren Pet"
@@ -90,24 +170,31 @@
   {
     "address": "0x6921B130D297cc43754afba22e5EAc0FBf8Db75b",
     "chainId": 8453,
-    "logoURI": "https://strapi.li.finance/uploads/doginme_2c08ffbeef.png",
+    "logoURI": "https://strapi.jumper.exchange/uploads/doginme_2c08ffbeef.png",
     "decimals": 18,
     "name": "doginme",
     "symbol": "doginme"
   },
-
   {
     "address": "0x4ed4E862860beD51a9570b96d89aF5E1B0Efefed",
     "chainId": 8453,
-    "logoURI": "https://strapi.li.finance/uploads/degen_38108fbdaa.webp",
+    "logoURI": "https://strapi.jumper.exchange/uploads/degen_38108fbdaa.webp",
     "decimals": 18,
     "name": "Degen",
     "symbol": "DEGEN"
   },
   {
+    "address": "0x000096630066820566162C94874A776532705231",
+    "chainId": 8453,
+    "logoURI": "https://raw.githubusercontent.com/idriss-xyz/contribution-guide/refs/heads/main/logo.svg",
+    "decimals": 18,
+    "name": "IDRISS",
+    "symbol": "IDRISS"
+  },
+  {
     "address": "0x3e05D37CFBd8caaad9E3322D35CC727AfaFF63E3",
     "chainId": 8453,
-    "logoURI": "https://strapi.li.finance/uploads/beng_fb10df317b.webp",
+    "logoURI": "https://strapi.jumper.exchange/uploads/beng_fb10df317b.webp",
     "decimals": 18,
     "name": "Based Peng",
     "symbol": "BENG"
@@ -115,7 +202,7 @@
   {
     "address": "0xE3086852A4B125803C815a158249ae468A3254Ca",
     "chainId": 8453,
-    "logoURI": "https://strapi.li.finance/uploads/mfercoin_logo_6e4f3a463d.webp",
+    "logoURI": "https://strapi.jumper.exchange/uploads/mfercoin_logo_6e4f3a463d.webp",
     "decimals": 18,
     "name": "mfercoin",
     "symbol": "$mfer"
@@ -123,7 +210,7 @@
   {
     "address": "0x7d9CE55D54FF3FEddb611fC63fF63ec01F26D15F",
     "chainId": 8453,
-    "logoURI": "https://strapi.li.finance/uploads/fungi_f67f34fe47.webp",
+    "logoURI": "https://strapi.jumper.exchange/uploads/fungi_f67f34fe47.webp",
     "decimals": 9,
     "name": "Fungi",
     "symbol": "FUNGI"
@@ -131,7 +218,7 @@
   {
     "address": "0x85E90a5430AF45776548ADB82eE4cD9E33B08077",
     "chainId": 8453,
-    "logoURI": "https://strapi.li.finance/uploads/dino_83f477aa75.webp",
+    "logoURI": "https://strapi.jumper.exchange/uploads/dino_83f477aa75.webp",
     "decimals": 18,
     "name": "DINO",
     "symbol": "DINO"
@@ -139,7 +226,7 @@
   {
     "address": "0x347F500323D51E9350285Daf299ddB529009e6AE",
     "chainId": 8453,
-    "logoURI": "https://strapi.li.finance/uploads/blerf_cbc846af8d.webp",
+    "logoURI": "https://strapi.jumper.exchange/uploads/blerf_cbc846af8d.webp",
     "decimals": 18,
     "name": "BLERF",
     "symbol": "BLERF"
@@ -147,7 +234,7 @@
   {
     "address": "0xfEA9DcDc9E23a9068bF557AD5b186675C61d33eA",
     "chainId": 8453,
-    "logoURI": "https://strapi.li.finance/uploads/based_shiba_inu_08cbdab0a4.webp",
+    "logoURI": "https://strapi.jumper.exchange/uploads/based_shiba_inu_08cbdab0a4.webp",
     "decimals": 18,
     "name": "Based Shiba Inu",
     "symbol": "BSHIB"
@@ -191,5 +278,77 @@
     "decimals": 18,
     "name": "Anime",
     "symbol": "ANIME"
+  },
+  {
+    "address": "0x18e692c03de43972fe81058f322fa542ae1a5e2c",
+    "chainId": 8453,
+    "logoURI": "https://static.debank.com/image/eth_token/logo_url/0xa735a3af76cc30791c61c10d585833829d36cbe0/574009b28ce2f77459a084c68d347564.png",
+    "decimals": 18,
+    "name": "Image Generation AI",
+    "symbol": "imgnAI"
+  },
+  {
+    "address": "0xe656c7067aeba98f2671e92b3f3611a01dd87bc3",
+    "chainId": 8453,
+    "logoURI": "https://anzen.finance/anz-token.svg",
+    "decimals": 18,
+    "name": "Anzen Finance",
+    "symbol": "ANZ"
+  },
+  {
+    "address": "0x3E64cD8Fd4d2FAe3D7f4710817885B0941838d0B",
+    "chainId": 8453,
+    "logoURI": "https://dd.dexscreener.com/ds-data/tokens/base/0x3e64cd8fd4d2fae3d7f4710817885b0941838d0b.png",
+    "decimals": 18,
+    "name": "3 Beras Capital",
+    "symbol": "3BC"
+  },
+  {
+    "address": "0x9d0E8f5b25384C7310CB8C6aE32C8fbeb645d083",
+    "chainId": 8453,
+    "logoURI": "https://coin-images.coingecko.com/coins/images/52889/small/Token_Logo.png?1734601695",
+    "decimals": 18,
+    "name": "Derive",
+    "symbol": "DRV"
+  },
+  {
+    "name": "mBASIS",
+    "address": "0x1C2757c1FeF1038428b5bEF062495ce94BBe92b2",
+    "symbol": "mBASIS",
+    "decimals": 18,
+    "chainId": 1,
+    "logoURI": "https://assets.coingecko.com/coins/images/50593/standard/mBASIS_logo.png?1728444389"
+  },
+  {
+    "name": "mTBILL",
+    "address": "0xDD629E5241CbC5919847783e6C96B2De4754e438",
+    "symbol": "mTBILL",
+    "decimals": 18,
+    "chainId": 1,
+    "logoURI": "https://assets.coingecko.com/coins/images/37839/standard/mTBILL_token.png?1728417279"
+  },
+  {
+    "address": "0x7ff7fa94b8b66ef313f7970d4eebd2cb3103a2c0",
+    "chainId": 8453,
+    "symbol": "VANA",
+    "decimals": 18,
+    "name": "VANA",
+    "logoURI": "https://assets.coingecko.com/coins/images/51404/small/logo.png?1731086679"
+  },
+  {
+    "address": "0x18Bc5bcC660cf2B9cE3cd51a404aFe1a0cBD3C22",
+    "chainId": 8453,
+    "symbol": "IDRX",
+    "decimals": 2,
+    "name": "IDRX",
+    "logoURI": "https://assets.coingecko.com/coins/images/34883/standard/IDRX_BLUE_COIN_200x200.png?1734983273"
+  },
+  {
+    "address": "0x98d0baa52b2D063E780DE12F615f963Fe8537553",
+    "chainId": 8453,
+    "logoURI": "https://s2.coinmarketcap.com/static/img/coins/64x64/35763.png",
+    "decimals": 18,
+    "name": "Kaito",
+    "symbol": "KAITO"
   }
 ]

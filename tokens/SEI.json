@@ -1,0 +1,26 @@
+[
+  {
+    "address": "0x160345fC359604fC6e70E3c5fAcbdE5F7A9342d8",
+    "chainId": 1329,
+    "symbol": "wETH",
+    "decimals": 18,
+    "name": "Wrapped ETH",
+    "logoURI": "https://static.debank.com/image/op_token/logo_url/0x4200000000000000000000000000000000000006/61844453e63cf81301f845d7864236f6.png"
+  },
+  {
+    "address": "0x64445f0aecc51e94ad52d8ac56b7190e764e561a",
+    "chainId": 1329,
+    "symbol": "FXS",
+    "decimals": 18,
+    "name": "Frax Share",
+    "logoURI": "https://static.debank.com/image/sei_token/logo_url/0x64445f0aecc51e94ad52d8ac56b7190e764e561a/612e73622330e163485b6b1835d4714e.png"
+  },
+  {
+    "address": "0x0555E30da8f98308EdB960aa94C0Db47230d2B9c",
+    "chainId": 1329,
+    "symbol": "wBTC",
+    "decimals": 8,
+    "name": "Wrapped BTC",
+    "logoURI": "https://static.debank.com/image/eth_token/logo_url/0x2260fac5e5542a773aa44fbcfedf7c193bc2c599/d3c52e7c7449afa8bd4fad1c93f50d93.png"
+  }
+]

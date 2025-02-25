@@ -1,0 +1,58 @@
+[
+  {
+    "chainId": 13371,
+    "address": "0xb00ed913aAFf8280C17BfF33CcE82fE6D79e85e8",
+    "name": "GOG",
+    "symbol": "GOG",
+    "decimals": 18,
+    "logoURI": "https://assets.coingecko.com/coins/images/17362/standard/V2QDNoLg_400x400.jpg"
+  },
+  {
+    "chainId": 13371,
+    "address": "0x0bf52740F5BC21998b3FA8210Ebac159c5803f95",
+    "name": "JANUS",
+    "symbol": "JAN",
+    "decimals": 18,
+    "logoURI": "https://assets.coingecko.com/coins/images/35045/standard/janus_token.jpeg"
+  },
+  {
+    "chainId": 13371,
+    "address": "0x31e82B464f912eE46ccAC81F16237b89DA1b3432",
+    "name": "MetalCore",
+    "symbol": "MCG",
+    "decimals": 18,
+    "logoURI": "https://checkout-cdn.immutable.com/v1/blob/img/tokens/0xc9e503562d0db0a2629288a5d3b1c94ea7741869.svg"
+  },
+  {
+    "chainId": 13371,
+    "address": "0x2A644D2d996820ce5Ca4256cc68E53F4DE29B444",
+    "name": "METAL",
+    "symbol": "METAL",
+    "decimals": 18,
+    "logoURI": "https://assets.coingecko.com/coins/images/24376/standard/metal.png"
+  },
+  {
+    "chainId": 13371,
+    "address": "0xb0d7e9ff5fb8e739c4990f7920d8047acfae4884",
+    "name": "Nifty League",
+    "symbol": "NFTL",
+    "decimals": 18,
+    "logoURI": "https://niftyleague.com/img/logo/NFTL.png"
+  },
+  {
+    "chainId": 13371,
+    "address": "0x699797abcdc2e20165fE4bAC5efbAa652490E6E2",
+    "name": "Vendetta",
+    "symbol": "VDT",
+    "decimals": 18,
+    "logoURI": "https://assets.coingecko.com/coins/images/35185/large/logo_200_blk.png"
+  },
+  {
+    "chainId": 13371,
+    "address": "0x9f6884b94c36cb32519440F0497E12a8F0dE7130",
+    "name": "MEE Governance Token",
+    "symbol": "MEE",
+    "decimals": 18,
+    "logoURI": "https://assets.coingecko.com/coins/images/27588/standard/MEE_200x200.png"
+  }
+]

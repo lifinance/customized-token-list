@@ -1,0 +1,27 @@
+[
+  {
+    "chainId": 42161,
+    "address": "0x590020b1005b8b25f1a2c82c5f743c540dcfa24d",
+    "reason": "GMX test token"
+  },
+  {
+    "chainId": 42161,
+    "address": "0x23a198213fa0135a2cb063b133d743db1f76fca0",
+    "reason": "Scam token"
+  },
+  {
+    "chainId": 42161,
+    "address": "0x08a0aa91e02a95735f7faa576d1553d7abf7ea33",
+    "reason": "Scam token"
+  },
+  {
+    "chainId": 42161,
+    "address": "0xa0b86991c6218b36c1d19d4a2e9eb0ce3606eb48",
+    "reason": "Takes fees"
+  },
+  {
+    "address": "0x99ed7e54ed287f8e603bca5932abfa812eec4f3c",
+    "chainId": 42161,
+    "reason": "Scam USDC - https://gopluslabs.io/token-security/42161/0x99ED7E54ed287f8e603bcA5932abFA812EEC4f3c"
+  }
+]

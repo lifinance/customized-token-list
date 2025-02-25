@@ -1,0 +1,12 @@
+[
+  {
+    "chainId": 1151111081099710,
+    "address": "DkKY96SB6NPxLGWVigmWMhq7nxRaq7k1V7C54HFYEStr",
+    "reason": "Scam USDC token"
+  },
+  {
+    "chainId": 1151111081099710,
+    "address": "2b1kV6DkPAnxd5ixfnxCpjxmKwqjjaYmCZfHsFu24GXo",
+    "reason": "PyUSDC token" 
+  }
+]
