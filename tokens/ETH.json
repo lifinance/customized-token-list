@@ -470,7 +470,7 @@
     "decimals": 18,
     "chainId": 1,
     "logoURI": "https://assets.coingecko.com/coins/images/51055/standard/mbtc.png?1729875716"
-  },  
+  },
   {
     "name": "Fluid",
     "address": "0x6f40d4A6237C257fff2dB00FA0510DeEECd303eb",
@@ -494,5 +494,21 @@
     "decimals": 18,
     "chainId": 1,
     "logoURI": "https://etherscan.io/token/images/liftdollar_32.png"
+  },
+  {
+    "address": "0xa469b7ee9ee773642b3e93e842e5d9b5baa10067",
+    "chainId": 1,
+    "logoURI": "https://anzen.finance/assets/tokens/usdz-token-128.png",
+    "decimals": 18,
+    "name": "Anzen USDz",
+    "symbol": "USDz"
+  },
+  {
+    "address": "0x547213367cfB08ab418E7b54d7883b2C2AA27Fd7",
+    "chainId": 1,
+    "logoURI": "https://anzen.finance/assets/tokens/susdz-token-128.png",
+    "decimals": 18,
+    "name": "Anzen Staked USDz",
+    "symbol": "sUSDz"
   }
 ]
