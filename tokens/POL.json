@@ -278,5 +278,13 @@
     "decimals": 0,
     "name": "IDRX",
     "logoURI": "https://assets.coingecko.com/coins/images/34883/standard/IDRX_BLUE_COIN_200x200.png?1734983273"
+  },
+  {
+    "address": "0xFbeCfB7b87752aa28383a5Ac1e9d9e05E0526017",
+    "chainId": 137,
+    "symbol": "EMI",
+    "decimals": 18,
+    "name": "Emicoin (PoS)",
+    "logoURI": "https://www.ocraware.com/emicoin/logo.svg"
   }
 ]
