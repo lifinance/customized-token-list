@@ -1,0 +1,10 @@
+[
+    {
+        "name": "ENA",
+        "address": "0x58538e6A46E07434d7E7375Bc268D3cb839C0133",
+        "symbol": "ENA",
+        "decimals": 18,
+        "chainId": 34443,
+        "logoURI": "https://ethena.fi/shared/ecosystem/ENA.svg"
+    }
+]
