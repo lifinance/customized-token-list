@@ -402,7 +402,7 @@
   {
     "address": "0x5018609AB477cC502e170A5aCcf5312B86a4b94f",
     "chainId": 42161,
-    "logoURI": "https://anzen.finance/assets/tokens/usdz-token-128.png",
+    "logoURI": "https://anzen.finance/usdz-token-128.png",
     "decimals": 18,
     "name": "Anzen USDz",
     "symbol": "USDz"
@@ -410,7 +410,7 @@
   {
     "address": "0x1B2c29e3897b8F9170c98440A483e90e715C879d",
     "chainId": 42161,
-    "logoURI": "https://anzen.finance/assets/tokens/susdz-token-128.png",
+    "logoURI": "https://anzen.finance/susdz-token-128.png",
     "decimals": 18,
     "name": "Anzen Staked USDz",
     "symbol": "sUSDz"
