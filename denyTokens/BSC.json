@@ -245,6 +245,14 @@
   },
   {
     "chainId": 56,
+    "address": "0x8d0c064ab0973fe124fa9efaad492060baacb62c"
+  },
+  {
+    "chainId": 56,
+    "address": "0x47265DbfA372E6bd83Fd3B5AA42dBdfD46f97801"
+  },
+  {
+    "chainId": 56,
     "address": "0x723dc7dd87ddb9d10465ad734cfb038ea233d15b"
   }
 ]

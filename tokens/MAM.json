@@ -1,0 +1,26 @@
+[
+    {
+        "name": "ENA",
+        "address": "0x58538e6A46E07434d7E7375Bc268D3cb839C0133",
+        "symbol": "ENA",
+        "decimals": 18,
+        "chainId": 1088,
+        "logoURI": "https://ethena.fi/shared/ecosystem/ENA.svg"
+    },
+    {
+        "address": "0x5d3a1Ff2b6BAb83b63cd9AD0787074081a52ef34",
+        "chainId": 1088,
+        "symbol": "USDe",
+        "decimals": 18,
+        "name": "USDe",
+        "logoURI": "https://ethena.fi/shared/usde.svg"
+    },
+    {
+        "address": "0x211Cc4DD073734dA055fbF44a2b4667d5E5fE5d2",
+        "chainId": 1088,
+        "symbol": "sUSDe",
+        "decimals": 18,
+        "name": "sUSDe",
+        "logoURI": "https://ethena.fi/shared/ecosystem/sUSDe.svg"
+    }
+]

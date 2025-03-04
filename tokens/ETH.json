@@ -5,7 +5,71 @@
     "symbol": "bCSPX",
     "decimals": 18,
     "chainId": 1,
-    "logoURI": "https://assets.coingecko.com/coins/images/31891/standard/b-CSPX-200x200.png"
+    "logoURI": "https://assets.coingecko.com/coins/images/31891/standard/bCSPX_200p.png?1740041074"
+  },
+  {
+    "name": "Backed Coinbase",
+    "address": "0xbbcb0356bB9e6B3Faa5CbF9E5F36185d53403Ac9",
+    "symbol": "bCOIN",
+    "decimals": 18,
+    "chainId": 1,
+    "logoURI": "https://assets.coingecko.com/coins/images/54429/standard/bCOIN_200p.png?1740041341"
+  },
+  {
+    "name": "Wrapped Backed Coinbase",
+    "address": "0xDEc933e2392AD908263e70A386fbF34e703Ffe8F",
+    "symbol": "wbCOIN",
+    "decimals": 18,
+    "chainId": 1,
+    "logoURI": "https://assets.coingecko.com/coins/images/54429/standard/bCOIN_200p.png?1740041341"
+  },
+  {
+    "name": "Backed Tesla",
+    "address": "0x14A5f2872396802C3Cc8942A39Ab3E4118EE5038",
+    "symbol": "bTSLA",
+    "decimals": 18,
+    "chainId": 1,
+    "logoURI": "https://assets.coingecko.com/coins/images/54428/standard/bTSLA_200p.png?1740041458"
+  },
+  {
+    "name": "Wrapped Backed Tesla",
+    "address": "0x1f82284C1658Ad71C576f7230E6C2DEE7901c1FA",
+    "symbol": "wbTSLA",
+    "decimals": 18,
+    "chainId": 1,
+    "logoURI": "https://assets.coingecko.com/coins/images/54428/standard/bTSLA_200p.png?1740041458"
+  },
+  {
+    "name": "Backed NVIDIA",
+    "address": "0xA34C5e0AbE843E10461E2C9586Ea03E55Dbcc495",
+    "symbol": "bNVDA",
+    "decimals": 18,
+    "chainId": 1,
+    "logoURI": "https://assets.coingecko.com/coins/images/38911/standard/bNVDA_200p.png?1740041447"
+  },
+  {
+    "name": "Wrapped Backed NVIDIA",
+    "address": "0x7E8101A1C322D394b3961498c7D40d2DFA94C392",
+    "symbol": "wbNVDA",
+    "decimals": 18,
+    "chainId": 1,
+    "logoURI": "https://assets.coingecko.com/coins/images/38911/standard/bNVDA_200p.png?1740041447"
+  },
+  {
+    "name": "Backed Strategy",
+    "address": "0xaC28C9178ACc8BA4A11A29E013a3A2627086e422",
+    "symbol": "bMSTR",
+    "decimals": 18,
+    "chainId": 1,
+    "logoURI": "https://assets.coingecko.com/coins/images/38914/standard/bMSTR_200p.png?1740041420"
+  },
+  {
+    "name": "Wrapped Backed Strategy",
+    "address": "0x1a4F71B0Ff3C22540887bcf83b50054a213c673d",
+    "symbol": "wbMSTR",
+    "decimals": 18,
+    "chainId": 1,
+    "logoURI": "https://assets.coingecko.com/coins/images/38914/standard/bMSTR_200p.png?1740041420"
   },
   {
     "name": "MAGIC",
@@ -352,6 +416,14 @@
     "symbol": "PEPE"
   },
   {
+    "address": "0x385d65ed9241e415cfc689c3e0bcf5ab2f0505c2",
+    "chainId": 1,
+    "logoURI": "https://s2.coinmarketcap.com/static/img/coins/64x64/31642.png",
+    "decimals": 18,
+    "name": "MollarsToken",
+    "symbol": "MOLLARS"
+  },
+  {
     "address": "0x419D0d8BdD9aF5e606Ae2232ed285Aff190E711b",
     "chainId": 1,
     "logoURI": "https://static.debank.com/image/eth_token/logo_url/0x419d0d8bdd9af5e606ae2232ed285aff190e711b/17e38a53283964d43bba3be951edcb26.png",
@@ -398,7 +470,7 @@
     "decimals": 18,
     "chainId": 1,
     "logoURI": "https://assets.coingecko.com/coins/images/51055/standard/mbtc.png?1729875716"
-  },  
+  },
   {
     "name": "Fluid",
     "address": "0x6f40d4A6237C257fff2dB00FA0510DeEECd303eb",
@@ -422,5 +494,21 @@
     "decimals": 18,
     "chainId": 1,
     "logoURI": "https://etherscan.io/token/images/liftdollar_32.png"
+  },
+  {
+    "name": "USDS",
+    "address": "0xdc035d45d973e3ec169d2276ddab16f1e407384f",
+    "chainId": 1,
+    "symbol": "USDS",
+    "decimals": 18,
+    "logoURI": "https://assets.coingecko.com/coins/images/39926/standard/usds.webp?1726666683"
+  },
+  {
+    "name": "Wrapped PAW",
+    "address": "0xc11158c5da9db1d553ed28f0c2ba1cbedd42cfcb",
+    "symbol": "wPAW",
+    "chainId": 1,
+    "decimals": 18,
+    "logoURI": "https://assets.coingecko.com/coins/images/28946/standard/PAW.png?1738485222"
   }
 ]

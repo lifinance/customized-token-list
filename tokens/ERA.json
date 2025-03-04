@@ -30,5 +30,29 @@
     "decimals": 6,
     "name": "USD Coin",
     "logoURI": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48/logo.png"
+  },
+  {
+    "address": "0x686b311F82b407f0be842652a98e5619F64cC25F",
+    "chainId": 324,
+    "symbol": "ENA",
+    "decimals": 18,
+    "name": "ENA",
+    "logoURI": "https://ethena.fi/shared/ecosystem/ENA.svg"
+  },
+  {
+    "address": "0xAD17Da2f6Ac76746EF261E835C50b2651ce36DA8",
+    "chainId": 324,
+    "symbol": "sUSDe",
+    "decimals": 18,
+    "name": "sUSDe",
+    "logoURI": "https://ethena.fi/shared/ecosystem/sUSDe.svg"
+  },
+  {
+    "address": "0x39Fe7a0DACcE31Bd90418e3e659fb0b5f0B3Db0d",
+    "chainId": 324,
+    "symbol": "USDe",
+    "decimals": 18,
+    "name": "USDe",
+    "logoURI": "https://ethena.fi/shared/usde.svg"
   }
 ]
