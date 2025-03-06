@@ -1,0 +1,10 @@
+[
+  {
+    "address": "0xc43c6bfeda065fe2c4c11765bf838789bd0bb5de", 
+    "chainId": 1, 
+    "logoURI":"https://assets.coingecko.com/coins/images/53640/standard/RedStone_Logo_New_White.png", 
+    "decimals": 18, 
+    "name": "Redstone", 
+    "symbol": "RED"
+  }
+]
