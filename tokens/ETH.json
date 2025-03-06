@@ -510,5 +510,13 @@
     "chainId": 1,
     "decimals": 18,
     "logoURI": "https://assets.coingecko.com/coins/images/28946/standard/PAW.png?1738485222"
+  },
+  {
+    "name": "Redstone",
+    "address": "0xc43c6bfeda065fe2c4c11765bf838789bd0bb5de",
+    "symbol": "RED",
+    "chainId": 1,
+    "decimals": 18,
+    "logoURI": "https://assets.coingecko.com/coins/images/53640/standard/RedStone_Logo_New_White.png"
   }
 ]
