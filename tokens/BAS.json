@@ -360,6 +360,22 @@
     "symbol": "KAITO"
   },
   {
+    "address": "0x04D5ddf5f3a8939889F11E97f8c4BB48317F1938",
+    "chainId": 8453,
+    "logoURI": "https://anzen.finance/usdz-coin-128.png",
+    "decimals": 18,
+    "name": "Anzen USDz",
+    "symbol": "USDz"
+  },
+  {
+    "address": "0xe31eE12bDFDD0573D634124611e85338e2cBF0cF",
+    "chainId": 8453,
+    "logoURI": "https://anzen.finance/susdz-coin-128.png",
+    "decimals": 18,
+    "name": "Anzen Staked USDz",
+    "symbol": "sUSDz"
+  },
+  {
     "address": "0x58538e6A46E07434d7E7375Bc268D3cb839C0133",
     "chainId": 8453,
     "logoURI": "https://ethena.fi/shared/ecosystem/ENA.svg",

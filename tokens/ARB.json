@@ -400,6 +400,22 @@
     "logoURI": "https://etherscan.io/token/images/skysusds_32.svg"
   },
   {
+    "address": "0x5018609AB477cC502e170A5aCcf5312B86a4b94f",
+    "chainId": 42161,
+    "logoURI": "https://anzen.finance/usdz-coin-128.png",
+    "decimals": 18,
+    "name": "Anzen USDz",
+    "symbol": "USDz"
+  },
+  {
+    "address": "0x1B2c29e3897b8F9170c98440A483e90e715C879d",
+    "chainId": 42161,
+    "logoURI": "https://anzen.finance/susdz-coin-128.png",
+    "decimals": 18,
+    "name": "Anzen Staked USDz",
+    "symbol": "sUSDz"
+  },
+  {
     "name": "ENA",
     "address": "0x58538e6A46E07434d7E7375Bc268D3cb839C0133",
     "symbol": "ENA",
