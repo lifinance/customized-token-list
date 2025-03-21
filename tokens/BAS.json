@@ -398,5 +398,13 @@
     "decimals": 18,
     "name": "USDtb",
     "symbol": "USDtb"
-  }
+  },
+    {
+      "address": "0xc08Cd26474722cE93F4D0c34D16201461c10AA8C", 
+      "chainId": 8453, 
+      "logoURI":"https://assets.coingecko.com/coins/images/37689/standard/CARV_%281%29.png", 
+      "decimals": 18, 
+      "name": "CARV", 
+      "symbol": "CARV"
+    }  
 ]
