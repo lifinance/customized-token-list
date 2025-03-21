@@ -2,9 +2,113 @@
     {
         "chainId": 1868,
         "address": "0x0000000000000000000000000000000000000000",
-        "symbol": "ETH",
         "name": "ETH",
+        "symbol": "ETH",
         "decimals": 18,
-        "logoURI": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2/logo.png"
+        "logoURI": "https://img.sonex.so/eth-logo.png"
+    },
+    {
+        "chainId": 1868,
+        "address": "0x4200000000000000000000000000000000000006",
+        "name": "Wrapped Ethereum",
+        "symbol": "WETH",
+        "decimals": 18,
+        "logoURI": "https://img.sonex.so/weth-logo.png"
+    },
+    {
+        "chainId": 1868,
+        "address": "0xbA9986D2381edf1DA03B0B9c1f8b00dc4AacC369",
+        "name": "Bridged USDC",
+        "symbol": "USDC.e",
+        "decimals": 6,
+        "logoURI": "https://img.sonex.so/usdc-logo.png"
+    },
+    {
+        "chainId": 1868,
+        "address": "0x3A337a6adA9d885b6Ad95ec48F9b75f197b5AE35",
+        "name": "Tether USD",
+        "symbol": "USDT",
+        "decimals": 6,
+        "logoURI": "https://img.sonex.so/usdt-logo.png"
+    },
+    {
+        "chainId": 1868,
+        "address": "0x2CAE934a1e84F693fbb78CA5ED3B0A6893259441",
+        "name": "Astar Token",
+        "symbol": "ASTR",
+        "decimals": 18,
+        "logoURI": "https://img.sonex.so/astar-logo.png"
+    },
+    {
+        "chainId": 1868,
+        "address": "0x6c460b2c6D6719562D5dA43E5152B375e79B9A8B",
+        "name": "pufETH",
+        "symbol": "pufETH",
+        "decimals": 18,
+        "logoURI": "https://img.sonex.so/pufETH-logo.png"
+    },
+    {
+        "chainId": 1868,
+        "address": "0x3b0DC2daC9498A024003609031D973B1171dE09E",
+        "name": "Warpped stASTR",
+        "symbol": "wstASTR",
+        "decimals": 18,
+        "logoURI": "https://img.sonex.so/wstASTR-logo.png"
+    },
+    {
+        "chainId": 1868,
+        "address": "0x541FD749419CA806a8bc7da8ac23D346f2dF8B77",
+        "name": "SolvBTC",
+        "symbol": "SolvBTC",
+        "decimals": 18,
+        "logoURI": "https://img.sonex.so/solvBTC-logo.svg"
+    },
+    {
+        "chainId": 1868,
+        "address": "0xCC0966D8418d412c599A6421b760a847eB169A8c",
+        "name": "SolvBTC.BBN",
+        "symbol": "SolvBTC.BBN",
+        "decimals": 18,
+        "logoURI": "https://img.sonex.so/solvBTCBBN-logo.png"
+    },
+    {
+        "chainId": 1868,
+        "address": "0x0555E30da8f98308EdB960aa94C0Db47230d2B9c",
+        "name": "WBTC",
+        "symbol": "WBTC",
+        "decimals": 8,
+        "logoURI": "https://img.sonex.so/WBTC-logo.svg"
+    },
+    {
+        "chainId": 1868,
+        "address": "0x2fc9a87b1ef46dCDdF4801C36d752E0d5F243E4b",
+        "name": "Neemo ReStaked Ether",
+        "symbol": "nrETH",
+        "decimals": 18,
+        "logoURI": "https://img.sonex.so/nrETH-logo.png"
+    },
+    {
+        "chainId": 1868,
+        "address": "0xc67476893C166c537afd9bc6bc87b3f228b44337",
+        "name": "Neemo Staked Astar",
+        "symbol": "nsASTR",
+        "decimals": 18,
+        "logoURI": "https://img.sonex.so/nsASTR-logo.png"
+    },
+    {
+        "chainId": 1868,
+        "address": "0x60336f9296C79dA4294A19153eC87F8E52158e5F",
+        "name": "Bifrost Voucher ASTR",
+        "symbol": "vASTR",
+        "decimals": 18,
+        "logoURI": "https://img.sonex.so/vastr-logo.svg"
+    },
+    {
+        "chainId": 1868,
+        "address": "0xea1e08A176528e2d7250a6F7001F18EDF0CaeCF0",
+        "name": "Algem xnASTR",
+        "symbol": "xnASTR",
+        "decimals": 18,
+        "logoURI": "https://img.sonex.so/xnASTR-logo.png"
     }
 ]
