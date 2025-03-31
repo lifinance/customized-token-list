@@ -430,5 +430,13 @@
     "decimals": 18,
     "chainId": 42161,
     "logoURI": "https://ethena.fi/shared/usdtb.svg"
+  },
+  {
+    "name": "Kinto",
+    "symbol": "K",
+    "address": "0x010700AB046Dd8e92b0e3587842080Df36364ed3", 
+    "decimals": 18, 
+    "chainId": 42161, 
+    "logoURI":"https://assets.coingecko.com/coins/images/54964/standard/k200.png"
   }
 ]
