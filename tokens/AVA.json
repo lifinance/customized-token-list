@@ -222,5 +222,13 @@
     "decimals": 18,
     "name": "COQINU",
     "symbol": "COQ"
+  },
+  {
+    "address": "0x18cFFCBb1Ea17Ae665DFD44E6464F09d8618d8CD",
+    "chainId": 43114,
+    "logoURI": "https://www.geckoterminal.com/_next/image?url=https%3A%2F%2Fassets.geckoterminal.com%2F8h8ekfh149dgpzczdns5yprtjbln&w=256&q=100",
+    "decimals": 18,
+    "name": "AuTistiC BoYs CLub",
+    "symbol": "ABC"
   }
 ]
