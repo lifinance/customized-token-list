@@ -493,7 +493,7 @@
     "symbol": "USDL",
     "decimals": 18,
     "chainId": 1,
-    "logoURI": "https://etherscan.io/token/images/liftdollar_32.png"
+    "logoURI": "https://raw.githubusercontent.com/lifinance/types/main/src/assets/icons/tokens/USDL.svg"
   },
   {
     "address": "0xa469b7ee9ee773642b3e93e842e5d9b5baa10067",
