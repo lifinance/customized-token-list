@@ -15,8 +15,8 @@ importers:
         specifier: ^0.9.0
         version: 0.9.0
       '@lifi/types':
-        specifier: ^17.7.1
-        version: 17.7.1(typescript@5.7.2)
+        specifier: ^17.11.0
+        version: 17.11.0(typescript@5.7.2)
       '@types/jest':
         specifier: ^29.5.3
         version: 29.5.14
@@ -381,8 +381,8 @@ packages:
   '@jridgewell/trace-mapping@0.3.25':
     resolution: {integrity: sha512-vNk6aEwybGtawWmy/PzwnGDOjCkLWSD2wqvjGGAgOAwCGWySYXfYoxt00IJkTF+8Lb57DwOb3Aa0o9CApepiYQ==}
 
-  '@lifi/types@17.7.1':
-    resolution: {integrity: sha512-mCOvcMcaooarb4k6w7WjMVjAHUi7xod7Jn/Mu85hQ7fQ46OxwDO24OXB9ht9XLGLxD4c6jWGMhlgUtmtPNwmLQ==}
+  '@lifi/types@17.11.0':
+    resolution: {integrity: sha512-NJRMJGj/m1aZXzB0E+wgcN1cxuaS2xRxRzCqgSQ99tjIfyDWzlMdYvs+CH2PbqUh++jRNiUxrFmWMwbPktMPBg==}
 
   '@noble/curves@1.8.1':
     resolution: {integrity: sha512-warwspo+UYUPep0Q+vtdVB4Ugn8GGQj8iyB3gnRWsztmUHTI3S1nhdiWNsPUGL0vud7JlRRk1XEu7Lq1KGTnMQ==}
@@ -1509,8 +1509,8 @@ packages:
     resolution: {integrity: sha512-kiGUalWN+rgBJ/1OHZsBtU4rXZOfj/7rKQxULKlIzwzQSvMJUUNgPwJEEh7gU6xEVxC0ahoOBvN2YI8GH6FNgA==}
     engines: {node: '>=10.12.0'}
 
-  viem@2.23.12:
-    resolution: {integrity: sha512-zq2mL4KcUfpVMLMaKjwzRG3akjjVUo9AhaNohrQ86ufltX1aUxapE+Z6YQ0U6F6MBQEMBgLiFTWgalgVDWqQyQ==}
+  viem@2.26.2:
+    resolution: {integrity: sha512-+yXSl1n+jV/Kn/zpETiNq0WOcINXti29nxdPIONvvNh+Es0VfeusW8bb2okVfa55pmuc8kOCOpB5wq3ZIUCTSA==}
     peerDependencies:
       typescript: '>=5.0.4'
     peerDependenciesMeta:
@@ -2021,9 +2021,9 @@ snapshots:
       '@jridgewell/resolve-uri': 3.1.2
       '@jridgewell/sourcemap-codec': 1.5.0
 
-  '@lifi/types@17.7.1(typescript@5.7.2)':
+  '@lifi/types@17.11.0(typescript@5.7.2)':
     dependencies:
-      viem: 2.23.12(typescript@5.7.2)
+      viem: 2.26.2(typescript@5.7.2)
     transitivePeerDependencies:
       - bufferutil
       - typescript
@@ -3288,7 +3288,7 @@ snapshots:
       '@types/istanbul-lib-coverage': 2.0.6
       convert-source-map: 2.0.0
 
-  viem@2.23.12(typescript@5.7.2):
+  viem@2.26.2(typescript@5.7.2):
     dependencies:
       '@noble/curves': 1.8.1
       '@noble/hashes': 1.7.1
