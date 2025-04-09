@@ -1,0 +1,10 @@
+[
+  {
+    "address": "0x5d3a1ff2b6bab83b63cd9ad0787074081a52ef34",
+    "chainId": 1923,
+    "symbol": "USDe",
+    "decimals": 18,
+    "name": "USDe",
+    "logoURI": "https://static.debank.com/image/eth_token/logo_url/0x4c9edd5852cd905f086c759e8383e09bff1e68b3/734064e545eabfc501b9d0e752644b7d.png"
+  }
+]
