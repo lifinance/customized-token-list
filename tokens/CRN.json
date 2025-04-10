@@ -1,0 +1,34 @@
+[
+  {
+    "address": "0x44f49ff0da2498bcb1d3dc7c0f999578f67fd8c6",
+    "chainId": 21000000,
+    "symbol": "CORN",
+    "decimals": 18,
+    "name": "Corn",
+    "logoURI": "https://static.debank.com/image/corn_token/logo_url/0x44f49ff0da2498bcb1d3dc7c0f999578f67fd8c6/2ac7405fee5fdeee5964ba0bcf2216f4.png"
+  },
+  {
+    "address": "0xb8ce59fc3717ada4c02eadf9682a9e934f625ebb",
+    "chainId": 21000000,
+    "symbol": "USDTO",
+    "decimals": 6,
+    "name": "USD₮0",
+    "logoURI": "https://static.debank.com/image/ink_token/logo_url/0x0200c29006150606b650577bbe7b6248f58470c1/8bba37fddc2774e06a94b8952e3e3ad7.png"
+  },
+  {
+    "address": "0xecac9c5f704e954931349da37f60e39f515c11c1",
+    "chainId": 21000000,
+    "symbol": "LBTC",
+    "decimals": 8,
+    "name": "Lombard Staked Bitcoin",
+    "logoURI": "https://static.debank.com/image/corn_token/logo_url/0xecac9c5f704e954931349da37f60e39f515c11c1/fb1b1e3acbf982e46618edc9e4fa09b7.png"
+  },
+  {
+    "address": "0xdf0b24095e15044538866576754f3c964e902ee6",
+    "chainId": 21000000,
+    "symbol": "USDC.e",
+    "decimals": 6,
+    "name": "Bridged USDC (Corn)",
+    "logoURI": "https://static.debank.com/image/coin/logo_url/usdc/e87790bfe0b3f2ea855dc29069b38818.png"
+  }
+]
