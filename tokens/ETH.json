@@ -534,5 +534,13 @@
     "chainId": 1,
     "decimals": 18,
     "logoURI": "https://assets.coingecko.com/coins/images/53640/standard/RedStone_Logo_New_White.png"
+  },
+  {
+    "name": "Cryptex",
+    "address": "0x321C2fE4446C7c963dc41Dd58879AF648838f98D",
+    "symbol": "CTX",
+    "chainId": 1,
+    "decimals": 18,
+    "logoURI": "https://assets.coingecko.com/coins/images/14932/standard/CTX_Logo_200px.png"
   }
 ]
