@@ -406,5 +406,13 @@
       "decimals": 18, 
       "name": "CARV", 
       "symbol": "CARV"
-    }  
+    },
+    {
+      "address": "0x047157CfFB8841A64DB93fd4E29fA3796B78466c", 
+      "chainId": 8453, 
+      "logoURI":"https://i.imgur.com/YzsH0wr.png",
+      "decimals": 18,
+      "name": "Scout Protocol Token", 
+      "symbol": "DEV"
+    }
 ]
