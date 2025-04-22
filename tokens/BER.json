@@ -14,5 +14,21 @@
         "decimals": 18,
         "name": "RAMEN",
         "logoURI": "https://i.imgur.com/zz0hIaY.png"
+    },
+    {
+        "address": "0x211Cc4DD073734dA055fbF44a2b4667d5E5fE5d2",
+        "chainId": 80094,
+        "symbol": "sUSDe",
+        "decimals": 18,
+        "name": "sUSDe",
+        "logoURI": "https://ethena.fi/shared/ecosystem/sUSDe.svg"
+    },
+    {
+        "address": "0x5d3a1Ff2b6BAb83b63cd9AD0787074081a52ef34",
+        "chainId": 80094,
+        "symbol": "USDe",
+        "decimals": 18,
+        "name": "USDe",
+        "logoURI": "https://ethena.fi/shared/usde.svg"
     }
 ]
