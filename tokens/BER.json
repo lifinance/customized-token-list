@@ -22,13 +22,13 @@
         "decimals": 18,
         "name": "sUSDe",
         "logoURI": "https://ethena.fi/shared/ecosystem/sUSDe.svg"
-      },
-      {
+    },
+    {
         "address": "0x5d3a1Ff2b6BAb83b63cd9AD0787074081a52ef34",
         "chainId": 80094,
         "symbol": "USDe",
         "decimals": 18,
         "name": "USDe",
         "logoURI": "https://ethena.fi/shared/usde.svg"
-      }
+    }
 ]
