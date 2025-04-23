@@ -408,6 +408,22 @@
     "symbol": "CARV"
   },
   {
+    "address": "0x047157CfFB8841A64DB93fd4E29fA3796B78466c",
+    "chainId": 8453,
+    "logoURI": "https://i.imgur.com/YzsH0wr.png",
+    "decimals": 18,
+    "name": "Scout Protocol Token",
+    "symbol": "DEV"
+  },
+  {
+    "address": "0xbb22ff867f8ca3d5f2251b4084f6ec86d4666e14",
+    "chainId": 8453,
+    "logoURI": "https://assets.coingecko.com/coins/images/14932/standard/CTX_Logo_200px.png",
+    "decimals": 18,
+    "name": "Cryptex",
+    "symbol": "CTX"
+  },
+  {
     "address": "0x1111111111166b7FE7bd91427724B487980aFc69",
     "chainId": 8453,
     "logoURI": "https://storage.googleapis.com/zapper-fi-assets/tokens/base/0xb82181d2122843414c95a0942810b1ef9799bd8e.png",
