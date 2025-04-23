@@ -310,5 +310,13 @@
     "decimals": 18,
     "name": "USDe",
     "logoURI": "https://ethena.fi/shared/usde.svg"
+  },
+  {
+    "address": "0x12b4356c65340fb02cdff01293f95febb1512f3b",
+    "chainId": 56,
+    "symbol": "BROCCOLI",
+    "decimals": 18,
+    "name": "Broccoli",
+    "logoURI": "https://assets.coingecko.com/coins/images/54448/standard/Broccoli.jpg?1742023175"
   }
 ]
