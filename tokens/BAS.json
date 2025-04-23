@@ -402,17 +402,17 @@
   {
     "address": "0xc08Cd26474722cE93F4D0c34D16201461c10AA8C",
     "chainId": 8453,
-    "logoURI":"https://assets.coingecko.com/coins/images/37689/standard/CARV_%281%29.png",
+    "logoURI": "https://assets.coingecko.com/coins/images/37689/standard/CARV_%281%29.png",
     "decimals": 18,
     "name": "CARV",
     "symbol": "CARV"
   },
   {
-    "address": "0x047157CfFB8841A64DB93fd4E29fA3796B78466c", 
-    "chainId": 8453, 
-    "logoURI":"https://i.imgur.com/YzsH0wr.png",
+    "address": "0x047157CfFB8841A64DB93fd4E29fA3796B78466c",
+    "chainId": 8453,
+    "logoURI": "https://i.imgur.com/YzsH0wr.png",
     "decimals": 18,
-    "name": "Scout Protocol Token", 
+    "name": "Scout Protocol Token",
     "symbol": "DEV"
   },
   {
@@ -422,5 +422,13 @@
     "decimals": 18,
     "name": "Cryptex",
     "symbol": "CTX"
+  },
+  {
+    "address": "0x1111111111166b7FE7bd91427724B487980aFc69",
+    "chainId": 8453,
+    "logoURI": "https://storage.googleapis.com/zapper-fi-assets/tokens/base/0xb82181d2122843414c95a0942810b1ef9799bd8e.png",
+    "decimals": 18,
+    "name": "Zora",
+    "symbol": "ZORA"
   }
 ]
