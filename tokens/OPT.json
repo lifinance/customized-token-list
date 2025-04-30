@@ -142,5 +142,13 @@
     "decimals": 18,
     "name": "sUSDe",
     "logoURI": "https://ethena.fi/shared/ecosystem/sUSDe.svg"
+  },
+  {
+    "chainId": 10,
+    "address": "0x76A50b8c7349cCDDb7578c6627e79b5d99D24138",
+    "symbol": "stETH",
+    "name": "Liquid staked Ether 2.0",
+    "decimals": 18,
+    "logoURI": "https://assets.coingecko.com/coins/images/13442/standard/steth_logo.png"
   }
 ]
