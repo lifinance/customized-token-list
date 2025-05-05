@@ -1,0 +1,10 @@
+[
+  {
+    "chainId": 130,
+    "address": "0x81f2508AAC59757EF7425DDc9717AB5c2AA0A84F", 
+    "symbol": "stETH",
+    "name": "Liquid staked Ether 2.0",
+    "decimals": 18,
+    "logoURI": "https://assets.coingecko.com/coins/images/13442/standard/steth_logo.png?1696513206"
+  }
+]
