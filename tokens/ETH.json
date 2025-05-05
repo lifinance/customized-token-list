@@ -550,5 +550,13 @@
     "chainId": 1,
     "decimals": 18,
     "logoURI": "https://assets.coingecko.com/coins/images/54710/standard/DOLO-small.png"
+  },
+  {
+    "name": "Obol",
+    "address": "0x0b010000b7624eb9b3dfbc279673c76e9d29d5f7",
+    "symbol": "OBOL",
+    "chainId": 1,
+    "decimals": 18,
+    "logoURI": "https://assets.coingecko.com/coins/images/53827/standard/Primary_Icon-Circle_LightBG.png"
   }
 ]
