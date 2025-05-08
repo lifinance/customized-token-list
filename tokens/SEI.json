@@ -22,5 +22,13 @@
     "decimals": 8,
     "name": "Wrapped BTC",
     "logoURI": "https://static.debank.com/image/eth_token/logo_url/0x2260fac5e5542a773aa44fbcfedf7c193bc2c599/d3c52e7c7449afa8bd4fad1c93f50d93.png"
+  },
+  {
+    "chainId": 1329,
+    "address": "0x9151434b16b9763660705744891fA906F660EcC5",
+    "symbol": "USDT",
+    "name": "USDT0",
+    "decimals": 6,
+    "logoURI": "https://raw.githubusercontent.com/Seitrace/sei-assetlist/main/images/usdt0.png"
   }
 ]
