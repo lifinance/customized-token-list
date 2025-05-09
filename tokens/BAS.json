@@ -430,5 +430,21 @@
     "decimals": 18,
     "name": "Zora",
     "symbol": "ZORA"
+  },
+  {
+    "address": "0x091A5Abe6616e26268e5eEcFF256c2212fcE2707",
+    "chainId": 8453,
+    "logoURI": "https://assets.coingecko.com/coins/images/55435/standard/bondETH.png",
+    "decimals": 18,
+    "name": "Plaza BondETH",
+    "symbol": "BondETH"
+  },
+  {
+    "address": "0x091A5A1e3aa8B96Ab0FB0bC217F5E60Ec4C611a0",
+    "chainId": 8453,
+    "logoURI": "https://assets.coingecko.com/coins/images/55436/standard/levETH.png",
+    "decimals": 18,
+    "name": "Plaza LevETH",
+    "symbol": "LevETH"
   }
 ]
