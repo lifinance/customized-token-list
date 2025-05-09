@@ -30,5 +30,13 @@
         "decimals": 18,
         "name": "USDe",
         "logoURI": "https://ethena.fi/shared/usde.svg"
+    },
+    {
+        "address": "0xac03CABA51e17c86c921E1f6CBFBdC91F8BB2E6b",
+        "chainId": 80094,
+        "symbol": "IBGT",
+        "decimals": 18,
+        "name": "Infrared BGT",
+        "logoURI": "https://berascan.com/token/images/ibgt_64.svg"
     }
 ]
