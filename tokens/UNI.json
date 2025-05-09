@@ -6,5 +6,13 @@
     "name": "Liquid staked Ether 2.0",
     "decimals": 18,
     "logoURI": "https://assets.coingecko.com/coins/images/13442/standard/steth_logo.png?1696513206"
+  },
+  {
+    "chainId": 130,
+    "address": "0x9151434b16b9763660705744891fA906F660EcC5", 
+    "symbol": "USD₮0",
+    "name": "USD₮0",
+    "decimals": 6,
+    "logoURI": "https://uniscan.xyz/token/images/usdt0_64.png"
   }
 ]
