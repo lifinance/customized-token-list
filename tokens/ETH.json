@@ -550,5 +550,13 @@
     "chainId": 1,
     "decimals": 18,
     "logoURI": "https://assets.coingecko.com/coins/images/54710/standard/DOLO-small.png"
+  },
+  {
+    "name": "PAIRS",
+    "address": "0xfb70859efec2ceb84dd4935a0842aa69290020bc",
+    "symbol": "PAIRS",
+    "chainId": 1,
+    "decimals": 18,
+    "logoURI": "https://cdn.pairs.xyz/pairs-token-logo.svg"
   }
 ]
