@@ -282,6 +282,7 @@
   },
   {
     "address": "0x44017598f2AF1bD733F9D87b5017b4E7c1B28DDE",
-    "chainId": 1
+    "chainId": 1,
+    "reason": "token is in paused state"
   }
 ]
