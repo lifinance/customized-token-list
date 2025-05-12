@@ -279,5 +279,9 @@
     "address": "0xd69f306549e9d96f183b1aeca30b8f4353c2ecc3",
     "chainId": 1,
     "reason": "uint96 approvals do not allow max approval"
+  },
+  {
+    "address": "0x44017598f2AF1bD733F9D87b5017b4E7c1B28DDE",
+    "chainId": 1
   }
 ]
