@@ -12,7 +12,7 @@
     "chainId": 1135,
     "symbol": "USDT0",
     "decimals": 6,
-    "name": "USD₮0",
+    "name": "Stargate USD₮0 (Bridged)",
     "logoURI": "https://raw.githubusercontent.com/lifinance/types/main/src/assets/icons/tokens/USDT0.svg"
   }
 ]
