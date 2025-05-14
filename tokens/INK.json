@@ -1,0 +1,10 @@
+{
+  {
+    "name": "USD₮0",
+    "symbol": "USD₮0",
+    "address": "0x0200C29006150606B650577BBE7B6248F58470c1",
+    "decimals": 6,
+    "chainId": 57073,
+    "logoURI": "https://arbiscan.io/token/images/usdt0_64.png"
+  }
+}
