@@ -30,5 +30,13 @@
     "name": "USDT0",
     "decimals": 6,
     "logoURI": "https://raw.githubusercontent.com/Seitrace/sei-assetlist/main/images/usdt0.png"
+  },
+  {
+    "chainId": 1329,
+    "address": "0xB75D0B03c06A926e488e2659DF1A861F860bD3d1",
+    "symbol": "kavaUSDT",
+    "name": "IBC Bridged USDT",
+    "decimals": 6,
+    "logoURI": "https://raw.githubusercontent.com/Seitrace/sei-assetlist/main/images/kavaUSDT.png"
   }
 ]
