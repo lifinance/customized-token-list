@@ -1,7 +1,7 @@
 [
     {
       "chainId": 9270000000000000,
-      "address": "0xdba34672e30cb065b1f93e3ab55318768fd6fef66c15942c9f7cb846e2f900e7::usdc::USDC", // Blue chip USDC 650M cap https://suivision.xyz/coin/0xdba34672e30cb065b1f93e3ab55318768fd6fef66c15942c9f7cb846e2f900e7::usdc::USDC
+      "address": "0xdba34672e30cb065b1f93e3ab55318768fd6fef66c15942c9f7cb846e2f900e7::usdc::USDC", 
       "symbol": "USDC",
       "name": "USDC",
       "decimals": 6,
@@ -10,7 +10,7 @@
     },
     {
       "chainId": 9270000000000000,
-      "address": "0x5d4b302506645c37ff133b98c4b50a5ae14841659738d6d733d59d0d217a93bf::coin::COIN", // Wormhole wUSDC 30M cap https://suivision.xyz/coin/0x5d4b302506645c37ff133b98c4b50a5ae14841659738d6d733d59d0d217a93bf::coin::COIN
+      "address": "0x5d4b302506645c37ff133b98c4b50a5ae14841659738d6d733d59d0d217a93bf::coin::COIN", 
       "symbol": "wUSDC",
       "name": "Wormhole USDC",
       "decimals": 6,
@@ -18,7 +18,7 @@
     },
     {
       "chainId": 9270000000000000,
-      "address": "0xb231fcda8bbddb31f2ef02e6161444aec64a514e2c89279584ac9806ce9cf037::coin::COIN", // USDCsol 600k cap https://suivision.xyz/coin/0xb231fcda8bbddb31f2ef02e6161444aec64a514e2c89279584ac9806ce9cf037::coin::COIN
+      "address": "0xb231fcda8bbddb31f2ef02e6161444aec64a514e2c89279584ac9806ce9cf037::coin::COIN", 
       "symbol": "USDCsol",
       "name": "Bridged USDC (Wormhole Solana)",
       "decimals": 6,
@@ -26,7 +26,7 @@
     },
     {
       "chainId": 9270000000000000,
-      "address": "0xe32d3ebafa42e6011b87ef1087bbc6053b499bf6f095807b9013aff5a6ecd7bb::coin::COIN", // USDCarb 1M cap https://suivision.xyz/coin/0xe32d3ebafa42e6011b87ef1087bbc6053b499bf6f095807b9013aff5a6ecd7bb::coin::COIN
+      "address": "0xe32d3ebafa42e6011b87ef1087bbc6053b499bf6f095807b9013aff5a6ecd7bb::coin::COIN", 
       "symbol": "USDCarb",
       "name": "Bridged USDC (Wormhole Arbitrum)",
       "decimals": 6,
@@ -34,7 +34,7 @@
     },
     {
       "chainId": 9270000000000000,
-      "address": "0x909cba62ce96d54de25bec9502de5ca7b4f28901747bbf96b76c2e63ec5f1cba::coin::COIN", // USDCbnb 600k cap https://suivision.xyz/coin/0x909cba62ce96d54de25bec9502de5ca7b4f28901747bbf96b76c2e63ec5f1cba::coin::COIN
+      "address": "0x909cba62ce96d54de25bec9502de5ca7b4f28901747bbf96b76c2e63ec5f1cba::coin::COIN", 
       "symbol": "USDCbnb",
       "name": "Bridged USDC (Wormhole BNB)",
       "decimals": 8,
@@ -42,7 +42,7 @@
     },
     {
       "chainId": 9270000000000000,
-      "address": "0xcf72ec52c0f8ddead746252481fb44ff6e8485a39b803825bde6b00d77cdb0bb::coin::COIN", // USDCpol 90k cap https://suivision.xyz/coin/0xcf72ec52c0f8ddead746252481fb44ff6e8485a39b803825bde6b00d77cdb0bb::coin::COIN
+      "address": "0xcf72ec52c0f8ddead746252481fb44ff6e8485a39b803825bde6b00d77cdb0bb::coin::COIN", 
       "symbol": "USDCpol",
       "name": "Bridged USDC (Wormhole Polygon)",
       "decimals": 6,
@@ -50,7 +50,7 @@
     },
     {
       "chainId": 9270000000000000,
-      "address": "0x94e7a8e71830d2b34b3edaa195dc24c45d142584f06fa257b73af753d766e690::celer_usdc_coin::CELER_USDC_COIN", // cUSDCe 120k cap https://suivision.xyz/coin/0x94e7a8e71830d2b34b3edaa195dc24c45d142584f06fa257b73af753d766e690::celer_usdc_coin::CELER_USDC_COIN
+      "address": "0x94e7a8e71830d2b34b3edaa195dc24c45d142584f06fa257b73af753d766e690::celer_usdc_coin::CELER_USDC_COIN", 
       "symbol": "cUSDCe",
       "name": "Bridged USDC (Celer Ethereum)",
       "decimals": 6,
