@@ -10,9 +10,9 @@
   {
     "address": "0xb8ce59fc3717ada4c02eadf9682a9e934f625ebb",
     "chainId": 21000000,
-    "symbol": "USDTO",
+    "symbol": "USD₮0",
     "decimals": 6,
-    "name": "USD₮0",
+    "name": "USDT0",
     "logoURI": "https://static.debank.com/image/ink_token/logo_url/0x0200c29006150606b650577bbe7b6248f58470c1/8bba37fddc2774e06a94b8952e3e3ad7.png"
   },
   {

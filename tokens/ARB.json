@@ -446,5 +446,13 @@
     "decimals": 18,
     "chainId": 42161,
     "logoURI": "https://assets.coingecko.com/coins/images/14932/standard/CTX_Logo_200px.png"
+  },
+  {
+    "name": "USDT0",
+    "symbol": "USD₮0",
+    "address": "0xFd086bC7CD5C481DCC9C85ebE478A1C0b69FCbb9",
+    "decimals": 6,
+    "chainId": 42161,
+    "logoURI": "https://arbiscan.io/token/images/usdt0_64.png"
   }
 ]
