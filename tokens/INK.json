@@ -1,4 +1,4 @@
-{
+[
   {
     "name": "USDT0",
     "symbol": "USD₮0",
@@ -7,4 +7,4 @@
     "chainId": 57073,
     "logoURI": "https://arbiscan.io/token/images/usdt0_64.png"
   }
-}
+]
