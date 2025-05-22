@@ -14,6 +14,14 @@ export default [
     language: 'json/jsonc',
     ...json.configs.recommended,
   },
+  // so we can use sui chainId, because it exceeds max integer value
+  {
+    files: ['tokens/**/*.json', 'denyTokens/**/*.json'],
+    language: 'json/jsonc',
+    rules: {
+      'json/no-unsafe-values': 'off',
+    },
+  },
   {
     ignores: ['.github'],
   },

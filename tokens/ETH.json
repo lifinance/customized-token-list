@@ -558,5 +558,21 @@
     "chainId": 1,
     "decimals": 18,
     "logoURI": "https://assets.coingecko.com/coins/images/53827/standard/Primary_Icon-Circle_LightBG.png"
+  },
+  {
+    "address": "0xae7ab96520DE3A18E5e111B5EaAb095312D7fE84", 
+    "symbol": "stETH",
+    "name": "Liquid staked Ether 2.0",
+    "chainId": 1,
+    "decimals": 18,
+    "logoURI": "https://assets.coingecko.com/coins/images/13442/standard/steth_logo.png?1696513206"
+  },
+  {
+    "name": "PAIRS",
+    "address": "0xfb70859efec2ceb84dd4935a0842aa69290020bc",
+    "symbol": "PAIRS",
+    "chainId": 1,
+    "decimals": 18,
+    "logoURI": "https://cdn.pairs.xyz/pairs-token-logo.svg"
   }
 ]
