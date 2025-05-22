@@ -6,5 +6,13 @@
     "decimals": 2,
     "name": "IDRX",
     "logoURI": "https://assets.coingecko.com/coins/images/34883/standard/IDRX_BLUE_COIN_200x200.png?1734983273"
+  },
+  {
+    "address": "0x43F2376D5D03553aE72F4A8093bbe9de4336EB08",
+    "chainId": 1135,
+    "symbol": "USDT0",
+    "decimals": 6,
+    "name": "Stargate USD₮0 (Bridged)",
+    "logoURI": "https://raw.githubusercontent.com/lifinance/types/main/src/assets/icons/tokens/USDT0.svg"
   }
 ]
