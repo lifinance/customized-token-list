@@ -434,10 +434,10 @@
   {
     "name": "Kinto",
     "symbol": "K",
-    "address": "0x010700AB046Dd8e92b0e3587842080Df36364ed3", 
-    "decimals": 18, 
-    "chainId": 42161, 
-    "logoURI":"https://assets.coingecko.com/coins/images/54964/standard/k200.png"
+    "address": "0x010700AB046Dd8e92b0e3587842080Df36364ed3",
+    "decimals": 18,
+    "chainId": 42161,
+    "logoURI": "https://assets.coingecko.com/coins/images/54964/standard/k200.png"
   },
   {
     "name": "Cryptex",
@@ -454,5 +454,13 @@
     "decimals": 6,
     "chainId": 42161,
     "logoURI": "https://arbiscan.io/token/images/usdt0_64.png"
+  },
+  {
+    "name": "BOLD Stablecoin",
+    "address": "0x03569CC076654F82679C4BA2124D64774781B01D",
+    "symbol": "BOLD",
+    "chainId": 42161,
+    "decimals": 18,
+    "logoURI": "https://assets.coingecko.com/coins/images/53755/standard/BOLD_logo.png?1737183873"
   }
 ]

@@ -558,5 +558,13 @@
     "chainId": 1,
     "decimals": 18,
     "logoURI": "https://cdn.pairs.xyz/pairs-token-logo.svg"
+  },
+  {
+    "name": "BOLD Stablecoin",
+    "address": "0x6440f144b7e50D6a8439336510312d2F54beB01D",
+    "symbol": "BOLD",
+    "chainId": 1,
+    "decimals": 18,
+    "logoURI": "https://assets.coingecko.com/coins/images/53755/standard/BOLD_logo.png?1737183873"
   }
 ]
