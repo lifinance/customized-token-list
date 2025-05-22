@@ -150,5 +150,13 @@
     "name": "Liquid staked Ether 2.0",
     "decimals": 18,
     "logoURI": "https://assets.coingecko.com/coins/images/13442/standard/steth_logo.png"
+  },
+  {
+    "name": "BOLD Stablecoin",
+    "address": "0x03569CC076654F82679C4BA2124D64774781B01D",
+    "symbol": "BOLD",
+    "chainId": 10,
+    "decimals": 18,
+    "logoURI": "https://assets.coingecko.com/coins/images/53755/standard/BOLD_logo.png?1737183873"
   }
 ]
