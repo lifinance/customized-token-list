@@ -3,15 +3,5 @@
     "chainId": 1151111081099710,
     "address": "DkKY96SB6NPxLGWVigmWMhq7nxRaq7k1V7C54HFYEStr",
     "reason": "Scam USDC token"
-  },
-  {
-    "chainId": 1151111081099710,
-    "address": "2b1kV6DkPAnxd5ixfnxCpjxmKwqjjaYmCZfHsFu24GXo",
-    "reason": "PyUSDC token"
-  },
-  {
-    "chainId": 1151111081099710,
-    "address": "TimiK5V8WczVi6PyjNYoW9eKS6ywNojSaTGEfdNSczF",
-    "reason": "TIMI Capital - a Token-2022 token which we don't support at the moment"
   }
 ]
