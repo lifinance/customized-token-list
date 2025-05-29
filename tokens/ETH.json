@@ -582,5 +582,13 @@
     "chainId": 1,
     "decimals": 18,
     "logoURI": "https://assets.coingecko.com/coins/images/53755/standard/BOLD_logo.png?1737183873"
+  },
+  {
+    "name": "Parallel Governance Token",
+    "address": "0x6c0aeceeDc55c9d55d8B99216a670D85330941c3",
+    "symbol": "PRL",
+    "chainId": 1,
+    "decimals": 18,
+    "logoURI": "https://raw.githubusercontent.com/parallel-protocol/parallel-brand-kit/main/Tokens/PRL/PRL.svg"
   }
 ]
