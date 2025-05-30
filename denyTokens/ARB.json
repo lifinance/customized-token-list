@@ -23,5 +23,10 @@
     "address": "0x99ed7e54ed287f8e603bca5932abfa812eec4f3c",
     "chainId": 42161,
     "reason": "Scam USDC - https://gopluslabs.io/token-security/42161/0x99ED7E54ed287f8e603bcA5932abFA812EEC4f3c"
+  },
+  {
+    "address": "0x087C440F251Ff6Cfe62B86DdE1bE558B95b4bb9b",
+    "chainId": 42161,
+    "reason": "new BOLD token was deployed, so old token is not valid"
   }
 ]

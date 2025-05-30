@@ -8,5 +8,10 @@
     "address": "0x0e7fd21d78b9cd54998d6496483dc24085c9a871",
     "chainId": 8453,
     "reason": "AlfaFrens scam on on Base"
+  },
+  {
+    "address": "0x087C440F251Ff6Cfe62B86DdE1bE558B95b4bb9b",
+    "chainId": 8453,
+    "reason": "new BOLD token was deployed, so old token is not valid"
   }
 ]
