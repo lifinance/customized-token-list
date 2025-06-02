@@ -462,5 +462,13 @@
     "chainId": 8453,
     "decimals": 18,
     "logoURI": "https://raw.githubusercontent.com/parallel-protocol/parallel-brand-kit/main/Tokens/PRL/PRL.svg"
+  },
+  {
+    "name": "PepeBitcoin",
+    "address": "0x31705474c1F2DE7F738E34233c49522CA1E3C53c",
+    "symbol": "PBTC",
+    "chainId": 8453,
+    "decimals": 18,
+    "logoURI": "https://www.pepe-bitcoin.com/media/PBTC_logo_32x32.svg"
   }
 ]
