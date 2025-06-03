@@ -590,5 +590,13 @@
     "chainId": 1,
     "decimals": 18,
     "logoURI": "https://raw.githubusercontent.com/parallel-protocol/parallel-brand-kit/main/Tokens/PRL/PRL.svg"
+  },
+  {
+    "name": "YieldNest",
+    "address": "0x7159cc276D7d17Ab4b3bEb19959E1F39368a45Ba",
+    "symbol": "YND",
+    "chainId": 1,
+    "decimals": 18,
+    "logoURI": "https://assets.coingecko.com/coins/images/66128/standard/ynd.png"
   }
 ]
