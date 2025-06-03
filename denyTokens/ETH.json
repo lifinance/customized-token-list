@@ -284,5 +284,10 @@
     "address": "0x44017598f2AF1bD733F9D87b5017b4E7c1B28DDE",
     "chainId": 1,
     "reason": "token is in paused state"
+  },
+  {
+    "address": "0x087C440F251Ff6Cfe62B86DdE1bE558B95b4bb9b",
+    "chainId": 1,
+    "reason": "new BOLD token was deployed, so old token is not valid"
   }
 ]
