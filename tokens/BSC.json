@@ -318,5 +318,13 @@
     "name": "Wrapped liquid staked Ether 2.0",
     "decimals": 18,
     "logoURI": "https://assets.coingecko.com/coins/images/18834/standard/wstETH.png?1696518295"
+  },
+  {
+    "address": "0xdfBEA88C4842d30c26669602888d746D30F9D60d",
+    "chainId": 56,
+    "logoURI": "https://assets.coingecko.com/coins/images/36067/standard/200px.png?1710405601",
+    "decimals": 18,
+    "name": "crow with knife",
+    "symbol": "CAW"
   }
 ]

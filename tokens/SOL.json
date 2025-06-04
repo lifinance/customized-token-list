@@ -22,5 +22,13 @@
       "decimals": 9,
       "name": "USDe",
       "logoURI": "https://ethena.fi/shared/usde.svg"
-    }
- ]
+    },
+  {
+    "address": "CAW777xcHVTQZ4CRwVQGB8CV1BVKPm5bNVxFJHWFKiH8",
+    "chainId": 1151111081099710,
+    "logoURI": "https://assets.coingecko.com/coins/images/36067/standard/200px.png?1710405601",
+    "decimals": 2,
+    "name": "crow with knife",
+    "symbol": "CAW"
+  }
+]
