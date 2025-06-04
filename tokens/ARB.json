@@ -470,5 +470,13 @@
     "chainId": 42161,
     "decimals": 18,
     "logoURI": "https://raw.githubusercontent.com/parallel-protocol/parallel-brand-kit/main/Tokens/PRL/PRL.svg"
+  },
+  {
+    "address": "0x16f1967565aaD72DD77588a332CE445e7cEF752b",
+    "chainId": 42161,
+    "logoURI": "https://assets.coingecko.com/coins/images/36067/standard/200px.png?1710405601",
+    "decimals": 0,
+    "name": "crow with knife",
+    "symbol": "CAW"
   }
 ]
