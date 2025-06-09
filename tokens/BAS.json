@@ -464,6 +464,14 @@
     "logoURI": "https://raw.githubusercontent.com/parallel-protocol/parallel-brand-kit/main/Tokens/PRL/PRL.svg"
   },
   {
+    "name": "Home",
+    "address": "0x4bfaa776991e85e5f8b1255461cbbd216cfc714f",
+    "symbol": "HOME",
+    "chainId": 8453,
+    "decimals": 18,
+    "logoURI": "https://assets.coingecko.com/coins/images/54873/standard/defi-app.png?1742235743"
+  },
+  {
     "address": "0xdfBEA88C4842d30c26669602888d746D30F9D60d",
     "chainId": 8453,
     "logoURI": "https://assets.coingecko.com/coins/images/36067/standard/200px.png?1710405601",
