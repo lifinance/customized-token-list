@@ -318,5 +318,13 @@
     "name": "Wrapped liquid staked Ether 2.0",
     "decimals": 18,
     "logoURI": "https://assets.coingecko.com/coins/images/18834/standard/wstETH.png?1696518295"
+  },
+  {
+    "chainId": 56,
+    "address": "0x4bfaa776991e85e5f8b1255461cbbd216cfc714f",
+    "symbol": "HOME",
+    "name": "Home",
+    "decimals": 18,
+    "logoURI": "https://assets.coingecko.com/coins/images/54873/standard/defi-app.png?1742235743"
   }
 ]

@@ -22,5 +22,13 @@
       "decimals": 9,
       "name": "USDe",
       "logoURI": "https://ethena.fi/shared/usde.svg"
+    },
+   {
+      "address": "J3umBWqhSjd13sag1E1aUojViWvPYA5dFNyqpKuX3WXj",
+      "chainId": 1151111081099710,
+      "symbol": "HOME",
+      "decimals": 9,
+      "name": "Home",
+      "logoURI": "https://assets.coingecko.com/coins/images/54873/standard/defi-app.png?1742235743"
     }
  ]
