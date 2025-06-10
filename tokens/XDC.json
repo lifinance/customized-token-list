@@ -1,13 +1,5 @@
 [
   {
-    "chainId": 50,
-    "address": "0x951857744785E80e2De051c32EE7b25f9c458C42",
-    "name": "Wrapped XDC",
-    "symbol": "WXDC",
-    "decimals": 18,
-    "logoURI": "https://raw.githubusercontent.com/XSwapProtocol/xdc-token-list/master/assets/0x951857744785E80e2De051c32EE7b25f9c458C42/logo.png"
-  },
-  {
     "name": "Bridged USDC (Stargate)",
     "address": "0xCc0587aeBDa397146cc828b445dB130a94486e74",
     "symbol": "USDC.e",
