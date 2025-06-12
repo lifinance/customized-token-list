@@ -22,5 +22,85 @@
     "decimals":6,
     "chainId": 50,
     "logoURI": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48/logo.png"
+  },
+  {
+    "chainId": 50,
+    "address": "0x9B8e12b0BAC165B86967E771d98B520Ec3F665A6",
+    "name": "PrimeStakedXDC",
+    "symbol": "psXDC",
+    "decimals": 18,
+    "logoURI": "https://raw.githubusercontent.com/XSwapProtocol/xdc-token-list/master/assets/0x9B8e12b0BAC165B86967E771d98B520Ec3F665A6/logo.png"
+  },
+  {
+    "chainId": 50,
+    "address": "0xa7348290de5cf01772479c48D50dec791c3fC212",
+    "name": "WETH",
+    "symbol": "WETH",
+    "decimals": 18,
+    "logoURI": "https://icons-ckg.pages.dev/stargate-light/tokens/weth.svg"
+  },
+  {
+    "chainId": 50,
+    "address": "0x36726235dAdbdb4658D33E62a249dCA7c4B2bC68",
+    "name": "XSP Token",
+    "symbol": "XSP",
+    "decimals": 18,
+    "logoURI": "https://raw.githubusercontent.com/XSwapProtocol/xdc-token-list/master/assets/0x36726235dAdbdb4658D33E62a249dCA7c4B2bC68/logo.png"
+  },
+  {
+    "chainId": 50,
+    "address": "0x5D5f074837f5d4618B3916ba74De1Bf9662a3fEd",
+    "name": "Storx",
+    "symbol": "SRX",
+    "decimals": 18,
+    "logoURI": "https://raw.githubusercontent.com/XSwapProtocol/xdc-token-list/master/assets/0x5D5f074837f5d4618B3916ba74De1Bf9662a3fEd/logo.png"
+  },
+  {
+    "chainId": 50,
+    "address": "0xFf7412Ea7C8445C46a8254dFB557Ac1E48094391",
+    "name": "Plugin",
+    "symbol": "PLI",
+    "decimals": 18,
+    "logoURI": "https://raw.githubusercontent.com/XSwapProtocol/xdc-token-list/master/assets/0xFf7412Ea7C8445C46a8254dFB557Ac1E48094391/logo.png"
+  },
+  {
+    "chainId": 50,
+    "address": "0x8f9920283470F52128bF11B0c14E798bE704fD15",
+    "name": "Comtech Gold",
+    "symbol": "CGO",
+    "decimals": 18,
+    "logoURI": "https://raw.githubusercontent.com/XSwapProtocol/xdc-token-list/master/assets/0x8f9920283470F52128bF11B0c14E798bE704fD15/logo.png"
+  },
+  {
+    "chainId": 50,
+    "address": "0x3279dBEfABF3C6ac29d7ff24A6c46645f3F4403c",
+    "decimals": 18,
+    "symbol": "FTHM",
+    "name": "Fathom Protocol Token",
+    "logoURI": "https://raw.githubusercontent.com/XSwapProtocol/xdc-token-list/master/assets/0x3279dBEfABF3C6ac29d7ff24A6c46645f3F4403c/logo.png"
+  },
+  {
+    "chainId": 50,
+    "address": "0x49d3f7543335cf38Fa10889CCFF10207e22110B5",
+    "decimals": 18,
+    "symbol": "FXD",
+    "name": "Fathom USD",
+    "logoURI": "https://raw.githubusercontent.com/XSwapProtocol/xdc-token-list/master/assets/0x49d3f7543335cf38Fa10889CCFF10207e22110B5/logo.png"
+  },
+  {
+    "chainId": 50,
+    "address": "0x678adF7955d8f6dCaa9e2fcC1C5BA70bCcC464E6",
+    "decimals": 18,
+    "symbol": "GAMA",
+    "name": "Gama Coin",
+    "logoURI": "https://raw.githubusercontent.com/XSwapProtocol/xdc-token-list/master/assets/0x678adF7955d8f6dCaa9e2fcC1C5BA70bCcC464E6/logo.png"
+  },
+  {
+    "chainId": 50,
+    "address": "0xFa4dDcFa8E3d0475f544d0de469277CF6e0A6Fd1",
+    "decimals": 18,
+    "symbol": "BBB",
+    "name": "Beny Bad Boy",
+    "logoURI": "https://benybadboy.b-cdn.net/bbb.jpg"
   }
 ]
