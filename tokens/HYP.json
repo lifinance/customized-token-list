@@ -1,0 +1,170 @@
+[
+  {
+    "name": "Hyper USD",
+    "address": "0xfD28f108e95f4D41daAE9dbfFf707D677985998E",
+    "symbol": "USDHL",
+    "chainId": 999,
+    "decimals": 6,
+    "logoURI": "https://pbs.twimg.com/profile_images/1928111403551911936/rkFUzZ4Z_400x400.jpg"
+  },
+  {
+    "name": "alright buddy",
+    "address": "0x47bb061C0204Af921F43DC73C7D7768d2672DdEE",
+    "symbol": "BUDDY",
+    "chainId": 999,
+    "decimals": 6,
+    "logoURI": "https://raw.githubusercontent.com/HyperSwap-Labs/hyperswap-token-list/refs/heads/main/assets/buddy.png"
+  },
+  {
+    "name": "LiquidLaunch",
+    "address": "0x1Ecd15865D7F8019D546f76d095d9c93cc34eDFa",
+    "symbol": "LIQD",
+    "chainId": 999,
+    "decimals": 18,
+    "logoURI": "https://raw.githubusercontent.com/HyperSwap-Labs/hyperswap-token-list/refs/heads/main/assets/LIQD.png"
+  },
+  {
+    "name": "Hyperbeat Ultra HYPE",
+    "address": "0x96C6cBB6251Ee1c257b2162ca0f39AA5Fa44B1FB",
+    "symbol": "hbHYPE",
+    "chainId": 999,
+    "decimals": 18,
+    "logoURI": "https://www.hyperbeat.org/assets/images/vaults/hbhype.svg"
+  },
+  {
+    "name": "Purr",
+    "address": "0x9b498C3c8A0b8CD8BA1D9851d40D186F1872b44E",
+    "symbol": "PURR",
+    "chainId": 999,
+    "decimals": 18,
+    "logoURI": "https://assets.coingecko.com/coins/images/37125/standard/PURR_CG.png"
+  },
+  {
+    "name": "PiP",
+    "address": "0x1bEe6762F0B522c606DC2Ffb106C0BB391b2E309",
+    "symbol": "PiP",
+    "chainId": 999,
+    "decimals": 18,
+    "logoURI": "https://app.hyperliquid.xyz/coins/PIP_USDC.svg"
+  },
+  {
+    "name": "Unit Bitcoin",
+    "address": "0x9FDBdA0A5e284c32744D2f17Ee5c74B284993463",
+    "symbol": "UBTC",
+    "chainId": 999,
+    "decimals": 8,
+    "logoURI": "https://github.com/user-attachments/assets/67e8fba0-78f6-4a58-8f5a-dbef42007dbc"
+  },
+  {
+    "name": "Unit Ethereum",
+    "address": "0xBe6727B535545C67d5cAa73dEa54865B92CF7907",
+    "symbol": "UETH",
+    "chainId": 999,
+    "decimals": 18,
+    "logoURI": "https://app.hyperliquid.xyz/coins/ETH.svg"
+  },
+  {
+    "name": "Unit Ethereum",
+    "address": "0xBe6727B535545C67d5cAa73dEa54865B92CF7907",
+    "symbol": "UETH",
+    "chainId": 999,
+    "decimals": 18,
+    "logoURI": "https://app.hyperliquid.xyz/coins/ETH.svg"
+  },
+  {
+    "name": "Unit Fartcoin",
+    "address": "0x3B4575E689DEd21CAAD31d64C4df1f10F3B2CedF",
+    "symbol": "UFART",
+    "chainId": 999,
+    "decimals": 6,
+    "logoURI": "https://raw.githubusercontent.com/HyperSwap-Labs/hyperswap-token-list/refs/heads/main/assets/ufart.jpg"
+  },
+  {
+    "name": "Staked USDe",
+    "address": "0x211Cc4DD073734dA055fbF44a2b4667d5E5fE5d2",
+    "symbol": "sUSDe",
+    "chainId": 999,
+    "decimals": 18,
+    "logoURI": "https://raw.githubusercontent.com/HyperSwap-Labs/hyperswap-token-list/refs/heads/main/assets/sUSDe.jpg"
+  },
+  {
+    "name": "Last USD",
+    "address": "0xca79db4B49f608eF54a5CB813FbEd3a6387bC645",
+    "symbol": "USDXL",
+    "chainId": 999,
+    "decimals": 18,
+    "logoURI": "https://raw.githubusercontent.com/HyperSwap-Labs/hyperswap-token-list/refs/heads/main/assets/usdxl.svg"
+  },
+  {
+    "name": "Tether Gold Tokens",
+    "address": "0xca79db4B49f608eF54a5CB813FbEd3a6387bC645",
+    "symbol": "XAUT0",
+    "chainId": 999,
+    "decimals": 6,
+    "logoURI": "https://raw.githubusercontent.com/HyperSwap-Labs/hyperswap-token-list/refs/heads/main/assets/XAUt0.svg"
+  },
+  {
+    "name": "Unit Solana",
+    "address": "0x068f321Fa8Fb9f0D135f290Ef6a3e2813e1c8A29",
+    "symbol": "USOL",
+    "chainId": 999,
+    "decimals": 9,
+    "logoURI": "https://app.hyperliquid.xyz/coins/SOL_USDC.svg"
+  },
+  {
+    "name": "Looped HYPE",
+    "address": "0x5748ae796AE46A4F1348a1693de4b50560485562",
+    "symbol": "LHYPE",
+    "chainId": 999,
+    "decimals": 18,
+    "logoURI": "https://storage.googleapis.com/stakingrewards-static/images/assets/staging/looped-hype_logo.png?v=1739880923312"
+  },
+  {
+    "name": "HFUN",
+    "address": "0xa320D9f65ec992EfF38622c63627856382Db726c",
+    "symbol": "HFUN",
+    "chainId": 999,
+    "decimals": 18,
+    "logoURI": "https://app.hyperliquid.xyz/coins/HFUN_USDC.svg"
+  },
+  {
+    "name": "Mantle Restaked ETH",
+    "address": "0xE6829d9a7eE3040e1276Fa75293Bde931859e8fA",
+    "symbol": "cmETH",
+    "chainId": 999,
+    "decimals": 18,
+    "logoURI": "https://assets.coingecko.com/coins/images/51114/standard/symbol.png?1730117724"
+  },
+  {
+    "name": "Magpie HYPE",
+    "address": "0xdAbB040c428436d41CECd0Fb06bCFDBAaD3a9AA8",
+    "symbol": "mHYPE",
+    "chainId": 999,
+    "decimals": 18,
+    "logoURI": "https://raw.githubusercontent.com/HyperSwap-Labs/hyperswap-token-list/refs/heads/main/assets/mHYPE.jpg"
+  },
+  {
+    "name": "CATBAL",
+    "address": "0x11735dBd0B97CfA7Accf47d005673BA185f7fd49",
+    "symbol": "CATBAL",
+    "chainId": 999,
+    "decimals": 18,
+    "logoURI": "https://app.hyperliquid.xyz/coins/CATBAL_USDC.svg"
+  },
+  {
+    "name": "Looping Collective",
+    "address": "0x00fDBc53719604D924226215bc871D55e40a1009",
+    "symbol": "LOOP",
+    "chainId": 999,
+    "decimals": 18,
+    "logoURI": "https://framerusercontent.com/images/lIIUKGXhlXzvDN6tTDQ7uNLt4.png?scale-down-to=512"
+  },
+  {
+    "name": "Staked LOOP",
+    "address": "0x502EE789B448aA692901FE27Ab03174c90F07dD1",
+    "symbol": "stLOOP",
+    "chainId": 999,
+    "decimals": 18,
+    "logoURI": "https://framerusercontent.com/images/NcdHu0qIxvy69XWTqIRF74ZOU.png?scale-down-to=512"
+  }
+]
