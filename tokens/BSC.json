@@ -326,5 +326,13 @@
     "name": "Home",
     "decimals": 18,
     "logoURI": "https://assets.coingecko.com/coins/images/54873/standard/defi-app.png?1742235743"
+  },
+  {
+    "chainId": 56,
+    "address": "0x649a2da7b28e0d54c13d5eff95d3a660652742cc",
+    "symbol": "IDRX",
+    "name": "IDRX",
+    "decimals": 0,
+    "logoURI": "https://i.postimg.cc/63K0k1P8/IDRX-MAIN-COIN-LOGO.png"
   }
 ]
