@@ -1,11 +1,19 @@
 [
   {
     "chainId": 130,
-    "address": "0x81f2508AAC59757EF7425DDc9717AB5c2AA0A84F", 
+    "address": "0x81f2508AAC59757EF7425DDc9717AB5c2AA0A84F",
     "symbol": "stETH",
     "name": "Liquid staked Ether 2.0",
     "decimals": 18,
     "logoURI": "https://assets.coingecko.com/coins/images/13442/standard/steth_logo.png?1696513206"
+  },
+  {
+    "chainId": 130,
+    "address": "0xc02fE7317D4eb8753a02c35fe019786854A92001",
+    "symbol": "wstETH",
+    "name": "Wrapped liquid staked Ether 2.0",
+    "decimals": 18,
+    "logoURI": "https://static.debank.com/image/op_token/logo_url/0x1f32b1c2345538c0c6f582fcb022739c4a194ebb/7e931af8cb34b6f5671ca2eb1b847849.png"
   },
   {
     "name": "USDT0",
