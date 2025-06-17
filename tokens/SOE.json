@@ -113,7 +113,15 @@
     },
     {
         "chainId": 1868,
-        "address": "0xaA9BD8c957D803466FA92504BDd728cC140f8941", 
+        "address": "0x0Ce031AEd457C870D74914eCAA7971dd3176cDAF",
+        "symbol": "stETH",
+        "name": "Liquid staked Ether 2.0",
+        "decimals": 18,
+        "logoURI": "https://assets.coingecko.com/coins/images/13442/standard/steth_logo.png"
+    },
+    {
+        "chainId": 1868,
+        "address": "0xaA9BD8c957D803466FA92504BDd728cC140f8941",
         "symbol": "wstETH",
         "name": "Wrapped liquid staked Ether 2.0",
         "decimals": 18,

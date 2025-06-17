@@ -152,6 +152,14 @@
     "logoURI": "https://assets.coingecko.com/coins/images/13442/standard/steth_logo.png"
   },
   {
+    "chainId": 10,
+    "address": "0x1F32b1c2345538c0c6f582fCB022739c4A194Ebb",
+    "symbol": "wstETH",
+    "name": "Wrapped liquid staked Ether 2.0",
+    "decimals": 18,
+    "logoURI": "https://static.debank.com/image/op_token/logo_url/0x1f32b1c2345538c0c6f582fcb022739c4a194ebb/7e931af8cb34b6f5671ca2eb1b847849.png"
+  },
+  {
     "name": "BOLD Stablecoin",
     "address": "0x03569CC076654F82679C4BA2124D64774781B01D",
     "symbol": "BOLD",
