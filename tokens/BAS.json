@@ -470,5 +470,13 @@
     "chainId": 8453,
     "decimals": 18,
     "logoURI": "https://assets.coingecko.com/coins/images/54873/standard/defi-app.png?1742235743"
+  },
+  {
+    "name": "ArchAI",
+    "address": "0xd3b0b58ec9516e4b875a075328e2cb059d4d54db",
+    "symbol": "archai",
+    "chainId": 8453,
+    "decimals": 18,
+    "logoURI": "https://assets.coingecko.com/coins/images/55531/standard/logo_blue.png?1749832743"
   }
 ]
