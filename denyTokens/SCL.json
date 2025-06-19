@@ -1,0 +1,7 @@
+[
+  {
+    "chainId": 534352,
+    "address": "0x087C440F251Ff6Cfe62B86DdE1bE558B95b4bb9b",
+    "reason": "new BOLD token was deployed, so old token is not valid"
+  }
+]

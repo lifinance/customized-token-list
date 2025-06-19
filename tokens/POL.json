@@ -161,7 +161,7 @@
   },
   {
     "name": "Brazilian Digital",
-    "address": "0x491a4eB4f1FC3BfF8E1d2FC856a6A46663aD556f",
+    "address": "0x4eD141110F6EeeAbA9A1df36d8c26f684d2475Dc",
     "symbol": "BRZ",
     "decimals": 4,
     "chainId": 137,
@@ -278,5 +278,21 @@
     "decimals": 0,
     "name": "IDRX",
     "logoURI": "https://assets.coingecko.com/coins/images/34883/standard/IDRX_BLUE_COIN_200x200.png?1734983273"
+  },
+  {
+    "name": "Parallel Governance Token",
+    "address": "0x7790dd69aa10eD3f1271E41CD7222D2a7d2D5948",
+    "symbol": "PRL",
+    "chainId": 137,
+    "decimals": 18,
+    "logoURI": "https://raw.githubusercontent.com/parallel-protocol/parallel-brand-kit/main/Tokens/PRL/PRL.svg"
+  },
+  {
+    "name": "IDRX",
+    "address": "0x649a2da7b28e0d54c13d5eff95d3a660652742cc",
+    "symbol": "IDRX",
+    "chainId": 137,
+    "decimals": 0,
+    "logoURI": "https://i.postimg.cc/63K0k1P8/IDRX-MAIN-COIN-LOGO.png"
   }
 ]

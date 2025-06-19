@@ -552,11 +552,51 @@
     "logoURI": "https://assets.coingecko.com/coins/images/54710/standard/DOLO-small.png"
   },
   {
+    "name": "Obol",
+    "address": "0x0b010000b7624eb9b3dfbc279673c76e9d29d5f7",
+    "symbol": "OBOL",
+    "chainId": 1,
+    "decimals": 18,
+    "logoURI": "https://assets.coingecko.com/coins/images/53827/standard/Primary_Icon-Circle_LightBG.png"
+  },
+  {
+    "address": "0xae7ab96520DE3A18E5e111B5EaAb095312D7fE84", 
+    "symbol": "stETH",
+    "name": "Liquid staked Ether 2.0",
+    "chainId": 1,
+    "decimals": 18,
+    "logoURI": "https://assets.coingecko.com/coins/images/13442/standard/steth_logo.png?1696513206"
+  },
+  {
     "name": "PAIRS",
     "address": "0xfb70859efec2ceb84dd4935a0842aa69290020bc",
     "symbol": "PAIRS",
     "chainId": 1,
     "decimals": 18,
     "logoURI": "https://cdn.pairs.xyz/pairs-token-logo.svg"
+  },
+  {
+    "name": "BOLD Stablecoin",
+    "address": "0x6440f144b7e50D6a8439336510312d2F54beB01D",
+    "symbol": "BOLD",
+    "chainId": 1,
+    "decimals": 18,
+    "logoURI": "https://assets.coingecko.com/coins/images/53755/standard/BOLD_logo.png?1737183873"
+  },
+  {
+    "name": "Parallel Governance Token",
+    "address": "0x6c0aeceeDc55c9d55d8B99216a670D85330941c3",
+    "symbol": "PRL",
+    "chainId": 1,
+    "decimals": 18,
+    "logoURI": "https://raw.githubusercontent.com/parallel-protocol/parallel-brand-kit/main/Tokens/PRL/PRL.svg"
+  },
+  {
+    "name": "YieldNest",
+    "address": "0x7159cc276D7d17Ab4b3bEb19959E1F39368a45Ba",
+    "symbol": "YND",
+    "chainId": 1,
+    "decimals": 18,
+    "logoURI": "https://assets.coingecko.com/coins/images/66128/standard/ynd.png"
   }
 ]

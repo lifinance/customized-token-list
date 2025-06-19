@@ -6,5 +6,10 @@
   {
   "address": "0xf6b4185fcf8af291c0e3927fbeab7046b4f6a8ca",
   "chainId": 10
+  },
+  {
+  "address": "0x087C440F251Ff6Cfe62B86DdE1bE558B95b4bb9b",
+  "chainId": 10,
+  "reason": "new BOLD token was deployed, so old token is not valid"
   }
 ]

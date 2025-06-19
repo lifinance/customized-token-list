@@ -446,5 +446,37 @@
     "decimals": 18,
     "name": "Plaza LevETH",
     "symbol": "LevETH"
+  },
+  {
+    "name": "BOLD Stablecoin",
+    "address": "0x03569CC076654F82679C4BA2124D64774781B01D",
+    "symbol": "BOLD",
+    "chainId": 8453,
+    "decimals": 18,
+    "logoURI": "https://assets.coingecko.com/coins/images/53755/standard/BOLD_logo.png?1737183873"
+  },
+  {
+    "name": "Parallel Governance Token",
+    "address": "0xfD28f108e95f4D41daAE9dbfFf707D677985998E",
+    "symbol": "PRL",
+    "chainId": 8453,
+    "decimals": 18,
+    "logoURI": "https://raw.githubusercontent.com/parallel-protocol/parallel-brand-kit/main/Tokens/PRL/PRL.svg"
+  },
+  {
+    "name": "Home",
+    "address": "0x4bfaa776991e85e5f8b1255461cbbd216cfc714f",
+    "symbol": "HOME",
+    "chainId": 8453,
+    "decimals": 18,
+    "logoURI": "https://assets.coingecko.com/coins/images/54873/standard/defi-app.png?1742235743"
+  },
+  {
+    "name": "ArchAI",
+    "address": "0xd3b0b58ec9516e4b875a075328e2cb059d4d54db",
+    "symbol": "archai",
+    "chainId": 8453,
+    "decimals": 18,
+    "logoURI": "https://assets.coingecko.com/coins/images/55531/standard/logo_blue.png?1749832743"
   }
 ]
