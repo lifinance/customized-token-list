@@ -14,5 +14,13 @@
     "decimals": 6,
     "name": "Stargate USD₮0 (Bridged)",
     "logoURI": "https://raw.githubusercontent.com/lifinance/types/main/src/assets/icons/tokens/USDT0.svg"
+  },
+  {
+    "address": "0x9BFA177621119e64CecbEabE184ab9993E2ef727",
+    "chainId": 1135,
+    "symbol": "M-BTC",
+    "decimals": 18,
+    "name": "Merlin BTC",
+    "logoURI": "https://s3.coinmarketcap.com/static-gravity/image/00e661e96892411d92514e8b88ba35c4.png"
   }
 ]
