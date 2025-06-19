@@ -28,5 +28,10 @@
     "address": "0x087C440F251Ff6Cfe62B86DdE1bE558B95b4bb9b",
     "chainId": 42161,
     "reason": "new BOLD token was deployed, so old token is not valid"
+  },
+  {
+    "address": "0xCfA801cb926Ed09F0E61Aa034194a88f595aFFfF",
+    "chainId": 42161,
+    "reason": "Scam fUSDC"
   }
 ]

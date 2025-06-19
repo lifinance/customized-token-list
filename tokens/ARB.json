@@ -470,5 +470,13 @@
     "chainId": 42161,
     "decimals": 18,
     "logoURI": "https://raw.githubusercontent.com/parallel-protocol/parallel-brand-kit/main/Tokens/PRL/PRL.svg"
+  },
+  {
+    "name": "Fluid USDC",
+    "symbol": "fUSDC",
+    "address": "0x4CFA50B7Ce747e2D61724fcAc57f24B748FF2b2A",
+    "decimals": 6,
+    "chainId": 42161,
+    "logoURI": "https://static.debank.com/image/arb_token/logo_url/0x4cfa50b7ce747e2d61724fcac57f24b748ff2b2a/6375f8b48700517096bed5cbd88a2102.png"
   }
 ]
