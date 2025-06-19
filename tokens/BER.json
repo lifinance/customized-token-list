@@ -38,5 +38,13 @@
         "decimals": 18,
         "name": "Infrared BGT",
         "logoURI": "https://berascan.com/token/images/ibgt_64.svg"
+    },
+    {
+        "address": "0xBaadCC2962417C01Af99fb2B7C75706B9bd6Babe",
+        "chainId": 80094,
+        "symbol": "LBGT",
+        "decimals": 18,
+        "name": "Liquid BGT",
+        "logoURI": "https://berascan.com/token/images/lbgt_32.svg"
     }
 ]
