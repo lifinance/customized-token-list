@@ -478,5 +478,13 @@
     "chainId": 8453,
     "decimals": 18,
     "logoURI": "https://assets.coingecko.com/coins/images/55531/standard/logo_blue.png?1749832743"
+  },
+  {
+    "name": "Bitcoin USD",
+    "address": "0xe4b20925D9E9a62F1E492e15a81dC0de62804dd4",
+    "symbol": "BtcUSD",
+    "decimals": 18,
+    "chainId": 8453,
+   "logoURI":"https://basescan.org/token/images/btcfibtcusd_32.png"
   }
 ]
