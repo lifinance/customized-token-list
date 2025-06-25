@@ -265,9 +265,9 @@
   },
   {
     "address": "0x7ff7fa94b8b66ef313f7970d4eebd2cb3103a2c0",
-    "chainId": 56,
+    "chainId": 137,
     "symbol": "VANA",
-    "decimals": 137,
+    "decimals": 18,
     "name": "VANA",
     "logoURI": "https://assets.coingecko.com/coins/images/51404/small/logo.png?1731086679"
   },
