@@ -329,6 +329,14 @@
   },
   {
     "chainId": 56,
+    "address": "0x6961974d3bC7f26F3488C64330111C8ecFE75bF3",
+    "symbol": "GMX",
+    "name": "GameXT",
+    "decimals": 18,
+    "logoURI": "https://assets.coingecko.com/coins/images/51113/standard/CoinGecko_200x200_%281%29_%281%29.png?1730117522"
+  },
+  {
+    "chainId": 56,
     "address": "0x649a2da7b28e0d54c13d5eff95d3a660652742cc",
     "symbol": "IDRX",
     "name": "IDRX",
