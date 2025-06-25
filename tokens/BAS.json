@@ -494,5 +494,13 @@
     "chainId": 8453,
     "decimals": 18,
     "logoURI": "https://static.debank.com/image/ethlink_token/logo_url/0xc9b53ab2679f573e480d01e0f49e2b5cfb7a3eab/3989b9556728fdc24cf043ed9762d726.png"
+  },
+  {
+    "name": "Token Metrics AI",
+    "address": "0xca4569949699d56e1834efe9f58747ca0f151b01",
+    "symbol": "TMAI",
+    "chainId": 8453,
+    "decimals": 18,
+    "logoURI": "https://coin-images.coingecko.com/coins/images/37707/standard/200x200_transparent.png?1750163060"
   }
 ]
