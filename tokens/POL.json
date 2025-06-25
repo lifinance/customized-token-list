@@ -288,6 +288,14 @@
     "logoURI": "https://raw.githubusercontent.com/parallel-protocol/parallel-brand-kit/main/Tokens/PRL/PRL.svg"
   },
   {
+    "name": "IDRX",
+    "address": "0x649a2da7b28e0d54c13d5eff95d3a660652742cc",
+    "symbol": "IDRX",
+    "chainId": 137,
+    "decimals": 0,
+    "logoURI": "https://i.postimg.cc/63K0k1P8/IDRX-MAIN-COIN-LOGO.png"
+  },
+  {
     "address": "0xbbBBbBbBB7949dcC7d1539c91b81A5BF09E37bDB",
     "chainId": 137,
     "logoURI": "https://assets.coingecko.com/coins/images/36067/standard/200px.png?1710405601",

@@ -1,0 +1,58 @@
+[
+  {
+    "name": "USD Coin",
+    "symbol": "USDC",
+    "address": "0x796Ea11Fa2dD751eD01b53C372fFDB4AAa8f00F9",
+    "decimals": 6,
+    "chainId": 42793,
+    "logoURI": "https://assets.coingecko.com/coins/images/39584/small/USDC-icon.webp?1723013425"
+  },
+  {
+    "name": "Tether USD",
+    "symbol": "USDT",
+    "address": "0x2C03058C8AFC06713be23e58D2febC8337dbfE6A",
+    "decimals": 6,
+    "chainId": 42793,
+    "logoURI": "https://assets.coingecko.com/coins/images/39662/small/tether.png?1723525619"
+  },
+  {
+    "name": "Wrapped XTZ",
+    "symbol": "WXTZ",
+    "address": "0xc9B53AB2679f573e480d01e0f49e2B5CFB7a3EAb",
+    "decimals": 18,
+    "chainId": 42793,
+    "logoURI": "https://assets.coingecko.com/coins/images/51172/small/WXTZ_Logo_Black.png?1750764795"
+  },
+  {
+    "name": "Wrapped ETH",
+    "symbol": "WETH",
+    "address": "0xfc24f770F94edBca6D6f885E12d4317320BcB401",
+    "decimals": 18,
+    "chainId": 42793,
+    "logoURI": "https://assets.coingecko.com/coins/images/39723/small/WETH.PNG?1723733967"
+  },
+  {
+    "name": "Wrapped BTC",
+    "symbol": "WBTC",
+    "address": "0xbFc94CD2B1E55999Cfc7347a9313e88702B83d0F",
+    "decimals": 8,
+    "chainId": 42793,
+    "logoURI": "https://raw.githubusercontent.com/IguanaDEX/assets/main/assets/0xbFc94CD2B1E55999Cfc7347a9313e88702B83d0F.png"
+  },
+  {
+    "name": "Lombard Staked BTC",
+    "symbol": "LBTC",
+    "address": "0xecAc9C5F704e954931349Da37F60E39f515c11c1",
+    "decimals": 8,
+    "chainId": 42793,
+    "logoURI": "https://assets.coingecko.com/coins/images/39969/standard/LBTC_Logo.png?1724959872"
+  },
+  {
+    "name": "Staked XTZ",
+    "symbol": "stXTZ",
+    "address": "0x01F07f4d78d47A64F4C3B2b65f513f15Be6E1854",
+    "decimals": 6,
+    "chainId": 42793,
+    "logoURI": "https://ipfs.io/ipfs/QmVQGUYVmuUnsLWvakjT3w1wuU8fFoy98yaAKtpwBR4TKL"
+  }
+]
