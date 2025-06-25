@@ -316,7 +316,7 @@
     "address": "0x1C2757c1FeF1038428b5bEF062495ce94BBe92b2",
     "symbol": "mBASIS",
     "decimals": 18,
-    "chainId": 1,
+    "chainId": 8453,
     "logoURI": "https://assets.coingecko.com/coins/images/50593/standard/mBASIS_logo.png?1728444389"
   },
   {
@@ -324,7 +324,7 @@
     "address": "0xDD629E5241CbC5919847783e6C96B2De4754e438",
     "symbol": "mTBILL",
     "decimals": 18,
-    "chainId": 1,
+    "chainId": 8453,
     "logoURI": "https://assets.coingecko.com/coins/images/37839/standard/mTBILL_token.png?1728417279"
   },
   {
