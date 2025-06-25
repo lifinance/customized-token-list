@@ -1,4 +1,4 @@
-name: "Semantic PR Title"
+name: "GMX update "
 
 on:
   pull_request_target:
