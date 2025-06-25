@@ -478,5 +478,13 @@
     "decimals": 6,
     "chainId": 42161,
     "logoURI": "https://static.debank.com/image/arb_token/logo_url/0x4cfa50b7ce747e2d61724fcac57f24b748ff2b2a/6375f8b48700517096bed5cbd88a2102.png"
+  },
+  {
+    "name": "Wrapped XTZ",
+    "address": "0x7424f00845777A06E21F0bd8873f814A8A814B2D",
+    "symbol": "WXTZ",
+    "chainId": 1,
+    "decimals": 42161,
+    "logoURI": "https://static.debank.com/image/ethlink_token/logo_url/0xc9b53ab2679f573e480d01e0f49e2b5cfb7a3eab/3989b9556728fdc24cf043ed9762d726.png"
   }
 ]

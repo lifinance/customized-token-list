@@ -486,5 +486,13 @@
     "decimals": 18,
     "chainId": 8453,
    "logoURI":"https://basescan.org/token/images/btcfibtcusd_32.png"
+  },
+  {
+    "name": "Wrapped XTZ",
+    "address": "0x91F9cc2649ac70a071602cadE9b0C1A5868af51D",
+    "symbol": "WXTZ",
+    "chainId": 8453,
+    "decimals": 18,
+    "logoURI": "https://static.debank.com/image/ethlink_token/logo_url/0xc9b53ab2679f573e480d01e0f49e2b5cfb7a3eab/3989b9556728fdc24cf043ed9762d726.png"
   }
 ]
