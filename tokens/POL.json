@@ -294,5 +294,13 @@
     "chainId": 137,
     "decimals": 0,
     "logoURI": "https://i.postimg.cc/63K0k1P8/IDRX-MAIN-COIN-LOGO.png"
+  },
+  {
+    "address": "0xbbBBbBbBB7949dcC7d1539c91b81A5BF09E37bDB",
+    "chainId": 137,
+    "logoURI": "https://assets.coingecko.com/coins/images/36067/standard/200px.png?1710405601",
+    "decimals": 18,
+    "name": "crow with knife",
+    "symbol": "CAW"
   }
 ]

@@ -486,5 +486,13 @@
     "chainId": 42161,
     "decimals": 18,
     "logoURI": "https://static.debank.com/image/ethlink_token/logo_url/0xc9b53ab2679f573e480d01e0f49e2b5cfb7a3eab/3989b9556728fdc24cf043ed9762d726.png"
+  },
+  {
+    "address": "0x16f1967565aaD72DD77588a332CE445e7cEF752b",
+    "chainId": 42161,
+    "logoURI": "https://assets.coingecko.com/coins/images/36067/standard/200px.png?1710405601",
+    "decimals": 0,
+    "name": "crow with knife",
+    "symbol": "CAW"
   }
 ]
