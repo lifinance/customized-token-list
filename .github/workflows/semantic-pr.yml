@@ -1,4 +1,4 @@
-name: "Semantic PR Title"
+name: "feat: add GMX tokens #214"
 
 on:
   pull_request_target:
