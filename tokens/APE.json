@@ -1,0 +1,10 @@
+[
+  {
+    "name": "Ape ETH",
+    "address": "0xcF800F4948D16F23333508191B1B1591daF70438",
+    "symbol": "APEETH",
+    "decimals": 18,
+    "chainId": 33139,
+    "logoURI": "https://assets.coingecko.com/coins/images/279/standard/ethereum.png?1696501628"
+  }
+]
