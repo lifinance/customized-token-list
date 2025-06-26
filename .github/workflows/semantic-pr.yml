@@ -1,4 +1,4 @@
-name: "GMX update "
+name: "feat: add GMX tokens #127"
 
 on:
   pull_request_target:
@@ -10,8 +10,8 @@ on:
 
 jobs:
   main:
-    name: Refactor
-    runs-on: ubuntu-latest
+    name: Semantic PR Check for GMX tokens
+    runs-on: ubuntu-latest  
     permissions:
       pull-requests: read
     steps:
