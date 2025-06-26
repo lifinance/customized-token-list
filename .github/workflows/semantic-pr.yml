@@ -1,4 +1,4 @@
-name: "feat: add GMX tokens #127"
+name: "Semantic PR Title"
 
 on:
   pull_request_target:
@@ -10,8 +10,8 @@ on:
 
 jobs:
   main:
-    name: Semantic PR Check for GMX tokens
-    runs-on: ubuntu-latest  
+    name: Validate PR title
+    runs-on: ubuntu-latest
     permissions:
       pull-requests: read
     steps:
