@@ -494,5 +494,13 @@
     "decimals": 0,
     "name": "crow with knife",
     "symbol": "CAW"
+  },
+  {
+    "address": "0x93FA0B88C0C78e45980Fa74cdd87469311b7B3E4",
+    "chainId": 42161,
+    "logoURI": "https://assets.coingecko.com/coins/images/39830/standard/XBorg_Logo.png?1724209192",
+    "decimals": 18,
+    "name": "XBorg",
+    "symbol": "XBG"
   }
 ]
