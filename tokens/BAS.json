@@ -502,5 +502,13 @@
     "decimals": 18,
     "name": "crow with knife",
     "symbol": "CAW"
+  },
+  {
+   "name": "Token Metrics AI",
+    "address": "0xca4569949699d56e1834efe9f58747ca0f151b01",
+    "symbol": "TMAI",
+    "chainId": 8453,
+    "decimals": 18,
+    "logoURI": "https://coin-images.coingecko.com/coins/images/37707/standard/200x200_transparent.png?1750163060"
   }
 ]
