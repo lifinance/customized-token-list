@@ -1,13 +1,5 @@
 [
   {
-    "name": "Hyper USD",
-    "address": "0xfD28f108e95f4D41daAE9dbfFf707D677985998E",
-    "symbol": "USDHL",
-    "chainId": 999,
-    "decimals": 6,
-    "logoURI": "https://pbs.twimg.com/profile_images/1928111403551911936/rkFUzZ4Z_400x400.jpg"
-  },
-  {
     "name": "alright buddy",
     "address": "0x47bb061C0204Af921F43DC73C7D7768d2672DdEE",
     "symbol": "BUDDY",
@@ -173,6 +165,6 @@
     "symbol": "USDHL",
     "chainId": 999,
     "decimals": 6,
-    "logoURI": "https://app.hyperliquid.xyz/coins/USDHL_USDC.svg"
+    "logoURI": "https://assets.coingecko.com/coins/images/66679/standard/usdhl.jpg?1750242294"
   }
 ]
