@@ -166,5 +166,13 @@
     "chainId": 999,
     "decimals": 18,
     "logoURI": "https://framerusercontent.com/images/NcdHu0qIxvy69XWTqIRF74ZOU.png?scale-down-to=512"
+  },
+  {
+    "name": "Hyper USD",
+    "address": "0xb50A96253aBDF803D85efcDce07Ad8becBc52BD5",
+    "symbol": "USDHL",
+    "chainId": 999,
+    "decimals": 6,
+    "logoURI": "https://app.hyperliquid.xyz/coins/USDHL_USDC.svg"
   }
 ]
