@@ -502,5 +502,13 @@
     "decimals": 18,
     "name": "crow with knife",
     "symbol": "CAW"
+  },
+  {
+    "address": "0x00000000A22C618fd6b4D7E9A335C4B96B189a38",
+    "chainId": 8453,
+    "logoURI": "https://www.towns.com/images/towns-token.png",
+    "decimals": 18,
+    "name": "Towns",
+    "symbol": "TOWNS"
   }
 ]
