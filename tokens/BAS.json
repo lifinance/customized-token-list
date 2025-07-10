@@ -316,7 +316,7 @@
     "address": "0x1C2757c1FeF1038428b5bEF062495ce94BBe92b2",
     "symbol": "mBASIS",
     "decimals": 18,
-    "chainId": 1,
+    "chainId": 8453,
     "logoURI": "https://assets.coingecko.com/coins/images/50593/standard/mBASIS_logo.png?1728444389"
   },
   {
@@ -324,7 +324,7 @@
     "address": "0xDD629E5241CbC5919847783e6C96B2De4754e438",
     "symbol": "mTBILL",
     "decimals": 18,
-    "chainId": 1,
+    "chainId": 8453,
     "logoURI": "https://assets.coingecko.com/coins/images/37839/standard/mTBILL_token.png?1728417279"
   },
   {
@@ -470,5 +470,37 @@
     "chainId": 8453,
     "decimals": 18,
     "logoURI": "https://assets.coingecko.com/coins/images/54873/standard/defi-app.png?1742235743"
+  },
+  {
+    "name": "ArchAI",
+    "address": "0xd3b0b58ec9516e4b875a075328e2cb059d4d54db",
+    "symbol": "archai",
+    "chainId": 8453,
+    "decimals": 18,
+    "logoURI": "https://assets.coingecko.com/coins/images/55531/standard/logo_blue.png?1749832743"
+  },
+  {
+    "name": "Bitcoin USD",
+    "address": "0xe4b20925D9E9a62F1E492e15a81dC0de62804dd4",
+    "symbol": "BTCUSD",
+    "decimals": 18,
+    "chainId": 8453,
+   "logoURI":"https://assets.coingecko.com/coins/images/37181/standard/BtcUSD_Logo.png?1713514017"
+  },
+  {
+    "name": "Wrapped XTZ",
+    "address": "0x91F9cc2649ac70a071602cadE9b0C1A5868af51D",
+    "symbol": "WXTZ",
+    "chainId": 8453,
+    "decimals": 18,
+    "logoURI": "https://static.debank.com/image/ethlink_token/logo_url/0xc9b53ab2679f573e480d01e0f49e2b5cfb7a3eab/3989b9556728fdc24cf043ed9762d726.png"
+  },
+  {
+    "address": "0xdfBEA88C4842d30c26669602888d746D30F9D60d",
+    "chainId": 8453,
+    "logoURI": "https://assets.coingecko.com/coins/images/36067/standard/200px.png?1710405601",
+    "decimals": 18,
+    "name": "crow with knife",
+    "symbol": "CAW"
   }
 ]

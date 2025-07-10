@@ -598,5 +598,21 @@
     "chainId": 1,
     "decimals": 18,
     "logoURI": "https://assets.coingecko.com/coins/images/66128/standard/ynd.png"
+  },
+  {
+    "name": "Wrapped XTZ",
+    "address": "0xc9B53AB2679f573e480d01e0f49e2B5CFB7a3EAb",
+    "symbol": "WXTZ",
+    "chainId": 1,
+    "decimals": 18,
+    "logoURI": "https://static.debank.com/image/ethlink_token/logo_url/0xc9b53ab2679f573e480d01e0f49e2b5cfb7a3eab/3989b9556728fdc24cf043ed9762d726.png"
+  },
+  {
+    "name": "Staked Wallet",
+    "address": "0xE575cC6EC0B5d176127ac61aD2D3d9d19d1aa4a0",
+    "symbol": "stkWALLET",
+    "chainId": 1,
+    "decimals": 18,
+    "logoURI": "https://cena.ambire.com/iconProxy/ethereum/0xE575cC6EC0B5d176127ac61aD2D3d9d19d1aa4a0"
   }
 ]

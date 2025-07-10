@@ -265,19 +265,11 @@
   },
   {
     "address": "0x7ff7fa94b8b66ef313f7970d4eebd2cb3103a2c0",
-    "chainId": 56,
+    "chainId": 137,
     "symbol": "VANA",
-    "decimals": 137,
+    "decimals": 18,
     "name": "VANA",
     "logoURI": "https://assets.coingecko.com/coins/images/51404/small/logo.png?1731086679"
-  },
-  {
-    "address": "0x649a2DA7B28E0D54c13D5eFf95d3A660652742cC",
-    "chainId": 137,
-    "symbol": "IDRX",
-    "decimals": 0,
-    "name": "IDRX",
-    "logoURI": "https://assets.coingecko.com/coins/images/34883/standard/IDRX_BLUE_COIN_200x200.png?1734983273"
   },
   {
     "name": "Parallel Governance Token",
@@ -286,5 +278,21 @@
     "chainId": 137,
     "decimals": 18,
     "logoURI": "https://raw.githubusercontent.com/parallel-protocol/parallel-brand-kit/main/Tokens/PRL/PRL.svg"
+  },
+  {
+    "name": "IDRX",
+    "address": "0x649a2da7b28e0d54c13d5eff95d3a660652742cc",
+    "symbol": "IDRX",
+    "chainId": 137,
+    "decimals": 0,
+    "logoURI": "https://assets.coingecko.com/coins/images/34883/standard/IDRX_BLUE_COIN_200x200.png?1734983273"
+  },
+  {
+    "address": "0xbbBBbBbBB7949dcC7d1539c91b81A5BF09E37bDB",
+    "chainId": 137,
+    "logoURI": "https://assets.coingecko.com/coins/images/36067/standard/200px.png?1710405601",
+    "decimals": 18,
+    "name": "crow with knife",
+    "symbol": "CAW"
   }
 ]

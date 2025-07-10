@@ -280,14 +280,6 @@
     "logoURI": "https://assets.coingecko.com/coins/images/51404/small/logo.png?1731086679"
   },
   {
-    "address": "0x649a2DA7B28E0D54c13D5eFf95d3A660652742cC",
-    "chainId": 56,
-    "symbol": "IDRX",
-    "decimals": 0,
-    "name": "IDRX",
-    "logoURI": "https://assets.coingecko.com/coins/images/34883/standard/IDRX_BLUE_COIN_200x200.png?1734983273"
-  },
-  {
     "address": "0x58538e6A46E07434d7E7375Bc268D3cb839C0133",
     "chainId": 56,
     "symbol": "ENA",
@@ -319,6 +311,14 @@
     "decimals": 18,
     "logoURI": "https://assets.coingecko.com/coins/images/18834/standard/wstETH.png?1696518295"
   },
+    {
+    "chainId": 56,
+    "address": "0x6961974d3bC7f26F3488C64330111C8ecFE75bF3",
+    "symbol": "GMX",
+    "name": "GameXT",
+    "decimals": 18,
+    "logoURI": "https://assets.coingecko.com/coins/images/51113/standard/CoinGecko_200x200_%281%29_%281%29.png?1730117522"
+    },
   {
     "chainId": 56,
     "address": "0x4bfaa776991e85e5f8b1255461cbbd216cfc714f",
@@ -326,5 +326,21 @@
     "name": "Home",
     "decimals": 18,
     "logoURI": "https://assets.coingecko.com/coins/images/54873/standard/defi-app.png?1742235743"
+  },
+  {
+    "chainId": 56,
+    "address": "0x649a2da7b28e0d54c13d5eff95d3a660652742cc",
+    "symbol": "IDRX",
+    "name": "IDRX",
+    "decimals": 0,
+    "logoURI": "https://assets.coingecko.com/coins/images/34883/standard/IDRX_BLUE_COIN_200x200.png?1734983273"
+  },
+  {
+    "address": "0xdfBEA88C4842d30c26669602888d746D30F9D60d",
+    "chainId": 56,
+    "logoURI": "https://assets.coingecko.com/coins/images/36067/standard/200px.png?1710405601",
+    "decimals": 18,
+    "name": "crow with knife",
+    "symbol": "CAW"
   }
 ]

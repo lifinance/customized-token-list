@@ -1,0 +1,10 @@
+[
+  {
+    "name": "Bonsai",
+    "address": "0xB0588f9A9cADe7CD5f194a5fe77AcD6A58250f82",
+    "symbol": "BONSAI",
+    "decimals": 18,
+    "chainId": 232,
+    "logoURI": "https://assets.coingecko.com/coins/images/35884/standard/bonsaiToken.png?1744187538"
+  }
+]
