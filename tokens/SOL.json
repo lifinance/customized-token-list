@@ -38,5 +38,13 @@
       "decimals": 2,
       "name": "crow with knife",
       "symbol": "CAW"
+    },
+   {
+      "address": "pumpCmXqMfrsAkQ5r49WcJnRayYRqmXz6ae8H7H9Dfn",
+      "chainId": 1151111081099710,
+      "symbol": "PUMP",
+      "decimals": 6,
+      "name": "Pump",
+      "logoURI": "https://ipfs.io/ipfs/bafkreibyb3hcn7gglvdqpmklfev3fut3eqv3kje54l3to3xzxxbgpt5wjm"
     }
 ]
