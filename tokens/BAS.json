@@ -502,5 +502,21 @@
     "decimals": 18,
     "name": "crow with knife",
     "symbol": "CAW"
+  },
+  {
+    "name": "USDp",
+    "address": "0x76A9A0062ec6712b99B4f63bD2b4270185759dd5",
+    "symbol": "USDp",
+    "chainId": 8453,
+    "decimals": 18,
+    "logoURI": "https://raw.githubusercontent.com/parallel-protocol/parallel-brand-kit/main/Tokens/USDp/USDp.svg"
+  },
+  {
+    "name": "Staked USDp",
+    "address": "0x472eD57b376fE400259FB28e5C46eB53f0E3e7E7",
+    "symbol": "sUSDp",
+    "chainId": 8453,
+    "decimals": 18,
+    "logoURI": "https://raw.githubusercontent.com/parallel-protocol/parallel-brand-kit/main/Tokens/USDp/sUSDp.svg"
   }
 ]

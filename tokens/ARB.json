@@ -502,5 +502,13 @@
     "decimals": 18,
     "name": "XBorg",
     "symbol": "XBG"
+  },
+  {
+    "name": "USDp",
+    "address": "0x76A9A0062ec6712b99B4f63bD2b4270185759dd5",
+    "symbol": "USDp",
+    "chainId": 42161,
+    "decimals": 18,
+    "logoURI": "https://raw.githubusercontent.com/parallel-protocol/parallel-brand-kit/main/Tokens/USDp/USDp.svg"
   }
 ]
