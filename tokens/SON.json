@@ -6,5 +6,21 @@
     "chainId": 146,
     "decimals": 18,
     "logoURI": "https://raw.githubusercontent.com/parallel-protocol/parallel-brand-kit/main/Tokens/PRL/PRL.svg"
+  },
+  {
+    "name": "USDp",
+    "address": "0x08417cdb7F52a5021bB4eb6E0deAf3f295c3f182",
+    "symbol": "USDp",
+    "chainId": 146,
+    "decimals": 18,
+    "logoURI": "https://raw.githubusercontent.com/parallel-protocol/parallel-brand-kit/main/Tokens/USDp/USDp.svg"
+  },
+  {
+    "name": "Staked USDp",
+    "address": "0xe8a3DA6f5ed1cf04c58ac7f6A7383641e877517b",
+    "symbol": "sUSDp",
+    "chainId": 146,
+    "decimals": 18,
+    "logoURI": "https://raw.githubusercontent.com/parallel-protocol/parallel-brand-kit/main/Tokens/USDp/sUSDp.svg"
   }
 ]

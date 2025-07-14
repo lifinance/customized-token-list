@@ -294,5 +294,13 @@
     "decimals": 18,
     "name": "crow with knife",
     "symbol": "CAW"
+  },
+  {
+    "name": "USDp",
+    "address": "0x1250304F66404cd153fA39388DDCDAec7E0f1707",
+    "symbol": "USDp",
+    "chainId": 137,
+    "decimals": 18,
+    "logoURI": "https://raw.githubusercontent.com/parallel-protocol/parallel-brand-kit/main/Tokens/USDp/USDp.svg"
   }
 ]

@@ -166,5 +166,21 @@
     "chainId": 999,
     "decimals": 6,
     "logoURI": "https://assets.coingecko.com/coins/images/66679/standard/usdhl.jpg?1750242294"
+  },
+  {
+    "name": "USDp",
+    "address": "0xBE65F0F410A72BeC163dC65d46c83699e957D588",
+    "symbol": "USDp",
+    "chainId": 999,
+    "decimals": 18,
+    "logoURI": "https://raw.githubusercontent.com/parallel-protocol/parallel-brand-kit/main/Tokens/USDp/USDp.svg"
+  },
+  {
+    "name": "Staked USDp",
+    "address": "0x9B3a8f7CEC208e247d97dEE13313690977e24459",
+    "symbol": "sUSDp",
+    "chainId": 999,
+    "decimals": 18,
+    "logoURI": "https://raw.githubusercontent.com/parallel-protocol/parallel-brand-kit/main/Tokens/USDp/sUSDp.svg"
   }
 ]

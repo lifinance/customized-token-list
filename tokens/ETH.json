@@ -614,5 +614,21 @@
     "chainId": 1,
     "decimals": 18,
     "logoURI": "https://cena.ambire.com/iconProxy/ethereum/0xE575cC6EC0B5d176127ac61aD2D3d9d19d1aa4a0"
+  },
+  {
+    "name": "USDp",
+    "address": "0x9B3a8f7CEC208e247d97dEE13313690977e24459",
+    "symbol": "USDp",
+    "chainId": 1,
+    "decimals": 18,
+    "logoURI": "https://raw.githubusercontent.com/parallel-protocol/parallel-brand-kit/main/Tokens/USDp/USDp.svg"
+  },
+  {
+    "name": "Staked USDp",
+    "address": "0x0d45b129dc868963025Db79A9074EA9c9e32Cae4",
+    "symbol": "sUSDp",
+    "chainId": 1,
+    "decimals": 18,
+    "logoURI": "https://raw.githubusercontent.com/parallel-protocol/parallel-brand-kit/main/Tokens/USDp/sUSDp.svg"
   }
 ]
