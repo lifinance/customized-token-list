@@ -238,5 +238,13 @@
     "chainId": 43114,
     "decimals": 18,
     "logoURI": "https://assets.coingecko.com/coins/images/53755/standard/BOLD_logo.png?1737183873"
+  },
+  {
+    "name": "USDp",
+    "address": "0x9eE1963f05553eF838604Dd39403be21ceF26AA4",
+    "symbol": "USDp",
+    "chainId": 43114,
+    "decimals": 18,
+    "logoURI": "https://raw.githubusercontent.com/parallel-protocol/parallel-brand-kit/main/Tokens/USDp/USDp.svg"
   }
 ]

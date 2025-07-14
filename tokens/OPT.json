@@ -174,5 +174,13 @@
     "chainId": 10,
     "decimals": 18,
     "logoURI": "https://raw.githubusercontent.com/parallel-protocol/parallel-brand-kit/main/Tokens/PRL/PRL.svg"
+  },
+  {
+    "name": "USDp",
+    "address": "0x90337e484B1Cb02132fc150d3Afa262147348545",
+    "symbol": "USDp",
+    "chainId": 10,
+    "decimals": 18,
+    "logoURI": "https://raw.githubusercontent.com/parallel-protocol/parallel-brand-kit/main/Tokens/USDp/USDp.svg"
   }
 ]
