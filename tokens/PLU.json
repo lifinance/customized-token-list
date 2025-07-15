@@ -1,0 +1,18 @@
+[
+  {
+    "name": "Plume USD",
+    "address": "0xdddD73F5Df1F0DC31373357beAC77545dC5A6f3F",
+    "symbol": "pUSD",
+    "chainId": 98866,
+    "decimals": 6,
+    "logoURI": "https://assets.plume.org/images/logos/pUSD/pUSD-token.svg"
+  },
+  {
+    "name": "Plume ETH",
+    "address": "0x39d1F90eF89C52dDA276194E9a832b484ee45574",
+    "symbol": "pETH",
+    "chainId": 98866,
+    "decimals": 18,
+    "logoURI": "https://assets.plume.org/images/logos/pETH/pETH-token.svg"
+  }
+]
