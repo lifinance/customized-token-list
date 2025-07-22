@@ -22,5 +22,13 @@
     "chainId": 146,
     "decimals": 18,
     "logoURI": "https://raw.githubusercontent.com/parallel-protocol/parallel-brand-kit/main/Tokens/USDp/sUSDp.svg"
+  },
+  {
+    "name": "Staked PRL 1",
+    "address": "0x7Df74BBB6F82eC1BCB1562a30ef5Bf5c326e2811",
+    "symbol": "sPRL1",
+    "chainId": 1,
+    "decimals": 18,
+    "logoURI": "https://raw.githubusercontent.com/parallel-protocol/parallel-brand-kit/main/Tokens/PRL/sPRL.svg"
   }
 ]
