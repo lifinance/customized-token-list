@@ -1,0 +1,10 @@
+[
+  {
+    "name": "Vision Token",
+    "address": "0x699Ccf919C1dfdFa4C374292f42CAdC9899BF753",
+    "symbol": "VSN",
+    "decimals": 18,
+    "chainId": 1,
+    "logoURI": "https://assets.coingecko.com/coins/images/67399/standard/Logo-Vision-Symbol-BG-Green.png?1752676915"
+  }
+]
