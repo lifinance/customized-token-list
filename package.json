@@ -24,7 +24,7 @@
   "devDependencies": {
     "@eslint/compat": "^1.2.4",
     "@eslint/json": "^0.9.0",
-    "@lifi/types": "^17.24.0-beta.0",
+    "@lifi/types": "^17.24.0-beta.1",
     "@types/jest": "^29.5.3",
     "@types/node": "^22.10.2",
     "ajv": "^8.12.0",
