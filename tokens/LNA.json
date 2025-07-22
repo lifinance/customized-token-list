@@ -30,5 +30,13 @@
       "decimals": 18,
       "name": "sUSDe",
       "logoURI": "https://ethena.fi/shared/ecosystem/sUSDe.svg"
-    }
+    },
+   {
+      "address": "0xaCb54d07cA167934F57F829BeE2cC665e1A5ebEF",
+      "chainId": 59144,
+      "symbol": "CROAK",
+      "decimals": 18,
+      "name": "CROAK",
+      "logoURI": "https://coin-images.coingecko.com/coins/images/38592/large/Croak-for-coingeko.png?1718092516"
+   }
  ]
