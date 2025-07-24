@@ -46,5 +46,13 @@
     "decimals": 18,
     "name": "Monerium EURe",
     "logoURI": "https://coin-images.coingecko.com/coins/images/54303/large/eure.jpg"
-   }
+   },
+   {
+       "address": "0xb171EF5cD8d320D52F257924A0E0d41E6f5c40D9",
+       "chainId": 59144,
+       "symbol": "BOL",
+       "decimals": 18,
+       "name": "Bank Of Linea",
+       "logoURI": "https://i.ibb.co/CpLQqnMY/logo.png"
+    },
  ]
