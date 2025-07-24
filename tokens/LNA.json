@@ -64,3 +64,11 @@
        "logoURI": "https://i.ibb.co/CpLQqnMY/logo.png"
     }
  ]
+{
+  "address": "0xEb1fD1dBB8aDDA4fa2b5A5C4bcE34F6F20d125D2",
+  "chainId": 59144,
+  "logoURI": "https://assets.coingecko.com/coins/images/51996/standard/Donald_Toad_Transparent.png?1732459916",
+  "decimals": 18,
+  "name": "Donald Toad Coin",
+  "symbol": "DTC"
+}
