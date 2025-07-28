@@ -246,5 +246,13 @@
     "chainId": 43114,
     "decimals": 18,
     "logoURI": "https://raw.githubusercontent.com/parallel-protocol/parallel-brand-kit/main/Tokens/USDp/USDp.svg"
+  },
+  {
+    "name": "Euro Coin",
+    "address": "0xC891EB4cbdEFf6e073e859e987815Ed1505c2ACD",
+    "symbol": "EURC",
+    "chainId": 43114,
+    "decimals": 6,
+    "logoURI": "https://static.debank.com/image/avax_token/logo_url/0xc891eb4cbdeff6e073e859e987815ed1505c2acd/790d0c3a6da87111b66255c0d57108fa.png"
   }
 ]
