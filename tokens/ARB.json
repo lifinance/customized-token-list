@@ -510,5 +510,13 @@
     "chainId": 42161,
     "decimals": 18,
     "logoURI": "https://raw.githubusercontent.com/parallel-protocol/parallel-brand-kit/main/Tokens/USDp/USDp.svg"
+  },
+  {
+    "name": "Vision Token",
+    "address": "0x6fBBbD8bFB1cd3986B1D05e7861a0f62F87DB74b",
+    "symbol": "VSN",
+    "decimals": 18,
+    "chainId": 42161,
+    "logoURI": "https://assets.coingecko.com/coins/images/67399/standard/Logo-Vision-Symbol-BG-Green.png?1752676915"
   }
 ]
