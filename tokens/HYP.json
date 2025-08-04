@@ -69,7 +69,15 @@
     "symbol": "sUSDe",
     "chainId": 999,
     "decimals": 18,
-    "logoURI": "https://raw.githubusercontent.com/HyperSwap-Labs/hyperswap-token-list/refs/heads/main/assets/sUSDe.jpg"
+    "logoURI": "https://ethena.fi/shared/ecosystem/sUSDe.svg"
+  },
+  {
+    "name": "USDe",
+    "address": "0x5d3a1Ff2b6BAb83b63cd9AD0787074081a52ef34",
+    "symbol": "USDe",
+    "chainId": 999,
+    "decimals": 18,
+    "logoURI": "https://ethena.fi/shared/usde.svg"
   },
   {
     "name": "Last USD",
