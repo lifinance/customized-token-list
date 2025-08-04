@@ -46,5 +46,13 @@
       "decimals": 6,
       "name": "Pump",
       "logoURI": "https://ipfs.io/ipfs/bafkreibyb3hcn7gglvdqpmklfev3fut3eqv3kje54l3to3xzxxbgpt5wjm"
-    }
+    },
+    {
+    "address": "USAkHZLm96EARLZJERKvMwNtsMLnSLoJ9CpjgEM6XJf",
+    "chainId": 1151111081099710,
+    "logoURI": "https://www.prevailswap.com/icons/prevailtoken.png",
+    "decimals": 9,
+    "name": "Prevail",
+    "symbol": "VAIL"
+  }
 ]
