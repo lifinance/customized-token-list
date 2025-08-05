@@ -19,7 +19,7 @@ You can also add scam tokens to /denyTokens/network.json and we will block this 
 
 We add tokens based on chains. You can find all supported chains through [/chains](https://li.quest/v1/chains) endpoint.
 
-The format of file of a new chain should be `[ChainKey].json` and you can find ChainKey [here](https://docs.li.fi/list-chains-bridges-dex-aggregators-solvers#supported-chains).
+The format of file of a new chain should be `[ChainKey].json` and you can find ChainKey [here](https://docs.li.fi/introduction/chains).
 
 At the same time, please ensure the package, lifi/types, is the latest version, otherwise you cannot pass the test. You can find it [here](https://github.com/lifinance/types).
 
