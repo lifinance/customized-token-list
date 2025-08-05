@@ -54,5 +54,13 @@
         "chainId": 80094,
         "decimals": 18,
         "logoURI": "https://raw.githubusercontent.com/parallel-protocol/parallel-brand-kit/main/Tokens/USDp/USDp.svg"
+    },
+    {
+        "address": "0x6B26f778bfae56CFb4Bf9b62c678d9D40e725227",
+        "chainId": 80094,
+        "symbol": "BITCOIN",
+        "decimals": 8,
+        "name": "HarryPotterObamaSonic10Inu",
+        "logoURI": "https://coin-images.coingecko.com/coins/images/30323/large/hpos10i_logo_casino_night-dexview.png?1696529224"
     }
 ]
