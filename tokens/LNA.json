@@ -30,5 +30,45 @@
       "decimals": 18,
       "name": "sUSDe",
       "logoURI": "https://ethena.fi/shared/ecosystem/sUSDe.svg"
+    },
+    {
+      "address": "0xaCb54d07cA167934F57F829BeE2cC665e1A5ebEF",
+      "chainId": 59144,
+      "symbol": "CROAK",
+      "decimals": 18,
+      "name": "CROAK",
+      "logoURI": "https://coin-images.coingecko.com/coins/images/38592/large/Croak-for-coingeko.png?1718092516"
+    },
+    {
+      "address": "0x3ff47c5Bf409C86533FE1f4907524d304062428D",
+      "chainId": 59144,
+      "symbol": "EURe",
+      "decimals": 18,
+      "name": "Monerium EURe",
+      "logoURI": "https://coin-images.coingecko.com/coins/images/54303/large/eure.jpg"
+    },
+    {
+      "address": "0xEfD81eeC32B9A8222D1842ec3d99c7532C31e348",
+      "chainId": 59144,
+      "symbol": "REX",
+      "decimals": 18,
+      "name": "Etherex",
+      "logoURI": "https://assets.coingecko.com/coins/images/68009/standard/etherex.jpg"
+    },
+    {
+       "address": "0xb171EF5cD8d320D52F257924A0E0d41E6f5c40D9",
+       "chainId": 59144,
+       "symbol": "BOL",
+       "decimals": 18,
+       "name": "Bank Of Linea",
+       "logoURI": "https://i.ibb.co/CpLQqnMY/logo.png"
+    },
+    {
+      "address": "0xEb1fD1dBB8aDDA4fa2b5A5C4bcE34F6F20d125D2",
+      "chainId": 59144,
+      "logoURI": "https://assets.coingecko.com/coins/images/51996/standard/Donald_Toad_Transparent.png?1732459916",
+      "decimals": 18,
+      "name": "Donald Toad Coin",
+      "symbol": "DTC"
     }
- ]
+]

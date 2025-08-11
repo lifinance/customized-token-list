@@ -630,5 +630,29 @@
     "chainId": 1,
     "decimals": 18,
     "logoURI": "https://raw.githubusercontent.com/parallel-protocol/parallel-brand-kit/main/Tokens/USDp/sUSDp.svg"
+  },
+  {
+    "name": "Vision Token",
+    "address": "0x699Ccf919C1dfdFa4C374292f42CAdC9899BF753",
+    "symbol": "VSN",
+    "decimals": 18,
+    "chainId": 1,
+    "logoURI": "https://assets.coingecko.com/coins/images/67399/standard/Logo-Vision-Symbol-BG-Green.png?1752676915"
+  },
+  {
+    "name": "ETH Strategy",
+    "address": "0x14cF922aa1512Adfc34409b63e18D391e4a86A2f",
+    "symbol": "STRAT",
+    "chainId": 1,
+    "decimals": 18,
+    "logoURI": "https://etherscan.io/token/images/ethstrat_32.svg"
+  },
+  {
+    "name": "Treehouse",
+    "address": "0x77146784315Ba81904d654466968e3a7c196d1f3",
+    "symbol": "TREE",
+    "chainId": 1,
+    "decimals": 18,
+    "logoURI": "https://assets.coingecko.com/coins/images/67664/standard/TREE_logo.png"
   }
 ]
