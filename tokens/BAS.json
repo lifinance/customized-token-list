@@ -485,7 +485,7 @@
     "symbol": "BTCUSD",
     "decimals": 18,
     "chainId": 8453,
-   "logoURI":"https://assets.coingecko.com/coins/images/37181/standard/BtcUSD_Logo.png?1713514017"
+    "logoURI": "https://assets.coingecko.com/coins/images/37181/standard/BtcUSD_Logo.png?1713514017"
   },
   {
     "name": "Wrapped XTZ",
@@ -526,5 +526,13 @@
     "chainId": 8453,
     "decimals": 18,
     "logoURI": "https://raw.githubusercontent.com/parallel-protocol/parallel-brand-kit/main/Tokens/USDp/sUSDp.svg"
+  },
+  {
+    "name": "Giza",
+    "address": "0x590830dfdf9a3f68afcdde2694773debdf267774",
+    "symbol": "GIZA",
+    "chainId": 8453,
+    "decimals": 18,
+    "logoURI": "https://file.notion.so/f/f/baa8640c-4dd4-45a5-9adb-cee2c58a4413/b22e1c46-9ee2-4b28-8afe-799d67ccd912/giza_token_light_BG_32px.svg?table=block&id=1a87968a-5976-80b2-975b-c142ee329dc9&spaceId=baa8640c-4dd4-45a5-9adb-cee2c58a4413&expirationTimestamp=1753732800000&signature=iqMbSbK0RuTBuXt4PVpeAK7t9BlIZIdD65UOArI1ciQ&downloadName=giza_token_light_BG_32px.svg"
   }
 ]
