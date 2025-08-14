@@ -70,5 +70,13 @@
       "decimals": 18,
       "name": "Donald Toad Coin",
       "symbol": "DTC"
+    },
+    {
+      "address": "0x880A3Ae90f989030708A529ABd841589053c1dC2",
+      "chainId": 59144,
+      "logoURI": "https://ipfs.io/ipfs/bafkreicwuurlbo4ilkmivzpw7beyiljgykh23ykvvo6yqst5spylnswqo4",
+      "decimals": 18,
+      "name": "Beaver Coin",
+      "symbol": "BEAVER"
     }
 ]
