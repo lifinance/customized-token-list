@@ -646,6 +646,8 @@
     "chainId": 1,
     "decimals": 18,
     "logoURI": "https://raw.githubusercontent.com/parallel-protocol/parallel-brand-kit/main/Tokens/PRL/sPRL.svg"
+  },
+  {
     "name": "Vision Token",
     "address": "0x699Ccf919C1dfdFa4C374292f42CAdC9899BF753",
     "symbol": "VSN",
