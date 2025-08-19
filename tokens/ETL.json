@@ -54,5 +54,13 @@
     "decimals": 6,
     "chainId": 42793,
     "logoURI": "https://static.debank.com/image/ethlink_token/logo_url/0x01f07f4d78d47a64f4c3b2b65f513f15be6e1854/dc94542c22dc4c0a0b505574e17d1d8a.png"
+  },
+  {
+    "name": "IDRX",
+    "symbol": "IDRX",
+    "address": "0x18Bc5bcC660cf2B9cE3cd51a404aFe1a0cBD3C22",
+    "decimals": 2,
+    "chainId": 42793,
+    "logoURI": "https://assets.coingecko.com/coins/images/34883/standard/IDRX_BLUE_COIN_200x200.png?1734983273"
   }
 ]
