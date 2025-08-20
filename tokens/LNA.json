@@ -78,5 +78,13 @@
       "decimals": 18,
       "name": "Beaver Coin",
       "symbol": "BEAVER"
+    },
+    {
+      "address": "0x81be2acb2e9291db6400f9f6a4d0f35f24de2e77",
+      "chainId": 59144,
+      "logoURI": "https://assets.coingecko.com/coins/images/51867/standard/Frame_48099067.png",
+      "decimals": 18,
+      "name": "Linpuss",
+      "symbol": "LPUSS"
     }
 ]
