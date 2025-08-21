@@ -6,32 +6,32 @@
   },
   {
     "chainId": 1,
-    "address": "0x1f573d6fb3f13d689ff844b4ce37794d79a7ff1c",
+    "address": "0x1F573D6Fb3F13d689FF844B4cE37794d79A7FF1C",
     "note": "Bancor (BNT)"
   },
   {
     "chainId": 1,
-    "address": "0x744d70fdbe2ba4cf95131626614a1763df805b9e",
+    "address": "0x744d70FDBE2Ba4CF95131626614a1763DF805B9E",
     "note": "Status (SNT)"
   },
   {
     "chainId": 1,
-    "address": "0x0f5d2fb29fb7d3cfee444a200298f468908cc942",
+    "address": "0x0F5D2fB29fb7d3CFeE444a200298f468908cC942",
     "note": "Decentraland (MANA)"
   },
   {
     "chainId": 1,
-    "address": "0x3597bfd533a99c9aa083587b074434e61eb0a258",
+    "address": "0x3597bfD533a99c9aa083587B074434E61Eb0A258",
     "note": "DENT (DENT)"
   },
   {
     "chainId": 1,
-    "address": "0x5a98fcbea516cf06857215779fd812ca3bef1b32",
+    "address": "0x5A98FcBEA516Cf06857215779Fd812CA3beF1B32",
     "note": "Lido DAO Token (LDO)"
   },
   {
     "chainId": 1,
-    "address": "0xaa7a9ca87d3694b5755f213b5d04094b8d0f0a6f",
+    "address": "0xaA7a9CA87d3694B5755f213B5D04094b8d0F0A6F",
     "note": "Trace (TRAC) by OriginTrail"
   },
   {
@@ -46,17 +46,17 @@
   },
   {
     "chainId": 1,
-    "address": "0xd26114cd6ee289accf82350c8d8487fedb8a0c07",
+    "address": "0xd26114cd6EE289AccF82350c8d8487fedB8A0C07",
     "note": "OMG Network (OMG)"
   },
   {
     "chainId": 1,
-    "address": "0xb64ef51c888972c908cfacf59b47c1afbc0ab8ac",
+    "address": "0xB64ef51C888972c908CFacf59B47C1AfBC0Ab8aC",
     "note": "Storj (STORJ)"
   },
   {
     "chainId": 1,
-    "address": "0x4470bb87d77b963a013db939be332f927f2b992e",
+    "address": "0x4470BB87d77b963A013DB939BE332f927f2b992e",
     "note": "AdEx (ADX)"
   }
 ]
