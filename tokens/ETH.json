@@ -640,7 +640,7 @@
     "logoURI": "https://raw.githubusercontent.com/parallel-protocol/parallel-brand-kit/main/Tokens/PRL/sPRL.svg"
   },
   {
-    "name": "Staked PRL 2",
+    "name": "Stake 20WETH-80PRL Aura Deposit Vault ",
     "address": "0xE8A2d848fE656E34A6caA35f375B42979e322135",
     "symbol": "sPRL2",
     "chainId": 1,
