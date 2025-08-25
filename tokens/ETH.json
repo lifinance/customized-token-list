@@ -670,5 +670,13 @@
     "chainId": 1,
     "decimals": 18,
     "logoURI": "https://assets.coingecko.com/coins/images/67664/standard/TREE_logo.png"
+  },
+  {
+    "name": "Get Out Frog",
+    "address": "0x0f515f030e31db8fa475aead84f79a5b25a953c4",
+    "symbol": "GOF",
+    "chainId": 1,
+    "decimals": 18,
+    "logoURI": "https://dd.dexscreener.com/ds-data/tokens/ethereum/0x0f515f030e31db8fa475aead84f79a5b25a953c4.png?size=lg&key=066039"
   }
 ]
