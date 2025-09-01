@@ -54,5 +54,29 @@
     "decimals": 9,
     "name": "Prevail",
     "symbol": "VAIL"
+  },
+    {
+    "address": "9ckR7pPPvyPadACDTzLwK2ZAEeUJ3qGSnzPs8bVaHrSy",
+    "chainId": 1151111081099710,
+    "logoURI": "https://uploader.irys.xyz/Hg7LLjvsm2KKRu9Br33gZ6veVhxAby57iXDRgtwH3DCo",
+    "decimals": 6,
+    "name": "USDu",
+    "symbol": "USDu"
+  },
+    {
+    "address": "9iq5Q33RSiz1WcupHAQKbHBZkpn92UxBG2HfPWAZhMCa",
+    "chainId": 1151111081099710,
+    "logoURI": "https://uploader.irys.xyz/AMNsb3FHyXBA4PfpLDaS71rZKhy62gvM2xMsjjUnSXAe",
+    "decimals": 6,
+    "name": "Staked USDu",
+    "symbol": "sUSDu"
+  },
+    {
+    "address": "WLFinEv6ypjkczcS83FZqFpgFZYwQXutRbxGe7oC16g",
+    "chainId": 1151111081099710,
+    "logoURI": "https://assets.coingecko.com/coins/images/50767/standard/wlfi.png",
+    "decimals": 6,
+    "name": "World Liberty Financial",
+    "symbol": "WLFI"
   }
 ]
