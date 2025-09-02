@@ -352,6 +352,22 @@
     "logoURI": "https://raw.githubusercontent.com/parallel-protocol/parallel-brand-kit/main/Tokens/USDp/USDp.svg"
   },
   {
+  "name": "Cryptohost Bridged USD",
+  "address": "0x7f32650c35Cf5a90447B922932b09262626a1346",
+  "symbol": "CUSD",
+  "chainId": 56,
+  "decimals": 18,
+  "logoURI": "https://www.cryptohostbridgedusd.io/assets/CUSD.png"
+},
+{
+  "name": "Cryptohost Bridged USD (Legacy V1)",
+  "address": "0x6665B556A5e46A314d45334368fD56A65A5979FA",
+  "symbol": "CUSD",
+  "chainId": 56,
+  "decimals": 18,
+  "logoURI": "https://www.cryptohostbridgedusd.io/assets/CUSD.png"
+},
+  {
     "name": "IOSToken",
     "address": "0xAf48B7e315a52518CfBF7d96C455D9dFAD94cB48",
     "symbol": "IOST",
