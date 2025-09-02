@@ -632,6 +632,22 @@
     "logoURI": "https://raw.githubusercontent.com/parallel-protocol/parallel-brand-kit/main/Tokens/USDp/sUSDp.svg"
   },
   {
+    "name": "Staked PRL 1",
+    "address": "0xeAd729472f82E5eC2FF4e691d67633077C1B5901",
+    "symbol": "sPRL1",
+    "chainId": 1,
+    "decimals": 18,
+    "logoURI": "https://raw.githubusercontent.com/parallel-protocol/parallel-brand-kit/main/Tokens/PRL/sPRL.svg"
+  },
+  {
+    "name": "Stake 20WETH-80PRL Aura Deposit Vault ",
+    "address": "0xE8A2d848fE656E34A6caA35f375B42979e322135",
+    "symbol": "sPRL2",
+    "chainId": 1,
+    "decimals": 18,
+    "logoURI": "https://raw.githubusercontent.com/parallel-protocol/parallel-brand-kit/main/Tokens/PRL/sPRL.svg"
+  },
+  {
     "name": "Vision Token",
     "address": "0x699Ccf919C1dfdFa4C374292f42CAdC9899BF753",
     "symbol": "VSN",
