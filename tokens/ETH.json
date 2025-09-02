@@ -702,5 +702,13 @@
     "chainId": 1,
     "decimals": 18,
     "logoURI": "https://yala.org/yu.svg"
+  },
+  {
+    "name": "Metamask USD",
+    "address": "0xacA92E438df0B2401fF60dA7E4337B687a2435DA",
+    "symbol": "mUSD",
+    "decimals": 6,
+    "chainId": 1,
+    "logoURI": "https://dashboard.m0.org/img/extensions/musd.png"
   }
 ]
