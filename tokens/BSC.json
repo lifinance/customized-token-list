@@ -311,14 +311,14 @@
     "decimals": 18,
     "logoURI": "https://assets.coingecko.com/coins/images/18834/standard/wstETH.png?1696518295"
   },
-    {
+  {
     "chainId": 56,
     "address": "0x6961974d3bC7f26F3488C64330111C8ecFE75bF3",
     "symbol": "GMX",
     "name": "GameXT",
     "decimals": 18,
     "logoURI": "https://assets.coingecko.com/coins/images/51113/standard/CoinGecko_200x200_%281%29_%281%29.png?1730117522"
-    },
+  },
   {
     "chainId": 56,
     "address": "0x4bfaa776991e85e5f8b1255461cbbd216cfc714f",
@@ -366,5 +366,20 @@
     "chainId": 1,
     "decimals": 18,
     "logoURI": "https://static.debank.com/image/eth_token/logo_url/0x6bef15d938d4e72056ac92ea4bdd0d76b1c4ad29/4a7e6c68448a224e2186f513d13d210e.png"
+  },
+    "name": "Yala Token",
+    "address": "0xF970706063b7853877F39515C96932D49d5AC9Cd",
+    "symbol": "YALA",
+    "chainId": 56,
+    "decimals": 18,
+    "logoURI": "https://yala.org/yala.svg"
+  },
+  {
+    "name": "Yala stablecoin",
+    "address": "0xE868084cf08F3c3db11f4B73a95473762d9463f7",
+    "symbol": "YU",
+    "chainId": 56,
+    "decimals": 18,
+    "logoURI": "https://yala.org/yu.svg"
   }
 ]
