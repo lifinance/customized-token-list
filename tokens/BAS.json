@@ -526,5 +526,29 @@
     "chainId": 8453,
     "decimals": 18,
     "logoURI": "https://raw.githubusercontent.com/parallel-protocol/parallel-brand-kit/main/Tokens/USDp/sUSDp.svg"
+  },
+  {
+    "name": "Staked PRL 1",
+    "address": "0x01fA35fDE0E813e2D6687660a74A313d8D922E48",
+    "symbol": "sPRL1",
+    "chainId": 8453,
+    "decimals": 18,
+    "logoURI": "https://raw.githubusercontent.com/parallel-protocol/parallel-brand-kit/main/Tokens/PRL/sPRL.svg"
+  },
+  {  
+    "name": "Yala Token",
+    "address": "0xF970706063b7853877F39515C96932D49d5AC9Cd",
+    "symbol": "YALA",
+    "chainId": 8453,
+    "decimals": 18,
+    "logoURI": "https://yala.org/yala.svg"
+  },
+  {
+    "name": "Yala stablecoin",
+    "address": "0xE868084cf08F3c3db11f4B73a95473762d9463f7",
+    "symbol": "YU",
+    "chainId": 8453,
+    "decimals": 18,
+    "logoURI": "https://yala.org/yu.svg"
   }
 ]
