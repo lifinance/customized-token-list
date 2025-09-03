@@ -363,7 +363,7 @@
     "name": "Succinct",
     "address": "0x7DDf164CEcfddd0f992299D033B5a11279A15929",
     "symbol": "PROVE",
-    "chainId": 1,
+    "chainId": 56,
     "decimals": 18,
     "logoURI": "https://static.debank.com/image/eth_token/logo_url/0x6bef15d938d4e72056ac92ea4bdd0d76b1c4ad29/4a7e6c68448a224e2186f513d13d210e.png"
   },
