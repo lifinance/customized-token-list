@@ -718,5 +718,13 @@
     "decimals": 6,
     "chainId": 1,
     "logoURI": "https://dashboard.m0.org/img/extensions/musd.png"
+  },
+  {
+    "name": "Linea",
+    "address": "0x1789e0043623282D5DCc7F213d703C6D8BAfBB04",
+    "symbol": "LINEA",
+    "decimals": 18,
+    "chainId": 1,
+    "logoURI": "https://linea.build/icons/token_round.png"
   }
 ]
