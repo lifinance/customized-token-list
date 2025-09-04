@@ -253,7 +253,7 @@
     "symbol": "BONSAI",
     "decimals": 18,
     "name": "Bonsai Token",
-    "logoURI": "https://www.bonsai.meme/static/Bonsai_Token_256x256.jpg"
+    "logoURI": "https://static.debank.com/image/matic_token/logo_url/0x3d2bd0e15829aa5c362a4144fdf4a1112fa29b5c/26ac05dcc8bbf5f06310abb947a4d836.png"
   },
   {
     "name": "Fluid",
@@ -302,7 +302,7 @@
     "chainId": 137,
     "decimals": 18,
     "logoURI": "https://raw.githubusercontent.com/parallel-protocol/parallel-brand-kit/main/Tokens/USDp/USDp.svg"
-  },  
+  },
   {
     "name": "Staked PRL 1",
     "address": "0xDB7Be3a50bdf5641757EBEa38e8014E1F0AA9475",

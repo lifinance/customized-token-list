@@ -1,11 +1,18 @@
 name: ESLint JSON
 
 on:
-  pull_request:
+  pull_request_target:
+    types:
+      - opened
+      - edited
+      - synchronize
+      - reopened
 
 jobs:
   test:
     runs-on: ubuntu-latest
+    permissions:
+      pull-requests: read
     steps:
       - uses: actions/checkout@v2
 
