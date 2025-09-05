@@ -1,18 +1,18 @@
 [
-    {
-        "name": "ENA",
-        "address": "0x58538e6A46E07434d7E7375Bc268D3cb839C0133",
-        "symbol": "ENA",
-        "decimals": 18,
-        "chainId": 34443,
-        "logoURI": "https://ethena.fi/shared/ecosystem/ENA.svg"
-    },
-    {
-        "chainId": 34443,
-        "address": "0x98f96A4B34D03a2E6f225B28b8f8Cb1279562d81",
-        "symbol": "wstETH",
-        "name": "Wrapped liquid staked Ether 2.0",
-        "decimals": 18,
-        "logoURI": "https://assets.coingecko.com/coins/images/18834/standard/wstETH.png?1696518295"
-    }
+  {
+    "name": "ENA",
+    "address": "0x58538e6A46E07434d7E7375Bc268D3cb839C0133",
+    "symbol": "ENA",
+    "decimals": 18,
+    "chainId": 34443,
+    "logoURI": "https://ethena.fi/shared/ecosystem/ENA.svg"
+  },
+  {
+    "chainId": 34443,
+    "address": "0x98f96A4B34D03a2E6f225B28b8f8Cb1279562d81",
+    "symbol": "wstETH",
+    "name": "Wrapped liquid staked Ether 2.0",
+    "decimals": 18,
+    "logoURI": "https://assets.coingecko.com/coins/images/18834/standard/wstETH.png?1696518295"
+  }
 ]

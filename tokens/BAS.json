@@ -274,7 +274,7 @@
   {
     "address": "0x0e0c9756a3290cD782CF4aB73ac24D25291c9564",
     "chainId": 8453,
-    "logoURI": "https://assets.smold.app/api/token/8453/0x0e0c9756a3290cd782cf4ab73ac24d25291c9564/logo.svg",
+    "logoURI": "https://static.debank.com/image/base_token/logo_url/0x0e0c9756a3290cd782cf4ab73ac24d25291c9564/3871f803a0788f9f6239014ea5d763af.png",
     "decimals": 18,
     "name": "Anime",
     "symbol": "ANIME"
@@ -485,7 +485,7 @@
     "symbol": "BTCUSD",
     "decimals": 18,
     "chainId": 8453,
-   "logoURI":"https://assets.coingecko.com/coins/images/37181/standard/BtcUSD_Logo.png?1713514017"
+    "logoURI": "https://assets.coingecko.com/coins/images/37181/standard/BtcUSD_Logo.png?1713514017"
   },
   {
     "name": "Wrapped XTZ",
@@ -506,7 +506,7 @@
   {
     "address": "0x00000000A22C618fd6b4D7E9A335C4B96B189a38",
     "chainId": 8453,
-    "logoURI": "https://www.towns.com/images/towns-token.png",
+    "logoURI": "https://static.debank.com/image/base_token/logo_url/0x00000000a22c618fd6b4d7e9a335c4b96b189a38/f64375b8d147f359e20e4c02645f5f8a.png",
     "decimals": 18,
     "name": "Towns",
     "symbol": "TOWNS"
@@ -535,7 +535,7 @@
     "decimals": 18,
     "logoURI": "https://raw.githubusercontent.com/parallel-protocol/parallel-brand-kit/main/Tokens/PRL/sPRL.svg"
   },
-  {  
+  {
     "name": "Yala Token",
     "address": "0xF970706063b7853877F39515C96932D49d5AC9Cd",
     "symbol": "YALA",
