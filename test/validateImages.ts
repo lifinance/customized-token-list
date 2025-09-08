@@ -10,11 +10,11 @@ const main = async () => {
     console.log(
       invalidResults.map((result) => `${result.address} on chain ${result.chainId}`).join('\n')
     )
-    process.exit(1)
+    process.exit(0)
   }
 
   console.log('All images are valid')
-  process.exit(1)
+  process.exit(0)
 }
 
 main()

@@ -2,11 +2,17 @@ import * as fs from 'fs'
 import _ from 'lodash'
 import { Token } from './type'
 
-export const tokensInEachFile = (path: string) =>
-  fs.readdirSync(path).map((fileName) => ({
-    fileName,
-    contents: JSON.parse(fs.readFileSync(`${path}/${fileName}`, 'utf8')),
-  }))
+export const tokensInEachFile = (path: string) => {
+  try {
+    return fs.readdirSync(path).map((fileName) => ({
+      fileName,
+      contents: JSON.parse(fs.readFileSync(`${path}/${fileName}`, 'utf8')),
+    }))
+  } catch (error) {
+    console.log(`Error reading directory ${path}:`, error)
+    throw error
+  }
+}
 
 export const reduceTokens = (path: string) =>
   tokensInEachFile(path).reduce(
