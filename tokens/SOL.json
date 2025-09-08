@@ -78,5 +78,21 @@
     "decimals": 6,
     "name": "World Liberty Financial",
     "symbol": "WLFI"
+  },
+  {
+    "address": "7sYAhEucFNkme29jHqSeFYNenAgD8krH9KmJeUs8Un43",
+    "chainId": 1151111081099710,
+    "logoURI": "https://app.hyperswap.ai/hyperswap_light.svg",
+    "decimals": 9,
+    "name": "Hyperswap AI",
+    "symbol": "HYLX"
+  },
+  {
+    "address": "4W7cM6SUuqhv9jp2t3jfmonXzNbDsJt5PCWqt7w1Axa2",
+    "chainId": 1151111081099710,
+    "logoURI": "https://dd.dexscreener.com/ds-data/tokens/solana/4W7cM6SUuqhv9jp2t3jfmonXzNbDsJt5PCWqt7w1Axa2.png?size=lg&key=982a5a",
+    "decimals": 9,
+    "name": "rainmaker",
+    "symbol": "rain"
   }
 ]
