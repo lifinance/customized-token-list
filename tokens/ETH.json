@@ -285,7 +285,7 @@
     "symbol": "TAROT",
     "decimals": 18,
     "name": "Tarot",
-    "logoURI": ""
+    "logoURI": "https://static.debank.com/image/eth_token/logo_url/0xa10bf0aba0c7953f279c4cb8192d3b5de5ea56e8/279c43a0188f1a56de7921e454091a52.png"
   },
   {
     "address": "0xc31C504d7Ef537CEE23a95B95045Ec28Aa632b32",
@@ -560,7 +560,7 @@
     "logoURI": "https://assets.coingecko.com/coins/images/53827/standard/Primary_Icon-Circle_LightBG.png"
   },
   {
-    "address": "0xae7ab96520DE3A18E5e111B5EaAb095312D7fE84", 
+    "address": "0xae7ab96520DE3A18E5e111B5EaAb095312D7fE84",
     "symbol": "stETH",
     "name": "Liquid staked Ether 2.0",
     "chainId": 1,
@@ -632,6 +632,22 @@
     "logoURI": "https://raw.githubusercontent.com/parallel-protocol/parallel-brand-kit/main/Tokens/USDp/sUSDp.svg"
   },
   {
+    "name": "Staked PRL 1",
+    "address": "0xeAd729472f82E5eC2FF4e691d67633077C1B5901",
+    "symbol": "sPRL1",
+    "chainId": 1,
+    "decimals": 18,
+    "logoURI": "https://raw.githubusercontent.com/parallel-protocol/parallel-brand-kit/main/Tokens/PRL/sPRL.svg"
+  },
+  {
+    "name": "Stake 20WETH-80PRL Aura Deposit Vault ",
+    "address": "0xE8A2d848fE656E34A6caA35f375B42979e322135",
+    "symbol": "sPRL2",
+    "chainId": 1,
+    "decimals": 18,
+    "logoURI": "https://raw.githubusercontent.com/parallel-protocol/parallel-brand-kit/main/Tokens/PRL/sPRL.svg"
+  },
+  {
     "name": "Vision Token",
     "address": "0x699Ccf919C1dfdFa4C374292f42CAdC9899BF753",
     "symbol": "VSN",
@@ -662,5 +678,61 @@
     "chainId": 1,
     "decimals": 18,
     "logoURI": "https://dd.dexscreener.com/ds-data/tokens/ethereum/0x0f515f030e31db8fa475aead84f79a5b25a953c4.png?size=lg&key=066039"
+  },
+  {
+    "name": "Succinct",
+    "address": "0x6BEF15D938d4E72056AC92Ea4bDD0D76B1C4ad29",
+    "symbol": "PROVE",
+    "chainId": 1,
+    "decimals": 18,
+    "logoURI": "https://static.debank.com/image/eth_token/logo_url/0x6bef15d938d4e72056ac92ea4bdd0d76b1c4ad29/4a7e6c68448a224e2186f513d13d210e.png"
+  },
+  {
+    "name": "Crotch",
+    "address": "0xaa407cae90e31b94fb384dbc6f79325ca0324048",
+    "symbol": "CROTCH",
+    "chainId": 1,
+    "decimals": 18,
+    "logoURI": "https://assets.coingecko.com/coins/images/68017/standard/Crotch_Token_Logo_200.png?1754598551"
+  },
+  {
+    "name": "World Liberty Financial",
+    "address": "0xdA5e1988097297dCdc1f90D4dFE7909e847CBeF6",
+    "symbol": "WLFI",
+    "chainId": 1,
+    "decimals": 18,
+    "logoURI": "https://assets.coingecko.com/coins/images/50767/standard/wlfi.png"
+  },
+  {
+    "name": "Yala Token",
+    "address": "0xF970706063b7853877F39515C96932D49d5AC9Cd",
+    "symbol": "YALA",
+    "chainId": 1,
+    "decimals": 18,
+    "logoURI": "https://yala.org/yala.svg"
+  },
+  {
+    "name": "Yala stablecoin",
+    "address": "0xE868084cf08F3c3db11f4B73a95473762d9463f7",
+    "symbol": "YU",
+    "chainId": 1,
+    "decimals": 18,
+    "logoURI": "https://yala.org/yu.svg"
+  },
+  {
+    "name": "Metamask USD",
+    "address": "0xacA92E438df0B2401fF60dA7E4337B687a2435DA",
+    "symbol": "mUSD",
+    "decimals": 6,
+    "chainId": 1,
+    "logoURI": "https://dashboard.m0.org/img/extensions/musd.png"
+  },
+  {
+    "name": "Linea",
+    "address": "0x1789e0043623282D5DCc7F213d703C6D8BAfBB04",
+    "symbol": "LINEA",
+    "decimals": 18,
+    "chainId": 1,
+    "logoURI": "https://linea.build/icons/token_round.png"
   }
 ]
