@@ -5,7 +5,8 @@
   "scripts": {
     "lint": "eslint .",
     "test": "jest",
-    "postinstall": "husky"
+    "postinstall": "husky",
+    "validateImages": "ts-node test/validateImages.ts"
   },
   "repository": {
     "type": "git",
