@@ -550,5 +550,13 @@
     "chainId": 8453,
     "decimals": 18,
     "logoURI": "https://yala.org/yu.svg"
+  },
+  {
+  "name": "Bio Protocol",
+  "address": "0x226A2FA2556C48245E57cd1cbA4C6c9e67077DD2",
+  "symbol": "BIO",
+  "chainId": 8453,
+  "decimals": 18,
+  "logoURI": "https://app.bio.xyz/logos/bio-logo.png"
   }
 ]
