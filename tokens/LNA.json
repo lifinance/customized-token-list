@@ -94,5 +94,13 @@
       "decimals": 6,
       "name": "Metamask USD",
       "symbol": "mUSD"
+    },
+    {
+      "name": "Linea",
+      "address": "0x1789e0043623282D5DCc7F213d703C6D8BAfBB04",
+      "symbol": "LINEA",
+      "decimals": 18,
+      "chainId": 59144,
+      "logoURI": "https://linea.build/icons/token_round.png"
     }
 ]
