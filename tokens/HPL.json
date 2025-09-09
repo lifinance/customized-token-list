@@ -13,7 +13,7 @@
     "symbol": "uBTC",
     "chainId": 1337,
     "decimals": 10,
-    "logoURI": "https://github.com/user-attachments/assets/67e8fba0-78f6-4a58-8f5a-dbef42007dbc"
+    "logoURI": "https://coin-images.coingecko.com/coins/images/1/small/bitcoin.png?1696501400"
   },
   {
     "name": "Unit Solana",
@@ -54,5 +54,13 @@
     "chainId": 1337,
     "decimals": 9,
     "logoURI": "https://app.hyperliquid.xyz/coins/ETH.svg"
+  },
+  {
+    "name": "Unit Bonk",
+    "address": "0xb113d34e351cf195733c98442530c09900000000",
+    "symbol": "uBONK",
+    "chainId": 1337,
+    "decimals": 5,
+    "logoURI": "https://app.hyperliquid.xyz/coins/BONK_USDC.svg"
   }
 ]
