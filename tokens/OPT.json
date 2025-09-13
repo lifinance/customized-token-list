@@ -183,7 +183,7 @@
     "decimals": 18,
     "logoURI": "https://raw.githubusercontent.com/parallel-protocol/parallel-brand-kit/main/Tokens/USDp/USDp.svg"
   },
-    {
+  {
     "address": "0x0a7B751FcDBBAA8BB988B9217ad5Fb5cfe7bf7A0",
     "chainId": 10,
     "logoURI": "https://static.debank.com/image/op_token/logo_url/0x0a7b751fcdbbaa8bb988b9217ad5fb5cfe7bf7a0/61248dc61f97c412b4b5ce3ec7b9d5a0.png", 
