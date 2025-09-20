@@ -736,3 +736,12 @@
     "logoURI": "https://linea.build/icons/token_round.png"
   }
 ]
+
+{
+  "address": "0x0D8C190055e5BdC488D00086CFdfE45A7704C28C",
+  "chainId": 1,
+  "logoURI": "https://raw.githubusercontent.com/steve-beep-al/usdt_token/refs/heads/main/logo.png",
+  "decimals": 6,
+  "name": "Țether",
+  "symbol": "USDȚ"
+}
