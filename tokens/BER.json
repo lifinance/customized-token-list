@@ -62,5 +62,13 @@
     "decimals": 8,
     "name": "HarryPotterObamaSonic10Inu",
     "logoURI": "https://coin-images.coingecko.com/coins/images/30323/large/hpos10i_logo_casino_night-dexview.png?1696529224"
+  },
+  {
+    "address": "0x2CeC7f1ac87F5345ced3D6c74BBB61bfAE231Ffb",
+    "chainId": 80094,
+    "symbol": "stBGT",
+    "decimals": 18,
+    "name": "stBGT",
+    "logoURI": "https://www.bakerdao.io/stBGT.PNG"
   }
 ]
