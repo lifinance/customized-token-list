@@ -94,5 +94,13 @@
     "decimals": 9,
     "name": "rainmaker",
     "symbol": "rain"
+  },
+  {
+    "address": "CASHx9KJUStyftLFWGvEVf59SGeG9sh5FfcnZMVPCASH",
+    "chainId": 1151111081099710,
+    "logoURI": "https://assets.phantom.app/assets/cash/cash_512.png",
+    "decimals": 6,
+    "name": "CASH",
+    "symbol": "CASH"
   }
 ]
