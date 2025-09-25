@@ -718,5 +718,13 @@
     "decimals": 6,
     "chainId": 1,
     "logoURI": "https://dashboard.m0.org/img/extensions/musd.png"
+  },
+  {
+    "address": "0x2f42b7d686ca3effc69778b6ed8493a7787b4d6e",
+    "chainId": 1,
+    "symbol": "TARA",
+    "decimals": 18,
+    "name": "Taraxa",
+    "logoURI": "https://etherscan.io/token/images/taraxa_64.png"
   }
 ]
