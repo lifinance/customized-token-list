@@ -1,0 +1,7 @@
+[
+    {
+      "chainId": 42161,
+      "address": "0xaE7d4Bf2Bb00A2F4Ade1C726819FCACA0e517A5B",
+      "reason": "native bridge token was deprecated in favor of CCIP"
+    }
+]
