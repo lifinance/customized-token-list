@@ -734,5 +734,13 @@
     "decimals": 18,
     "chainId": 1,
     "logoURI": "https://linea.build/icons/token_round.png"
+  },
+  {
+    "name": "XiaoBai",
+    "address": "0xcb69e5750f8dc3b69647b9d8b1f45466ace0a027",
+    "symbol": "XIAOBAI",
+    "decimals": 9,
+    "chainId": 1,
+    "logoURI": "https://raw.githubusercontent.com/0xl1nk85/xiaobai-media/main/XIAOBAI_LOGO_256_256.png"
   }
 ]
