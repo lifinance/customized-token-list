@@ -62,5 +62,13 @@
     "chainId": 1337,
     "decimals": 5,
     "logoURI": "https://app.hyperliquid.xyz/coins/BONK_USDC.svg"
+  },
+  {
+    "name": "2z",
+    "address": "0x9cd8fd4cae61e63a10ba7615780ee52000000000",
+    "symbol": "UDZ",
+    "chainId": 1337,
+    "decimals": 8,
+    "logoURI": "https://app.hyperliquid.xyz/coins/2Z.svg"
   }
 ]
