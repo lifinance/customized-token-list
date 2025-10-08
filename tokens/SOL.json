@@ -102,5 +102,13 @@
     "decimals": 6,
     "name": "CASH",
     "symbol": "CASH"
+  },
+  {
+    "address": "7kN5FQMD8ja4bzysEgc5FXmryKd6gCgjiWnhksjHCFb3",
+    "chainId": 1151111081099710,
+    "logoURI": "https://assets.coingecko.com/coins/images/54686/standard/_LION_Token_Artwork.png",
+    "decimals": 9,
+    "name": "Loaded Lions",
+    "symbol": "LION"
   }
 ]
