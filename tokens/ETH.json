@@ -734,5 +734,13 @@
     "decimals": 18,
     "chainId": 1,
     "logoURI": "https://linea.build/icons/token_round.png"
+  },
+  {
+    "name": "Eden Token",
+    "address": "0x24A3D725C37A8D1a66Eb87f0E5D07fE67c120035",
+    "symbol": "EDEN",
+    "decimals": 18,
+    "chainId": 1,
+    "logoURI": "https://assets.coingecko.com/coins/images/68283/standard/eden.png"
   }
 ]
