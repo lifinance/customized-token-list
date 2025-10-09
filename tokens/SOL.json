@@ -111,4 +111,13 @@
     "name": "Loaded Lions",
     "symbol": "LION"
   }
+ {
+    "address": "C1MHyoTJpRTeS9AQCyspNVu2EWAYCZwmJ1jNkEArFP1f",
+    "chainId": 1151111081099710,
+    "logoURI": "https://assets.coingecko.com/coins/images/24383/standard/APECOIN.png?1756551529",
+    "decimals": 18,
+    "name": "ApeCoin",
+    "symbol": "APE"
+  }
 ]
+
