@@ -62,5 +62,61 @@
     "decimals": 2,
     "chainId": 42793,
     "logoURI": "https://assets.coingecko.com/coins/images/34883/standard/IDRX_BLUE_COIN_200x200.png?1734983273"
+  },
+  {
+      "name": "Uranium",
+      "address": "0x79052Ab3C166D4899a1e0DD033aC3b379AF0B1fD",
+      "symbol": "xU3O8",
+      "decimals": 18,
+      "chainId": 42793,
+      "logoURI": "https://assets.coingecko.com/coins/images/67758/standard/xu.png?1753733711"
+  },
+  {
+      "name": "Spiko EU T-Bills Money Market Fund",
+      "address": "0xa0769f7A8fC65e47dE93797b4e21C073c117Fc80",
+      "symbol": "EUTBL",
+      "decimals": 5,
+      "chainId": 42793,
+      "logoURI": "https://assets.coingecko.com/coins/images/39657/standard/EUTBL.png?1723517425"
+  },
+  {
+      "name": "Midas Re7 Yield",
+      "address": "0x733d504435a49FC8C4e9759e756C2846c92f0160",
+      "symbol": "mRe7YIELD",
+      "decimals": 18,
+      "chainId": 42793,
+      "logoURI": "https://assets.coingecko.com/coins/images/54660/standard/mre7yield_logo.png?1740896178"
+  },
+  {
+      "name": "Spiko US T-Bills Money Market Fund",
+      "address": "0xe4880249745eAc5F1eD9d8F7DF844792D560e750",
+      "symbol": "USTBL",
+      "decimals": 5,
+      "chainId": 42793,
+      "logoURI": "https://assets.coingecko.com/coins/images/39666/standard/USTB.png?1723541269"
+  },
+  {
+      "name": "Midas Basis Trading Token",
+      "address": "0x2247B5A46BB79421a314aB0f0b67fFd11dd37Ee4",
+      "symbol": "mBASIS",
+      "decimals": 18,
+      "chainId": 42793,
+      "logoURI": "https://assets.coingecko.com/coins/images/50593/standard/mBASIS_logo.png?1728444389"
+  },
+  {
+      "name": "Midas MEV",
+      "address": "0x5542F82389b76C23f5848268893234d8A63fd5c8",
+      "symbol": "mMEV",
+      "decimals": 18,
+      "chainId": 42793,
+      "logoURI": "https://assets.coingecko.com/coins/images/54592/standard/mmev_logo.png?1740565795"
+  },
+  {
+      "name": "Midas US Treasury Bill Token",
+      "address": "0xDD629E5241CbC5919847783e6C96B2De4754e438",
+      "symbol": "mTBILL",
+      "decimals": 18,
+      "chainId": 42793,
+      "logoURI": "https://assets.coingecko.com/coins/images/37839/standard/mTBILL_token.png?1728417279"
   }
 ]
