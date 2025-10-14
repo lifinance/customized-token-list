@@ -736,6 +736,14 @@
     "logoURI": "https://linea.build/icons/token_round.png"
   },
   {
+    "name": "SEDA",
+    "address": "0x14862c03a0caccc1ab328b062e64e31b2a1afcd7",
+    "symbol": "SEDA",
+    "decimals": 18,
+    "chainId": 1,
+    "logoURI": "https://assets.coingecko.com/coins/images/36689/standard/SEDA_Logo.png?1712087674"
+  },
+  {
     "name": "XiaoBai",
     "address": "0xcb69e5750f8dc3b69647b9d8b1f45466ace0a027",
     "symbol": "XIAOBAI",
