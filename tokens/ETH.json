@@ -742,5 +742,13 @@
     "decimals": 18,
     "chainId": 1,
     "logoURI": "https://assets.coingecko.com/coins/images/36689/standard/SEDA_Logo.png?1712087674"
+  },
+  {
+    "name": "XiaoBai",
+    "address": "0xcb69e5750f8dc3b69647b9d8b1f45466ace0a027",
+    "symbol": "XIAOBAI",
+    "decimals": 9,
+    "chainId": 1,
+    "logoURI": "https://raw.githubusercontent.com/0xl1nk85/xiaobai-media/main/XIAOBAI_LOGO_256_256.png"
   }
 ]
