@@ -289,5 +289,9 @@
     "address": "0x087C440F251Ff6Cfe62B86DdE1bE558B95b4bb9b",
     "chainId": 1,
     "reason": "new BOLD token was deployed, so old token is not valid"
+  },
+  {
+    "address": "0xC12D1c73eE7DC3615BA4e37E4ABFdbDDFA38907E",
+    "chainId": 1
   }
 ]
