@@ -110,5 +110,13 @@
     "decimals": 9,
     "name": "Loaded Lions",
     "symbol": "LION"
+  },
+   {
+    "address": "CRTx1JouZhzSU6XytsE42UQraoGqiHgxabocVfARTy2s",
+    "chainId": 1151111081099710,
+    "logoURI": "https://res.cloudinary.com/dnu9h68sh/image/upload/v1757607855/carrot_rf3gkd.png",
+    "decimals": 9,
+    "name": "Carrot",
+    "symbol": "CRT"
   }
 ]
