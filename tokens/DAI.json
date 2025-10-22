@@ -158,5 +158,13 @@
     "chainId": 100,
     "decimals": 18,
     "logoURI": "https://raw.githubusercontent.com/parallel-protocol/parallel-brand-kit/main/Tokens/USDp/USDp.svg"
+  },
+  {
+    "name": "IDRX",
+    "address": "0x18Bc5bcC660cf2B9cE3cd51a404aFe1a0cBD3C22",
+    "symbol": "IDRX",
+    "chainId": 100,
+    "decimals": 2,
+    "logoURI": "https://assets.coingecko.com/coins/images/34883/standard/IDRX_BLUE_COIN_200x200.png?1734983273"
   }
 ]
