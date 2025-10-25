@@ -8,6 +8,14 @@
     "logoURI": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48/logo.png"
   },
   {
+    "name": " USDC",
+    "address": "0xfA2958CB79b0491CC627c1557F441eF849Ca8eb1",
+    "symbol": "USDC",
+    "decimals":6,
+    "chainId": 50,
+    "logoURI": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48/logo.png"
+  },
+  {
     "name": "Bridged stgUSDT",
     "address": "0xcdA5b77E2E2268D9E09c874c1b9A4c3F07b37555",
     "symbol": "USDT",
@@ -101,7 +109,7 @@
     "decimals": 18,
     "symbol": "GAMA",
     "name": "Gama Coin",
-    "logoURI": "https://raw.githubusercontent.com/XSwapProtocol/xdc-token-list/master/assets/0x678adF7955d8f6dCaa9e2fcC1C5BA70bCcC464E6/logo.png"
+    "logoURI": "https://coin-images.coingecko.com/coins/images/51308/large/Gama_Icon_%281%29.png?1730628523"
   },
   {
     "chainId": 50,
@@ -110,5 +118,13 @@
     "symbol": "BBB",
     "name": "Beny Bad Boy",
     "logoURI": "https://benybadboy.b-cdn.net/bbb.jpg"
+  },
+  {
+    "chainId": 50,
+    "address": "0xA23885c8E0743C734Bd6Da0df66e2631Ee9Bc6D8",
+    "decimals": 18,
+    "symbol": "USDB",
+    "name": "USDB",
+    "logoURI": "https://benybadboy.b-cdn.net/usdb.png"
   }
 ]

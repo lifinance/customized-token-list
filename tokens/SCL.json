@@ -1,26 +1,34 @@
 [
-    {
-        "name": "ENA",
-        "address": "0x58538e6A46E07434d7E7375Bc268D3cb839C0133",
-        "symbol": "ENA",
-        "decimals": 18,
-        "chainId": 534352,
-        "logoURI": "https://ethena.fi/shared/ecosystem/ENA.svg"
-    },
-    {
-        "address": "0x211Cc4DD073734dA055fbF44a2b4667d5E5fE5d2",
-        "chainId": 534352,
-        "symbol": "sUSDe",
-        "decimals": 18,
-        "name": "sUSDe",
-        "logoURI": "https://ethena.fi/shared/ecosystem/sUSDe.svg"
-    },
-    {
-        "name": "BOLD Stablecoin",
-        "address": "0x03569CC076654F82679C4BA2124D64774781B01D",
-        "symbol": "BOLD",
-        "chainId": 534352,
-        "decimals": 18,
-        "logoURI": "https://assets.coingecko.com/coins/images/53755/standard/BOLD_logo.png?1737183873"
-    }
+  {
+    "name": "ENA",
+    "address": "0x58538e6A46E07434d7E7375Bc268D3cb839C0133",
+    "symbol": "ENA",
+    "decimals": 18,
+    "chainId": 534352,
+    "logoURI": "https://ethena.fi/shared/ecosystem/ENA.svg"
+  },
+  {
+    "address": "0x211Cc4DD073734dA055fbF44a2b4667d5E5fE5d2",
+    "chainId": 534352,
+    "symbol": "sUSDe",
+    "decimals": 18,
+    "name": "sUSDe",
+    "logoURI": "https://ethena.fi/shared/ecosystem/sUSDe.svg"
+  },
+  {
+    "name": "BOLD Stablecoin",
+    "address": "0x03569CC076654F82679C4BA2124D64774781B01D",
+    "symbol": "BOLD",
+    "chainId": 534352,
+    "decimals": 18,
+    "logoURI": "https://assets.coingecko.com/coins/images/53755/standard/BOLD_logo.png?1737183873"
+  },
+  {
+    "name": "USDp",
+    "address": "0x9eE1963f05553eF838604Dd39403be21ceF26AA4",
+    "symbol": "USDp",
+    "chainId": 534352,
+    "decimals": 18,
+    "logoURI": "https://raw.githubusercontent.com/parallel-protocol/parallel-brand-kit/main/Tokens/USDp/USDp.svg"
+  }
 ]

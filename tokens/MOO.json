@@ -5,7 +5,7 @@
     "symbol": "ZOO",
     "decimals": 18,
     "chainId": 1284,
-    "logoURI": "https://icodrops.com/wp-content/uploads/2021/12/ZooDAO_logo.jpeg"
+    "logoURI": "https://static.debank.com/image/chain/logo_url/mobm/fcfe3dee0e55171580545cf4d4940257.png"
   },
   {
     "name": "xcRMRK",
@@ -14,5 +14,13 @@
     "decimals": 10,
     "chainId": 1284,
     "logoURI": "https://static.debank.com/image/movr_token/logo_url/0xffffffff893264794d9d57e1e0e21e0042af5a0a/fd049786331b33bc6205de366961bb2d.png"
+  },
+  {
+    "name": "xcDOT",
+    "address": "0xFfFFfFff1FcaCBd218EDc0EbA20Fc2308C778080",
+    "symbol": "xcDOT",
+    "decimals": 10,
+    "chainId": 1284,
+    "logoURI": "https://static.debank.com/image/mobm_token/logo_url/0xffffffff15e1b7e3df971dd813bc394deb899abf/e5a3f58c8e94ba24423a1245ba4227cb.png"
   }
 ]

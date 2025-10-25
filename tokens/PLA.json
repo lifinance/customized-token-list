@@ -1,0 +1,18 @@
+[
+  {
+    "address": "0x58538e6A46E07434d7E7375Bc268D3cb839C0133",
+    "chainId": 9745,
+    "symbol": "ENA",
+    "decimals": 18,
+    "name": "ENA",
+    "logoURI": "https://ethena.fi/shared/ecosystem/ENA.svg"
+  },
+  {
+    "address": "0x1B64B9025EEbb9A6239575dF9Ea4b9Ac46D4d193",
+    "chainId": 9745,
+    "symbol": "XAUT0",
+    "decimals": 6,
+    "name": "Tether Gold Tokens",
+    "logoURI": "https://coin-images.coingecko.com/coins/images/66560/large/XAUt0_Token_Icon_Gold.png?1749747942"
+  }
+]

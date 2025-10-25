@@ -38,5 +38,13 @@
     "name": "IBC Bridged USDT",
     "decimals": 6,
     "logoURI": "https://raw.githubusercontent.com/Seitrace/sei-assetlist/main/images/kavaUSDT.png"
+  },
+  {
+    "name": "USDp",
+    "address": "0x048C4e07D170eEdEE8772cA76AEE1C4e2D133d5c",
+    "symbol": "USDp",
+    "chainId": 1329,
+    "decimals": 18,
+    "logoURI": "https://raw.githubusercontent.com/parallel-protocol/parallel-brand-kit/main/Tokens/USDp/USDp.svg"
   }
 ]

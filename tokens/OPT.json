@@ -53,7 +53,7 @@
     "symbol": "STG",
     "decimals": 18,
     "name": "StargateToken",
-    "logoURI": "https: //static.debank.com/image/op_token/logo_url/0x296f55f8fb28e498b858d0bcda06d955b2cb3f97/3e78cc5b8a3f077a619a7ce556b41b25.png"
+    "logoURI": "https://static.debank.com/image/op_token/logo_url/0x296f55f8fb28e498b858d0bcda06d955b2cb3f97/31c4e4d78a06c1ed48b4bd4201031221.png"
   },
   {
     "address": "0x9485aca5bbBE1667AD97c7fE7C4531a624C8b1ED",
@@ -174,5 +174,13 @@
     "chainId": 10,
     "decimals": 18,
     "logoURI": "https://raw.githubusercontent.com/parallel-protocol/parallel-brand-kit/main/Tokens/PRL/PRL.svg"
+  },
+  {
+    "name": "USDp",
+    "address": "0x90337e484B1Cb02132fc150d3Afa262147348545",
+    "symbol": "USDp",
+    "chainId": 10,
+    "decimals": 18,
+    "logoURI": "https://raw.githubusercontent.com/parallel-protocol/parallel-brand-kit/main/Tokens/USDp/USDp.svg"
   }
 ]

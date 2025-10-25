@@ -6,5 +6,21 @@
     "decimals": 18,
     "name": "crow with knife",
     "symbol": "CAW"
+  },
+  {
+    "address": "0x4d7c922D6C12CfbF5BC85F56c9ccB1F61f49bf61",
+    "chainId": 25,
+    "logoURI": "https://dd.dexscreener.com/ds-data/tokens/cronos/0x4d7c922d6c12cfbf5bc85f56c9ccb1f61f49bf61.png?size=lg&key=da6d50",
+    "decimals": 18,
+    "name": "KitCoin",
+    "symbol": "KITTY"
+  },
+  {
+    "address": "0x00f3Be09978Ca2B7EF5014C6020b045a705eb593",
+    "chainId": 25,
+    "logoURI": "https://assets.coingecko.com/coins/images/68017/standard/Crotch_Token_Logo_200.png?1754598551",
+    "decimals": 18,
+    "name": "Crotch",
+    "symbol": "CROTCH"
   }
 ]

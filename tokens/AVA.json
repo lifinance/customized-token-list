@@ -13,7 +13,7 @@
     "symbol": "bCOIN",
     "decimals": 18,
     "chainId": 43114,
-    "logoURI": "https://assets.coingecko.com/coins/images/54429/standard/bCOIN_200p.png?1740041341"
+    "logoURI": "https://static.debank.com/image/avax_token/logo_url/0xbbcb0356bb9e6b3faa5cbf9e5f36185d53403ac9/bb57f01cd36192bb3c0dfcff5421b874.png"
   },
   {
     "name": "Wrapped Backed Coinbase",
@@ -77,7 +77,7 @@
     "symbol": "MELT",
     "decimals": 18,
     "chainId": 43114,
-    "logoURI": "https://snowtrace.io/token/images/defrostfinance_32.png"
+    "logoURI": "https://static.debank.com/image/avax_token/logo_url/0x47eb6f7525c1aa999fbc9ee92715f5231eb1241d/431f0add97e671f08c5f5c102ca0ad5d.png"
   },
   {
     "name": "Platypus",
@@ -85,7 +85,7 @@
     "symbol": "PTP",
     "decimals": 18,
     "chainId": 43114,
-    "logoURI": "https://snowtrace.io/token/images/platypusfinance_32.png"
+    "logoURI": "https://static.debank.com/image/avax_token/logo_url/0x22d4002028f537599be9f666d1c4fa138522f9c8/ffc07bc58e3867bc18d6fbcf049a4889.png"
   },
   {
     "name": "Cougar Token",
@@ -238,5 +238,29 @@
     "chainId": 43114,
     "decimals": 18,
     "logoURI": "https://assets.coingecko.com/coins/images/53755/standard/BOLD_logo.png?1737183873"
+  },
+  {
+    "name": "USDp",
+    "address": "0x9eE1963f05553eF838604Dd39403be21ceF26AA4",
+    "symbol": "USDp",
+    "chainId": 43114,
+    "decimals": 18,
+    "logoURI": "https://raw.githubusercontent.com/parallel-protocol/parallel-brand-kit/main/Tokens/USDp/USDp.svg"
+  },
+  {
+    "name": "Staked USDp",
+    "address": "0x9d92c21205383651610f90722131655a5b8ed3e0",
+    "symbol": "sUSDp",
+    "chainId": 43114,
+    "decimals": 18,
+    "logoURI": "https://raw.githubusercontent.com/parallel-protocol/parallel-brand-kit/main/Tokens/USDp/sUSDp.svg"
+  },
+  {
+    "name": "Euro Coin",
+    "address": "0xC891EB4cbdEFf6e073e859e987815Ed1505c2ACD",
+    "symbol": "EURC",
+    "chainId": 43114,
+    "decimals": 6,
+    "logoURI": "https://static.debank.com/image/avax_token/logo_url/0xc891eb4cbdeff6e073e859e987815ed1505c2acd/790d0c3a6da87111b66255c0d57108fa.png"
   }
 ]

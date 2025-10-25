@@ -1,27 +1,29 @@
-# LI.FI custom tokens
+# LI.FI Custom Tokens
 
 LI.FI supports any token passed to the API as long as we can validate it and find a USD price for it.
 
-The API exposes a list of tokens that UIs can use as default to give their users tokens to choose from. e.g. our widget uses that list: https://li.quest/v1/tokens
+The API exposes a list of tokens that UIs can use as default to give their users tokens to choose from, e.g. our widget uses that list: https://li.quest/v1/tokens
 
 We automatically include tokens in that token list if they are listed in one of the token lists we support:
+
 - lists of assets the bridges support
 - official lists of exchanges we support
 - our own custom token list (this repository)
 
 And if we can validate the token:
+
 - we can find USD prices via Debank or Zerion APIs
 - the token is not a spam/fee-taking token
 
-You can also add scam tokens to /denyTokens/network.json and we will block this token in our system.
+You can also add scam tokens to a blockchain network list in [`/denyTokens/NETX.json`](./denyTokens) and we will block this token in our system.
 
 ## How to add a new chain
 
-We add tokens based on chains. You can find all supported chains through [/chains](https://li.quest/v1/chains) endpoint.
+We add tokens based on chains. You can find all supported chains through our API endpoint [/chains](https://li.quest/v1/chains).
 
-The format of file of a new chain should be `[ChainKey].json` and you can find ChainKey [here](https://docs.li.fi/list-chains-bridges-dex-aggregators-solvers#supported-chains).
+The format of file of a new chain should be `[ChainKey].json` and you can find ChainKey [in our chains documentation](https://docs.li.fi/introduction/chains).
 
-At the same time, please ensure the package, lifi/types, is the latest version, otherwise you cannot pass the test. You can find it [here](https://github.com/lifinance/types).
+At the same time, please ensure the package `@lifi/types` is the latest version, otherwise you cannot pass the test. You can find it in [this repository](https://github.com/lifinance/types).
 
 ## How to add your token
 
@@ -60,3 +62,11 @@ Add the token as the last element in the list (don't forget the `,` after the pr
 ```
 
 Create a PR with the change describing why we should add that token. Link your project, CoinGecko and profiles so we can validate the token.
+
+## How to report EVM tokens requiring an approval reset
+
+Those lists of ERC-20 tokens help in reporting the need for an initial approval reset transaction prior to setting a new allowance to the spender. Only few legacy tokens are concerned, e.g. USDT on Ethereum mainnet.
+
+To add a legacy token on any of our supported EVM chain, you can create a PR with the token address and chainId reported in corresponding blockchain network file, e.g. [./approvalResetTokens/ETH.json](./approvalResetTokens/ETH.json).
+
+When querying available token swapping routes or quotes, if the source token is in the approval reset list, the need for an approval reset transaction will be indicated via an optional field `approvalReset` in responses' dataset `steps[].estimate`.

@@ -1,50 +1,74 @@
 [
-    {
-        "address": "0xb2F776e9c1C926C4b2e54182Fac058dA9Af0B6A5",
-        "chainId": 80094,
-        "symbol": "HENLO",
-        "decimals": 18,
-        "name": "HENLO",
-        "logoURI": "https://img.cryptorank.io/coins/henlo1738742665952.png"
-    },
-    {
-        "address": "0xb8B1Af593Dc37B33a2c87C8Db1c9051FC32858B7",
-        "chainId": 80094,
-        "symbol": "RAMEN",
-        "decimals": 18,
-        "name": "RAMEN",
-        "logoURI": "https://i.imgur.com/zz0hIaY.png"
-    },
-    {
-        "address": "0x211Cc4DD073734dA055fbF44a2b4667d5E5fE5d2",
-        "chainId": 80094,
-        "symbol": "sUSDe",
-        "decimals": 18,
-        "name": "sUSDe",
-        "logoURI": "https://ethena.fi/shared/ecosystem/sUSDe.svg"
-    },
-    {
-        "address": "0x5d3a1Ff2b6BAb83b63cd9AD0787074081a52ef34",
-        "chainId": 80094,
-        "symbol": "USDe",
-        "decimals": 18,
-        "name": "USDe",
-        "logoURI": "https://ethena.fi/shared/usde.svg"
-    },
-    {
-        "address": "0xac03CABA51e17c86c921E1f6CBFBdC91F8BB2E6b",
-        "chainId": 80094,
-        "symbol": "IBGT",
-        "decimals": 18,
-        "name": "Infrared BGT",
-        "logoURI": "https://berascan.com/token/images/ibgt_64.svg"
-    },
-    {
-        "address": "0xBaadCC2962417C01Af99fb2B7C75706B9bd6Babe",
-        "chainId": 80094,
-        "symbol": "LBGT",
-        "decimals": 18,
-        "name": "Liquid BGT",
-        "logoURI": "https://berascan.com/token/images/lbgt_32.svg"
-    }
+  {
+    "address": "0xb2F776e9c1C926C4b2e54182Fac058dA9Af0B6A5",
+    "chainId": 80094,
+    "symbol": "HENLO",
+    "decimals": 18,
+    "name": "HENLO",
+    "logoURI": "https://img.cryptorank.io/coins/henlo1738742665952.png"
+  },
+  {
+    "address": "0xb8B1Af593Dc37B33a2c87C8Db1c9051FC32858B7",
+    "chainId": 80094,
+    "symbol": "RAMEN",
+    "decimals": 18,
+    "name": "RAMEN",
+    "logoURI": "https://i.imgur.com/zz0hIaY.png"
+  },
+  {
+    "address": "0x211Cc4DD073734dA055fbF44a2b4667d5E5fE5d2",
+    "chainId": 80094,
+    "symbol": "sUSDe",
+    "decimals": 18,
+    "name": "sUSDe",
+    "logoURI": "https://ethena.fi/shared/ecosystem/sUSDe.svg"
+  },
+  {
+    "address": "0x5d3a1Ff2b6BAb83b63cd9AD0787074081a52ef34",
+    "chainId": 80094,
+    "symbol": "USDe",
+    "decimals": 18,
+    "name": "USDe",
+    "logoURI": "https://ethena.fi/shared/usde.svg"
+  },
+  {
+    "address": "0xac03CABA51e17c86c921E1f6CBFBdC91F8BB2E6b",
+    "chainId": 80094,
+    "symbol": "IBGT",
+    "decimals": 18,
+    "name": "Infrared BGT",
+    "logoURI": "https://berascan.com/token/images/ibgt_64.svg"
+  },
+  {
+    "address": "0xBaadCC2962417C01Af99fb2B7C75706B9bd6Babe",
+    "chainId": 80094,
+    "symbol": "LBGT",
+    "decimals": 18,
+    "name": "Liquid BGT",
+    "logoURI": "https://berascan.com/token/images/lbgt_32.svg"
+  },
+  {
+    "name": "USDp",
+    "address": "0x9eE1963f05553eF838604Dd39403be21ceF26AA4",
+    "symbol": "USDp",
+    "chainId": 80094,
+    "decimals": 18,
+    "logoURI": "https://raw.githubusercontent.com/parallel-protocol/parallel-brand-kit/main/Tokens/USDp/USDp.svg"
+  },
+  {
+    "address": "0x6B26f778bfae56CFb4Bf9b62c678d9D40e725227",
+    "chainId": 80094,
+    "symbol": "BITCOIN",
+    "decimals": 8,
+    "name": "HarryPotterObamaSonic10Inu",
+    "logoURI": "https://coin-images.coingecko.com/coins/images/30323/large/hpos10i_logo_casino_night-dexview.png?1696529224"
+  },
+  {
+    "address": "0x2CeC7f1ac87F5345ced3D6c74BBB61bfAE231Ffb",
+    "chainId": 80094,
+    "symbol": "stBGT",
+    "decimals": 18,
+    "name": "stBGT",
+    "logoURI": "https://www.bakerdao.io/stBGT.PNG"
+  }
 ]

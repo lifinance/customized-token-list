@@ -42,23 +42,15 @@
   {
     "name": "Unit Bitcoin",
     "address": "0x9FDBdA0A5e284c32744D2f17Ee5c74B284993463",
-    "symbol": "UBTC",
+    "symbol": "uBTC",
     "chainId": 999,
     "decimals": 8,
-    "logoURI": "https://github.com/user-attachments/assets/67e8fba0-78f6-4a58-8f5a-dbef42007dbc"
+    "logoURI": "https://static.debank.com/image/hyper_token/logo_url/0x9fdbda0a5e284c32744d2f17ee5c74b284993463/0e625d069e829a7e3aa6ef5ea569ae59.png"
   },
   {
     "name": "Unit Ethereum",
     "address": "0xBe6727B535545C67d5cAa73dEa54865B92CF7907",
-    "symbol": "UETH",
-    "chainId": 999,
-    "decimals": 18,
-    "logoURI": "https://app.hyperliquid.xyz/coins/ETH.svg"
-  },
-  {
-    "name": "Unit Ethereum",
-    "address": "0xBe6727B535545C67d5cAa73dEa54865B92CF7907",
-    "symbol": "UETH",
+    "symbol": "uETH",
     "chainId": 999,
     "decimals": 18,
     "logoURI": "https://app.hyperliquid.xyz/coins/ETH.svg"
@@ -66,7 +58,7 @@
   {
     "name": "Unit Fartcoin",
     "address": "0x3B4575E689DEd21CAAD31d64C4df1f10F3B2CedF",
-    "symbol": "UFART",
+    "symbol": "uFART",
     "chainId": 999,
     "decimals": 6,
     "logoURI": "https://raw.githubusercontent.com/HyperSwap-Labs/hyperswap-token-list/refs/heads/main/assets/ufart.jpg"
@@ -98,7 +90,7 @@
   {
     "name": "Unit Solana",
     "address": "0x068f321Fa8Fb9f0D135f290Ef6a3e2813e1c8A29",
-    "symbol": "USOL",
+    "symbol": "uSOL",
     "chainId": 999,
     "decimals": 9,
     "logoURI": "https://app.hyperliquid.xyz/coins/SOL_USDC.svg"
@@ -166,5 +158,37 @@
     "chainId": 999,
     "decimals": 6,
     "logoURI": "https://assets.coingecko.com/coins/images/66679/standard/usdhl.jpg?1750242294"
+  },
+  {
+    "name": "USDp",
+    "address": "0xBE65F0F410A72BeC163dC65d46c83699e957D588",
+    "symbol": "USDp",
+    "chainId": 999,
+    "decimals": 18,
+    "logoURI": "https://raw.githubusercontent.com/parallel-protocol/parallel-brand-kit/main/Tokens/USDp/USDp.svg"
+  },
+  {
+    "name": "Staked USDp",
+    "address": "0x9B3a8f7CEC208e247d97dEE13313690977e24459",
+    "symbol": "sUSDp",
+    "chainId": 999,
+    "decimals": 18,
+    "logoURI": "https://raw.githubusercontent.com/parallel-protocol/parallel-brand-kit/main/Tokens/USDp/sUSDp.svg"
+  },
+  {
+    "name": "Unit Pump",
+    "address": "0x27eC642013bcB3D80CA3706599D3cdA04F6f4452",
+    "symbol": "uPUMP",
+    "chainId": 999,
+    "decimals": 6,
+    "logoURI": "https://assets.coingecko.com/coins/images/67164/standard/pump.jpg?1751949376"
+  },
+  {
+    "name": "Latina",
+    "address": "0xe7eaa46c2ac8470d622ada1538fede6242cebe53",
+    "symbol": "LATINA",
+    "chainId": 999,
+    "decimals": 18,
+    "logoURI": "https://pbs.twimg.com/profile_images/1946353270219259906/XeHrpxA9_400x400.jpg"
   }
 ]
