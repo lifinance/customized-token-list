@@ -126,5 +126,13 @@
     "symbol": "USDB",
     "name": "USDB",
     "logoURI": "https://benybadboy.b-cdn.net/usdb.png"
+  },
+  {
+    "chainId": 50,
+    "address": "0x81B244d0be055EF3BEF1b09B7826Cc2b108B2cBD",
+    "decimals": 18,
+    "symbol": "PRFI",
+    "name": "PRFI",
+    "logoURI": "https://xdcscan.com/token/images/primefiprfi_64.png"
   }
 ]
