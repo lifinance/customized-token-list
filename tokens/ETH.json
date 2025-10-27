@@ -750,5 +750,15 @@
     "decimals": 9,
     "chainId": 1,
     "logoURI": "https://raw.githubusercontent.com/0xl1nk85/xiaobai-media/main/XIAOBAI_LOGO_256_256.png"
+  },
+  {
+    "name": "JPY Coin",
+    "address": "0xE7C3D8C9a439feDe00D2600032D5dB0Be71C3c29",
+    "symbol": "JPYC",
+    "decimals": 18,
+    "chainId": 1,
+    "logoURI": "https://etherscan.io/token/images/jpyc_64.png"
   }
 ]
+
+
