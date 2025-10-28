@@ -73,7 +73,7 @@
   },
   {
     "name": "USDC (Spot)",
-    "address": "0x6d1e7cde53ba9467b783cb7c530ce054000000000",
+    "address": "0x6d1e7cde53ba9467b783cb7c530ce05400000000",
     "symbol": "USDC",
     "chainId": 1337,
     "decimals": 8,
