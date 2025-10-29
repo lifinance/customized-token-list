@@ -566,5 +566,14 @@
     "decimals": 18,
     "chainId": 8453,
     "logoURI": "https://assets.coingecko.com/coins/images/36689/standard/SEDA_Logo.png?1712087674"
+  },
+  {
+    "name": "VISION ai by Virtuals",
+    "address": "0x50d7A818E5e339ebE13b17E130B5B608fAC354DC",
+    "symbol": "VISION",
+    "decimals": 18,
+    "chainId": 8453,
+    "logoURI": "https://assets.coingecko.com/coins/images/53391/standard/BASE_flat_white.png?1736277616"
   }
+  
 ]
