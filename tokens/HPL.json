@@ -70,5 +70,13 @@
     "chainId": 1337,
     "decimals": 8,
     "logoURI": "https://app.hyperliquid.xyz/coins/2Z.svg"
+  },
+  {
+    "name": "USDC (Spot)",
+    "address": "0x6d1e7cde53ba9467b783cb7c530ce05400000000",
+    "symbol": "USDC",
+    "chainId": 1337,
+    "decimals": 8,
+    "logoURI": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48/logo.png"
   }
 ]
