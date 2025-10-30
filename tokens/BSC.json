@@ -390,5 +390,13 @@
     "chainId": 56,
     "decimals": 18,
     "logoURI": "https://coin-images.coingecko.com/coins/images/54192/small/CMC_Logo.png?1738722266"
+  },
+  {
+    "name": "Tron",
+    "address": "0xce7de646e7208a4ef112cb6ed5038fa6cc6b12e3",
+    "symbol": "TRX",
+    "chainId": 56,
+    "decimals": 18,
+    "logoURI": "https://assets.coingecko.com/coins/images/1094/standard/tron-logo.png"
   }
 ]
