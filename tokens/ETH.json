@@ -681,7 +681,7 @@
   },
   {
     "name": "Succinct",
-    "address": "0x6BEF15D938d4E72056AC92Ea4bDD0D76B1C4ad29",
+    "address": "0x6BEF15D938d4E72056AC92ea4bDD0D76B1C4ad29",
     "symbol": "PROVE",
     "chainId": 1,
     "decimals": 18,
@@ -694,6 +694,14 @@
     "chainId": 1,
     "decimals": 18,
     "logoURI": "https://assets.coingecko.com/coins/images/68017/standard/Crotch_Token_Logo_200.png?1754598551"
+  },
+  {
+    "name": "Wrapped QUIL",
+    "address": "0x8143182a775c54578c8b7b3ef77982498866945d",
+    "chainId": 1,
+    "logoURI": "https://assets.coingecko.com/coins/images/37978/standard/Wrapped_QUIL.png?1716197853",
+    "decimals": 8,
+    "symbol": "wQUIL"
   },
   {
     "name": "World Liberty Financial",
