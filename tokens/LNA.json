@@ -102,5 +102,13 @@
     "decimals": 18,
     "chainId": 59144,
     "logoURI": "https://linea.build/icons/token_round.png"
+  },
+  {
+    "name": "RYZE",
+    "address": "0x34b5c2936dae6698e54781edb8b1e69a2c2873f8",
+    "symbol": "RYZE",
+    "decimals": 18,
+    "chainId": 59144,
+    "logoURI": "https://files.gitbook.com/v0/b/gitbook-x-prod.appspot.com/o/spaces%2FN2E1OqBlNraxrXWZP0Ea%2Fuploads%2FSwAkJRepRMkHqQuolYm5%2F%24RYZE.png?alt=media&token=7335fa34-51c1-4629-a84f-cd1c4d5e3a2a"
   }
 ]
