@@ -118,5 +118,13 @@
     "decimals": 9,
     "name": "Carrot",
     "symbol": "CRT"
+  },
+   {
+    "address": "JDt9rRGaieF6aN1cJkXFeUmsy7ZE4yY3CZb8tVMXVroS",
+    "chainId": 1151111081099710,
+    "logoURI": "https://wncdtzbyon524a7yhquslzhttjpgsvodmfpgnihrukkcsq7golwq.arweave.net/s0Q55Dhze64D-DwpJeTzml5pVcNhXmag8aKUKUPmcu0",
+    "decimals": 8,
+    "name": "Zenrock ZEC",
+    "symbol": "zenZEC"
   }
 ]
