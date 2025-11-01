@@ -390,5 +390,13 @@
     "chainId": 56,
     "decimals": 18,
     "logoURI": "https://coin-images.coingecko.com/coins/images/54192/small/CMC_Logo.png?1738722266"
+  },
+  {
+    "name": "TeaFi Token",
+    "address": "0x336ff048C664a081D527979aC4197d6C3c8bfB14",
+    "symbol": "TEA",
+    "chainId": 56,
+    "decimals": 18,
+    "logoURI": "https://bin.bnbstatic.com/static/buw/icons/tea.png"
   }
 ]
