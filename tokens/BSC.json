@@ -383,7 +383,6 @@
     "decimals": 18,
     "logoURI": "https://yala.org/yu.svg"
   },
-  {
     "name": "Klink Finance",
     "address": "0x76E9b54B49739837bE8aD10c3687Fc6b543de852",
     "symbol": "KLINK",
@@ -398,5 +397,13 @@
     "chainId": 56,
     "decimals": 18,
     "logoURI": "https://assets.coingecko.com/coins/images/1094/standard/tron-logo.png"
+  },
+  {
+    "name": "TeaFi Token",
+    "address": "0x336ff048C664a081D527979aC4197d6C3c8bfB14",
+    "symbol": "TEA",
+    "chainId": 56,
+    "decimals": 18,
+    "logoURI": "https://bin.bnbstatic.com/static/buw/icons/tea.png"
   }
 ]
