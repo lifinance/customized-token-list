@@ -398,5 +398,13 @@
     "chainId": 56,
     "decimals": 18,
     "logoURI": "https://bin.bnbstatic.com/static/buw/icons/tea.png"
+  },
+  {
+    "name": "Wrapped XOC",
+    "address": "0x83915DE0d525Bb57a38cD97D9F508CABEAD6a0d5",
+    "symbol": "WXOC",
+    "chainId": 56,
+    "decimals": 18,
+    "logoURI": "https://assets.coingecko.com/coins/images/69352/standard/Logo_200.png?1758262393"
   }
 ]
