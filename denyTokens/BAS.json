@@ -13,5 +13,15 @@
     "address": "0x087C440F251Ff6Cfe62B86DdE1bE558B95b4bb9b",
     "chainId": 8453,
     "reason": "new BOLD token was deployed, so old token is not valid"
+  },
+  {
+    "address": "0x938171227ece879267122a36847b219cbd3b9d47",
+    "chainId": 8453,
+    "reason": "Scam token AI Protocol (AI)"
+  },
+  {
+    "address": "0xbd194286accf1f24d2416a00483d0d84c753faec",
+    "chainId": 8453,
+    "reason": "GIGABRIAN token priced at 41 Billion USD zapper, no liquidity"
   }
 ]
