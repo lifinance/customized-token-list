@@ -105,10 +105,10 @@
   },
   {
     "chainId": 50,
-    "address": "0x678adF7955d8f6dCaa9e2fcC1C5BA70bCcC464E6",
+    "address": "0x3a170C7C987F55C84f28733Bfa27962D8CdD5D3B",
     "decimals": 18,
     "symbol": "GAMA",
-    "name": "Gama Coin",
+    "name": "Gama Token",
     "logoURI": "https://coin-images.coingecko.com/coins/images/51308/large/Gama_Icon_%281%29.png?1730628523"
   },
   {
@@ -126,5 +126,13 @@
     "symbol": "USDB",
     "name": "USDB",
     "logoURI": "https://benybadboy.b-cdn.net/usdb.png"
+  },
+  {
+    "chainId": 50,
+    "address": "0x81B244d0be055EF3BEF1b09B7826Cc2b108B2cBD",
+    "decimals": 18,
+    "symbol": "PRFI",
+    "name": "PRFI",
+    "logoURI": "https://xdcscan.com/token/images/primefiprfi_64.png"
   }
 ]
