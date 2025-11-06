@@ -46,5 +46,13 @@
     "chainId": 1329,
     "decimals": 18,
     "logoURI": "https://raw.githubusercontent.com/parallel-protocol/parallel-brand-kit/main/Tokens/USDp/USDp.svg"
+  },
+  {
+    "name": "Folks Finance",
+    "address": "0xFF7F8F301F7A706E3CfD3D2275f5dc0b9EE8009B",
+    "symbol": "FOLKS",
+    "chainId": 1329,
+    "decimals": 6,
+    "logoURI": "https://assets.coingecko.com/coins/images/70268/standard/1000331462.png?1761335326"
   }
 ]
