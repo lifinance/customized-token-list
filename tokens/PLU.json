@@ -22,7 +22,7 @@
     "symbol": "nWISDOM",
     "chainId": 98866,
     "decimals": 6,
-    "logoURI": "https://assets.plume.org/logos/nest/nwisdom/nwisdom-token.svg"
+    "logoURI": "https://assets.plume.org/images/logos/nest/nWISDOM/nWISDOM-token.svg"
   },
   {
     "name": "Nest Alpha Vault",
@@ -30,7 +30,7 @@
     "symbol": "nALPHA",
     "chainId": 98866,
     "decimals": 6,
-    "logoURI": "https://assets.plume.org/logos/nest/nALPHA/nALPHA-token.svg"
+    "logoURI": "https://assets.plume.org/images/logos/nest/nALPHA/nALPHA-token.svg"
   },
   {
     "name": "Nest Basis Vault",
@@ -38,15 +38,15 @@
     "symbol": "nBASIS",
     "chainId": 98866,
     "decimals": 6,
-    "logoURI": "https://assets.plume.org/logos/nest/nBASIS/nBASIS-token.svg"
+    "logoURI": "https://assets.plume.org/images/logos/nest/nBASIS/nBASIS-token.svg"
   },
   {
     "name": "Matrixdock Gold Vault",
-    "address": "0x0000000000000000000000000000000000000000",
+    "address": "0xA0C4F78A29ead4ABf6b7f5B3F0d05C0f3EAb8DDf",
     "symbol": "XAUM",
     "chainId": 98866,
-    "decimals": 6,
-    "logoURI": "https://assets.plume.org/logos/nest/xaum/xaum-token.svg"
+    "decimals": 18,
+    "logoURI": "https://assets.plume.org/images/logos/Matrixdock/XAUm-token.svg"
   },
   {
     "name": "USDC Native",
@@ -54,7 +54,7 @@
     "symbol": "USDC",
     "chainId": 98866,
     "decimals": 6,
-    "logoURI": "https://assets.plume.org/logos/general/usdc-token.svg"
+    "logoURI": "https://assets.plume.org/images/logos/general/usdc-token.svg"
   },
   {
     "name": "Nest Institutional Vault",
@@ -62,7 +62,7 @@
     "symbol": "nINSTO",
     "chainId": 98866,
     "decimals": 6,
-    "logoURI": "https://assets.plume.org/logos/nest/nINSTO/nINSTO-token.svg"
+    "logoURI": "https://assets.plume.org/images/logos/nest/nINSTO/nINSTO-token.svg"
   },
   {
     "name": "Nest Treasury Vault",
@@ -70,7 +70,7 @@
     "symbol": "nTBILL",
     "chainId": 98866,
     "decimals": 6,
-    "logoURI": "https://assets.plume.org/logos/nest/nTBILL/nTBILL-token.svg"
+    "logoURI": "https://assets.plume.org/images/logos/nest/nTBILL/nTBILL-token.svg"
   }
 ]
 
