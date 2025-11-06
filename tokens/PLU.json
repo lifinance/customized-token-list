@@ -1,3 +1,4 @@
+
 [
   {
     "name": "Plume USD",
@@ -14,5 +15,62 @@
     "chainId": 98866,
     "decimals": 18,
     "logoURI": "https://assets.plume.org/images/logos/pETH/pETH-token.svg"
+  },
+  {
+    "name": "Nest WisdomTree Vault",
+    "address": "0x29bF22381A5811deC89dC7b46A5Ce57aD02c0240",
+    "symbol": "nWISDOM",
+    "chainId": 98866,
+    "decimals": 6,
+    "logoURI": "https://assets.plume.org/logos/nest/nwisdom/nwisdom-token.svg"
+  },
+  {
+    "name": "Nest Alpha Vault",
+    "address": "0x593cCcA4c4bf58b7526a4C164cEEf4003C6388db",
+    "symbol": "nALPHA",
+    "chainId": 98866,
+    "decimals": 6,
+    "logoURI": "https://assets.plume.org/logos/nest/nALPHA/nALPHA-token.svg"
+  },
+  {
+    "name": "Nest Basis Vault",
+    "address": "0x0000000000000000000000000000000000000000",
+    "symbol": "nBASIS",
+    "chainId": 98866,
+    "decimals": 6,
+    "logoURI": "https://assets.plume.org/logos/nest/nBASIS/nBASIS-token.svg"
+  },
+  {
+    "name": "Matrixdock Gold Vault",
+    "address": "0x0000000000000000000000000000000000000000",
+    "symbol": "XAUM",
+    "chainId": 98866,
+    "decimals": 6,
+    "logoURI": "https://assets.plume.org/logos/nest/xaum/xaum-token.svg"
+  },
+  {
+    "name": "USDC Native",
+    "address": "0x222365EF19F7947e5484218551B56bb3965Aa7aF",
+    "symbol": "USDC",
+    "chainId": 98866,
+    "decimals": 6,
+    "logoURI": "https://assets.plume.org/logos/general/usdc-token.svg"
+  },
+  {
+    "name": "Nest Institutional Vault",
+    "address": "0xbfC5770631641719cd1Cf809D8325B146aED19De",
+    "symbol": "nINSTO",
+    "chainId": 98866,
+    "decimals": 6,
+    "logoURI": "https://assets.plume.org/logos/nest/nINSTO/nINSTO-token.svg"
+  },
+  {
+    "name": "Nest Treasury Vault",
+    "address": "0xE72Fe64840F4EF80E3Ec73a1c749491b5c938CB9",
+    "symbol": "nTBILL",
+    "chainId": 98866,
+    "decimals": 6,
+    "logoURI": "https://assets.plume.org/logos/nest/nTBILL/nTBILL-token.svg"
   }
 ]
+
