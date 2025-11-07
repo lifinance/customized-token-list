@@ -526,5 +526,13 @@
     "chainId": 8453,
     "decimals": 18,
     "logoURI": "https://raw.githubusercontent.com/parallel-protocol/parallel-brand-kit/main/Tokens/USDp/sUSDp.svg"
-  }
+  },
+   {
+    "address": "0xa88a1ed0bac18727a615299ce5f557b8220a33d7",
+    "chainId": 8453,
+    "logoURI": "https://assets.coingecko.com/coins/images/68017/standard/Crotch_Token_Logo_200.png?1754598551",
+    "decimals": 18,
+    "name": “Wrapped Crotch,
+    "symbol": “WCROTCH”
+  },
 ]
