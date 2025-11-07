@@ -49,7 +49,7 @@
     "logoURI": "https://assets.plume.org/images/logos/Matrixdock/XAUm-token.svg"
   },
   {
-    "name": "USDC Native",
+    "name": "USDC",
     "address": "0x222365EF19F7947e5484218551B56bb3965Aa7aF",
     "symbol": "USDC",
     "chainId": 98866,
