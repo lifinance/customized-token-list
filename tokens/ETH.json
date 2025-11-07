@@ -285,7 +285,7 @@
     "symbol": "TAROT",
     "decimals": 18,
     "name": "Tarot",
-    "logoURI": ""
+    "logoURI": "https://static.debank.com/image/eth_token/logo_url/0xa10bf0aba0c7953f279c4cb8192d3b5de5ea56e8/279c43a0188f1a56de7921e454091a52.png"
   },
   {
     "address": "0xc31C504d7Ef537CEE23a95B95045Ec28Aa632b32",
@@ -560,7 +560,7 @@
     "logoURI": "https://assets.coingecko.com/coins/images/53827/standard/Primary_Icon-Circle_LightBG.png"
   },
   {
-    "address": "0xae7ab96520DE3A18E5e111B5EaAb095312D7fE84", 
+    "address": "0xae7ab96520DE3A18E5e111B5EaAb095312D7fE84",
     "symbol": "stETH",
     "name": "Liquid staked Ether 2.0",
     "chainId": 1,
@@ -632,6 +632,22 @@
     "logoURI": "https://raw.githubusercontent.com/parallel-protocol/parallel-brand-kit/main/Tokens/USDp/sUSDp.svg"
   },
   {
+    "name": "Staked PRL 1",
+    "address": "0xeAd729472f82E5eC2FF4e691d67633077C1B5901",
+    "symbol": "sPRL1",
+    "chainId": 1,
+    "decimals": 18,
+    "logoURI": "https://raw.githubusercontent.com/parallel-protocol/parallel-brand-kit/main/Tokens/PRL/sPRL.svg"
+  },
+  {
+    "name": "Stake 20WETH-80PRL Aura Deposit Vault ",
+    "address": "0xE8A2d848fE656E34A6caA35f375B42979e322135",
+    "symbol": "sPRL2",
+    "chainId": 1,
+    "decimals": 18,
+    "logoURI": "https://raw.githubusercontent.com/parallel-protocol/parallel-brand-kit/main/Tokens/PRL/sPRL.svg"
+  },
+  {
     "name": "Vision Token",
     "address": "0x699Ccf919C1dfdFa4C374292f42CAdC9899BF753",
     "symbol": "VSN",
@@ -678,5 +694,79 @@
     "chainId": 1,
     "decimals": 18,
     "logoURI": "https://assets.coingecko.com/coins/images/50767/standard/wlfi.png"
+  },
+  {
+    "name": "Yala Token",
+    "address": "0xF970706063b7853877F39515C96932D49d5AC9Cd",
+    "symbol": "YALA",
+    "chainId": 1,
+    "decimals": 18,
+    "logoURI": "https://yala.org/yala.svg"
+  },
+  {
+    "name": "Yala stablecoin",
+    "address": "0xE868084cf08F3c3db11f4B73a95473762d9463f7",
+    "symbol": "YU",
+    "chainId": 1,
+    "decimals": 18,
+    "logoURI": "https://yala.org/yu.svg"
+  },
+  {
+    "name": "Metamask USD",
+    "address": "0xacA92E438df0B2401fF60dA7E4337B687a2435DA",
+    "symbol": "mUSD",
+    "decimals": 6,
+    "chainId": 1,
+    "logoURI": "https://dashboard.m0.org/img/extensions/musd.png"
+  },
+  {
+    "name": "Linea",
+    "address": "0x1789e0043623282D5DCc7F213d703C6D8BAfBB04",
+    "symbol": "LINEA",
+    "decimals": 18,
+    "chainId": 1,
+    "logoURI": "https://linea.build/icons/token_round.png"
+  },
+  {
+    "name": "SEDA",
+    "address": "0x14862c03a0caccc1ab328b062e64e31b2a1afcd7",
+    "symbol": "SEDA",
+    "decimals": 18,
+    "chainId": 1,
+    "logoURI": "https://assets.coingecko.com/coins/images/36689/standard/SEDA_Logo.png?1712087674"
+  },
+  {
+    "name": "XiaoBai",
+    "address": "0xcb69e5750f8dc3b69647b9d8b1f45466ace0a027",
+    "symbol": "XIAOBAI",
+    "decimals": 9,
+    "chainId": 1,
+    "logoURI": "https://raw.githubusercontent.com/0xl1nk85/xiaobai-media/main/XIAOBAI_LOGO_256_256.png"
+  },
+  {
+    "name": "JPY Coin",
+    "address": "0xE7C3D8C9a439feDe00D2600032D5dB0Be71C3c29",
+    "symbol": "JPYC",
+    "decimals": 18,
+    "chainId": 1,
+    "logoURI": "https://etherscan.io/token/images/jpyc_64.png"
+  },
+  {
+    "name": "Wrapped XOC",
+    "address": "0x83915DE0d525Bb57a38cD97D9F508CABEAD6a0d5",
+    "symbol": "WXOC",
+    "chainId": 1,
+    "decimals": 18,
+    "logoURI": "https://assets.coingecko.com/coins/images/69352/standard/Logo_200.png?1758262393"
+  },
+  {
+    "name": "Folks Finance",
+    "address": "0xFF7F8F301F7A706E3CfD3D2275f5dc0b9EE8009B",
+    "symbol": "FOLKS",
+    "chainId": 1,
+    "decimals": 6,
+    "logoURI": "https://assets.coingecko.com/coins/images/70268/standard/1000331462.png?1761335326"
   }
 ]
+
+

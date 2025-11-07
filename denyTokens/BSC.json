@@ -258,5 +258,10 @@
   {
     "chainId": 56,
     "address": "0x0385684e709e5e83df604fe3d6f0734d0c12e994"
+  },
+  {
+    "chainId": 56,
+    "address": "0xE82d5E015713ea2Bd14B30377350626Ec5172a9e",
+    "reason": "Potential Honeypot according to GoPlus"
   }
 ]

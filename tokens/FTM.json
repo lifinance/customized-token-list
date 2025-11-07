@@ -13,7 +13,7 @@
     "symbol": "TOMB",
     "decimals": 18,
     "chainId": 250,
-    "logoURI": "https://ftmscan.com/token/images/tomb_32.png"
+    "logoURI": "https://static.debank.com/image/ftm_token/logo_url/0x6c021ae822bea943b2e66552bde1d2696a53fbb7/7f7b2e861030a443c5941a3db60d164e.png"
   },
   {
     "name": "SpiritSwap Token",
@@ -37,7 +37,7 @@
     "symbol": "MMY",
     "decimals": 18,
     "chainId": 250,
-    "logoURI": "https://ftmscan.com/token/images/mummyfinance_32.png"
+    "logoURI": "https://static.debank.com/image/ftm_token/logo_url/0x01e77288b38b416f972428d562454fb329350bac/e8954299ca5a53721602e2c5a3edd8cd.png"
   },
   {
     "name": "Axelar Wrapped USDC",
@@ -45,7 +45,7 @@
     "symbol": "axlUSDC",
     "decimals": 6,
     "chainId": 250,
-    "logoURI": "https://ftmscan.com/token/images/axlusdc_32.png"
+    "logoURI": "https://static.debank.com/image/bsc_token/logo_url/0x4268b8f0b87b6eae5d897996e6b845ddbd99adf3/7c4709a6d625beefa3190168f350c50e.png"
   },
   {
     "address": "0x82f0B8B456c1A451378467398982d4834b6829c1",
@@ -54,21 +54,21 @@
     "decimals": 18,
     "name": "Magic Internet Money",
     "logoURI": "https://static.debank.com/image/ftm_token/logo_url/0x82f0b8b456c1a451378467398982d4834b6829c1/7d0c0fb6eab1b7a8a9bfb7dcc04cb11e.png"
- },
- {
+  },
+  {
     "address": "0x2F6F07CDcf3588944Bf4C42aC74ff24bF56e7590",
     "chainId": 250,
     "symbol": "STG",
     "decimals": 18,
     "name": "StargateToken",
     "logoURI": "https://static.debank.com/image/ftm_token/logo_url/0x2f6f07cdcf3588944bf4c42ac74ff24bf56e7590/55886c6280173254776780fd8340cca7.png"
- },
- {
+  },
+  {
     "address": "0xb7C2ddB1EBAc1056231ef22c1b0A13988537a274",
     "chainId": 250,
     "symbol": "TAROT",
     "decimals": 18,
     "name": "Tarot",
     "logoURI": "https://static.debank.com/image/ftm_token/logo_url/0xb7c2ddb1ebac1056231ef22c1b0a13988537a274/5891b0327cb79251be062762d213efdf.png"
- }
+  }
 ]

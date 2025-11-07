@@ -1,61 +1,61 @@
 [
-   {
-      "address": "72QvBVwpxqmheEPfaCwWSWqEFsUy3rhWt6JhQBMNTwD1",
-      "chainId": 1151111081099710,
-      "symbol": "ENA",
-      "decimals": 9,
-      "name": "ENA",
-      "logoURI": "https://ethena.fi/shared/ecosystem/ENA.svg"
-    },
-    {
-      "address": "Eh6XEPhSwoLv5wFApukmnaVSHQ6sAnoD9BmgmwQoN2sN",
-      "chainId": 1151111081099710,
-      "symbol": "sUSDe",
-      "decimals": 9,
-      "name": "sUSDe",
-      "logoURI": "https://ethena.fi/shared/ecosystem/sUSDe.svg"
-    },
-    {
-      "address": "DEkqHyPN7GMRJ5cArtQFAWefqbZb33Hyf6s5iCwjEonT",
-      "chainId": 1151111081099710,
-      "symbol": "USDe",
-      "decimals": 9,
-      "name": "USDe",
-      "logoURI": "https://ethena.fi/shared/usde.svg"
-    },
-   {
-      "address": "J3umBWqhSjd13sag1E1aUojViWvPYA5dFNyqpKuX3WXj",
-      "chainId": 1151111081099710,
-      "symbol": "HOME",
-      "decimals": 9,
-      "name": "Home",
-      "logoURI": "https://assets.coingecko.com/coins/images/54873/standard/defi-app.png?1742235743"
-    },
-    {
-      "address": "CAW777xcHVTQZ4CRwVQGB8CV1BVKPm5bNVxFJHWFKiH8",
-      "chainId": 1151111081099710,
-      "logoURI": "https://assets.coingecko.com/coins/images/36067/standard/200px.png?1710405601",
-      "decimals": 2,
-      "name": "crow with knife",
-      "symbol": "CAW"
-    },
-   {
-      "address": "pumpCmXqMfrsAkQ5r49WcJnRayYRqmXz6ae8H7H9Dfn",
-      "chainId": 1151111081099710,
-      "symbol": "PUMP",
-      "decimals": 6,
-      "name": "Pump",
-      "logoURI": "https://ipfs.io/ipfs/bafkreibyb3hcn7gglvdqpmklfev3fut3eqv3kje54l3to3xzxxbgpt5wjm"
-    },
-    {
+  {
+    "address": "72QvBVwpxqmheEPfaCwWSWqEFsUy3rhWt6JhQBMNTwD1",
+    "chainId": 1151111081099710,
+    "symbol": "ENA",
+    "decimals": 9,
+    "name": "ENA",
+    "logoURI": "https://ethena.fi/shared/ecosystem/ENA.svg"
+  },
+  {
+    "address": "Eh6XEPhSwoLv5wFApukmnaVSHQ6sAnoD9BmgmwQoN2sN",
+    "chainId": 1151111081099710,
+    "symbol": "sUSDe",
+    "decimals": 9,
+    "name": "sUSDe",
+    "logoURI": "https://ethena.fi/shared/ecosystem/sUSDe.svg"
+  },
+  {
+    "address": "DEkqHyPN7GMRJ5cArtQFAWefqbZb33Hyf6s5iCwjEonT",
+    "chainId": 1151111081099710,
+    "symbol": "USDe",
+    "decimals": 9,
+    "name": "USDe",
+    "logoURI": "https://ethena.fi/shared/usde.svg"
+  },
+  {
+    "address": "J3umBWqhSjd13sag1E1aUojViWvPYA5dFNyqpKuX3WXj",
+    "chainId": 1151111081099710,
+    "symbol": "HOME",
+    "decimals": 9,
+    "name": "Home",
+    "logoURI": "https://assets.coingecko.com/coins/images/54873/standard/defi-app.png?1742235743"
+  },
+  {
+    "address": "CAW777xcHVTQZ4CRwVQGB8CV1BVKPm5bNVxFJHWFKiH8",
+    "chainId": 1151111081099710,
+    "logoURI": "https://assets.coingecko.com/coins/images/36067/standard/200px.png?1710405601",
+    "decimals": 2,
+    "name": "crow with knife",
+    "symbol": "CAW"
+  },
+  {
+    "address": "pumpCmXqMfrsAkQ5r49WcJnRayYRqmXz6ae8H7H9Dfn",
+    "chainId": 1151111081099710,
+    "symbol": "PUMP",
+    "decimals": 6,
+    "name": "Pump",
+    "logoURI": "https://ipfs.io/ipfs/bafkreibyb3hcn7gglvdqpmklfev3fut3eqv3kje54l3to3xzxxbgpt5wjm"
+  },
+  {
     "address": "USAkHZLm96EARLZJERKvMwNtsMLnSLoJ9CpjgEM6XJf",
     "chainId": 1151111081099710,
-    "logoURI": "https://www.prevailswap.com/icons/prevailtoken.png",
+    "logoURI": "https://assets.geckoterminal.com/8c1roi5qqeewnuwyywy46hagg7ud",
     "decimals": 9,
     "name": "Prevail",
     "symbol": "VAIL"
   },
-    {
+  {
     "address": "9ckR7pPPvyPadACDTzLwK2ZAEeUJ3qGSnzPs8bVaHrSy",
     "chainId": 1151111081099710,
     "logoURI": "https://uploader.irys.xyz/Hg7LLjvsm2KKRu9Br33gZ6veVhxAby57iXDRgtwH3DCo",
@@ -63,7 +63,7 @@
     "name": "USDu",
     "symbol": "USDu"
   },
-    {
+  {
     "address": "9iq5Q33RSiz1WcupHAQKbHBZkpn92UxBG2HfPWAZhMCa",
     "chainId": 1151111081099710,
     "logoURI": "https://uploader.irys.xyz/AMNsb3FHyXBA4PfpLDaS71rZKhy62gvM2xMsjjUnSXAe",
@@ -71,12 +71,60 @@
     "name": "Staked USDu",
     "symbol": "sUSDu"
   },
-    {
+  {
     "address": "WLFinEv6ypjkczcS83FZqFpgFZYwQXutRbxGe7oC16g",
     "chainId": 1151111081099710,
     "logoURI": "https://assets.coingecko.com/coins/images/50767/standard/wlfi.png",
     "decimals": 6,
     "name": "World Liberty Financial",
     "symbol": "WLFI"
+  },
+  {
+    "address": "7sYAhEucFNkme29jHqSeFYNenAgD8krH9KmJeUs8Un43",
+    "chainId": 1151111081099710,
+    "logoURI": "https://app.hyperswap.ai/hyperswap_light.svg",
+    "decimals": 9,
+    "name": "Hyperswap AI",
+    "symbol": "HYLX"
+  },
+  {
+    "address": "4W7cM6SUuqhv9jp2t3jfmonXzNbDsJt5PCWqt7w1Axa2",
+    "chainId": 1151111081099710,
+    "logoURI": "https://dd.dexscreener.com/ds-data/tokens/solana/4W7cM6SUuqhv9jp2t3jfmonXzNbDsJt5PCWqt7w1Axa2.png?size=lg&key=982a5a",
+    "decimals": 9,
+    "name": "rainmaker",
+    "symbol": "rain"
+  },
+  {
+    "address": "CASHx9KJUStyftLFWGvEVf59SGeG9sh5FfcnZMVPCASH",
+    "chainId": 1151111081099710,
+    "logoURI": "https://assets.phantom.app/assets/cash/cash_512.png",
+    "decimals": 6,
+    "name": "CASH",
+    "symbol": "CASH"
+  },
+  {
+    "address": "7kN5FQMD8ja4bzysEgc5FXmryKd6gCgjiWnhksjHCFb3",
+    "chainId": 1151111081099710,
+    "logoURI": "https://assets.coingecko.com/coins/images/54686/standard/_LION_Token_Artwork.png",
+    "decimals": 9,
+    "name": "Loaded Lions",
+    "symbol": "LION"
+  },
+   {
+    "address": "CRTx1JouZhzSU6XytsE42UQraoGqiHgxabocVfARTy2s",
+    "chainId": 1151111081099710,
+    "logoURI": "https://res.cloudinary.com/dnu9h68sh/image/upload/v1757607855/carrot_rf3gkd.png",
+    "decimals": 9,
+    "name": "Carrot",
+    "symbol": "CRT"
+  },
+   {
+    "address": "JDt9rRGaieF6aN1cJkXFeUmsy7ZE4yY3CZb8tVMXVroS",
+    "chainId": 1151111081099710,
+    "logoURI": "https://wncdtzbyon524a7yhquslzhttjpgsvodmfpgnihrukkcsq7golwq.arweave.net/s0Q55Dhze64D-DwpJeTzml5pVcNhXmag8aKUKUPmcu0",
+    "decimals": 8,
+    "name": "Zenrock ZEC",
+    "symbol": "zenZEC"
   }
 ]
