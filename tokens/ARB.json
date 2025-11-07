@@ -519,12 +519,12 @@
     "chainId": 42161,
     "logoURI": "https://assets.coingecko.com/coins/images/67399/standard/Logo-Vision-Symbol-BG-Green.png?1752676915"
   },
-   {
-    "address": "0xa88A1ED0Bac18727a615299CE5F557B8220A33d7",
-    "chainId": 42161,
-    "logoURI": "https://assets.coingecko.com/coins/images/68017/standard/Crotch_Token_Logo_200.png?1754598551",
-    "decimals": 18,
-    "name": “Wrapped Crotch,
-    "symbol": “WCROTCH”
-  },
+  {
+  "address": "0xa88A1ED0Bac18727a615299CE5F557B8220A33d7",
+  "chainId": 42161,
+  "logoURI": "https://assets.coingecko.com/coins/images/68017/standard/Crotch_Token_Logo_200.png?1754598551",
+  "decimals": 18,
+  "name": "Wrapped Crotch",
+  "symbol": "WCROTCH"
+}
 ]
