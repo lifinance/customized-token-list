@@ -360,11 +360,11 @@
     "logoURI": "https://assets.coingecko.com/coins/images/2523/standard/IOST.png?1696503337"
   },
   {
-    "address": "0x9eB5884dDCBb5aFfd71EdaEd0682A32194b50E4a",
-    "chainId": 56,
-    "logoURI": "https://assets.coingecko.com/coins/images/68017/standard/Crotch_Token_Logo_200.png?1754598551",
-    "decimals": 18,
-    "name": “Wrapped Crotch",
-    "symbol": “WCROTCH”
-  },
+  "address": "0x9eB5884dDCBb5aFfd71EdaEd0682A32194b50E4a",
+  "chainId": 56,
+  "logoURI": "https://assets.coingecko.com/coins/images/68017/standard/Crotch_Token_Logo_200.png?1754598551",
+  "decimals": 18,
+  "name": "Wrapped Crotch",
+  "symbol": "WCROTCH"
+}
 ]
