@@ -302,7 +302,7 @@
     "chainId": 137,
     "decimals": 18,
     "logoURI": "https://raw.githubusercontent.com/parallel-protocol/parallel-brand-kit/main/Tokens/USDp/USDp.svg"
-  },
+   },
    {
     "address": "0x94195b2b2B5e772aec57D98C55A57dBbfE05B0fC",
     "chainId": 137,
