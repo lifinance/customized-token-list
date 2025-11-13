@@ -8,22 +8,6 @@
     "logoURI": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48/logo.png"
   },
   {
-    "name": "Unit Bitcoin",
-    "address": "0x8f254b963e8468305d409b33aa137c6700000000",
-    "symbol": "UBTC",
-    "chainId": 1337,
-    "decimals": 10,
-    "logoURI": "https://coin-images.coingecko.com/coins/images/1/small/bitcoin.png?1696501400"
-  },
-  {
-    "name": "Unit Solana",
-    "address": "0x49b67c39f5566535de22b29b0e51e68500000000",
-    "symbol": "USOL",
-    "chainId": 1337,
-    "decimals": 8,
-    "logoURI": "https://app.hyperliquid.xyz/coins/SOL_USDC.svg"
-  },
-  {
     "name": "Unit Fartcoin",
     "address": "0x7650808198966e4285687d3deb556ccc00000000",
     "symbol": "UFART",
@@ -46,14 +30,6 @@
     "chainId": 1337,
     "decimals": 8,
     "logoURI": "https://s2.coinmarketcap.com/static/img/coins/64x64/28081.png"
-  },
-  {
-    "name": "Unit Ethereum",
-    "address": "0x2ff71b802a6788a052c7f1a58ec863af00000000",
-    "symbol": "UETH",
-    "chainId": 1337,
-    "decimals": 9,
-    "logoURI": "https://app.hyperliquid.xyz/coins/ETH.svg"
   },
   {
     "name": "Unit Bonk",
