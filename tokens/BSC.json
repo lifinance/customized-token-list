@@ -360,14 +360,6 @@
     "logoURI": "https://assets.coingecko.com/coins/images/2523/standard/IOST.png?1696503337"
   },
   {
-  "address": "0x9eB5884dDCBb5aFfd71EdaEd0682A32194b50E4a",
-  "chainId": 56,
-  "logoURI": "https://assets.coingecko.com/coins/images/68017/standard/Crotch_Token_Logo_200.png?1754598551",
-  "decimals": 18,
-  "name": "Wrapped Crotch",
-  "symbol": "WCROTCH"
-},
-  {
     "name": "Succinct",
     "address": "0x7DDf164CEcfddd0f992299D033B5a11279A15929",
     "symbol": "PROVE",
@@ -424,11 +416,507 @@
     "logoURI": "https://assets.coingecko.com/coins/images/69352/standard/Logo_200.png?1758262393"
   },
   {
+    "name": "Uber Technologies, Inc.",
+    "address": "0xde9d6036fca870f7efc5a82722ae694c371ac909",
+    "symbol": "UBERon",
+    "chainId": 56,
+    "decimals": 18,
+    "logoURI": "https://assets.coingecko.com/coins/images/68562/standard/uberon_160x160.png"
+  },
+  {
+    "name": "Netflix, Inc.",
+    "address": "0x7048f5227b032326cc8dbc53cf3fddd947a2c757",
+    "symbol": "NFLXon",
+    "chainId": 56,
+    "decimals": 18,
+    "logoURI": "https://assets.coingecko.com/coins/images/68649/standard/nflxon_160x160.png"
+  },
+  {
+    "name": "Intel Corporation",
+    "address": "0xa528caaa2f96090e379d43f90834c75df54d6e74",
+    "symbol": "INTCon",
+    "chainId": 56,
+    "decimals": 18,
+    "logoURI": "https://assets.coingecko.com/coins/images/68557/standard/intcon_160x160.png"
+  },
+  {
+    "name": "UnitedHealth Group Incorporated",
+    "address": "0x3385cb29cca0ac66f5d2354d13ef977b49a2510f",
+    "symbol": "UNHon",
+    "chainId": 56,
+    "decimals": 18,
+    "logoURI": "https://assets.coingecko.com/coins/images/68624/standard/unhon_160x160.png"
+  },
+  {
+    "name": "Palantir Technologies Inc.",
+    "address": "0x9351abd19f42101dd36025e495b98e910b255d78",
+    "symbol": "PLTRon",
+    "chainId": 56,
+    "decimals": 18,
+    "logoURI": "https://assets.coingecko.com/coins/images/68594/standard/pltron_160x160.png"
+  },
+  {
+    "name": "JD.com, Inc.",
+    "address": "0xe92be960ae64f6a914ca77014cac9e56de7f36c1",
+    "symbol": "JDon",
+    "chainId": 56,
+    "decimals": 18,
+    "logoURI": "https://assets.coingecko.com/coins/images/68573/standard/jdon_160x160.png"
+  },
+  {
+    "name": "Microsoft Corporation",
+    "address": "0x6bfe75d1ad432050ea973c3a3dcd88f02e2444c3",
+    "symbol": "MSFTon",
+    "chainId": 56,
+    "decimals": 18,
+    "logoURI": "https://assets.coingecko.com/coins/images/68625/standard/msfton_160x160.png"
+  },
+  {
+    "name": "Alphabet Inc.",
+    "address": "0x091fc7778e6932d4009b087b191d1ee3bac5729a",
+    "symbol": "GOOGLon",
+    "chainId": 56,
+    "decimals": 18,
+    "logoURI": "https://assets.coingecko.com/coins/images/68606/standard/googlon_160x160.png"
+  },
+  {
+    "name": "iShares iBoxx $ High Yield Corporate Bond ETF",
+    "address": "0x0dae81a905b645a3d1e67129b89cd0acda224e9a",
+    "symbol": "HYGon",
+    "chainId": 56,
+    "decimals": 18,
+    "logoURI": "https://assets.coingecko.com/coins/images/68544/standard/hygon_160x160.png"
+  },
+  {
+    "name": "Starbucks Corporation",
+    "address": "0x94d7754541b829a87321d56121bc544167ac490d",
+    "symbol": "SBUXon",
+    "chainId": 56,
+    "decimals": 18,
+    "logoURI": "https://assets.coingecko.com/coins/images/68564/standard/sbuxon_160x160.png"
+  },
+  {
+    "name": "Hims & Hers Health, Inc",
+    "address": "0x4693f6f5ef257381a28afd0673e64d8b32d5c6ad",
+    "symbol": "HIMSon",
+    "chainId": 56,
+    "decimals": 18,
+    "logoURI": "https://assets.coingecko.com/coins/images/68553/standard/himson_160x160.png"
+  },
+  {
+    "name": "Micron Technology, Inc.",
+    "address": "0x8b6acf6041a81567f012ff6a4c6d96d5818d74bf",
+    "symbol": "MUon",
+    "chainId": 56,
+    "decimals": 18,
+    "logoURI": "https://assets.coingecko.com/coins/images/68574/standard/muon_160x160.png"
+  },
+  {
+    "name": "SPDR S&P 500 ETF",
+    "address": "0x6a708ead771238919d85930b5a0f10454e1c331a",
+    "symbol": "SPYon",
+    "chainId": 56,
+    "decimals": 18,
+    "logoURI": "https://assets.coingecko.com/coins/images/68655/standard/spyon_160x160.png"
+  },
+  {
+    "name": "iShares Gold Trust",
+    "address": "0xcb2a0f46f67dc4c58a316f1c008edef5c2311795",
+    "symbol": "IAUon",
+    "chainId": 56,
+    "decimals": 18,
+    "logoURI": "https://assets.coingecko.com/coins/images/68653/standard/iauon_160x160.png"
+  },
+  {
+    "name": "Pfizer Inc.",
+    "address": "0x8a83c31d6751833b4940b6e871c48d9a15a07b46",
+    "symbol": "PFEon",
+    "chainId": 56,
+    "decimals": 18,
+    "logoURI": "https://assets.coingecko.com/coins/images/68549/standard/pfeon_160x160.png"
+  },
+  {
+    "name": "Alibaba Group Holding Limited",
+    "address": "0xd5964f3fcee8d649995ab88f04b8982539c282d2",
+    "symbol": "BABAon",
+    "chainId": 56,
+    "decimals": 18,
+    "logoURI": "https://assets.coingecko.com/coins/images/68600/standard/babaon_160x160.png"
+  },
+  {
+    "name": "S&P Global Inc.",
+    "address": "0xbc843b147db4c7e00721d76037b8b92e13afe13f",
+    "symbol": "SPGIon",
+    "chainId": 56,
+    "decimals": 18,
+    "logoURI": "https://assets.coingecko.com/coins/images/68596/standard/spgion_160x160.png"
+  },
+  {
+    "name": "Petróleo Brasileiro S.A.",
+    "address": "0x2b1d5cdecc356530a746c5754231efaeaca64022",
+    "symbol": "PBRon",
+    "chainId": 56,
+    "decimals": 18,
+    "logoURI": "https://assets.coingecko.com/coins/images/68545/standard/pbron_160x160.png"
+  },
+  {
+    "name": "Meta Platforms, Inc.",
+    "address": "0xd7df5863a3e742f0c767768cdfcb63f09e0422f6",
+    "symbol": "METAon",
+    "chainId": 56,
+    "decimals": 18,
+    "logoURI": "https://assets.coingecko.com/coins/images/68645/standard/metaon_160x160.png"
+  },
+  {
+    "name": "iShares Russell 2000 ETF",
+    "address": "0x500eafc69b68acd6f27064f9b75f1c7d91cc4d9f",
+    "symbol": "IWMon",
+    "chainId": 56,
+    "decimals": 18,
+    "logoURI": "https://assets.coingecko.com/coins/images/68646/standard/iwmon_160x160.png"
+  },
+  {
+    "name": "iShares Core S&P Mid-Cap ETF",
+    "address": "0x167e93a849a0cc479769132552b99aa1cfa0948c",
+    "symbol": "IJHon",
+    "chainId": 56,
+    "decimals": 18,
+    "logoURI": "https://assets.coingecko.com/coins/images/68611/standard/ijhon_160x160.png"
+  },
+  {
+    "name": "SharpLink Gaming, Inc",
+    "address": "0x99e01f02d66455bb106d91d469c9eaf6ab4904f6",
+    "symbol": "SBETon",
+    "chainId": 56,
+    "decimals": 18,
+    "logoURI": "https://assets.coingecko.com/coins/images/68657/standard/sbeton_160x160.png"
+  },
+  {
+    "name": "Walmart Inc.",
+    "address": "0xa7d1e886acf66ec0656df2decb4b7c893a3bab4c",
+    "symbol": "WMTon",
+    "chainId": 56,
+    "decimals": 18,
+    "logoURI": "https://assets.coingecko.com/coins/images/68582/standard/wmton_160x160.png"
+  },
+  {
+    "name": "Riot Platforms, Inc.",
+    "address": "0xc4a88a72b848255fd24da3c1ad6755d980535fb1",
+    "symbol": "RIOTon",
+    "chainId": 56,
+    "decimals": 18,
+    "logoURI": "https://assets.coingecko.com/coins/images/68547/standard/rioton_160x160.png"
+  },
+  {
+    "name": "Oracle Corporation",
+    "address": "0x03e4bd1ea53f1da84513da0319d1f03dd1bbcf93",
+    "symbol": "ORCLon",
+    "chainId": 56,
+    "decimals": 18,
+    "logoURI": "https://assets.coingecko.com/coins/images/68592/standard/orclon_160x160.png"
+  },
+  {
+    "name": "iShares Core MSCI EAFE ETF",
+    "address": "0x918008c3d29496c37b478b611967beaca365af36",
+    "symbol": "IEFAon",
+    "chainId": 56,
+    "decimals": 18,
+    "logoURI": "https://assets.coingecko.com/coins/images/68558/standard/iefaon_160x160.png"
+  },
+  {
+    "name": "Novo Nordisk A/S",
+    "address": "0x08a513779f46ffb7a34f16094a94016d010128a8",
+    "symbol": "NVOon",
+    "chainId": 56,
+    "decimals": 18,
+    "logoURI": "https://assets.coingecko.com/coins/images/68554/standard/nvoon_160x160.png"
+  },
+  {
+    "name": "Baidu, Inc.",
+    "address": "0x467e59ce5d5fe01686d4a80dd1e1dae13549aa6c",
+    "symbol": "BIDUon",
+    "chainId": 56,
+    "decimals": 18,
+    "logoURI": "https://assets.coingecko.com/coins/images/68591/standard/biduon_160x160.png"
+  },
+  {
+    "name": "iShares Russell 2000 Value ETF",
+    "address": "0xf54b94ea21e1da5d51ef00fd4502225e5394f874",
+    "symbol": "IWNon",
+    "chainId": 56,
+    "decimals": 18,
+    "logoURI": "https://assets.coingecko.com/coins/images/68540/standard/iwnon_160x160.png"
+  },
+  {
+    "name": "iShares MSCI Emerging Markets ETF",
+    "address": "0x00c81d35eddf44c75d4db9e07bdcdc236eb0ebcf",
+    "symbol": "EEMon",
+    "chainId": 56,
+    "decimals": 18,
+    "logoURI": "https://assets.coingecko.com/coins/images/68550/standard/eemon_160x160.png"
+  },
+  {
+    "name": "iShares Silver Trust",
+    "address": "0x8b872732b07be325a8803cdb480d9d20b6f8d11b",
+    "symbol": "SLVon",
+    "chainId": 56,
+    "decimals": 18,
+    "logoURI": "https://assets.coingecko.com/coins/images/68651/standard/slvon_160x160.png"
+  },
+  {
+    "name": "Chipotle Mexican Grill, Inc.",
+    "address": "0xaed5985afc12aa09d87f55b4b1e6bc3b8f7b0208",
+    "symbol": "CMGon",
+    "chainId": 56,
+    "decimals": 18,
+    "logoURI": "https://assets.coingecko.com/coins/images/68567/standard/cmgon_160x160.png"
+  },
+  {
+    "name": "Tesla Inc.",
+    "address": "0x2494b603319d4d9f9715c9f4496d9e0364b59d93",
+    "symbol": "TSLAon",
+    "chainId": 56,
+    "decimals": 18,
+    "logoURI": "https://assets.coingecko.com/coins/images/68628/standard/tslaon_160x160.png"
+  },
+  {
+    "name": "iShares Core US Aggregate Bond ETF",
+    "address": "0x08ce97f3d5cf11e577d091ab048bc5e2eae3fabb",
+    "symbol": "AGGon",
+    "chainId": 56,
+    "decimals": 18,
+    "logoURI": "https://assets.coingecko.com/coins/images/68561/standard/aggon_160x160.png"
+  },
+  {
+    "name": "Wells Fargo & Company",
+    "address": "0x629520dee1620def11596f84e85de9f1ff653012",
+    "symbol": "WFCon",
+    "chainId": 56,
+    "decimals": 18,
+    "logoURI": "https://assets.coingecko.com/coins/images/68590/standard/wfcon_160x160.png"
+  },
+  {
+    "name": "iShares 20+ Year Treasury Bond ETF",
+    "address": "0xf69e40069ac227c11459e3f4e8a446b3401616b6",
+    "symbol": "TLTon",
+    "chainId": 56,
+    "decimals": 18,
+    "logoURI": "https://assets.coingecko.com/coins/images/68647/standard/tlton_160x160.png"
+  },
+  {
+    "name": "iShares TIPS Bond ETF",
+    "address": "0x2ac26ec236df5d1d2ad1a6dd4e448a90e45dc35d",
+    "symbol": "TIPon",
+    "chainId": 56,
+    "decimals": 18,
+    "logoURI": "https://assets.coingecko.com/coins/images/68542/standard/tipon_160x160.png"
+  },
+  {
+    "name": "iShares Russell 1000 Growth ETF",
+    "address": "0x40755f06ab7f8de1ab3a9413b1ef562d63de19b1",
+    "symbol": "IWFon",
+    "chainId": 56,
+    "decimals": 18,
+    "logoURI": "https://assets.coingecko.com/coins/images/68570/standard/iwfon_160x160.png"
+  },
+  {
+    "name": "iShares Core S&P Total US Stock Market ETF",
+    "address": "0xcf9caf83053213c44dd7027db3e1e4ac98e55f8f",
+    "symbol": "ITOTon",
+    "chainId": 56,
+    "decimals": 18,
+    "logoURI": "https://assets.coingecko.com/coins/images/68543/standard/itoton_160x160.png"
+  },
+  {
+    "name": "Circle Internet Group, Inc.",
+    "address": "0x992879cd8ce0c312d98648875b5a8d6d042cbf34",
+    "symbol": "CRCLon",
+    "chainId": 56,
+    "decimals": 18,
+    "logoURI": "https://assets.coingecko.com/coins/images/68595/standard/crclon_160x160.png"
+  },
+  {
+    "name": "Mara Holdings, Inc.",
+    "address": "0xd226d8170ee38793430c7dec6903df4b818bb74c",
+    "symbol": "MARAon",
+    "chainId": 56,
+    "decimals": 18,
+    "logoURI": "https://assets.coingecko.com/coins/images/68548/standard/maraon_160x160.png"
+  },
+  {
+    "name": "D-Wave Quantum Inc.",
+    "address": "0x8c7bf0ed6bc778bde1489de1592c1aad3e66371d",
+    "symbol": "QBTSon",
+    "chainId": 56,
+    "decimals": 18,
+    "logoURI": "https://assets.coingecko.com/coins/images/68541/standard/qbtson_160x160.png"
+  },
+  {
+    "name": "Robinhood Markets, Inc.",
+    "address": "0x19601179a60f55ff6636f5d1a8b6671053bd60a8",
+    "symbol": "HOODon",
+    "chainId": 56,
+    "decimals": 18,
+    "logoURI": "https://assets.coingecko.com/coins/images/68581/standard/hoodon_160x160.png"
+  },
+  {
+    "name": "Marvell Technology",
+    "address": "0x1501ec83ffef405b4331cc4f73277a40fb0c627d",
+    "symbol": "MRVLon",
+    "chainId": 56,
+    "decimals": 18,
+    "logoURI": "https://assets.coingecko.com/coins/images/68560/standard/mrvlon_160x160.png"
+  },
+  {
+    "name": "iShares MSCI EAFE ETF",
+    "address": "0x38b9a53bfdc5dba58a29bd6992341927c2fca637",
+    "symbol": "EFAon",
+    "chainId": 56,
+    "decimals": 18,
+    "logoURI": "https://assets.coingecko.com/coins/images/68555/standard/efaon_160x160.png"
+  },
+  {
+    "name": "McDonald's",
+    "address": "0x995add4ba29a628a57930a8a185c62ca044ec090",
+    "symbol": "MCDon",
+    "chainId": 56,
+    "decimals": 18,
+    "logoURI": "https://assets.coingecko.com/coins/images/68620/standard/mcdon_160x160.png"
+  },
+  {
+    "name": "JPMorgan Chase & Co.",
+    "address": "0x317bf42b43a394860718266dec445dcc9fd9da49",
+    "symbol": "JPMon",
+    "chainId": 56,
+    "decimals": 18,
+    "logoURI": "https://assets.coingecko.com/coins/images/68602/standard/jpmon_160x160.png"
+  },
+  {
+    "name": "Amazon.com, Inc.",
+    "address": "0x4553cfe1c09f37f38b12dc509f676964e392f8fc",
+    "symbol": "AMZNon",
+    "chainId": 56,
+    "decimals": 18,
+    "logoURI": "https://assets.coingecko.com/coins/images/68604/standard/amznon_160x160.png"
+  },
+  {
+    "name": "iShares Core S&P 500 ETF",
+    "address": "0x1104eb7e85e25eb45f88e638b0c27a06c1a91cb2",
+    "symbol": "IVVon",
+    "chainId": 56,
+    "decimals": 18,
+    "logoURI": "https://assets.coingecko.com/coins/images/68650/standard/ivvon_160x160.png"
+  },
+  {
+    "name": "Advanced Micro Devices, Inc.",
+    "address": "0x9f16e46c73b43bdb70861247d537bee4ea18f639",
+    "symbol": "AMDon",
+    "chainId": 56,
+    "decimals": 18,
+    "logoURI": "https://assets.coingecko.com/coins/images/68589/standard/amdon_160x160.png"
+  },
+  {
+    "name": "iShares Core MSCI Emerging Markets ETF",
+    "address": "0x22092c94a91d019ad15536725598b0a6be0a73c0",
+    "symbol": "IEMGon",
+    "chainId": 56,
+    "decimals": 18,
+    "logoURI": "https://assets.coingecko.com/coins/images/68658/standard/iemgon_160x160.png"
+  },
+  {
+    "name": "Super Micro Computer, Inc.",
+    "address": "0xc142ba8ccd36d80c3a001342fb83e4c3d218a873",
+    "symbol": "SMCIon",
+    "chainId": 56,
+    "decimals": 18,
+    "logoURI": "https://assets.coingecko.com/coins/images/68559/standard/smcion_160x160.png"
+  },
+  {
+    "name": "Nvdia Corporation",
+    "address": "0xa9ee28c80f960b889dfbd1902055218cba016f75",
+    "symbol": "NVDAon",
+    "chainId": 56,
+    "decimals": 18,
+    "logoURI": "https://assets.coingecko.com/coins/images/68623/standard/nvdaon_160x160.png"
+  },
+  {
+    "name": "The Coca-Cola Company",
+    "address": "0x405f38b90bebf1259062cf29da299f3398662bcb",
+    "symbol": "KOon",
+    "chainId": 56,
+    "decimals": 18,
+    "logoURI": "https://assets.coingecko.com/coins/images/68569/standard/koon_160x160.png"
+  },
+  {
+    "name": "Cisco Systems, Inc.",
+    "address": "0x34304f2f7cc487eb4186e6d69f5905a613474aa2",
+    "symbol": "CSCOon",
+    "chainId": 56,
+    "decimals": 18,
+    "logoURI": "https://assets.coingecko.com/coins/images/68566/standard/cscoon_160x160.png"
+  },
+  {
+    "name": "International Business Machines Corporation",
+    "address": "0xe8ff70859ce4cbd72e4352b4fb45f5bf39d07464",
+    "symbol": "IBMon",
+    "chainId": 56,
+    "decimals": 18,
+    "logoURI": "https://assets.coingecko.com/coins/images/68608/standard/ibmon_160x160.png"
+  },
+  {
+    "name": "Apple Inc.",
+    "address": "0x390a684ef9cade28a7ad0dfa61ab1eb3842618c4",
+    "symbol": "AAPLon",
+    "chainId": 56,
+    "decimals": 18,
+    "logoURI": "https://assets.coingecko.com/coins/images/68616/standard/aaplon_160x160.png"
+  },
+  {
+    "name": "Invesco QQQ",
+    "address": "0x0cde6936d305d5b34667fc46425e852efd73559a",
+    "symbol": "QQQon",
+    "chainId": 56,
+    "decimals": 18,
+    "logoURI": "https://assets.coingecko.com/coins/images/68654/standard/qqqon_160x160.png"
+  },
+  {
+    "name": "Broadcom Inc.",
+    "address": "0x0ed2e3180edf393e6bf8db124bd15ddd54de150a",
+    "symbol": "AVGOon",
+    "chainId": 56,
+    "decimals": 18,
+    "logoURI": "https://assets.coingecko.com/coins/images/68601/standard/avgoon_160x160.png"
+  },
+  {
+    "name": "GameStop Corp.",
+    "address": "0xdabb9aff4cf02f26d2014e4ca9f94ac6fe6572a3",
+    "symbol": "GMEon",
+    "chainId": 56,
+    "decimals": 18,
+    "logoURI": "https://assets.coingecko.com/coins/images/68575/standard/gmeon_160x160.png"
+  },
+  {
+    "name": "Taiwan Semiconductor Manufacturing Company Ltd.",
+    "address": "0xc37042a7a4fa510d8884a433762ab87257b91965",
+    "symbol": "TSMon",
+    "chainId": 56,
+    "decimals": 18,
+    "logoURI": "https://assets.coingecko.com/coins/images/68598/standard/tsmon_160x160.png"
+  },
+  {
     "name": "Folks Finance",
     "address": "0xFF7F8F301F7A706E3CfD3D2275f5dc0b9EE8009B",
     "symbol": "FOLKS",
     "chainId": 56,
     "decimals": 6,
     "logoURI": "https://assets.coingecko.com/coins/images/70268/standard/1000331462.png?1761335326"
-  }
+  },
+  {
+  "address": "0x9eB5884dDCBb5aFfd71EdaEd0682A32194b50E4a",
+  "chainId": 56,
+  "logoURI": "https://assets.coingecko.com/coins/images/68017/standard/Crotch_Token_Logo_200.png?1754598551",
+  "decimals": 18,
+  "name": "Wrapped Crotch",
+  "symbol": "WCROTCH"
+  },
 ]
