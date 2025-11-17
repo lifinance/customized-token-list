@@ -1,0 +1,50 @@
+[
+  {
+    "chainId": 143,
+    "address": "0x00000000eFE302BEAA2b3e6e1b18d08D69a9012a",
+    "name": "Agora USD",
+    "symbol": "AUSD",
+    "decimals": 6,
+    "logoURI": "https://imagedelivery.net/cBNDGgkrsEA-b_ixIp9SkQ/ausd.jpg/public"
+  },
+  {
+    "chainId": 143,
+    "address": "0xe7cd86e13AC4309349F30B3435a9d337750fC82D",
+    "name": "USDT0",
+    "symbol": "USDT0",
+    "decimals": 6,
+    "logoURI": "https://2344189142-files.gitbook.io/~/files/v0/b/gitbook-x-prod.appspot.com/o/spaces%2FHytE5q346VLLbrVSUNpY%2Fuploads%2FVkLgUdebD73euZnroDeW%2FLogo%20USDT0%20256x256.png?alt=media&token=0ca67be2-d89c-43c8-bdd2-34b552c784dc"
+  },
+  {
+    "chainId": 143,
+    "address": "0xEE8c0E9f1BFFb4Eb878d8f15f368A02a35481242",
+    "name": "Wrapped ETH",
+    "symbol": "WETH",
+    "decimals": 18,
+    "logoURI": "https://assets.coingecko.com/coins/images/2518/standard/weth.png?1696503332"
+  },
+  {
+    "chainId": 143,
+    "address": "0x3bd359C1119dA7Da1D913D1C4D2B7c461115433A",
+    "name": "Wrapped MON",
+    "symbol": "WMON",
+    "decimals": 18,
+    "logoURI": "https://raw.githubusercontent.com/monad-crypto/token-list/refs/heads/main/assets/monad.svg"
+  },
+  {
+    "chainId": 143,
+    "address": "0xea17E5a9efEBf1477dB45082d67010E2245217f1",
+    "name": "Wrapped SOL",
+    "symbol": "WSOL",
+    "decimals": 9,
+    "logoURI": "https://assets.coingecko.com/coins/images/54252/standard/solana.jpg?1738911214"
+  },
+  {
+    "chainId": 143,
+    "address": "0x01bFF41798a0BcF287b996046Ca68b395DbC1071",
+    "name": "XAUt0",
+    "symbol": "XAUt0",
+    "decimals": 6,
+    "logoURI": "https://resources.cryptocompare.com/asset-management/20126/1751464669093.png"
+  }
+]
