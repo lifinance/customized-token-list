@@ -1,6 +1,8 @@
 name: Validate Tokens
 
-on: pull_request_target
+on:
+  pull_request_target:
+    types: [opened, edited, synchronize, reopened]
 
 jobs:
   validate:
