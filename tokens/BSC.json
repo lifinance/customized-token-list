@@ -910,5 +910,13 @@
     "chainId": 56,
     "decimals": 6,
     "logoURI": "https://assets.coingecko.com/coins/images/70268/standard/1000331462.png?1761335326"
+  },
+  {
+    "address": "0x9eB5884dDCBb5aFfd71EdaEd0682A32194b50E4a",
+    "chainId": 56,
+    "logoURI": "https://assets.coingecko.com/coins/images/68017/standard/Crotch_Token_Logo_200.png?1754598551",
+    "decimals": 18,
+    "name": "Wrapped Crotch",
+    "symbol": "WCROTCH"
   }
 ]
