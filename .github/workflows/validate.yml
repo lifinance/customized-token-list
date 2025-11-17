@@ -1,23 +1,14 @@
 name: Validate Tokens
 
-on:
-  pull_request_target:
-    types:
-      - opened
-      - edited
-      - synchronize
-      - reopened
+on: pull_request_target
 
 jobs:
-  main:
-    name: Validate
+  validate:
     runs-on: ubuntu-latest
     permissions:
       pull-requests: read
     steps:
-      - uses: actions/checkout@v2
-
+      - uses: actions/checkout@v5
       - uses: ./.github/actions/install
-
       - name: Validate
         run: pnpm run test
