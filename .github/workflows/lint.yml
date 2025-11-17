@@ -1,15 +1,15 @@
 name: ESLint JSON
 
 on:
-  - pull_request
+  pull_request:
+    types: [opened, edited, synchronize, reopened]
+
 
 jobs:
-  test:
+  main:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v2
-
+      - uses: actions/checkout@v5
       - uses: ./.github/actions/install
-
-      - name: Lint
-        run: pnpm run lint
+      - run: pnpm run lint
+        
