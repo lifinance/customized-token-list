@@ -10,5 +10,4 @@ jobs:
     steps:
       - uses: actions/checkout@v5
       - uses: ./.github/actions/install
-      - name: Validate
-        run: pnpm run test
+      - run: pnpm run test
