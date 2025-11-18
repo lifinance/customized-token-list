@@ -5,7 +5,7 @@ on:
     types: [opened, edited, synchronize, reopened]
 
 jobs:
-  validate:
+  test:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v5
