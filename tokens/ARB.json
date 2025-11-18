@@ -534,5 +534,13 @@
     "decimals": 18,
     "name": "Wrapped Crotch",
     "symbol": "WCROTCH"
+  },
+  {
+    "address": "0xd83C128e7498bE555845A6dc331A99E1524C1777",
+    "chainId": 42161,
+    "logoURI": "https://static.debank.com/image/bsc_token/logo_url/0xd83c128e7498be555845a6dc331a99e1524c1777/f4c3a2cf169afe602e441deaf4cd56a5.png",
+    "decimals": 18,
+    "name": "Utopia",
+    "symbol": "UTOPIA"
   }
 ]
