@@ -3,7 +3,7 @@
     "name": "LoopedBTC",
     "address": "0xaA3cb36bE406e6cF208d218fD214e0F1a71E957d",
     "symbol": "LcBTC",
-    "decimals": 18,
+    "decimals": 8,
     "chainId": 1,
     "logoURI": "https://framerusercontent.com/images/Ivo30c7qYKkc6Q1MHFSY6HpwDM.png?width=512&height=512"
   },
@@ -784,3 +784,5 @@
     "logoURI": "https://assets.coingecko.com/coins/images/70268/standard/1000331462.png?1761335326"
   }
 ]
+
+
