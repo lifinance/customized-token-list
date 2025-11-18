@@ -30,5 +30,13 @@
     "chainId": 534352,
     "decimals": 18,
     "logoURI": "https://raw.githubusercontent.com/parallel-protocol/parallel-brand-kit/main/Tokens/USDp/USDp.svg"
+  },
+  {
+    "name": "USX",
+    "address": "0x3b005fefC63Ca7c8d25eE21FbA3787229ba4CF03",
+    "symbol": "USX",
+    "chainId": 534352,
+    "decimals": 18,
+    "logoURI": "https://www.usx.capital/images/usx-token.svg"
   }
 ]
