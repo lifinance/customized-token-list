@@ -1,5 +1,13 @@
 [
   {
+    "name": "LoopedBTC",
+    "address": "0xaA3cb36bE406e6cF208d218fD214e0F1a71E957d",
+    "symbol": "LcBTC",
+    "decimals": 8,
+    "chainId": 1,
+    "logoURI": "https://framerusercontent.com/images/Ivo30c7qYKkc6Q1MHFSY6HpwDM.png?width=512&height=512"
+  },
+  {
     "name": "Backed CSPX S&P 500",
     "address": "0x1e2C4fb7eDE391d116E6B41cD0608260e8801D59",
     "symbol": "bCSPX",
