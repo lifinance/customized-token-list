@@ -534,5 +534,13 @@
     "decimals": 18,
     "name": "Wrapped Crotch",
     "symbol": "WCROTCH"
+  },
+  {
+    "address": "0xd83C128e7498bE555845A6dc331A99E1524C1777",
+    "chainId": 42161,
+    "logoURI": "https://i.ibb.co/PvnHpNhj/Utopia-logo-1.png",
+    "decimals": 18,
+    "name": "Utopia",
+    "symbol": "UTOPIA"
   }
 ]
