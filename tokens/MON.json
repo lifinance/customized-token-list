@@ -46,5 +46,76 @@
     "symbol": "XAUt0",
     "decimals": 6,
     "logoURI": "https://resources.cryptocompare.com/asset-management/20126/1751464669093.png"
+  },
+  {
+    "chainId": 143,
+    "address": "0xFF7F8F301F7A706E3CfD3D2275f5dc0b9EE8009B",
+    "name": "Folks Finance",
+    "symbol": "FOLKS",
+    "decimals": 6,
+    "logoURI": "https://raw.githubusercontent.com/monad-crypto/token-list/refs/heads/main/mainnet/FOLKS/logo.svg"
+  },
+  {
+    "chainId": 143,
+    "address": "0x0555E30da8f98308EdB960aa94C0Db47230d2B9c",
+    "name": "Wrapped BTC",
+    "symbol": "WBTC",
+    "decimals": 8,
+    "logoURI": "https://raw.githubusercontent.com/monad-crypto/token-list/refs/heads/main/mainnet/WBTC/logo.svg"
+  },
+  {
+    "chainId": 143,
+    "address": "0x8498312A6B3CbD158bf0c93AbdCF29E6e4F55081",
+    "name": "gMON",
+    "symbol": "gMON",
+    "decimals": 18,
+    "logoURI": "https://raw.githubusercontent.com/monad-crypto/token-list/refs/heads/main/mainnet/gMON/logo.svg"
+  },{
+    "chainId": 143,
+    "address": "0xA3227C5969757783154C60bF0bC1944180ed81B9",
+    "name": "Kintsu Staked Monad",
+    "symbol": "sMON",
+    "decimals": 18,
+    "logoURI": "https://raw.githubusercontent.com/monad-crypto/token-list/refs/heads/main/mainnet/sMON/logo.svg"
+  },
+  {
+    "chainId": 143,
+    "address": "0x1B68626dCa36c7fE922fD2d55E4f631d962dE19c",
+    "name": "ShMonad",
+    "symbol": "shMON",
+    "decimals": 18,
+    "logoURI": "https://raw.githubusercontent.com/monad-crypto/token-list/refs/heads/main/mainnet/shMON/logo.png"
+  },
+  {
+    "chainId": 143,
+    "address": "0xe85411C030fB32A9D8b14Bbbc6CB19417391F711",
+    "name": "Sumerian BTC",
+    "symbol": "suBTC",
+    "decimals": 18,
+    "logoURI": "https://raw.githubusercontent.com/monad-crypto/token-list/refs/heads/main/mainnet/suBTC/logo.png"
+  },
+  {
+    "chainId": 143,
+    "address": "0x1c22531AA9747d76fFF8F0A43b37954ca67d28e0",
+    "name": "Sumerian ETH",
+    "symbol": "suETH",
+    "decimals": 18,
+    "logoURI": "https://raw.githubusercontent.com/monad-crypto/token-list/refs/heads/main/mainnet/suETH/logo.png"
+  },
+  {
+    "chainId": 143,
+    "address": "0x8BF591Eae535f93a242D5A954d3Cde648b48A5A8",
+    "name": "Sumerian USD",
+    "symbol": "suUSD",
+    "decimals": 18,
+    "logoURI": "https://raw.githubusercontent.com/monad-crypto/token-list/refs/heads/main/mainnet/suUSD/logo.png"
+  },
+  {
+    "chainId": 143,
+    "address": "0x10Aeaf63194db8d453d4D85a06E5eFE1dd0b5417",
+    "name": "Wrapped liquid staked Ether 2.0",
+    "symbol": "wstETH",
+    "decimals": 18,
+    "logoURI": "https://raw.githubusercontent.com/monad-crypto/token-list/refs/heads/main/mainnet/wstETH/logo.svg"
   }
 ]
