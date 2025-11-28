@@ -23,5 +23,10 @@
     "address": "0xbd194286accf1f24d2416a00483d0d84c753faec",
     "chainId": 8453,
     "reason": "GIGABRIAN token priced at 41 Billion USD zapper, no liquidity"
+  },
+  {
+    "address": "0xa7AE8d6D5da963bbeA21B70f403C1804639B5dc0",
+    "chainId": 8453,
+    "reason": "AlienDNA token mis priced in millions , no liquidity"
   }
 ]
