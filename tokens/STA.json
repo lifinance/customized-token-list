@@ -1,0 +1,42 @@
+[
+  {
+    "chainId": 988,
+    "address": "0x0000000000000000000000000000000000001003",
+    "name": "STABLE",
+    "symbol": "STABLE",
+    "decimals": 18,
+    "logoURI": "https://stablescan.xyz/assets/stable/images/favicon.ico"
+  },
+  {
+    "chainId": 988,
+    "address": "0xfDD22Ce6D1F66bc0Ec89b20BF16CcB6670F55A5a",
+    "name": "thBILL",
+    "symbol": "thBILL",
+    "decimals": 6,
+    "logoURI": "https://storage.googleapis.com/zapper-fi-assets/tokens/ethereum/0x5fa487bca6158c64046b2813623e20755091da0b.png"
+  },
+  {
+    "chainId": 988,
+    "address": "0x80Eede496655FB9047dd39d9f418d5483ED600df",
+    "name": "Frax USD",
+    "symbol": "frxUSD",
+    "decimals": 18,
+    "logoURI": "https://static.debank.com/image/eth_token/logo_url/0xcacd6fd266af91b8aed52accc382b4e165586e29/7610ebe75cb08ff21ee6dfb7e1592e25.png"
+  },
+  {
+    "chainId": 988,
+    "address": "0x5Bff88cA1442c2496f7E475E9e7786383Bc070c0",
+    "name": "Staked Frax USD",
+    "symbol": "sfrxUSD",
+    "decimals": 18,
+    "logoURI": "https://storage.googleapis.com/zapper-fi-assets/tokens/ethereum/0xcf62f905562626cfcdd2261162a51fd02fc9c5b6.png"
+  },
+  {
+    "chainId": 988,
+    "address": "0x8236a87084f8B84306f72007F36F2618A5634494",
+    "name": "Lombard Staked Bitcoin",
+    "symbol": "LBTC",
+    "decimals": 18,
+    "logoURI": "https://static.debank.com/image/eth_token/logo_url/0x8236a87084f8b84306f72007f36f2618a5634494/e63f839c2285bae18b83e42853bc0cf2.png"
+  }
+]
