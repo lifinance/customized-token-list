@@ -1,6 +1,14 @@
 [
   {
     "chainId": 988,
+    "address": "0x0000000000000000000000000000000000001003",
+    "name": "STABLE",
+    "symbol": "STABLE",
+    "decimals": 18,
+    "logoURI": "https://stablescan.xyz/assets/stable/images/favicon.ico"
+  },
+  {
+    "chainId": 988,
     "address": "0xfDD22Ce6D1F66bc0Ec89b20BF16CcB6670F55A5a",
     "name": "thBILL",
     "symbol": "thBILL",
