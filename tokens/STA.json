@@ -33,10 +33,10 @@
   },
   {
     "chainId": 988,
-    "address": "0x8236a87084f8B84306f72007F36F2618A5634494",
+    "address": "0xecAc9C5F704e954931349Da37F60E39f515c11c1",
     "name": "Lombard Staked Bitcoin",
     "symbol": "LBTC",
-    "decimals": 18,
+    "decimals": 8,
     "logoURI": "https://static.debank.com/image/eth_token/logo_url/0x8236a87084f8b84306f72007f36f2618a5634494/e63f839c2285bae18b83e42853bc0cf2.png"
   }
 ]
