@@ -1038,5 +1038,13 @@
     "decimals": 18,
     "chainId": 56,
     "logoURI": "https://resource-s3.stablestock.finance/icon/tokens/sQQQ.jpg"
+  },
+  {
+    "name": "CoinMarketCap 20 Index DTF",
+    "address": "0x2f8a339b5889ffac4c5a956787cda593b3c36867",
+    "symbol": "CMC20",
+    "decimals": 18,
+    "chainId": 56,
+    "logoURI": "https://s2.coinmarketcap.com/static/img/coins/128x128/38442.png"
   }
 ]
