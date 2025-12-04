@@ -910,5 +910,133 @@
     "chainId": 56,
     "decimals": 6,
     "logoURI": "https://assets.coingecko.com/coins/images/70268/standard/1000331462.png?1761335326"
+  },
+  {
+    "address": "0x9eB5884dDCBb5aFfd71EdaEd0682A32194b50E4a",
+    "chainId": 56,
+    "logoURI": "https://assets.coingecko.com/coins/images/68017/standard/Crotch_Token_Logo_200.png?1754598551",
+    "decimals": 18,
+    "name": "Wrapped Crotch",
+    "symbol": "WCROTCH"
+  },
+  {
+    "address": "0xd83C128e7498bE555845A6dc331A99E1524C1777",
+    "chainId": 56,
+    "logoURI": "https://static.debank.com/image/bsc_token/logo_url/0xd83c128e7498be555845a6dc331a99e1524c1777/f4c3a2cf169afe602e441deaf4cd56a5.png",
+    "decimals": 18,
+    "name": "Utopia",
+    "symbol": "UTOPIA"
+  },
+  {
+    "name": "NVIDIA Corporation - StableStock",
+    "address": "0x097015a0505c628ac747bd4e625396599d2073c5",
+    "symbol": "sNVDA",
+    "decimals": 18,
+    "chainId": 56,
+    "logoURI": "https://resource-s3.stablestock.finance/icon/tokens/sNVDA.jpg"
+  },
+  {
+    "name": "Tesla, Inc. - StableStock",
+    "address": "0x0f449452d8c3a3e74b5be73b6a603167b7b257d9",
+    "symbol": "sTSLA",
+    "decimals": 18,
+    "chainId": 56,
+    "logoURI": "https://resource-s3.stablestock.finance/icon/tokens/sTSLA.jpg"
+  },
+  {
+    "name": "Apple Inc. - StableStock",
+    "address": "0x84abadcc8035e73f9412360a51eb8483175c6856",
+    "symbol": "sAAPL",
+    "decimals": 18,
+    "chainId": 56,
+    "logoURI": "https://resource-s3.stablestock.finance/icon/tokens/sAAPL.jpg"
+  },
+  {
+    "name": "Coinbase Global, Inc. Class A - StableStock",
+    "address": "0xf584421c3dbdeb8fba69e06626c0f408c4d0fb1f",
+    "symbol": "sCOIN",
+    "decimals": 18,
+    "chainId": 56,
+    "logoURI": "https://resource-s3.stablestock.finance/icon/tokens/sCOIN.jpg"
+  },
+  {
+    "name": "Circle Internet Group, Inc. Class A - StableStock",
+    "address": "0x42b448ffc13d9ccc562cd6929cadde4009a60498",
+    "symbol": "sCRCL",
+    "decimals": 18,
+    "chainId": 56,
+    "logoURI": "https://resource-s3.stablestock.finance/icon/tokens/sCRCL.jpg"
+  },
+  {
+    "name": "SharpLink Gaming, Inc. - StableStock",
+    "address": "0x1887355bfde7e729419937c0c3bddc31a5b8776d",
+    "symbol": "sSBET",
+    "decimals": 18,
+    "chainId": 56,
+    "logoURI": "https://resource-s3.stablestock.finance/icon/tokens/sSBET.jpg"
+  },
+  {
+    "name": "Galaxy Digital Inc. Class A - StableStock",
+    "address": "0xa3ed5a4a96ed0f6813e137f4d1edabffe0ddae9d",
+    "symbol": "sGLXY",
+    "decimals": 18,
+    "chainId": 56,
+    "logoURI": "https://resource-s3.stablestock.finance/icon/tokens/sGLXY.jpg"
+  },
+  {
+    "name": "BitMine Immersion Technologies, Inc. - StableStock",
+    "address": "0x5d4d45474421a64f04a16da0dd5b74b36957ed77",
+    "symbol": "sBMNR",
+    "decimals": 18,
+    "chainId": 56,
+    "logoURI": "https://resource-s3.stablestock.finance/icon/tokens/sBMNR.jpg"
+  },
+  {
+    "name": "CEA Industries Inc. - StableStock",
+    "address": "0xd76952bcbe2c63bdb3a1b78aab27a5e86ed556df",
+    "symbol": "sBNC",
+    "decimals": 18,
+    "chainId": 56,
+    "logoURI": "https://resource-s3.stablestock.finance/icon/tokens/sBNC.jpg"
+  },
+  {
+    "name": "Intel Corporation - StableStock",
+    "address": "0xeb106122c288cedf07b062139bb4178cf948b0d8",
+    "symbol": "sINTC",
+    "decimals": 18,
+    "chainId": 56,
+    "logoURI": "https://resource-s3.stablestock.finance/icon/tokens/sINTC.jpg"
+  },
+  {
+    "name": "ALT5 Sigma Corporation - StableStock",
+    "address": "0x753b805fdacb1582e94fdd4e0fbeee27da9ee2b4",
+    "symbol": "sALTS",
+    "decimals": 18,
+    "chainId": 56,
+    "logoURI": "https://resource-s3.stablestock.finance/icon/tokens/sALTS.jpg"
+  },
+  {
+    "name": "Bullish - StableStock",
+    "address": "0x5dc505bea84060223f22eef616bb835dfc52c7e9",
+    "symbol": "sBLSH",
+    "decimals": 18,
+    "chainId": 56,
+    "logoURI": "https://resource-s3.stablestock.finance/icon/tokens/sBLSH.jpg"
+  },
+  {
+    "name": "Global X Copper Miners ETF - StableStock",
+    "address": "0xfc64ac4e697260df48f9020d8a5282aee9e735e6",
+    "symbol": "sCOPX",
+    "decimals": 18,
+    "chainId": 56,
+    "logoURI": "https://resource-s3.stablestock.finance/icon/tokens/sCOPX.jpg"
+  },
+  {
+    "name": "Invesco QQQ Trust Series I - StableStock",
+    "address": "0x7ade93a8c7e24ab6ed1b6b4c27c90e4321ccf7ce",
+    "symbol": "sQQQ",
+    "decimals": 18,
+    "chainId": 56,
+    "logoURI": "https://resource-s3.stablestock.finance/icon/tokens/sQQQ.jpg"
   }
 ]

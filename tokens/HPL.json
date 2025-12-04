@@ -86,5 +86,13 @@
     "chainId": 1337,
     "decimals": 6,
     "logoURI": "https://app.hyperunit.xyz/93460be0c164f4cd618a.png"
+  },
+  {
+    "name": "Unit Monad",
+    "address": "0x58dae745c8c5fed4012f35ef39829c2d00000000",
+    "symbol": "UMON",
+    "chainId": 1337,
+    "decimals": 6,
+    "logoURI": "https://app.hyperunit.xyz/d9a3520e1b6842707352.png"
   }
 ]

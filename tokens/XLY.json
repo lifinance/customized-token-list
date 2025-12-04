@@ -1,0 +1,10 @@
+[
+  {
+    "name": "XDOG",
+    "address": "0x0cc24c51bf89c00c5affbfcf5e856c25ecbdb48e",
+    "symbol": "XDOG",
+    "decimals": 18,
+    "chainId": 196,
+    "logoURI": "https://assets.coingecko.com/coins/images/68279/standard/xdog.png"
+  }
+]

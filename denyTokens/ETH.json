@@ -298,5 +298,15 @@
     "address": "0x2F21c6499fa53a680120e654a27640Fc8Aa40BeD",
     "chainId": 1,
     "reason": "Fake USDC token"
+  },
+  {
+    "address": "0xf5e3479c876711a64f26838024875128d3b2c0ab",
+    "chainId": 1,
+    "reason": "Scam token"
+  },
+  {
+    "address": "0x79937da178932489Ee32290baa5622690De709CA",
+    "chainId": 1,
+    "reason": "Mispriced token"
   }
 ]
