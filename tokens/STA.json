@@ -5,7 +5,7 @@
     "name": "STABLE",
     "symbol": "STABLE",
     "decimals": 18,
-    "logoURI": "https://stablescan.xyz/assets/stable/images/svg/logos/chain-light.svg?v=25.11.4.1"
+    "logoURI": "https://raw.githubusercontent.com/lifinance/types/main/src/assets/icons/tokens/stable.svg"
   },
   {
     "chainId": 988,
