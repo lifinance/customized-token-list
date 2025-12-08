@@ -6,6 +6,11 @@
   },
   {
     "chainId": 1151111081099710,
+    "address": "GWYnSixWCAa3wLXuEhz8iVvcE5ntSG2sE9QyWy7F2Hg4",
+    "reason": "Scam USDC token"
+  },
+  {
+    "chainId": 1151111081099710,
     "address": "J3pqG8pN5GZL3mXJG4PGryLVR7FJ3GGB8vev1Coinztk",
     "reason": "Scam WETH, locks funds"
   }
