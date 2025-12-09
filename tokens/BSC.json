@@ -1046,5 +1046,13 @@
     "decimals": 18,
     "chainId": 56,
     "logoURI": "https://s2.coinmarketcap.com/static/img/coins/128x128/38442.png"
+  },
+  {
+    "name": "StakeStone",
+    "address": "0xdAf1695c41327b61B9b9965Ac6A5843A3198cf07",
+    "symbol": "STO",
+    "decimals": 18,
+    "chainId": 56,
+    "logoURI": "https://raw.githubusercontent.com/stakestone/brand-kits/refs/heads/main/StakeStone-background%20Black.svg"
   }
 ]
