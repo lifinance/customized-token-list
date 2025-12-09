@@ -782,6 +782,14 @@
     "chainId": 1,
     "decimals": 6,
     "logoURI": "https://assets.coingecko.com/coins/images/70268/standard/1000331462.png?1761335326"
+  },
+  {
+    "name": "StakeStone",
+    "address": "0x1D88713b483A8E45cfF0e5CD7c2e15E5Fab4534d",
+    "symbol": "STO",
+    "chainId": 1,
+    "decimals": 18,
+    "logoURI": "https://raw.githubusercontent.com/stakestone/brand-kits/refs/heads/main/StakeStone-background%20Black.svg"
   }
 ]
 
