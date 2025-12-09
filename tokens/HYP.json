@@ -1,5 +1,13 @@
 [
   {
+    "name": "Kinetiq Markets LST",
+    "address": "0x360C140E5344A1A0593D44B4ea6Fc7C3DAf0C473",
+    "symbol": "kmHYPE",
+    "chainId": 999,
+    "decimals": 18,
+    "logoURI": "https://imgur.com/a/E0234xk"
+  },
+  {
     "name": "alright buddy",
     "address": "0x47bb061C0204Af921F43DC73C7D7768d2672DdEE",
     "symbol": "BUDDY",
