@@ -118,5 +118,13 @@
       "decimals": 18,
       "chainId": 42793,
       "logoURI": "https://assets.coingecko.com/coins/images/37839/standard/mTBILL_token.png?1728417279"
+  },
+  {
+    "name": "USD Tez",
+    "address": "0x5b456255fc3389a1ed284a74be0d1f38734d3d6a",
+    "symbol": "USDtz",
+    "decimals": 6,
+    "chainId": 42793,
+    "logoURI": "https://cdn.jsdelivr.net/gh/curvefi/curve-assets/images/assets-etherlink/0x5b456255fc3389a1ed284a74be0d1f38734d3d6a.png"
   }
 ]
