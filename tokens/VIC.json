@@ -72,14 +72,6 @@
     "logoURI": "https://www.geckoterminal.com/_next/image?url=https%3A%2F%2Fcoin-images.coingecko.com%2Fcoins%2Fimages%2F21079%2Flarge%2Fgst.png%3F1696520461&w=32&q=75"
   },
   {
-    "address": "0xA7fB873EB775408Fb0A24e3163F94f138E448089",
-    "chainId": 88,
-    "symbol": "ETER",
-    "decimals": 18,
-    "name": "Eternals",
-    "logoURI": ""
-  },
-  {
     "address": "0xBA73E59F11597c1c13B0D9114688Efb6A6D430F6",
     "chainId": 88,
     "symbol": "WUSD",
