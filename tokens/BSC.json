@@ -1062,5 +1062,21 @@
     "decimals": 18,
     "chainId": 56,
     "logoURI": "https://assets.coingecko.com/coins/images/54977/standard/USD1_1000x1000_transparent.png?1749297002"
+  },
+  {
+    "name": "USDu",
+    "address": "0xeA953eA6634d55dAC6697C436B1e81A679Db5882",
+    "symbol": "USDu",
+    "decimals": 18,
+    "chainId": 56,
+    "logoURI": "https://unitas.so/images/CoinLogo/logo-usdu.png"
+  },
+  {
+    "name": "Staked USDu",
+    "address": "0x385C279445581a186a4182a5503094eBb652EC71",
+    "symbol": "sUSDu",
+    "decimals": 18,
+    "chainId": 56,
+    "logoURI": "https://unitas.so/images/CoinLogo/logo-susdu.png"
   }
 ]
