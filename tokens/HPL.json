@@ -102,5 +102,13 @@
     "chainId": 1337,
     "decimals": 6,
     "logoURI": "https://app.hyperunit.xyz/22fbd7d3874e8d5d09dc.png"
+  },
+  {
+    "name": "USDe",
+    "address": "0x2e6d84f2d7ca82e6581e03523e4389f700000000",
+    "symbol": "USDe",
+    "chainId": 1337,
+    "decimals": 18,
+    "logoURI": "https://ethena.fi/shared/usde.svg"
   }
 ]
