@@ -1,0 +1,90 @@
+[
+  {
+    "address": "0x0Fd0288AAAE91eaF935e2eC14b23486f86516c8C",
+    "chainId": 88,
+    "symbol": "C98",
+    "decimals": 18,
+    "name": "Coin98",
+    "logoURI": "https://static.debank.com/image/bsc_token/logo_url/0xaec945e04baf28b135fa7c640f624f8d90f1c3a6/4a4482e5c882d9aa58365ea2c0247d14.png"
+  },
+  {
+    "address": "0x193fCbB7f9EeA67CAc0D5A94ec7ccf2141c867ec",
+    "chainId": 88,
+    "symbol": "DADA",
+    "decimals": 18,
+    "name": "Dagora",
+    "logoURI": "https://assets.coingecko.com/coins/images/55009/standard/Dada-token.png"
+  },
+  {
+    "address": "0x2C664910222BE7b7e203753C59A9667cBe282828",
+    "chainId": 88,
+    "symbol": "RABBIT",
+    "decimals": 18,
+    "name": "Rabbit",
+    "logoURI": "https://assets.coingecko.com/markets/images/11812/small/rabbitswap.png?1736241863"
+  },
+  {
+    "address": "0xA7fB873EB775408Fb0A24e3163F94f138E448089",
+    "chainId": 88,
+    "symbol": "ETER",
+    "decimals": 18,
+    "name": "Eternals",
+    "logoURI": "https://assets.coingecko.com/coins/images/54896/standard/2024_Eternals_Logomark-01_%281%29.png?1742412511"
+  },
+  {
+    "address": "0xB786D9c8120D311b948cF1e5Aa48D8fBacf477E2",
+    "chainId": 88,
+    "symbol": "SAROS",
+    "decimals": 18,
+    "name": "Saros",
+    "logoURI": "https://www.geckoterminal.com/_next/image?url=https%3A%2F%2Fcoin-images.coingecko.com%2Fcoins%2Fimages%2F34594%2Flarge%2F_SAROS_-Mark.Purple_-_Token_logo.png%3F1755658309&w=32&q=75"
+  },
+  {
+    "address": "0x4359647fE0EF8B1eE201D5bc2bb5AB872C395F04",
+    "chainId": 88,
+    "symbol": "ONEID",
+    "decimals": 18,
+    "name": "OneID",
+    "logoURI": "https://assets.coingecko.com/coins/images/55165/standard/OneID-Logo-Token.png?1744308266"
+  },
+  {
+    "address": "0xAa6F3E52cb0571b88E58A93FD1Cc0744254909D2",
+    "chainId": 88,
+    "symbol": "DEF",
+    "decimals": 18,
+    "name": "deFusion",
+    "logoURI": "https://assets.coingecko.com/coins/images/55382/thumb/200x200_DF_logo.png?1745702918"
+  },
+  {
+    "address": "0x4ade201E7A66c3C9210BAB9002522C8FdBC6d1d7",
+    "chainId": 88,
+    "symbol": "WHEEE",
+    "decimals": 18,
+    "name": "Wheester",
+    "logoURI": "https://assets.coingecko.com/coins/images/54979/standard/_Wheee__X_Avatar_1-1.png?1743023056"
+  },
+  {
+    "address": "0xC8E2B1e17D6C08d872Bfaf5a1C46385A086BdA5b",
+    "chainId": 88,
+    "symbol": "GSTS",
+    "decimals": 18,
+    "name": "Gunstar Metaverse",
+    "logoURI": "https://www.geckoterminal.com/_next/image?url=https%3A%2F%2Fcoin-images.coingecko.com%2Fcoins%2Fimages%2F21079%2Flarge%2Fgst.png%3F1696520461&w=32&q=75"
+  },
+  {
+    "address": "0xBA73E59F11597c1c13B0D9114688Efb6A6D430F6",
+    "chainId": 88,
+    "symbol": "WUSD",
+    "decimals": 18,
+    "name": "Worldwide USD",
+    "logoURI": "https://static.debank.com/image/matic_token/logo_url/0xa04c86c411320444d4a99d44082e057772e8cf96/e2e76b1cb92ea78b40f35e0360735831.png"
+  },
+  {
+    "address": "0x1f4E8d4dA48Bf094565092EaE0004b82D420304b",
+    "chainId": 88,
+    "symbol": "VIKTO",
+    "decimals": 18,
+    "name": "Vikto",
+    "logoURI": "https://assets.coingecko.com/coins/images/55756/thumb/Vikto_Logo.png?1747298546"
+  }
+]

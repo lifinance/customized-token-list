@@ -1046,5 +1046,37 @@
     "decimals": 18,
     "chainId": 56,
     "logoURI": "https://s2.coinmarketcap.com/static/img/coins/128x128/38442.png"
+  },
+  {
+    "name": "StakeStone",
+    "address": "0xdAf1695c41327b61B9b9965Ac6A5843A3198cf07",
+    "symbol": "STO",
+    "decimals": 18,
+    "chainId": 56,
+    "logoURI": "https://raw.githubusercontent.com/stakestone/brand-kits/refs/heads/main/StakeStone-background%20Black.svg"
+  },
+  {
+    "name": "World Liberty Financial USD",
+    "address": "0x8d0D000Ee44948FC98c9B98A4FA4921476f08B0d",
+    "symbol": "USD1",
+    "decimals": 18,
+    "chainId": 56,
+    "logoURI": "https://assets.coingecko.com/coins/images/54977/standard/USD1_1000x1000_transparent.png?1749297002"
+  },
+  {
+    "name": "USDu",
+    "address": "0xeA953eA6634d55dAC6697C436B1e81A679Db5882",
+    "symbol": "USDu",
+    "decimals": 18,
+    "chainId": 56,
+    "logoURI": "https://unitas.so/images/CoinLogo/logo-usdu.png"
+  },
+  {
+    "name": "Staked USDu",
+    "address": "0x385C279445581a186a4182a5503094eBb652EC71",
+    "symbol": "sUSDu",
+    "decimals": 18,
+    "chainId": 56,
+    "logoURI": "https://unitas.so/images/CoinLogo/logo-susdu.png"
   }
 ]

@@ -94,5 +94,13 @@
     "chainId": 1337,
     "decimals": 6,
     "logoURI": "https://app.hyperunit.xyz/d9a3520e1b6842707352.png"
+  },
+  {
+    "name": "Unit Ethena",
+    "address": "0x593494b6Af79172FA983a0Cf1C88e0E000000000",
+    "symbol": "UENA",
+    "chainId": 1337,
+    "decimals": 6,
+    "logoURI": "https://app.hyperunit.xyz/22fbd7d3874e8d5d09dc.png"
   }
 ]
