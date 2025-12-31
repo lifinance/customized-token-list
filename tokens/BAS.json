@@ -590,5 +590,21 @@
     "decimals": 18,
     "name": "Wrapped Crotch",
     "symbol": "WCROTCH"
+  },
+  {
+    "address": "0xda2003ea14dd236e01ab17c198cec66146d058e9",
+    "chainId": 8453,
+    "logoURI": "https://cdn.jsdelivr.net/gh/curvefi/curve-assets/images/assets-etherlink/0x5b456255fc3389a1ed284a74be0d1f38734d3d6a.png",
+    "decimals": 6,
+    "name": "USD Tez",
+    "symbol": "USDtz"
+  },
+  {
+    "address": "0xb616f8b391d1adc118fd7e4063526d5530d49b10",
+    "chainId": 8453,
+    "logoURI": "https://res.cloudinary.com/dgmjm0v2k/image/upload/v1766136931/COIN_ckrvsk.png",
+    "decimals": 18,
+    "name": "Coinbase Global Inc ST0x",
+    "symbol": "tCOIN"
   }
 ]
