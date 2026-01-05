@@ -1,0 +1,10 @@
+[
+  {
+    "name": "hemiBTC",
+    "address": "0xAA40c0c7644e0b2B224509571e10ad20d9C4ef28",
+    "symbol": "hemiBTC",
+    "chainId": 43111,
+    "decimals": 8,
+    "logoURI": "https://storage.googleapis.com/merkl-static-assets/tokens/hemiBTC.svg"
+  }
+]
