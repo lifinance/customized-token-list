@@ -594,7 +594,7 @@
   {
     "address": "0xda2003ea14dd236e01ab17c198cec66146d058e9",
     "chainId": 8453,
-    "logoURI": "https://cdn.jsdelivr.net/gh/curvefi/curve-assets/images/assets-etherlink/0x5b456255fc3389a1ed284a74be0d1f38734d3d6a.png",
+    "logoURI": "https://cdn.jsdelivr.net/gh/curvefi/curve-assets/images/assets-base/0xda2003ea14dd236e01ab17c198cec66146d058e9.png",
     "decimals": 6,
     "name": "USD Tez",
     "symbol": "USDtz"
