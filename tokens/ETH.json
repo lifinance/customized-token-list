@@ -798,6 +798,14 @@
     "chainId": 1,
     "decimals": 18,
     "logoURI": "https://assets.coingecko.com/coins/images/54977/standard/USD1_1000x1000_transparent.png?1749297002"
+  },
+  {
+    "name": "hemiBTC",
+    "address": "0x06ea695b91700071b161a434fed42d1dcbad9f00",
+    "symbol": "hemiBTC",
+    "chainId": 1,
+    "decimals": 8,
+    "logoURI": "https://storage.googleapis.com/merkl-static-assets/tokens/hemiBTC.svg"
   }
 ]
 
