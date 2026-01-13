@@ -117,5 +117,13 @@
     "symbol": "wstETH",
     "decimals": 18,
     "logoURI": "https://raw.githubusercontent.com/monad-crypto/token-list/refs/heads/main/mainnet/wstETH/logo.svg"
+  },
+  {
+    "chainId": 143,
+    "address": "0x97401d48a80b15bc7291599e24b590eedcd7ce37",
+    "name": "Hyperstitions",
+    "symbol": "HST",
+    "decimals": 18,
+    "logoURI": "https://assets.coingecko.com/coins/images/70965/standard/agBxURDU_400x400.jpg?1764865069"
   }
 ]
