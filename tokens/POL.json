@@ -326,5 +326,21 @@
     "decimals": 18,
     "name": "Wrapped Crotch",
     "symbol": "WCROTCH"
+  },
+  {
+    "name": "JPY Coin",
+    "address": "0xE7C3D8C9a439feDe00D2600032D5dB0Be71C3c29",
+    "symbol": "JPYC",
+    "decimals": 18,
+    "chainId": 137,
+    "logoURI": "https://assets.coingecko.com/coins/images/70314/standard/JPYC_400x400.jpg?1761556080"
+  },
+  {
+    "name": "JPY Coin",
+    "address": "0x431D5dfF03120AFA4bDf332c61A6e1766eF37BDB",
+    "symbol": "JPYC",
+    "decimals": 18,
+    "chainId": 137,
+    "logoURI": "https://assets.coingecko.com/coins/images/25971/standard/JPYC_Prepaid.png?1734356447"
   }
 ]
