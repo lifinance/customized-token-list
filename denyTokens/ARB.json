@@ -43,5 +43,10 @@
     "chainId": 42161,
     "address": "0xE575586566b02A16338c199c23cA6d295D794e66",
     "reason": "Scam fake iExec token"
+  },
+  {
+    "chainId": 42161,
+    "address": "0x4358B2112Fd96771B194CA7c0cb548f46270EC41",
+    "reason": "Scam fake EURe token"
   }
 ]

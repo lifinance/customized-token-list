@@ -534,5 +534,13 @@
     "decimals": 18,
     "name": "Wrapped Crotch",
     "symbol": "WCROTCH"
+  },
+  {
+    "address": "0x0c06cCF38114ddfc35e07427B9424adcca9F44F8",
+    "chainId": 42161,
+    "logoURI": "https://assets.coingecko.com/coins/images/54303/standard/eure.jpg?1739167959",
+    "decimals": 18,
+    "name": "Monerium EURe",
+    "symbol": "EURe"
   }
 ]
