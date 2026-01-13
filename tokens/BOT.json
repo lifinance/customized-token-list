@@ -1,0 +1,26 @@
+[
+  {
+    "name": "Staked Bitcoin",
+    "address": "0xF4586028FFdA7Eca636864F80f8a3f2589E33795",
+    "symbol": "stBTC",
+    "decimals": 18,
+    "chainId": 3637,
+    "logoURI": "https://static.debank.com/image/botanix_token/logo_url/0xf4586028ffda7eca636864f80f8a3f2589e33795/38df4926007469dfc26d9c51c47486a1.png"
+  },
+  {
+    "name": "Palladium Debt Token",
+    "address": "0x42725b4D9270CFe24F6852401fdDa88248CB4dE9",
+    "symbol": "PUSD",
+    "decimals": 18,
+    "chainId": 3637,
+    "logoURI": "https://static.debank.com/image/botanix_token/logo_url/0x42725b4d9270cfe24f6852401fdda88248cb4de9/622a7d4329ea1432dbd394d65cfbe735.png"
+  },
+  {
+    "name": "OpenUSDT",
+    "address": "0x1217BfE6c773EEC6cc4A38b5Dc45B92292B6E189",
+    "symbol": "oUSDT",
+    "decimals": 6,
+    "chainId": 3637,
+    "logoURI": "https://static.debank.com/image/botanix_token/logo_url/0x1217bfe6c773eec6cc4a38b5dc45b92292b6e189/57033d27afe3975bf4d498799a8bc396.png"
+  }
+]
