@@ -125,5 +125,13 @@
     "symbol": "HST",
     "decimals": 18,
     "logoURI": "https://assets.coingecko.com/coins/images/70965/standard/agBxURDU_400x400.jpg?1764865069"
+  },
+  {
+    "chainId": 143,
+    "address": "0x7DB552eEb6b77a6babe6e0A739b5382CD653CC3e",
+    "name": "GMONAD",
+    "symbol": "GMONAD",
+    "decimals": 18,
+    "logoURI": "https://assets.coingecko.com/coins/images/70825/standard/gmonad.jpg?1764041457"
   }
 ]
