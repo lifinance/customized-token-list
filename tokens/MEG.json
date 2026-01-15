@@ -1,5 +1,13 @@
 [
   {
+    "name": "MEGA",
+    "address": "0x28B7E77f82B25B95953825F1E3eA0E36c1c29861",
+    "symbol": "MEGA",
+    "decimals": 18,
+    "chainId": 4326,
+    "logoURI": "https://raw.githubusercontent.com/lifinance/types/main/src/assets/icons/tokens/MEGA.svg"
+  },
+  {
     "name": "BTC.b",
     "address": "0xB0F70C0bD6FD87dbEb7C10dC692a2a6106817072",
     "symbol": "BTC.b",
