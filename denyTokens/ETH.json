@@ -313,5 +313,10 @@
     "address": "0x9cdf242ef7975d8c68d5c1f5b6905801699b1940",
     "chainId": 1,
     "reason": "Honeypot token with 100% sell tax"
+  } ,
+  {
+    "address": "0x8e21856edada501a9cd5cb8b92ac632908c90c2f",
+    "chainId": 1,
+    "reason": "Mispriced token"
   }
 ]
