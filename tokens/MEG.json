@@ -1,0 +1,10 @@
+[
+  {
+    "name": "BTC.b",
+    "address": "0xB0F70C0bD6FD87dbEb7C10dC692a2a6106817072",
+    "symbol": "BTC.b",
+    "decimals": 8,
+    "chainId": 4326,
+    "logoURI": "https://static.debank.com/image/eth_token/logo_url/0x2297aebd383787a160dd0d9f71508148769342e3/302c75014907af482ed27e9d91e14b8b.png"
+  }
+]
