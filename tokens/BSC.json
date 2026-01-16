@@ -1366,5 +1366,13 @@
     "decimals": 18,
     "chainId": 56,
     "logoURI": "https://cdn.ondo.finance/tokens/logos/openon_160x160.png"
+  },
+  {
+    "name": "Aurum Reserve Token",
+    "address": "0xb8a1ed561c914f22bd69b0bb4558ad5a89feaae1",
+    "symbol": "ART",
+    "decimals": 6,
+    "chainId": 56,
+    "logoURI": "https://strapi.jumper.exchange/uploads/telechargement_2c9496a3c4.svg"
   }
 ]
