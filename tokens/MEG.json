@@ -14,5 +14,13 @@
     "decimals": 8,
     "chainId": 4326,
     "logoURI": "https://static.debank.com/image/eth_token/logo_url/0x2297aebd383787a160dd0d9f71508148769342e3/302c75014907af482ed27e9d91e14b8b.png"
+  },
+  {
+    "chainId": 4326,
+    "address": "0xcCcc62962d17b8914c62D74FfB843d73B2a3cccC",
+    "name": "Cap USD",
+    "symbol": "CUSD",
+    "decimals": 18,
+    "logoURI": "https://static.debank.com/image/eth_token/logo_url/0xcccc62962d17b8914c62d74ffb843d73b2a3cccc/e49a46e599dff3147a8bc918364b1c11.png"
   }
 ]
