@@ -1078,5 +1078,301 @@
     "decimals": 18,
     "chainId": 56,
     "logoURI": "https://unitas.so/images/CoinLogo/logo-susdu.png"
+  },
+  {
+    "name": "Coinbase",
+    "address": "0xf8589b526fdd65f7f301c605a6e04f0f1b4b3620",
+    "symbol": "COINon",
+    "decimals": 18,
+    "chainId": 56,
+    "logoURI": "https://cdn.ondo.finance/tokens/logos/coinon_160x160.png"
+  },
+  {
+    "name": "SPDR Gold Shares",
+    "address": "0xfa9a1e901085e269f6d428f79cd5252d8b919344",
+    "symbol": "GLDon",
+    "decimals": 18,
+    "chainId": 56,
+    "logoURI": "https://cdn.ondo.finance/tokens/logos/gldon_160x160.png"
+  },
+  {
+    "name": "Sprott Nickel Miners",
+    "address": "0x3fcd741646a9790635b938cdb69af5df356cbaab",
+    "symbol": "NIKLon",
+    "decimals": 18,
+    "chainId": 56,
+    "logoURI": "https://cdn.ondo.finance/tokens/logos/niklon_160x160.png"
+  },
+  {
+    "name": "abrdn Physical Palladium Shares",
+    "address": "0x3fcd741646a9790635b938cdb69af5df356cbaab",
+    "symbol": "PALLon",
+    "decimals": 18,
+    "chainId": 56,
+    "logoURI": "https://cdn.ondo.finance/tokens/logos/pallon_160x160.png"
+  },
+  {
+    "name": "VanEck Rare Earth and Strategic Metals",
+    "address": "0xc16f47c4a7ed39372b9a0e3e2016cede9b4cb83a",
+    "symbol": "REMXon",
+    "decimals": 18,
+    "chainId": 56,
+    "logoURI": "https://cdn.ondo.finance/tokens/logos/remxon_160x160.png"
+  },
+  {
+    "name": "United States Oil",
+    "address": "0x94174e3d1335db402dd03a092f7aa7ac2cb32be4",
+    "symbol": "USOon",
+    "decimals": 18,
+    "chainId": 56,
+    "logoURI": "https://cdn.ondo.finance/tokens/logos/usoon_160x160.png"
+  },
+  {
+    "name": "Global X Copper Miners",
+    "address": "0xec93fe7ff4b09ca3ccafbc4cc9615e62be412780",
+    "symbol": "COPXon",
+    "decimals": 18,
+    "chainId": 56,
+    "logoURI": "https://cdn.ondo.finance/tokens/logos/copxon_160x160.png"
+  },
+  {
+    "name": "iShares 0-3 Month Treasury Bond",
+    "address": "0xc008c5f579ec1450f20099c39f587547e27c7523",
+    "symbol": "SGOVon",
+    "decimals": 18,
+    "chainId": 56,
+    "logoURI": "https://cdn.ondo.finance/tokens/logos/sgovon_160x160.png"
+  },
+  {
+    "name": "ProShares UltraPro Short QQQ",
+    "address": "0x17515b68378d86c38f394c666e79907da05dcba9",
+    "symbol": "SQQQon",
+    "decimals": 18,
+    "chainId": 56,
+    "logoURI": "https://cdn.ondo.finance/tokens/logos/sqqqon_160x160.png"
+  },
+  {
+    "name": "ProShares UltraPro QQQ",
+    "address": "0xe42cfb20e00912409b77a602b5bdcff3c7acc5f4",
+    "symbol": "TQQQon",
+    "decimals": 18,
+    "chainId": 56,
+    "logoURI": "https://cdn.ondo.finance/tokens/logos/tqqqon_160x160.png"
+  },
+  {
+    "name": "Salesforce",
+    "address": "0xd04a2bb053277721a8321d7441eed5b42fdf7250",
+    "symbol": "CRMon",
+    "decimals": 18,
+    "chainId": 56,
+    "logoURI": "https://cdn.ondo.finance/tokens/logos/crmon_160x160.png"
+  },
+  {
+    "name": "KLA",
+    "address": "0xfc263946439b0d802bf4c5a6fcd34e2885259f91",
+    "symbol": "KLACon",
+    "decimals": 18,
+    "chainId": 56,
+    "logoURI": "https://cdn.ondo.finance/tokens/logos/klacon_160x160.png"
+  },
+  {
+    "name": "Shopify",
+    "address": "0x43d0b380c33cd004a6a69abd61843881a2de4113",
+    "symbol": "SHOPon",
+    "decimals": 18,
+    "chainId": 56,
+    "logoURI": "https://cdn.ondo.finance/tokens/logos/shopon_160x160.png"
+  },
+  {
+    "name": "PDD Holdings",
+    "address": "0xf3e82ea164cb344b2b11bad4c24b0ea4f7ba4714",
+    "symbol": "PDDon",
+    "decimals": 18,
+    "chainId": 56,
+    "logoURI": "https://cdn.ondo.finance/tokens/logos/pddon_160x160.png"
+  },
+  {
+    "name": "Snowflake",
+    "address": "0x138ed6833ff4e8811e1fea0d005e13726c8886f9",
+    "symbol": "SNOWon",
+    "decimals": 18,
+    "chainId": 56,
+    "logoURI": "https://cdn.ondo.finance/tokens/logos/snowon_160x160.png"
+  },
+  {
+    "name": "NextEra Energy",
+    "address": "0xe9d43f7e6b2237e8873a7003b3f43c6b03160be5",
+    "symbol": "NEEon",
+    "decimals": 18,
+    "chainId": 56,
+    "logoURI": "https://cdn.ondo.finance/tokens/logos/neeon_160x160.png"
+  },
+  {
+    "name": "Constellation Energy",
+    "address": "0x65d84f0990b7394209d591380c2952c83d778aa3",
+    "symbol": "CEGon",
+    "decimals": 18,
+    "chainId": 56,
+    "logoURI": "https://cdn.ondo.finance/tokens/logos/cegon_160x160.png"
+  },
+  {
+    "name": "Palo Alto Networks",
+    "address": "0x0eaa1a75bd682a5669ab2371a559fbd039c6b9eb",
+    "symbol": "PANWon",
+    "decimals": 18,
+    "chainId": 56,
+    "logoURI": "https://cdn.ondo.finance/tokens/logos/panwon_160x160.png"
+  },
+  {
+    "name": "Plug Power",
+    "address": "0x4752ae8f910b25e64e4406eaad50c1b4e8de7e6d",
+    "symbol": "PLUGon",
+    "decimals": 18,
+    "chainId": 56,
+    "logoURI": "https://cdn.ondo.finance/tokens/logos/plugon_160x160.png"
+  },
+  {
+    "name": "CrowdStrike",
+    "address": "0xe6837794fbc6dd024733a1a31f86061296fa2752",
+    "symbol": "CRWDon",
+    "decimals": 18,
+    "chainId": 56,
+    "logoURI": "https://cdn.ondo.finance/tokens/logos/crwdon_160x160.png"
+  },
+  {
+    "name": "Amgen",
+    "address": "0xfbdf0366f800cc79d6663da26bc0bf21fb455aa6",
+    "symbol": "AMGNon",
+    "decimals": 18,
+    "chainId": 56,
+    "logoURI": "https://cdn.ondo.finance/tokens/logos/amgnon_160x160.png"
+  },
+  {
+    "name": "ASML Holding NV",
+    "address": "0xb034f6cb52b7f2fd5a7eeeffca6b9adcd6b9a6f6",
+    "symbol": "ASMLon",
+    "decimals": 18,
+    "chainId": 56,
+    "logoURI": "https://cdn.ondo.finance/tokens/logos/asmlon_160x160.png"
+  },
+  {
+    "name": "MercadoLibre",
+    "address": "0x60a8f8e05200ff73afde9e2cae819bf1605f0bdd",
+    "symbol": "MELIon",
+    "decimals": 18,
+    "chainId": 56,
+    "logoURI": "https://cdn.ondo.finance/tokens/logos/melion_160x160.png"
+  },
+  {
+    "name": "Boeing",
+    "address": "0xf21132a811ad1a878e21af60f64d4e690c9daa42",
+    "symbol": "BAon",
+    "decimals": 18,
+    "chainId": 56,
+    "logoURI": "https://cdn.ondo.finance/tokens/logos/baon_160x160.png"
+  },
+  {
+    "name": "Reddit",
+    "address": "0x4da12f47578ef89c76179b760c778e70b668f80b",
+    "symbol": "RDDTon",
+    "decimals": 18,
+    "chainId": 56,
+    "logoURI": "https://cdn.ondo.finance/tokens/logos/rddton_160x160.png"
+  },
+  {
+    "name": "Oklo",
+    "address": "0xaf6c03acf72355ce98d0741302b78870b376428c",
+    "symbol": "OKLOon",
+    "decimals": 18,
+    "chainId": 56,
+    "logoURI": "https://cdn.ondo.finance/tokens/logos/okloon_160x160.png"
+  },
+  {
+    "name": "Eli Lilly",
+    "address": "0x341d31b2be1fee9c00e395a62ba41837f4322eed",
+    "symbol": "LLYon",
+    "decimals": 18,
+    "chainId": 56,
+    "logoURI": "https://cdn.ondo.finance/tokens/logos/llyon_160x160.png"
+  },
+  {
+    "name": "IREN Limited",
+    "address": "0x8fd70ee385f470c8d6fda2d93a4e49c849bac6a6",
+    "symbol": "IRENon",
+    "decimals": 18,
+    "chainId": 56,
+    "logoURI": "https://cdn.ondo.finance/tokens/logos/irenon_160x160.png"
+  },
+  {
+    "name": "Archer Aviation",
+    "address": "0x91c62325f901ee29da8e521cfe68980332a4ca06",
+    "symbol": "ACHRon",
+    "decimals": 18,
+    "chainId": 56,
+    "logoURI": "https://cdn.ondo.finance/tokens/logos/achron_160x160.png"
+  },
+  {
+    "name": "Rigetti Computing",
+    "address": "0xed2a500eb2b66679e0bbd76e51a60049ae5f3271",
+    "symbol": "RGTIon",
+    "decimals": 18,
+    "chainId": 56,
+    "logoURI": "https://cdn.ondo.finance/tokens/logos/rgtion_160x160.png"
+  },
+  {
+    "name": "BitMine Immersion Technologies",
+    "address": "0x52ad57a7ea642e99a892afc79e937b383f1b59e9",
+    "symbol": "BMNRon",
+    "decimals": 18,
+    "chainId": 56,
+    "logoURI": "https://cdn.ondo.finance/tokens/logos/bmnron_160x160.png"
+  },
+  {
+    "name": "Rivian Automotive",
+    "address": "0x277e1fa8704c5511fed7e30bc691f922aa30101b",
+    "symbol": "RIVNon",
+    "decimals": 18,
+    "chainId": 56,
+    "logoURI": "https://cdn.ondo.finance/tokens/logos/rivnon_160x160.png"
+  },
+  {
+    "name": "SoFi Technologies",
+    "address": "0x71507068e98049cba81e9bbc8d901e4a2f4222eb",
+    "symbol": "SOFIon",
+    "decimals": 18,
+    "chainId": 56,
+    "logoURI": "https://cdn.ondo.finance/tokens/logos/sofion_160x160.png"
+  },
+  {
+    "name": "American Airlines Group",
+    "address": "0x02d608506ca0048d0d991a11f1e7fb8cad1e44f8",
+    "symbol": "AALon",
+    "decimals": 18,
+    "chainId": 56,
+    "logoURI": "https://cdn.ondo.finance/tokens/logos/aalon_160x160.png"
+  },
+  {
+    "name": "Ondas Holdings",
+    "address": "0xd85d4ce29b4ca361ff72ef0e53d6236e334c5db6",
+    "symbol": "ONDSon",
+    "decimals": 18,
+    "chainId": 56,
+    "logoURI": "https://cdn.ondo.finance/tokens/logos/ondson_160x160.png"
+  },
+  {
+    "name": "Opendoor Technologies",
+    "address": "0xa09699fc0cbb1f85128450a0ff6a3c4d3a7e7b9b",
+    "symbol": "OPENon",
+    "decimals": 18,
+    "chainId": 56,
+    "logoURI": "https://cdn.ondo.finance/tokens/logos/openon_160x160.png"
+  },
+  {
+    "name": "Aurum Reserve Token",
+    "address": "0xb8a1ed561c914f22bd69b0bb4558ad5a89feaae1",
+    "symbol": "ART",
+    "decimals": 6,
+    "chainId": 56,
+    "logoURI": "https://strapi.jumper.exchange/uploads/telechargement_2c9496a3c4.svg"
   }
 ]
