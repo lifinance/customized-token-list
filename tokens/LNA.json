@@ -110,5 +110,13 @@
     "decimals": 18,
     "name": "Wrapped Crotch",
     "symbol": "WCROTCH"
-  }
+  },
+  {
+  "address": "0xF312Ec9f8087C87fbF3439B0369eA233a1EE4A7D",
+  "chainId": 59144,
+  "logoURI": "https://lavender-calm-emu-846.mypinata.cloud/ipfs/bafkreiefxukzqksat7fwa77otibb7ds6wncwx3gs3ujohcln63kax7tn2i",
+  "decimals": 18,
+  "name": "Dust",
+  "symbol": "DUST"
+}
 ]
