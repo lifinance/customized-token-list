@@ -806,6 +806,46 @@
     "chainId": 1,
     "decimals": 8,
     "logoURI": "https://storage.googleapis.com/merkl-static-assets/tokens/hemiBTC.svg"
+  },
+  {
+    "name": "Tesla xStock",
+    "address": "0x8ad3c73f833d3f9a523ab01476625f269aeb7cf0",
+    "symbol": "TSLAx",
+    "chainId": 1,
+    "decimals": 18,
+    "logoURI": "https://xstocks-metadata.backed.fi/logos/tokens/TSLAx.png"
+  },
+  {
+    "name": "MicroStrategy xStock",
+    "address": "0xae2f842ef90c0d5213259ab82639d5bbf649b08e",
+    "symbol": "MSTRx",
+    "chainId": 1,
+    "decimals": 18,
+    "logoURI": "https://xstocks-metadata.backed.fi/logos/tokens/MSTRx.png"
+  },
+  {
+    "name": "SP500 xStock",
+    "address": "0x90a2a4c76b5d8c0bc892a69ea28aa775a8f2dd48",
+    "symbol": "SPYx",
+    "chainId": 1,
+    "decimals": 18,
+    "logoURI": "https://xstocks-metadata.backed.fi/logos/tokens/SPYx.png"
+  },
+  {
+    "name": "Nasdaq xStock",
+    "address": "0xa753a7395cae905cd615da0b82a53e0560f250af",
+    "symbol": "QQQx",
+    "chainId": 1,
+    "decimals": 18,
+    "logoURI": "https://xstocks-metadata.backed.fi/logos/tokens/QQQx.png"
+  },
+  {
+    "name": "NVIDIA xStock",
+    "address": "0xc845b2894dbddd03858fd2d643b4ef725fe0849d",
+    "symbol": "NVDAx",
+    "chainId": 1,
+    "decimals": 18,
+    "logoURI": "https://xstocks-metadata.backed.fi/logos/tokens/NVDAx.png"
   }
 ]
 
