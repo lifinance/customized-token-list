@@ -17,6 +17,6 @@
   {
     "chainId": 1151111081099710,
     "address": "CdiJtsazXtK9pF39vNjJsVyd6K3QnNrq3txofeJ83EBf",
-    "reason": "Token keeps freeze authority; issuer can freeze user balances"
+    "reason": "Token has freeze authority."
   }
 ]
