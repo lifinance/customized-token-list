@@ -13,5 +13,10 @@
     "chainId": 1151111081099710,
     "address": "J3pqG8pN5GZL3mXJG4PGryLVR7FJ3GGB8vev1Coinztk",
     "reason": "Scam WETH, locks funds"
+  },
+  {
+    "chainId": 1151111081099710,
+    "address": "CdiJtsazXtK9pF39vNjJsVyd6K3QnNrq3txofeJ83EBf",
+    "reason": "Token keeps freeze authority; issuer can freeze user balances"
   }
 ]
