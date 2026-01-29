@@ -135,4 +135,12 @@
     "chainId": 1868,
     "logoURI": "https://arbiscan.io/token/images/usdt0_64.png"
   }
+  {
+    "name": "Startale USD",
+    "symbol": "USDSC",
+    "address": "0x3f99231dD03a9F0E7e3421c92B7b90fbe012985a",
+    "decimals": 6,
+    "chainId": 1868,
+    "logoURI": "https://assets.coingecko.com/coins/images/70883/standard/stataleusd_2x.png"
+  }
 ]
