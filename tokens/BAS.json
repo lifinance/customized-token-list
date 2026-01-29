@@ -606,5 +606,45 @@
     "decimals": 18,
     "name": "Coinbase Global Inc ST0x",
     "symbol": "tCOIN"
+  },
+  {
+    "chainId": 8453,
+    "address": "0x834df4C1d8f51Be24322E39e4766697BE015512F",
+    "decimals": 18,
+    "symbol": "CETES",
+    "name": "CETES",
+    "logoURI": "https://bafybeicowq2umucgzsojvnwxixdhf47wcrmbnyv4ecb2tiugcyivrkp4ai.ipfs.dweb.link/CETES-01.svg"
+  },
+  {
+    "chainId": 8453,
+    "address": "0x7ceE47e7B7CD04CF984e8Dd86C42595B5771A9B2",
+    "decimals": 6,
+    "symbol": "TESOURO",
+    "name": "TESOURO",
+    "logoURI": "https://bafybeicowq2umucgzsojvnwxixdhf47wcrmbnyv4ecb2tiugcyivrkp4ai.ipfs.dweb.link/TESOURO-01.svg"
+  },
+  {
+    "chainId": 8453,
+    "address": "0x46080F31351A6568f44575E3EFfDE7f0C86867f9",
+    "decimals": 18,
+    "symbol": "GILTS",
+    "name": "GILTS",
+    "logoURI": "https://bafybeicowq2umucgzsojvnwxixdhf47wcrmbnyv4ecb2tiugcyivrkp4ai.ipfs.dweb.link/GILTS-01.svg"
+  },
+  {
+    "chainId": 8453,
+    "address": "0xc2C1f8Eb98C0468Be0232DD4166705d0Dea3Fe31",
+    "decimals": 18,
+    "symbol": "USTRY",
+    "name": "USTRY",
+    "logoURI": "https://bafybeicowq2umucgzsojvnwxixdhf47wcrmbnyv4ecb2tiugcyivrkp4ai.ipfs.dweb.link/USTRY-01.svg"
+  },
+  {
+    "chainId": 8453,
+    "address": "0xC6221856E45ed806F8325a084bED3D69D32C526d",
+    "decimals": 18,
+    "symbol": "EUROB",
+    "name": "EUROB",
+    "logoURI": "https://bafybeicowq2umucgzsojvnwxixdhf47wcrmbnyv4ecb2tiugcyivrkp4ai.ipfs.dweb.link/EUROB-01.svg"
   }
 ]
