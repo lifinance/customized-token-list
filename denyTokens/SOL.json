@@ -18,5 +18,10 @@
     "chainId": 1151111081099710,
     "address": "CdiJtsazXtK9pF39vNjJsVyd6K3QnNrq3txofeJ83EBf",
     "reason": "Token has freeze authority."
+  },
+  {
+    "chainId": 1151111081099710,
+    "address": "G7rxkFy8hTEhtW2ZyV2xkhGFX3cxAKSsydY4E1crvTwG",
+    "reason": "Scam token. Missleading token name"
   }
 ]

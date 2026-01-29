@@ -323,5 +323,10 @@
     "address": "0x8298168b5f86769C4bA8c87325Ab3002eF2563aB",
     "chainId": 1,
     "reason": "Scam token"
+  },
+  {
+    "address": "0x1773D273C84E45066BfBAA47a4aa805a2c2C8B1f",
+    "chainId": 1,
+    "reason": "Scam token. Missleading token name"
   }
 ]
