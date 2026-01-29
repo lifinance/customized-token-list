@@ -1,0 +1,10 @@
+[
+  {
+    "name": "Bridged USDC (Jovay)",
+    "address": "0x39C010dF583C9dE49088947190669883b41A02Ab",
+    "symbol": "USDC.jovay",
+    "decimals": 6,
+    "chainId": 5734951,
+    "logoURI": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48/logo.png"
+  }
+]
