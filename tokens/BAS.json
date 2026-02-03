@@ -606,5 +606,13 @@
     "decimals": 18,
     "name": "Coinbase Global Inc ST0x",
     "symbol": "tCOIN"
+  },
+  {
+    "address": "0xfe550bffb51eb645ea3b324d772a19ac449e92c5",
+    "chainId": 8453,
+    "logoURI": "https://cdn.prod.website-files.com/62c7a905777e7fe892728a49/691ff64dedb05a06d2f6bbee_IXS.png",
+    "decimals": 18,
+    "name": "IXS"
+    "symbol": "IXS"
   }
 ]
