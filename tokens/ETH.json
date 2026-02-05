@@ -456,7 +456,7 @@
     "symbol": "DRV"
   },
   {
-    "name": "mBASIS",
+    "name": "Midas Basis Trading Token",
     "address": "0x2a8c22E3b10036f3AEF5875d04f8441d4188b656",
     "symbol": "mBASIS",
     "decimals": 18,
@@ -464,7 +464,7 @@
     "logoURI": "https://assets.coingecko.com/coins/images/50593/standard/mBASIS_logo.png?1728444389"
   },
   {
-    "name": "mTBILL",
+    "name": "Midas US Treasury Bill Token",
     "address": "0xdd629e5241cbc5919847783e6c96b2de4754e438",
     "symbol": "mTBILL",
     "decimals": 18,
@@ -472,12 +472,108 @@
     "logoURI": "https://assets.coingecko.com/coins/images/37839/standard/mTBILL_token.png?1728417279"
   },
   {
-    "name": "mBTC",
-    "address": "0x007115416AB6c266329a03B09a8aa39aC2eF7d9d",
-    "symbol": "mBTC",
+    "name": "Midas mEDGE",
+    "address": "0xbB51E2a15A9158EBE2b0Ceb8678511e063AB7a55",
+    "symbol": "mEDGE",
     "decimals": 18,
     "chainId": 1,
-    "logoURI": "https://assets.coingecko.com/coins/images/51055/standard/mbtc.png?1729875716"
+    "logoURI": "https://assets.coingecko.com/coins/images/54591/standard/medge_logo.png"
+  },
+  {
+    "name": "Midas MEV",
+    "address": "0x030b69280892c888670EDCDCD8B69Fd8026A0BF3",
+    "symbol": "mMEV",
+    "decimals": 18,
+    "chainId": 1,
+    "logoURI": "https://assets.coingecko.com/coins/images/54592/standard/mmev_logo.png"
+  },
+  {
+    "name": "Midas Re7 Yield",
+    "address": "0x87C9053C819bB28e0D73d33059E1b3DA80AFb0cf",
+    "symbol": "mRe7YIELD",
+    "decimals": 18,
+    "chainId": 1,
+    "logoURI": "https://assets.coingecko.com/coins/images/54660/standard/mre7yield_logo.png"
+  },
+  {
+    "name": "Midas Re7 BTC",
+    "address": "0x9FB442d6B612a6dcD2acC67bb53771eF1D9F661A",
+    "symbol": "mRe7BTC",
+    "decimals": 18,
+    "chainId": 1,
+    "logoURI": "https://assets.coingecko.com/coins/images/69666/standard/mRe7BTC_icon.png"
+  },
+  {
+    "name": "Midas Fasanara ONE",
+    "address": "0x238a700eD6165261Cf8b2e544ba797BC11e466Ba",
+    "symbol": "mF-ONE",
+    "decimals": 18,
+    "chainId": 1,
+    "logoURI": "https://assets.coingecko.com/coins/images/66975/standard/mfone-logo.png"
+  },
+  {
+    "name": "Midas Hyperithm",
+    "address": "0x9b5528528656DBC094765E2abB79F293c21191B9",
+    "symbol": "mHYPER",
+    "decimals": 18,
+    "chainId": 1,
+    "logoURI": "https://assets.coingecko.com/coins/images/68298/standard/mHYPER.png"
+  },
+  {
+    "name": "Midas Apollo Crypto",
+    "address": "0x7CF9DEC92ca9FD46f8d86e7798B72624Bc116C05",
+    "symbol": "mAPOLLO",
+    "decimals": 18,
+    "chainId": 1,
+    "logoURI": "https://assets.coingecko.com/coins/images/68402/standard/mAPOLLO.png"
+  },
+  {
+    "name": "Midas Farm Capital",
+    "address": "0xA19f6e0dF08a7917F2F8A33Db66D0AF31fF5ECA6",
+    "symbol": "mFARM",
+    "decimals": 18,
+    "chainId": 1,
+    "logoURI": "https://assets.coingecko.com/coins/images/69113/standard/mFARM_icon.png"
+  },
+  {
+    "name": "syrupUSDC supercharged",
+    "address": "0x20226607b4fa64228ABf3072Ce561d6257683464",
+    "symbol": "msyrupUSD",
+    "decimals": 18,
+    "chainId": 1,
+    "logoURI": "https://assets.coingecko.com/coins/images/70337/standard/msyrupusd-DGynitwX.png"
+  },
+  {
+    "name": "Plasma syrupUSD Pre-deposit Midas Vault",
+    "address": "0x2fE058CcF29f123f9dd2aEC0418AA66a877d8E50",
+    "symbol": "msyrupUSDp",
+    "decimals": 18,
+    "chainId": 1,
+    "logoURI": "https://assets.coingecko.com/coins/images/69323/standard/msyrupusdp_icon.png"
+  },
+  {
+    "name": "Midas Hyperithm ETH",
+    "address": "0x5a42864b14C0C8241EF5ab62Dae975b163a2E0C1",
+    "symbol": "mHyperETH",
+    "decimals": 18,
+    "chainId": 1,
+    "logoURI": "https://assets.coingecko.com/coins/images/70978/standard/mhypereth-38Uc0pjk.png"
+  },
+  {
+    "name": "Midas Hyperithm BTC",
+    "address": "0xC8495EAFf71D3A563b906295fCF2f685b1783085",
+    "symbol": "mHyperBTC",
+    "decimals": 18,
+    "chainId": 1,
+    "logoURI": "https://assets.coingecko.com/coins/images/71550/standard/mhyperbtc-Bvh-K9IL.png"
+  },
+  {
+    "name": "Bitcoin MEV Capital",
+    "address": "0xb64C014307622eB15046C66fF71D04258F5963DC",
+    "symbol": "mevBTC",
+    "decimals": 18,
+    "chainId": 1,
+    "logoURI": "https://assets.coingecko.com/coins/images/69114/standard/mevBTC_icon.png"
   },
   {
     "name": "Fluid",

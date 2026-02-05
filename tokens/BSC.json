@@ -1374,5 +1374,13 @@
     "decimals": 6,
     "chainId": 56,
     "logoURI": "https://strapi.jumper.exchange/uploads/telechargement_2c9496a3c4.svg"
+  },
+  {
+    "name": "Midas XRP",
+    "address": "0xc8739fbBd54C587a2ad43b50CbcC30ae34FE9e34",
+    "symbol": "mXRP",
+    "decimals": 18,
+    "chainId": 56,
+    "logoURI": "https://assets.coingecko.com/coins/images/69548/standard/Capture-2025-09-26-164413.png"
   }
 ]
