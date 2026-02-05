@@ -612,7 +612,7 @@
     "chainId": 8453,
     "logoURI": "https://cdn.prod.website-files.com/62c7a905777e7fe892728a49/691ff64dedb05a06d2f6bbee_IXS.png",
     "decimals": 18,
-    "name": "IXS"
+    "name": "IXS",
     "symbol": "IXS"
   }
 ]
