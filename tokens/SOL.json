@@ -111,7 +111,7 @@
     "name": "Loaded Lions",
     "symbol": "LION"
   },
-   {
+  {
     "address": "CRTx1JouZhzSU6XytsE42UQraoGqiHgxabocVfARTy2s",
     "chainId": 1151111081099710,
     "logoURI": "https://res.cloudinary.com/dnu9h68sh/image/upload/v1757607855/carrot_rf3gkd.png",
@@ -119,12 +119,52 @@
     "name": "Carrot",
     "symbol": "CRT"
   },
-   {
+  {
     "address": "JDt9rRGaieF6aN1cJkXFeUmsy7ZE4yY3CZb8tVMXVroS",
     "chainId": 1151111081099710,
     "logoURI": "https://wncdtzbyon524a7yhquslzhttjpgsvodmfpgnihrukkcsq7golwq.arweave.net/s0Q55Dhze64D-DwpJeTzml5pVcNhXmag8aKUKUPmcu0",
     "decimals": 8,
     "name": "Zenrock ZEC",
     "symbol": "zenZEC"
+  },
+  {
+    "chainId": 1151111081099710,
+    "address": "CETES7CKqqKQizuSN6iWQwmTeFRjbJR6Vw2XRKfEDR8f",
+    "decimals": 6,
+    "symbol": "CETES",
+    "name": "CETES",
+    "logoURI": "https://bafybeicowq2umucgzsojvnwxixdhf47wcrmbnyv4ecb2tiugcyivrkp4ai.ipfs.dweb.link/CETES-01.svg"
+  },
+  {
+    "chainId": 1151111081099710,
+    "address": "BRNTNaZeTJANz9PeuD8drNbBHwGgg7ZTjiQYrFgWQ48p",
+    "decimals": 6,
+    "symbol": "TESOURO",
+    "name": "TESOURO",
+    "logoURI": "https://bafybeicowq2umucgzsojvnwxixdhf47wcrmbnyv4ecb2tiugcyivrkp4ai.ipfs.dweb.link/TESOURO-01.svg"
+  },
+  {
+    "chainId": 1151111081099710,
+    "address": "GiLTSeSFnNse7xQVYeKdMyckGw66AoRmyggGg1NNd4yr",
+    "decimals": 6,
+    "symbol": "GILTS",
+    "name": "GILTS",
+    "logoURI": "https://bafybeicowq2umucgzsojvnwxixdhf47wcrmbnyv4ecb2tiugcyivrkp4ai.ipfs.dweb.link/GILTS-01.svg"
+  },
+  {
+    "chainId": 1151111081099710,
+    "address": "USTRYnGgcHAhdWsanv8BG6vHGd4p7UGgoB9NRd8ei7j",
+    "decimals": 6,
+    "symbol": "USTRY",
+    "name": "USTRY",
+    "logoURI": "https://bafybeicowq2umucgzsojvnwxixdhf47wcrmbnyv4ecb2tiugcyivrkp4ai.ipfs.dweb.link/USTRY-01.svg"
+  },
+  {
+    "chainId": 1151111081099710,
+    "address": "EuroszHk1AL7fHBBsxgeGHsamUqwBpb26oEyt9BcfZ6G",
+    "decimals": 6,
+    "symbol": "EUROB",
+    "name": "EUROB",
+    "logoURI": "https://bafybeicowq2umucgzsojvnwxixdhf47wcrmbnyv4ecb2tiugcyivrkp4ai.ipfs.dweb.link/EUROB-01.svg"
   }
 ]

@@ -342,5 +342,45 @@
     "decimals": 18,
     "chainId": 137,
     "logoURI": "https://assets.coingecko.com/coins/images/25971/standard/JPYC_Prepaid.png?1734356447"
+  },
+  {
+    "chainId": 137,
+    "address": "0x834df4C1d8f51Be24322E39e4766697BE015512F",
+    "decimals": 18,
+    "symbol": "CETES",
+    "name": "CETES",
+    "logoURI": "https://bafybeicowq2umucgzsojvnwxixdhf47wcrmbnyv4ecb2tiugcyivrkp4ai.ipfs.dweb.link/CETES-01.svg"
+  },
+  {
+    "chainId": 137,
+    "address": "0xd574b191B5a00262Ff19953d3CE25543AB7C8098",
+    "decimals": 18,
+    "symbol": "TESOURO",
+    "name": "TESOURO",
+    "logoURI": "https://bafybeicowq2umucgzsojvnwxixdhf47wcrmbnyv4ecb2tiugcyivrkp4ai.ipfs.dweb.link/TESOURO-01.svg"
+  },
+  {
+    "chainId": 137,
+    "address": "0x46080F31351A6568f44575E3EFfDE7f0C86867f9",
+    "decimals": 18,
+    "symbol": "GILTS",
+    "name": "GILTS",
+    "logoURI": "https://bafybeicowq2umucgzsojvnwxixdhf47wcrmbnyv4ecb2tiugcyivrkp4ai.ipfs.dweb.link/GILTS-01.svg"
+  },
+  {
+    "chainId": 137,
+    "address": "0xc2C1f8Eb98C0468Be0232DD4166705d0Dea3Fe31",
+    "decimals": 18,
+    "symbol": "USTRY",
+    "name": "USTRY",
+    "logoURI": "https://bafybeicowq2umucgzsojvnwxixdhf47wcrmbnyv4ecb2tiugcyivrkp4ai.ipfs.dweb.link/USTRY-01.svg"
+  },
+  {
+    "chainId": 137,
+    "address": "0xC6221856E45ed806F8325a084bED3D69D32C526d",
+    "decimals": 18,
+    "symbol": "EUROB",
+    "name": "EUROB",
+    "logoURI": "https://bafybeicowq2umucgzsojvnwxixdhf47wcrmbnyv4ecb2tiugcyivrkp4ai.ipfs.dweb.link/EUROB-01.svg"
   }
 ]
