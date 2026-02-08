@@ -56,7 +56,7 @@ Add the token as the last element in the list (don't forget the `,` after the pr
   {
     "address": "0xde3a24028580884448a5397872046a019649b084",
     "chainId": 43114,
-    "reason": "Deprecated USDT token on AVA", <= add an optional reason why the token should be blocked
+    "reason": "Deprecated USDT token on AVA" <= add an optional reason why the token should be blocked
   }
 ]
 ```
