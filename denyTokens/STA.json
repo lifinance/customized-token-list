@@ -1,6 +1,7 @@
 [
   {
     "chainId": 988,
-    "address": "0x0000000000000000000000000000000000001000"
+    "address": "0x0000000000000000000000000000000000001000",
+    "reason": "gUSD as a gas token is deprecated"
   }
 ]
