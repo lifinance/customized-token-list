@@ -332,6 +332,6 @@
   {
     "address": "0x0000A1c00009A619684135B824Ba02f7FbF3A572",
     "chainId": 1,
-    "reason": "Low liquidity manipulates priceUSD reliability"
+    "reason": "Low liquidity affecting priceUSD reliability"
   }
 ]
