@@ -312,7 +312,7 @@
     "symbol": "DRV"
   },
   {
-    "name": "mBASIS",
+    "name": "Midas Basis Trading Token",
     "address": "0x1C2757c1FeF1038428b5bEF062495ce94BBe92b2",
     "symbol": "mBASIS",
     "decimals": 18,
@@ -320,12 +320,36 @@
     "logoURI": "https://assets.coingecko.com/coins/images/50593/standard/mBASIS_logo.png?1728444389"
   },
   {
-    "name": "mTBILL",
+    "name": "Midas US Treasury Bill Token",
     "address": "0xDD629E5241CbC5919847783e6C96B2De4754e438",
     "symbol": "mTBILL",
     "decimals": 18,
     "chainId": 8453,
     "logoURI": "https://assets.coingecko.com/coins/images/37839/standard/mTBILL_token.png?1728417279"
+  },
+  {
+    "name": "Midas mEDGE",
+    "address": "0x4089dC8b6637218f13465d28950A82a7E90cBE27",
+    "symbol": "mEDGE",
+    "decimals": 18,
+    "chainId": 8453,
+    "logoURI": "https://assets.coingecko.com/coins/images/54591/standard/medge_logo.png"
+  },
+  {
+    "name": "Midas MEV",
+    "address": "0x141f0E9ed8bA2295254C9DF9476ccE7bC29172B1",
+    "symbol": "mMEV",
+    "decimals": 18,
+    "chainId": 8453,
+    "logoURI": "https://assets.coingecko.com/coins/images/54592/standard/mmev_logo.png"
+  },
+  {
+    "name": "Midas Re7 Yield",
+    "address": "0x8459f6e174deE33FC72BDAE74a3080751eC92c27",
+    "symbol": "mRe7YIELD",
+    "decimals": 18,
+    "chainId": 8453,
+    "logoURI": "https://assets.coingecko.com/coins/images/54660/standard/mre7yield_logo.png"
   },
   {
     "address": "0x7ff7fa94b8b66ef313f7970d4eebd2cb3103a2c0",

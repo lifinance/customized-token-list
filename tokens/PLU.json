@@ -71,6 +71,38 @@
     "chainId": 98866,
     "decimals": 6,
     "logoURI": "https://assets.plume.org/images/logos/nest/nTBILL/nTBILL-token.svg"
+  },
+  {
+    "name": "Midas US Treasury Bill Token",
+    "address": "0xE85f2B707Ec5Ae8e07238F99562264f304E30109",
+    "symbol": "mTBILL",
+    "decimals": 18,
+    "chainId": 98866,
+    "logoURI": "https://assets.coingecko.com/coins/images/37839/standard/mTBILL_token.png"
+  },
+  {
+    "name": "Midas Basis Trading Token",
+    "address": "0x0c78Ca789e826fE339dE61934896F5D170b66d78",
+    "symbol": "mBASIS",
+    "decimals": 18,
+    "chainId": 98866,
+    "logoURI": "https://assets.coingecko.com/coins/images/50593/standard/mBASIS_logo.png"
+  },
+  {
+    "name": "Midas mEDGE",
+    "address": "0x69020311836D29BA7d38C1D3578736fD3dED03ED",
+    "symbol": "mEDGE",
+    "decimals": 18,
+    "chainId": 98866,
+    "logoURI": "https://assets.coingecko.com/coins/images/54591/standard/medge_logo.png"
+  },
+  {
+    "name": "Midas MEV",
+    "address": "0x7d611dC23267F508DE90724731Dc88CA28Ef7473",
+    "symbol": "mMEV",
+    "decimals": 18,
+    "chainId": 98866,
+    "logoURI": "https://assets.coingecko.com/coins/images/54592/standard/mmev_logo.png"
   }
 ]
 
