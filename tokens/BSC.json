@@ -1374,5 +1374,13 @@
     "decimals": 6,
     "chainId": 56,
     "logoURI": "https://strapi.jumper.exchange/uploads/telechargement_2c9496a3c4.svg"
+  },
+  {
+    "name": "Tria",
+    "address": "0xb0b92de23bAa85fB06208277E925ceD53edab482",
+    "symbol": "TRIA",
+    "chainId": 56,
+    "decimals": 18,
+    "logoURI": "https://s2.coinmarketcap.com/static/img/coins/64x64/39382.png"
   }
 ]

@@ -814,5 +814,13 @@
     "chainId": 1,
     "decimals": 18,
     "logoURI": "https://cdn.prod.website-files.com/62c7a905777e7fe892728a49/6983d21eeabb08969ebd79a7_IXS_logo.svg"
+  },
+  {
+    "name": "Tria",
+    "address": "0x228bEC415adE4b61D7CaF0adf8C91EAc587BA369",
+    "symbol": "TRIA",
+    "chainId": 1,
+    "decimals": 18,
+    "logoURI": "https://s2.coinmarketcap.com/static/img/coins/64x64/39382.png"
   }
 ]
