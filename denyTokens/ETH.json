@@ -328,5 +328,10 @@
     "address": "0x1773D273C84E45066BfBAA47a4aa805a2c2C8B1f",
     "chainId": 1,
     "reason": "Scam token. Missleading token name"
+  },
+  {
+    "address": "0x0000A1c00009A619684135B824Ba02f7FbF3A572",
+    "chainId": 1,
+    "reason": "Low liquidity affecting priceUSD reliability"
   }
 ]
