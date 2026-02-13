@@ -52,7 +52,7 @@ describe('Token validation', () => {
       expect(denyTokenValidator(token)).toBeTruthy()
     })
 
-    it.each(tokensInEachFile('./tokens'))(
+    it.each(tokensInEachFile('./denyTokens'))(
       'should have the same chainId in $fileName file',
       ({ contents }) => {
         const chainIds = contents.map((token: DenyToken) => token.chainId)
@@ -77,7 +77,7 @@ describe('Token validation', () => {
       expect(approvalResetTokenValidator(token)).toBeTruthy()
     })
 
-    it.each(tokensInEachFile('./tokens'))(
+    it.each(tokensInEachFile('./approvalResetTokens'))(
       'should have the same chainId in $fileName file',
       ({ contents }) => {
         const chainIds = contents.map((token: ApprovalResetToken) => token.chainId)
