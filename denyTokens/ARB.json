@@ -48,5 +48,10 @@
     "chainId": 42161,
     "address": "0x4358B2112Fd96771B194CA7c0cb548f46270EC41",
     "reason": "Scam fake EURe token"
+  },
+  {
+    "address": "0xc7dEf82Ba77BAF30BbBc9b6162DC075b49092fb4",
+    "chainId": 42161,
+    "reason": "Illiquid token variant of Aethir token"
   }
 ]
