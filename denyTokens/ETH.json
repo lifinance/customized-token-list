@@ -333,5 +333,10 @@
     "address": "0x0000A1c00009A619684135B824Ba02f7FbF3A572",
     "chainId": 1,
     "reason": "Low liquidity affecting priceUSD reliability"
+  },
+  {
+    "address": "0xAAF2F127D4A6bc330B21fB092A2F3F34a73A60de",
+    "chainId": 1,
+    "reason": "Has hidden blacklisting blocks transfers via intermediary contracts"
   }
 ]
