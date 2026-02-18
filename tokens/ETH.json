@@ -822,5 +822,13 @@
     "chainId": 1,
     "decimals": 18,
     "logoURI": "https://s2.coinmarketcap.com/static/img/coins/64x64/39382.png"
+  },
+  {
+    "name": "SUPERNOVA",
+    "address": "0x00Da8466B296E382E5Da2Bf20962D0cB87200c78",
+    "symbol": "NOVA",
+    "chainId": 1,
+    "decimals": 18,
+    "logoURI": "https://assets.supernova.xyz/supernova.png"
   }
 ]
