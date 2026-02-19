@@ -30,5 +30,13 @@
     "chainId": 146,
     "decimals": 18,
     "logoURI": "https://raw.githubusercontent.com/parallel-protocol/parallel-brand-kit/main/Tokens/PRL/sPRL.svg"
+  },
+  {
+    "name": "ShibaPoconk",
+    "address": "0x63A522f6E7D5B96F7aeBB74d2648545E9e14078D",
+    "symbol": "CONK",
+    "chainId": 146,
+    "decimals": 18,
+    "logoURI": "https://gateway.pinata.cloud/ipfs/bafkreiaynps4xalkiktny4fpwhk2ziq3xbw7hiq676cijddb3zzflcwdcq"
   }
 ]
