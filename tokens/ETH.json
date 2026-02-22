@@ -830,5 +830,21 @@
     "chainId": 1,
     "decimals": 18,
     "logoURI": "https://assets.supernova.xyz/supernova.png"
+  },
+  {
+    "address": "0x98A878b1Cd98131B271883B390f68D2c90674665",
+    "chainId": 1,
+    "logoURI": "https://assets.apyx.fi/tokens/apxUSD.png",
+    "decimals": 18,
+    "name": "apxUSD",
+    "symbol": "apxUSD"
+  },
+  {
+    "address": "0x38EEb52F0771140d10c4E9a9a72349A329Fe8a6A",
+    "chainId": 1,
+    "logoURI": "https://assets.apyx.fi/tokens/apyUSD.png",
+    "decimals": 18,
+    "name": "apyUSD",
+    "symbol": "apyUSD"
   }
 ]
