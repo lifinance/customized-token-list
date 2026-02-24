@@ -840,7 +840,7 @@
     "symbol": "apxUSD"
   },
   {
-    "address": "0x38EEb52F0771140d10c4E9a9a72349A329Fe8a6A",
+    "address": "0x38eeb52f0771140d10c4e9a9a72349a329fe8a6a",
     "chainId": 1,
     "logoURI": "https://assets.apyx.fi/tokens/apyUSD.png",
     "decimals": 18,
