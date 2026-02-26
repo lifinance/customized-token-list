@@ -278,5 +278,10 @@
     "address": "0x3E097678aB790AACd8b42721099b3983f40aA827",
     "chainId": 56,
     "reason": "Scam token. Honeypot risk according to GoPlus"
+  },
+  {
+    "address": "0xc81688968bd1e8da313b8f2936852ec4307cd17f",
+    "chainId": 56,
+    "reason": "Scam token. Honeypot risk according to GoPlus"
   }
 ]
