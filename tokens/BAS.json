@@ -614,5 +614,13 @@
     "decimals": 18,
     "name": "IXS",
     "symbol": "IXS"
+  },
+  {
+    "address": "0xFbA669C72b588439B29F050b93500D8b645F9354",
+    "chainId": 8453,
+    "logoURI": "https://assets.coingecko.com/coins/images/51996/standard/Donald_Toad_Transparent.png?1732459916",
+    "decimals": 18,
+    "name": "Donald Toad Coin",
+    "symbol": "DTC"
   }
 ]
