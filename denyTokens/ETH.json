@@ -338,5 +338,10 @@
     "address": "0xAAF2F127D4A6bc330B21fB092A2F3F34a73A60de",
     "chainId": 1,
     "reason": "Has hidden blacklisting blocks transfers via intermediary contracts"
+  },
+  {
+    "address": "0x1A3496C18d558bd9C6C8f609E1B129f67AB08163",
+    "chainId": 1,
+    "reason": "Forces receiving contracts to implement tokenFallback function"
   }
 ]
