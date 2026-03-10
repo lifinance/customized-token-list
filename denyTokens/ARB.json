@@ -48,5 +48,10 @@
     "chainId": 42161,
     "address": "0x4358B2112Fd96771B194CA7c0cb548f46270EC41",
     "reason": "Scam fake EURe token"
+  },
+   {
+    "chainId": 42161,
+    "address": "0x327006c8712FE0AbdbbD55B7999DB39b0967342E",
+    "reason": "Scam fake PYUSD token"
   }
 ]
