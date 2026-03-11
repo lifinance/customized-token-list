@@ -1,0 +1,19 @@
+{
+  "type": "array",
+  "items": {
+    "type": "object",
+    "properties": {
+      "chainId": {
+        "type": "integer"
+      },
+      "address": {
+        "type": "string"
+      },
+      "oracle": {
+        "type": "string"
+      }
+    },
+    "required": ["chainId", "address", "oracle"],
+    "additionalProperties": false
+  }
+}
