@@ -54,5 +54,21 @@
     "chainId": 1329,
     "decimals": 6,
     "logoURI": "https://assets.coingecko.com/coins/images/70268/standard/1000331462.png?1761335326"
+  },
+  {
+    "name": "USDr",
+    "address": "0x53fdd705873d8259d6d179901fc3fdcb5339f921",
+    "symbol": "USDr",
+    "chainId": 1329,
+    "decimals": 18,
+    "logoURI": "https://raw.githubusercontent.com/rocky-protocol/rocky-brand-kit/main/Tokens/USDr/SVG/USDr.svg"
+  },
+  {
+    "name": "Staked USDr",
+    "address": "0xc0029b98f09c9062056c14c0329d3a114a098617",
+    "symbol": "sUSDr",
+    "chainId": 1329,
+    "decimals": 18,
+    "logoURI": "https://raw.githubusercontent.com/rocky-protocol/rocky-brand-kit/main/Tokens/sUSDr/SVG/sUSDr.svg"
   }
 ]
