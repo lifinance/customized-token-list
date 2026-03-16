@@ -902,7 +902,45 @@
     "chainId": 1,
     "decimals": 8,
     "logoURI": "https://storage.googleapis.com/merkl-static-assets/tokens/hemiBTC.svg"
+  },
+  {
+    "name": "IXS",
+    "address": "0x73d7c860998ca3c01ce8c808f5577d94d545d1b4",
+    "symbol": "IXS",
+    "chainId": 1,
+    "decimals": 18,
+    "logoURI": "https://cdn.prod.website-files.com/62c7a905777e7fe892728a49/6983d21eeabb08969ebd79a7_IXS_logo.svg"
+  },
+  {
+    "name": "Tria",
+    "address": "0x228bEC415adE4b61D7CaF0adf8C91EAc587BA369",
+    "symbol": "TRIA",
+    "chainId": 1,
+    "decimals": 18,
+    "logoURI": "https://s2.coinmarketcap.com/static/img/coins/64x64/39382.png"
+  },
+  {
+    "name": "SUPERNOVA",
+    "address": "0x00Da8466B296E382E5Da2Bf20962D0cB87200c78",
+    "symbol": "NOVA",
+    "chainId": 1,
+    "decimals": 18,
+    "logoURI": "https://assets.supernova.xyz/supernova.png"
+  },
+  {
+    "address": "0x98A878b1Cd98131B271883B390f68D2c90674665",
+    "chainId": 1,
+    "logoURI": "https://assets.apyx.fi/tokens/apxUSD.png",
+    "decimals": 18,
+    "name": "apxUSD",
+    "symbol": "apxUSD"
+  },
+  {
+    "address": "0x38EEb52F0771140d10c4E9a9a72349A329Fe8a6A",
+    "chainId": 1,
+    "logoURI": "https://assets.apyx.fi/tokens/apyUSD.png",
+    "decimals": 18,
+    "name": "apyUSD",
+    "symbol": "apyUSD"
   }
 ]
-
-
