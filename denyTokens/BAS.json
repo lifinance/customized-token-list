@@ -33,5 +33,10 @@
     "address": "0xa6BaE8709D2bb09f5ee9785a51842664671A3e97",
     "chainId": 8453,
     "reason": "Malicious token, owner can block sells"
+  },
+  {
+    "address": "0xCA5d8F8a8d49439357d3CF46Ca2e720702F132b8",
+    "chainId": 8453,
+    "reason": "Token has function to pause transfers temporarily"
   }
 ]
