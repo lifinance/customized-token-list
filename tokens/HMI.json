@@ -6,5 +6,13 @@
     "chainId": 43111,
     "decimals": 8,
     "logoURI": "https://storage.googleapis.com/merkl-static-assets/tokens/hemiBTC.svg"
+  },
+  {
+    "name": "USDp",
+    "address": "0x8fCf9118fdD359f6277cDd143c2Da206e64140F3",
+    "symbol": "USDp",
+    "chainId": 43111,
+    "decimals": 18,
+    "logoURI": "https://raw.githubusercontent.com/parallel-protocol/parallel-brand-kit/main/Tokens/USDp/USDp.svg"
   }
 ]

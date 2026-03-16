@@ -14,5 +14,13 @@
     "decimals": 6,
     "name": "Tether Gold Tokens",
     "logoURI": "https://coin-images.coingecko.com/coins/images/66560/large/XAUt0_Token_Icon_Gold.png?1749747942"
+  },
+  {
+    "name": "USDp",
+    "address": "0x8fCf9118fdD359f6277cDd143c2Da206e64140F3",
+    "symbol": "USDp",
+    "chainId": 9745,
+    "decimals": 18,
+    "logoURI": "https://raw.githubusercontent.com/parallel-protocol/parallel-brand-kit/main/Tokens/USDp/USDp.svg"
   }
 ]

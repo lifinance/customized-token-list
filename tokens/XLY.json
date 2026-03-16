@@ -6,5 +6,13 @@
     "decimals": 18,
     "chainId": 196,
     "logoURI": "https://assets.coingecko.com/coins/images/68279/standard/xdog.png"
+  },
+  {
+    "name": "USDp",
+    "address": "0x8fCf9118fdD359f6277cDd143c2Da206e64140F3",
+    "symbol": "USDp",
+    "chainId": 196,
+    "decimals": 18,
+    "logoURI": "https://raw.githubusercontent.com/parallel-protocol/parallel-brand-kit/main/Tokens/USDp/USDp.svg"
   }
 ]

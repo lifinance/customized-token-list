@@ -71,6 +71,14 @@
     "chainId": 98866,
     "decimals": 6,
     "logoURI": "https://assets.plume.org/images/logos/nest/nTBILL/nTBILL-token.svg"
+  },
+  {
+    "name": "USDp",
+    "address": "0x8fCf9118fdD359f6277cDd143c2Da206e64140F3",
+    "symbol": "USDp",
+    "chainId": 98866,
+    "decimals": 18,
+    "logoURI": "https://raw.githubusercontent.com/parallel-protocol/parallel-brand-kit/main/Tokens/USDp/USDp.svg"
   }
 ]
 

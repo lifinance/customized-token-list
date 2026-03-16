@@ -30,5 +30,13 @@
     "decimals": 18,
     "name": "FRAX",
     "logoURI": "https://static.debank.com/image/movr_token/logo_url/0x965f84d915a9efa2dd81b653e3ae736555d945f4/1f2c42cba1add081f314ee899ab67816.png"
+  },
+  {
+    "name": "USDp",
+    "address": "0x8fCf9118fdD359f6277cDd143c2Da206e64140F3",
+    "symbol": "USDp",
+    "chainId": 252,
+    "decimals": 18,
+    "logoURI": "https://raw.githubusercontent.com/parallel-protocol/parallel-brand-kit/main/Tokens/USDp/USDp.svg"
   }
 ]
