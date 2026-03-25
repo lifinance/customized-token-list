@@ -614,5 +614,21 @@
     "decimals": 18,
     "name": "IXS",
     "symbol": "IXS"
+  },
+  {
+    "name": "USDai",
+    "address": "0x0A1a1A107E45b7Ced86833863f482BC5f4ed82EF",
+    "symbol": "USDai",
+    "decimals": 18,
+    "chainId": 8453,
+    "logoURI": "https://app.usd.ai/svg/erc20/usdai.svg"
+  },
+  {
+    "name": "Staked USDai",
+    "address": "0x0B2b2B2076d95dda7817e785989fE353fe955ef9",
+    "symbol": "sUSDai",
+    "decimals": 18,
+    "chainId": 8453,
+    "logoURI": "https://app.usd.ai/svg/erc20/susdai.svg"
   }
 ]
