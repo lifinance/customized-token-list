@@ -134,7 +134,7 @@
       "decimals": 18,
       "chainId": 42793,
       "logoURI": "https://raw.githubusercontent.com/curvefi/curve-assets/refs/heads/main/images/assets-etherlink/0x6bde51212203ae5d592cc5180da2abbd41c922de.png"
-  }
+  },
   {
     "name": "Strategic Metals Basket",
     "address": "0x6Ce393fF9Ed5465CC4DEf456B8401e03cEF64d5e",
