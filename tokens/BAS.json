@@ -654,5 +654,21 @@
     "decimals": 18,
     "chainId": 8453,
     "logoURI": "https://platform.st0x.io/images/SPLG.png"
-  }
+  },
+  {
+    "address": "0xD993935E13851dd7517af10687EC7e5022127228",
+    "chainId": 1,
+    "logoURI": "https://assets.apyx.fi/tokens/apxUSD.png",
+    "decimals": 18,
+    "name": "apxUSD",
+    "symbol": "apxUSD"
+  },
+  {
+    "address": "0x2c271ddF484aC0386d216eB7eB9Ff02D4Dc0F6AA",
+    "chainId": 1,
+    "logoURI": "https://assets.apyx.fi/tokens/apyUSD.png",
+    "decimals": 18,
+    "name": "apyUSD",
+    "symbol": "apyUSD"
+  },
 ]
