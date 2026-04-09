@@ -110,5 +110,13 @@
     "decimals": 18,
     "name": "Wrapped Crotch",
     "symbol": "WCROTCH"
+  },
+  {
+    "address": "0x3c56229DBc7dbE69908E3Ad3e2Ba9016b30E83C5",
+    "chainId": 59144,
+    "symbol": "PUPI",
+    "decimals": 18,
+    "name": "PUPI",
+    "logoURI": "https://raw.githubusercontent.com/matthix73-alt/pupi-assets/main/logo.png"
   }
 ]
