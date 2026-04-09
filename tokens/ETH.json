@@ -862,5 +862,13 @@
     "decimals": 18,
     "chainId": 1,
     "logoURI": "https://app.usd.ai/svg/erc20/susdai.svg"
+  },
+  {
+      "name": "USDSM",
+      "address": "0x399B29975CBE313C56269cD5097F5AE097Fa2741",
+      "symbol": "USDSM",
+      "decimals": 18,
+      "chainId": 1,
+      "logoURI": "https://raw.githubusercontent.com/curvefi/curve-assets/refs/heads/main/images/assets-etherlink/0x6bde51212203ae5d592cc5180da2abbd41c922de.png"
   }
 ]
