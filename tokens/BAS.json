@@ -638,5 +638,61 @@
     "decimals": 18,
     "name": "IXS",
     "symbol": "IXS"
+  },
+  {
+    "name": "USDai",
+    "address": "0x0A1a1A107E45b7Ced86833863f482BC5f4ed82EF",
+    "symbol": "USDai",
+    "decimals": 18,
+    "chainId": 8453,
+    "logoURI": "https://app.usd.ai/svg/erc20/usdai.svg"
+  },
+  {
+    "name": "Staked USDai",
+    "address": "0x0B2b2B2076d95dda7817e785989fE353fe955ef9",
+    "symbol": "sUSDai",
+    "decimals": 18,
+    "chainId": 8453,
+    "logoURI": "https://app.usd.ai/svg/erc20/susdai.svg"
+  },
+  {
+    "name": "Wrapped Coinbase Global Inc ST0x",
+    "address": "0x5cDa0E1CA4ce2af96315f7F8963C85399c172204",
+    "symbol": "wtCOIN",
+    "decimals": 18,
+    "chainId": 8453,
+    "logoURI": "https://platform.st0x.io/images/COIN.png"
+  },
+  {
+    "name": "Wrapped MicroStrategy Incorporated ST0x",
+    "address": "0xFF05E1bD696900dc6A52CA35Ca61Bb1024eDa8e2",
+    "symbol": "wtMSTR",
+    "decimals": 18,
+    "chainId": 8453,
+    "logoURI": "https://platform.st0x.io/images/MSTR.png"
+  },
+  {
+    "name": "Wrapped SPDR Portfolio S&P 500 ETF ST0x",
+    "address": "0x31C2C14134e6E3B7ef9478297F199331133Fc2d8",
+    "symbol": "wtSPYM",
+    "decimals": 18,
+    "chainId": 8453,
+    "logoURI": "https://platform.st0x.io/images/SPLG.png"
+  },
+  {
+    "address": "0xD993935E13851dd7517af10687EC7e5022127228",
+    "chainId": 8453,
+    "logoURI": "https://assets.apyx.fi/tokens/apxUSD.png",
+    "decimals": 18,
+    "name": "apxUSD",
+    "symbol": "apxUSD"
+  },
+  {
+    "address": "0x2c271ddF484aC0386d216eB7eB9Ff02D4Dc0F6AA",
+    "chainId": 8453,
+    "logoURI": "https://assets.apyx.fi/tokens/apyUSD.png",
+    "decimals": 18,
+    "name": "apyUSD",
+    "symbol": "apyUSD"
   }
 ]

@@ -126,5 +126,29 @@
     "decimals": 6,
     "chainId": 42793,
     "logoURI": "https://cdn.jsdelivr.net/gh/curvefi/curve-assets/images/assets-etherlink/0x5b456255fc3389a1ed284a74be0d1f38734d3d6a.png"
+  },
+  {
+      "name": "USDSM",
+      "address": "0x6bDE51212203aE5d592Cc5180DA2ABBd41c922dE",
+      "symbol": "USDSM",
+      "decimals": 18,
+      "chainId": 42793,
+      "logoURI": "https://raw.githubusercontent.com/curvefi/curve-assets/refs/heads/main/images/assets-etherlink/0x6bde51212203ae5d592cc5180da2abbd41c922de.png"
+  },
+  {
+    "name": "Strategic Metals Basket",
+    "address": "0x6Ce393fF9Ed5465CC4DEf456B8401e03cEF64d5e",
+    "symbol": "RARE",
+    "decimals": 4,
+    "chainId": 42793,
+    "logoURI": "https://raw.githubusercontent.com/0xRobWatson/token-logos/6b6fd9d5d174289b3cb2b92ccfbe64aded15901a/RARE.png"
+  },
+  {
+      "name": "VNX Gold",
+      "address": "0x93F5475da60143C50e8bE3fED10c143B0CF8b9E9",
+      "symbol": "VNXAU",
+      "decimals": 18,
+      "chainId": 42793,
+      "logoURI": "https://raw.githubusercontent.com/0xRobWatson/token-logos/refs/heads/main/VNXAU.png"
   }
 ]
