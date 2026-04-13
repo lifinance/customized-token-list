@@ -198,5 +198,13 @@
     "chainId": 999,
     "decimals": 18,
     "logoURI": "https://pbs.twimg.com/profile_images/1946353270219259906/XeHrpxA9_400x400.jpg"
+  },
+  {
+    "name": "Superform",
+    "address": "0x642ffc3496aca19106bab7a42f1f221a329654fe",
+    "symbol": "UP",
+    "chainId": 999,
+    "decimals": 18,
+    "logoURI": "https://storage.googleapis.com/zapper-fi-assets/tokens/ethereum/0x1d926bbe67425c9f507b9a0e8030eedc7880bf33.png"
   }
 ]
