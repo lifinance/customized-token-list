@@ -53,5 +53,9 @@
     "address": "0xc7dEf82Ba77BAF30BbBc9b6162DC075b49092fb4",
     "chainId": 42161,
     "reason": "Illiquid token variant of Aethir token"
+   {
+    "chainId": 42161,
+    "address": "0x327006c8712FE0AbdbbD55B7999DB39b0967342E",
+    "reason": "Scam fake PYUSD token"
   }
 ]

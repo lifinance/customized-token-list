@@ -54,5 +54,13 @@
     "chainId": 1329,
     "decimals": 6,
     "logoURI": "https://assets.coingecko.com/coins/images/70268/standard/1000331462.png?1761335326"
+  },
+  {
+    "name": "Ondo U.S. Dollar Yield",
+    "address": "0x54cd901491aef397084453f4372b93c33260e2a6",
+    "symbol": "USDY",
+    "chainId": 1329,
+    "decimals": 18,
+    "logoURI": "https://static.debank.com/image/eth_token/logo_url/0x96f6ef951840721adbf46ac996b59e0235cb985c/97c2e77af19822f6113485277496b32c.png"
   }
 ]
