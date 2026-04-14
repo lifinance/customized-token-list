@@ -216,6 +216,14 @@
     "logoURI": "https://static.debank.com/image/arb_token/logo_url/0x6694340fc020c5e6b96567843da2df01b2ce1eb6/55886c6280173254776780fd8340cca7.png"
   },
   {
+    "address": "0xb23bB8c2C6Cb9169eeaC8f2Bd42fcf333A1a8C55",
+    "chainId": 42161,
+    "symbol": "NOX",
+    "decimals": 18,
+    "name": "Noxcat",
+    "logoURI": "https://drive.google.com/file/d/1rAVo93EjQXAUlyabFiEwyMyXxgY5WszQ/view?usp=drive_link"
+  },  
+  {
     "address": "0xFEa7a6a0B346362BF88A9e4A88416B77a57D6c2A",
     "chainId": 42161,
     "symbol": "MIM",
