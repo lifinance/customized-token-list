@@ -1,0 +1,10 @@
+[
+  {
+    "address": "0x389C08Bc23A7317000a1FD76c7c5B0cb0b4640b5",
+    "chainId": 2818,
+    "symbol": "BGB",
+    "decimals": 18,
+    "name": "BitgetToken",
+    "logoURI": "https://raw.githubusercontent.com/morph-l2/morph-list/main/tokenIcons/BGB.svg"
+  }
+]
