@@ -320,6 +320,14 @@
     "symbol": "stUSD"
   },
   {
+    "address": "0xb23bB8c2C6Cb9169eeaC8f2Bd42fcf333A1a8C55",
+    "chainId": 42161,
+    "symbol": "NOX",
+    "decimals": 18,
+    "name": "Noxcat",
+    "logoURI": "https://drive.google.com/file/d/1rAVo93EjQXAUlyabFiEwyMyXxgY5WszQ/view?usp=drive_link"
+  }, 
+  {
     "address": "0x656B80B667a46869144047E6e6C0000C81610253",
     "chainId": 42161,
     "symbol": "ANGLE",
