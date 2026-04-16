@@ -343,5 +343,10 @@
     "address": "0x1A3496C18d558bd9C6C8f609E1B129f67AB08163",
     "chainId": 1,
     "reason": "Forces receiving contracts to implement tokenFallback function"
+  },
+  {
+    "address": "0x986EE2B944c42D017F52Af21c4c69B84DBeA35d8",
+    "chainId": 1,
+    "reason": "Reverts on approve(0), breaking swap allowance reset"
   }
 ]

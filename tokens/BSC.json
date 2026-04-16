@@ -1384,6 +1384,14 @@
     "logoURI": "https://s2.coinmarketcap.com/static/img/coins/64x64/39382.png"
   },
   {
+    "name": "Midas XRP",
+    "address": "0xc8739fbBd54C587a2ad43b50CbcC30ae34FE9e34",
+    "symbol": "mXRP",
+    "decimals": 18,
+    "chainId": 56,
+    "logoURI": "https://assets.coingecko.com/coins/images/69548/standard/Capture-2025-09-26-164413.png"
+  },
+  {
     "name": "Wrapped Canton Coin",
     "address": "0x6050D829F5a5E0eA758D8357DDcdeC1381699248",
     "symbol": "wCC",
