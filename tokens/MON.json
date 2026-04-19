@@ -70,7 +70,8 @@
     "symbol": "gMON",
     "decimals": 18,
     "logoURI": "https://raw.githubusercontent.com/monad-crypto/token-list/refs/heads/main/mainnet/gMON/logo.svg"
-  },{
+  },
+  {
     "chainId": 143,
     "address": "0xA3227C5969757783154C60bF0bC1944180ed81B9",
     "name": "Kintsu Staked Monad",
@@ -125,5 +126,13 @@
     "symbol": "HST",
     "decimals": 18,
     "logoURI": "https://assets.coingecko.com/coins/images/70965/standard/agBxURDU_400x400.jpg?1764865069"
+  },
+  {
+    "chainId": 143,
+    "address": "0xF7Cf282eC810fDed974F99c0163E792f432892BC",
+    "name": "Midas Hyperithm BTC",
+    "symbol": "mHyperBTC",
+    "decimals": 18,
+    "logoURI": "https://assets.coingecko.com/coins/images/71550/standard/mhyperbtc-Bvh-K9IL.png"
   }
 ]
