@@ -435,7 +435,7 @@
     "address": "0x419D0d8BdD9aF5e606Ae2232ed285Aff190E711b",
     "chainId": 1,
     "logoURI": "https://static.debank.com/image/eth_token/logo_url/0x419d0d8bdd9af5e606ae2232ed285aff190e711b/17e38a53283964d43bba3be951edcb26.png",
-    "decimals": 18,
+    "decimals": 8,
     "name": "FunFair",
     "symbol": "FUN"
   },
@@ -960,12 +960,12 @@
     "logoURI": "https://app.usd.ai/svg/erc20/susdai.svg"
   },
   {
-      "name": "USDSM",
-      "address": "0x399B29975CBE313C56269cD5097F5AE097Fa2741",
-      "symbol": "USDSM",
-      "decimals": 18,
-      "chainId": 1,
-      "logoURI": "https://raw.githubusercontent.com/curvefi/curve-assets/refs/heads/main/images/assets-etherlink/0x6bde51212203ae5d592cc5180da2abbd41c922de.png"
+    "name": "USDSM",
+    "address": "0x399B29975CBE313C56269cD5097F5AE097Fa2741",
+    "symbol": "USDSM",
+    "decimals": 18,
+    "chainId": 1,
+    "logoURI": "https://raw.githubusercontent.com/curvefi/curve-assets/refs/heads/main/images/assets-etherlink/0x6bde51212203ae5d592cc5180da2abbd41c922de.png"
   },
   {
     "name": "Midas Rockaway Market Neutral",
