@@ -348,5 +348,10 @@
     "address": "0x986EE2B944c42D017F52Af21c4c69B84DBeA35d8",
     "chainId": 1,
     "reason": "Reverts on approve(0), breaking swap allowance reset"
+  },
+  {
+    "address": "0xb1A7F8b3AdA1Cbd7752c1306725b07D2F8B4e726",
+    "chainId": 1,
+    "reason": "Fake WETH impersonating well-known WETH with inflated marketcap"
   }
 ]
