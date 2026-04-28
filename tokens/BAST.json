@@ -1,7 +1,7 @@
 [
   {
     "name": "Coinbase Wrapped MEGA",
-    "address": "0x4eed0aef3d946f552da37ee6e1acb02f057ffff5",
+    "address": "0x4eeD0aef3d946f552Da37eE6E1Acb02F057Ffff5",
     "symbol": "cbMEGA",
     "decimals": 18,
     "chainId": 84532,
