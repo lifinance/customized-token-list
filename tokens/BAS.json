@@ -702,5 +702,13 @@
       "decimals": 18,
       "chainId": 8453,
       "logoURI": "https://raw.githubusercontent.com/curvefi/curve-assets/refs/heads/main/images/assets-etherlink/0x6bde51212203ae5d592cc5180da2abbd41c922de.png"
+  },
+  {
+    "name": "Coinbase Wrapped MEGA",
+    "address": "0xcb111E6A2a3bde90856D299d61341ac302167D23",
+    "symbol": "cbMEGA",
+    "decimals": 18,
+    "chainId": 8453,
+    "logoURI": "https://drive.google.com/uc?export=view&id=1ZZF1v_UH0F5cPHntI8Xs6OBRxmbzYp3H"
   }
 ]
