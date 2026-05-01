@@ -976,6 +976,14 @@
     "logoURI": "https://assets.coingecko.com/coins/images/102172744/standard/download_%286%29.png?1775201597"
   },
   {
+    "name": "apyUSD",
+    "address": "0x38EEb52F0771140d10c4E9A9a72349A329Fe8a6A",
+    "symbol": "apyUSD",
+    "decimals": 18,
+    "chainId": 1,
+    "logoURI": "https://assets.coingecko.com/coins/images/102172527/standard/apyUSD.png?1773763322"
+  },
+  {
     "name": "Tesla xStock",
     "address": "0x8ad3c73f833d3f9a523ab01476625f269aeb7cf0",
     "symbol": "TSLAx",
