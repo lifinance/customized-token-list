@@ -1,0 +1,10 @@
+[
+  {
+    "name": "Coinbase Wrapped MEGA",
+    "address": "0x4eeD0aef3d946f552Da37eE6E1Acb02F057Ffff5",
+    "symbol": "cbMEGA",
+    "decimals": 18,
+    "chainId": 84532,
+    "logoURI": "https://assets.coingecko.com/coins/images/102173020/standard/megaeth.png?1777256235"
+  }
+]

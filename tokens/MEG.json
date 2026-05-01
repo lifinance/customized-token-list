@@ -30,5 +30,13 @@
     "symbol": "wstETH",
     "decimals": 18,
     "logoURI": "https://static.debank.com/image/eth_token/logo_url/0x7f39c581f595b53c5cb19bd0b3f8da6c935e2ca0/d0405a0d11669d4e75286d8dd808e19b.png"
+  },
+  {
+    "chainId": 4326,
+    "address": "0x5d3a1Ff2b6BAb83b63cd9AD0787074081a52ef34",
+    "name": "USDe",
+    "symbol": "USDe",
+    "decimals": 18,
+    "logoURI": "https://static.debank.com/image/hyper_token/logo_url/0x5d3a1ff2b6bab83b63cd9ad0787074081a52ef34/2b2f84856552421d8305bbc71db49979.png"
   }
 ]
