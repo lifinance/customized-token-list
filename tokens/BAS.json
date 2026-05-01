@@ -710,5 +710,13 @@
     "decimals": 18,
     "chainId": 8453,
     "logoURI": "https://drive.google.com/uc?export=view&id=1ZZF1v_UH0F5cPHntI8Xs6OBRxmbzYp3H"
+  },
+    {
+    "name": "BENI",
+    "address": "0xde7a416ac821c77478340eebaa21b68297025ef3",
+    "symbol": "Beni",
+    "decimals": 18,
+    "chainId": 8453,
+    "logoURI": "https://assets.coingecko.com/coins/images/36691/standard/Logo_Image_Beni_Uodate.png?1732385556"
   }
 ]
