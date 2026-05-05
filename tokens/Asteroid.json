@@ -1,0 +1,8 @@
+{
+    "address": "0xAFF2565091E7207191dBe340B8528D02FA78d044",
+    "chainId": 1,
+    "logoURI": "https://i.ibb.co/twVw3Z6m/LOGOASTEROID-2x-1.png", <= permanent link to an image of your token
+    "decimals": 18,
+    "name": "Asteroid",
+    "symbol": "ASTEROID"
+  }
