@@ -353,5 +353,10 @@
     "address": "0xb1A7F8b3AdA1Cbd7752c1306725b07D2F8B4e726",
     "chainId": 1,
     "reason": "Fake WETH impersonating well-known WETH with inflated marketcap"
+  },
+  {
+    "address": "0xd197526ca57F14934E7f485Df373Fb0904D34A37",
+    "chainId": 1,
+    "reason": "Misleading token identity (KAIO); user received unintended asset — https://jumper.xyz/scan/tx/0x51a47b76b4496b3f3766eef697bc998dd298bbbe33c0e0c2bc497d41a74bbd06"
   }
 ]
