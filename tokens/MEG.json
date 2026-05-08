@@ -38,5 +38,13 @@
     "symbol": "USDe",
     "decimals": 18,
     "logoURI": "https://static.debank.com/image/hyper_token/logo_url/0x5d3a1ff2b6bab83b63cd9ad0787074081a52ef34/2b2f84856552421d8305bbc71db49979.png"
+  },
+  {
+    "chainId": 4326,
+    "address": "0x15B271D9012b5820FC42b1c495B4C1e206547De5",
+    "name": "Wrapped iTRY",
+    "symbol": "wiTRY",
+    "decimals": 18,
+    "logoURI": "https://assets.brix.money/itry/witry.svg"
   }
 ]
