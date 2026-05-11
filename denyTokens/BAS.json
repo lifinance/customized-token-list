@@ -48,5 +48,10 @@
     "address": "0x78A315cbE6869Ad13C29e889B973e61b944728D8",
     "chainId": 8453,
     "reason": "Malicious token, block transfers"
+  },
+  {
+    "address": "0xb6E38746AfD8C1dB4481C709AEbf0e3b2794F752",
+    "chainId": 8453,
+    "reason": "BSA (Block Sec Arena) scam token blocking transfers"
   }
 ]
