@@ -134,5 +134,13 @@
     "symbol": "mHyperBTC",
     "decimals": 18,
     "logoURI": "https://assets.coingecko.com/coins/images/71550/standard/mhyperbtc-Bvh-K9IL.png"
-  }
+  },
+  {
+  "chainId": 143,
+  "address": "0x21E325B059Cd83d4037C82F0F5998Ba2dF3d7777",
+  "name": "Bob",
+  "symbol": "BOB",
+  "decimals": 18,
+  "logoURI": "https://assets.coingecko.com/coins/images/102173014/standard/main_mascot.png"
+}
 ]
