@@ -134,5 +134,45 @@
     "symbol": "mHyperBTC",
     "decimals": 18,
     "logoURI": "https://assets.coingecko.com/coins/images/71550/standard/mhyperbtc-Bvh-K9IL.png"
+  },
+  {
+    "chainId": 143,
+    "address": "0xBC69212B8E4d445b2307C9D32dD68E2A4Df00115",
+    "name": "Mento Dollar",
+    "symbol": "USDm",
+    "decimals": 18,
+    "logoURI": "https://reserve.mento.org/tokens/USDm.svg"
+  },
+  {
+    "chainId": 143,
+    "address": "0x4D502d735B4C574B487Ed641ae87cEaE884731C7",
+    "name": "Mento Euro",
+    "symbol": "EURm",
+    "decimals": 18,
+    "logoURI": "https://reserve.mento.org/tokens/EURm.svg"
+  },
+  {
+    "chainId": 143,
+    "address": "0x39bb4E0a204412bB98e821d25e7d955e69d40Fd1",
+    "name": "Mento British Pound",
+    "symbol": "GBPm",
+    "decimals": 18,
+    "logoURI": "https://reserve.mento.org/tokens/GBPm.svg"
+  },
+  {
+    "chainId": 143,
+    "address": "0x22f6A6752800eAB67b84748FeFc3cC658384aF72",
+    "name": "Mento Japanese Yen",
+    "symbol": "JPYm",
+    "decimals": 18,
+    "logoURI": "https://reserve.mento.org/tokens/JPYm.svg"
+  },
+  {
+    "chainId": 143,
+    "address": "0xF64e91fFEf7ef43aA314F0Bc2AC39f770797990C",
+    "name": "Mento Swiss Franc",
+    "symbol": "CHFm",
+    "decimals": 18,
+    "logoURI": "https://reserve.mento.org/tokens/CHFm.svg"
   }
 ]
