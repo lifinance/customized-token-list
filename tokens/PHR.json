@@ -1,0 +1,27 @@
+[
+{
+    "address": "0x52c48d4213107b20bc583832b0d951fb9ca8f0b0",
+    "chainId": 1672,
+    "logoURI": "https://raw.githubusercontent.com/lifinance/types/main/src/assets/icons/chains/pharos.svg", 
+    "decimals": 18,
+    "name": "Wrapped PROS",
+    "symbol": "WPROS"
+  },
+  {
+    "address": "0xB197E02499e6502733C6bCE2eb39013C39A03147",
+    "chainId": 1,
+    "logoURI": "https://raw.githubusercontent.com/lifinance/types/main/src/assets/icons/chains/pharos.svg", 
+    "decimals": 18,
+    "name": "Wrapped PROS",
+    "symbol": "WPROS"
+  },
+  {
+    "address": "0x8B7DdE054BE9D180c1Be7FaE0874697374A49832",
+    "chainId": 8453,
+    "logoURI": "https://raw.githubusercontent.com/lifinance/types/main/src/assets/icons/chains/pharos.svg", 
+    "decimals": 18,
+    "name": "Wrapped PROS",
+    "symbol": "WPROS"
+  }
+
+]
