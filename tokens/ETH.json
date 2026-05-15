@@ -1030,5 +1030,13 @@
     "decimals": 18,
     "name": "Asteroid",
     "symbol": "ASTEROID"
+  },
+  {
+    "address": "0xB197E02499e6502733C6bCE2eb39013C39A03147",
+    "chainId": 1,
+    "logoURI": "https://raw.githubusercontent.com/lifinance/types/main/src/assets/icons/chains/pharos.svg", 
+    "decimals": 18,
+    "name": "Wrapped PROS",
+    "symbol": "WPROS"
   }
 ]
