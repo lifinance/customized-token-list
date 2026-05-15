@@ -1,6 +1,6 @@
 [
 {
-    "address": "0x52c48D4213107B20BC583832B0d951FB9cA8F0B0",
+    "address": "0x52C48d4213107b20bC583832b0d951FB9CA8F0B0",
     "chainId": 1672,
     "logoURI": "https://raw.githubusercontent.com/lifinance/types/main/src/assets/icons/chains/pharos.svg", 
     "decimals": 18,
