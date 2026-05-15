@@ -1037,6 +1037,6 @@
     "logoURI": "https://raw.githubusercontent.com/lifinance/types/main/src/assets/icons/chains/pharos.svg", 
     "decimals": 18,
     "name": "Wrapped PROS",
-    "symbol": "WPROS"
+    "symbol": "PROS"
   }
 ]
