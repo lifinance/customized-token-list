@@ -576,12 +576,12 @@
     "logoURI": "https://yala.org/yu.svg"
   },
   {
-  "name": "Bio Protocol",
-  "address": "0x226A2FA2556C48245E57cd1cbA4C6c9e67077DD2",
-  "symbol": "BIO",
-  "chainId": 8453,
-  "decimals": 18,
-  "logoURI": "https://app.bio.xyz/logos/bio-logo.png"
+    "name": "Bio Protocol",
+    "address": "0x226A2FA2556C48245E57cd1cbA4C6c9e67077DD2",
+    "symbol": "BIO",
+    "chainId": 8453,
+    "decimals": 18,
+    "logoURI": "https://app.bio.xyz/logos/bio-logo.png"
   },
   {
     "name": "SEDA",
@@ -696,12 +696,12 @@
     "symbol": "apyUSD"
   },
   {
-      "name": "USDSM",
-      "address": "0x26C358F7c5fEdB20a6ddEf108cD91Efb6B8Da0Cb",
-      "symbol": "USDSM",
-      "decimals": 18,
-      "chainId": 8453,
-      "logoURI": "https://raw.githubusercontent.com/curvefi/curve-assets/refs/heads/main/images/assets-etherlink/0x6bde51212203ae5d592cc5180da2abbd41c922de.png"
+    "name": "USDSM",
+    "address": "0x26C358F7c5fEdB20a6ddEf108cD91Efb6B8Da0Cb",
+    "symbol": "USDSM",
+    "decimals": 18,
+    "chainId": 8453,
+    "logoURI": "https://raw.githubusercontent.com/curvefi/curve-assets/refs/heads/main/images/assets-etherlink/0x6bde51212203ae5d592cc5180da2abbd41c922de.png"
   },
   {
     "name": "Coinbase Wrapped MEGA",
@@ -714,9 +714,17 @@
   {
     "address": "0x8B7DdE054BE9D180c1Be7FaE0874697374A49832",
     "chainId": 8453,
-    "logoURI": "https://raw.githubusercontent.com/lifinance/types/main/src/assets/icons/chains/pharos.svg", 
+    "logoURI": "https://raw.githubusercontent.com/lifinance/types/main/src/assets/icons/chains/pharos.svg",
     "decimals": 18,
     "name": "Wrapped PROS",
     "symbol": "PROS"
+  },
+  {
+    "name": "Arena Two",
+    "address": "0x499D35eBE6cEe9B2Ac35Fd003fcBbeeB9CFc7B32",
+    "symbol": "ATWO",
+    "decimals": 18,
+    "chainId": 8453,
+    "logoURI": "https://arenatwo.com/token/atwo/logo-200.png"
   }
 ]
