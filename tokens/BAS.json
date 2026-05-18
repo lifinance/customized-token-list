@@ -710,5 +710,13 @@
     "decimals": 18,
     "chainId": 8453,
     "logoURI": "https://assets.coingecko.com/coins/images/102173020/standard/megaeth.png?1777256235"
+  },
+  {
+    "address": "0x8B7DdE054BE9D180c1Be7FaE0874697374A49832",
+    "chainId": 8453,
+    "logoURI": "https://raw.githubusercontent.com/lifinance/types/main/src/assets/icons/chains/pharos.svg", 
+    "decimals": 18,
+    "name": "Wrapped PROS",
+    "symbol": "PROS"
   }
 ]
