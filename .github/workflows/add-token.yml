@@ -9,11 +9,12 @@
 #      branch protection — stops bogus runs early).
 #   3. React 👀 to acknowledge.
 #   4. Parse the Issue Form body into structured fields.
-#   5. Apply the token to the JSON list (see scripts/apply-token.mjs — TODO: fill in the actual
-#      mutation logic for this repo's schema).
-#   6. Open a PR on a fresh branch, crediting both the partner (from the issue) and the
+#   5. Apply the token to the JSON list via scripts/apply-token.mjs (looks up the right
+#      tokens/<KEY>.json by chainId, validates, refuses on duplicate/unknown chain, appends).
+#   6. If the apply step fails, post the validation error back to the issue and stop.
+#   7. Open a PR on a fresh branch, crediting both the partner (from the issue) and the
 #      internal who triggered the command.
-#   7. React ✅ and post a reply linking the PR.
+#   8. React ✅ and post a reply linking the PR.
 
 name: /add-token
 
