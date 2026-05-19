@@ -1,0 +1,38 @@
+# issue-slack-notify — Pings #dev-backend-expansion-review on every new issue
+#
+# Purpose: make sure new token requests don't sit unnoticed. The whole point of
+# the issue-based external flow is that an internal picks it up fast.
+#
+# Only fires on `opened` (not edits / labels / comments) to avoid noise.
+
+name: Notify Slack on new issue
+
+on:
+  issues:
+    types: [opened]
+
+permissions:
+  issues: read
+
+jobs:
+  notify:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Post to Slack
+        uses: slackapi/slack-github-action@v1.27.0
+        with:
+          webhook: ${{ secrets.SLACK_WEBHOOK_DEV_BACKEND_EXPANSION_REVIEW }}
+          webhook-type: incoming-webhook
+          payload: |
+            {
+              "text": "🆕 New token-list issue: <${{ github.event.issue.html_url }}|#${{ github.event.issue.number }} — ${{ github.event.issue.title }}>",
+              "blocks": [
+                {
+                  "type": "section",
+                  "text": {
+                    "type": "mrkdwn",
+                    "text": "🆕 *New token-list issue* <${{ github.event.issue.html_url }}|#${{ github.event.issue.number }}>\n*${{ github.event.issue.title }}*\nOpened by `${{ github.event.issue.user.login }}` — a member of `@lifinance/fullstack` or `@lifinance/techsupport` can convert it to a PR by commenting `/add-token` on the issue."
+                  }
+                }
+              ]
+            }

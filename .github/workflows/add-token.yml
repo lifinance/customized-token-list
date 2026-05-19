@@ -1,0 +1,173 @@
+# /add-token — Issue-to-PR converter
+#
+# Triggered when a member of @lifinance/fullstack or @lifinance/techsupport
+# comments `/add-token` on an issue created from the "Add a token" template.
+#
+# Flow:
+#   1. Mint a short-lived installation token from the lifi-customizedtokenlist-bot GitHub App.
+#   2. Verify the commenter is in one of the two authorized teams (defence in depth on top of
+#      branch protection — stops bogus runs early).
+#   3. React 👀 to acknowledge.
+#   4. Parse the Issue Form body into structured fields.
+#   5. Apply the token to the JSON list (see scripts/apply-token.mjs — TODO: fill in the actual
+#      mutation logic for this repo's schema).
+#   6. Open a PR on a fresh branch, crediting both the partner (from the issue) and the
+#      internal who triggered the command.
+#   7. React ✅ and post a reply linking the PR.
+
+name: /add-token
+
+on:
+  issue_comment:
+    types: [created]
+
+permissions: {}  # all access comes from the App token
+
+jobs:
+  add-token:
+    # Skip unless it's an issue comment (not a PR comment) starting with /add-token
+    if: >-
+      github.event.issue.pull_request == null &&
+      startsWith(github.event.comment.body, '/add-token')
+    runs-on: ubuntu-latest
+    steps:
+      - name: Mint App installation token
+        id: app-token
+        uses: actions/create-github-app-token@v1
+        with:
+          app-id: ${{ secrets.TOKENLIST_BOT_APP_ID }}
+          private-key: ${{ secrets.TOKENLIST_BOT_PRIVATE_KEY }}
+
+      - name: Verify commenter is in fullstack or techsupport
+        id: gate
+        env:
+          GH_TOKEN: ${{ steps.app-token.outputs.token }}
+          ACTOR: ${{ github.event.comment.user.login }}
+        run: |
+          set -e
+          for team in fullstack techsupport; do
+            if gh api "/orgs/lifinance/teams/$team/memberships/$ACTOR" --silent 2>/dev/null; then
+              echo "authorized=true" >> "$GITHUB_OUTPUT"
+              echo "✅ $ACTOR is in @lifinance/$team"
+              exit 0
+            fi
+          done
+          echo "❌ $ACTOR is not a member of fullstack or techsupport. Ignoring command."
+          # React with a 👎 so the commenter knows it was seen but rejected.
+          gh api -X POST "/repos/${{ github.repository }}/issues/comments/${{ github.event.comment.id }}/reactions" \
+            -f content='-1' || true
+          exit 78  # neutral skip, no red X on the action
+
+      - name: React 👀 to comment
+        env:
+          GH_TOKEN: ${{ steps.app-token.outputs.token }}
+        run: |
+          gh api -X POST "/repos/${{ github.repository }}/issues/comments/${{ github.event.comment.id }}/reactions" \
+            -f content='eyes'
+
+      - name: Checkout
+        uses: actions/checkout@v4
+        with:
+          token: ${{ steps.app-token.outputs.token }}
+          fetch-depth: 0
+
+      - name: Setup Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+
+      - name: Parse issue body
+        id: parse
+        uses: actions/github-script@v7
+        with:
+          script: |
+            const body = context.payload.issue.body || '';
+            // Issue Forms render each field as:  ### <Label>\n\n<value>\n\n
+            // (or _No response_ for empty optional fields)
+            const fields = {};
+            const re = /^###\s+(.+?)\s*\n+([\s\S]*?)(?=\n###\s+|\n*$)/gm;
+            let m;
+            while ((m = re.exec(body)) !== null) {
+              fields[m[1].trim()] = m[2].trim();
+            }
+            const get = (label) => {
+              const v = fields[label];
+              if (!v || v === '_No response_') return '';
+              return v;
+            };
+            const payload = {
+              partner: get('Partner / organization'),
+              contact: get('Contact email'),
+              chainId: get('Chain ID'),
+              address: get('Token contract address'),
+              symbol: get('Symbol'),
+              name: get('Name'),
+              decimals: get('Decimals'),
+              logoURI: get('Logo URL'),
+              justification: get('Justification'),
+            };
+            core.setOutput('payload', JSON.stringify(payload));
+            core.setOutput('partner', payload.partner);
+            core.setOutput('symbol', payload.symbol);
+            core.setOutput('chainId', payload.chainId);
+
+      - name: Apply token to JSON
+        env:
+          PAYLOAD: ${{ steps.parse.outputs.payload }}
+        run: node .github/scripts/apply-token.mjs
+
+      - name: Create branch, commit, push, open PR
+        id: pr
+        env:
+          GH_TOKEN: ${{ steps.app-token.outputs.token }}
+          ISSUE_NUM: ${{ github.event.issue.number }}
+          ACTOR: ${{ github.event.comment.user.login }}
+          PARTNER: ${{ steps.parse.outputs.partner }}
+          SYMBOL: ${{ steps.parse.outputs.symbol }}
+          CHAIN_ID: ${{ steps.parse.outputs.chainId }}
+        run: |
+          set -e
+          BRANCH="add-token/issue-${ISSUE_NUM}-${SYMBOL,,}"
+          git config user.name "lifi-customizedtokenlist-bot[bot]"
+          git config user.email "lifi-customizedtokenlist-bot[bot]@users.noreply.github.com"
+          git checkout -b "$BRANCH"
+          git add -A
+          git commit -m "feat: add ${SYMBOL} on chain ${CHAIN_ID} (closes #${ISSUE_NUM})
+
+          Partner: ${PARTNER}
+          Triggered-by: @${ACTOR}"
+          git push origin "$BRANCH"
+
+          PR_URL=$(gh pr create \
+            --base main \
+            --head "$BRANCH" \
+            --title "Add ${SYMBOL} on chain ${CHAIN_ID} (partner: ${PARTNER})" \
+            --body "$(cat <<EOF
+          Closes #${ISSUE_NUM}.
+
+          ## Source
+          - **Partner / external request** — fulfils issue #${ISSUE_NUM}, partner: \`${PARTNER}\`
+          - **Triggered by:** @${ACTOR}
+
+          ## Checklist
+          - [ ] JSON validates (CI will confirm)
+          - [ ] Logo URL is reachable and renders correctly
+          - [ ] Token contract address is checksummed and verified on the relevant block explorer
+
+          ---
+          🤖 Auto-generated by \`/add-token\` from issue #${ISSUE_NUM}. Review the diff before merging.
+          EOF
+          )" \
+            --assignee "${ACTOR}")
+          echo "pr_url=$PR_URL" >> "$GITHUB_OUTPUT"
+
+      - name: React ✅ and reply with PR link
+        env:
+          GH_TOKEN: ${{ steps.app-token.outputs.token }}
+          PR_URL: ${{ steps.pr.outputs.pr_url }}
+          ACTOR: ${{ github.event.comment.user.login }}
+        run: |
+          gh api -X POST "/repos/${{ github.repository }}/issues/comments/${{ github.event.comment.id }}/reactions" \
+            -f content='rocket'
+          gh issue comment "${{ github.event.issue.number }}" \
+            --body "✅ PR opened by @${ACTOR}: ${PR_URL}. CI will run on the PR; merge there once it passes."

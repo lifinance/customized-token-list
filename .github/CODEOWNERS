@@ -1,0 +1,4 @@
+# All changes in this repo require approval from a member of one of these teams.
+# Members of either team can also self-approve and merge their own PRs once CI is green.
+
+* @lifinance/fullstack @lifinance/techsupport
