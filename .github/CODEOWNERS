@@ -1,0 +1,6 @@
+# These teams own this repo. PRs from non-team members are blocked at
+# branch protection (CI is the merge gate; no second-approver required).
+# Listing the teams here also makes them the default review-request target
+# for any PR opened in the repo.
+
+* @lifinance/fullstack @lifinance/techsupport
