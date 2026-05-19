@@ -137,3 +137,9 @@ When querying available token-swapping routes or quotes, if the source token is 
 - It has the minimum permissions needed: read/write on contents, issues, and pull requests; read on org members (to check team membership).
 - It does **not** receive webhooks and has **no** OAuth user-authentication flow — it only mints short-lived installation tokens inside Actions workflows.
 - Branch protection on `main` restricts pushes to `@lifinance/fullstack`, `@lifinance/techsupport`, and the bot. If this isn't yet enforced on a fresh repo, see Settings → Branches.
+
+---
+
+## 📌 Known limitations
+
+See [`TODO.md`](./TODO.md) for tracked v1 simplifications and follow-up work (currently: non-EVM address validation is hardcoded to Solana and Sui).
