@@ -23,15 +23,19 @@ jobs:
         with:
           webhook: ${{ secrets.SLACK_WEBHOOK_DEV_BACKEND_EXPANSION_REVIEW }}
           webhook-type: incoming-webhook
+          # User-controlled values (issue title, user login) are wrapped in
+          # toJSON() via the format() helper to ensure any embedded quotes,
+          # backslashes, or newlines are safely escaped and can't break the
+          # JSON payload structure.
           payload: |
             {
-              "text": "🆕 New token-list issue: <${{ github.event.issue.html_url }}|#${{ github.event.issue.number }} — ${{ github.event.issue.title }}>",
+              "text": ${{ toJSON(format('🆕 New token-list issue: <{0}|#{1} — {2}>', github.event.issue.html_url, github.event.issue.number, github.event.issue.title)) }},
               "blocks": [
                 {
                   "type": "section",
                   "text": {
                     "type": "mrkdwn",
-                    "text": "🆕 *New token-list issue* <${{ github.event.issue.html_url }}|#${{ github.event.issue.number }}>\n*${{ github.event.issue.title }}*\nOpened by `${{ github.event.issue.user.login }}` — a member of `@lifinance/fullstack` or `@lifinance/techsupport` can convert it to a PR by commenting `/add-token` on the issue."
+                    "text": ${{ toJSON(format('🆕 *New token-list issue* <{0}|#{1}>\n*{2}*\nOpened by `{3}` — a member of `@lifinance/fullstack` or `@lifinance/techsupport` can convert it to a PR by commenting `/add-token` on the issue.', github.event.issue.html_url, github.event.issue.number, github.event.issue.title, github.event.issue.user.login)) }}
                   }
                 }
               ]
