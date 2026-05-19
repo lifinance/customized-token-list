@@ -127,7 +127,14 @@ jobs:
           CHAIN_ID: ${{ steps.parse.outputs.chainId }}
         run: |
           set -e
-          BRANCH="add-token/issue-${ISSUE_NUM}-${SYMBOL,,}"
+          # Sanitize SYMBOL for use in the git branch name: lowercase, replace
+          # any non-alphanumeric chars with dashes, collapse repeats, trim ends.
+          # Falls back to "token" if the result is empty. SYMBOL itself is left
+          # unmodified for the commit message, PR title, and PR body (those
+          # contexts handle arbitrary strings safely).
+          SAFE_SYMBOL=$(printf '%s' "${SYMBOL,,}" | tr -cs '[:alnum:]' '-' | sed -E 's/^-+|-+$//g')
+          [ -z "$SAFE_SYMBOL" ] && SAFE_SYMBOL=token
+          BRANCH="add-token/issue-${ISSUE_NUM}-${SAFE_SYMBOL}"
           git config user.name "lifi-customizedtokenlist-bot[bot]"
           git config user.email "lifi-customizedtokenlist-bot[bot]@users.noreply.github.com"
           git checkout -b "$BRANCH"
