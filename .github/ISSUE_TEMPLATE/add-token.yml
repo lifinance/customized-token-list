@@ -1,6 +1,6 @@
 name: Add a token to the customized token list
 description: Request a new token to be added to the LI.FI customized token list.
-title: "[token request] <chainId> <symbol>"
+title: "[token request]"
 labels: ["token-request"]
 body:
   - type: markdown
