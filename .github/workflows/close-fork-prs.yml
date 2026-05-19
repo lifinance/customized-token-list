@@ -1,0 +1,39 @@
+# close-fork-prs — Auto-closes any PR opened from a fork
+#
+# External contributions are intentionally not accepted as PRs — partners are
+# directed to the "Add a token" issue template instead (see README.md).
+# This workflow is the enforcement net: it closes any fork-PR immediately with
+# a friendly explanation linking the right path.
+#
+# PRs from internal branches (same repo) are unaffected.
+
+name: Close PRs from forks
+
+on:
+  pull_request_target:
+    types: [opened, reopened]
+
+permissions:
+  pull-requests: write
+  issues: write  # required to post a comment on the PR
+
+jobs:
+  close-if-fork:
+    if: github.event.pull_request.head.repo.fork == true
+    runs-on: ubuntu-latest
+    steps:
+      - name: Comment and close
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          PR_URL: ${{ github.event.pull_request.html_url }}
+          AUTHOR: ${{ github.event.pull_request.user.login }}
+        run: |
+          gh pr comment "$PR_URL" --body "$(cat <<EOF
+          Hi @${AUTHOR} — thanks for contributing! 🙏
+
+          We don't accept pull requests from forks on this repo. Instead, please open an issue using the **[Add a token](../../issues/new?template=add-token.yml)** template. An internal LI.FI team member will pick it up and turn it into a PR within a few working days.
+
+          Closing this PR for now. See the [README](../../blob/main/README.md) for the full process.
+          EOF
+          )"
+          gh pr close "$PR_URL"

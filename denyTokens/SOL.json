@@ -23,5 +23,10 @@
     "chainId": 1151111081099710,
     "address": "G7rxkFy8hTEhtW2ZyV2xkhGFX3cxAKSsydY4E1crvTwG",
     "reason": "Scam token. Missleading token name"
+  },
+  {
+    "chainId": 1151111081099710,
+    "address": "WEvsSbEe8SmDsZQmmKv4FsHTNAqVgdNuaB1Sxc1JvH5",
+    "reason": "Scam WETH token with active freeze authority."
   }
 ]
