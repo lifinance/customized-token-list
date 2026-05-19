@@ -8,7 +8,9 @@ body:
       value: |
         Thanks for contributing! Fill in the fields below and an internal LI.FI team member will pick this up and turn it into a PR (typically within a few working days — we get a Slack notification the moment your issue is opened).
 
-        **All fields are required.** Incomplete submissions will be closed without action.
+        **All fields are required unless marked optional.** Incomplete submissions will be closed without action.
+
+        We'll reach out via GitHub on this issue if we have questions — your GitHub username is captured automatically when you open the issue, so an email address is only needed as a fallback contact.
 
         ⚠️ **The chain must already be supported in this repo** (browse the [`tokens/`](https://github.com/lifinance/customized-token-list/tree/main/tokens) folder — each file represents one chain). **If your chain isn't there yet, please [contact LI.FI support](https://help.li.fi/hc/en-us/requests/new) instead** — adding a new chain requires an internal team member to set it up first, and support will route the request to the right people.
 
@@ -24,11 +26,11 @@ body:
   - type: input
     id: contact
     attributes:
-      label: Contact email
-      description: How can we reach you if we have a question about this request?
+      label: Contact email (optional)
+      description: Fallback contact if we can't reach you on GitHub. Leave blank to be contacted via GitHub only.
       placeholder: e.g. partnerships@example.com
     validations:
-      required: true
+      required: false
 
   - type: input
     id: chainId
