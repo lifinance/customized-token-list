@@ -101,7 +101,7 @@ jobs:
             };
             const payload = {
               partner: get('Partner / organization'),
-              contact: get('Contact email'),
+              contact: get('Contact email (optional)'),
               chainId: get('Chain ID'),
               address: get('Token contract address'),
               symbol: get('Symbol'),
@@ -112,6 +112,7 @@ jobs:
             };
             core.setOutput('payload', JSON.stringify(payload));
             core.setOutput('partner', payload.partner);
+            core.setOutput('contact', payload.contact);
             core.setOutput('symbol', payload.symbol);
             core.setOutput('chainId', payload.chainId);
 
@@ -152,7 +153,9 @@ jobs:
           GH_TOKEN: ${{ steps.app-token.outputs.token }}
           ISSUE_NUM: ${{ github.event.issue.number }}
           ACTOR: ${{ github.event.comment.user.login }}
+          OPENER: ${{ github.event.issue.user.login }}
           PARTNER: ${{ steps.parse.outputs.partner }}
+          CONTACT: ${{ steps.parse.outputs.contact }}
           SYMBOL: ${{ steps.parse.outputs.symbol }}
           CHAIN_ID: ${{ steps.parse.outputs.chainId }}
         run: |
@@ -169,10 +172,25 @@ jobs:
           git config user.email "lifi-customizedtokenlist-bot[bot]@users.noreply.github.com"
           git checkout -b "$BRANCH"
           git add -A
+
+          # Build optional trailers + body lines for the contact email (only
+          # included when the partner actually provided one — the field is
+          # optional in the issue form). GitHub @-mention of the opener is
+          # always present and is the primary reach-out channel.
+          CONTACT_TRAILER=""
+          CONTACT_BODY_LINE=""
+          if [ -n "$CONTACT" ]; then
+            CONTACT_TRAILER="
+          Contact-email: ${CONTACT}"
+            CONTACT_BODY_LINE="
+          - **Contact email:** ${CONTACT}"
+          fi
+
           git commit -m "feat: add ${SYMBOL} on chain ${CHAIN_ID} (closes #${ISSUE_NUM})
 
           Partner: ${PARTNER}
-          Triggered-by: @${ACTOR}"
+          Requested-by: @${OPENER}${CONTACT_TRAILER}
+          Bot-triggered-by: @${ACTOR}"
           git push origin "$BRANCH"
 
           PR_URL=$(gh pr create \
@@ -184,7 +202,8 @@ jobs:
 
           ## Source
           - **Partner / external request** — fulfils issue #${ISSUE_NUM}, partner: \`${PARTNER}\`
-          - **Triggered by:** @${ACTOR}
+          - **Requested by:** @${OPENER} (on behalf of \`${PARTNER}\`)${CONTACT_BODY_LINE}
+          - **Bot run triggered by:** @${ACTOR}
 
           ## Checklist
           - [ ] JSON validates (CI will confirm)
