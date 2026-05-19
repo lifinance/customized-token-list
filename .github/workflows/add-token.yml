@@ -14,7 +14,7 @@
 #   6. If the apply step fails, post the validation error back to the issue and stop.
 #   7. Open a PR on a fresh branch, crediting both the partner (from the issue) and the
 #      internal who triggered the command.
-#   8. React ✅ and post a reply linking the PR.
+#   8. React 🚀 and post a reply linking the PR.
 
 name: /add-token
 
@@ -54,10 +54,13 @@ jobs:
             fi
           done
           echo "❌ $ACTOR is not a member of fullstack or techsupport. Ignoring command."
-          # React with a 👎 so the commenter knows it was seen but rejected.
+          # React with a 👎 so the commenter knows the command was seen and rejected.
           gh api -X POST "/repos/${{ github.repository }}/issues/comments/${{ github.event.comment.id }}/reactions" \
             -f content='-1' || true
-          exit 78  # neutral skip, no red X on the action
+          # exit 0 so the run shows green: the unauthorised case is the system
+          # behaving as designed, not a failure. The 👎 reaction is the user-
+          # visible signal.
+          exit 0
 
       - name: React 👀 to comment
         env:

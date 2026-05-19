@@ -15,7 +15,7 @@ And if we can validate the token:
 - we can find USD prices via Debank or Zerion APIs
 - the token is not a spam/fee-taking token
 
-You can also block scam tokens for a given chain by adding them to [`/denyTokens/<CHAIN_KEY>.json`](./denyTokens) — see [How to block a token](#how-to-block-a-token) below.
+You can also block scam tokens for a given chain by adding them to [`/denyTokens/<CHAIN_KEY>.json`](./denyTokens) — see [How to block a token](#how-to-block-a-token) below (internal team only; external partners should [contact LI.FI support](https://help.li.fi/hc/en-us/requests/new)).
 
 ---
 
@@ -59,10 +59,10 @@ The bot **never merges** — a human always pulls the trigger.
 
 | Path | Purpose |
 |---|---|
-| [`tokens/<KEY>.json`](./tokens) | One file per supported chain, containing a JSON array of `{address, chainId, logoURI, decimals, name, symbol}` entries. The filename uses LI.FI's internal chain key; the canonical identifier inside each entry is `chainId`. |
-| [`denyTokens/<KEY>.json`](./denyTokens) | Blocked tokens (scams, etc.) per chain. |
-| [`approvalResetTokens/<KEY>.json`](./approvalResetTokens) | Legacy ERC-20 tokens that require an approval reset before setting a new allowance (e.g. USDT on Ethereum). |
-| [`schema/`](./schema) | JSON schemas that `pnpm run test` validates each file against. |
+| [`tokens/<CHAIN_KEY>.json`](./tokens) | One file per supported chain, containing a JSON array of `{address, chainId, logoURI, decimals, name, symbol}` entries. The filename uses LI.FI's internal chain key; the canonical identifier inside each entry is `chainId`. |
+| [`denyTokens/<CHAIN_KEY>.json`](./denyTokens) | Blocked tokens (scams, etc.) per chain. |
+| [`approvalResetTokens/<CHAIN_KEY>.json`](./approvalResetTokens) | Legacy ERC-20 tokens that require an approval reset before setting a new allowance (e.g. USDT on Ethereum). |
+| [`schema/`](./schema) | JSON schemas defining the expected structure of each entry type. |
 | [`.github/ISSUE_TEMPLATE/add-token.yml`](./.github/ISSUE_TEMPLATE/add-token.yml) | The structured form external contributors fill in. |
 | [`.github/workflows/add-token.yml`](./.github/workflows/add-token.yml) | The `/add-token` issue-to-PR converter. |
 
@@ -70,7 +70,11 @@ Chain IDs (the canonical numeric identifier inside each entry, and what the issu
 
 ---
 
-## How to add a new chain
+## 👥 For internal team members
+
+> The sections below are for members of `@lifinance/fullstack` or `@lifinance/techsupport`. External contributors should use the [issue form](#-external-contributors-partners-projects-community) — these manual paths require write access to the repo.
+
+### How to add a new chain
 
 We add tokens based on chains. You can find all supported chains via our API endpoint [`/chains`](https://li.quest/v1/chains).
 
@@ -78,13 +82,13 @@ The format of the file for a new chain is `[ChainKey].json` and you can find the
 
 At the same time, please ensure the package [`@lifi/types`](https://github.com/lifinance/types) is the latest version, otherwise you cannot pass the test.
 
-Adding a new chain is an **internal-only** task (the `/add-token` automation refuses to act on chains that don't yet have a file) — open a PR directly that adds `tokens/<NEW_KEY>.json` with at least one entry, then partners can request tokens for that chain via the issue form.
+The `/add-token` automation refuses to act on chains that don't yet have a file, so this is the prerequisite step for accepting any token request on a new chain. Open a PR directly that adds `tokens/<NEW_CHAIN_KEY>.json` with at least one entry, then partners can request tokens for that chain via the issue form.
 
-## How to add your token (manual fallback)
+### How to add a token manually (instead of via `/add-token`)
 
-The recommended path is to use the [issue form](../../issues/new?template=add-token.yml). For an internal team member who'd rather edit the file by hand:
+The recommended path for any token request is to drive it through the [issue form](../../issues/new?template=add-token.yml) + `/add-token` automation — it keeps attribution clean and handles validation. Edit the file directly only when the automation doesn't fit (e.g. a one-off internal cleanup):
 
-Open `tokens/<CHAIN_KEY>.json`. Add your token as the last element in the list (don't forget the `,` after the previous token):
+Open `tokens/<CHAIN_KEY>.json`. Add the token as the last element in the list (don't forget the `,` after the previous token):
 
 ```json
   },
@@ -99,7 +103,7 @@ Open `tokens/<CHAIN_KEY>.json`. Add your token as the last element in the list (
 ]
 ```
 
-## How to block a token
+### How to block a token
 
 To block a scam token, find the file for the chain in the [`denyTokens/`](./denyTokens) folder.
 
@@ -117,7 +121,7 @@ Add the token as the last element in the list (don't forget the `,` after the pr
 
 Create a PR describing why we should block this token. Link the project, Coingecko page, and any supporting evidence.
 
-## How to report EVM tokens requiring an approval reset
+### How to report EVM tokens requiring an approval reset
 
 These lists of ERC-20 tokens help report the need for an initial approval reset transaction prior to setting a new allowance to the spender. Only a few legacy tokens are concerned (e.g. USDT on Ethereum mainnet).
 
@@ -132,4 +136,4 @@ When querying available token-swapping routes or quotes, if the source token is 
 - The bot is a GitHub App named `lifi-customizedtokenlist-bot`, installed on this repo only.
 - It has the minimum permissions needed: read/write on contents, issues, and pull requests; read on org members (to check team membership).
 - It does **not** receive webhooks and has **no** OAuth user-authentication flow — it only mints short-lived installation tokens inside Actions workflows.
-- Branch protection on `main` is configured to only allow pushes from `@lifinance/fullstack`, `@lifinance/techsupport`, and the bot.
+- Branch protection on `main` restricts pushes to `@lifinance/fullstack`, `@lifinance/techsupport`, and the bot. If this isn't yet enforced on a fresh repo, see Settings → Branches.

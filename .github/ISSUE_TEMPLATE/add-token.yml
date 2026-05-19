@@ -8,7 +8,7 @@ body:
       value: |
         Thanks for contributing! Fill in the fields below and an internal LI.FI team member will pick this up and turn it into a PR (typically within a few working days — we get a Slack notification the moment your issue is opened).
 
-        **All fields are required unless marked optional.** Incomplete submissions will be closed without action.
+        **All fields are required.** Incomplete submissions will be closed without action.
 
         ⚠️ **The chain must already be supported in this repo** (browse the [`tokens/`](https://github.com/lifinance/customized-token-list/tree/main/tokens) folder — each file represents one chain). **If your chain isn't there yet, please [contact LI.FI support](https://help.li.fi/hc/en-us/requests/new) instead** — adding a new chain requires an internal team member to set it up first, and support will route the request to the right people.
 
