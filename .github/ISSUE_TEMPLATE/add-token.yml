@@ -10,7 +10,7 @@ body:
 
         **All fields are required unless marked optional.** Incomplete submissions will be closed without action.
 
-        ⚠️ **The chain must already be supported in this repo** (browse the [`tokens/`](https://github.com/lifinance/customized-token-list/tree/main/tokens) folder — each file represents one chain). If your chain isn't there yet, see the [README](https://github.com/lifinance/customized-token-list/blob/main/README.md#how-to-add-a-new-chain) — adding a new chain is a separate process and must be done by an internal team member.
+        ⚠️ **The chain must already be supported in this repo** (browse the [`tokens/`](https://github.com/lifinance/customized-token-list/tree/main/tokens) folder — each file represents one chain). **If your chain isn't there yet, please [contact LI.FI support](https://li.fi/support) instead** — adding a new chain requires an internal team member to set it up first, and support will route the request to the right people.
 
   - type: input
     id: partner-org
