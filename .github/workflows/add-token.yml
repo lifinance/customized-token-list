@@ -112,9 +112,35 @@ jobs:
             core.setOutput('chainId', payload.chainId);
 
       - name: Apply token to JSON
+        id: apply
+        continue-on-error: true
         env:
           PAYLOAD: ${{ steps.parse.outputs.payload }}
-        run: node .github/scripts/apply-token.mjs
+        run: node .github/scripts/apply-token.mjs 2>&1 | tee /tmp/apply-token.log
+
+      - name: Report apply failure back to issue
+        if: steps.apply.outcome == 'failure'
+        env:
+          GH_TOKEN: ${{ steps.app-token.outputs.token }}
+          ACTOR: ${{ github.event.comment.user.login }}
+        run: |
+          # Prefer the ❌-prefixed lines (script's user-facing messages); fall
+          # back to a generic pointer if none captured.
+          ERROR=$(grep '^❌' /tmp/apply-token.log | head -10 || true)
+          [ -z "$ERROR" ] && ERROR="Validation failed — see the workflow logs for details."
+          gh api -X POST "/repos/${{ github.repository }}/issues/comments/${{ github.event.comment.id }}/reactions" \
+            -f content='-1' || true
+          gh issue comment "${{ github.event.issue.number }}" --body "$(cat <<EOF
+          ❌ @${ACTOR} — \`/add-token\` failed to apply the change:
+
+          \`\`\`
+          ${ERROR}
+          \`\`\`
+
+          Please correct the issue body (edit the original issue) and re-run \`/add-token\`.
+          EOF
+          )"
+          exit 1
 
       - name: Create branch, commit, push, open PR
         id: pr
