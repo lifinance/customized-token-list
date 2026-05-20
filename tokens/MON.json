@@ -136,11 +136,43 @@
     "logoURI": "https://assets.coingecko.com/coins/images/71550/standard/mhyperbtc-Bvh-K9IL.png"
   },
   {
-  "chainId": 143,
-  "address": "0x21E325B059Cd83d4037C82F0F5998Ba2dF3d7777",
-  "name": "Bob",
-  "symbol": "BOB",
-  "decimals": 18,
-  "logoURI": "https://assets.coingecko.com/coins/images/102173014/standard/main_mascot.png"
-}
+    "chainId": 143,
+    "address": "0x21E325B059Cd83d4037C82F0F5998Ba2dF3d7777",
+    "name": "Bob",
+    "symbol": "BOB",
+    "decimals": 18,
+    "logoURI": "https://assets.coingecko.com/coins/images/102173014/standard/main_mascot.png"
+  },
+  {
+    "address": "0x9dcB0D17eDDE04D27F387c89fECb78654C373858",
+    "chainId": 143,
+    "logoURI": "https://assets.coingecko.com/coins/images/70558/large/yzusd.png",
+    "decimals": 18,
+    "name": "Yuzu USD",
+    "symbol": "yzUSD"
+  },
+  {
+    "address": "0x484be0540aD49f351eaa04eeB35dF0f937D4E73f",
+    "chainId": 143,
+    "logoURI": "https://assets.coingecko.com/coins/images/70132/large/Group_427319351.png",
+    "decimals": 18,
+    "name": "Staked Yuzu USD",
+    "symbol": "syzUSD"
+  },
+  {
+    "address": "0xb37476cB1F6111cC682b107B747b8652f90B0984",
+    "chainId": 143,
+    "logoURI": "https://assets.coingecko.com/coins/images/71043/large/yzPP_%281%29.png?1765442029",
+    "decimals": 18,
+    "name": "Yuzu Protection Pool",
+    "symbol": "yzPP"
+  },
+  {
+    "address": "0xc9ea90692757831d98ac629f2a0140e02b80a7da",
+    "chainId": 143,
+    "logoURI": "https://assets.coingecko.com/coins/images/102173282/large/yPrime.png",
+    "decimals": 18,
+    "name": "Yuzu Prime",
+    "symbol": "yzPrime"
+  }
 ]
