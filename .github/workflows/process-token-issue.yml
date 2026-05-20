@@ -130,14 +130,18 @@ jobs:
             core.setOutput('shouldContinue', 'true');
 
             // -------- 2. Parse the Issue Form body --------
-            // Issue Forms render each field as: ### <Label>\n\n<value>\n\n
-            // (or _No response_ for empty optional fields).
+            // Split-based parser. Issue Forms render each field as
+            // `### <Label>\n\n<value>\n\n`. Multi-line values (textareas, plus
+            // `render: text` blocks wrapped in ```` ```text … ``` ``` code
+            // fences) must be captured in full — a non-greedy regex with a
+            // multi-line `\n*$` lookahead silently truncates them at the
+            // first newline, so we split on `### ` heading lines instead.
             const issueBody = context.payload.issue.body || '';
             const fields = {};
-            const re = /^###\s+(.+?)\s*\n+([\s\S]*?)(?=\n###\s+|\n*$)/gm;
-            let m;
-            while ((m = re.exec(issueBody)) !== null) {
-              fields[m[1].trim()] = m[2].trim();
+            for (const section of issueBody.split(/^### /m).slice(1)) {
+              const nl = section.indexOf('\n');
+              if (nl === -1) continue;
+              fields[section.slice(0, nl).trim()] = section.slice(nl + 1).trim();
             }
             const get = (label) => {
               const v = fields[label];
@@ -170,9 +174,14 @@ jobs:
               };
             }
 
-            // Parse JSON-line additional entries. Lines starting with '#' are
-            // comments. Parse errors are surfaced via payload.parseErrors so
-            // the apply script can report them alongside per-entry validation.
+            // Parse JSON-line additional entries. Skip:
+            //   - empty / whitespace-only lines
+            //   - comment lines (start with '#')
+            //   - GitHub-form code-fence markers (start with '```') — the form's
+            //     textarea uses `render: text`, which wraps content in fences
+            //   - any line that doesn't start with '{' (free-form prose etc.)
+            // Lines that DO start with '{' but fail JSON.parse are surfaced as
+            // parseErrors so the apply script can report them per-line.
             const additionalRaw = get(additionalFieldLabel);
             const additionalEntries = [];
             const parseErrors = [];
@@ -180,7 +189,10 @@ jobs:
               const lines = additionalRaw.split('\n');
               for (let i = 0; i < lines.length; i++) {
                 const trimmed = lines[i].trim();
-                if (!trimmed || trimmed.startsWith('#')) continue;
+                if (!trimmed) continue;
+                if (trimmed.startsWith('#')) continue;
+                if (trimmed.startsWith('```')) continue;
+                if (!trimmed.startsWith('{')) continue;
                 try {
                   additionalEntries.push(JSON.parse(trimmed));
                 } catch (e) {
@@ -205,6 +217,30 @@ jobs:
             // the address (truncated for the branch name downstream).
             core.setOutput('chainId', primaryEntry.chainId);
             core.setOutput('summaryLabel', requestType === 'add' ? primaryEntry.symbol : primaryEntry.address);
+
+            // Resolve the numeric chainId to a human chain name via LI.FI's
+            // /chains API (e.g. 1 → "Ethereum"). Used by the commit subject
+            // and PR title for human-readable output. Falls back to
+            // "chain <N>" on lookup failure / unknown chain so the workflow
+            // never blocks on this. Same logic as issue-slack-notify.yml.
+            async function resolveChainName(cid) {
+              if (!cid) return '';
+              const fallback = `chain ${cid}`;
+              try {
+                const controller = new AbortController();
+                const t = setTimeout(() => controller.abort(), 5000);
+                const res = await fetch('https://li.quest/v1/chains?chainTypes=EVM,SVM,UTXO,MVM', { signal: controller.signal });
+                clearTimeout(t);
+                if (!res.ok) return fallback;
+                const data = await res.json();
+                const match = (data.chains || []).find((c) => c.id === Number(cid));
+                return match && match.name ? match.name : fallback;
+              } catch (e) {
+                core.warning(`Chain-name lookup failed for chainId=${cid}: ${e.message}. Falling back to "${fallback}".`);
+                return fallback;
+              }
+            }
+            core.setOutput('chainName', await resolveChainName(primaryEntry.chainId));
 
       - name: Reject — issue has no matching label
         if: steps.gate.outputs.authorized == 'true' && steps.parse.outputs.shouldContinue == 'false'
@@ -273,6 +309,7 @@ jobs:
           CONTACT: ${{ steps.parse.outputs.contact }}
           SUMMARY_LABEL: ${{ steps.parse.outputs.summaryLabel }}
           CHAIN_ID: ${{ steps.parse.outputs.chainId }}
+          CHAIN_NAME: ${{ steps.parse.outputs.chainName }}
           TOKEN_COUNT: ${{ steps.parse.outputs.tokenCount }}
           REQUEST_TYPE: ${{ steps.parse.outputs.requestType }}
         run: |
@@ -336,12 +373,12 @@ jobs:
           # apply script's per-file breakdown so reviewers see the full list
           # without opening the diff.
           if [ "$TOKEN_COUNT" -le 1 ]; then
-            COMMIT_SUBJECT="feat: ${VERB} ${SUMMARY_LABEL} on chain ${CHAIN_ID} (closes #${ISSUE_NUM})"
-            PR_TITLE="${VERB_CAP} ${SUMMARY_LABEL} on chain ${CHAIN_ID} (${ORG_LABEL_LOWER}: ${PARTNER})"
+            COMMIT_SUBJECT="feat: ${VERB} ${SUMMARY_LABEL} on ${CHAIN_NAME} (closes #${ISSUE_NUM})"
+            PR_TITLE="${VERB_CAP} ${SUMMARY_LABEL} on ${CHAIN_NAME} (${ORG_LABEL_LOWER}: ${PARTNER})"
             PR_BREAKDOWN=""
           else
-            COMMIT_SUBJECT="feat: ${VERB} ${TOKEN_COUNT} ${NOUN} (incl. ${SUMMARY_LABEL} on chain ${CHAIN_ID}) (closes #${ISSUE_NUM})"
-            PR_TITLE="${VERB_CAP} ${TOKEN_COUNT} ${NOUN} (incl. ${SUMMARY_LABEL} on chain ${CHAIN_ID}) (${ORG_LABEL_LOWER}: ${PARTNER})"
+            COMMIT_SUBJECT="feat: ${VERB} ${TOKEN_COUNT} ${NOUN} (incl. ${SUMMARY_LABEL} on ${CHAIN_NAME}) (closes #${ISSUE_NUM})"
+            PR_TITLE="${VERB_CAP} ${TOKEN_COUNT} ${NOUN} (incl. ${SUMMARY_LABEL} on ${CHAIN_NAME}) (${ORG_LABEL_LOWER}: ${PARTNER})"
             BREAKDOWN_LINES=$(grep -E "^  ${LOG_PREFIX}" /tmp/apply.log | head -100 || true)
             PR_BREAKDOWN="
 
