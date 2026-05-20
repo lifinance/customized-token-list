@@ -1,16 +1,20 @@
-# on-new-issue — Token-request issue housekeeping + Slack notification.
+# on-new-issue — Token-related issue housekeeping + Slack notification.
 #
-# Triggers when a new issue is opened. For issues created from the "Add a token"
-# template (label: token-request) it:
+# Triggers when a new issue is opened. For issues created from either of the
+# token-related templates:
+#   - `token-request` (add a token)
+#   - `deny-request`  (report a scam token)
+#
+# the workflow:
 #   1. Parses the structured form body.
-#   2. Rewrites the title from "[token request] <chainId> <symbol>" placeholder
-#      to "[token request] chain <real-id> <real-symbol>" so the issues list,
-#      search, and Slack notification all show real data instead of literal
-#      angle-bracket placeholders.
+#   2. Rewrites the title from "[token request]" / "[deny request]" placeholder
+#      to "[token request] chain <id> <symbol>" / "[deny request] chain <id> <addr>"
+#      so the issues list, search, and Slack notification all show real data.
 #   3. Posts a Slack ping to #dev-backend-expansion-review with the resolved
-#      title so internals can pick it up fast.
+#      title so internals can pick it up fast. The Slack message tells them
+#      which command to run (`/add-token` vs `/deny-token`).
 #
-# For non-token-request issues, only the Slack ping fires (with the original
+# For non-token-related issues, only the Slack ping fires (with the original
 # title untouched).
 #
 # Only fires on `opened` (not edits / labels / comments) to avoid noise and to
@@ -40,12 +44,14 @@ jobs:
 
       - name: Parse form fields and rewrite title
         id: parse
-        if: contains(github.event.issue.labels.*.name, 'token-request')
+        if: >-
+          contains(github.event.issue.labels.*.name, 'token-request') ||
+          contains(github.event.issue.labels.*.name, 'deny-request')
         uses: actions/github-script@f28e40c7f34bde8b3046d885e986cb6290c5673b # v7.1.0
         with:
           github-token: ${{ steps.app-token.outputs.token }}
           script: |
-            // Same field-extraction pattern as .github/workflows/add-token.yml.
+            // Same field-extraction pattern as process-token-issue.yml.
             // Issue Forms render each field as: ### <Label>\n\n<value>\n\n
             const body = context.payload.issue.body || '';
             const fields = {};
@@ -60,21 +66,46 @@ jobs:
               return v;
             };
 
-            const chainId = get('Chain ID');
-            const symbol = get('Symbol');
-            core.setOutput('chainId', chainId);
-            core.setOutput('symbol', symbol);
-
-            // If we couldn't extract both fields, leave the title alone — the
-            // /add-token bot's validation will surface the missing-fields error
-            // back to the issue on the first run.
-            if (!chainId || !symbol) {
-              core.warning(`Could not parse chainId="${chainId}" symbol="${symbol}" from issue body; leaving title unchanged.`);
+            const labels = (context.payload.issue.labels || []).map((l) => l.name);
+            const hasTokenRequest = labels.includes('token-request');
+            const hasDenyRequest = labels.includes('deny-request');
+            if (hasTokenRequest && hasDenyRequest) {
+              // Ambiguous — refuse to pick a flow rather than silently routing
+              // to one. The process-token-issue workflow has the same guard.
+              core.warning('Issue has both `token-request` and `deny-request` labels — title rewrite skipped (ambiguous).');
               core.setOutput('title', context.payload.issue.title);
               return;
             }
+            const requestType = hasTokenRequest ? 'add' : 'deny';
+            core.setOutput('requestType', requestType);
+            core.setOutput('command', requestType === 'add' ? '/add-token' : '/deny-token');
 
-            const newTitle = `[token request] chain ${chainId} ${symbol}`;
+            const chainId = get('Chain ID');
+            const address = get('Token contract address');
+            // Symbol exists only on the add form; deny form has no symbol field.
+            const symbol = requestType === 'add' ? get('Symbol') : '';
+            // Compose the rewritten title differently per flow:
+            //   add  → "[token request] chain <id> <symbol>"
+            //   deny → "[deny request] chain <id> <0xshort…>"
+            let newTitle;
+            if (requestType === 'add') {
+              if (!chainId || !symbol) {
+                core.warning(`Could not parse chainId="${chainId}" symbol="${symbol}" from issue body; leaving title unchanged.`);
+                core.setOutput('title', context.payload.issue.title);
+                return;
+              }
+              newTitle = `[token request] chain ${chainId} ${symbol}`;
+            } else {
+              if (!chainId || !address) {
+                core.warning(`Could not parse chainId="${chainId}" address="${address}" from issue body; leaving title unchanged.`);
+                core.setOutput('title', context.payload.issue.title);
+                return;
+              }
+              // Truncate the address for the title (full form is in the issue body).
+              const shortAddr = address.length > 12 ? `${address.slice(0, 10)}…${address.slice(-4)}` : address;
+              newTitle = `[deny request] chain ${chainId} ${shortAddr}`;
+            }
+
             if (newTitle === context.payload.issue.title) {
               core.info(`Title is already "${newTitle}"; no rewrite needed.`);
               core.setOutput('title', newTitle);
@@ -96,8 +127,11 @@ jobs:
           webhook: ${{ secrets.SLACK_WEBHOOK_DEV_BACKEND_EXPANSION_REVIEW }}
           webhook-type: incoming-webhook
           # Use the rewritten title from the parse step when available; fall
-          # back to the original title (non-token-request issues, or parse
+          # back to the original title (non-token-related issues, or parse
           # failures).
+          # The Slack message tells the team which command to run — `/add-token`
+          # for token-request issues, `/deny-token` for deny-request issues —
+          # falling back to a generic "see the issue" pointer for other labels.
           # User-controlled values are wrapped in toJSON(format()) so any
           # embedded quotes, backslashes, or newlines are safely escaped and
           # can't break the JSON payload structure.
@@ -109,7 +143,7 @@ jobs:
                   "type": "section",
                   "text": {
                     "type": "mrkdwn",
-                    "text": ${{ toJSON(format('🆕 *New token-list issue* <{0}|#{1}>\n*{2}*\nOpened by `{3}` — a member of `@lifinance/fullstack` or `@lifinance/techsupport` can convert it to a PR by commenting `/add-token` on the issue.', github.event.issue.html_url, github.event.issue.number, steps.parse.outputs.title || github.event.issue.title, github.event.issue.user.login)) }}
+                    "text": ${{ toJSON(format('🆕 *New token-list issue* <{0}|#{1}>\n*{2}*\nOpened by `{3}` — a member of `@lifinance/fullstack` or `@lifinance/techsupport` can convert it to a PR by commenting `{4}` on the issue.', github.event.issue.html_url, github.event.issue.number, steps.parse.outputs.title || github.event.issue.title, github.event.issue.user.login, steps.parse.outputs.command || '/add-token or /deny-token')) }}
                   }
                 }
               ]

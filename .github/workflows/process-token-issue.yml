@@ -1,0 +1,396 @@
+# process-token-issue — unified handler for /add-token and /deny-token
+#
+# Triggered when a member of @lifinance/fullstack or @lifinance/techsupport
+# comments either `/add-token` or `/deny-token` on an issue created from
+# one of the two token-related issue templates:
+#
+#   - Issue labelled `token-request`  → adds to tokens/<CHAIN_KEY>.json
+#   - Issue labelled `deny-request`   → adds to denyTokens/<CHAIN_KEY>.json
+#
+# The label is the source of truth, not the command — `/add-token` on a
+# deny-labelled issue still routes to the deny flow (and vice versa).
+# Mismatched commands are a no-op with a friendly explanation.
+#
+# Flow:
+#   1. Mint a short-lived installation token from the lifi-customizedtokenlist-bot GitHub App.
+#   2. Verify the commenter is in one of the two authorized teams (defence in depth on top of
+#      branch protection — stops bogus runs early).
+#   3. React 👀 to acknowledge.
+#   4. Parse the Issue Form body — branch on the issue's label to pick the right field set
+#      and the right entry shape (token vs deny entry).
+#   5. Apply the entries to the right JSON file(s) via apply-token.mjs or apply-deny-token.mjs.
+#      Atomic: any one bad entry rejects the whole submission, no files written.
+#   6. If the apply step fails, post the validation errors back to the issue and stop.
+#   7. Open a PR on a fresh branch, crediting both the partner/reporter (from the issue)
+#      and the internal who triggered the command.
+#   8. React 🚀 and post a reply linking the PR.
+
+name: Process token-related issue (add / deny)
+
+on:
+  issue_comment:
+    types: [created]
+
+permissions: {}  # all access comes from the App token
+
+jobs:
+  process:
+    # Skip unless it's an issue comment (not a PR comment) starting with /add-token
+    # or /deny-token. The actual add-vs-deny routing happens below based on the
+    # issue's label, not the command — see "Parse issue body" step.
+    if: >-
+      github.event.issue.pull_request == null &&
+      (startsWith(github.event.comment.body, '/add-token') ||
+       startsWith(github.event.comment.body, '/deny-token'))
+    runs-on: ubuntu-latest
+    steps:
+      - name: Mint App installation token
+        id: app-token
+        uses: actions/create-github-app-token@d72941d797fd3113feb6b93fd0dec494b13a2547 # v1.9.3
+        with:
+          app-id: ${{ secrets.TOKENLIST_BOT_APP_ID }}
+          private-key: ${{ secrets.TOKENLIST_BOT_PRIVATE_KEY }}
+
+      - name: Verify commenter is in fullstack or techsupport
+        id: gate
+        env:
+          GH_TOKEN: ${{ steps.app-token.outputs.token }}
+          ACTOR: ${{ github.event.comment.user.login }}
+        run: |
+          set -e
+          for team in fullstack techsupport; do
+            if gh api "/orgs/lifinance/teams/$team/memberships/$ACTOR" --silent 2>/dev/null; then
+              echo "authorized=true" >> "$GITHUB_OUTPUT"
+              echo "✅ $ACTOR is in @lifinance/$team"
+              exit 0
+            fi
+          done
+          echo "❌ $ACTOR is not a member of fullstack or techsupport. Ignoring command."
+          # React with a 👎 so the commenter knows the command was seen and rejected.
+          gh api -X POST "/repos/${{ github.repository }}/issues/comments/${{ github.event.comment.id }}/reactions" \
+            -f content='-1' || true
+          # exit 0 so the run shows green: the unauthorised case is the system
+          # behaving as designed, not a failure. The 👎 reaction is the user-
+          # visible signal.
+          exit 0
+
+      - name: React 👀 to comment
+        if: steps.gate.outputs.authorized == 'true'
+        env:
+          GH_TOKEN: ${{ steps.app-token.outputs.token }}
+        run: |
+          gh api -X POST "/repos/${{ github.repository }}/issues/comments/${{ github.event.comment.id }}/reactions" \
+            -f content='eyes'
+
+      - name: Checkout
+        if: steps.gate.outputs.authorized == 'true'
+        uses: actions/checkout@34e114876b0b11c390a56381ad16ebd13914f8d5 # v4.3.1
+        with:
+          token: ${{ steps.app-token.outputs.token }}
+          fetch-depth: 0
+
+      - name: Setup Node
+        if: steps.gate.outputs.authorized == 'true'
+        uses: actions/setup-node@49933ea5288caeca8642d1e84afbd3f7d6820020 # v4.4.0
+        with:
+          node-version: '20'
+
+      - name: Parse issue body
+        id: parse
+        if: steps.gate.outputs.authorized == 'true'
+        uses: actions/github-script@f28e40c7f34bde8b3046d885e986cb6290c5673b # v7.1.0
+        with:
+          script: |
+            // -------- 1. Determine request type from the issue's label --------
+            const labels = (context.payload.issue.labels || []).map((l) => l.name);
+            const hasTokenRequest = labels.includes('token-request');
+            const hasDenyRequest = labels.includes('deny-request');
+            let requestType = '';
+            if (hasTokenRequest && hasDenyRequest) {
+              // Ambiguous — refuse to pick a flow rather than silently routing
+              // to one. Treated the same as no-matching-label: the next step
+              // posts an explanation back to the issue.
+              core.warning('Issue has both `token-request` and `deny-request` labels — refusing to dispatch (ambiguous).');
+            } else if (hasTokenRequest) requestType = 'add';
+            else if (hasDenyRequest) requestType = 'deny';
+
+            // Capture which command was actually typed (for friendlier error messages).
+            const body = context.payload.comment.body || '';
+            const commandUsed = body.startsWith('/deny-token') ? '/deny-token' : '/add-token';
+            core.setOutput('commandUsed', commandUsed);
+
+            if (!requestType) {
+              // No matching label — bail out cleanly; the next step posts an
+              // explanation back to the issue.
+              core.setOutput('shouldContinue', 'false');
+              core.setOutput('requestType', '');
+              return;
+            }
+            core.setOutput('requestType', requestType);
+            core.setOutput('shouldContinue', 'true');
+
+            // -------- 2. Parse the Issue Form body --------
+            // Issue Forms render each field as: ### <Label>\n\n<value>\n\n
+            // (or _No response_ for empty optional fields).
+            const issueBody = context.payload.issue.body || '';
+            const fields = {};
+            const re = /^###\s+(.+?)\s*\n+([\s\S]*?)(?=\n###\s+|\n*$)/gm;
+            let m;
+            while ((m = re.exec(issueBody)) !== null) {
+              fields[m[1].trim()] = m[2].trim();
+            }
+            const get = (label) => {
+              const v = fields[label];
+              if (!v || v === '_No response_') return '';
+              return v;
+            };
+
+            // -------- 3. Build the primary entry + parse the optional textarea --------
+            // Labels and primary-entry shape differ between the two flows.
+            const orgFieldLabel = requestType === 'add' ? 'Partner / organization' : 'Reporter / organization';
+            const additionalFieldLabel = requestType === 'add'
+              ? 'Additional tokens (optional — for bulk requests)'
+              : 'Additional spam tokens (optional — for bulk reports)';
+
+            let primaryEntry;
+            if (requestType === 'add') {
+              primaryEntry = {
+                chainId: get('Chain ID'),
+                address: get('Token contract address'),
+                symbol: get('Symbol'),
+                name: get('Name'),
+                decimals: get('Decimals'),
+                logoURI: get('Logo URL'),
+              };
+            } else {
+              primaryEntry = {
+                chainId: get('Chain ID'),
+                address: get('Token contract address'),
+                reason: get('Reason'),
+              };
+            }
+
+            // Parse JSON-line additional entries. Lines starting with '#' are
+            // comments. Parse errors are surfaced via payload.parseErrors so
+            // the apply script can report them alongside per-entry validation.
+            const additionalRaw = get(additionalFieldLabel);
+            const additionalEntries = [];
+            const parseErrors = [];
+            if (additionalRaw) {
+              const lines = additionalRaw.split('\n');
+              for (let i = 0; i < lines.length; i++) {
+                const trimmed = lines[i].trim();
+                if (!trimmed || trimmed.startsWith('#')) continue;
+                try {
+                  additionalEntries.push(JSON.parse(trimmed));
+                } catch (e) {
+                  parseErrors.push({ line: i + 1, content: trimmed.slice(0, 120), error: e.message });
+                }
+              }
+            }
+
+            const payload = {
+              partner: get(orgFieldLabel),
+              contact: get('Contact email (optional)'),
+              justification: get(requestType === 'add' ? 'Justification' : 'Evidence / justification'),
+              tokens: [primaryEntry, ...additionalEntries],
+              parseErrors,
+            };
+            core.setOutput('payload', JSON.stringify(payload));
+            core.setOutput('partner', payload.partner);
+            core.setOutput('contact', payload.contact);
+            core.setOutput('tokenCount', String(payload.tokens.length));
+            // Surface the primary entry's identifiers — used by the branch
+            // name + PR title. For add flow we have a symbol; for deny we use
+            // the address (truncated for the branch name downstream).
+            core.setOutput('chainId', primaryEntry.chainId);
+            core.setOutput('summaryLabel', requestType === 'add' ? primaryEntry.symbol : primaryEntry.address);
+
+      - name: Reject — issue has no matching label
+        if: steps.gate.outputs.authorized == 'true' && steps.parse.outputs.shouldContinue == 'false'
+        env:
+          GH_TOKEN: ${{ steps.app-token.outputs.token }}
+          ACTOR: ${{ github.event.comment.user.login }}
+          COMMAND: ${{ steps.parse.outputs.commandUsed }}
+        run: |
+          gh api -X POST "/repos/${{ github.repository }}/issues/comments/${{ github.event.comment.id }}/reactions" \
+            -f content='-1' || true
+          gh issue comment "${{ github.event.issue.number }}" --body "$(cat <<EOF
+          ❌ @${ACTOR} — I can't dispatch \`${COMMAND}\` on this issue: it needs exactly one of the \`token-request\` or \`deny-request\` labels, but it has either neither or both. If this issue was opened from one of the templates, the label is normally applied automatically — try editing the labels (keep exactly one of the two) and re-running \`${COMMAND}\`.
+          EOF
+          )"
+          # Stop the rest of the workflow cleanly.
+          exit 0
+
+      - name: Apply entries to JSON
+        id: apply
+        if: steps.gate.outputs.authorized == 'true' && steps.parse.outputs.shouldContinue == 'true'
+        continue-on-error: true
+        env:
+          PAYLOAD: ${{ steps.parse.outputs.payload }}
+          REQUEST_TYPE: ${{ steps.parse.outputs.requestType }}
+        run: |
+          if [ "$REQUEST_TYPE" = "add" ]; then
+            node .github/scripts/apply-token.mjs 2>&1 | tee /tmp/apply.log
+          else
+            node .github/scripts/apply-deny-token.mjs 2>&1 | tee /tmp/apply.log
+          fi
+
+      - name: Report apply failure back to issue
+        if: steps.gate.outputs.authorized == 'true' && steps.parse.outputs.shouldContinue == 'true' && steps.apply.outcome == 'failure'
+        env:
+          GH_TOKEN: ${{ steps.app-token.outputs.token }}
+          ACTOR: ${{ github.event.comment.user.login }}
+          COMMAND: ${{ steps.parse.outputs.commandUsed }}
+        run: |
+          # Prefer the ❌-prefixed lines (script's user-facing messages); fall
+          # back to a generic pointer if none captured.
+          ERROR=$(grep '^❌' /tmp/apply.log | head -25 || true)
+          [ -z "$ERROR" ] && ERROR="Validation failed — see the workflow logs for details."
+          gh api -X POST "/repos/${{ github.repository }}/issues/comments/${{ github.event.comment.id }}/reactions" \
+            -f content='-1' || true
+          gh issue comment "${{ github.event.issue.number }}" --body "$(cat <<EOF
+          ❌ @${ACTOR} — \`${COMMAND}\` failed to apply the change:
+
+          \`\`\`
+          ${ERROR}
+          \`\`\`
+
+          Please correct the issue body (edit the original issue) and re-run \`${COMMAND}\`.
+          EOF
+          )"
+          exit 1
+
+      - name: Create branch, commit, push, open PR
+        id: pr
+        if: steps.gate.outputs.authorized == 'true' && steps.parse.outputs.shouldContinue == 'true' && steps.apply.outcome == 'success'
+        env:
+          GH_TOKEN: ${{ steps.app-token.outputs.token }}
+          ISSUE_NUM: ${{ github.event.issue.number }}
+          ACTOR: ${{ github.event.comment.user.login }}
+          OPENER: ${{ github.event.issue.user.login }}
+          PARTNER: ${{ steps.parse.outputs.partner }}
+          CONTACT: ${{ steps.parse.outputs.contact }}
+          SUMMARY_LABEL: ${{ steps.parse.outputs.summaryLabel }}
+          CHAIN_ID: ${{ steps.parse.outputs.chainId }}
+          TOKEN_COUNT: ${{ steps.parse.outputs.tokenCount }}
+          REQUEST_TYPE: ${{ steps.parse.outputs.requestType }}
+        run: |
+          set -e
+          # Sanitize SUMMARY_LABEL (symbol for add, address for deny) for use
+          # in the git branch name: lowercase, replace any non-alphanumeric
+          # chars with dashes, collapse repeats, trim ends. Falls back to
+          # "entry" if the result is empty. The original is preserved for
+          # commit message / PR title / PR body (those handle arbitrary
+          # strings safely because the values are interpolated as data, not
+          # into shell commands). Truncate to 32 chars so deny branches
+          # (which use full addresses) don't produce absurdly long refs.
+          SAFE_LABEL=$(printf '%s' "${SUMMARY_LABEL,,}" | tr -cs '[:alnum:]' '-' | sed -E 's/^-+|-+$//g' | cut -c1-32)
+          [ -z "$SAFE_LABEL" ] && SAFE_LABEL=entry
+
+          # Per-flow naming.
+          if [ "$REQUEST_TYPE" = "add" ]; then
+            BRANCH_PREFIX="add-token"
+            VERB="add"           # commit subject / PR title verb
+            VERB_CAP="Add"
+            NOUN="tokens"
+            ORG_LABEL="Partner"
+            ORG_LABEL_LOWER="partner"
+            LOG_PREFIX="tokens/"
+            CHECKLIST="- [ ] JSON validates (CI will confirm)
+          - [ ] Logo URLs are reachable and render correctly
+          - [ ] Token contract addresses are checksummed and verified on the relevant block explorers"
+          else
+            BRANCH_PREFIX="deny-token"
+            VERB="deny"
+            VERB_CAP="Deny"
+            NOUN="tokens"
+            ORG_LABEL="Reporter"
+            ORG_LABEL_LOWER="reporter"
+            LOG_PREFIX="denyTokens/"
+            CHECKLIST="- [ ] JSON validates (CI will confirm)
+          - [ ] Each address has been independently verified as malicious (block explorer, on-chain behaviour, official disowning by impersonated project, etc.)
+          - [ ] The reporter is reliable for this kind of report (legitimate project reporting impersonator, known security firm, repeated good-faith reporter, …)"
+          fi
+
+          BRANCH="${BRANCH_PREFIX}/issue-${ISSUE_NUM}-${SAFE_LABEL}"
+          git config user.name "lifi-customizedtokenlist-bot[bot]"
+          git config user.email "lifi-customizedtokenlist-bot[bot]@users.noreply.github.com"
+          git checkout -b "$BRANCH"
+          git add -A
+
+          # Build optional trailers + body lines for the contact email (only
+          # included when the partner/reporter actually provided one — the
+          # field is optional in both forms). GitHub @-mention of the opener
+          # is always present and is the primary reach-out channel.
+          CONTACT_TRAILER=""
+          CONTACT_BODY_LINE=""
+          if [ -n "$CONTACT" ]; then
+            CONTACT_TRAILER="
+          Contact-email: ${CONTACT}"
+            CONTACT_BODY_LINE="
+          - **Contact email:** ${CONTACT}"
+          fi
+
+          # Single vs multi-entry rendering. Multi-entry PR body pulls the
+          # apply script's per-file breakdown so reviewers see the full list
+          # without opening the diff.
+          if [ "$TOKEN_COUNT" -le 1 ]; then
+            COMMIT_SUBJECT="feat: ${VERB} ${SUMMARY_LABEL} on chain ${CHAIN_ID} (closes #${ISSUE_NUM})"
+            PR_TITLE="${VERB_CAP} ${SUMMARY_LABEL} on chain ${CHAIN_ID} (${ORG_LABEL_LOWER}: ${PARTNER})"
+            PR_BREAKDOWN=""
+          else
+            COMMIT_SUBJECT="feat: ${VERB} ${TOKEN_COUNT} ${NOUN} (incl. ${SUMMARY_LABEL} on chain ${CHAIN_ID}) (closes #${ISSUE_NUM})"
+            PR_TITLE="${VERB_CAP} ${TOKEN_COUNT} ${NOUN} (incl. ${SUMMARY_LABEL} on chain ${CHAIN_ID}) (${ORG_LABEL_LOWER}: ${PARTNER})"
+            BREAKDOWN_LINES=$(grep -E "^  ${LOG_PREFIX}" /tmp/apply.log | head -100 || true)
+            PR_BREAKDOWN="
+
+          ## ${VERB_CAP} entries (${TOKEN_COUNT})
+
+          \`\`\`
+          ${BREAKDOWN_LINES}
+          \`\`\`"
+          fi
+
+          git commit -m "${COMMIT_SUBJECT}
+
+          ${ORG_LABEL}: ${PARTNER}
+          Entry-count: ${TOKEN_COUNT}
+          Requested-by: @${OPENER}${CONTACT_TRAILER}
+          Bot-triggered-by: @${ACTOR}"
+          git push origin "$BRANCH"
+
+          PR_URL=$(gh pr create \
+            --base main \
+            --head "$BRANCH" \
+            --title "${PR_TITLE}" \
+            --body "$(cat <<EOF
+          Closes #${ISSUE_NUM}.
+
+          ## Source
+          - **External request** — fulfils issue #${ISSUE_NUM}; ${ORG_LABEL_LOWER}: \`${PARTNER}\`
+          - **Requested by:** @${OPENER} (on behalf of \`${PARTNER}\`)${CONTACT_BODY_LINE}
+          - **Bot run triggered by:** @${ACTOR}
+          - **Entry count:** ${TOKEN_COUNT}${PR_BREAKDOWN}
+
+          ## Checklist
+          ${CHECKLIST}
+
+          ---
+          🤖 Auto-generated by the bot from issue #${ISSUE_NUM}. Review the diff before merging.
+          EOF
+          )" \
+            --assignee "${ACTOR}")
+          echo "pr_url=$PR_URL" >> "$GITHUB_OUTPUT"
+
+      - name: React 🚀 and reply with PR link
+        if: steps.gate.outputs.authorized == 'true' && steps.parse.outputs.shouldContinue == 'true' && steps.apply.outcome == 'success'
+        env:
+          GH_TOKEN: ${{ steps.app-token.outputs.token }}
+          PR_URL: ${{ steps.pr.outputs.pr_url }}
+          ACTOR: ${{ github.event.comment.user.login }}
+        run: |
+          gh api -X POST "/repos/${{ github.repository }}/issues/comments/${{ github.event.comment.id }}/reactions" \
+            -f content='rocket'
+          gh issue comment "${{ github.event.issue.number }}" \
+            --body "✅ PR opened by @${ACTOR}: ${PR_URL}. CI will run on the PR; merge there once it passes."

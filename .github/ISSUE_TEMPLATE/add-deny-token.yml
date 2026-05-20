@@ -1,0 +1,108 @@
+name: Report a scam token (add to deny list)
+description: Report a spam, phishing, or otherwise malicious token to be blocked in LI.FI's system.
+title: "[deny request]"
+labels: ["deny-request"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Use this form to report a scam token (impersonation, phishing, drain contracts, etc.) that should be blocked across LI.FI's routes.
+
+        **All fields are required unless marked optional.** Incomplete submissions will be closed without action.
+
+        We'll reach out via GitHub on this issue if we have questions — your GitHub username is captured automatically when you open the issue, so an email address is only needed as a fallback contact.
+
+        ⚠️ **The chain must already be supported in this repo** (browse the [`denyTokens/`](https://github.com/lifinance/customized-token-list/tree/main/denyTokens) folder). If your chain isn't there yet, please [contact LI.FI support](https://help.li.fi/hc/en-us/requests/new) instead.
+
+        ⚠️ **False or malicious deny reports** (reporting a legitimate token to disrupt a competitor, for example) may result in your GitHub account being limited for this repo. Provide clear evidence in the Justification field.
+
+  - type: input
+    id: reporter-org
+    attributes:
+      label: Reporter / organization
+      description: Who is reporting this? (Your project, a security firm, "community", etc.). If you are the legitimate token issuer reporting an impersonator, say so here.
+      placeholder: e.g. Acme Protocol (legitimate ACME issuer, reporting impersonator)
+    validations:
+      required: true
+
+  - type: input
+    id: contact
+    attributes:
+      label: Contact email (optional)
+      description: Fallback contact if we can't reach you on GitHub. Leave blank to be contacted via GitHub only.
+      placeholder: e.g. security@example.com
+    validations:
+      required: false
+
+  - type: input
+    id: chainId
+    attributes:
+      label: Chain ID
+      description: |
+        The numeric chain ID where the scam token is deployed (e.g. `1` for Ethereum, `42161` for Arbitrum, `8453` for Base, `137` for Polygon, `56` for BNB Smart Chain). Look it up at <https://chainlist.org> or in LI.FI's [`/chains` API endpoint](https://li.quest/v1/chains).
+      placeholder: e.g. 1
+    validations:
+      required: true
+
+  - type: input
+    id: address
+    attributes:
+      label: Token contract address
+      description: The address of the scam token. For EVM chains, use the checksummed address.
+      placeholder: e.g. 0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48
+    validations:
+      required: true
+
+  - type: input
+    id: reason
+    attributes:
+      label: Reason
+      description: Short summary of why this token should be blocked (e.g. "Impersonates USDC", "Drain contract — calls transferFrom on approve", "Phishing token airdropped to wallets").
+      placeholder: e.g. Impersonates USDC on Base; sender address is unrelated to Circle
+    validations:
+      required: true
+
+  - type: textarea
+    id: justification
+    attributes:
+      label: Evidence / justification
+      description: |
+        Provide evidence supporting the deny request. Strong evidence makes the report easier to verify:
+
+        - Block-explorer links showing the malicious behaviour (drained funds, fee-taking, hidden owner functions, etc.)
+        - Official social posts from the impersonated project disowning the token
+        - Other directories that have already flagged it (TokenSniffer, GoPlus, Etherscan label, etc.)
+        - Transaction hashes of confirmed scam activity
+    validations:
+      required: true
+
+  - type: textarea
+    id: additional_tokens
+    attributes:
+      label: Additional spam tokens (optional — for bulk reports)
+      description: |
+        Reporting a campaign that spans multiple addresses or chains? Paste **one JSON object per line** below — one line per *additional* spam token (the structured fields above already cover the first one). All entries are submitted together in a single PR; if any one of them fails validation, the whole batch is rejected so you can fix the bad entries and re-submit.
+
+        Lines starting with `#` are ignored, so you can leave inline comments.
+
+        Required keys per line: `chainId`, `address`. Optional key: `reason` (recommended — gives reviewers context).
+      render: text
+      placeholder: |
+        # Same fake-USDC scam, mirrored on Arbitrum
+        {"chainId": 42161, "address": "0xdeadbeefdeadbeefdeadbeefdeadbeefdeadbeef", "reason": "Impersonates USDC — same drain contract as on Ethereum"}
+        # And on Base
+        {"chainId": 8453, "address": "0xcafebabecafebabecafebabecafebabecafebabe", "reason": "Impersonates USDC — same drain contract as on Ethereum"}
+    validations:
+      required: false
+
+  - type: checkboxes
+    id: confirmation
+    attributes:
+      label: Confirmation
+      options:
+        - label: I have searched existing issues and confirmed this token is not already reported or denied.
+          required: true
+        - label: The contract address(es) above are correct and refer to genuinely malicious tokens that should be blocked.
+          required: true
+        - label: I understand that incorrect or malicious deny reports may result in my GitHub account being limited for this repo.
+          required: true
