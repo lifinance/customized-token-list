@@ -313,9 +313,16 @@ jobs:
           ${ERROR}
           \`\`\`
 
-          Please correct the issue body (edit the original issue) and re-run \`${COMMAND}\`.
+          Closing this issue to keep the repo clean. To retry: edit the issue body with the corrected data and **reopen** the issue (or open a new one), then re-run \`${COMMAND}\`.
           EOF
           )"
+          # Close the issue so it doesn't sit open until someone manually
+          # cleans it up. Reason "not planned" matches the semantics: we
+          # didn't act on it as-submitted, but the requester can reopen
+          # (or open a new issue) with corrected data.
+          # `|| true` so a transient close failure doesn't mask the underlying
+          # apply error in the workflow status.
+          gh issue close "${{ github.event.issue.number }}" --reason "not planned" || true
           exit 1
 
       - name: Create branch, commit, push, open PR
