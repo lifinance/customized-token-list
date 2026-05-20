@@ -165,9 +165,12 @@ function validateToken(t, idx) {
     return null;
   }
 
+  // ERC-20's decimals() returns a uint8, so 0-255 is the spec range.
+  // Real tokens almost always use 6 / 8 / 18, but accepting the full uint8
+  // range avoids rejecting weird-but-valid tokens.
   const decimals = Number(decimalsRaw);
-  if (!Number.isInteger(decimals) || decimals < 0 || decimals > 36) {
-    recordFailure(`${label} (symbol "${symbol}"): decimals must be a non-negative integer ≤ 36, got "${decimalsRaw}".`);
+  if (!Number.isInteger(decimals) || decimals < 0 || decimals > 255) {
+    recordFailure(`${label} (symbol "${symbol}"): decimals must be a non-negative integer ≤ 255 (ERC-20 uint8), got "${decimalsRaw}".`);
     return null;
   }
 
