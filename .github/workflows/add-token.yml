@@ -10,7 +10,7 @@
 #   3. React 👀 to acknowledge.
 #   4. Parse the Issue Form body into structured fields.
 #   5. Apply the token to the JSON list via scripts/apply-token.mjs (looks up the right
-#      tokens/<KEY>.json by chainId, validates, refuses on duplicate/unknown chain, appends).
+#      tokens/<CHAIN_KEY>.json by chainId, validates, refuses on duplicate/unknown chain, appends).
 #   6. If the apply step fails, post the validation error back to the issue and stop.
 #   7. Open a PR on a fresh branch, crediting both the partner (from the issue) and the
 #      internal who triggered the command.
@@ -99,22 +99,51 @@ jobs:
               if (!v || v === '_No response_') return '';
               return v;
             };
-            const payload = {
-              partner: get('Partner / organization'),
-              contact: get('Contact email (optional)'),
+            // Build the first token from the structured fields.
+            const primaryToken = {
               chainId: get('Chain ID'),
               address: get('Token contract address'),
               symbol: get('Symbol'),
               name: get('Name'),
               decimals: get('Decimals'),
               logoURI: get('Logo URL'),
+            };
+
+            // Parse any additional tokens from the optional textarea.
+            // Format: JSON-lines (one JSON object per line); lines starting
+            // with '#' are ignored. Parse errors here are surfaced as part
+            // of the payload so apply-token.mjs can report them per-line.
+            const additionalRaw = get('Additional tokens (optional — for bulk requests)');
+            const additionalTokens = [];
+            const parseErrors = [];
+            if (additionalRaw) {
+              const lines = additionalRaw.split('\n');
+              for (let i = 0; i < lines.length; i++) {
+                const trimmed = lines[i].trim();
+                if (!trimmed || trimmed.startsWith('#')) continue;
+                try {
+                  additionalTokens.push(JSON.parse(trimmed));
+                } catch (e) {
+                  parseErrors.push({ line: i + 1, content: trimmed.slice(0, 120), error: e.message });
+                }
+              }
+            }
+
+            const payload = {
+              partner: get('Partner / organization'),
+              contact: get('Contact email (optional)'),
               justification: get('Justification'),
+              tokens: [primaryToken, ...additionalTokens],
+              parseErrors,
             };
             core.setOutput('payload', JSON.stringify(payload));
             core.setOutput('partner', payload.partner);
             core.setOutput('contact', payload.contact);
-            core.setOutput('symbol', payload.symbol);
-            core.setOutput('chainId', payload.chainId);
+            core.setOutput('tokenCount', String(payload.tokens.length));
+            // For the PR title / branch name, surface the primary token's
+            // identifiers — multi-token PR titles get rewritten downstream.
+            core.setOutput('symbol', primaryToken.symbol);
+            core.setOutput('chainId', primaryToken.chainId);
 
       - name: Apply token to JSON
         id: apply
@@ -131,7 +160,7 @@ jobs:
         run: |
           # Prefer the ❌-prefixed lines (script's user-facing messages); fall
           # back to a generic pointer if none captured.
-          ERROR=$(grep '^❌' /tmp/apply-token.log | head -10 || true)
+          ERROR=$(grep '^❌' /tmp/apply-token.log | head -25 || true)
           [ -z "$ERROR" ] && ERROR="Validation failed — see the workflow logs for details."
           gh api -X POST "/repos/${{ github.repository }}/issues/comments/${{ github.event.comment.id }}/reactions" \
             -f content='-1' || true
@@ -158,6 +187,7 @@ jobs:
           CONTACT: ${{ steps.parse.outputs.contact }}
           SYMBOL: ${{ steps.parse.outputs.symbol }}
           CHAIN_ID: ${{ steps.parse.outputs.chainId }}
+          TOKEN_COUNT: ${{ steps.parse.outputs.tokenCount }}
         run: |
           set -e
           # Sanitize SYMBOL for use in the git branch name: lowercase, replace
@@ -186,9 +216,35 @@ jobs:
           - **Contact email:** ${CONTACT}"
           fi
 
-          git commit -m "feat: add ${SYMBOL} on chain ${CHAIN_ID} (closes #${ISSUE_NUM})
+          # Build the commit subject / PR title differently for the single-
+          # vs multi-token case. Multi-token PRs summarise the count + the
+          # primary token's identifiers; the full per-token list lives in the
+          # diff and in the script's success-log output (captured below).
+          # Multi-token PR body also pulls the script's "Applied N tokens"
+          # summary so reviewers see the full list without opening the diff.
+          if [ "$TOKEN_COUNT" -le 1 ]; then
+            COMMIT_SUBJECT="feat: add ${SYMBOL} on chain ${CHAIN_ID} (closes #${ISSUE_NUM})"
+            PR_TITLE="Add ${SYMBOL} on chain ${CHAIN_ID} (partner: ${PARTNER})"
+            PR_BREAKDOWN=""
+          else
+            COMMIT_SUBJECT="feat: add ${TOKEN_COUNT} tokens (incl. ${SYMBOL} on chain ${CHAIN_ID}) (closes #${ISSUE_NUM})"
+            PR_TITLE="Add ${TOKEN_COUNT} tokens (incl. ${SYMBOL} on chain ${CHAIN_ID}) (partner: ${PARTNER})"
+            # Capture the script's "✅ Applied N tokens across M files: …"
+            # summary lines for inclusion in the PR body.
+            BREAKDOWN_LINES=$(grep -E '^  tokens/' /tmp/apply-token.log | head -100 || true)
+            PR_BREAKDOWN="
+
+          ## Tokens added (${TOKEN_COUNT})
+
+          \`\`\`
+          ${BREAKDOWN_LINES}
+          \`\`\`"
+          fi
+
+          git commit -m "${COMMIT_SUBJECT}
 
           Partner: ${PARTNER}
+          Token-count: ${TOKEN_COUNT}
           Requested-by: @${OPENER}${CONTACT_TRAILER}
           Bot-triggered-by: @${ACTOR}"
           git push origin "$BRANCH"
@@ -196,7 +252,7 @@ jobs:
           PR_URL=$(gh pr create \
             --base main \
             --head "$BRANCH" \
-            --title "Add ${SYMBOL} on chain ${CHAIN_ID} (partner: ${PARTNER})" \
+            --title "${PR_TITLE}" \
             --body "$(cat <<EOF
           Closes #${ISSUE_NUM}.
 
@@ -204,11 +260,12 @@ jobs:
           - **Partner / external request** — fulfils issue #${ISSUE_NUM}, partner: \`${PARTNER}\`
           - **Requested by:** @${OPENER} (on behalf of \`${PARTNER}\`)${CONTACT_BODY_LINE}
           - **Bot run triggered by:** @${ACTOR}
+          - **Token count:** ${TOKEN_COUNT}${PR_BREAKDOWN}
 
           ## Checklist
           - [ ] JSON validates (CI will confirm)
-          - [ ] Logo URL is reachable and renders correctly
-          - [ ] Token contract address is checksummed and verified on the relevant block explorer
+          - [ ] Logo URLs are reachable and render correctly
+          - [ ] Token contract addresses are checksummed and verified on the relevant block explorers
 
           ---
           🤖 Auto-generated by \`/add-token\` from issue #${ISSUE_NUM}. Review the diff before merging.

@@ -92,6 +92,25 @@ body:
     validations:
       required: true
 
+  - type: textarea
+    id: additional_tokens
+    attributes:
+      label: Additional tokens (optional — for bulk requests)
+      description: |
+        Requesting more than one token, or the same token on multiple chains? Paste **one JSON object per line** below — one line per *additional* token (the structured fields above already cover the first one). All tokens are submitted together in a single PR; if any one of them fails validation, the whole batch is rejected so you can fix the bad entries and re-submit.
+
+        Lines starting with `#` are ignored, so you can leave inline comments.
+
+        See the placeholder for the exact shape. Required keys per line: `chainId`, `address`, `symbol`, `name`, `decimals`, `logoURI`.
+      render: text
+      placeholder: |
+        # USDC on Arbitrum
+        {"chainId": 42161, "address": "0xaf88d065e77c8cC2239327C5EDb3A432268e5831", "symbol": "USDC", "name": "USD Coin", "decimals": 6, "logoURI": "https://example.com/usdc.png"}
+        # USDC on Base
+        {"chainId": 8453, "address": "0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913", "symbol": "USDC", "name": "USD Coin", "decimals": 6, "logoURI": "https://example.com/usdc.png"}
+    validations:
+      required: false
+
   - type: checkboxes
     id: confirmation
     attributes:
