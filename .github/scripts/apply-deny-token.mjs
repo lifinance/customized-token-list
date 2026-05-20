@@ -1,10 +1,11 @@
 #!/usr/bin/env node
 /**
- * apply-token.mjs — Applies one or more token submissions to the right
- * tokens/<CHAIN_KEY>.json files.
+ * apply-deny-token.mjs — Applies one or more deny-token entries to the right
+ * denyTokens/<CHAIN_KEY>.json files.
  *
- * Called by .github/workflows/process-token-issue.yml when an issue with the
- * `token-request` label is being processed.
+ * Called by .github/workflows/add-token.yml (the unified workflow that
+ * handles both /add-token and /deny-token requests, dispatched by issue
+ * label).
  *
  * Inputs (via env vars, set by the workflow's "Parse issue body" step):
  *   PAYLOAD — JSON string with shape:
@@ -12,32 +13,34 @@
  *       partner: string,            // metadata, not used by this script
  *       contact: string,            // metadata, not used by this script
  *       justification: string,      // metadata, not used by this script
- *       tokens: [                   // 1 or more tokens to add (atomic)
- *         { chainId, address, symbol, name, decimals, logoURI },
+ *       tokens: [                   // 1 or more deny entries (atomic)
+ *         { chainId, address, reason? },
  *         ...
  *       ],
  *       parseErrors: [              // populated by the workflow's parse step
  *         { line, content, error },   // for any unparseable lines in the
- *         ...                          // "Additional tokens" textarea
+ *         ...                          // "Additional spam tokens" textarea
  *       ],
  *     }
  *
  * Behaviour (atomic):
  *   1. Surfaces any textarea parse errors collected upstream as immediate
- *      failures (before any per-token validation).
- *   2. Scans tokens/*.json once to build a chainId → filename map.
- *   3. Validates EVERY token (chainId known, address shape correct, no
+ *      failures (before any per-entry validation).
+ *   2. Scans denyTokens/*.json once to build a chainId → filename map.
+ *   3. Validates EVERY entry (chainId known, address shape correct, no
  *      duplicates within the existing file, no duplicates within the same
- *      submission, decimals in range). Accumulates all failures rather than
- *      stopping at the first.
- *   4. If ANY token failed, writes nothing and exits 1 with all failures
- *      reported — the partner can fix and re-submit the whole batch.
- *   5. If all tokens passed, writes the affected files (one write per
- *      file, regardless of how many tokens went into it).
+ *      submission). Accumulates all failures rather than stopping at the
+ *      first.
+ *   4. If ANY entry failed, writes nothing and exits 1 with all failures
+ *      reported.
+ *   5. If all entries passed, writes the affected files.
+ *
+ * Entry shape (matches schema/denyTokenExpectedSchema.json):
+ *   { address: string, chainId: integer, reason?: string }
  *
  * Exit codes:
- *   0  success — all tokens applied
- *   1  validation failure — per-token messages in stderr (each prefixed ❌),
+ *   0  success — all entries applied
+ *   1  validation failure — per-entry messages in stderr (each prefixed ❌),
  *      surfaced back to the issue by the workflow.
  */
 
@@ -46,7 +49,7 @@ import { resolve, dirname, join } from 'node:path';
 import { fileURLToPath } from 'node:url';
 
 const REPO_ROOT = resolve(dirname(fileURLToPath(import.meta.url)), '..', '..');
-const TOKENS_DIR = resolve(REPO_ROOT, 'tokens');
+const DENY_DIR = resolve(REPO_ROOT, 'denyTokens');
 
 // Hardcoded set of non-EVM chain IDs in this repo. See TODO.md for the
 // known limitation — when a new non-EVM chain (Aptos, TON, BTC) is added
@@ -83,29 +86,28 @@ if (typeof payload !== 'object' || payload === null) {
 
 const tokens = Array.isArray(payload.tokens) ? payload.tokens : [];
 if (tokens.length === 0) {
-  console.error('❌ No tokens to apply — payload.tokens is empty.');
+  console.error('❌ No deny entries to apply — payload.tokens is empty.');
   process.exit(1);
 }
 
-// Surface any textarea parse errors collected upstream.
 for (const pe of payload.parseErrors ?? []) {
   recordFailure(
-    `Additional tokens, line ${pe.line}: not valid JSON (${pe.error}). ` +
+    `Additional spam tokens, line ${pe.line}: not valid JSON (${pe.error}). ` +
     `Got: ${pe.content}`
   );
 }
 
-// ---------- 2. Build chainId → filename map by scanning tokens/ ----------
+// ---------- 2. Build chainId → filename map by scanning denyTokens/ ----------
 
-if (!existsSync(TOKENS_DIR)) {
-  console.error(`❌ tokens/ directory not found at ${TOKENS_DIR} — repo layout has changed.`);
+if (!existsSync(DENY_DIR)) {
+  console.error(`❌ denyTokens/ directory not found at ${DENY_DIR} — repo layout has changed.`);
   process.exit(1);
 }
 
 const chainIdToFile = new Map();
-for (const filename of readdirSync(TOKENS_DIR)) {
+for (const filename of readdirSync(DENY_DIR)) {
   if (!filename.endsWith('.json')) continue;
-  const path = join(TOKENS_DIR, filename);
+  const path = join(DENY_DIR, filename);
   let list;
   try {
     list = JSON.parse(readFileSync(path, 'utf8'));
@@ -118,7 +120,7 @@ for (const filename of readdirSync(TOKENS_DIR)) {
   if (typeof cid !== 'number') continue;
   if (chainIdToFile.has(cid)) {
     console.error(
-      `❌ Two token files share chainId ${cid}: ${chainIdToFile.get(cid)} ` +
+      `❌ Two deny-token files share chainId ${cid}: ${chainIdToFile.get(cid)} ` +
       `and ${filename}. Resolve the ambiguity in the repo before retrying.`
     );
     process.exit(1);
@@ -126,14 +128,10 @@ for (const filename of readdirSync(TOKENS_DIR)) {
   chainIdToFile.set(cid, filename);
 }
 
-// ---------- 3. Validate every token, accumulate failures ----------
+// ---------- 3. Validate every entry, accumulate failures ----------
 
-/**
- * Returns a normalised token entry, or pushes a failure message and returns null.
- * `idx` is the 1-based position in the submission (1 = primary, 2+ = additional).
- */
-function validateToken(t, idx) {
-  const label = `Token ${idx}`;
+function validateEntry(t, idx) {
+  const label = `Entry ${idx}`;
   if (typeof t !== 'object' || t === null) {
     recordFailure(`${label}: not a JSON object.`);
     return null;
@@ -150,56 +148,47 @@ function validateToken(t, idx) {
 
   const chainIdRaw = requireField('chainId');
   const address = requireField('address');
-  const symbol = requireField('symbol');
-  const name = requireField('name');
-  const decimalsRaw = requireField('decimals');
-  const logoURI = requireField('logoURI');
-  if (chainIdRaw === null || address === null || symbol === null ||
-      name === null || decimalsRaw === null || logoURI === null) {
-    return null;
-  }
+  if (chainIdRaw === null || address === null) return null;
+
+  // Reason is optional per the schema; if provided we use it, otherwise the
+  // entry just has address + chainId.
+  const reasonRaw = t.reason;
+  const reason = reasonRaw !== undefined && reasonRaw !== null && String(reasonRaw).trim() !== ''
+    ? String(reasonRaw).trim()
+    : null;
 
   const chainId = Number(chainIdRaw);
   if (!Number.isInteger(chainId) || chainId <= 0) {
-    recordFailure(`${label} (symbol "${symbol}"): chainId must be a positive integer, got "${chainIdRaw}".`);
-    return null;
-  }
-
-  const decimals = Number(decimalsRaw);
-  if (!Number.isInteger(decimals) || decimals < 0 || decimals > 36) {
-    recordFailure(`${label} (symbol "${symbol}"): decimals must be a non-negative integer ≤ 36, got "${decimalsRaw}".`);
+    recordFailure(`${label}: chainId must be a positive integer, got "${chainIdRaw}".`);
     return null;
   }
 
   const targetFilename = chainIdToFile.get(chainId);
   if (!targetFilename) {
-    const supported = [...chainIdToFile.keys()].sort((a, b) => a - b).slice(0, 20).join(', ');
+    const supported = [...chainIdToFile.keys()].sort((a, b) => a - b).join(', ');
     recordFailure(
-      `${label} (symbol "${symbol}"): chainId ${chainId} is not supported in this repo. ` +
-      `Supported chain IDs include: ${supported}, … (see README §"How to add a new chain").`
+      `${label} (address "${address}"): chainId ${chainId} is not supported in denyTokens/ yet. ` +
+      `Supported chain IDs: ${supported}.`
     );
     return null;
   }
 
   if (!NON_EVM_CHAIN_IDS.has(chainId) && !/^0x[a-fA-F0-9]{40}$/.test(address)) {
-    recordFailure(`${label} (symbol "${symbol}", chainId ${chainId}): address "${address}" is not a valid EVM address.`);
+    recordFailure(`${label} (chainId ${chainId}): address "${address}" is not a valid EVM address.`);
     return null;
   }
 
-  return {
-    targetFilename,
-    entry: { address, chainId, logoURI, decimals, name, symbol },
-  };
+  const entry = { chainId, address };
+  if (reason !== null) entry.reason = reason;
+
+  return { targetFilename, entry };
 }
 
-// First pass: validate shape + chainId routing + address shape.
-const validated = tokens.map((t, i) => validateToken(t, i + 1));
+const validated = tokens.map((t, i) => validateEntry(t, i + 1));
 
-// Second pass: check for duplicates — both within this submission AND against
-// what's already on disk. Done after the first pass so we have a stable mapping
-// of (targetFilename → entries to add).
-const submissionDupes = new Map(); // key: chainId|address.toLowerCase()
-const stagedByFile = new Map();    // filename → existing list, plus entries we're staging
+// Second pass: duplicate detection within submission AND against existing file.
+const submissionDupes = new Map();
+const stagedByFile = new Map();
 
 for (let i = 0; i < validated.length; i++) {
   const v = validated[i];
@@ -207,20 +196,18 @@ for (let i = 0; i < validated.length; i++) {
   const { targetFilename, entry } = v;
   const key = `${entry.chainId}|${entry.address.toLowerCase()}`;
 
-  // Duplicate within this submission?
   if (submissionDupes.has(key)) {
     recordFailure(
-      `Token ${i + 1} (symbol "${entry.symbol}", chainId ${entry.chainId}): address ${entry.address} ` +
-      `is also requested by Token ${submissionDupes.get(key)} in this same submission.`
+      `Entry ${i + 1} (chainId ${entry.chainId}, address ${entry.address}): also requested by Entry ` +
+      `${submissionDupes.get(key)} in this same submission.`
     );
     continue;
   }
   submissionDupes.set(key, i + 1);
 
-  // Load file (lazily) and check for existing duplicate on-disk.
   let stage = stagedByFile.get(targetFilename);
   if (!stage) {
-    const existing = JSON.parse(readFileSync(join(TOKENS_DIR, targetFilename), 'utf8'));
+    const existing = JSON.parse(readFileSync(join(DENY_DIR, targetFilename), 'utf8'));
     stage = { existing, additions: [] };
     stagedByFile.set(targetFilename, stage);
   }
@@ -229,8 +216,8 @@ for (let i = 0; i < validated.length; i++) {
   );
   if (onDisk) {
     recordFailure(
-      `Token ${i + 1} (symbol "${entry.symbol}", chainId ${entry.chainId}): address ${entry.address} ` +
-      `is already in tokens/${targetFilename} as "${onDisk.symbol}" / "${onDisk.name}".`
+      `Entry ${i + 1} (chainId ${entry.chainId}, address ${entry.address}): already in denyTokens/${targetFilename}` +
+      (onDisk.reason ? ` (reason: "${onDisk.reason}")` : '') + '.'
     );
     continue;
   }
@@ -244,11 +231,12 @@ if (failures.length > 0) abortWithFailures();
 const summary = [];
 for (const [filename, stage] of stagedByFile.entries()) {
   const combined = [...stage.existing, ...stage.additions];
-  writeFileSync(join(TOKENS_DIR, filename), JSON.stringify(combined, null, 2) + '\n');
+  writeFileSync(join(DENY_DIR, filename), JSON.stringify(combined, null, 2) + '\n');
   for (const e of stage.additions) {
-    summary.push(`tokens/${filename}: + ${e.symbol} (${e.address}, chainId ${e.chainId})`);
+    const reasonSuffix = e.reason ? ` — ${e.reason}` : '';
+    summary.push(`denyTokens/${filename}: + ${e.address} (chainId ${e.chainId})${reasonSuffix}`);
   }
 }
 
-console.log(`✅ Applied ${tokens.length} token${tokens.length === 1 ? '' : 's'} across ${stagedByFile.size} file${stagedByFile.size === 1 ? '' : 's'}:`);
+console.log(`✅ Denied ${tokens.length} token${tokens.length === 1 ? '' : 's'} across ${stagedByFile.size} file${stagedByFile.size === 1 ? '' : 's'}:`);
 for (const line of summary) console.log(`  ${line}`);

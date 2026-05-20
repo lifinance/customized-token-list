@@ -19,37 +19,49 @@ You can also block scam tokens for a given chain by adding them to [`/denyTokens
 
 ---
 
-## 🚀 How to request a token
+## 🚀 How to request a change
 
-We use a **two-lane model** to balance ease-of-submission for external partners with low overhead for the internal team.
+Two flows, same bot:
+
+- **Add a token to the list** → [Open an "Add a token" issue](../../issues/new?template=add-token.yml)
+- **Report a scam token (deny)** → [Open a "Report a scam token" issue](../../issues/new?template=add-deny-token.yml)
+
+Both use the same **two-lane model** to balance ease-of-submission for external contributors with low overhead for the internal team.
 
 ### 👤 External contributors (partners, projects, community)
 
-👉 **[Open a new "Add a token" issue](../../issues/new?template=add-token.yml)** and fill in all required fields.
+Pick the right template above and fill in all required fields. The moment your issue is opened, an internal LI.FI team member is pinged on Slack. They will turn it into a pull request (typically within a few working days) and merge it once CI passes.
 
-The moment your issue is opened, an internal LI.FI team member is pinged on Slack. They will turn it into a pull request (typically within a few working days) and merge it once CI passes.
+Both forms support **bulk submissions** — see the "Additional tokens / Additional spam tokens (optional)" textarea at the bottom of each form for the JSON-line format.
 
-> ⚠️ **Do not open pull requests from forks.** Fork PRs are auto-closed by a workflow with a pointer back to the issue template. The issue template captures everything we need and is a faster path to merge.
+> ⚠️ **Do not open pull requests from forks.** Fork PRs are auto-closed by a workflow with a pointer back to the issue templates. The templates capture everything we need and are a faster path to merge.
 
 ### 🛠️ Internal team members (`@lifinance/fullstack` or `@lifinance/techsupport`)
 
-You have two ways to add a token, depending on where the request came from:
+You have two ways to ship a change, depending on where the request came from:
 
 1. **Internal-originated change** — open a PR directly, wait for CI to pass, and self-merge. No second approver required.
-2. **External-originated request** — find the open issue and comment `/add-token` on it. A bot (`lifi-customizedtokenlist-bot`) will parse the issue, open a fully-populated PR, assign it to you, and link it back in the issue. Review the diff, wait for CI, self-merge.
+2. **External-originated request** — find the open issue and comment `/add-token` (for token-request issues) or `/deny-token` (for deny-request issues) on it. A bot (`lifi-customizedtokenlist-bot`) will parse the issue, open a fully-populated PR, assign it to you, and link it back in the issue. Review the diff, wait for CI, self-merge.
+
+> 💡 The bot routes by the issue's **label** (`token-request` vs `deny-request`), not by which command you type — so mistyping the command on the wrong issue still does the right thing.
 
 ---
 
-## 🔁 How the `/add-token` automation works
+## 🔁 How the bot automation works
 
-When an authorised internal comments `/add-token` on an issue created from the [Add a token](../../issues/new?template=add-token.yml) template, the [`add-token` workflow](./.github/workflows/add-token.yml) runs:
+When an authorised internal comments `/add-token` or `/deny-token` on a labelled issue, the [`process-token-issue` workflow](./.github/workflows/process-token-issue.yml) runs:
 
 1. A GitHub App (`lifi-customizedtokenlist-bot`) mints a short-lived installation token.
 2. The workflow verifies the commenter is a member of `@lifinance/fullstack` or `@lifinance/techsupport`. Non-members get a 👎 reaction; nothing else happens.
-3. The bot parses the structured fields from the issue body.
-4. [`scripts/apply-token.mjs`](./.github/scripts/apply-token.mjs) scans `tokens/*.json` to build a `chainId → filename` map (so it's always in sync with the repo — no hard-coded chain table to maintain), looks up the partner-supplied chain ID, and appends the new token to the matching file. Refuses on duplicate addresses or unsupported chain IDs.
-5. The bot opens a branch, commits, pushes, and opens a PR — all in the bot's identity, never using your personal credentials. The partner and your handle are credited in the PR body and commit trailer.
-6. The PR is assigned to you. CI runs ([`lint.yml`](./.github/workflows/lint.yml) + [`validate.yml`](./.github/workflows/validate.yml)). Once green, you merge — and merging closes the originating issue automatically (`Closes #<n>` in the PR body).
+3. The bot reads the issue's label to determine the flow: `token-request` → add-flow, `deny-request` → deny-flow. Issues with neither label get a friendly 👎 explanation.
+4. The bot parses the structured fields (the form for add-flow has different fields from deny-flow) and any optional "additional entries" from the bulk-paste textarea.
+5. The appropriate apply script runs:
+   - **Add flow:** [`scripts/apply-token.mjs`](./.github/scripts/apply-token.mjs) appends new entries to `tokens/<CHAIN_KEY>.json`.
+   - **Deny flow:** [`scripts/apply-deny-token.mjs`](./.github/scripts/apply-deny-token.mjs) appends new entries to `denyTokens/<CHAIN_KEY>.json`.
+
+   Both scripts scan their target directory at runtime to build a `chainId → filename` map (so they stay in sync with the repo — no hard-coded chain table to maintain) and refuse on duplicate addresses or unsupported chain IDs. **Atomic semantics:** if any one entry in a bulk submission fails validation, the whole batch is rejected with per-entry error messages posted back to the issue.
+6. On success the bot opens a branch, commits, pushes, and opens a PR — all in the bot's identity, never using your personal credentials. The reporter/partner and your handle are credited in the PR body and commit trailer.
+7. The PR is assigned to you. CI runs ([`lint.yml`](./.github/workflows/lint.yml) + [`validate.yml`](./.github/workflows/validate.yml)). Once green, you merge — and merging closes the originating issue automatically (`Closes #<n>` in the PR body).
 
 The bot **never merges** — a human always pulls the trigger.
 
@@ -63,8 +75,9 @@ The bot **never merges** — a human always pulls the trigger.
 | [`denyTokens/<CHAIN_KEY>.json`](./denyTokens) | Blocked tokens (scams, etc.) per chain. |
 | [`approvalResetTokens/<CHAIN_KEY>.json`](./approvalResetTokens) | Legacy ERC-20 tokens that require an approval reset before setting a new allowance (e.g. USDT on Ethereum). |
 | [`schema/`](./schema) | JSON schemas defining the expected structure of each entry type. |
-| [`.github/ISSUE_TEMPLATE/add-token.yml`](./.github/ISSUE_TEMPLATE/add-token.yml) | The structured form external contributors fill in. |
-| [`.github/workflows/add-token.yml`](./.github/workflows/add-token.yml) | The `/add-token` issue-to-PR converter. |
+| [`.github/ISSUE_TEMPLATE/add-token.yml`](./.github/ISSUE_TEMPLATE/add-token.yml) | The structured form for "add a token" requests (`token-request` label). |
+| [`.github/ISSUE_TEMPLATE/add-deny-token.yml`](./.github/ISSUE_TEMPLATE/add-deny-token.yml) | The structured form for "report a scam token" requests (`deny-request` label). |
+| [`.github/workflows/process-token-issue.yml`](./.github/workflows/process-token-issue.yml) | The unified `/add-token` + `/deny-token` issue-to-PR converter (label-routed). |
 
 Chain IDs (the canonical numeric identifier inside each entry, and what the issue form asks partners for) can be looked up at <https://chainlist.org> or via LI.FI's [`/chains` API](https://li.quest/v1/chains). The 3-letter filename keys (`ETH`, `ARB`, `BAS`, …) are LI.FI's internal convention; partners never need to know them.
 
