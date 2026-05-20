@@ -126,25 +126,51 @@ jobs:
         with:
           webhook: ${{ secrets.SLACK_WEBHOOK_DEV_BACKEND_EXPANSION_REVIEW }}
           webhook-type: incoming-webhook
-          # Use the rewritten title from the parse step when available; fall
-          # back to the original title (non-token-related issues, or parse
-          # failures).
-          # The Slack message tells the team which command to run — `/add-token`
-          # for token-request issues, `/deny-token` for deny-request issues —
-          # falling back to a generic "see the issue" pointer for other labels.
-          # User-controlled values are wrapped in toJSON(format()) so any
-          # embedded quotes, backslashes, or newlines are safely escaped and
-          # can't break the JSON payload structure.
+          # Slack message layout uses Block Kit (header + section + section + context).
+          # Rationale: GitHub Actions expressions inside single-quoted strings
+          # don't interpret escape sequences, so a "\n" embedded in a format()
+          # call would render as the literal characters "\n" in the resulting
+          # mrkdwn. Splitting the message into one block per logical line
+          # avoids the problem entirely and gives us nicer visual separation
+          # in Slack.
+          #
+          # User-controlled values (issue title, user login) are wrapped in
+          # toJSON(format()) so any embedded quotes, backslashes, or newlines
+          # are safely escaped and can't break the JSON payload structure.
           payload: |
             {
-              "text": ${{ toJSON(format('🆕 New token-list issue: <{0}|#{1} — {2}>', github.event.issue.html_url, github.event.issue.number, steps.parse.outputs.title || github.event.issue.title)) }},
+              "text": ${{ toJSON(format('🆕 New request on customized-token-list — #{0} {1}', github.event.issue.number, steps.parse.outputs.title || github.event.issue.title)) }},
               "blocks": [
+                {
+                  "type": "header",
+                  "text": {
+                    "type": "plain_text",
+                    "text": "🆕 New request received",
+                    "emoji": true
+                  }
+                },
                 {
                   "type": "section",
                   "text": {
                     "type": "mrkdwn",
-                    "text": ${{ toJSON(format('🆕 *New token-list issue* <{0}|#{1}>\n*{2}*\nOpened by `{3}` — a member of `@lifinance/fullstack` or `@lifinance/techsupport` can convert it to a PR by commenting `{4}` on the issue.', github.event.issue.html_url, github.event.issue.number, steps.parse.outputs.title || github.event.issue.title, github.event.issue.user.login, steps.parse.outputs.command || '/add-token or /deny-token')) }}
+                    "text": ${{ toJSON(format('On *customized-token-list*: <{0}|#{1} — {2}>, submitted by `{3}` and ready for review.', github.event.issue.html_url, github.event.issue.number, steps.parse.outputs.title || github.event.issue.title, github.event.issue.user.login)) }}
                   }
+                },
+                {
+                  "type": "section",
+                  "text": {
+                    "type": "mrkdwn",
+                    "text": ${{ toJSON(format('Please convert it to a PR by commenting `{0}` under the issue. A bot will create a PR from the submitted data that you can review and merge immediately. Members of `@lifinance/fullstack` or `@lifinance/techsupport` can do this.', steps.parse.outputs.command || '/add-token or /deny-token')) }}
+                  }
+                },
+                {
+                  "type": "context",
+                  "elements": [
+                    {
+                      "type": "mrkdwn",
+                      "text": "✅ Please mark this message with a checkmark reaction once the PR is merged, so the team knows it's handled."
+                    }
+                  ]
                 }
               ]
             }
