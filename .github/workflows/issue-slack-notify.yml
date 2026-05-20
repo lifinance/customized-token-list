@@ -42,6 +42,19 @@ jobs:
           app-id: ${{ secrets.TOKENLIST_BOT_APP_ID }}
           private-key: ${{ secrets.TOKENLIST_BOT_PRIVATE_KEY }}
 
+      # Sparse checkout of just tokens/ so the parse step can resolve
+      # chainId → chain-key locally (no network dependency).
+      - name: Checkout tokens/ (for chain-name lookup)
+        if: >-
+          contains(github.event.issue.labels.*.name, 'token-request') ||
+          contains(github.event.issue.labels.*.name, 'deny-request')
+        uses: actions/checkout@34e114876b0b11c390a56381ad16ebd13914f8d5 # v4.3.1
+        with:
+          sparse-checkout: |
+            tokens
+          sparse-checkout-cone-mode: false
+          fetch-depth: 1
+
       - name: Parse form fields and rewrite title
         id: parse
         if: >-
@@ -89,30 +102,39 @@ jobs:
             // Symbol exists only on the add form; deny form has no symbol field.
             const symbol = requestType === 'add' ? get('Symbol') : '';
 
-            // Resolve the numeric chainId to a human chain name via LI.FI's
-            // /chains API (e.g. 1 → "Ethereum", 1151111081099710 → "Solana").
-            // Default endpoint returns EVM only — pass chainTypes explicitly so
-            // Solana / Sui / Bitcoin-like chains resolve too. Falls back
-            // gracefully to "chain <N>" on lookup failure, malformed input, or
-            // unknown chain ID.
-            async function resolveChainName(cid) {
+            // Resolve the numeric chainId to its LI.FI chain key (e.g. 1 → "ETH",
+            // 8453 → "BAS") by scanning the tokens/ directory. The filename
+            // (minus .json) IS the chain key the rest of the LI.FI stack uses,
+            // so this is the authoritative mapping and stays in sync with the
+            // repo automatically — no network call, no flakiness.
+            //
+            // Falls back to "chain <N>" only when the chainId isn't in the
+            // repo at all (rare — would mean a new chain partners are
+            // requesting before it's been added to the repo).
+            const fs = require('node:fs');
+            const path = require('node:path');
+            function resolveChainName(cid) {
               if (!cid) return '';
+              const numId = Number(cid);
               const fallback = `chain ${cid}`;
+              if (!Number.isInteger(numId)) return fallback;
+              const tokensDir = path.resolve('tokens');
               try {
-                const controller = new AbortController();
-                const t = setTimeout(() => controller.abort(), 5000);
-                const res = await fetch('https://li.quest/v1/chains?chainTypes=EVM,SVM,UTXO,MVM', { signal: controller.signal });
-                clearTimeout(t);
-                if (!res.ok) return fallback;
-                const data = await res.json();
-                const match = (data.chains || []).find((c) => c.id === Number(cid));
-                return match && match.name ? match.name : fallback;
+                for (const filename of fs.readdirSync(tokensDir)) {
+                  if (!filename.endsWith('.json')) continue;
+                  try {
+                    const list = JSON.parse(fs.readFileSync(path.join(tokensDir, filename), 'utf8'));
+                    if (Array.isArray(list) && list.length > 0 && list[0].chainId === numId) {
+                      return filename.slice(0, -5); // strip ".json" → "ETH", "ARB", "BAS"
+                    }
+                  } catch { /* skip unreadable file */ }
+                }
               } catch (e) {
-                core.warning(`Chain-name lookup failed for chainId=${cid}: ${e.message}. Falling back to "${fallback}".`);
-                return fallback;
+                core.warning(`Chain-name lookup failed: ${e.message}. Falling back to "${fallback}".`);
               }
+              return fallback;
             }
-            const chainName = await resolveChainName(chainId);
+            const chainName = resolveChainName(chainId);
             core.setOutput('chainName', chainName);
 
             // Compose the rewritten title differently per flow:
