@@ -374,11 +374,11 @@ jobs:
           # without opening the diff.
           if [ "$TOKEN_COUNT" -le 1 ]; then
             COMMIT_SUBJECT="feat: ${VERB} ${SUMMARY_LABEL} on ${CHAIN_NAME} (closes #${ISSUE_NUM})"
-            PR_TITLE="${VERB_CAP} ${SUMMARY_LABEL} on ${CHAIN_NAME} (${ORG_LABEL_LOWER}: ${PARTNER})"
+            PR_TITLE="feat: ${VERB} ${SUMMARY_LABEL} on ${CHAIN_NAME} (${ORG_LABEL_LOWER}: ${PARTNER})"
             PR_BREAKDOWN=""
           else
             COMMIT_SUBJECT="feat: ${VERB} ${TOKEN_COUNT} ${NOUN} (incl. ${SUMMARY_LABEL} on ${CHAIN_NAME}) (closes #${ISSUE_NUM})"
-            PR_TITLE="${VERB_CAP} ${TOKEN_COUNT} ${NOUN} (incl. ${SUMMARY_LABEL} on ${CHAIN_NAME}) (${ORG_LABEL_LOWER}: ${PARTNER})"
+            PR_TITLE="feat: ${VERB} ${TOKEN_COUNT} ${NOUN} (incl. ${SUMMARY_LABEL} on ${CHAIN_NAME}) (${ORG_LABEL_LOWER}: ${PARTNER})"
             BREAKDOWN_LINES=$(grep -E "^  ${LOG_PREFIX}" /tmp/apply.log | head -100 || true)
             PR_BREAKDOWN="
 
