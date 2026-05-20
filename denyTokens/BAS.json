@@ -53,5 +53,10 @@
     "address": "0xb6E38746AfD8C1dB4481C709AEbf0e3b2794F752",
     "chainId": 8453,
     "reason": "BSA (Block Sec Arena) scam token blocking transfers"
+  },
+  {
+    "chainId": 8453,
+    "address": "0x4444444444444444444444444444444444444444",
+    "reason": "[TEST] Same campaign as Ethereum"
   }
 ]

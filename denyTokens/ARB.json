@@ -58,5 +58,10 @@
     "chainId": 42161,
     "address": "0x327006c8712FE0AbdbbD55B7999DB39b0967342E",
     "reason": "Scam fake PYUSD token"
+  },
+  {
+    "chainId": 42161,
+    "address": "0x3333333333333333333333333333333333333333",
+    "reason": "[TEST] Same campaign as Ethereum"
   }
 ]
