@@ -14,5 +14,125 @@
     "decimals": 18,
     "name": "USDA",
     "logoURI": "https://raw.githubusercontent.com/AngleProtocol/angle-token-list/main/src/assets/tokens/USDA.svg"
+  },
+  {
+    "address": "0x765DE816845861e75A25fCA122bb6898B8B1282a",
+    "chainId": 42220,
+    "logoURI": "https://reserve.mento.org/tokens/USDm.svg",
+    "decimals": 18,
+    "name": "Mento Dollar",
+    "symbol": "USDm"
+  },
+  {
+    "address": "0xD8763CBa276a3738E6DE85b4b3bF5FDed6D6cA73",
+    "chainId": 42220,
+    "logoURI": "https://reserve.mento.org/tokens/EURm.svg",
+    "decimals": 18,
+    "name": "Mento Euro",
+    "symbol": "EURm"
+  },
+  {
+    "address": "0xCCF663b1fF11028f0b19058d0f7B674004a40746",
+    "chainId": 42220,
+    "logoURI": "https://reserve.mento.org/tokens/GBPm.svg",
+    "decimals": 18,
+    "name": "Mento British Pound",
+    "symbol": "GBPm"
+  },
+  {
+    "address": "0xc45eCF20f3CD864B32D9794d6f76814aE8892e20",
+    "chainId": 42220,
+    "logoURI": "https://reserve.mento.org/tokens/JPYm.svg",
+    "decimals": 18,
+    "name": "Mento Japanese Yen",
+    "symbol": "JPYm"
+  },
+  {
+    "address": "0xb55a79F398E759E43C95b979163f30eC87Ee131D",
+    "chainId": 42220,
+    "logoURI": "https://reserve.mento.org/tokens/CHFm.svg",
+    "decimals": 18,
+    "name": "Mento Swiss Franc",
+    "symbol": "CHFm"
+  },
+  {
+    "address": "0xe8537a3d056DA446677B9E9d6c5dB704EaAb4787",
+    "chainId": 42220,
+    "logoURI": "https://reserve.mento.org/tokens/BRLm.svg",
+    "decimals": 18,
+    "name": "Mento Brazilian Real",
+    "symbol": "BRLm"
+  },
+  {
+    "address": "0x73F93dcc49cB8A239e2032663e9475dd5ef29A08",
+    "chainId": 42220,
+    "logoURI": "https://reserve.mento.org/tokens/XOFm.svg",
+    "decimals": 18,
+    "name": "Mento West African CFA Franc",
+    "symbol": "XOFm"
+  },
+  {
+    "address": "0x456a3D042C0DbD3db53D5489e98dFb038553B0d0",
+    "chainId": 42220,
+    "logoURI": "https://reserve.mento.org/tokens/KESm.svg",
+    "decimals": 18,
+    "name": "Mento Kenyan Shilling",
+    "symbol": "KESm"
+  },
+  {
+    "address": "0x105d4A9306D2E55a71d2Eb95B81553AE1dC20d7B",
+    "chainId": 42220,
+    "logoURI": "https://reserve.mento.org/tokens/PHPm.svg",
+    "decimals": 18,
+    "name": "Mento Philippine Peso",
+    "symbol": "PHPm"
+  },
+  {
+    "address": "0x8A567e2aE79CA692Bd748aB832081C45de4041eA",
+    "chainId": 42220,
+    "logoURI": "https://reserve.mento.org/tokens/COPm.svg",
+    "decimals": 18,
+    "name": "Mento Colombian Peso",
+    "symbol": "COPm"
+  },
+  {
+    "address": "0xfAeA5F3404bbA20D3cc2f8C4B0A888F55a3c7313",
+    "chainId": 42220,
+    "logoURI": "https://reserve.mento.org/tokens/GHSm.svg",
+    "decimals": 18,
+    "name": "Mento Ghanaian Cedi",
+    "symbol": "GHSm"
+  },
+  {
+    "address": "0x4c35853A3B4e647fD266f4de678dCc8fEC410BF6",
+    "chainId": 42220,
+    "logoURI": "https://reserve.mento.org/tokens/ZARm.svg",
+    "decimals": 18,
+    "name": "Mento South African Rand",
+    "symbol": "ZARm"
+  },
+  {
+    "address": "0xff4Ab19391af240c311c54200a492233052B6325",
+    "chainId": 42220,
+    "logoURI": "https://reserve.mento.org/tokens/CADm.svg",
+    "decimals": 18,
+    "name": "Mento Canadian Dollar",
+    "symbol": "CADm"
+  },
+  {
+    "address": "0x7175504C455076F15c04A2F90a8e352281F492F9",
+    "chainId": 42220,
+    "logoURI": "https://reserve.mento.org/tokens/AUDm.svg",
+    "decimals": 18,
+    "name": "Mento Australian Dollar",
+    "symbol": "AUDm"
+  },
+  {
+    "address": "0xE2702Bd97ee33c88c8f6f92DA3B733608aa76F71",
+    "chainId": 42220,
+    "logoURI": "https://reserve.mento.org/tokens/NGNm.svg",
+    "decimals": 18,
+    "name": "Mento Nigerian Naira",
+    "symbol": "NGNm"
   }
 ]

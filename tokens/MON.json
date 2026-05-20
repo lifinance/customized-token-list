@@ -174,5 +174,45 @@
     "decimals": 18,
     "name": "Yuzu Prime",
     "symbol": "yzPrime"
+  },
+  {
+    "address": "0xBC69212B8E4d445b2307C9D32dD68E2A4Df00115",
+    "chainId": 143,
+    "logoURI": "https://reserve.mento.org/tokens/USDm.svg",
+    "decimals": 18,
+    "name": "Mento Dollar",
+    "symbol": "USDm"
+  },
+  {
+    "address": "0x4D502d735B4C574B487Ed641ae87cEaE884731C7",
+    "chainId": 143,
+    "logoURI": "https://reserve.mento.org/tokens/EURm.svg",
+    "decimals": 18,
+    "name": "Mento Euro",
+    "symbol": "EURm"
+  },
+  {
+    "address": "0x39bb4E0a204412bB98e821d25e7d955e69d40Fd1",
+    "chainId": 143,
+    "logoURI": "https://reserve.mento.org/tokens/GBPm.svg",
+    "decimals": 18,
+    "name": "Mento British Pound",
+    "symbol": "GBPm"
+  },
+  {
+    "address": "0x22f6A6752800eAB67b84748FeFc3cC658384aF72",
+    "chainId": 143,
+    "logoURI": "https://reserve.mento.org/tokens/JPYm.svg",
+    "decimals": 18,
+    "name": "Mento Japanese Yen",
+    "symbol": "JPYm"
+  },
+  {
+    "address": "0xF64e91fFEf7ef43aA314F0Bc2AC39f770797990C",
+    "chainId": 143,
+    "logoURI": "https://reserve.mento.org/tokens/CHFm.svg",
+    "decimals": 18,
+    "name": "Mento Swiss Franc",
+    "symbol": "CHFm"
   }
 ]
