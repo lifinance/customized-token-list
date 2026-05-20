@@ -89,9 +89,9 @@ body:
       render: text
       placeholder: |
         # Same fake-USDC scam, mirrored on Arbitrum
-        {"chainId": 42161, "address": "0x0000000000000000000000000000000000000000", "reason": "Impersonates USDC — same drain contract as on Ethereum"}
+        {"chainId": 42161, "address": "0xdeadbeefdeadbeefdeadbeefdeadbeefdeadbeef", "reason": "Impersonates USDC — same drain contract as on Ethereum"}
         # And on Base
-        {"chainId": 8453, "address": "0x0000000000000000000000000000000000000001", "reason": "Impersonates USDC — same drain contract as on Ethereum"}
+        {"chainId": 8453, "address": "0xcafebabecafebabecafebabecafebabecafebabe", "reason": "Impersonates USDC — same drain contract as on Ethereum"}
     validations:
       required: false
 
