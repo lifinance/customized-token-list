@@ -75,6 +75,7 @@ jobs:
           exit 0
 
       - name: React 👀 to comment
+        if: steps.gate.outputs.authorized == 'true'
         env:
           GH_TOKEN: ${{ steps.app-token.outputs.token }}
         run: |
@@ -82,18 +83,21 @@ jobs:
             -f content='eyes'
 
       - name: Checkout
+        if: steps.gate.outputs.authorized == 'true'
         uses: actions/checkout@34e114876b0b11c390a56381ad16ebd13914f8d5 # v4.3.1
         with:
           token: ${{ steps.app-token.outputs.token }}
           fetch-depth: 0
 
       - name: Setup Node
+        if: steps.gate.outputs.authorized == 'true'
         uses: actions/setup-node@49933ea5288caeca8642d1e84afbd3f7d6820020 # v4.4.0
         with:
           node-version: '20'
 
       - name: Parse issue body
         id: parse
+        if: steps.gate.outputs.authorized == 'true'
         uses: actions/github-script@f28e40c7f34bde8b3046d885e986cb6290c5673b # v7.1.0
         with:
           script: |
@@ -196,7 +200,7 @@ jobs:
             core.setOutput('summaryLabel', requestType === 'add' ? primaryEntry.symbol : primaryEntry.address);
 
       - name: Reject — issue has no matching label
-        if: steps.parse.outputs.shouldContinue == 'false'
+        if: steps.gate.outputs.authorized == 'true' && steps.parse.outputs.shouldContinue == 'false'
         env:
           GH_TOKEN: ${{ steps.app-token.outputs.token }}
           ACTOR: ${{ github.event.comment.user.login }}
@@ -213,7 +217,7 @@ jobs:
 
       - name: Apply entries to JSON
         id: apply
-        if: steps.parse.outputs.shouldContinue == 'true'
+        if: steps.gate.outputs.authorized == 'true' && steps.parse.outputs.shouldContinue == 'true'
         continue-on-error: true
         env:
           PAYLOAD: ${{ steps.parse.outputs.payload }}
@@ -226,7 +230,7 @@ jobs:
           fi
 
       - name: Report apply failure back to issue
-        if: steps.parse.outputs.shouldContinue == 'true' && steps.apply.outcome == 'failure'
+        if: steps.gate.outputs.authorized == 'true' && steps.parse.outputs.shouldContinue == 'true' && steps.apply.outcome == 'failure'
         env:
           GH_TOKEN: ${{ steps.app-token.outputs.token }}
           ACTOR: ${{ github.event.comment.user.login }}
@@ -252,7 +256,7 @@ jobs:
 
       - name: Create branch, commit, push, open PR
         id: pr
-        if: steps.parse.outputs.shouldContinue == 'true' && steps.apply.outcome == 'success'
+        if: steps.gate.outputs.authorized == 'true' && steps.parse.outputs.shouldContinue == 'true' && steps.apply.outcome == 'success'
         env:
           GH_TOKEN: ${{ steps.app-token.outputs.token }}
           ISSUE_NUM: ${{ github.event.issue.number }}
@@ -373,7 +377,7 @@ jobs:
           echo "pr_url=$PR_URL" >> "$GITHUB_OUTPUT"
 
       - name: React 🚀 and reply with PR link
-        if: steps.parse.outputs.shouldContinue == 'true' && steps.apply.outcome == 'success'
+        if: steps.gate.outputs.authorized == 'true' && steps.parse.outputs.shouldContinue == 'true' && steps.apply.outcome == 'success'
         env:
           GH_TOKEN: ${{ steps.app-token.outputs.token }}
           PR_URL: ${{ steps.pr.outputs.pr_url }}
