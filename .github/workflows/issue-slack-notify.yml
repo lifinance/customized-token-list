@@ -199,7 +199,7 @@ jobs:
                   "elements": [
                     {
                       "type": "mrkdwn",
-                      "text": "✅ Please mark this message with a checkmark reaction once the PR is merged, so the team knows it's handled."
+                      "text": "Please mark this message with a ✅ reaction once the PR is merged, so the team knows it's handled."
                     }
                   ]
                 }
