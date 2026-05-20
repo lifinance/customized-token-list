@@ -218,29 +218,41 @@ jobs:
             core.setOutput('chainId', primaryEntry.chainId);
             core.setOutput('summaryLabel', requestType === 'add' ? primaryEntry.symbol : primaryEntry.address);
 
-            // Resolve the numeric chainId to a human chain name via LI.FI's
-            // /chains API (e.g. 1 → "Ethereum"). Used by the commit subject
-            // and PR title for human-readable output. Falls back to
-            // "chain <N>" on lookup failure / unknown chain so the workflow
-            // never blocks on this. Same logic as issue-slack-notify.yml.
-            async function resolveChainName(cid) {
+            // Resolve the numeric chainId to its LI.FI chain key (e.g. 1 → "ETH",
+            // 8453 → "BAS") by scanning the tokens/ directory. The filename
+            // (minus .json) IS the chain key the rest of the LI.FI stack uses,
+            // so this is the authoritative mapping and stays in sync with the
+            // repo automatically — no network, no flakiness.
+            //
+            // Used by the commit subject and PR title for human-readable
+            // output. Falls back to "chain <N>" only when the chainId isn't
+            // in the repo at all (which would also cause the apply script to
+            // reject downstream — so the fallback never actually appears in a
+            // successful PR title).
+            const fs = require('node:fs');
+            const path = require('node:path');
+            function resolveChainName(cid) {
               if (!cid) return '';
+              const numId = Number(cid);
               const fallback = `chain ${cid}`;
+              if (!Number.isInteger(numId)) return fallback;
+              const tokensDir = path.resolve('tokens');
               try {
-                const controller = new AbortController();
-                const t = setTimeout(() => controller.abort(), 5000);
-                const res = await fetch('https://li.quest/v1/chains?chainTypes=EVM,SVM,UTXO,MVM', { signal: controller.signal });
-                clearTimeout(t);
-                if (!res.ok) return fallback;
-                const data = await res.json();
-                const match = (data.chains || []).find((c) => c.id === Number(cid));
-                return match && match.name ? match.name : fallback;
+                for (const filename of fs.readdirSync(tokensDir)) {
+                  if (!filename.endsWith('.json')) continue;
+                  try {
+                    const list = JSON.parse(fs.readFileSync(path.join(tokensDir, filename), 'utf8'));
+                    if (Array.isArray(list) && list.length > 0 && list[0].chainId === numId) {
+                      return filename.slice(0, -5); // strip ".json" → "ETH", "ARB", "BAS"
+                    }
+                  } catch { /* skip unreadable file */ }
+                }
               } catch (e) {
-                core.warning(`Chain-name lookup failed for chainId=${cid}: ${e.message}. Falling back to "${fallback}".`);
-                return fallback;
+                core.warning(`Chain-name lookup failed: ${e.message}. Falling back to "${fallback}".`);
               }
+              return fallback;
             }
-            core.setOutput('chainName', await resolveChainName(primaryEntry.chainId));
+            core.setOutput('chainName', resolveChainName(primaryEntry.chainId));
 
       - name: Reject — issue has no matching label
         if: steps.gate.outputs.authorized == 'true' && steps.parse.outputs.shouldContinue == 'false'
