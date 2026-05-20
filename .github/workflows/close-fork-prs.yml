@@ -27,16 +27,17 @@ jobs:
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           PR_URL: ${{ github.event.pull_request.html_url }}
           AUTHOR: ${{ github.event.pull_request.user.login }}
+          REPO_URL: ${{ github.server_url }}/${{ github.repository }}
         run: |
           gh pr comment "$PR_URL" --body "$(cat <<EOF
           Hi @${AUTHOR} — thanks for contributing! 🙏
 
           We don't accept pull requests from forks on this repo. Instead, please open an issue using one of these templates:
 
-          - **[Add a token](../../issues/new?template=add-token.yml)** — to request a new token (or many) be added to the list.
-          - **[Report a scam token](../../issues/new?template=add-deny-token.yml)** — to report a malicious / phishing / impersonating token that should be blocked.
+          - **[Add a token](${REPO_URL}/issues/new?template=add-token.yml)** — to request a new token (or many) be added to the list.
+          - **[Report a scam token](${REPO_URL}/issues/new?template=add-deny-token.yml)** — to report a malicious / phishing / impersonating token that should be blocked.
 
-          An internal LI.FI team member will pick it up and turn it into a PR within a few working days. Closing this PR for now — see the [README](../../blob/main/README.md) for the full process.
+          An internal LI.FI team member will pick it up and turn it into a PR within a few working days. Closing this PR for now — see the [README](${REPO_URL}/blob/main/README.md) for the full process.
           EOF
           )"
           gh pr close "$PR_URL"
