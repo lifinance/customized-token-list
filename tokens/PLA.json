@@ -30,5 +30,29 @@
     "decimals": 18,
     "chainId": 9745,
     "logoURI": "https://app.usd.ai/svg/erc20/susdai.svg"
+  },
+  {
+    "name": "Yuzu USD",
+    "address": "0x6695c0f8706c5ace3bdf8995073179cca47926dc",
+    "symbol": "yzUSD",
+    "decimals": 18,
+    "chainId": 9745,
+    "logoURI": "https://assets.coingecko.com/coins/images/70558/large/yzusd.png"
+  },
+  {
+    "name": "Staked Yuzu USD",
+    "address": "0xC8A8DF9B210243c55D31c73090F06787aD0A1Bf6",
+    "symbol": "syzUSD",
+    "decimals": 18,
+    "chainId": 9745,
+    "logoURI": "https://assets.coingecko.com/coins/images/70132/large/Group_427319351.png"
+  },
+  {
+    "name": "Yuzu Protection Pool",
+    "address": "0xebfc8c2fe73c431ef2a371aea9132110aab50dca",
+    "symbol": "yzPP",
+    "decimals": 18,
+    "chainId": 9745,
+    "logoURI": "https://assets.coingecko.com/coins/images/71043/large/yzPP_%281%29.png?1765442029"
   }
 ]

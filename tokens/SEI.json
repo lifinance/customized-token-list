@@ -62,5 +62,29 @@
     "chainId": 1329,
     "decimals": 18,
     "logoURI": "https://static.debank.com/image/eth_token/logo_url/0x96f6ef951840721adbf46ac996b59e0235cb985c/97c2e77af19822f6113485277496b32c.png"
+  },
+  {
+    "name": "Yuzu USD",
+    "address": "0x9dcB0D17eDDE04D27F387c89fECb78654C373858",
+    "symbol": "yzUSD",
+    "decimals": 18,
+    "chainId": 1329,
+    "logoURI": "https://assets.coingecko.com/coins/images/70558/large/yzusd.png"
+  },
+  {
+    "name": "Staked Yuzu USD",
+    "address": "0xB98b14d316d13f012d52f30A3d46641092AC6944",
+    "symbol": "syzUSD",
+    "decimals": 18,
+    "chainId": 1329,
+    "logoURI": "https://assets.coingecko.com/coins/images/70132/large/Group_427319351.png"
+  },
+  {
+    "name": "Yuzu Protection Pool",
+    "address": "0x5a4958AE05640b6483d44B45d36E5eBF7Cd20fe4",
+    "symbol": "yzPP",
+    "decimals": 18,
+    "chainId": 1329,
+    "logoURI": "https://assets.coingecko.com/coins/images/71043/large/yzPP_%281%29.png?1765442029"
   }
 ]
