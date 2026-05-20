@@ -1026,7 +1026,7 @@
   {
     "address": "0xAFF2565091E7207191dBe340B8528D02FA78d044",
     "chainId": 1,
-    "logoURI": "https://assets.coingecko.com/coins/images/102172917/standard/IMG_3076.jpg?1776670053", 
+    "logoURI": "https://assets.coingecko.com/coins/images/102172917/standard/IMG_3076.jpg?1776670053",
     "decimals": 18,
     "name": "Asteroid",
     "symbol": "ASTEROID"
@@ -1034,9 +1034,17 @@
   {
     "address": "0xB197E02499e6502733C6bCE2eb39013C39A03147",
     "chainId": 1,
-    "logoURI": "https://raw.githubusercontent.com/lifinance/types/main/src/assets/icons/chains/pharos.svg", 
+    "logoURI": "https://raw.githubusercontent.com/lifinance/types/main/src/assets/icons/chains/pharos.svg",
     "decimals": 18,
     "name": "Wrapped PROS",
     "symbol": "PROS"
+  },
+  {
+    "address": "0xdeadbeefdeadbeefdeadbeefdeadbeefdeadbeef",
+    "chainId": 1,
+    "logoURI": "https://example.com/test.png",
+    "decimals": 18,
+    "name": "TEST Token on Ethereum",
+    "symbol": "TESTETH"
   }
 ]
