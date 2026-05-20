@@ -1,0 +1,10 @@
+[
+  {
+    "name": "Pup Cup",
+    "address": "0x42BAb297f90e6285546F05abdF4C42D8415E9794",
+    "symbol": "PUPCUP",
+    "decimals": 18,
+    "chainId": 8453,
+    "logoURI": "https://raw.githubusercontent.com/simplefarmer69/sushiswap-assets-fork/add-pupcup-base/blockchains/base/assets/0x42BAb297f90e6285546F05abdF4C42D8415E9794/logo.png"
+  }
+]
