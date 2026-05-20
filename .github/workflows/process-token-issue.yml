@@ -103,9 +103,16 @@ jobs:
           script: |
             // -------- 1. Determine request type from the issue's label --------
             const labels = (context.payload.issue.labels || []).map((l) => l.name);
+            const hasTokenRequest = labels.includes('token-request');
+            const hasDenyRequest = labels.includes('deny-request');
             let requestType = '';
-            if (labels.includes('token-request')) requestType = 'add';
-            else if (labels.includes('deny-request')) requestType = 'deny';
+            if (hasTokenRequest && hasDenyRequest) {
+              // Ambiguous — refuse to pick a flow rather than silently routing
+              // to one. Treated the same as no-matching-label: the next step
+              // posts an explanation back to the issue.
+              core.warning('Issue has both `token-request` and `deny-request` labels — refusing to dispatch (ambiguous).');
+            } else if (hasTokenRequest) requestType = 'add';
+            else if (hasDenyRequest) requestType = 'deny';
 
             // Capture which command was actually typed (for friendlier error messages).
             const body = context.payload.comment.body || '';
@@ -209,7 +216,7 @@ jobs:
           gh api -X POST "/repos/${{ github.repository }}/issues/comments/${{ github.event.comment.id }}/reactions" \
             -f content='-1' || true
           gh issue comment "${{ github.event.issue.number }}" --body "$(cat <<EOF
-          ❌ @${ACTOR} — this issue has neither the \`token-request\` nor the \`deny-request\` label, so I don't know whether to apply \`${COMMAND}\` as a token add or a token deny. If this issue was opened from one of the templates, the label is normally applied automatically — try editing the labels and re-running \`${COMMAND}\`.
+          ❌ @${ACTOR} — I can't dispatch \`${COMMAND}\` on this issue: it needs exactly one of the \`token-request\` or \`deny-request\` labels, but it has either neither or both. If this issue was opened from one of the templates, the label is normally applied automatically — try editing the labels (keep exactly one of the two) and re-running \`${COMMAND}\`.
           EOF
           )"
           # Stop the rest of the workflow cleanly.
