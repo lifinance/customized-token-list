@@ -1,0 +1,116 @@
+# on-new-issue — Token-request issue housekeeping + Slack notification.
+#
+# Triggers when a new issue is opened. For issues created from the "Add a token"
+# template (label: token-request) it:
+#   1. Parses the structured form body.
+#   2. Rewrites the title from "[token request] <chainId> <symbol>" placeholder
+#      to "[token request] chain <real-id> <real-symbol>" so the issues list,
+#      search, and Slack notification all show real data instead of literal
+#      angle-bracket placeholders.
+#   3. Posts a Slack ping to #dev-backend-expansion-review with the resolved
+#      title so internals can pick it up fast.
+#
+# For non-token-request issues, only the Slack ping fires (with the original
+# title untouched).
+#
+# Only fires on `opened` (not edits / labels / comments) to avoid noise and to
+# guarantee no self-trigger loop from the title edit.
+
+name: On new issue
+
+on:
+  issues:
+    types: [opened]
+
+# Most steps run under the App installation token (which scopes its own
+# permissions); the workflow-level GITHUB_TOKEN is unused for mutations.
+permissions:
+  issues: read
+
+jobs:
+  process:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Mint App installation token
+        id: app-token
+        uses: actions/create-github-app-token@d72941d797fd3113feb6b93fd0dec494b13a2547 # v1.9.3
+        with:
+          app-id: ${{ secrets.TOKENLIST_BOT_APP_ID }}
+          private-key: ${{ secrets.TOKENLIST_BOT_PRIVATE_KEY }}
+
+      - name: Parse form fields and rewrite title
+        id: parse
+        if: contains(github.event.issue.labels.*.name, 'token-request')
+        uses: actions/github-script@f28e40c7f34bde8b3046d885e986cb6290c5673b # v7.1.0
+        with:
+          github-token: ${{ steps.app-token.outputs.token }}
+          script: |
+            // Same field-extraction pattern as .github/workflows/add-token.yml.
+            // Issue Forms render each field as: ### <Label>\n\n<value>\n\n
+            const body = context.payload.issue.body || '';
+            const fields = {};
+            const re = /^###\s+(.+?)\s*\n+([\s\S]*?)(?=\n###\s+|\n*$)/gm;
+            let m;
+            while ((m = re.exec(body)) !== null) {
+              fields[m[1].trim()] = m[2].trim();
+            }
+            const get = (label) => {
+              const v = fields[label];
+              if (!v || v === '_No response_') return '';
+              return v;
+            };
+
+            const chainId = get('Chain ID');
+            const symbol = get('Symbol');
+            core.setOutput('chainId', chainId);
+            core.setOutput('symbol', symbol);
+
+            // If we couldn't extract both fields, leave the title alone — the
+            // /add-token bot's validation will surface the missing-fields error
+            // back to the issue on the first run.
+            if (!chainId || !symbol) {
+              core.warning(`Could not parse chainId="${chainId}" symbol="${symbol}" from issue body; leaving title unchanged.`);
+              core.setOutput('title', context.payload.issue.title);
+              return;
+            }
+
+            const newTitle = `[token request] chain ${chainId} ${symbol}`;
+            if (newTitle === context.payload.issue.title) {
+              core.info(`Title is already "${newTitle}"; no rewrite needed.`);
+              core.setOutput('title', newTitle);
+              return;
+            }
+
+            await github.rest.issues.update({
+              owner: context.repo.owner,
+              repo: context.repo.repo,
+              issue_number: context.payload.issue.number,
+              title: newTitle,
+            });
+            core.info(`Rewrote issue #${context.payload.issue.number} title to "${newTitle}".`);
+            core.setOutput('title', newTitle);
+
+      - name: Post to Slack
+        uses: slackapi/slack-github-action@37ebaef184d7626c5f204ab8d3baff4262dd30f0 # v1.27.0
+        with:
+          webhook: ${{ secrets.SLACK_WEBHOOK_DEV_BACKEND_EXPANSION_REVIEW }}
+          webhook-type: incoming-webhook
+          # Use the rewritten title from the parse step when available; fall
+          # back to the original title (non-token-request issues, or parse
+          # failures).
+          # User-controlled values are wrapped in toJSON(format()) so any
+          # embedded quotes, backslashes, or newlines are safely escaped and
+          # can't break the JSON payload structure.
+          payload: |
+            {
+              "text": ${{ toJSON(format('🆕 New token-list issue: <{0}|#{1} — {2}>', github.event.issue.html_url, github.event.issue.number, steps.parse.outputs.title || github.event.issue.title)) }},
+              "blocks": [
+                {
+                  "type": "section",
+                  "text": {
+                    "type": "mrkdwn",
+                    "text": ${{ toJSON(format('🆕 *New token-list issue* <{0}|#{1}>\n*{2}*\nOpened by `{3}` — a member of `@lifinance/fullstack` or `@lifinance/techsupport` can convert it to a PR by commenting `/add-token` on the issue.', github.event.issue.html_url, github.event.issue.number, steps.parse.outputs.title || github.event.issue.title, github.event.issue.user.login)) }}
+                  }
+                }
+              ]
+            }

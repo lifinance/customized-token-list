@@ -14,5 +14,21 @@
     "decimals": 6,
     "chainId": 30,
     "logoURI": "https://assets.coingecko.com/coins/images/53705/standard/usdt0.jpg?1737086183"
+  },
+  {
+    "name": "Midas US Treasury Bill Token",
+    "address": "0xDD629E5241CbC5919847783e6C96B2De4754e438",
+    "symbol": "mTBILL",
+    "decimals": 18,
+    "chainId": 30,
+    "logoURI": "https://assets.coingecko.com/coins/images/37839/standard/mTBILL_token.png"
+  },
+  {
+    "name": "Midas Hyperithm BTC",
+    "address": "0x7F71f02aE0945364F658860d67dbc10c86Ca3a3C",
+    "symbol": "mHyperBTC",
+    "decimals": 18,
+    "chainId": 30,
+    "logoURI": "https://assets.coingecko.com/coins/images/71550/standard/mhyperbtc-Bvh-K9IL.png"
   }
 ]

@@ -22,5 +22,29 @@
     "symbol": "CUSD",
     "decimals": 18,
     "logoURI": "https://static.debank.com/image/eth_token/logo_url/0xcccc62962d17b8914c62d74ffb843d73b2a3cccc/e49a46e599dff3147a8bc918364b1c11.png"
+  },
+  {
+    "chainId": 4326,
+    "address": "0x601aC63637933D88285A025C685AC4e9a92a98dA",
+    "name": "Wrapped liquid staked Ether 2.0",
+    "symbol": "wstETH",
+    "decimals": 18,
+    "logoURI": "https://static.debank.com/image/eth_token/logo_url/0x7f39c581f595b53c5cb19bd0b3f8da6c935e2ca0/d0405a0d11669d4e75286d8dd808e19b.png"
+  },
+  {
+    "chainId": 4326,
+    "address": "0x5d3a1Ff2b6BAb83b63cd9AD0787074081a52ef34",
+    "name": "USDe",
+    "symbol": "USDe",
+    "decimals": 18,
+    "logoURI": "https://static.debank.com/image/hyper_token/logo_url/0x5d3a1ff2b6bab83b63cd9ad0787074081a52ef34/2b2f84856552421d8305bbc71db49979.png"
+  },
+  {
+    "chainId": 4326,
+    "address": "0x15B271D9012b5820FC42b1c495B4C1e206547De5",
+    "name": "Wrapped iTRY",
+    "symbol": "wiTRY",
+    "decimals": 18,
+    "logoURI": "https://assets.brix.money/itry/witry.svg"
   }
 ]

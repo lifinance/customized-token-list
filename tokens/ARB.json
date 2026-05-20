@@ -320,6 +320,14 @@
     "symbol": "stUSD"
   },
   {
+    "address": "0xb23bB8c2C6Cb9169eeaC8f2Bd42fcf333A1a8C55",
+    "chainId": 42161,
+    "symbol": "NOX",
+    "decimals": 18,
+    "name": "Noxcat",
+    "logoURI": "https://drive.google.com/file/d/1rAVo93EjQXAUlyabFiEwyMyXxgY5WszQ/view?usp=drive_link"
+  }, 
+  {
     "address": "0x656B80B667a46869144047E6e6C0000C81610253",
     "chainId": 42161,
     "symbol": "ANGLE",
@@ -542,5 +550,29 @@
     "decimals": 18,
     "name": "Monerium EURe",
     "symbol": "EURe"
+  },
+  {
+    "name": "USDai",
+    "address": "0x0A1a1A107E45b7Ced86833863f482BC5f4ed82EF",
+    "symbol": "USDai",
+    "decimals": 18,
+    "chainId": 42161,
+    "logoURI": "https://app.usd.ai/svg/erc20/usdai.svg"
+  },
+  {
+    "name": "Staked USDai",
+    "address": "0x0B2b2B2076d95dda7817e785989fE353fe955ef9",
+    "symbol": "sUSDai",
+    "decimals": 18,
+    "chainId": 42161,
+    "logoURI": "https://app.usd.ai/svg/erc20/susdai.svg"
+  },
+  {
+      "name": "USDSM",
+      "address": "0x26C358F7c5fEdB20a6ddEf108cD91Efb6B8Da0Cb",
+      "symbol": "USDSM",
+      "decimals": 18,
+      "chainId": 42161,
+      "logoURI": "https://raw.githubusercontent.com/curvefi/curve-assets/refs/heads/main/images/assets-etherlink/0x6bde51212203ae5d592cc5180da2abbd41c922de.png"
   }
 ]

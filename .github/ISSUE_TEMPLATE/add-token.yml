@@ -1,0 +1,105 @@
+name: Add a token to the customized token list
+description: Request a new token to be added to the LI.FI customized token list.
+title: "[token request]"
+labels: ["token-request"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for contributing! Fill in the fields below and an internal LI.FI team member will pick this up and turn it into a PR (typically within a few working days — we get a Slack notification the moment your issue is opened).
+
+        **All fields are required unless marked optional.** Incomplete submissions will be closed without action.
+
+        We'll reach out via GitHub on this issue if we have questions — your GitHub username is captured automatically when you open the issue, so an email address is only needed as a fallback contact.
+
+        ⚠️ **The chain must already be supported in this repo** (browse the [`tokens/`](https://github.com/lifinance/customized-token-list/tree/main/tokens) folder — each file represents one chain). **If your chain isn't there yet, please [contact LI.FI support](https://help.li.fi/hc/en-us/requests/new) instead** — adding a new chain requires an internal team member to set it up first, and support will route the request to the right people.
+
+  - type: input
+    id: partner-org
+    attributes:
+      label: Partner / organization
+      description: Which company or project is this request from? (e.g. `Ledger`, `Phantom`, `community`).
+      placeholder: e.g. Ledger
+    validations:
+      required: true
+
+  - type: input
+    id: contact
+    attributes:
+      label: Contact email (optional)
+      description: Fallback contact if we can't reach you on GitHub. Leave blank to be contacted via GitHub only.
+      placeholder: e.g. partnerships@example.com
+    validations:
+      required: false
+
+  - type: input
+    id: chainId
+    attributes:
+      label: Chain ID
+      description: |
+        The numeric chain ID (e.g. `1` for Ethereum, `42161` for Arbitrum, `8453` for Base, `137` for Polygon, `56` for BNB Smart Chain). You can find chain IDs at <https://chainlist.org> or in LI.FI's [`/chains` API endpoint](https://li.quest/v1/chains).
+      placeholder: e.g. 1
+    validations:
+      required: true
+
+  - type: input
+    id: address
+    attributes:
+      label: Token contract address
+      description: The deployed token contract address on the chain above. For EVM chains, use the checksummed address.
+      placeholder: e.g. 0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48
+    validations:
+      required: true
+
+  - type: input
+    id: symbol
+    attributes:
+      label: Symbol
+      placeholder: e.g. USDC
+    validations:
+      required: true
+
+  - type: input
+    id: name
+    attributes:
+      label: Name
+      placeholder: e.g. USD Coin
+    validations:
+      required: true
+
+  - type: input
+    id: decimals
+    attributes:
+      label: Decimals
+      placeholder: e.g. 6
+    validations:
+      required: true
+
+  - type: input
+    id: logoURI
+    attributes:
+      label: Logo URL
+      description: A publicly-reachable, permanent URL to the token logo (PNG or SVG, ideally 256x256 or larger, transparent background).
+      placeholder: e.g. https://example.com/logos/usdc.png
+    validations:
+      required: true
+
+  - type: textarea
+    id: justification
+    attributes:
+      label: Justification
+      description: Why should this token be added? Link your project, Coingecko page, and socials so we can validate the token.
+    validations:
+      required: true
+
+  - type: checkboxes
+    id: confirmation
+    attributes:
+      label: Confirmation
+      options:
+        - label: I have searched existing issues and confirmed this token is not already requested or listed.
+          required: true
+        - label: The contract address above is correct and refers to a legitimate, non-malicious token.
+          required: true
+        - label: The logo URL is permanent (not a temporary or signed URL that will expire).
+          required: true

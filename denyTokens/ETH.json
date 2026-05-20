@@ -328,5 +328,35 @@
     "address": "0x1773D273C84E45066BfBAA47a4aa805a2c2C8B1f",
     "chainId": 1,
     "reason": "Scam token. Missleading token name"
+  },
+  {
+    "address": "0x0000A1c00009A619684135B824Ba02f7FbF3A572",
+    "chainId": 1,
+    "reason": "Low liquidity affecting priceUSD reliability"
+  },
+  {
+    "address": "0xAAF2F127D4A6bc330B21fB092A2F3F34a73A60de",
+    "chainId": 1,
+    "reason": "Has hidden blacklisting blocks transfers via intermediary contracts"
+  },
+  {
+    "address": "0x1A3496C18d558bd9C6C8f609E1B129f67AB08163",
+    "chainId": 1,
+    "reason": "Forces receiving contracts to implement tokenFallback function"
+  },
+  {
+    "address": "0x986EE2B944c42D017F52Af21c4c69B84DBeA35d8",
+    "chainId": 1,
+    "reason": "Reverts on approve(0), breaking swap allowance reset"
+  },
+  {
+    "address": "0xb1A7F8b3AdA1Cbd7752c1306725b07D2F8B4e726",
+    "chainId": 1,
+    "reason": "Fake WETH impersonating well-known WETH with inflated marketcap"
+  },
+  {
+    "address": "0xd197526ca57F14934E7f485Df373Fb0904D34A37",
+    "chainId": 1,
+    "reason": "Misleading token identity (KAIO); user received unintended asset — https://jumper.xyz/scan/tx/0x51a47b76b4496b3f3766eef697bc998dd298bbbe33c0e0c2bc497d41a74bbd06"
   }
 ]
