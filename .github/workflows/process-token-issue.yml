@@ -265,7 +265,16 @@ jobs:
         env:
           PAYLOAD: ${{ steps.parse.outputs.payload }}
           REQUEST_TYPE: ${{ steps.parse.outputs.requestType }}
+        # `set -o pipefail` is essential here: without it, the bash pipeline
+        # `node ... | tee` returns tee's exit code (always 0), so apply.outcome
+        # would be 'success' even when the apply script exited 1 (atomic
+        # reject, validation failure, etc.). That would skip the
+        # "Report apply failure back to issue" step and leave partners with
+        # only the 👀 reaction and no feedback. pipefail propagates node's
+        # exit code, so apply.outcome correctly becomes 'failure' on script
+        # failure and the report step fires.
         run: |
+          set -o pipefail
           if [ "$REQUEST_TYPE" = "add" ]; then
             node .github/scripts/apply-token.mjs 2>&1 | tee /tmp/apply.log
           else
