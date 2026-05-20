@@ -206,5 +206,29 @@
     "chainId": 999,
     "decimals": 18,
     "logoURI": "https://storage.googleapis.com/zapper-fi-assets/tokens/ethereum/0x1d926bbe67425c9f507b9a0e8030eedc7880bf33.png"
+  },
+  {
+    "address": "0xF72CE39998D2075f6661CF4214CfFE3cf38Da72f",
+    "chainId": 999,
+    "logoURI": "https://assets.coingecko.com/coins/images/70558/large/yzusd.png",
+    "decimals": 18,
+    "name": "Yuzu USD",
+    "symbol": "yzUSD"
+  },
+  {
+    "address": "0x34C07f50c4f55B322E85DEeb265d278E6af112E4",
+    "chainId": 999,
+    "logoURI": "https://assets.coingecko.com/coins/images/70132/large/Group_427319351.png",
+    "decimals": 18,
+    "name": "Staked Yuzu USD",
+    "symbol": "syzUSD"
+  },
+  {
+    "address": "0x8CBafE7847606FF9aC5eb5e8dd54E5459E8dcC51",
+    "chainId": 999,
+    "logoURI": "https://assets.coingecko.com/coins/images/71043/large/yzPP_%281%29.png?1765442029",
+    "decimals": 18,
+    "name": "Yuzu Protection Pool",
+    "symbol": "yzPP"
   }
 ]
