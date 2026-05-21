@@ -204,6 +204,9 @@ const main = (): void => {
       // (fewest changed fields) and emit one Update with that field list.
       const remainingOld = oldEntries.slice()
       for (const next of newEntries) {
+        // Extra new entries within a bucket (e.g. a PR adds a second
+        // variant at the same address) are additions, not updates.
+        if (remainingOld.length === 0) continue
         let bestIdx = -1
         let bestDiff: string[] = COMPARED_FIELDS.slice()
         for (let i = 0; i < remainingOld.length; i++) {
