@@ -230,5 +230,13 @@
     "decimals": 18,
     "name": "Yuzu Protection Pool",
     "symbol": "yzPP"
+  },
+    {
+    "address": "0xd0Ee0CF300DFB598270cd7F4D0c6E0D8F6e13f29",
+    "chainId": 999,
+    "logoURI": "https://assets.coingecko.com/coins/images/102172640/standard/AVLT_200x200_Kopie.png?1774446611",
+    "decimals": 6,
+    "name": "Altura Vault Tokens",
+    "symbol": "AVLT"
   }
 ]
