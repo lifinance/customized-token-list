@@ -1,0 +1,54 @@
+# notify-token-updates — Slack ping when a merged PR updates existing tokens.
+#
+# The consuming API caches the token list for 1h. Newly-added tokens are picked
+# up automatically when the cache expires, but already-existing tokens whose
+# metadata changed (logoURI, name, decimals, symbol) require a manual call to
+# `PATCH /tokens` with an admin API key. This workflow detects exactly that
+# case after a merge to `main` and posts to Slack so an admin-key holder can
+# trigger the refresh.
+#
+# The diff logic — and the rules for what counts as "an update to an existing
+# token" — live in `scripts/detect-token-updates.ts`. Newly-added tokens and
+# removals are intentionally not flagged here.
+
+name: Notify token updates
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - 'tokens/**'
+
+permissions:
+  contents: read
+
+jobs:
+  detect-and-notify:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout (full history for diff)
+        uses: actions/checkout@34e114876b0b11c390a56381ad16ebd13914f8d5 # v4.3.1
+        with:
+          # We need both the pre- and post-merge tree to diff. A shallow
+          # checkout would not have github.event.before reachable.
+          fetch-depth: 0
+
+      - name: Install dependencies
+        uses: ./.github/actions/install
+
+      - name: Detect updated tokens
+        id: detect
+        env:
+          BEFORE_SHA: ${{ github.event.before }}
+          AFTER_SHA: ${{ github.sha }}
+          GITHUB_REPOSITORY: ${{ github.repository }}
+          GITHUB_SERVER_URL: ${{ github.server_url }}
+        run: pnpm ts-node scripts/detect-token-updates.ts
+
+      - name: Post to Slack
+        if: steps.detect.outputs.has_updates == 'true'
+        uses: slackapi/slack-github-action@45a88b9581bfab2566dc881e2cd66d334e621e2c # v3.0.3
+        with:
+          webhook: ${{ secrets.SLACK_WEBHOOK_TOKEN_UPDATES }}
+          webhook-type: incoming-webhook
+          payload: ${{ steps.detect.outputs.slack_payload }}
