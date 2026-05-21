@@ -59,7 +59,8 @@ const readBlobAtRev = (rev: string, file: string): Token[] => {
 
 const readBlobOnDisk = (file: string): Token[] => {
   if (!existsSync(file)) return []
-  return JSON.parse(readFileSync(file, 'utf8'))
+  const parsed = JSON.parse(readFileSync(file, 'utf8'))
+  return Array.isArray(parsed) ? parsed : []
 }
 
 const key = (t: Pick<Token, 'chainId' | 'address'>): string =>
