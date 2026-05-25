@@ -1398,5 +1398,13 @@
     "chainId": 56,
     "decimals": 18,
     "logoURI": "https://assets.coingecko.com/coins/images/71751/standard/wcc.jpg?1769157740"
+  },
+  {
+    "address": "0xa9D72F6C1490647DF20E8Fad3C136cA6AC42c2fc",
+    "chainId": 56,
+    "logoURI": "https://raw.githubusercontent.com/zarocoin/zarocoin/main/media/logos/ZARO_logo_2D.png",
+    "decimals": 18,
+    "name": "Zaro Coin",
+    "symbol": "ZARO"
   }
 ]

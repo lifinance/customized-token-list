@@ -111,7 +111,7 @@
     "name": "Loaded Lions",
     "symbol": "LION"
   },
-   {
+  {
     "address": "CRTx1JouZhzSU6XytsE42UQraoGqiHgxabocVfARTy2s",
     "chainId": 1151111081099710,
     "logoURI": "https://res.cloudinary.com/dnu9h68sh/image/upload/v1757607855/carrot_rf3gkd.png",
@@ -119,12 +119,20 @@
     "name": "Carrot",
     "symbol": "CRT"
   },
-   {
+  {
     "address": "JDt9rRGaieF6aN1cJkXFeUmsy7ZE4yY3CZb8tVMXVroS",
     "chainId": 1151111081099710,
     "logoURI": "https://wncdtzbyon524a7yhquslzhttjpgsvodmfpgnihrukkcsq7golwq.arweave.net/s0Q55Dhze64D-DwpJeTzml5pVcNhXmag8aKUKUPmcu0",
     "decimals": 8,
     "name": "Zenrock ZEC",
     "symbol": "zenZEC"
+  },
+  {
+    "address": "AbzXS6NfGvCtg5B1rqZ1JSfoDHkwTAeEYJkWkHhCe38W",
+    "chainId": 1151111081099710,
+    "logoURI": "https://raw.githubusercontent.com/zarocoin/zarocoin/main/media/logos/ZARO_logo_2D.png",
+    "decimals": 8,
+    "name": "Zaro Coin",
+    "symbol": "ZARO"
   }
 ]
