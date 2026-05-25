@@ -326,7 +326,7 @@
     "decimals": 18,
     "name": "Noxcat",
     "logoURI": "https://drive.google.com/file/d/1rAVo93EjQXAUlyabFiEwyMyXxgY5WszQ/view?usp=drive_link"
-  }, 
+  },
   {
     "address": "0x656B80B667a46869144047E6e6C0000C81610253",
     "chainId": 42161,
@@ -568,11 +568,19 @@
     "logoURI": "https://app.usd.ai/svg/erc20/susdai.svg"
   },
   {
-      "name": "USDSM",
-      "address": "0x26C358F7c5fEdB20a6ddEf108cD91Efb6B8Da0Cb",
-      "symbol": "USDSM",
-      "decimals": 18,
-      "chainId": 42161,
-      "logoURI": "https://raw.githubusercontent.com/curvefi/curve-assets/refs/heads/main/images/assets-etherlink/0x6bde51212203ae5d592cc5180da2abbd41c922de.png"
+    "name": "USDSM",
+    "address": "0x26C358F7c5fEdB20a6ddEf108cD91Efb6B8Da0Cb",
+    "symbol": "USDSM",
+    "decimals": 18,
+    "chainId": 42161,
+    "logoURI": "https://raw.githubusercontent.com/curvefi/curve-assets/refs/heads/main/images/assets-etherlink/0x6bde51212203ae5d592cc5180da2abbd41c922de.png"
+  },
+  {
+    "address": "0x00f3C42833C3170159af4E92dbb451Fb3F708917",
+    "chainId": 42161,
+    "logoURI": "https://assets.coingecko.com/coins/images/14495/standard/Internet_Computer_logo.png?1696514180",
+    "decimals": 8,
+    "name": "ICP",
+    "symbol": "ICP"
   }
 ]
