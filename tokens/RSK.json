@@ -30,5 +30,13 @@
     "decimals": 18,
     "chainId": 30,
     "logoURI": "https://assets.coingecko.com/coins/images/71550/standard/mhyperbtc-Bvh-K9IL.png"
+  },
+  {
+    "address": "0x0000000000000000000000000000000000000000",
+    "chainId": 30,
+    "logoURI": "https://assets.coingecko.com/coins/images/5070/standard/rBTC_primary_symbol_256x256_%281%29.png?1779524021",
+    "decimals": 18,
+    "name": "Bitcoin on Rootstock",
+    "symbol": "RBTC"
   }
 ]
