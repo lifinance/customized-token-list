@@ -1086,5 +1086,13 @@
     "decimals": 18,
     "name": "Bitget Token",
     "symbol": "BGB"
+  },
+  {
+    "address": "0xd55159FE5633e24510D5317d224324413407C5B8",
+    "chainId": 1,
+    "logoURI": "https://www.useboardwalk.com/images/power/logo.svg",
+    "decimals": 18,
+    "name": "Boardwalk",
+    "symbol": "BMX"
   }
 ]
