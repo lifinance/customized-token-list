@@ -22,5 +22,21 @@
     "decimals": 6,
     "name": "USDC.e",
     "logoURI": "https://raw.githubusercontent.com/morph-l2/morph-list/main/tokenIcons/USDC.e.svg"
+  },
+  {
+    "address": "0xe7cd86e13AC4309349F30B3435a9d337750fC82D",
+    "chainId": 2818,
+    "symbol": "USDT0",
+    "decimals": 6,
+    "name": "USDT0",
+    "logoURI": "https://raw.githubusercontent.com/morph-l2/morph-list/main/tokenIcons/USDT0.svg"
+  },
+  {
+    "address": "0xCfb1186F4e93D60E60a8bDd997427D1F33bc372B",
+    "chainId": 2818,
+    "symbol": "USDC",
+    "decimals": 6,
+    "name": "USDC",
+    "logoURI": "https://raw.githubusercontent.com/morph-l2/morph-list/main/tokenIcons/USDC.svg"
   }
 ]
