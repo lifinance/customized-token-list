@@ -6,5 +6,21 @@
     "decimals": 18,
     "name": "BitgetToken",
     "logoURI": "https://raw.githubusercontent.com/morph-l2/morph-list/main/tokenIcons/BGB.svg"
+  },
+  {
+    "address": "0xe7cd86e13AC4309349F30B3435a9d337750fC82D",
+    "chainId": 2818,
+    "symbol": "USDT.e",
+    "decimals": 6,
+    "name": "USDT.e",
+    "logoURI": "https://raw.githubusercontent.com/morph-l2/morph-list/main/tokenIcons/USDT.e.svg"
+  },
+  {
+    "address": "0xCfb1186F4e93D60E60a8bDd997427D1F33bc372B",
+    "chainId": 2818,
+    "symbol": "USDC.e",
+    "decimals": 6,
+    "name": "USDC.e",
+    "logoURI": "https://raw.githubusercontent.com/morph-l2/morph-list/main/tokenIcons/USDC.e.svg"
   }
 ]
