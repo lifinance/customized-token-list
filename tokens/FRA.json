@@ -30,5 +30,13 @@
     "decimals": 18,
     "name": "FRAX",
     "logoURI": "https://static.debank.com/image/movr_token/logo_url/0x965f84d915a9efa2dd81b653e3ae736555d945f4/1f2c42cba1add081f314ee899ab67816.png"
+  },
+  {
+    "address": "0xEA34EbBC94df7BfEC5D9CDCd373a4221B7c87810",
+    "chainId": 252,
+    "symbol": "BMX",
+    "decimals": 18,
+    "name": "Boardwalk",
+    "logoURI": "https://www.useboardwalk.com/images/power/logo.svg"
   }
 ]
