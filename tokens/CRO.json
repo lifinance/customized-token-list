@@ -22,5 +22,13 @@
     "decimals": 18,
     "name": "Crotch",
     "symbol": "CROTCH"
+  },
+  {
+    "address": "0x13C0ff45D019A5888Db92631F18556211001883D",
+    "chainId": 25,
+    "logoURI": "https://dd.dexscreener.com/ds-data/tokens/cronos/0x13c0ff45d019a5888db92631f18556211001883d.png?size=lg",
+    "decimals": 18,
+    "name": "EXCELLENCE",
+    "symbol": "EOP"
   }
 ]
