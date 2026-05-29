@@ -6,5 +6,13 @@
     "decimals": 18,
     "name": "USD Somnia",
     "symbol": "USDso"
+  },
+  {
+    "address": "0xC5098b3cA516784323872F17235fa074E167D3D2",
+    "chainId": 5031,
+    "logoURI": "https://www.wbtc.network/brandkit/logo2-white.png",
+    "decimals": 8,
+    "name": "Wrapped BTC",
+    "symbol": "WBTC"
   }
 ]
