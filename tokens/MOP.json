@@ -8,7 +8,7 @@
     "logoURI": "https://raw.githubusercontent.com/morph-l2/morph-list/main/tokenIcons/BGB.svg"
   },
   {
-    "address": "0xe7cd86e13AC4309349F30B3435a9d337750fC82D",
+    "address": "0xc7D67A9cBB121b3b0b9c053DD9f469523243379A",
     "chainId": 2818,
     "symbol": "USDT.e",
     "decimals": 6,
@@ -16,7 +16,7 @@
     "logoURI": "https://raw.githubusercontent.com/morph-l2/morph-list/main/tokenIcons/USDT.e.svg"
   },
   {
-    "address": "0xCfb1186F4e93D60E60a8bDd997427D1F33bc372B",
+    "address": "0xe34c91815d7fc18A9e2148bcD4241d0a5848b693",
     "chainId": 2818,
     "symbol": "USDC.e",
     "decimals": 6,
