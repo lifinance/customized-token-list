@@ -14,5 +14,13 @@
     "chainId": 57073,
     "decimals": 18,
     "logoURI": "https://raw.githubusercontent.com/parallel-protocol/parallel-brand-kit/main/Tokens/USDp/USDp.svg"
+  },
+  {
+    "address": "0x5e8a26a9ed06b56bc1d90ceee2c6ae892b4b835c",
+    "chainId": 57073,
+    "logoURI": "https://www.useboardwalk.com/images/power/logo.svg",
+    "decimals": 18,
+    "name": "Boardwalk",
+    "symbol": "BMX"
   }
 ]
