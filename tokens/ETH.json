@@ -1094,5 +1094,13 @@
     "decimals": 18,
     "name": "Boardwalk",
     "symbol": "BMX"
+  },
+  {
+    "address": "0xf9fb20b8e097904f0ab7d12e9dbee88f2dcd0f16",
+    "chainId": 1,
+    "logoURI": "https://assets.coingecko.com/coins/images/68416/standard/sbc-mark.png",
+    "decimals": 18,
+    "name": "Stable Coin",
+    "symbol": "SBC"
   }
 ]

@@ -342,5 +342,13 @@
     "decimals": 18,
     "chainId": 137,
     "logoURI": "https://assets.coingecko.com/coins/images/25971/standard/JPYC_Prepaid.png?1734356447"
+  },
+  {
+    "address": "0xfdcC3dd6671eaB0709A4C0f3F53De9a333d80798",
+    "chainId": 137,
+    "logoURI": "https://assets.coingecko.com/coins/images/68416/standard/sbc-mark.png",
+    "decimals": 18,
+    "name": "Stable Coin",
+    "symbol": "SBC"
   }
 ]
