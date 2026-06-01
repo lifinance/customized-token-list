@@ -726,5 +726,13 @@
     "decimals": 18,
     "name": "Zaro Coin",
     "symbol": "ZARO"
+  },
+  {
+    "address": "0xfdcC3dd6671eaB0709A4C0f3F53De9a333d80798",
+    "chainId": 8453,
+    "logoURI": "https://assets.coingecko.com/coins/images/33836/large/SBC.png",
+    "decimals": 18,
+    "name": "Stable Coin",
+    "symbol": "SBC"
   }
 ]

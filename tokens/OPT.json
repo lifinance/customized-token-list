@@ -182,5 +182,13 @@
     "chainId": 10,
     "decimals": 18,
     "logoURI": "https://raw.githubusercontent.com/parallel-protocol/parallel-brand-kit/main/Tokens/USDp/USDp.svg"
+  },
+  {
+    "address": "0xf9fb20b8e097904f0ab7d12e9dbee88f2dcd0f16",
+    "chainId": 10,
+    "logoURI": "https://assets.coingecko.com/coins/images/33836/large/SBC.png",
+    "decimals": 18,
+    "name": "Stable Coin",
+    "symbol": "SBC"
   }
 ]
