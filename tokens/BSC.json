@@ -1406,5 +1406,13 @@
     "decimals": 18,
     "name": "Zaro Coin",
     "symbol": "ZARO"
+  },
+  {
+    "address": "0xe60106a5cAb7e7C64830919d36Ab20CaAf50Ac91",
+    "chainId": 56,
+    "logoURI": "https://unitas.so/images/CoinLogo/logo-xgld.png",
+    "decimals": 6,
+    "name": "Unitas Gold",
+    "symbol": "XGLD"
   }
 ]
