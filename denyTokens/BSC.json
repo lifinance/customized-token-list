@@ -288,5 +288,10 @@
     "address": "0xAA091C8bd5bded850a78F1cf72d5029b19459237",
     "chainId": 56,
     "reason": "Tax token"
+  },
+  {
+    "chainId": 56,
+    "address": "0x3Ad7DaCb4573De5B01BF720cb4A86B296f05abb4",
+    "reason": "Non-standard token transfer restrictions make LI.FI requiresDeposit=true routes structurally unexecutable for normal swap amounts."
   }
 ]
