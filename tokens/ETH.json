@@ -1102,5 +1102,13 @@
     "decimals": 18,
     "name": "Stable Coin",
     "symbol": "SBC"
+  },
+  {
+    "address": "0xCc5C22C7A6BCC25e66726AeF011dDE74289ED203",
+    "chainId": 1,
+    "logoURI": "https://assets.coingecko.com/coins/images/102172397/standard/mM1-USD.png?1773314216",
+    "decimals": 18,
+    "name": "Midas M1 USD Market Neutral",
+    "symbol": "mM1-USD"
   }
 ]

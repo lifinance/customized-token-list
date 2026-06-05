@@ -190,5 +190,13 @@
     "decimals": 18,
     "name": "Stable Coin",
     "symbol": "SBC"
+  },
+  {
+    "address": "0xE7Ba07519dFA06e60059563F484d6090dedF21B3",
+    "chainId": 10,
+    "logoURI": "https://assets.coingecko.com/coins/images/102172907/standard/mre7eth-L64TBTee.png?1776525613",
+    "decimals": 18,
+    "name": "Midas Re7 Ethereum",
+    "symbol": "mRe7ETH"
   }
 ]
