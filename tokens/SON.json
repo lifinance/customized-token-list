@@ -30,5 +30,13 @@
     "chainId": 146,
     "decimals": 18,
     "logoURI": "https://raw.githubusercontent.com/parallel-protocol/parallel-brand-kit/main/Tokens/PRL/sPRL.svg"
+  },
+  {
+    "address": "0xC28f1D82874ccFebFE6afDAB3c685D5E709067E5",
+    "chainId": 146,
+    "logoURI": "https://www.useboardwalk.com/images/power/logo.svg",
+    "decimals": 18,
+    "name": "BMX",
+    "symbol": "BMX"
   }
 ]

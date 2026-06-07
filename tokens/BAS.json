@@ -742,5 +742,13 @@
     "decimals": 6,
     "name": "Unitas Gold",
     "symbol": "XGLD"
+  },
+  {
+    "address": "0x548f93779fbc992010c07467cbaf329dd5f059b7",
+    "chainId": 8453,
+    "logoURI": "https://www.useboardwalk.com/images/power/logo.svg",
+    "decimals": 18,
+    "name": "BMX",
+    "symbol": "BMX"
   }
 ]
