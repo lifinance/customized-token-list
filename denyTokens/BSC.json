@@ -293,5 +293,10 @@
     "chainId": 56,
     "address": "0x3Ad7DaCb4573De5B01BF720cb4A86B296f05abb4",
     "reason": "Non-standard token transfer restrictions make LI.FI requiresDeposit=true routes structurally unexecutable for normal swap amounts."
+  },
+  {
+    "chainId": 56,
+    "address": "0x8A972Ed397bEd7C0Cbc84cc3EFbC760bb07F80bb",
+    "reason": "Transfer-restricted (anti-bot cooldown). Sim reverts 'Transfer too soon, please wait.' — fails regardless of slippage. Tenderly sim: https://www.tdly.co/shared/simulation/96879db6-dfd5-4e0b-92ef-cfa3700d686b"
   }
 ]
