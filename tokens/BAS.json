@@ -680,6 +680,38 @@
     "logoURI": "https://platform.st0x.io/images/SPLG.png"
   },
   {
+    "name": "Wrapped NVIDIA Corporation ST0x",
+    "address": "0xFb5B41acdbA20a3230F84BE995173CFb98b8D6E7",
+    "symbol": "wtNVDA",
+    "decimals": 18,
+    "chainId": 8453,
+    "logoURI": "https://platform.st0x.io/images/NVDA.png"
+  },
+  {
+    "name": "Wrapped abrdn Physical Platinum Shares ETF ST0x",
+    "address": "0x82f5BAEE1076334357a34A19E04f7c282D51cE47",
+    "symbol": "wtPPLT",
+    "decimals": 18,
+    "chainId": 8453,
+    "logoURI": "https://platform.st0x.io/images/abrdn.png"
+  },
+  {
+    "name": "Wrapped Invesco NASDAQ 100 ETF ST0x",
+    "address": "0x823FF7Bbde2869aAe73A6CD53e7f614442836757",
+    "symbol": "wtQQQM",
+    "decimals": 18,
+    "chainId": 8453,
+    "logoURI": "https://platform.st0x.io/images/invesco.png"
+  },
+  {
+    "name": "Wrapped iShares 0-3 Month Treasury Bond ETF ST0x",
+    "address": "0x78c31580c97101694C70022c83D570150c11e935",
+    "symbol": "wtSGOV",
+    "decimals": 18,
+    "chainId": 8453,
+    "logoURI": "https://platform.st0x.io/images/ishares.png"
+  },
+  {
     "address": "0xD993935E13851dd7517af10687EC7e5022127228",
     "chainId": 8453,
     "logoURI": "https://assets.apyx.fi/tokens/apxUSD.png",
