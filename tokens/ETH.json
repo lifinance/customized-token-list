@@ -1110,5 +1110,13 @@
     "decimals": 18,
     "name": "Midas M1 USD Market Neutral",
     "symbol": "mM1-USD"
+  },
+  {
+    "address": "0xc9eef266834730340A55B6CC24621B31BAF55581",
+    "chainId": 1,
+    "logoURI": "https://cdn.ondo.finance/tokens/logos/spcxon_160x160.png",
+    "decimals": 18,
+    "name": "SpaceX (Ondo Tokenized)",
+    "symbol": "SPCXon"
   }
 ]
