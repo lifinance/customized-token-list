@@ -28,5 +28,10 @@
     "chainId": 1151111081099710,
     "address": "WEvsSbEe8SmDsZQmmKv4FsHTNAqVgdNuaB1Sxc1JvH5",
     "reason": "Scam WETH token with active freeze authority."
+  },
+  {
+    "chainId": 1151111081099710,
+    "address": "wzAdC34eo4sSxR2CwznSURSACxAc5JyJwgq92ycRbvr",
+    "reason": "Scam token impersonating SpaceX (Ondo/xStock). Spoofs symbol SPCXx and embeds the legitimate SPCXon token addresses (wzAyQTorWyoVXuJKj2x8EqKEGJpS13z6EWE9z5Aondo / 0xc9eef266834730340A55B6CC24621B31BAF55581) in its name to mislead users."
   }
 ]
