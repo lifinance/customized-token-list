@@ -134,5 +134,13 @@
     "decimals": 8,
     "name": "Zaro Coin",
     "symbol": "ZARO"
+  },
+  {
+    "address": "wzAyQTorWyoVXuJKj2x8EqKEGJpS13z6EWE9z5Aondo",
+    "chainId": 1151111081099710,
+    "logoURI": "https://cdn.ondo.finance/tokens/logos/spcxon_160x160.png",
+    "decimals": 9,
+    "name": "SpaceX (Ondo Tokenized)",
+    "symbol": "SPCXon"
   }
 ]
