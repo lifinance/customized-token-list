@@ -750,5 +750,21 @@
     "decimals": 18,
     "name": "BMX",
     "symbol": "BMX"
+  },
+  {
+    "address": "0x823FF7Bbde2869aAe73A6CD53e7f614442836757",
+    "chainId": 8453,
+    "logoURI": "https://platform.st0x.io/images/invesco.png",
+    "decimals": 18,
+    "name": "Wrapped Invesco NASDAQ 100 ETF ST0x",
+    "symbol": "wtQQQM"
+  },
+  {
+    "address": "0x78c31580c97101694C70022c83D570150c11e935",
+    "chainId": 8453,
+    "logoURI": "https://platform.st0x.io/images/ishares.png",
+    "decimals": 18,
+    "name": "Wrapped iShares 0-3 Month Treasury Bond ETF ST0x",
+    "symbol": "wtSGOV"
   }
 ]
