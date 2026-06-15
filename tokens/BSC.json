@@ -1438,5 +1438,13 @@
     "decimals": 18,
     "name": "SpaceX xStock",
     "symbol": "SPCXx"
+  },
+  {
+    "address": "0x86713f2Bf1969e41A5E003a97934801Acd291De7",
+    "chainId": 56,
+    "logoURI": "https://bscscan.com/token/images/ondo_spcxon.svg",
+    "decimals": 18,
+    "name": "Ample BSC SpaceX",
+    "symbol": "aBNSPCXon"
   }
 ]
