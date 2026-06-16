@@ -1126,5 +1126,13 @@
     "decimals": 18,
     "name": "SpaceX xStock",
     "symbol": "SPCXx"
+  },
+  {
+    "address": "0x7cf9a80db3b29ee8efe3710aadb7b95270572d47",
+    "chainId": 1,
+    "logoURI": "https://assets.coingecko.com/coins/images/39082/standard/nillion.jpg",
+    "decimals": 6,
+    "name": "Nillion",
+    "symbol": "NIL"
   }
 ]
