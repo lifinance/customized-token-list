@@ -766,5 +766,13 @@
     "decimals": 18,
     "name": "Wrapped iShares 0-3 Month Treasury Bond ETF ST0x",
     "symbol": "wtSGOV"
+  },
+  {
+    "address": "0x19F89aaEf8a93f38A974beca9776f09aB844887F",
+    "chainId": 8453,
+    "logoURI": "https://st0x.io/images/SPCX.svg",
+    "decimals": 18,
+    "name": "Wrapped Space Exploration Technologies Corp. ST0x",
+    "symbol": "wtSPCX"
   }
 ]
