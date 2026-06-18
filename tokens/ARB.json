@@ -598,5 +598,13 @@
     "decimals": 18,
     "name": "SpaceX xStock",
     "symbol": "SPCXx"
+  },
+  {
+    "address": "0xc2694a5c9f3a886d0467fce5e07f6211dfc86c48",
+    "chainId": 42161,
+    "logoURI": "https://www.useboardwalk.com/images/power/logo.svg",
+    "decimals": 18,
+    "name": "Boardwalk",
+    "symbol": "BMX"
   }
 ]
