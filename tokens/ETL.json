@@ -150,5 +150,29 @@
       "decimals": 18,
       "chainId": 42793,
       "logoURI": "https://raw.githubusercontent.com/0xRobWatson/token-logos/refs/heads/main/VNXAU.png"
+  },
+  {
+      "name": "Cobalt",
+      "address": "0x21a92d78F18268AdadA1227E1F1134C6C32DbD67",
+      "symbol": "xCo",
+      "decimals": 18,
+      "chainId": 42793,
+      "logoURI": "https://raw.githubusercontent.com/0xRobWatson/token-logos/refs/heads/main/xCo.png"
+  },
+  {
+      "name": "Nickel",
+      "address": "0x8190b536B30F519D10891eCBd96AbC52E2e70638",
+      "symbol": "xNi",
+      "decimals": 18,
+      "chainId": 42793,
+      "logoURI": "https://raw.githubusercontent.com/0xRobWatson/token-logos/refs/heads/main/xNi.png"
+  },
+  {
+      "name": "Palladium",
+      "address": "0x7CaD75fd9b0af41226a8FA1c5D01B99aAb3456c3",
+      "symbol": "xPd",
+      "decimals": 18,
+      "chainId": 42793,
+      "logoURI": "https://raw.githubusercontent.com/0xRobWatson/token-logos/refs/heads/main/xPd.png"
   }
 ]
