@@ -153,8 +153,8 @@
   },
   {
     "name": "SpaceX",
-    "address": "",
-    "symbol": "SpaceX",
+    "address": "0x4a0E65A3EcceC6dBe60AE065F2e7bb85Fae35eEa",
+    "symbol": "SPCX",
     "decimals": 18,
     "chainId": 4663,
     "logoURI": "https://raw.githubusercontent.com/lifinance/types/main/src/assets/icons/tokens/unknown.svg"
