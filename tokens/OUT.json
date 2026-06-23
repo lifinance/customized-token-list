@@ -5,7 +5,7 @@
     "symbol": "NVDA",
     "decimals": 18,
     "chainId": 4663,
-    "logoURI": ""
+    "logoURI": "https://raw.githubusercontent.com/lifinance/types/main/src/assets/icons/tokens/unknown.svg"
   },
   {
     "name": "Micron Technology",
@@ -13,7 +13,7 @@
     "symbol": "MU",
     "decimals": 18,
     "chainId": 4663,
-    "logoURI": ""
+    "logoURI": "https://raw.githubusercontent.com/lifinance/types/main/src/assets/icons/tokens/unknown.svg"
   },
   {
     "name": "Tesla",
@@ -21,7 +21,7 @@
     "symbol": "TSLA",
     "decimals": 18,
     "chainId": 4663,
-    "logoURI": ""
+    "logoURI": "https://raw.githubusercontent.com/lifinance/types/main/src/assets/icons/tokens/unknown.svg"
   },
   {
     "name": "Sandisk Corporation",
@@ -29,7 +29,7 @@
     "symbol": "SNDK",
     "decimals": 18,
     "chainId": 4663,
-    "logoURI": ""
+    "logoURI": "https://raw.githubusercontent.com/lifinance/types/main/src/assets/icons/tokens/unknown.svg"
   },
   {
     "name": "AMD",
@@ -37,7 +37,7 @@
     "symbol": "AMD",
     "decimals": 18,
     "chainId": 4663,
-    "logoURI": ""
+    "logoURI": "https://raw.githubusercontent.com/lifinance/types/main/src/assets/icons/tokens/unknown.svg"
   },
   {
     "name": "SPDR S&P 500 ETF Trust",
@@ -45,7 +45,7 @@
     "symbol": "SPY",
     "decimals": 18,
     "chainId": 4663,
-    "logoURI": ""
+    "logoURI": "https://raw.githubusercontent.com/lifinance/types/main/src/assets/icons/tokens/unknown.svg"
   },
   {
     "name": "Microsoft",
@@ -53,7 +53,7 @@
     "symbol": "MSFT",
     "decimals": 18,
     "chainId": 4663,
-    "logoURI": ""
+    "logoURI": "https://raw.githubusercontent.com/lifinance/types/main/src/assets/icons/tokens/unknown.svg"
   },
   {
     "name": "Palantir Technologies",
@@ -61,7 +61,7 @@
     "symbol": "PLTR",
     "decimals": 18,
     "chainId": 4663,
-    "logoURI": ""
+    "logoURI": "https://raw.githubusercontent.com/lifinance/types/main/src/assets/icons/tokens/unknown.svg"
   },
   {
     "name": "Intel",
@@ -69,7 +69,7 @@
     "symbol": "INTC",
     "decimals": 18,
     "chainId": 4663,
-    "logoURI": ""
+    "logoURI": "https://raw.githubusercontent.com/lifinance/types/main/src/assets/icons/tokens/unknown.svg"
   },
   {
     "name": "Invesco QQQ",
@@ -77,7 +77,7 @@
     "symbol": "QQQ",
     "decimals": 18,
     "chainId": 4663,
-    "logoURI": ""
+    "logoURI": "https://raw.githubusercontent.com/lifinance/types/main/src/assets/icons/tokens/unknown.svg"
   },
   {
     "name": "iShares Silver Trust",
@@ -85,7 +85,7 @@
     "symbol": "SLV",
     "decimals": 18,
     "chainId": 4663,
-    "logoURI": ""
+    "logoURI": "https://raw.githubusercontent.com/lifinance/types/main/src/assets/icons/tokens/unknown.svg"
   },
   {
     "name": "Circle Internet Group",
@@ -93,7 +93,7 @@
     "symbol": "CRCL",
     "decimals": 18,
     "chainId": 4663,
-    "logoURI": ""
+    "logoURI": "https://raw.githubusercontent.com/lifinance/types/main/src/assets/icons/tokens/unknown.svg"
   },
   {
     "name": "Meta Platforms",
@@ -101,7 +101,7 @@
     "symbol": "META",
     "decimals": 18,
     "chainId": 4663,
-    "logoURI": ""
+    "logoURI": "https://raw.githubusercontent.com/lifinance/types/main/src/assets/icons/tokens/unknown.svg"
   },
   {
     "name": "Apple",
@@ -109,7 +109,7 @@
     "symbol": "AAPL",
     "decimals": 18,
     "chainId": 4663,
-    "logoURI": ""
+    "logoURI": "https://raw.githubusercontent.com/lifinance/types/main/src/assets/icons/tokens/unknown.svg"
   },
   {
     "name": "Alphabet Class A",
@@ -117,7 +117,7 @@
     "symbol": "GOOGL",
     "decimals": 18,
     "chainId": 4663,
-    "logoURI": ""
+    "logoURI": "https://raw.githubusercontent.com/lifinance/types/main/src/assets/icons/tokens/unknown.svg"
   },
   {
     "name": "United States Oil Fund",
@@ -125,7 +125,7 @@
     "symbol": "USO",
     "decimals": 18,
     "chainId": 4663,
-    "logoURI": ""
+    "logoURI": "https://raw.githubusercontent.com/lifinance/types/main/src/assets/icons/tokens/unknown.svg"
   },
   {
     "name": "Amazon",
@@ -133,7 +133,7 @@
     "symbol": "AMZN",
     "decimals": 18,
     "chainId": 4663,
-    "logoURI": ""
+    "logoURI": "https://raw.githubusercontent.com/lifinance/types/main/src/assets/icons/tokens/unknown.svg"
   },
   {
     "name": "CoreWeave",
@@ -141,7 +141,7 @@
     "symbol": "CRWV",
     "decimals": 18,
     "chainId": 4663,
-    "logoURI": ""
+    "logoURI": "https://raw.githubusercontent.com/lifinance/types/main/src/assets/icons/tokens/unknown.svg"
   },
   {
     "name": "Oracle",
@@ -149,7 +149,7 @@
     "symbol": "ORCL",
     "decimals": 18,
     "chainId": 4663,
-    "logoURI": ""
+    "logoURI": "https://raw.githubusercontent.com/lifinance/types/main/src/assets/icons/tokens/unknown.svg"
   },
   {
     "name": "SpaceX",
@@ -157,7 +157,7 @@
     "symbol": "SpaceX",
     "decimals": 18,
     "chainId": 4663,
-    "logoURI": ""
+    "logoURI": "https://raw.githubusercontent.com/lifinance/types/main/src/assets/icons/tokens/unknown.svg"
   },
   {
     "name": "iShares 0-3 Month Treasury Bond ETF",
@@ -165,7 +165,7 @@
     "symbol": "SGOV",
     "decimals": 18,
     "chainId": 4663,
-    "logoURI": ""
+    "logoURI": "https://raw.githubusercontent.com/lifinance/types/main/src/assets/icons/tokens/unknown.svg"
   },
   {
     "name": "Bloom Energy",
@@ -173,7 +173,7 @@
     "symbol": "BE",
     "decimals": 18,
     "chainId": 4663,
-    "logoURI": ""
+    "logoURI": "https://raw.githubusercontent.com/lifinance/types/main/src/assets/icons/tokens/unknown.svg"
   },
   {
     "name": "USA Rare Earth",
@@ -181,7 +181,7 @@
     "symbol": "USAR",
     "decimals": 18,
     "chainId": 4663,
-    "logoURI": ""
+    "logoURI": "https://raw.githubusercontent.com/lifinance/types/main/src/assets/icons/tokens/unknown.svg"
   },
   {
     "name": "RVI",
@@ -189,7 +189,7 @@
     "symbol": "RVI",
     "decimals": 18,
     "chainId": 4663,
-    "logoURI": ""
+    "logoURI": "https://raw.githubusercontent.com/lifinance/types/main/src/assets/icons/tokens/unknown.svg"
   },
   {
     "name": "Roundhill Memory ETF",
@@ -197,7 +197,7 @@
     "symbol": "DRAM",
     "decimals": 18,
     "chainId": 4663,
-    "logoURI": ""
+    "logoURI": "https://raw.githubusercontent.com/lifinance/types/main/src/assets/icons/tokens/unknown.svg"
   },
   {
     "name": "Rocket Lab Corporation",
@@ -205,7 +205,7 @@
     "symbol": "RKLB",
     "decimals": 18,
     "chainId": 4663,
-    "logoURI": ""
+    "logoURI": "https://raw.githubusercontent.com/lifinance/types/main/src/assets/icons/tokens/unknown.svg"
   },
   {
     "name": "Cerebras Systems",
@@ -213,7 +213,7 @@
     "symbol": "CBRS",
     "decimals": 18,
     "chainId": 4663,
-    "logoURI": ""
+    "logoURI": "https://raw.githubusercontent.com/lifinance/types/main/src/assets/icons/tokens/unknown.svg"
   },
   {
     "name": "Alibaba",
@@ -221,7 +221,7 @@
     "symbol": "BABA",
     "decimals": 18,
     "chainId": 4663,
-    "logoURI": ""
+    "logoURI": "https://raw.githubusercontent.com/lifinance/types/main/src/assets/icons/tokens/unknown.svg"
   },
   {
     "name": "Coinbase",
@@ -229,7 +229,7 @@
     "symbol": "COIN",
     "decimals": 18,
     "chainId": 4663,
-    "logoURI": ""
+    "logoURI": "https://raw.githubusercontent.com/lifinance/types/main/src/assets/icons/tokens/unknown.svg"
   },
   {
     "name": "Arm Holdings plc",
@@ -237,7 +237,7 @@
     "symbol": "ARM",
     "decimals": 18,
     "chainId": 4663,
-    "logoURI": ""
+    "logoURI": "https://raw.githubusercontent.com/lifinance/types/main/src/assets/icons/tokens/unknown.svg"
   },
   {
     "name": "Qualcomm",
@@ -245,7 +245,7 @@
     "symbol": "QCOM",
     "decimals": 18,
     "chainId": 4663,
-    "logoURI": ""
+    "logoURI": "https://raw.githubusercontent.com/lifinance/types/main/src/assets/icons/tokens/unknown.svg"
   },
   {
     "name": "Lumentum",
@@ -253,7 +253,7 @@
     "symbol": "LITE",
     "decimals": 18,
     "chainId": 4663,
-    "logoURI": ""
+    "logoURI": "https://raw.githubusercontent.com/lifinance/types/main/src/assets/icons/tokens/unknown.svg"
   },
   {
     "name": "Dell",
@@ -261,7 +261,7 @@
     "symbol": "DELL",
     "decimals": 18,
     "chainId": 4663,
-    "logoURI": ""
+    "logoURI": "https://raw.githubusercontent.com/lifinance/types/main/src/assets/icons/tokens/unknown.svg"
   },
   {
     "name": "Marvell Technology",
@@ -269,7 +269,7 @@
     "symbol": "MRVL",
     "decimals": 18,
     "chainId": 4663,
-    "logoURI": ""
+    "logoURI": "https://raw.githubusercontent.com/lifinance/types/main/src/assets/icons/tokens/unknown.svg"
   },
   {
     "name": "Quantum Computing",
@@ -277,7 +277,7 @@
     "symbol": "QUBT",
     "decimals": 18,
     "chainId": 4663,
-    "logoURI": ""
+    "logoURI": "https://raw.githubusercontent.com/lifinance/types/main/src/assets/icons/tokens/unknown.svg"
   },
   {
     "name": "POET Technologies",
@@ -285,7 +285,7 @@
     "symbol": "POET",
     "decimals": 18,
     "chainId": 4663,
-    "logoURI": ""
+    "logoURI": "https://raw.githubusercontent.com/lifinance/types/main/src/assets/icons/tokens/unknown.svg"
   },
   {
     "name": "Strategy Inc.",
@@ -293,7 +293,7 @@
     "symbol": "MSTR",
     "decimals": 18,
     "chainId": 4663,
-    "logoURI": ""
+    "logoURI": "https://raw.githubusercontent.com/lifinance/types/main/src/assets/icons/tokens/unknown.svg"
   },
   {
     "name": "Corning",
@@ -301,7 +301,7 @@
     "symbol": "GLW",
     "decimals": 18,
     "chainId": 4663,
-    "logoURI": ""
+    "logoURI": "https://raw.githubusercontent.com/lifinance/types/main/src/assets/icons/tokens/unknown.svg"
   },
   {
     "name": "Nokia",
@@ -309,7 +309,7 @@
     "symbol": "NOK",
     "decimals": 18,
     "chainId": 4663,
-    "logoURI": ""
+    "logoURI": "https://raw.githubusercontent.com/lifinance/types/main/src/assets/icons/tokens/unknown.svg"
   },
   {
     "name": "D-Wave Quantum",
@@ -317,7 +317,7 @@
     "symbol": "QBTS",
     "decimals": 18,
     "chainId": 4663,
-    "logoURI": ""
+    "logoURI": "https://raw.githubusercontent.com/lifinance/types/main/src/assets/icons/tokens/unknown.svg"
   },
   {
     "name": "Rigetti Computing",
@@ -325,7 +325,7 @@
     "symbol": "RGTI",
     "decimals": 18,
     "chainId": 4663,
-    "logoURI": ""
+    "logoURI": "https://raw.githubusercontent.com/lifinance/types/main/src/assets/icons/tokens/unknown.svg"
   },
   {
     "name": "United Microelectronics",
@@ -333,7 +333,7 @@
     "symbol": "UMC",
     "decimals": 18,
     "chainId": 4663,
-    "logoURI": ""
+    "logoURI": "https://raw.githubusercontent.com/lifinance/types/main/src/assets/icons/tokens/unknown.svg"
   },
   {
     "name": "Taiwan Semiconductor Manufacturing",
@@ -341,7 +341,7 @@
     "symbol": "TSM",
     "decimals": 18,
     "chainId": 4663,
-    "logoURI": ""
+    "logoURI": "https://raw.githubusercontent.com/lifinance/types/main/src/assets/icons/tokens/unknown.svg"
   },
   {
     "name": "Applied Optoelectronics",
@@ -349,7 +349,7 @@
     "symbol": "AAOI",
     "decimals": 18,
     "chainId": 4663,
-    "logoURI": ""
+    "logoURI": "https://raw.githubusercontent.com/lifinance/types/main/src/assets/icons/tokens/unknown.svg"
   },
   {
     "name": "GameStop",
@@ -357,7 +357,7 @@
     "symbol": "GME",
     "decimals": 18,
     "chainId": 4663,
-    "logoURI": ""
+    "logoURI": "https://raw.githubusercontent.com/lifinance/types/main/src/assets/icons/tokens/unknown.svg"
   },
   {
     "name": "IREN Limited",
@@ -365,7 +365,7 @@
     "symbol": "IREN",
     "decimals": 18,
     "chainId": 4663,
-    "logoURI": ""
+    "logoURI": "https://raw.githubusercontent.com/lifinance/types/main/src/assets/icons/tokens/unknown.svg"
   },
   {
     "name": "Costco",
@@ -373,7 +373,7 @@
     "symbol": "COST",
     "decimals": 18,
     "chainId": 4663,
-    "logoURI": ""
+    "logoURI": "https://raw.githubusercontent.com/lifinance/types/main/src/assets/icons/tokens/unknown.svg"
   },
   {
     "name": "Navitas Semiconductor",
@@ -381,7 +381,7 @@
     "symbol": "NVTS",
     "decimals": 18,
     "chainId": 4663,
-    "logoURI": ""
+    "logoURI": "https://raw.githubusercontent.com/lifinance/types/main/src/assets/icons/tokens/unknown.svg"
   },
   {
     "name": "Zscaler",
@@ -389,7 +389,7 @@
     "symbol": "ZS",
     "decimals": 18,
     "chainId": 4663,
-    "logoURI": ""
+    "logoURI": "https://raw.githubusercontent.com/lifinance/types/main/src/assets/icons/tokens/unknown.svg"
   },
   {
     "name": "iShares Semiconductor ETF",
@@ -397,7 +397,7 @@
     "symbol": "SOXX",
     "decimals": 18,
     "chainId": 4663,
-    "logoURI": ""
+    "logoURI": "https://raw.githubusercontent.com/lifinance/types/main/src/assets/icons/tokens/unknown.svg"
   },
   {
     "name": "CleanSpark",
@@ -405,7 +405,7 @@
     "symbol": "CLSK",
     "decimals": 18,
     "chainId": 4663,
-    "logoURI": ""
+    "logoURI": "https://raw.githubusercontent.com/lifinance/types/main/src/assets/icons/tokens/unknown.svg"
   },
   {
     "name": "State Street Technology Select Sector SPDR ETF",
@@ -413,7 +413,7 @@
     "symbol": "XLK",
     "decimals": 18,
     "chainId": 4663,
-    "logoURI": ""
+    "logoURI": "https://raw.githubusercontent.com/lifinance/types/main/src/assets/icons/tokens/unknown.svg"
   },
   {
     "name": "Super Micro Computer",
@@ -421,7 +421,7 @@
     "symbol": "SMCI",
     "decimals": 18,
     "chainId": 4663,
-    "logoURI": ""
+    "logoURI": "https://raw.githubusercontent.com/lifinance/types/main/src/assets/icons/tokens/unknown.svg"
   },
   {
     "name": "iShares MSCI South Korea fund",
@@ -429,7 +429,7 @@
     "symbol": "EWY",
     "decimals": 18,
     "chainId": 4663,
-    "logoURI": ""
+    "logoURI": "https://raw.githubusercontent.com/lifinance/types/main/src/assets/icons/tokens/unknown.svg"
   },
   {
     "name": "Tema Space Innovators ETF",
@@ -437,7 +437,7 @@
     "symbol": "NASA",
     "decimals": 18,
     "chainId": 4663,
-    "logoURI": ""
+    "logoURI": "https://raw.githubusercontent.com/lifinance/types/main/src/assets/icons/tokens/unknown.svg"
   },
   {
     "name": "Nebius Group",
@@ -445,7 +445,7 @@
     "symbol": "NBIS",
     "decimals": 18,
     "chainId": 4663,
-    "logoURI": ""
+    "logoURI": "https://raw.githubusercontent.com/lifinance/types/main/src/assets/icons/tokens/unknown.svg"
   },
   {
     "name": "ServiceNow",
@@ -453,7 +453,7 @@
     "symbol": "NOW",
     "decimals": 18,
     "chainId": 4663,
-    "logoURI": ""
+    "logoURI": "https://raw.githubusercontent.com/lifinance/types/main/src/assets/icons/tokens/unknown.svg"
   },
   {
     "name": "AST SpaceMobile",
@@ -461,7 +461,7 @@
     "symbol": "ASTS",
     "decimals": 18,
     "chainId": 4663,
-    "logoURI": ""
+    "logoURI": "https://raw.githubusercontent.com/lifinance/types/main/src/assets/icons/tokens/unknown.svg"
   },
   {
     "name": "SoFi Technologies",
@@ -469,7 +469,7 @@
     "symbol": "SOFI",
     "decimals": 18,
     "chainId": 4663,
-    "logoURI": ""
+    "logoURI": "https://raw.githubusercontent.com/lifinance/types/main/src/assets/icons/tokens/unknown.svg"
   },
   {
     "name": "Broadcom",
@@ -477,7 +477,7 @@
     "symbol": "AVGO",
     "decimals": 18,
     "chainId": 4663,
-    "logoURI": ""
+    "logoURI": "https://raw.githubusercontent.com/lifinance/types/main/src/assets/icons/tokens/unknown.svg"
   },
   {
     "name": "Netflix",
@@ -485,7 +485,7 @@
     "symbol": "NFLX",
     "decimals": 18,
     "chainId": 4663,
-    "logoURI": ""
+    "logoURI": "https://raw.githubusercontent.com/lifinance/types/main/src/assets/icons/tokens/unknown.svg"
   },
   {
     "name": "IonQ",
@@ -493,7 +493,7 @@
     "symbol": "IONQ",
     "decimals": 18,
     "chainId": 4663,
-    "logoURI": ""
+    "logoURI": "https://raw.githubusercontent.com/lifinance/types/main/src/assets/icons/tokens/unknown.svg"
   },
   {
     "name": "Applied Digital",
@@ -501,7 +501,7 @@
     "symbol": "APLD",
     "decimals": 18,
     "chainId": 4663,
-    "logoURI": ""
+    "logoURI": "https://raw.githubusercontent.com/lifinance/types/main/src/assets/icons/tokens/unknown.svg"
   },
   {
     "name": "ASML Holding NV",
@@ -509,7 +509,7 @@
     "symbol": "ASML",
     "decimals": 18,
     "chainId": 4663,
-    "logoURI": ""
+    "logoURI": "https://raw.githubusercontent.com/lifinance/types/main/src/assets/icons/tokens/unknown.svg"
   },
   {
     "name": "CrowdStrike Holdings",
@@ -517,7 +517,7 @@
     "symbol": "CRWD",
     "decimals": 18,
     "chainId": 4663,
-    "logoURI": ""
+    "logoURI": "https://raw.githubusercontent.com/lifinance/types/main/src/assets/icons/tokens/unknown.svg"
   },
   {
     "name": "Exxon Mobil",
@@ -525,7 +525,7 @@
     "symbol": "XOM",
     "decimals": 18,
     "chainId": 4663,
-    "logoURI": ""
+    "logoURI": "https://raw.githubusercontent.com/lifinance/types/main/src/assets/icons/tokens/unknown.svg"
   },
   {
     "name": "Nu",
@@ -533,7 +533,7 @@
     "symbol": "NU",
     "decimals": 18,
     "chainId": 4663,
-    "logoURI": ""
+    "logoURI": "https://raw.githubusercontent.com/lifinance/types/main/src/assets/icons/tokens/unknown.svg"
   },
   {
     "name": "Applied Materials",
@@ -541,7 +541,7 @@
     "symbol": "AMAT",
     "decimals": 18,
     "chainId": 4663,
-    "logoURI": ""
+    "logoURI": "https://raw.githubusercontent.com/lifinance/types/main/src/assets/icons/tokens/unknown.svg"
   },
   {
     "name": "Celsius",
@@ -549,7 +549,7 @@
     "symbol": "CELH",
     "decimals": 18,
     "chainId": 4663,
-    "logoURI": ""
+    "logoURI": "https://raw.githubusercontent.com/lifinance/types/main/src/assets/icons/tokens/unknown.svg"
   },
   {
     "name": "Redwire",
@@ -557,7 +557,7 @@
     "symbol": "RDW",
     "decimals": 18,
     "chainId": 4663,
-    "logoURI": ""
+    "logoURI": "https://raw.githubusercontent.com/lifinance/types/main/src/assets/icons/tokens/unknown.svg"
   },
   {
     "name": "Eli Lilly",
@@ -565,7 +565,7 @@
     "symbol": "LLY",
     "decimals": 18,
     "chainId": 4663,
-    "logoURI": ""
+    "logoURI": "https://raw.githubusercontent.com/lifinance/types/main/src/assets/icons/tokens/unknown.svg"
   },
   {
     "name": "Take-Two Interactive Software",
@@ -573,7 +573,7 @@
     "symbol": "TTWO",
     "decimals": 18,
     "chainId": 4663,
-    "logoURI": ""
+    "logoURI": "https://raw.githubusercontent.com/lifinance/types/main/src/assets/icons/tokens/unknown.svg"
   },
   {
     "name": "Intuitive Machines",
@@ -581,7 +581,7 @@
     "symbol": "LUNR",
     "decimals": 18,
     "chainId": 4663,
-    "logoURI": ""
+    "logoURI": "https://raw.githubusercontent.com/lifinance/types/main/src/assets/icons/tokens/unknown.svg"
   },
   {
     "name": "MongoDB",
@@ -589,7 +589,7 @@
     "symbol": "MDB",
     "decimals": 18,
     "chainId": 4663,
-    "logoURI": ""
+    "logoURI": "https://raw.githubusercontent.com/lifinance/types/main/src/assets/icons/tokens/unknown.svg"
   },
   {
     "name": "Intuit",
@@ -597,7 +597,7 @@
     "symbol": "INTU",
     "decimals": 18,
     "chainId": 4663,
-    "logoURI": ""
+    "logoURI": "https://raw.githubusercontent.com/lifinance/types/main/src/assets/icons/tokens/unknown.svg"
   },
   {
     "name": "Xanadu Quantum",
@@ -605,7 +605,7 @@
     "symbol": "XNDU",
     "decimals": 18,
     "chainId": 4663,
-    "logoURI": ""
+    "logoURI": "https://raw.githubusercontent.com/lifinance/types/main/src/assets/icons/tokens/unknown.svg"
   },
   {
     "name": "EchoStar",
@@ -613,7 +613,7 @@
     "symbol": "SATS",
     "decimals": 18,
     "chainId": 4663,
-    "logoURI": ""
+    "logoURI": "https://raw.githubusercontent.com/lifinance/types/main/src/assets/icons/tokens/unknown.svg"
   },
   {
     "name": "Shopify",
@@ -621,7 +621,7 @@
     "symbol": "SHOP",
     "decimals": 18,
     "chainId": 4663,
-    "logoURI": ""
+    "logoURI": "https://raw.githubusercontent.com/lifinance/types/main/src/assets/icons/tokens/unknown.svg"
   },
   {
     "name": "Invesco S&P 500 Momentum ETF",
@@ -629,7 +629,7 @@
     "symbol": "SPMO",
     "decimals": 18,
     "chainId": 4663,
-    "logoURI": ""
+    "logoURI": "https://raw.githubusercontent.com/lifinance/types/main/src/assets/icons/tokens/unknown.svg"
   },
   {
     "name": "Tower Semiconductor",
@@ -637,7 +637,7 @@
     "symbol": "TSEM",
     "decimals": 18,
     "chainId": 4663,
-    "logoURI": ""
+    "logoURI": "https://raw.githubusercontent.com/lifinance/types/main/src/assets/icons/tokens/unknown.svg"
   },
   {
     "name": "Ford Motor",
@@ -645,7 +645,7 @@
     "symbol": "F",
     "decimals": 18,
     "chainId": 4663,
-    "logoURI": ""
+    "logoURI": "https://raw.githubusercontent.com/lifinance/types/main/src/assets/icons/tokens/unknown.svg"
   },
   {
     "name": "Permian Resources",
@@ -653,7 +653,7 @@
     "symbol": "PR",
     "decimals": 18,
     "chainId": 4663,
-    "logoURI": ""
+    "logoURI": "https://raw.githubusercontent.com/lifinance/types/main/src/assets/icons/tokens/unknown.svg"
   },
   {
     "name": "Lululemon",
@@ -661,7 +661,7 @@
     "symbol": "LULU",
     "decimals": 18,
     "chainId": 4663,
-    "logoURI": ""
+    "logoURI": "https://raw.githubusercontent.com/lifinance/types/main/src/assets/icons/tokens/unknown.svg"
   },
   {
     "name": "Datadog",
@@ -669,7 +669,7 @@
     "symbol": "DDOG",
     "decimals": 18,
     "chainId": 4663,
-    "logoURI": ""
+    "logoURI": "https://raw.githubusercontent.com/lifinance/types/main/src/assets/icons/tokens/unknown.svg"
   },
   {
     "name": "Innodata",
@@ -677,7 +677,7 @@
     "symbol": "INOD",
     "decimals": 18,
     "chainId": 4663,
-    "logoURI": ""
+    "logoURI": "https://raw.githubusercontent.com/lifinance/types/main/src/assets/icons/tokens/unknown.svg"
   },
   {
     "name": "Boeing",
@@ -685,7 +685,7 @@
     "symbol": "BA",
     "decimals": 18,
     "chainId": 4663,
-    "logoURI": ""
+    "logoURI": "https://raw.githubusercontent.com/lifinance/types/main/src/assets/icons/tokens/unknown.svg"
   },
   {
     "name": "Zoom",
@@ -693,7 +693,7 @@
     "symbol": "ZM",
     "decimals": 18,
     "chainId": 4663,
-    "logoURI": ""
+    "logoURI": "https://raw.githubusercontent.com/lifinance/types/main/src/assets/icons/tokens/unknown.svg"
   },
   {
     "name": "Futu Holdings",
@@ -701,7 +701,7 @@
     "symbol": "FUTU",
     "decimals": 18,
     "chainId": 4663,
-    "logoURI": ""
+    "logoURI": "https://raw.githubusercontent.com/lifinance/types/main/src/assets/icons/tokens/unknown.svg"
   },
   {
     "name": "MaxLinear",
@@ -709,7 +709,7 @@
     "symbol": "MXL",
     "decimals": 18,
     "chainId": 4663,
-    "logoURI": ""
+    "logoURI": "https://raw.githubusercontent.com/lifinance/types/main/src/assets/icons/tokens/unknown.svg"
   },
   {
     "name": "Fluence Energy",
@@ -717,7 +717,7 @@
     "symbol": "FLNC",
     "decimals": 18,
     "chainId": 4663,
-    "logoURI": ""
+    "logoURI": "https://raw.githubusercontent.com/lifinance/types/main/src/assets/icons/tokens/unknown.svg"
   },
   {
     "name": "Rivian Automotive",
@@ -725,7 +725,7 @@
     "symbol": "RIVN",
     "decimals": 18,
     "chainId": 4663,
-    "logoURI": ""
+    "logoURI": "https://raw.githubusercontent.com/lifinance/types/main/src/assets/icons/tokens/unknown.svg"
   },
   {
     "name": "e.l.f. Beauty",
@@ -733,7 +733,7 @@
     "symbol": "ELF",
     "decimals": 18,
     "chainId": 4663,
-    "logoURI": ""
+    "logoURI": "https://raw.githubusercontent.com/lifinance/types/main/src/assets/icons/tokens/unknown.svg"
   },
   {
     "name": "Reddit",
@@ -741,7 +741,7 @@
     "symbol": "RDDT",
     "decimals": 18,
     "chainId": 4663,
-    "logoURI": ""
+    "logoURI": "https://raw.githubusercontent.com/lifinance/types/main/src/assets/icons/tokens/unknown.svg"
   },
   {
     "name": "Workday",
@@ -749,7 +749,7 @@
     "symbol": "WDAY",
     "decimals": 18,
     "chainId": 4663,
-    "logoURI": ""
+    "logoURI": "https://raw.githubusercontent.com/lifinance/types/main/src/assets/icons/tokens/unknown.svg"
   },
   {
     "name": "Everpure",
@@ -757,7 +757,7 @@
     "symbol": "P",
     "decimals": 18,
     "chainId": 4663,
-    "logoURI": ""
+    "logoURI": "https://raw.githubusercontent.com/lifinance/types/main/src/assets/icons/tokens/unknown.svg"
   },
   {
     "name": "Carnival Corporation",
@@ -765,7 +765,7 @@
     "symbol": "CCL",
     "decimals": 18,
     "chainId": 4663,
-    "logoURI": ""
+    "logoURI": "https://raw.githubusercontent.com/lifinance/types/main/src/assets/icons/tokens/unknown.svg"
   },
   {
     "name": "UPS",
@@ -773,7 +773,7 @@
     "symbol": "UPS",
     "decimals": 18,
     "chainId": 4663,
-    "logoURI": ""
+    "logoURI": "https://raw.githubusercontent.com/lifinance/types/main/src/assets/icons/tokens/unknown.svg"
   },
   {
     "name": "Roblox",
@@ -781,7 +781,7 @@
     "symbol": "RBLX",
     "decimals": 18,
     "chainId": 4663,
-    "logoURI": ""
+    "logoURI": "https://raw.githubusercontent.com/lifinance/types/main/src/assets/icons/tokens/unknown.svg"
   },
   {
     "name": "Nano Nuclear Energy",
@@ -789,7 +789,7 @@
     "symbol": "NNE",
     "decimals": 18,
     "chainId": 4663,
-    "logoURI": ""
+    "logoURI": "https://raw.githubusercontent.com/lifinance/types/main/src/assets/icons/tokens/unknown.svg"
   },
   {
     "name": "Penguin Solutions",
@@ -797,7 +797,7 @@
     "symbol": "PENG",
     "decimals": 18,
     "chainId": 4663,
-    "logoURI": ""
+    "logoURI": "https://raw.githubusercontent.com/lifinance/types/main/src/assets/icons/tokens/unknown.svg"
   },
   {
     "name": "USDG",
@@ -805,6 +805,6 @@
     "symbol": "USDG",
     "decimals": 18,
     "chainId": 4663,
-    "logoURI": ""
+    "logoURI": "https://raw.githubusercontent.com/lifinance/types/main/src/assets/icons/tokens/unknown.svg"
   }
 ]
