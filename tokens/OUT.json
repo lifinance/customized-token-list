@@ -806,9 +806,7 @@
     "decimals": 18,
     "chainId": 4663,
     "logoURI": "https://raw.githubusercontent.com/lifinance/types/main/src/assets/icons/tokens/unknown.svg"
-  }
-]
-[
+  },
   {
     "name": "syrupUSDG",
     "symbol": "syrupUSDG",
