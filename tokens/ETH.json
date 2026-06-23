@@ -1110,5 +1110,29 @@
     "decimals": 18,
     "name": "Midas M1 USD Market Neutral",
     "symbol": "mM1-USD"
+  },
+  {
+    "address": "0xc9eef266834730340A55B6CC24621B31BAF55581",
+    "chainId": 1,
+    "logoURI": "https://cdn.ondo.finance/tokens/logos/spcxon_160x160.png",
+    "decimals": 18,
+    "name": "SpaceX (Ondo Tokenized)",
+    "symbol": "SPCXon"
+  },
+  {
+    "address": "0x68fa48B1C2FE52b3D776E1953e0E782b5044Ce28",
+    "chainId": 1,
+    "logoURI": "https://coin-images.coingecko.com/coins/images/102173688/large/SPCXx.png",
+    "decimals": 18,
+    "name": "SpaceX xStock",
+    "symbol": "SPCXx"
+  },
+  {
+    "address": "0x7cf9a80db3b29ee8efe3710aadb7b95270572d47",
+    "chainId": 1,
+    "logoURI": "https://assets.coingecko.com/coins/images/39082/standard/nillion.jpg",
+    "decimals": 6,
+    "name": "Nillion",
+    "symbol": "NIL"
   }
 ]

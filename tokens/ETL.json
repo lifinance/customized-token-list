@@ -64,60 +64,60 @@
     "logoURI": "https://assets.coingecko.com/coins/images/34883/standard/IDRX_BLUE_COIN_200x200.png?1734983273"
   },
   {
-      "name": "Uranium",
-      "address": "0x79052Ab3C166D4899a1e0DD033aC3b379AF0B1fD",
-      "symbol": "xU3O8",
-      "decimals": 18,
-      "chainId": 42793,
-      "logoURI": "https://assets.coingecko.com/coins/images/67758/standard/xu.png?1753733711"
+    "name": "Uranium",
+    "address": "0x79052Ab3C166D4899a1e0DD033aC3b379AF0B1fD",
+    "symbol": "xU3O8",
+    "decimals": 18,
+    "chainId": 42793,
+    "logoURI": "https://assets.coingecko.com/coins/images/67758/standard/xu.png?1753733711"
   },
   {
-      "name": "Spiko EU T-Bills Money Market Fund",
-      "address": "0xa0769f7A8fC65e47dE93797b4e21C073c117Fc80",
-      "symbol": "EUTBL",
-      "decimals": 5,
-      "chainId": 42793,
-      "logoURI": "https://assets.coingecko.com/coins/images/39657/standard/EUTBL.png?1723517425"
+    "name": "Spiko EU T-Bills Money Market Fund",
+    "address": "0xa0769f7A8fC65e47dE93797b4e21C073c117Fc80",
+    "symbol": "EUTBL",
+    "decimals": 5,
+    "chainId": 42793,
+    "logoURI": "https://assets.coingecko.com/coins/images/39657/standard/EUTBL.png?1723517425"
   },
   {
-      "name": "Midas Re7 Yield",
-      "address": "0x733d504435a49FC8C4e9759e756C2846c92f0160",
-      "symbol": "mRe7YIELD",
-      "decimals": 18,
-      "chainId": 42793,
-      "logoURI": "https://assets.coingecko.com/coins/images/54660/standard/mre7yield_logo.png?1740896178"
+    "name": "Midas Re7 Yield",
+    "address": "0x733d504435a49FC8C4e9759e756C2846c92f0160",
+    "symbol": "mRe7YIELD",
+    "decimals": 18,
+    "chainId": 42793,
+    "logoURI": "https://assets.coingecko.com/coins/images/54660/standard/mre7yield_logo.png?1740896178"
   },
   {
-      "name": "Spiko US T-Bills Money Market Fund",
-      "address": "0xe4880249745eAc5F1eD9d8F7DF844792D560e750",
-      "symbol": "USTBL",
-      "decimals": 5,
-      "chainId": 42793,
-      "logoURI": "https://assets.coingecko.com/coins/images/39666/standard/USTB.png?1723541269"
+    "name": "Spiko US T-Bills Money Market Fund",
+    "address": "0xe4880249745eAc5F1eD9d8F7DF844792D560e750",
+    "symbol": "USTBL",
+    "decimals": 5,
+    "chainId": 42793,
+    "logoURI": "https://assets.coingecko.com/coins/images/39666/standard/USTB.png?1723541269"
   },
   {
-      "name": "Midas Basis Trading Token",
-      "address": "0x2247B5A46BB79421a314aB0f0b67fFd11dd37Ee4",
-      "symbol": "mBASIS",
-      "decimals": 18,
-      "chainId": 42793,
-      "logoURI": "https://assets.coingecko.com/coins/images/50593/standard/mBASIS_logo.png?1728444389"
+    "name": "Midas Basis Trading Token",
+    "address": "0x2247B5A46BB79421a314aB0f0b67fFd11dd37Ee4",
+    "symbol": "mBASIS",
+    "decimals": 18,
+    "chainId": 42793,
+    "logoURI": "https://assets.coingecko.com/coins/images/50593/standard/mBASIS_logo.png?1728444389"
   },
   {
-      "name": "Midas MEV",
-      "address": "0x5542F82389b76C23f5848268893234d8A63fd5c8",
-      "symbol": "mMEV",
-      "decimals": 18,
-      "chainId": 42793,
-      "logoURI": "https://assets.coingecko.com/coins/images/54592/standard/mmev_logo.png?1740565795"
+    "name": "Midas MEV",
+    "address": "0x5542F82389b76C23f5848268893234d8A63fd5c8",
+    "symbol": "mMEV",
+    "decimals": 18,
+    "chainId": 42793,
+    "logoURI": "https://assets.coingecko.com/coins/images/54592/standard/mmev_logo.png?1740565795"
   },
   {
-      "name": "Midas US Treasury Bill Token",
-      "address": "0xDD629E5241CbC5919847783e6C96B2De4754e438",
-      "symbol": "mTBILL",
-      "decimals": 18,
-      "chainId": 42793,
-      "logoURI": "https://assets.coingecko.com/coins/images/37839/standard/mTBILL_token.png?1728417279"
+    "name": "Midas US Treasury Bill Token",
+    "address": "0xDD629E5241CbC5919847783e6C96B2De4754e438",
+    "symbol": "mTBILL",
+    "decimals": 18,
+    "chainId": 42793,
+    "logoURI": "https://assets.coingecko.com/coins/images/37839/standard/mTBILL_token.png?1728417279"
   },
   {
     "name": "USD Tez",
@@ -128,12 +128,12 @@
     "logoURI": "https://cdn.jsdelivr.net/gh/curvefi/curve-assets/images/assets-etherlink/0x5b456255fc3389a1ed284a74be0d1f38734d3d6a.png"
   },
   {
-      "name": "USDSM",
-      "address": "0x6bDE51212203aE5d592Cc5180DA2ABBd41c922dE",
-      "symbol": "USDSM",
-      "decimals": 18,
-      "chainId": 42793,
-      "logoURI": "https://raw.githubusercontent.com/curvefi/curve-assets/refs/heads/main/images/assets-etherlink/0x6bde51212203ae5d592cc5180da2abbd41c922de.png"
+    "name": "USDSM",
+    "address": "0x6bDE51212203aE5d592Cc5180DA2ABBd41c922dE",
+    "symbol": "USDSM",
+    "decimals": 18,
+    "chainId": 42793,
+    "logoURI": "https://raw.githubusercontent.com/curvefi/curve-assets/refs/heads/main/images/assets-etherlink/0x6bde51212203ae5d592cc5180da2abbd41c922de.png"
   },
   {
     "name": "Strategic Metals Basket",
@@ -144,11 +144,35 @@
     "logoURI": "https://raw.githubusercontent.com/0xRobWatson/token-logos/6b6fd9d5d174289b3cb2b92ccfbe64aded15901a/RARE.png"
   },
   {
-      "name": "VNX Gold",
-      "address": "0x93F5475da60143C50e8bE3fED10c143B0CF8b9E9",
-      "symbol": "VNXAU",
-      "decimals": 18,
-      "chainId": 42793,
-      "logoURI": "https://raw.githubusercontent.com/0xRobWatson/token-logos/refs/heads/main/VNXAU.png"
+    "name": "VNX Gold",
+    "address": "0x93F5475da60143C50e8bE3fED10c143B0CF8b9E9",
+    "symbol": "VNXAU",
+    "decimals": 18,
+    "chainId": 42793,
+    "logoURI": "https://raw.githubusercontent.com/0xRobWatson/token-logos/refs/heads/main/VNXAU.png"
+  },
+  {
+    "address": "0x21a92d78F18268AdadA1227E1F1134C6C32DbD67",
+    "chainId": 42793,
+    "logoURI": "https://raw.githubusercontent.com/0xRobWatson/token-logos/refs/heads/main/xCo.png",
+    "decimals": 18,
+    "name": "Cobalt",
+    "symbol": "xCo"
+  },
+  {
+    "address": "0x8190b536B30F519D10891eCBd96AbC52E2e70638",
+    "chainId": 42793,
+    "logoURI": "https://raw.githubusercontent.com/0xRobWatson/token-logos/refs/heads/main/xNi.png",
+    "decimals": 18,
+    "name": "Nickel",
+    "symbol": "xNi"
+  },
+  {
+    "address": "0x7CaD75fd9b0af41226a8FA1c5D01B99aAb3456c3",
+    "chainId": 42793,
+    "logoURI": "https://raw.githubusercontent.com/0xRobWatson/token-logos/refs/heads/main/xPd.png",
+    "decimals": 18,
+    "name": "Palladium",
+    "symbol": "xPd"
   }
 ]

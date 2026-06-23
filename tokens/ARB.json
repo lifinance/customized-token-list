@@ -590,5 +590,21 @@
     "decimals": 18,
     "name": "Stable Coin",
     "symbol": "SBC"
+  },
+  {
+    "address": "0x68fa48B1C2FE52b3D776E1953e0E782b5044Ce28",
+    "chainId": 42161,
+    "logoURI": "https://coin-images.coingecko.com/coins/images/102173688/large/SPCXx.png",
+    "decimals": 18,
+    "name": "SpaceX xStock",
+    "symbol": "SPCXx"
+  },
+  {
+    "address": "0xc2694a5c9f3a886d0467fce5e07f6211dfc86c48",
+    "chainId": 42161,
+    "logoURI": "https://www.useboardwalk.com/images/power/logo.svg",
+    "decimals": 18,
+    "name": "Boardwalk",
+    "symbol": "BMX"
   }
 ]

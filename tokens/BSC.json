@@ -1422,5 +1422,29 @@
     "decimals": 6,
     "name": "Tether Gold",
     "symbol": "XAUt"
+  },
+  {
+    "address": "0xd0a58BC9D88D3FF48C0294Cb7e45937d0E41A928",
+    "chainId": 56,
+    "logoURI": "https://cdn.ondo.finance/tokens/logos/spcxon_160x160.png",
+    "decimals": 18,
+    "name": "SpaceX (Ondo Tokenized)",
+    "symbol": "SPCXon"
+  },
+  {
+    "address": "0x68fa48B1C2FE52b3D776E1953e0E782b5044Ce28",
+    "chainId": 56,
+    "logoURI": "https://coin-images.coingecko.com/coins/images/102173688/large/SPCXx.png",
+    "decimals": 18,
+    "name": "SpaceX xStock",
+    "symbol": "SPCXx"
+  },
+  {
+    "address": "0x86713f2Bf1969e41A5E003a97934801Acd291De7",
+    "chainId": 56,
+    "logoURI": "https://bscscan.com/token/images/ondo_spcxon.svg",
+    "decimals": 18,
+    "name": "Ample BSC SpaceX",
+    "symbol": "aBNSPCXon"
   }
 ]

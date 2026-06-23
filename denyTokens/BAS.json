@@ -58,5 +58,10 @@
     "address": "0x499f9F464C9a652dFC142662e7468f7b392b77a0",
     "chainId": 8453,
     "reason": "Scam airdropped token"
+  },
+  {
+    "chainId": 8453,
+    "address": "0x89F162f17B066f129F6E870067DC3Acc8F611D21",
+    "reason": "Impersonates WETH on Base"
   }
 ]

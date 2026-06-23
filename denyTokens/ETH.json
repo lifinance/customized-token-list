@@ -313,12 +313,12 @@
     "address": "0x9cdf242ef7975d8c68d5c1f5b6905801699b1940",
     "chainId": 1,
     "reason": "Honeypot token with 100% sell tax"
-  } ,
+  },
   {
     "address": "0x8e21856edada501a9cd5cb8b92ac632908c90c2f",
     "chainId": 1,
     "reason": "Mispriced token"
-  }, 
+  },
   {
     "address": "0x8298168b5f86769C4bA8c87325Ab3002eF2563aB",
     "chainId": 1,
@@ -358,5 +358,15 @@
     "address": "0xd197526ca57F14934E7f485Df373Fb0904D34A37",
     "chainId": 1,
     "reason": "Misleading token identity (KAIO); user received unintended asset — https://jumper.xyz/scan/tx/0x51a47b76b4496b3f3766eef697bc998dd298bbbe33c0e0c2bc497d41a74bbd06"
+  },
+  {
+    "chainId": 1,
+    "address": "0x50753CfAf86c094925Bf976f218D043f8791e408",
+    "reason": "This token is linked to a swap pool created as part of the StablR Exploit: https://t.me/investigations/329 This is a protective measure for retail users."
+  },
+  {
+    "chainId": 1,
+    "address": "0x7B43E3875440B44613DC3bC08E7763e6Da63C8f8",
+    "reason": "Temporarily denied: under-collateralized/depegged after May 2026 minting-key exploit; remove once re-pegged"
   }
 ]

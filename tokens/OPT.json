@@ -198,5 +198,13 @@
     "decimals": 18,
     "name": "Midas Re7 Ethereum",
     "symbol": "mRe7ETH"
+  },
+  {
+    "address": "0x68fa48B1C2FE52b3D776E1953e0E782b5044Ce28",
+    "chainId": 10,
+    "logoURI": "https://coin-images.coingecko.com/coins/images/102173688/large/SPCXx.png",
+    "decimals": 18,
+    "name": "SpaceX xStock",
+    "symbol": "SPCXx"
   }
 ]
