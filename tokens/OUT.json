@@ -814,5 +814,37 @@
     "decimals": 6,
     "chainId": 4663,
     "logoURI": "https://raw.githubusercontent.com/lifinance/types/main/src/assets/icons/tokens/unknown.svg"
+  },
+  {
+    "name": "syrupUSDC",
+    "symbol": "syrupUSDC",
+    "address": "0xC6a4854eeB493224d5f9485E12Dd3A81f22EEE14",
+    "decimals": 6,
+    "chainId": 4663,
+    "logoURI": "https://raw.githubusercontent.com/lifinance/types/main/src/assets/icons/tokens/unknown.svg"
+  },
+  {
+    "name": "USDe",
+    "symbol": "USDe",
+    "address": "0x5d3a1Ff2b6BAb83b63cd9AD0787074081a52ef34",
+    "decimals": 18,
+    "chainId": 4663,
+    "logoURI": "https://raw.githubusercontent.com/lifinance/types/main/src/assets/icons/tokens/unknown.svg"
+  },
+  {
+    "name": "Spark Savings USDG",
+    "symbol": "spUSDG",
+    "address": "0xde770c84FE66E063336b31737cFE9790f18c4087",
+    "decimals": 6,
+    "chainId": 4663,
+    "logoURI": "https://raw.githubusercontent.com/lifinance/types/main/src/assets/icons/tokens/unknown.svg"
+  },
+  {
+    "name": "Paxos USDG",
+    "symbol": "USDG",
+    "address": "0x0A3B763d66c0e8c7555c986A3701E1DC1Bf3954F",
+    "decimals": 6,
+    "chainId": 4663,
+    "logoURI": "https://raw.githubusercontent.com/lifinance/types/main/src/assets/icons/tokens/unknown.svg"
   }
 ]
