@@ -1446,5 +1446,13 @@
     "decimals": 18,
     "name": "Ample BSC SpaceX",
     "symbol": "aBNSPCXon"
+  },
+  {
+    "address": "0x99991c6aabba5a096f24f250b73580f5179b9999",
+    "chainId": 56,
+    "logoURI": "https://assets.coingecko.com/coins/images/102174107/standard/cap.jpg?1782391237",
+    "decimals": 18,
+    "name": "Cap",
+    "symbol": "CAP"
   }
 ]
