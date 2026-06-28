@@ -1134,5 +1134,13 @@
     "decimals": 6,
     "name": "Nillion",
     "symbol": "NIL"
+  },
+  {
+    "address": "0x99991c6AAbba5a096f24f250b73580F5179b9999",
+    "chainId": 1,
+    "logoURI": "https://assets.coingecko.com/coins/images/102174107/standard/cap.jpg?1782391237",
+    "decimals": 18,
+    "name": "Cap",
+    "symbol": "CAP"
   }
 ]
