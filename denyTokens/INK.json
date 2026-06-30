@@ -3,5 +3,10 @@
     "chainId": 57073,
     "address": "0xbf0cAfCbaaF0be8221Ae8d630500984eDC908861",
     "reason": "Fee taking token SQUIDS"
+  },
+  {
+    "chainId": 57073,
+    "address": "0xCa5f2cCBD9C40b32657dF57c716De44237f80F05",
+    "reason": "Unofficial Kraken branded token with owner-controlled blacklist"
   }
 ]
