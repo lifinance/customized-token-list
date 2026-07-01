@@ -800,14 +800,6 @@
     "logoURI": "https://cdn.robinhood.com/ncw_assets/logos/0x9b23573b156b52565012f5ce02cdf60afbaa70be.png"
   },
   {
-    "name": "USDG",
-    "address": "0x5fc5360D0400a0Fd4f2af552ADD042D716F1d168",
-    "symbol": "USDG",
-    "decimals": 18,
-    "chainId": 4663,
-    "logoURI": "https://raw.githubusercontent.com/lifinance/types/main/src/assets/icons/tokens/unknown.svg"
-  },
-  {
     "name": "syrupUSDG",
     "symbol": "syrupUSDG",
     "address": "0x40858070814a57FdF33a613ae84fE0a8b4a874f7",
