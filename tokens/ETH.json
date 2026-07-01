@@ -1142,5 +1142,13 @@
     "decimals": 18,
     "name": "Cap",
     "symbol": "CAP"
+  },
+  {
+    "address": "0xaab2b2065989a81e9a5c56b70a4b90a753b9695e",
+    "chainId": 1,
+    "logoURI": "https://achetezdelart.com/adla-token.png",
+    "decimals": 18,
+    "name": "Achetez de l'Art",
+    "symbol": "ADLA"
   }
 ]
