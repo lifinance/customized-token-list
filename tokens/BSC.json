@@ -1462,5 +1462,13 @@
     "decimals": 18,
     "name": "Ondo U.S. Dollar Yield",
     "symbol": "USDY"
+  },
+  {
+    "name": "Bending Spoons xStock",
+    "address": "0x7796f4e23a62ef3653829c21032a9e24beaf4cf5",
+    "symbol": "BSPx",
+    "chainId": 56,
+    "decimals": 18,
+    "logoURI": "https://assets.coingecko.com/coins/images/102174230/standard/BSPx.png"
   }
 ]

@@ -22,5 +22,13 @@
     "decimals": 18,
     "name": "Boardwalk",
     "symbol": "BMX"
+  },
+  {
+    "name": "Bending Spoons xStock",
+    "address": "0x7796f4e23a62ef3653829c21032a9e24beaf4cf5",
+    "symbol": "BSPx",
+    "chainId": 57073,
+    "decimals": 18,
+    "logoURI": "https://assets.coingecko.com/coins/images/102174230/standard/BSPx.png"
   }
 ]
