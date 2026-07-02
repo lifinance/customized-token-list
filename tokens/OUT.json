@@ -838,5 +838,13 @@
     "decimals": 6,
     "chainId": 4663,
     "logoURI": "https://raw.githubusercontent.com/lifinance/types/main/src/assets/icons/tokens/unknown.svg"
+  },
+  {
+    "address": "0x2dC99af320BC317c567f24eE95811dcbd5983DfD",
+    "chainId": 4663,
+    "logoURI": "Please use existing logo URL",
+    "decimals": 18,
+    "name": "wstETH",
+    "symbol": "wstETH"
   }
 ]
