@@ -1454,5 +1454,13 @@
     "decimals": 18,
     "name": "Cap",
     "symbol": "CAP"
+  },
+  {
+    "address": "0x608593d17A2decBbc4399e4185bE4922F97eD32E",
+    "chainId": 56,
+    "logoURI": "https://cdn.ondo.finance/tokens/logos/usdy_160x160.png",
+    "decimals": 18,
+    "name": "Ondo U.S. Dollar Yield",
+    "symbol": "USDY"
   }
 ]
