@@ -350,5 +350,13 @@
     "decimals": 18,
     "name": "Stable Coin",
     "symbol": "SBC"
+  },
+  {
+    "address": "0xd2E57e7019a8faea8b3E4a3738Ee5B269975008A",
+    "chainId": 137,
+    "logoURI": "https://assets.coingecko.com/coins/images/50896/large/that-icon-cgx2.png",
+    "decimals": 18,
+    "name": "THAT",
+    "symbol": "THAT"
   }
 ]
