@@ -774,5 +774,13 @@
     "decimals": 18,
     "name": "Wrapped Space Exploration Technologies Corp. ST0x",
     "symbol": "wtSPCX"
+  },
+  {
+    "address": "0xFCc9Cc1209651Ed8867332d6F664CF82743A2584",
+    "chainId": 8453,
+    "logoURI": "https://assets.coingecko.com/coins/images/102174031/standard/mglobal-Cm4yjVTI.png?1781967852",
+    "decimals": 18,
+    "name": "Midas Fasanara Global Open",
+    "symbol": "mGLO"
   }
 ]

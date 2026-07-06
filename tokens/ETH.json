@@ -1150,5 +1150,13 @@
     "decimals": 18,
     "name": "Achetez de l'Art",
     "symbol": "ADLA"
+  },
+  {
+    "address": "0x7433806912Eae67919e66aea853d46Fa0aef98A8",
+    "chainId": 1,
+    "logoURI": "https://assets.coingecko.com/coins/images/102172980/standard/mglobal-Cm4yjVTI.png?1776956923",
+    "decimals": 18,
+    "name": "Midas Fasanara Global",
+    "symbol": "mGLOBAL"
   }
 ]
