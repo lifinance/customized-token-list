@@ -368,5 +368,10 @@
     "chainId": 1,
     "address": "0x7B43E3875440B44613DC3bC08E7763e6Da63C8f8",
     "reason": "Temporarily denied: under-collateralized/depegged after May 2026 minting-key exploit; remove once re-pegged"
+  },
+  {
+    "chainId": 1,
+    "address": "0x865ec58b06bF6305B886793AA20A2da31D034E68",
+    "reason": "This is our deprecated 2018 contract."
   }
 ]
