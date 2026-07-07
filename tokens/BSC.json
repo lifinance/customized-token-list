@@ -1470,5 +1470,13 @@
     "chainId": 56,
     "decimals": 18,
     "logoURI": "https://assets.coingecko.com/coins/images/102174230/standard/BSPx.png"
+  },
+  {
+    "address": "0xce24439f2d9c6a2289f741120fe202248b666666",
+    "chainId": 56,
+    "logoURI": "https://static.debank.com/image/bsc_token/logo_url/0xce24439f2d9c6a2289f741120fe202248b666666/6db8a216370821572aa6a31ebe3a0f06.png",
+    "decimals": 18,
+    "name": "United Stables",
+    "symbol": "U"
   }
 ]
