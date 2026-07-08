@@ -1,0 +1,26 @@
+[
+  {
+    "name": "ChainLink Token",
+    "symbol": "LINK",
+    "address": "0x76159c2b43ff6f630193e37ec68452169914c1bb",
+    "decimals": 18,
+    "chainId": 16661,
+    "logoURI": "https://assets.coingecko.com/coins/images/877/standard/chainlink-new-logo.png"
+  },
+  {
+    "name": "Wrapped SOL",
+    "symbol": "SOL",
+    "address": "0x2b269f9deb4804c5a4bd97e4d951c775beaa0cc5",
+    "decimals": 9,
+    "chainId": 16661,
+    "logoURI": "https://assets.coingecko.com/coins/images/4128/standard/solana.png"
+  },
+  {
+    "name": "Wrapped BTC",
+    "symbol": "WBTC",
+    "address": "0x0555e30da8f98308edb960aa94c0db47230d2b9c",
+    "decimals": 8,
+    "chainId": 16661,
+    "logoURI": "https://assets.coingecko.com/coins/images/7598/standard/wrapped_bitcoin_wbtc.png"
+  }
+]
