@@ -846,5 +846,13 @@
     "decimals": 18,
     "name": "wstETH",
     "symbol": "wstETH"
+  },
+  {
+    "address": "0x020bfc650a365f8bb26819deaabf3e21291018b4",
+    "chainId": 4663,
+    "logoURI": "https://assets.coingecko.com/coins/images/102174280/standard/cashcat-logo.jpg?1782922765",
+    "decimals": 18,
+    "name": "Cash Cat",
+    "symbol": "CASHCAT"
   }
 ]
