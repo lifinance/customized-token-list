@@ -1,0 +1,12 @@
+[
+  {
+    "chainId": 16661,
+    "address": "0x8a2B28364102Bea189D99A475C494330Ef2bDD0B",
+    "reason": "USDC.e not traded by Stargate on 0G"
+  },
+  {
+    "chainId": 16661,
+    "address": "0x9FBBAFC2Ad79af2b57eD23C60DfF79eF5c2b0FB5",
+    "reason": "USDT not traded by Stargate on 0G"
+  }
+]
