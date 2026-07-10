@@ -1478,5 +1478,13 @@
     "decimals": 18,
     "name": "United Stables",
     "symbol": "U"
+  },
+  {
+    "address": "0x4268F2Bfb23A7496504AA5eD1Ee325248586299F",
+    "chainId": 56,
+    "logoURI": "https://cdn.ondo.finance/tokens/logos/skhyon_160x160.png",
+    "decimals": 18,
+    "name": "SK Hynix (Ondo Tokenized)",
+    "symbol": "SKHYon"
   }
 ]

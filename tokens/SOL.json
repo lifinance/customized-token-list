@@ -142,5 +142,13 @@
     "decimals": 9,
     "name": "SpaceX (Ondo Tokenized)",
     "symbol": "SPCXon"
+  },
+  {
+    "address": "Huyb2fyDDjSuDKCRWsN9ci2rmcgPo6NFiLbx9ZDondo",
+    "chainId": 1151111081099710,
+    "logoURI": "https://cdn.ondo.finance/tokens/logos/skhyon_160x160.png",
+    "decimals": 9,
+    "name": "SK Hynix (Ondo Tokenized)",
+    "symbol": "SKHYon"
   }
 ]
