@@ -854,5 +854,37 @@
     "decimals": 18,
     "name": "Cash Cat",
     "symbol": "CASHCAT"
+  },
+  {
+    "address": "0xD7321801CAae694090694Ff55A9323139F043B88",
+    "chainId": 4663,
+    "logoURI": "https://www.geckoterminal.com/_next/image?url=https%3A%2F%2Fassets.geckoterminal.com%2F85cjg6du87ljb72yga9i14m42cb2&w=128&q=75",
+    "decimals": 18,
+    "name": "The Juggernaut",
+    "symbol": "JUGGERNAUT"
+  },
+  {
+    "address": "0x8e62F281f282686fCa6dCB39288069a93fC23F1c",
+    "chainId": 4663,
+    "logoURI": "https://cdn.dexscreener.com/cms/images/DhzR371m7aajusNq?width=64&height=64&fit=crop&quality=95&format=auto",
+    "decimals": 18,
+    "name": "Hoodrat",
+    "symbol": "HOODRAT"
+  },
+  {
+    "address": "0x3F298f2b7306Bf9a9e7177Ca461C58c4c2FDfa4c",
+    "chainId": 4663,
+    "logoURI": "https://cdn.dexscreener.com/cms/images/HQ-H9J9vTdTyM7gp?width=64&height=64&fit=crop&quality=95&format=auto",
+    "decimals": 18,
+    "name": "Stonks",
+    "symbol": "STONKS"
+  },
+  {
+    "address": "0xf2915d1e3C1B0c769d0c756Ec43F1c1f6c99cD03",
+    "chainId": 4663,
+    "logoURI": "https://cdn.dexscreener.com/cms/images/qVNDzbSwL8Gxq58J?width=64&height=64&fit=crop&quality=95&format=auto",
+    "decimals": 18,
+    "name": "Arrow",
+    "symbol": "ARROW"
   }
 ]
