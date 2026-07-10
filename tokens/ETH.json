@@ -1158,5 +1158,13 @@
     "decimals": 18,
     "name": "Midas Fasanara Global",
     "symbol": "mGLOBAL"
+  },
+  {
+    "address": "0xc0fE36F4FFBDf1B38E192215073590a68f9A2Af7",
+    "chainId": 1,
+    "logoURI": "https://cdn.ondo.finance/tokens/logos/skhyon_160x160.png",
+    "decimals": 18,
+    "name": "SK Hynix (Ondo Tokenized)",
+    "symbol": "SKHYon"
   }
 ]
