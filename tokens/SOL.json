@@ -150,5 +150,13 @@
     "decimals": 9,
     "name": "SK Hynix (Ondo Tokenized)",
     "symbol": "SKHYon"
+  },
+  {
+    "address": "XsnhgGRQwhExfS2bmWzR6EYddKGPRGDEjeJsatkmKqU",
+    "chainId": 1151111081099710,
+    "logoURI": "https://cdn.ondo.finance/tokens/logos/skhyon_160x160.png",
+    "decimals": 8,
+    "name": "SK hynix xStock",
+    "symbol": "SKHYx"
   }
 ]
