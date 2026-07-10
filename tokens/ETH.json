@@ -427,7 +427,7 @@
     "address": "0x385d65ed9241e415cfc689c3e0bcf5ab2f0505c2",
     "chainId": 1,
     "logoURI": "https://s2.coinmarketcap.com/static/img/coins/64x64/31642.png",
-    "decimals": 18,
+    "decimals": 9,
     "name": "MollarsToken",
     "symbol": "MOLLARS"
   },
@@ -443,7 +443,7 @@
     "address": "0xA735A3AF76CC30791C61c10d585833829d36CBe0",
     "chainId": 1,
     "logoURI": "https://static.debank.com/image/eth_token/logo_url/0xa735a3af76cc30791c61c10d585833829d36cbe0/574009b28ce2f77459a084c68d347564.png",
-    "decimals": 18,
+    "decimals": 9,
     "name": "Image Generation AI",
     "symbol": "imgnAI"
   },
