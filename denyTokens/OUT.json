@@ -3,5 +3,10 @@
     "chainId": 4663,
     "address": "0xc2a558028C1a6891bD4E576Bf4567b9140B88c4D",
     "reason": "The token includes a call function to remove tokens from a users wallet once the NOTHING token lands in a wallet"
+  },
+  {
+    "chainId": 4663,
+    "address": "0xF023c0b69b94b6a6b3D0aF097f1A5C94aB7f1b09",
+    "reason": "Malicious token which send is drained after token is swapped"
   }
 ]
