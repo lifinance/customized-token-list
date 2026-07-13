@@ -886,5 +886,13 @@
     "decimals": 18,
     "name": "Arrow",
     "symbol": "ARROW"
+  },
+  {
+    "address": "0x0e8720B8cD84F95b4b6696adbFA8063c4B8B94F2",
+    "chainId": 4663,
+    "logoURI": "https://www.hoodbuybutton.com/logo-200.png",
+    "decimals": 18,
+    "name": "Buy Button",
+    "symbol": "BUY"
   }
 ]
