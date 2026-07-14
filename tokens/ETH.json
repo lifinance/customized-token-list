@@ -1024,6 +1024,14 @@
     "logoURI": "https://xstocks-metadata.backed.fi/logos/tokens/NVDAx.png"
   },
   {
+    "name": "Amazon.com xStock",
+    "address": "0x3557ba345b01efa20a1bddc61f573bfd87195081",
+    "symbol": "AMZNx",
+    "chainId": 1,
+    "decimals": 18,
+    "logoURI": "https://xstocks-metadata.backed.fi/logos/tokens/AMZNx.png"
+  },
+  {
     "address": "0xAFF2565091E7207191dBe340B8528D02FA78d044",
     "chainId": 1,
     "logoURI": "https://assets.coingecko.com/coins/images/102172917/standard/IMG_3076.jpg?1776670053",
