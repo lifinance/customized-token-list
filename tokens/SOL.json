@@ -158,5 +158,13 @@
     "decimals": 8,
     "name": "SK hynix xStock",
     "symbol": "SKHYx"
+  },
+  {
+    "address": "A1KLoBrKBde8Ty9qtNQUtq3C2ortoC3u7twggz7sEto6",
+    "chainId": 1151111081099710,
+    "symbol": "USDY",
+    "decimals": 6,
+    "name": "Ondo US Dollar Yield",
+    "logoURI": "https://coin-images.coingecko.com/coins/images/31700/large/usdy_%281%29.png?1696530524"
   }
 ]
