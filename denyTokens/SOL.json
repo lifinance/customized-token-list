@@ -33,5 +33,10 @@
     "chainId": 1151111081099710,
     "address": "wzAdC34eo4sSxR2CwznSURSACxAc5JyJwgq92ycRbvr",
     "reason": "Scam token impersonating SpaceX (Ondo/xStock). Spoofs symbol SPCXx and embeds the legitimate SPCXon token addresses (wzAyQTorWyoVXuJKj2x8EqKEGJpS13z6EWE9z5Aondo / 0xc9eef266834730340A55B6CC24621B31BAF55581) in its name to mislead users."
+  },
+  {
+    "chainId": 1151111081099710,
+    "address": "USDvuSdHZUcj67tKfvVzByG9MaBAJRyeRrBSDLmMg75",
+    "reason": "Scam token impersonating Ondo USDY (Ondo US Dollar Yield). Vanity mint spoofs the USDY symbol/name and has an active freeze authority (Bw1EuXufEzbwRqbDDetbjWHAXRdU2s5TaURWgnH1vTm) that can freeze holder accounts and lock funds (honeypot)."
   }
 ]
