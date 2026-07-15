@@ -1,10 +1,18 @@
 [
-{
+  {
     "address": "0x52C48d4213107b20bC583832b0d951FB9CA8F0B0",
     "chainId": 1672,
-    "logoURI": "https://raw.githubusercontent.com/lifinance/types/main/src/assets/icons/chains/pharos.svg", 
+    "logoURI": "https://raw.githubusercontent.com/lifinance/types/main/src/assets/icons/chains/pharos.svg",
     "decimals": 18,
     "name": "Wrapped PROS",
     "symbol": "WPROS"
+  },
+  {
+    "address": "0xec47e6f3ef1e7bc8e00f670ac3d5016798fe44d0",
+    "chainId": 1672,
+    "logoURI": "https://storage.googleapis.com/jumper-strapi-media-prod/uploads/Chat_GPT_Image_15_juil_2026_09_38_15_ad9a298896/Chat_GPT_Image_15_juil_2026_09_38_15_ad9a298896.png",
+    "decimals": 18,
+    "name": "AxilPrimeCredit-3M",
+    "symbol": "APC3M"
   }
 ]
