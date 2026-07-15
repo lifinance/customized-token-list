@@ -782,5 +782,45 @@
     "decimals": 18,
     "name": "Midas Fasanara Global Open",
     "symbol": "mGLO"
+  },
+  {
+    "address": "0xFb5B41acdbA20a3230F84BE995173CFb98b8D6E7",
+    "chainId": 8453,
+    "logoURI": "https://st0x.io/images/NVDA.png",
+    "decimals": 18,
+    "name": "Wrapped NVIDIA Corporation ST0x",
+    "symbol": "wtNVDA"
+  },
+  {
+    "address": "0xFcD17aC4c4BF6a72c93018096F3fC09e66573Ff9",
+    "chainId": 8453,
+    "logoURI": "https://st0x.io/images/SKHY.png",
+    "decimals": 18,
+    "name": "Wrapped SK hynix Inc. ADR ST0x",
+    "symbol": "wtSKHY"
+  },
+  {
+    "address": "0x1E46d7eFef64A833AFB1CD49299a7AD5B439f4d8",
+    "chainId": 8453,
+    "logoURI": "https://st0x.io/images/ishares.png",
+    "decimals": 18,
+    "name": "Wrapped iShares Gold Trust ST0x",
+    "symbol": "wtIAU"
+  },
+  {
+    "address": "0x3aF952888Cd89DAD3e8AF67cf4b7E740B36829C3",
+    "chainId": 8453,
+    "logoURI": "https://st0x.io/images/CEG.png",
+    "decimals": 18,
+    "name": "Wrapped Constellation Energy Corporation ST0x",
+    "symbol": "wtCEG"
+  },
+  {
+    "address": "0x1A91Df4a970EBaB1bB4AF32Eb6d10509028eE4b8",
+    "chainId": 8453,
+    "logoURI": "https://st0x.io/images/roundhill.png",
+    "decimals": 18,
+    "name": "Wrapped Roundhill Memory ETF ST0x",
+    "symbol": "wtDRAM"
   }
 ]
