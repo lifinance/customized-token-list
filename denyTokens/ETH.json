@@ -373,5 +373,20 @@
     "chainId": 1,
     "address": "0x865ec58b06bF6305B886793AA20A2da31D034E68",
     "reason": "This is our deprecated 2018 contract."
+  },
+  {
+    "chainId": 1,
+    "address": "0xF28ccD4e6a2faAD9ab050e181273ccf24BC36A70",
+    "reason": "Airdrop/spam token with grossly inflated price feed (~$292M per token from a manipulated low-liquidity pool). Distorts partner fee dashboards. Deny until a reliable price source exists."
+  },
+  {
+    "chainId": 1,
+    "address": "0x423f8211085db9b3C8f4fDA3569af3f52BEe93Bf",
+    "reason": "Airdrop/spam token with grossly inflated price feed (~$5.3M per token from a manipulated low-liquidity pool). Distorts partner fee dashboards. Deny until a reliable price source exists."
+  },
+  {
+    "chainId": 1,
+    "address": "0xa6C5Ec3F4B31e37770aFE102540caC1b2AB004bc",
+    "reason": "Airdrop/spam token with grossly inflated price feed (~$21K per token from a manipulated low-liquidity pool). Distorts partner fee dashboards. Deny until a reliable price source exists."
   }
 ]
