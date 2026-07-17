@@ -894,5 +894,13 @@
     "decimals": 18,
     "name": "Buy Button",
     "symbol": "BUY"
+  },
+  {
+    "address": "0x65b445518B1AD0d9C597731494f5bD2991b7EC08",
+    "chainId": 4663,
+    "logoURI": "https://coin-images.coingecko.com/coins/images/102172948/large/X_Prof_pic.jpg?1776782170",
+    "decimals": 18,
+    "name": "ClawBank",
+    "symbol": "ClawBank"
   }
 ]
