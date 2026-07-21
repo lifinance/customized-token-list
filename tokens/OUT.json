@@ -842,7 +842,7 @@
   {
     "address": "0x2dC99af320BC317c567f24eE95811dcbd5983DfD",
     "chainId": 4663,
-    "logoURI": "Please use existing logo URL",
+    "logoURI": "https://coin-images.coingecko.com/coins/images/18834/large/wstETH.png?1696518295",
     "decimals": 18,
     "name": "wstETH",
     "symbol": "wstETH"
