@@ -560,6 +560,14 @@
     "logoURI": "https://raw.githubusercontent.com/parallel-protocol/parallel-brand-kit/main/Tokens/PRL/sPRL.svg"
   },
   {
+    "name": "Stake 20WETH-80PRL Deposit Vault",
+    "address": "0xb22f5edbc62adcc093307025b8fdf75a0aa00e24",
+    "symbol": "sPRL2V2",
+    "chainId": 1,
+    "decimals": 18,
+    "logoURI": "https://raw.githubusercontent.com/parallel-protocol/parallel-brand-kit/main/Tokens/PRL/sPRL.svg"
+  },
+  {
     "name": "Yala Token",
     "address": "0xF970706063b7853877F39515C96932D49d5AC9Cd",
     "symbol": "YALA",

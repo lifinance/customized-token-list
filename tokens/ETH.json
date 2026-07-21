@@ -744,9 +744,17 @@
     "logoURI": "https://raw.githubusercontent.com/parallel-protocol/parallel-brand-kit/main/Tokens/PRL/sPRL.svg"
   },
   {
-    "name": "Stake 20WETH-80PRL Aura Deposit Vault ",
+    "name": "Stake 20WETH-80PRL Aura Deposit Vault",
     "address": "0xE8A2d848fE656E34A6caA35f375B42979e322135",
     "symbol": "sPRL2",
+    "chainId": 1,
+    "decimals": 18,
+    "logoURI": "https://raw.githubusercontent.com/parallel-protocol/parallel-brand-kit/main/Tokens/PRL/sPRL.svg"
+  },
+  {
+    "name": "Stake 20WETH-80PRL Deposit Vault",
+    "address": "0xa13bfa24b189271ac00b148be565d609ac847a4b",
+    "symbol": "sPRL2V2",
     "chainId": 1,
     "decimals": 18,
     "logoURI": "https://raw.githubusercontent.com/parallel-protocol/parallel-brand-kit/main/Tokens/PRL/sPRL.svg"
