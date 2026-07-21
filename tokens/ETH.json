@@ -1182,5 +1182,13 @@
     "decimals": 18,
     "name": "SK hynix xStock",
     "symbol": "SKHYx"
+  },
+  {
+    "address": "0xA12CC123ba206d4031D1c7f6223D1C2Ec249f4f3",
+    "chainId": 1,
+    "logoURI": "https://coin-images.coingecko.com/coins/images/70921/large/zama.png?1764591992",
+    "decimals": 18,
+    "name": "Zama",
+    "symbol": "ZAMA"
   }
 ]
