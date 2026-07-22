@@ -1198,5 +1198,21 @@
     "decimals": 18,
     "name": "Stake 20WETH-80PRL Deposit Vault",
     "symbol": "sPRL2V2"
+  },
+  {
+    "address": "0xd0580192E98eA6CEB9c7b6191Ed2E27560911697",
+    "chainId": 1,
+    "logoURI": "https://assets.coingecko.com/coins/images/102174232/standard/trUSD.png",
+    "decimals": 18,
+    "name": "trUSD",
+    "symbol": "trUSD"
+  },
+  {
+    "address": "0x280839980a7ed0d7717f64125fe241012e5f5815",
+    "chainId": 1,
+    "logoURI": "https://assets.coingecko.com/coins/images/102174233/standard/strUSD.png",
+    "decimals": 18,
+    "name": "Staked trUSD",
+    "symbol": "strUSD"
   }
 ]
