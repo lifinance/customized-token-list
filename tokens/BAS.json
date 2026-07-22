@@ -822,5 +822,13 @@
     "decimals": 18,
     "name": "Wrapped Roundhill Memory ETF ST0x",
     "symbol": "wtDRAM"
+  },
+  {
+    "address": "0xB22f5eDbc62adCC093307025B8fdf75a0aa00e24",
+    "chainId": 8453,
+    "logoURI": "https://raw.githubusercontent.com/parallel-protocol/parallel-brand-kit/main/Tokens/PRL/sPRL.svg",
+    "decimals": 18,
+    "name": "Stake 20WETH-80PRL Deposit Vault",
+    "symbol": "sPRL2V2"
   }
 ]

@@ -1190,5 +1190,13 @@
     "decimals": 18,
     "name": "Zama",
     "symbol": "ZAMA"
+  },
+  {
+    "address": "0xa13BFA24b189271Ac00b148BE565D609AC847A4B",
+    "chainId": 1,
+    "logoURI": "https://raw.githubusercontent.com/parallel-protocol/parallel-brand-kit/main/Tokens/PRL/sPRL.svg",
+    "decimals": 18,
+    "name": "Stake 20WETH-80PRL Deposit Vault",
+    "symbol": "sPRL2V2"
   }
 ]
