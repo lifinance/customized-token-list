@@ -902,5 +902,13 @@
     "decimals": 18,
     "name": "ClawBank",
     "symbol": "ClawBank"
+  },
+  {
+    "address": "0x26c7121e41e779327Adbd5682646dC5deb764539",
+    "chainId": 4663,
+    "logoURI": "https://hivemindos.app/hivemindos-icon-512.png",
+    "decimals": 18,
+    "name": "HIVE",
+    "symbol": "HIVE"
   }
 ]

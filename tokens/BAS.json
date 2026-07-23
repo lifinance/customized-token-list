@@ -830,5 +830,13 @@
     "decimals": 18,
     "name": "Stake 20WETH-80PRL Deposit Vault",
     "symbol": "sPRL2V2"
+  },
+  {
+    "address": "0xA382c83e2a3B79368f372c2EB9b6925ffAf45bA3",
+    "chainId": 8453,
+    "logoURI": "https://hivemindos.app/hivemindos-icon-512.png",
+    "decimals": 18,
+    "name": "HIVE",
+    "symbol": "HIVE"
   }
 ]
