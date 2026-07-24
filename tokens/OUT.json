@@ -910,5 +910,13 @@
     "decimals": 18,
     "name": "HIVE",
     "symbol": "HIVE"
+  },
+  {
+    "address": "0xE77d354898A44808ff3999947002785CD727BEd5",
+    "chainId": 4663,
+    "logoURI": "https://assets.coingecko.com/coins/images/13117/standard/sfi_red_250px.png",
+    "decimals": 18,
+    "name": "Saffron.finance",
+    "symbol": "SFI"
   }
 ]
