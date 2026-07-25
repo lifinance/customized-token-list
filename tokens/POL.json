@@ -358,5 +358,13 @@
     "decimals": 18,
     "name": "THAT",
     "symbol": "THAT"
+  },
+  {
+    "address": "0x35b937583F04A24963eb685F728a542240f28Dd8",
+    "chainId": 137,
+    "logoURI": "https://assets.coingecko.com/coins/images/13117/standard/sfi_red_250px.png",
+    "decimals": 18,
+    "name": "Saffron.finance",
+    "symbol": "SFI"
   }
 ]

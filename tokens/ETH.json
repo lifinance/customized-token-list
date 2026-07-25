@@ -1214,5 +1214,13 @@
     "decimals": 18,
     "name": "Staked trUSD",
     "symbol": "strUSD"
+  },
+  {
+    "address": "0xb753428af26E81097e7fD17f40c88aaA3E04902c",
+    "chainId": 1,
+    "logoURI": "https://assets.coingecko.com/coins/images/13117/standard/sfi_red_250px.png",
+    "decimals": 18,
+    "name": "Saffron.finance",
+    "symbol": "SFI"
   }
 ]
