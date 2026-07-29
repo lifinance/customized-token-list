@@ -1222,5 +1222,13 @@
     "decimals": 18,
     "name": "Saffron.finance",
     "symbol": "SFI"
+  },
+  {
+    "address": "0xd3a452b305c8285c0dd7b8537665c734d3d279ef",
+    "chainId": 1,
+    "logoURI": "https://raw.githubusercontent.com/parallel-protocol/parallel-brand-kit/main/Tokens/USDp/sUSDp.svg",
+    "decimals": 18,
+    "name": "Staked USDp",
+    "symbol": "sUSDp"
   }
 ]
