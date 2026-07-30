@@ -3,5 +3,10 @@
     "address": "TGz8gG7rn5n129Jci5AvABaEHHJCamLr4B",
     "chainId": 728126428,
     "reason": "Scam USDT token on Tron"
+  },
+  {
+    "address": "TEkxiTehnzSmSe2XqrBj4w32RUN966rdz8",
+    "chainId": 728126428,
+    "reason": "Deprecated Circle USDC on Tron, on-chain symbol is now USDCOLD. Discontinued by Circle in Feb 2024 and no longer redeemable; trades around $0.83 with only ~$17k of residual DEX liquidity."
   }
 ]
