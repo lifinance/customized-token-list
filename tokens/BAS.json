@@ -838,5 +838,13 @@
     "decimals": 18,
     "name": "HIVE",
     "symbol": "HIVE"
+  },
+  {
+    "address": "0x1a44233FAe8D50F1AeB3a5d58dd426ff4814Cb53",
+    "chainId": 8453,
+    "logoURI": "https://raw.githubusercontent.com/0xsquid/assets/main/squid-brand-assets/icon/QUID_Icon_Circular.svg",
+    "decimals": 18,
+    "name": "Squid",
+    "symbol": "QUID"
   }
 ]
