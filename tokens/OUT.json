@@ -918,5 +918,13 @@
     "decimals": 18,
     "name": "Saffron.finance",
     "symbol": "SFI"
+  },
+  {
+    "address": "0x08a5D78A4bC7754e8aFF87b4509e007baeb685f3",
+    "chainId": 4663,
+    "logoURI": "https://gazz.fun/favicon-512.png",
+    "decimals": 18,
+    "name": "Gazz",
+    "symbol": "GAZZ"
   }
 ]
