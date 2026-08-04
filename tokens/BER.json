@@ -70,5 +70,13 @@
     "decimals": 18,
     "name": "stBGT",
     "logoURI": "https://www.bakerdao.io/stBGT.PNG"
+  },
+  {
+    "address": "0x11a292b4a8985bFE4ea19AaD24793b4E1d91bA60",
+    "chainId": 80094,
+    "logoURI": "https://assets.coingecko.com/coins/images/70132/large/Group_427319351.png",
+    "decimals": 18,
+    "name": "Staked Yuzu USD",
+    "symbol": "syzUSD"
   }
 ]
