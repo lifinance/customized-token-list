@@ -14,5 +14,13 @@
     "decimals": 18,
     "name": "AxilPrimeCredit-3M",
     "symbol": "APC3M"
+  },
+  {
+    "address": "0x54dF79D8EDf36D15cd83fbeDbdd90807fC828934",
+    "chainId": 1672,
+    "logoURI": "https://assets.coingecko.com/coins/images/70132/large/Group_427319351.png",
+    "decimals": 18,
+    "name": "Staked Yuzu USD",
+    "symbol": "syzUSD"
   }
 ]
