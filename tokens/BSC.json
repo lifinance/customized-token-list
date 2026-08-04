@@ -1494,5 +1494,13 @@
     "decimals": 18,
     "name": "SK hynix xStock",
     "symbol": "SKHYx"
+  },
+  {
+    "address": "0xD12ECbD5f508106ec242881530767FF15A6A7549",
+    "chainId": 56,
+    "logoURI": "https://tslcrypto.com/assets/logo.png",
+    "decimals": 18,
+    "name": "TSL",
+    "symbol": "TSL"
   }
 ]
