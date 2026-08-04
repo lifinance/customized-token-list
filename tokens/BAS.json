@@ -846,5 +846,61 @@
     "decimals": 18,
     "name": "Squid",
     "symbol": "QUID"
+  },
+  {
+    "address": "0xb200000000000000000000C2e324d24d7eEcd1fb",
+    "chainId": 8453,
+    "logoURI": "https://storage.googleapis.com/jumper-strapi-media-prod/uploads/aapl_3c40f30474/aapl_3c40f30474.svg",
+    "decimals": 8,
+    "name": "Apple Inc.",
+    "symbol": "AAPL"
+  },
+  {
+    "address": "0xb200000000000000000000d9192b6B456483C2E8",
+    "chainId": 8453,
+    "logoURI": "https://storage.googleapis.com/jumper-strapi-media-prod/uploads/amzn_1251ff236e/amzn_1251ff236e.svg",
+    "decimals": 8,
+    "name": "Amazon.com Inc.",
+    "symbol": "AMZN"
+  },
+  {
+    "address": "0xb2000000000000000000002D0BA3164cc74f58B7",
+    "chainId": 8453,
+    "logoURI": "https://storage.googleapis.com/jumper-strapi-media-prod/uploads/goog_05471188af/goog_05471188af.svg",
+    "decimals": 8,
+    "name": "Alphabet Inc.",
+    "symbol": "GOOGL"
+  },
+  {
+    "address": "0xb2000000000000000000008bC8786B856E61707C",
+    "chainId": 8453,
+    "logoURI": "https://storage.googleapis.com/jumper-strapi-media-prod/uploads/meta_0975ae7956/meta_0975ae7956.svg",
+    "decimals": 8,
+    "name": "Meta Platforms Inc.",
+    "symbol": "META"
+  },
+  {
+    "address": "0xB200000000000000000000Ab99cFa739E253872B",
+    "chainId": 8453,
+    "logoURI": "https://storage.googleapis.com/jumper-strapi-media-prod/uploads/msft_4d34f03c94/msft_4d34f03c94.svg",
+    "decimals": 8,
+    "name": "Microsoft Corporation",
+    "symbol": "MSFT"
+  },
+  {
+    "address": "0xb20000000000000000000078ee7ce2fE4908108C",
+    "chainId": 8453,
+    "logoURI": "https://storage.googleapis.com/jumper-strapi-media-prod/uploads/nvda_ce3d8cf9dd/nvda_ce3d8cf9dd.svg",
+    "decimals": 8,
+    "name": "NVIDIA Corporation",
+    "symbol": "NVDA"
+  },
+  {
+    "address": "0xb2000000000000000000001e800a7f5189430cD0",
+    "chainId": 8453,
+    "logoURI": "https://storage.googleapis.com/jumper-strapi-media-prod/uploads/tsla_3dd0b27245/tsla_3dd0b27245.svg",
+    "decimals": 8,
+    "name": "Tesla Inc.",
+    "symbol": "TSLA"
   }
 ]
