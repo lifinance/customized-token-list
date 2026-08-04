@@ -298,5 +298,10 @@
     "chainId": 56,
     "address": "0x8A972Ed397bEd7C0Cbc84cc3EFbC760bb07F80bb",
     "reason": "Transfer-restricted (anti-bot cooldown). Sim reverts 'Transfer too soon, please wait.' — fails regardless of slippage. Tenderly sim: https://www.tdly.co/shared/simulation/96879db6-dfd5-4e0b-92ef-cfa3700d686b"
+  },
+  {
+    "chainId": 56,
+    "address": "0x68fa48B1C2FE52b3D776E1953e0E782b5044Ce28",
+    "reason": "SPCXx (SpaceX xStock): extremely thin BSC liquidity vs oracle price from deeper chains. ~$250 BNB swap returned ~0.00023 SPCXx (~$0.03). https://bscscan.com/tx/0x96934144b99fea513bdb744aac0dd772310ee3923ce4c2a93569797055af5e57"
   }
 ]
