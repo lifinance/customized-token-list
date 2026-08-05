@@ -118,5 +118,13 @@
     "decimals": 18,
     "name": "PUPI",
     "logoURI": "https://raw.githubusercontent.com/matthix73-alt/pupi-assets/main/logo.png"
+  },
+  {
+    "address": "0x91C4596B9Aba38CB46318F01A0C1943922f47aE5",
+    "chainId": 59144,
+    "logoURI": "https://images.ctfassets.net/4j2tco9amoqh/ekw4l3V8np3FcXo6lMeY5/67df4116cf4dc351326ccb53c1436db7/linea_usd_logo.png",
+    "decimals": 6,
+    "name": "Linea USD",
+    "symbol": "USDL"
   }
 ]
