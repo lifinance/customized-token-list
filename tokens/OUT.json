@@ -926,5 +926,13 @@
     "decimals": 18,
     "name": "Gazz",
     "symbol": "GAZZ"
+  },
+  {
+    "address": "0x5173b8eA6923c2d40267890D45C46a3480954773",
+    "chainId": 4663,
+    "logoURI": "https://i.ibb.co/JjB6Sqtx/photo-2026-08-08-20-10-35-1-removebg-preview.png",
+    "decimals": 18,
+    "name": "World is Flat",
+    "symbol": "WIF"
   }
 ]
