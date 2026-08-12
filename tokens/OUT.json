@@ -934,5 +934,13 @@
     "decimals": 18,
     "name": "World is Flat",
     "symbol": "WIF"
+  },
+  {
+    "address": "0x347C132C00Ee8b9c22C1a57c985f68e6D34B0f24",
+    "chainId": 4663,
+    "logoURI": "https://wambo.fun/token/wambo.png",
+    "decimals": 18,
+    "name": "wambo.fun",
+    "symbol": "WAMBO"
   }
 ]
