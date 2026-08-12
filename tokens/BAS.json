@@ -902,5 +902,229 @@
     "decimals": 8,
     "name": "Tesla Inc.",
     "symbol": "TSLA"
+  },
+  {
+    "address": "0x1020EC8Aa3f709a1f3D8705cdBa89b950451bd88",
+    "chainId": 8453,
+    "logoURI": "https://st0x.io/images/AAPL.png",
+    "decimals": 18,
+    "name": "Wrapped Apple Inc. ST0x",
+    "symbol": "wtAAPL"
+  },
+  {
+    "address": "0x522DC65c89C9Af4f410BAe01bbf53aF75854a9f9",
+    "chainId": 8453,
+    "logoURI": "https://st0x.io/images/AMAT.png",
+    "decimals": 18,
+    "name": "Wrapped Applied Materials, Inc. ST0x",
+    "symbol": "wtAMAT"
+  },
+  {
+    "address": "0x648042Acd8638E12fEfd51C2b25A9f993f21a612",
+    "chainId": 8453,
+    "logoURI": "https://st0x.io/images/AMD.png",
+    "decimals": 18,
+    "name": "Wrapped Advanced Micro Devices, Inc. ST0x",
+    "symbol": "wtAMD"
+  },
+  {
+    "address": "0x997baE3EC193a249596d3708C3fAB7C501Bb8a53",
+    "chainId": 8453,
+    "logoURI": "https://st0x.io/images/AMZN.png",
+    "decimals": 18,
+    "name": "Wrapped Amazon.com Inc ST0x",
+    "symbol": "wtAMZN"
+  },
+  {
+    "address": "0x9FfF48B4535AF3765Ac9E1b164720EDc01DF8EE7",
+    "chainId": 8453,
+    "logoURI": "https://st0x.io/images/ARKK.png",
+    "decimals": 18,
+    "name": "Wrapped ARK Innovation ETF ST0x",
+    "symbol": "wtARKK"
+  },
+  {
+    "address": "0x8200c6d9AB9E02A25D7F2099244C476d99a085ef",
+    "chainId": 8453,
+    "logoURI": "https://st0x.io/images/ASML.png",
+    "decimals": 18,
+    "name": "Wrapped ASML Holding N.V. New York Registry Shares ST0x",
+    "symbol": "wtASML"
+  },
+  {
+    "address": "0x70A182f481AEF05836666B6CfDbe84dCBCE8AC19",
+    "chainId": 8453,
+    "logoURI": "https://st0x.io/images/AVGO.png",
+    "decimals": 18,
+    "name": "Wrapped Broadcom Inc. ST0x",
+    "symbol": "wtAVGO"
+  },
+  {
+    "address": "0x7e5cc7eAe0455A07Ab4abf354E0f5657BA2888BD",
+    "chainId": 8453,
+    "logoURI": "https://st0x.io/images/BABA.png",
+    "decimals": 18,
+    "name": "Wrapped Alibaba Group Holding Limited ADR ST0x",
+    "symbol": "wtBABA"
+  },
+  {
+    "address": "0x2512EC661f0bA089c275EA105E31bAD6FcFcf319",
+    "chainId": 8453,
+    "logoURI": "https://st0x.io/images/BMNR.png",
+    "decimals": 18,
+    "name": "Wrapped Bitmine Immersion Technologies, Inc ST0x",
+    "symbol": "wtBMNR"
+  },
+  {
+    "address": "0x8AFba81DEc38DE0A18E2Df5E1967a7493651eebf",
+    "chainId": 8453,
+    "logoURI": "https://st0x.io/images/CRCL.png",
+    "decimals": 18,
+    "name": "Wrapped Circle Internet Group Inc ST0x",
+    "symbol": "wtCRCL"
+  },
+  {
+    "address": "0x6a2357Df4975C667B171bE53dA6FFe6deBf7030c",
+    "chainId": 8453,
+    "logoURI": "https://st0x.io/images/GOOGL.png",
+    "decimals": 18,
+    "name": "Wrapped Alphabet Inc. Class A ST0x",
+    "symbol": "wtGOOGL"
+  },
+  {
+    "address": "0xd50f561322fe3235DBc9Ec8b3aB7693383d8A425",
+    "chainId": 8453,
+    "logoURI": "https://st0x.io/images/HOOD.png",
+    "decimals": 18,
+    "name": "Wrapped Robinhood Markets, Inc. ST0x",
+    "symbol": "wtHOOD"
+  },
+  {
+    "address": "0xf567652fC2d7Db8D5469fD06AEbe8C9c4372d722",
+    "chainId": 8453,
+    "logoURI": "https://st0x.io/images/INTC.png",
+    "decimals": 18,
+    "name": "Wrapped Intel Corporation ST0x",
+    "symbol": "wtINTC"
+  },
+  {
+    "address": "0x892CcF5E75f4a7Ee6402971a1587F65BEE4d52bd",
+    "chainId": 8453,
+    "logoURI": "https://st0x.io/images/LLY.png",
+    "decimals": 18,
+    "name": "Wrapped Eli Lilly and Company ST0x",
+    "symbol": "wtLLY"
+  },
+  {
+    "address": "0x328B9aFFa511fE26673edBb4fEa37eDaF908A3bc",
+    "chainId": 8453,
+    "logoURI": "https://st0x.io/images/LRCX.png",
+    "decimals": 18,
+    "name": "Wrapped Lam Research Corporation ST0x",
+    "symbol": "wtLRCX"
+  },
+  {
+    "address": "0x515A3Ac2a6aB590bDFa970caFFFd7fAdC680886E",
+    "chainId": 8453,
+    "logoURI": "https://st0x.io/images/MSFT.png",
+    "decimals": 18,
+    "name": "Wrapped Microsoft Corporation ST0x",
+    "symbol": "wtMSFT"
+  },
+  {
+    "address": "0x89EcfE9E0728D6b3c5eb0EE7236f8C6F806C7B56",
+    "chainId": 8453,
+    "logoURI": "https://st0x.io/images/MU.png",
+    "decimals": 18,
+    "name": "Wrapped Micron Technology, Inc. ST0x",
+    "symbol": "wtMU"
+  },
+  {
+    "address": "0xCB9571aB96aA47374eF30D8E9ACCC1cD51064726",
+    "chainId": 8453,
+    "logoURI": "https://st0x.io/images/ORCL.png",
+    "decimals": 18,
+    "name": "Wrapped Oracle Corporation ST0x",
+    "symbol": "wtORCL"
+  },
+  {
+    "address": "0x82f5BAEE1076334357a34A19E04f7c282D51cE47",
+    "chainId": 8453,
+    "logoURI": "https://st0x.io/images/abrdn.png",
+    "decimals": 18,
+    "name": "Wrapped abrdn Physical Platinum Shares ETF ST0x",
+    "symbol": "wtPPLT"
+  },
+  {
+    "address": "0xb6D779A79E7493ed821a65D52bA419F0F6D5dD0a",
+    "chainId": 8453,
+    "logoURI": "https://st0x.io/images/PTY.png",
+    "decimals": 18,
+    "name": "Wrapped PIMCO Corporate & Income Opportunity Fund ST0x",
+    "symbol": "wtPTY"
+  },
+  {
+    "address": "0xF4f8c66085910d583c01f3b4e44Bf731D4e2c565",
+    "chainId": 8453,
+    "logoURI": "https://st0x.io/images/RKLB.png",
+    "decimals": 18,
+    "name": "Wrapped Rocket Lab USA, Inc. ST0x",
+    "symbol": "wtRKLB"
+  },
+  {
+    "address": "0xEB7F3E4093C9d68253b6104FbbfF561F3eC0442F",
+    "chainId": 8453,
+    "logoURI": "https://st0x.io/images/abrdn.png",
+    "decimals": 18,
+    "name": "Wrapped abrdn Physical Silver Shares ETF ST0x",
+    "symbol": "wtSIVR"
+  },
+  {
+    "address": "0xA759FAbbD866e6DB8bF76613C35825dC2e380bf0",
+    "chainId": 8453,
+    "logoURI": "https://st0x.io/images/SMCI.png",
+    "decimals": 18,
+    "name": "Wrapped Super Micro Computer, Inc. ST0x",
+    "symbol": "wtSMCI"
+  },
+  {
+    "address": "0x295e9eCAb319006900a53b3f8D6Fcb0C131F4ada",
+    "chainId": 8453,
+    "logoURI": "https://st0x.io/images/TQQQ.png",
+    "decimals": 18,
+    "name": "Wrapped ProShares UltraPro QQQ ST0x",
+    "symbol": "wtTQQQ"
+  },
+  {
+    "address": "0x219A8d384a10BF19b9f24cB5cC53F79Dd0e5A03D",
+    "chainId": 8453,
+    "logoURI": "https://st0x.io/images/TSLA.png",
+    "decimals": 18,
+    "name": "Wrapped Tesla Inc ST0x",
+    "symbol": "wtTSLA"
+  },
+  {
+    "address": "0x71C66449d2528E23514A9c197BFD55Ae9DB3B714",
+    "chainId": 8453,
+    "logoURI": "https://st0x.io/images/TSM.png",
+    "decimals": 18,
+    "name": "Wrapped Taiwan Semiconductor Manufacturing Company ST0x",
+    "symbol": "wtTSM"
+  },
+  {
+    "address": "0x045Fb493D970f94a54FeaF931033622fC82192e6",
+    "chainId": 8453,
+    "logoURI": "https://st0x.io/images/TTWO.png",
+    "decimals": 18,
+    "name": "Wrapped Take-Two Interactive Software, Inc. ST0x",
+    "symbol": "wtTTWO"
+  },
+  {
+    "address": "0x23ec6886b49D7ab123E9ee8e474D2fa7AB6Cbc2d",
+    "chainId": 8453,
+    "logoURI": "https://st0x.io/images/vanguard.png",
+    "decimals": 18,
+    "name": "Wrapped Vanguard Emerging Markets Stock Index Fund ST0x",
+    "symbol": "wtVWO"
   }
 ]
