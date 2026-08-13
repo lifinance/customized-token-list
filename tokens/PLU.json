@@ -1,4 +1,3 @@
-
 [
   {
     "name": "Plume USD",
@@ -103,6 +102,13 @@
     "decimals": 18,
     "chainId": 98866,
     "logoURI": "https://assets.coingecko.com/coins/images/54592/standard/mmev_logo.png"
+  },
+  {
+    "address": "0x119Dd7dAFf816f29D7eE47596ae5E4bdC4299165",
+    "chainId": 98866,
+    "logoURI": "https://assets.plume.org/images/logos/nest/nOPAL/nOPAL-token.svg",
+    "decimals": 6,
+    "name": "Nest BlackOpal LiquidStone II Vault",
+    "symbol": "nOPAL"
   }
 ]
-

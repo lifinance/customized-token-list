@@ -1230,5 +1230,21 @@
     "decimals": 18,
     "name": "Staked USDp",
     "symbol": "sUSDp"
+  },
+  {
+    "address": "0x593cCcA4c4bf58b7526a4C164cEEf4003C6388db",
+    "chainId": 1,
+    "logoURI": "https://assets.plume.org/images/logos/nest/nALPHA/nALPHA-token.svg",
+    "decimals": 6,
+    "name": "Nest Alpha Vault",
+    "symbol": "nALPHA"
+  },
+  {
+    "address": "0x119Dd7dAFf816f29D7eE47596ae5E4bdC4299165",
+    "chainId": 1,
+    "logoURI": "https://assets.plume.org/images/logos/nest/nOPAL/nOPAL-token.svg",
+    "decimals": 6,
+    "name": "Nest BlackOpal LiquidStone II Vault",
+    "symbol": "nOPAL"
   }
 ]
