@@ -136,14 +136,6 @@
     "logoURI": "https://arbiscan.io/token/images/speraxtoken_32.png"
   },
   {
-    "name": "Wombat Token",
-    "address": "0x7B5EB3940021Ec0e8e463D5dBB4B7B09a89DDF96",
-    "symbol": "WOM",
-    "decimals": 18,
-    "chainId": 42161,
-    "logoURI": "https://bscscan.com/token/images/wombatex_32.png"
-  },
-  {
     "name": "Stably USD",
     "address": "0x097BF766E427F5CcD306F21Ba05632e0Be849B0E",
     "symbol": "USDS",
