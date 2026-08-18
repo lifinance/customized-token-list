@@ -853,7 +853,7 @@
     "logoURI": "https://storage.googleapis.com/jumper-strapi-media-prod/uploads/aapl_3c40f30474/aapl_3c40f30474.svg",
     "decimals": 8,
     "name": "Apple Inc.",
-    "symbol": "AAPL"
+    "symbol": "AAPLc"
   },
   {
     "address": "0xb200000000000000000000d9192b6B456483C2E8",
@@ -861,7 +861,7 @@
     "logoURI": "https://storage.googleapis.com/jumper-strapi-media-prod/uploads/amzn_1251ff236e/amzn_1251ff236e.svg",
     "decimals": 8,
     "name": "Amazon.com Inc.",
-    "symbol": "AMZN"
+    "symbol": "AMZNc"
   },
   {
     "address": "0xb2000000000000000000002D0BA3164cc74f58B7",
@@ -869,7 +869,7 @@
     "logoURI": "https://storage.googleapis.com/jumper-strapi-media-prod/uploads/goog_05471188af/goog_05471188af.svg",
     "decimals": 8,
     "name": "Alphabet Inc.",
-    "symbol": "GOOGL"
+    "symbol": "GOOGLc"
   },
   {
     "address": "0xb2000000000000000000008bC8786B856E61707C",
@@ -877,7 +877,7 @@
     "logoURI": "https://storage.googleapis.com/jumper-strapi-media-prod/uploads/meta_0975ae7956/meta_0975ae7956.svg",
     "decimals": 8,
     "name": "Meta Platforms Inc.",
-    "symbol": "META"
+    "symbol": "METAc"
   },
   {
     "address": "0xB200000000000000000000Ab99cFa739E253872B",
@@ -885,7 +885,7 @@
     "logoURI": "https://storage.googleapis.com/jumper-strapi-media-prod/uploads/msft_4d34f03c94/msft_4d34f03c94.svg",
     "decimals": 8,
     "name": "Microsoft Corporation",
-    "symbol": "MSFT"
+    "symbol": "MSFTc"
   },
   {
     "address": "0xb20000000000000000000078ee7ce2fE4908108C",
@@ -893,7 +893,7 @@
     "logoURI": "https://storage.googleapis.com/jumper-strapi-media-prod/uploads/nvda_ce3d8cf9dd/nvda_ce3d8cf9dd.svg",
     "decimals": 8,
     "name": "NVIDIA Corporation",
-    "symbol": "NVDA"
+    "symbol": "NVDAc"
   },
   {
     "address": "0xb2000000000000000000001e800a7f5189430cD0",
@@ -901,7 +901,55 @@
     "logoURI": "https://storage.googleapis.com/jumper-strapi-media-prod/uploads/tsla_3dd0b27245/tsla_3dd0b27245.svg",
     "decimals": 8,
     "name": "Tesla Inc.",
-    "symbol": "TSLA"
+    "symbol": "TSLAc"
+  },
+  {
+    "address": "0xb200000000000000000000c85a31389D71F3ecfb",
+    "chainId": 8453,
+    "logoURI": "https://storage.googleapis.com/jumper-strapi-media-prod/uploads/coin_e951fa9ae8/coin_e951fa9ae8.svg",
+    "decimals": 8,
+    "name": "Coinbase Global Inc.",
+    "symbol": "COINc"
+  },
+  {
+    "address": "0xB20000000000000000000019f6E7C675b73C2e4D",
+    "chainId": 8453,
+    "logoURI": "https://storage.googleapis.com/jumper-strapi-media-prod/uploads/crcl_7e32920978/crcl_7e32920978.svg",
+    "decimals": 8,
+    "name": "Circle Internet Group Inc.",
+    "symbol": "CRCLc"
+  },
+  {
+    "address": "0xB2000000000000000000004AFF16039bA04bdFBc",
+    "chainId": 8453,
+    "logoURI": "https://storage.googleapis.com/jumper-strapi-media-prod/uploads/intc_e83ef12722/intc_e83ef12722.svg",
+    "decimals": 8,
+    "name": "Intel Corporation",
+    "symbol": "INTCc"
+  },
+  {
+    "address": "0xb2000000000000000000004884b426556b92883d",
+    "chainId": 8453,
+    "logoURI": "https://storage.googleapis.com/jumper-strapi-media-prod/uploads/mstr_de0bdf40c5/mstr_de0bdf40c5.svg",
+    "decimals": 8,
+    "name": "Strategy Inc.",
+    "symbol": "MSTRc"
+  },
+  {
+    "address": "0xb200000000000000000000397293Cb8cda9a10c5",
+    "chainId": 8453,
+    "logoURI": "https://storage.googleapis.com/jumper-strapi-media-prod/uploads/sndk_a77625509b/sndk_a77625509b.svg",
+    "decimals": 8,
+    "name": "Sandisk Corporation",
+    "symbol": "SNDKc"
+  },
+  {
+    "address": "0xb2000000000000000000007b9fcbd005511aCBd5",
+    "chainId": 8453,
+    "logoURI": "https://storage.googleapis.com/jumper-strapi-media-prod/uploads/spcx_436df37f85/spcx_436df37f85.svg",
+    "decimals": 8,
+    "name": "Space Exploration Technologies Corp.",
+    "symbol": "SPCXc"
   },
   {
     "address": "0x1020EC8Aa3f709a1f3D8705cdBa89b950451bd88",
