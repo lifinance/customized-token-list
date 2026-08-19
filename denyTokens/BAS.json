@@ -63,5 +63,10 @@
     "chainId": 8453,
     "address": "0x89F162f17B066f129F6E870067DC3Acc8F611D21",
     "reason": "Impersonates WETH on Base"
+  },
+  {
+    "chainId": 8453,
+    "address": "0x051fb509e4A775FABd257611eeA1efaed8F91359",
+    "reason": "Fee-on-transfer token (CateCoin / CATE). Bitavo reports swap-out failures with transfer amount exceeds balance."
   }
 ]

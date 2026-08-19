@@ -388,5 +388,10 @@
     "chainId": 1,
     "address": "0xa6C5Ec3F4B31e37770aFE102540caC1b2AB004bc",
     "reason": "Airdrop/spam token with grossly inflated price feed (~$21K per token from a manipulated low-liquidity pool). Distorts partner fee dashboards. Deny until a reliable price source exists."
+  },
+  {
+    "chainId": 1,
+    "address": "0xE4aB0bE415e277d82C38625B72BD7DeA232C2E7d",
+    "reason": "Fee-on-transfer / deflationary token (XRP20, ~0.1% burn). Bitavo reports swap-out simulation failures with ERC20: transfer amount exceeds balance."
   }
 ]
