@@ -1502,5 +1502,13 @@
     "decimals": 18,
     "name": "TSL",
     "symbol": "TSL"
+  },
+  {
+    "address": "0x3c2F61f2E27C865981D2e7aAf6b2CDf823030039",
+    "chainId": 56,
+    "logoURI": "https://3496430163-files.gitbook.io/~/files/v0/b/gitbook-x-prod.appspot.com/o/spaces%2Fbey3QqLkQrkCxlgDKPaz%2Fuploads%2FlkeCYkMyWCArTcindUDA%2FTermMax%20Logomark_Color.svg?alt=media",
+    "decimals": 18,
+    "name": "TermMax",
+    "symbol": "TMX"
   }
 ]
