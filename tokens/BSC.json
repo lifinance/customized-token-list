@@ -1510,5 +1510,541 @@
     "decimals": 18,
     "name": "TermMax",
     "symbol": "TMX"
+  },
+  {
+    "address": "0x10343EF7da3301493D7Ecb647d68A288C6c1Db2F",
+    "chainId": 56,
+    "logoURI": "https://bscscan.com/token/images/bstocks_AAOIB_64.png",
+    "decimals": 18,
+    "name": "Applied Optoelectronics",
+    "symbol": "AAOIB"
+  },
+  {
+    "address": "0x431a3BEE82E2ca41e49895CbECE5bB0F76A89b7A",
+    "chainId": 56,
+    "logoURI": "https://bscscan.com/token/images/bstocks_AAPLB_64.png",
+    "decimals": 18,
+    "name": "Apple",
+    "symbol": "AAPLB"
+  },
+  {
+    "address": "0x1282493EdE6a22753D45Cb2C0fdBd8D35E97555a",
+    "chainId": 56,
+    "logoURI": "https://bscscan.com/token/images/bstocks_ALABB_64.png",
+    "decimals": 18,
+    "name": "Astera Labs",
+    "symbol": "ALABB"
+  },
+  {
+    "address": "0xa304BD78e739C0F777202B3eB73Ac3736d1df801",
+    "chainId": 56,
+    "logoURI": "https://bscscan.com/token/images/bstocks_AMATB_64.png",
+    "decimals": 18,
+    "name": "Applied Materials",
+    "symbol": "AMATB"
+  },
+  {
+    "address": "0x75Fd4cF6f8392E41E70391D60c90C0D5211603a1",
+    "chainId": 56,
+    "logoURI": "https://bscscan.com/token/images/bstocks_AMDB_64.png",
+    "decimals": 18,
+    "name": "Advanced Micro Devices Inc",
+    "symbol": "AMDB"
+  },
+  {
+    "address": "0x1a4b499833A79A09ad7Cf1D42D7DacF71e92eb00",
+    "chainId": 56,
+    "logoURI": "https://bscscan.com/token/images/bstocks_AMZNB_64.png",
+    "decimals": 18,
+    "name": "Amazon",
+    "symbol": "AMZNB"
+  },
+  {
+    "address": "0xD42A79ebb7F527F40fAecD196FFB47aD5e8D6f8C",
+    "chainId": 56,
+    "logoURI": "https://bscscan.com/token/images/bstocks_ARMB_64.png",
+    "decimals": 18,
+    "name": "Arm",
+    "symbol": "ARMB"
+  },
+  {
+    "address": "0xFbfB4f79cFB4C34DCd7C82Bdee5A0Fa199B2e7f9",
+    "chainId": 56,
+    "logoURI": "https://bscscan.com/token/images/bstocks_ASMLB_64.png",
+    "decimals": 18,
+    "name": "ASML",
+    "symbol": "ASMLB"
+  },
+  {
+    "address": "0x58b6F5fEeb8436489F5bf4a56619092B1FA8E777",
+    "chainId": 56,
+    "logoURI": "https://bscscan.com/token/images/bstocks_ASTSB_64.png",
+    "decimals": 18,
+    "name": "AST SpaceMobile",
+    "symbol": "ASTSB"
+  },
+  {
+    "address": "0x76682c454467b3A1150Ad8b6a92FC5eE2C21d7eD",
+    "chainId": 56,
+    "logoURI": "https://bscscan.com/token/images/bstocks_AVGOB_64.png",
+    "decimals": 18,
+    "name": "Broadcom",
+    "symbol": "AVGOB"
+  },
+  {
+    "address": "0x9BDC8B470dbf89DbCb123587C6f5E49cCA3463BE",
+    "chainId": 56,
+    "logoURI": "https://bscscan.com/token/images/bstocks_AXTIB_64.png",
+    "decimals": 18,
+    "name": "AXT",
+    "symbol": "AXTIB"
+  },
+  {
+    "address": "0x4eF9d3062c7F6ebA4AAE4990c5036598C6eff4ec",
+    "chainId": 56,
+    "logoURI": "https://bscscan.com/token/images/bstocks_BABAB_64.png",
+    "decimals": 18,
+    "name": "Alibaba",
+    "symbol": "BABAB"
+  },
+  {
+    "address": "0x5519de00F5388c17d886b97Cb5D2D43a812a82bC",
+    "chainId": 56,
+    "logoURI": "https://bscscan.com/token/images/bstocks_BEB_64.png",
+    "decimals": 18,
+    "name": "Bloom Energy",
+    "symbol": "BEB"
+  },
+  {
+    "address": "0x3548Da95a9eFFE481e8604664d75e95821e557F5",
+    "chainId": 56,
+    "logoURI": "https://bscscan.com/token/images/bstocks_BMNRB_64.png",
+    "decimals": 18,
+    "name": "BitMine Immersion Technologies",
+    "symbol": "BMNRB"
+  },
+  {
+    "address": "0xe81C6bB0266cd68B4F17278531Dd03eA1F12dA4E",
+    "chainId": 56,
+    "logoURI": "https://bscscan.com/token/images/bstocks_CBRSB_64.png",
+    "decimals": 18,
+    "name": "Cerebras",
+    "symbol": "CBRSB"
+  },
+  {
+    "address": "0x5131859a059B2446AbeeFe0f5d313b3c54Ff3D36",
+    "chainId": 56,
+    "logoURI": "https://bscscan.com/token/images/bstocks_COHRB_64.png",
+    "decimals": 18,
+    "name": "Coherent",
+    "symbol": "COHRB"
+  },
+  {
+    "address": "0x585BDE7C54ABB5cCD7791F923D6c2187635f3952",
+    "chainId": 56,
+    "logoURI": "https://bscscan.com/token/images/bstocks_COINB_64.png",
+    "decimals": 18,
+    "name": "Coinbase",
+    "symbol": "COINB"
+  },
+  {
+    "address": "0x80f3D493EBCe97e343c53D29a137942416B4ffC0",
+    "chainId": 56,
+    "logoURI": "https://bscscan.com/token/images/bstocks_CRCLB_64.png",
+    "decimals": 18,
+    "name": "Circle Internet Group Inc.",
+    "symbol": "CRCLB"
+  },
+  {
+    "address": "0x6E7D451F9D30327D32020f116Fa79C23B24E9c8D",
+    "chainId": 56,
+    "logoURI": "https://bscscan.com/token/images/bstocks_CRDOB_64.png",
+    "decimals": 18,
+    "name": "Credo Technology",
+    "symbol": "CRDOB"
+  },
+  {
+    "address": "0x33E7317e17838fEE56b10Fe8D0B9cA6CA3090c95",
+    "chainId": 56,
+    "logoURI": "https://bscscan.com/token/images/bstocks_CRWVB_64.png",
+    "decimals": 18,
+    "name": "CoreWeave",
+    "symbol": "CRWVB"
+  },
+  {
+    "address": "0x0e7A51966c66648999d506e1372EFDeA1B78cb0B",
+    "chainId": 56,
+    "logoURI": "https://bscscan.com/token/images/bstocks_DELLB_64.png",
+    "decimals": 18,
+    "name": "Dell",
+    "symbol": "DELLB"
+  },
+  {
+    "address": "0x93862d63fd9Fd488B1328E9b47717d75e994a84B",
+    "chainId": 56,
+    "logoURI": "https://bscscan.com/token/images/bstocks_DRAMB_64.png",
+    "decimals": 18,
+    "name": "Roundhill Memory ETF",
+    "symbol": "DRAMB"
+  },
+  {
+    "address": "0xBE82F76637DBA2C114C41Df856c2C51e522E2Cb8",
+    "chainId": 56,
+    "logoURI": "https://bscscan.com/token/images/bstocks_EWYB_64.png",
+    "decimals": 18,
+    "name": "iShares MSCI South Korea ETF",
+    "symbol": "EWYB"
+  },
+  {
+    "address": "0x4af1D41cd9dD950dcA43984b43aaA2A8702714Ac",
+    "chainId": 56,
+    "logoURI": "https://bscscan.com/token/images/bstocks_FLNCB_64.png",
+    "decimals": 18,
+    "name": "Fluence Energy",
+    "symbol": "FLNCB"
+  },
+  {
+    "address": "0x740e075cBbEa22a082B9d6679e65e82767875b6A",
+    "chainId": 56,
+    "logoURI": "https://bscscan.com/token/images/bstocks_GLWB_64.png",
+    "decimals": 18,
+    "name": "Corning",
+    "symbol": "GLWB"
+  },
+  {
+    "address": "0x46cEeFDa28Dd7207059ed19B0acdc026955bb15C",
+    "chainId": 56,
+    "logoURI": "https://bscscan.com/token/images/bstocks_GMEB_64.png",
+    "decimals": 18,
+    "name": "GameStop",
+    "symbol": "GMEB"
+  },
+  {
+    "address": "0x3F53De71c126BdaBAe20f9cD64848d317f6C3238",
+    "chainId": 56,
+    "logoURI": "https://bscscan.com/token/images/bstocks_GOOGLB_64.png",
+    "decimals": 18,
+    "name": "Alphabet",
+    "symbol": "GOOGLB"
+  },
+  {
+    "address": "0x20CCe6656E5F7F79f280E2D0F5dB55b401BDbfCe",
+    "chainId": 56,
+    "logoURI": "https://bscscan.com/token/images/bstocks_GSB_64.png",
+    "decimals": 18,
+    "name": "Goldman Sachs",
+    "symbol": "GSB"
+  },
+  {
+    "address": "0xA394dCEa3fd3847fD793afBFd163E2e3858B7c65",
+    "chainId": 56,
+    "logoURI": "https://bscscan.com/token/images/bstocks_HOODB_64.png",
+    "decimals": 18,
+    "name": "Robinhood",
+    "symbol": "HOODB"
+  },
+  {
+    "address": "0xfA273B076Feb8c0FB34e554ae341082323D016A3",
+    "chainId": 56,
+    "logoURI": "https://bscscan.com/token/images/bstocks_IBMB_64.png",
+    "decimals": 18,
+    "name": "IBM",
+    "symbol": "IBMB"
+  },
+  {
+    "address": "0xe614E2fc6C787035FF51f452e8E826Bfd32D5283",
+    "chainId": 56,
+    "logoURI": "https://bscscan.com/token/images/bstocks_intlb_64.png",
+    "decimals": 18,
+    "name": "Intel Corporation",
+    "symbol": "INTCB"
+  },
+  {
+    "address": "0x0735D9904b7e34e6fe39B0f66E00c111b3f2b681",
+    "chainId": 56,
+    "logoURI": "https://bscscan.com/token/images/bstocks_INTWB_64.png",
+    "decimals": 18,
+    "name": "GraniteShares 2X Long INTC ETF",
+    "symbol": "INTWB"
+  },
+  {
+    "address": "0xfdc2F2caB77b28f7Ef6c819A404706cfA9bCA33b",
+    "chainId": 56,
+    "logoURI": "https://bscscan.com/token/images/bstocks_IRENB_64.png",
+    "decimals": 18,
+    "name": "IREN Limited",
+    "symbol": "IRENB"
+  },
+  {
+    "address": "0x1FFAD32d69c5FEAd99f88C25ca0191Edc3757636",
+    "chainId": 56,
+    "logoURI": "https://bscscan.com/token/images/bstocks_KORUB_64.png",
+    "decimals": 18,
+    "name": "South Korea Bull 3X ETF",
+    "symbol": "KORUB"
+  },
+  {
+    "address": "0x64748BeA17b6D19e242ADf20425DE2440c656142",
+    "chainId": 56,
+    "logoURI": "https://bscscan.com/token/images/bstocks_LITEB_64.png",
+    "decimals": 18,
+    "name": "Lumentum Holdings Inc",
+    "symbol": "LITEB"
+  },
+  {
+    "address": "0x7425889FE94F9d693E8daefE88BCCed6AcFEf4c0",
+    "chainId": 56,
+    "logoURI": "https://bscscan.com/token/images/bstocks_METAB_64.png",
+    "decimals": 18,
+    "name": "Meta Platforms Inc",
+    "symbol": "METAB"
+  },
+  {
+    "address": "0x16cd4fe7e8880ECc3ba222795229E20489fc2C76",
+    "chainId": 56,
+    "logoURI": "https://bscscan.com/token/images/bstocks_MRVLB_64.png",
+    "decimals": 18,
+    "name": "Marvell Technology",
+    "symbol": "MRVLB"
+  },
+  {
+    "address": "0x80106cb3EAD06659A5ad19DF39D9b4733863B9b0",
+    "chainId": 56,
+    "logoURI": "https://bscscan.com/token/images/bstocks_MSFTB_64.png",
+    "decimals": 18,
+    "name": "Microsoft Corporation",
+    "symbol": "MSFTB"
+  },
+  {
+    "address": "0xE87afb3076AeB0f9B14E368DE8145ae6a2826A14",
+    "chainId": 56,
+    "logoURI": "https://bscscan.com/token/images/bstocks_MSTRB_64.png",
+    "decimals": 18,
+    "name": "Strategy Inc",
+    "symbol": "MSTRB"
+  },
+  {
+    "address": "0xcdf2f3e0fa43C47A6662a91C9E4a7C5f69762699",
+    "chainId": 56,
+    "logoURI": "https://bscscan.com/token/images/bstocks_MUB_64.png",
+    "decimals": 18,
+    "name": "Micron Technology Inc",
+    "symbol": "MUB"
+  },
+  {
+    "address": "0x0bB3fA77E0809f42948E435F04883C25415e8263",
+    "chainId": 56,
+    "logoURI": "https://bscscan.com/token/images/bstocks_MUUB_64.png",
+    "decimals": 18,
+    "name": "Direxion MU Bull 2X ETF",
+    "symbol": "MUUB"
+  },
+  {
+    "address": "0x7C26a12f20507E2ceE22CeEBed9e88FDA47f866c",
+    "chainId": 56,
+    "logoURI": "https://bscscan.com/token/images/bstocks_MVLLB_64.png",
+    "decimals": 18,
+    "name": "GraniteShares 2X Long MRVL ETF",
+    "symbol": "MVLLB"
+  },
+  {
+    "address": "0xE256BC2A4F5297F8ba6f043F180a46300eCbCbB1",
+    "chainId": 56,
+    "logoURI": "https://bscscan.com/token/images/bstocks_NBISB_64.png",
+    "decimals": 18,
+    "name": "Nebius",
+    "symbol": "NBISB"
+  },
+  {
+    "address": "0xD6829Ea836b6FA224d099D40E54B31262f874631",
+    "chainId": 56,
+    "logoURI": "https://bscscan.com/token/images/bstocks_NFLXB_64.png",
+    "decimals": 18,
+    "name": "Netflix",
+    "symbol": "NFLXB"
+  },
+  {
+    "address": "0x7c4d7a180D737Dd5A70d8065a90E6746a69C37EA",
+    "chainId": 56,
+    "logoURI": "https://bscscan.com/token/images/bstocks_NOKB_64.png",
+    "decimals": 18,
+    "name": "Nokia",
+    "symbol": "NOKB"
+  },
+  {
+    "address": "0x02Fca66C1D1aFB4E2A7884261eB00F63598a7436",
+    "chainId": 56,
+    "logoURI": "https://bscscan.com/token/images/bstocks_NVDAB_64.png",
+    "decimals": 18,
+    "name": "NVIDIA Corp",
+    "symbol": "NVDAB"
+  },
+  {
+    "address": "0x4684D9887fC1c71cBa7baB8E88835CEC217eB598",
+    "chainId": 56,
+    "logoURI": "https://bscscan.com/token/images/bstocks_ORCLB_64.png",
+    "decimals": 18,
+    "name": "Oracle",
+    "symbol": "ORCLB"
+  },
+  {
+    "address": "0x0Ca5D51D0277Bd006fd9607d3E560785EBad8222",
+    "chainId": 56,
+    "logoURI": "https://bscscan.com/token/images/bstocks_PLTRB_64.png",
+    "decimals": 18,
+    "name": "Palantir Technologies Inc",
+    "symbol": "PLTRB"
+  },
+  {
+    "address": "0x2806a561fC1F9259B2d54A281796Bde0D92762aE",
+    "chainId": 56,
+    "logoURI": "https://bscscan.com/token/images/bstocks_PYPLB_64.png",
+    "decimals": 18,
+    "name": "Paypal",
+    "symbol": "PYPLB"
+  },
+  {
+    "address": "0x5F7A56e877B9130608Bf8BE962621011182fEfE1",
+    "chainId": 56,
+    "logoURI": "https://bscscan.com/token/images/bstocks_QCOMB_64.png",
+    "decimals": 18,
+    "name": "Qualcomm",
+    "symbol": "QCOMB"
+  },
+  {
+    "address": "0xd721c192d612Db77621DF57A9fAb38418033c02E",
+    "chainId": 56,
+    "logoURI": "https://bscscan.com/token/images/bstocks_QNTB_64.png",
+    "decimals": 18,
+    "name": "Quantinuum",
+    "symbol": "QNTB"
+  },
+  {
+    "address": "0x205812CdBed920aFf76C6580abD681a46D11efc7",
+    "chainId": 56,
+    "logoURI": "https://bscscan.com/token/images/bstocks_QQQB_64.png",
+    "decimals": 18,
+    "name": "Invesco QQQ Trust",
+    "symbol": "QQQB"
+  },
+  {
+    "address": "0xC8Da12cbCCE7c45180692a6420b0076e03a5179a",
+    "chainId": 56,
+    "logoURI": "https://bscscan.com/token/images/bstocks_RKLBB_64.png",
+    "decimals": 18,
+    "name": "Rocket Lab",
+    "symbol": "RKLBB"
+  },
+  {
+    "address": "0xCA750eF65f295BBECd685Abf54e82CAf297BDB61",
+    "chainId": 56,
+    "logoURI": "https://bscscan.com/token/images/bstocks_SKHYB_64.png",
+    "decimals": 18,
+    "name": "SK Hynix",
+    "symbol": "SKHYB"
+  },
+  {
+    "address": "0x387dEa1D2772D716d081A29116f3EfFA0fFE1F36",
+    "chainId": 56,
+    "logoURI": "https://bscscan.com/token/images/bstocks_SMCIB_64.png",
+    "decimals": 18,
+    "name": "Super Micro Computer",
+    "symbol": "SMCIB"
+  },
+  {
+    "address": "0xBE1fceD7047fdCE935F45700727845df2c76877a",
+    "chainId": 56,
+    "logoURI": "https://bscscan.com/token/images/bstocks_SMHB_64.png",
+    "decimals": 18,
+    "name": "VanEck Semiconductor ETF",
+    "symbol": "SMHB"
+  },
+  {
+    "address": "0x3eE4dF61bd4F867E349BEaE8bFE07bc31b4850fb",
+    "chainId": 56,
+    "logoURI": "https://bscscan.com/token/images/bstocks_SNDKB_64.png",
+    "decimals": 18,
+    "name": "Sandisk Corporation",
+    "symbol": "SNDKB"
+  },
+  {
+    "address": "0x9e82e3da8f1115B73d24bB24113ab836FfDAb6b6",
+    "chainId": 56,
+    "logoURI": "https://bscscan.com/token/images/bstocks_SNXXB_64.png",
+    "decimals": 18,
+    "name": "Tradr 2X Long SNDK ETF",
+    "symbol": "SNXXB"
+  },
+  {
+    "address": "0xd97d097a89113fa59b76c572E5b2Eb647E8eefaf",
+    "chainId": 56,
+    "logoURI": "https://bscscan.com/token/images/bstocks_SOXLB_64.png",
+    "decimals": 18,
+    "name": "Semicon Bull 3X ETF",
+    "symbol": "SOXLB"
+  },
+  {
+    "address": "0xE28Cd11C99AF2df76bb8aDA4Cd0ef3904378280F",
+    "chainId": 56,
+    "logoURI": "https://bscscan.com/token/images/bstocks_SOXSB_64.png",
+    "decimals": 18,
+    "name": "Direxion Semiconductor Bear 3X ETF",
+    "symbol": "SOXSB"
+  },
+  {
+    "address": "0xbe9D156892E55e7154BcD3cB0FEA677F9D3103E1",
+    "chainId": 56,
+    "logoURI": "https://bscscan.com/token/images/bstocks_spacexb_64.png",
+    "decimals": 18,
+    "name": "SpaceX",
+    "symbol": "SPCXB"
+  },
+  {
+    "address": "0x7138b48df7D98D7e3cc221BfE7192D0a178182D8",
+    "chainId": 56,
+    "logoURI": "https://bscscan.com/token/images/bstocks_SPYB_64.png",
+    "decimals": 18,
+    "name": "SPY",
+    "symbol": "SPYB"
+  },
+  {
+    "address": "0x462B5F13B7C7748279358962925c5De83BB9E598",
+    "chainId": 56,
+    "logoURI": "https://bscscan.com/token/images/bstocks_TQQQB_64.png",
+    "decimals": 18,
+    "name": "ProShares UltraPro QQQ",
+    "symbol": "TQQQB"
+  },
+  {
+    "address": "0x5b1910eAaD6450E50f816082Aa078C41F10C292f",
+    "chainId": 56,
+    "logoURI": "https://bscscan.com/token/images/bstocks_TSLAB_64.png",
+    "decimals": 18,
+    "name": "Tesla, Inc.",
+    "symbol": "TSLAB"
+  },
+  {
+    "address": "0xAB78b89B5bb00236Be0B4B20704cBfa04EfC711c",
+    "chainId": 56,
+    "logoURI": "https://bscscan.com/token/images/bstocks_TSMB_64.png",
+    "decimals": 18,
+    "name": "TSMC",
+    "symbol": "TSMB"
+  },
+  {
+    "address": "0xcd345D4450e04cDeF422A60b97D9265d24e0bcEE",
+    "chainId": 56,
+    "logoURI": "https://bscscan.com/token/images/bstocks_USARB_64.png",
+    "decimals": 18,
+    "name": "USA Rare Earth",
+    "symbol": "USARB"
+  },
+  {
+    "address": "0xebe29695F8047C13d36e7a790ca8c1b239FfAD1C",
+    "chainId": 56,
+    "logoURI": "https://bscscan.com/token/images/bstocks_WDCB_64.png",
+    "decimals": 18,
+    "name": "Western Digital",
+    "symbol": "WDCB"
   }
 ]
