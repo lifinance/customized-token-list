@@ -1262,5 +1262,13 @@
     "decimals": 18,
     "name": "Moderna xStock",
     "symbol": "MRNAx"
+  },
+  {
+    "address": "0x8D823AC5045474c845c8714b495D75b5ccB77D00",
+    "chainId": 1,
+    "logoURI": "https://etherscan.io/token/images/tethergold_xaut.svg",
+    "decimals": 6,
+    "name": "Ample Ethereum XAUt",
+    "symbol": "aEXAUt"
   }
 ]

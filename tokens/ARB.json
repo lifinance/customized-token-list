@@ -630,5 +630,13 @@
     "decimals": 18,
     "name": "Moderna xStock",
     "symbol": "MRNAx"
+  },
+  {
+    "address": "0x54a93a1399169877050EFA784f9e533bB3Bc170C",
+    "chainId": 42161,
+    "logoURI": "https://arbiscan.io/token/images/xaut0_64.png",
+    "decimals": 6,
+    "name": "Ample Arbitrum XAUt0",
+    "symbol": "aRXAUt0"
   }
 ]
