@@ -622,5 +622,13 @@
     "decimals": 18,
     "name": "Saffron.finance",
     "symbol": "SFI"
+  },
+  {
+    "address": "0xeFD30445A4ec1f4b3E0a6f4d9bDbd215F805047F",
+    "chainId": 42161,
+    "logoURI": "https://xstocks-metadata.backed.fi/logos/tokens/MRNAx.png",
+    "decimals": 18,
+    "name": "Moderna xStock",
+    "symbol": "MRNAx"
   }
 ]

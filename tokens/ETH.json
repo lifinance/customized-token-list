@@ -1254,5 +1254,13 @@
     "decimals": 18,
     "name": "TermMax",
     "symbol": "TMX"
+  },
+  {
+    "address": "0xeFD30445A4ec1f4b3E0a6f4d9bDbd215F805047F",
+    "chainId": 1,
+    "logoURI": "https://xstocks-metadata.backed.fi/logos/tokens/MRNAx.png",
+    "decimals": 18,
+    "name": "Moderna xStock",
+    "symbol": "MRNAx"
   }
 ]
