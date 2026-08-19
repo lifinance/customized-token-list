@@ -303,5 +303,15 @@
     "chainId": 56,
     "address": "0x68fa48B1C2FE52b3D776E1953e0E782b5044Ce28",
     "reason": "SPCXx (SpaceX xStock): extremely thin BSC liquidity vs oracle price from deeper chains. ~$250 BNB swap returned ~0.00023 SPCXx (~$0.03). https://bscscan.com/tx/0x96934144b99fea513bdb744aac0dd772310ee3923ce4c2a93569797055af5e57"
+  },
+  {
+    "chainId": 56,
+    "address": "0xE4FAE3Faa8300810C835970b9187c268f55D998F",
+    "reason": "Fee-on-transfer token (CateCoin / CATE). Bitavo reports swap-out failures with transfer amount exceeds balance."
+  },
+  {
+    "chainId": 56,
+    "address": "0x55ad16Bd573B3365f43A9dAeB0Cc66A73821b4a5",
+    "reason": "Fee-on-transfer token (OKZOO / AIOT). Bitavo reports swap-out failures with transfer amount exceeds balance."
   }
 ]

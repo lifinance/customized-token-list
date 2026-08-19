@@ -58,5 +58,10 @@
     "chainId": 42161,
     "address": "0x327006c8712FE0AbdbbD55B7999DB39b0967342E",
     "reason": "Scam fake PYUSD token"
+  },
+  {
+    "chainId": 42161,
+    "address": "0xE43b45C34e654B1038ceCdB57A0302A788FEA3F5",
+    "reason": "Fee-on-transfer token (XRP20). Bitavo reports swap-out failures with transfer amount exceeds balance."
   }
 ]
