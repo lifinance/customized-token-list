@@ -238,5 +238,13 @@
     "decimals": 6,
     "name": "Altura Vault Tokens",
     "symbol": "AVLT"
+  },
+  {
+    "address": "0xeFD30445A4ec1f4b3E0a6f4d9bDbd215F805047F",
+    "chainId": 999,
+    "logoURI": "https://xstocks-metadata.backed.fi/logos/tokens/MRNAx.png",
+    "decimals": 18,
+    "name": "Moderna xStock",
+    "symbol": "MRNAx"
   }
 ]
