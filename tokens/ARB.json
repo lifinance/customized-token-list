@@ -638,5 +638,13 @@
     "decimals": 6,
     "name": "Ample Arbitrum XAUt0",
     "symbol": "aRXAUt0"
+  },
+  {
+    "address": "0x2D80dBf04D0802abD7A342DaFA5d7cB42bfbb52f",
+    "chainId": 42161,
+    "logoURI": "https://docs.monerium.com/img/tokens/gbpe.svg",
+    "decimals": 18,
+    "name": "Monerium GBPe",
+    "symbol": "GBPe"
   }
 ]

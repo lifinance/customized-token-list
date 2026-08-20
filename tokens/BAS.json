@@ -1174,5 +1174,13 @@
     "decimals": 18,
     "name": "Wrapped Vanguard Emerging Markets Stock Index Fund ST0x",
     "symbol": "wtVWO"
+  },
+  {
+    "address": "0xc4759Ed641DA77CbDc9fA2f37E9260a29BF7cC52",
+    "chainId": 8453,
+    "logoURI": "https://docs.monerium.com/img/tokens/gbpe.svg",
+    "decimals": 18,
+    "name": "Monerium GBPe",
+    "symbol": "GBPe"
   }
 ]

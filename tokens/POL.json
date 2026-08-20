@@ -366,5 +366,21 @@
     "decimals": 18,
     "name": "Saffron.finance",
     "symbol": "SFI"
+  },
+  {
+    "address": "0x75792CBDb361d80ba89271a079EfeE62c29FA324",
+    "chainId": 137,
+    "logoURI": "https://docs.monerium.com/img/tokens/gbpe.svg",
+    "decimals": 18,
+    "name": "Monerium GBP emoney [OLD]",
+    "symbol": "GBPe"
+  },
+  {
+    "address": "0x646BEea7a02FdAdA34c8e118949fE32350aB2206",
+    "chainId": 137,
+    "logoURI": "https://docs.monerium.com/img/tokens/gbpe.svg",
+    "decimals": 18,
+    "name": "Monerium GBPe",
+    "symbol": "GBPe"
   }
 ]
