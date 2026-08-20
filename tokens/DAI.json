@@ -96,12 +96,12 @@
     "logoURI": "https://assets.coingecko.com/coins/images/23354/small/eur.png?1643926562"
   },
   {
-    "name": "Monerium GBP emoney",
+    "name": "Monerium GBP emoney [OLD]",
     "address": "0x5Cb9073902F2035222B9749F8fB0c9BFe5527108",
     "symbol": "GBPe",
     "decimals": 18,
     "chainId": 100,
-    "logoURI": "https://monerium.app/tokens/gbp/gbp.png"
+    "logoURI": "https://docs.monerium.com/img/tokens/gbpe.svg"
   },
   {
     "address": "0x4b1E2c2762667331Bc91648052F646d1b0d35984",
@@ -144,14 +144,6 @@
     "logoURI": "https://assets.coingecko.com/coins/images/16509/standard/Circle_Orange_onWhite.png?1696516071"
   },
   {
-    "address": "0x5cb9073902f2035222b9749f8fb0c9bfe5527108",
-    "chainId": 100,
-    "symbol": "GBPe",
-    "decimals": 18,
-    "name": "Monerium GBP emoney",
-    "logoURI": "https://monerium.app/tokens/gbp/gbp.png"
-  },
-  {
     "name": "USDp",
     "address": "0x9eE1963f05553eF838604Dd39403be21ceF26AA4",
     "symbol": "USDp",
@@ -166,5 +158,13 @@
     "chainId": 100,
     "decimals": 2,
     "logoURI": "https://assets.coingecko.com/coins/images/34883/standard/IDRX_BLUE_COIN_200x200.png?1734983273"
+  },
+  {
+    "address": "0x8E34bfEC4f6Eb781f9743D9b4af99CD23F9b7053",
+    "chainId": 100,
+    "logoURI": "https://docs.monerium.com/img/tokens/gbpe.svg",
+    "decimals": 18,
+    "name": "Monerium GBPe",
+    "symbol": "GBPe"
   }
 ]

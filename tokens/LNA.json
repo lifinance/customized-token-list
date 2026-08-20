@@ -126,5 +126,13 @@
     "decimals": 6,
     "name": "Linea USD",
     "symbol": "USDL"
+  },
+  {
+    "address": "0x3Bce82cf1A2bc357F956dd494713Fe11DC54780f",
+    "chainId": 59144,
+    "logoURI": "https://docs.monerium.com/img/tokens/gbpe.svg",
+    "decimals": 18,
+    "name": "Monerium GBPe",
+    "symbol": "GBPe"
   }
 ]
