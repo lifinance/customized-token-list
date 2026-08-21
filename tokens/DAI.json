@@ -166,5 +166,13 @@
     "decimals": 18,
     "name": "Monerium GBPe",
     "symbol": "GBPe"
+  },
+  {
+    "address": "0x420CA0f9B9b604cE0fd9C18EF134C705e5Fa3430",
+    "chainId": 100,
+    "logoURI": "https://docs.monerium.com/img/tokens/eure.svg",
+    "decimals": 18,
+    "name": "Monerium EURe",
+    "symbol": "EURe"
   }
 ]
