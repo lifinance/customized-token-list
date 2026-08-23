@@ -53,10 +53,5 @@
     "chainId": 1,
     "address": "0xB64ef51C888972c908CFacf59B47C1AfBC0Ab8aC",
     "note": "Storj (STORJ)"
-  },
-  {
-    "chainId": 1,
-    "address": "0x4470BB87d77b963A013DB939BE332f927f2b992e",
-    "note": "AdEx (ADX)"
   }
 ]
