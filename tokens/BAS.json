@@ -1190,5 +1190,21 @@
     "decimals": 18,
     "name": "Monerium EURe",
     "symbol": "EURe"
+  },
+  {
+    "address": "0xB2000000000000000000008501b13360000cb2EC",
+    "chainId": 8453,
+    "logoURI": "https://i.imgur.com/kodfBhe.png",
+    "decimals": 8,
+    "name": "Coinbase Wrapped ZEC",
+    "symbol": "cbZEC"
+  },
+  {
+    "address": "0xB200000000000000000000451d033a5000cb479e",
+    "chainId": 8453,
+    "logoURI": "https://i.imgur.com/jO5BlIF.png",
+    "decimals": 18,
+    "name": "Coinbase Wrapped Hyperliquid",
+    "symbol": "cbHYPE"
   }
 ]
