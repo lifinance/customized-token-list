@@ -8,5 +8,10 @@
     "chainId": 4663,
     "address": "0xF023c0b69b94b6a6b3D0aF097f1A5C94aB7f1b09",
     "reason": "Malicious token which send is drained after token is swapped"
+  },
+  {
+    "chainId": 4663,
+    "address": "0xf46EC39A058E4FD98c4a32cdFaF09c8250eB9045",
+    "reason": "Honeypot"
   }
 ]
