@@ -942,5 +942,13 @@
     "decimals": 18,
     "name": "wambo.fun",
     "symbol": "WAMBO"
+  },
+  {
+    "address": "0x92663C3B9f7a27d736A67Fd10DF5416C5Dd5625a",
+    "chainId": 4663,
+    "logoURI": "https://cdn.dexscreener.com/cms/images/zrsDq9mdvAfbnTj4?width=64&height=64&fit=crop&quality=95&format=auto",
+    "decimals": 18,
+    "name": "Early Retirement",
+    "symbol": "401K"
   }
 ]
