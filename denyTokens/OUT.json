@@ -13,5 +13,20 @@
     "chainId": 4663,
     "address": "0xf46EC39A058E4FD98c4a32cdFaF09c8250eB9045",
     "reason": "Honeypot"
+  },
+  {
+    "chainId": 4663,
+    "address": "0x8124dc4802d5D68FC848f6997cA4E7bE125a78E9",
+    "reason": "Orbit standard-gateway wrapper of Ethereum VIRTUAL, not the official Robinhood Chain VIRTUAL (0xc6911796042b15d7Fa4F6CDe69e245DdCd3d9c31). No price feed and almost no liquidity, so routing sold 1622 units for $24 in tx 0x2d3da35aa9738c56b4bc1faded7d31e514bb3a436c25d5ef63a7455ec100dd72. Holders must withdraw through the native bridge instead."
+  },
+  {
+    "chainId": 4663,
+    "address": "0x0822560CBDB92a0Af70397379ddb4Dcc4C95C8a7",
+    "reason": "Orbit standard-gateway wrapper of Ethereum LINK, not the official Robinhood Chain LINK (0x492641F648a4986844848E0beFE66D14817bCE34). No price feed and no liquidity."
+  },
+  {
+    "chainId": 4663,
+    "address": "0xcD26A6AA5BB008240A998E242F51232FE98B12Cb",
+    "reason": "Orbit standard-gateway wrapper of Ethereum wstETH, not the official Robinhood Chain wstETH (0x2dC99af320BC317c567f24eE95811dcbd5983DfD). No price feed and no liquidity."
   }
 ]
