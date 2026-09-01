@@ -1286,5 +1286,13 @@
     "decimals": 18,
     "name": "Apyx Treasury USD",
     "symbol": "aptUSD"
+  },
+  {
+    "address": "0x15c91ebccb2c659b3a208214a103cbcb9d5f9671",
+    "chainId": 1,
+    "logoURI": "https://apyx-token-logos.apxusd-supply-1337.workers.dev/alqusd-256.png",
+    "decimals": 18,
+    "name": "Apyx Treasury USD unstaked",
+    "symbol": "alqUSD"
   }
 ]
