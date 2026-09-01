@@ -1278,5 +1278,13 @@
     "decimals": 18,
     "name": "Monerium EURe",
     "symbol": "EURe"
+  },
+  {
+    "address": "0x093df218d70ea6036afa26704a1c70d12010b908",
+    "chainId": 1,
+    "logoURI": "https://apyx-token-logos.apxusd-supply-1337.workers.dev/aptusd-256.png",
+    "decimals": 18,
+    "name": "Apyx Treasury USD",
+    "symbol": "aptUSD"
   }
 ]
