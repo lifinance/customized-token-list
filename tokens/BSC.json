@@ -2054,5 +2054,37 @@
     "decimals": 18,
     "name": "Moderna xStock",
     "symbol": "MRNAx"
+  },
+  {
+    "name": "Vetro USD",
+    "address": "0x10061d0593441Ff74536158592e1Be3F4C7B180C",
+    "symbol": "VUSD",
+    "decimals": 18,
+    "chainId": 56,
+    "logoURI": "https://static.vetro.org/brand/tokens/VUSD/vetro-token-VUSD.png"
+  },
+  {
+    "name": "Staked Vetro USD",
+    "address": "0xC141B66eE4262Ba46Ea29578955C274fD4A96515",
+    "symbol": "sVUSD",
+    "decimals": 18,
+    "chainId": 56,
+    "logoURI": "https://static.vetro.org/brand/tokens/sVUSD-VUSDx/vetro-token-sVUSD-VUSDx.png"
+  },
+  {
+    "name": "Vetro BTC",
+    "address": "0xD46ac62F9C145B64146AFadB848476B209b6b420",
+    "symbol": "vetBTC",
+    "decimals": 18,
+    "chainId": 56,
+    "logoURI": "https://static.vetro.org/brand/tokens/vetBTC/vetro-token-vetBTC.png"
+  },
+  {
+    "name": "Staked Vetro BTC",
+    "address": "0x37D8C0AFeeF48AA9D925475CF6c73E4D8c74d931",
+    "symbol": "svetBTC",
+    "decimals": 18,
+    "chainId": 56,
+    "logoURI": "https://static.vetro.org/brand/tokens/svetBTC-vetBTCx/vetro-token-svetBTC-vetBTCx.png"
   }
 ]

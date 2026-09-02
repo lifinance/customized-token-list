@@ -1294,5 +1294,37 @@
     "decimals": 18,
     "name": "Apyx Treasury USD unstaked",
     "symbol": "alqUSD"
+  },
+  {
+    "name": "Vetro USD",
+    "address": "0xCa83DDE9c22254f58e771bE5E157773212AcBAc3",
+    "symbol": "VUSD",
+    "decimals": 18,
+    "chainId": 1,
+    "logoURI": "https://static.vetro.org/brand/tokens/VUSD/vetro-token-VUSD.png"
+  },
+  {
+    "name": "Staked Vetro USD",
+    "address": "0x476310E34D2810f7d79C43A74E4D79405bd7a925",
+    "symbol": "sVUSD",
+    "decimals": 18,
+    "chainId": 1,
+    "logoURI": "https://static.vetro.org/brand/tokens/sVUSD-VUSDx/vetro-token-sVUSD-VUSDx.png"
+  },
+  {
+    "name": "Vetro BTC",
+    "address": "0xf196C68233464A16CFDa319a47c21f4cECa62001",
+    "symbol": "vetBTC",
+    "decimals": 18,
+    "chainId": 1,
+    "logoURI": "https://static.vetro.org/brand/tokens/vetBTC/vetro-token-vetBTC.png"
+  },
+  {
+    "name": "Staked Vetro BTC",
+    "address": "0x0cB9D84d4bcEc8d3D5B2d99a6F07f4605325987e",
+    "symbol": "svetBTC",
+    "decimals": 18,
+    "chainId": 1,
+    "logoURI": "https://static.vetro.org/brand/tokens/svetBTC-vetBTCx/vetro-token-svetBTC-vetBTCx.png"
   }
 ]
