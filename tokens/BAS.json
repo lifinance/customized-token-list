@@ -122,15 +122,15 @@
   {
     "address": "0x2f85d372Bef829e866f8917378Ff20A88E7FC403",
     "chainId": 8453,
-    "logoURI": "https://strapi.jumper.exchange/uploads/coolcoin_b7e2f7f32f.webp",
     "decimals": 10,
     "name": "CoolCoin",
-    "symbol": "$COOL"
+    "symbol": "$COOL",
+    "logoURI": "https://strapi.jumper.exchange/uploads/coolcoin_b7e2f7f32f.webp"
   },
   {
     "address": "0x532f27101965dd16442E59d40670FaF5eBB142E4",
     "chainId": 8453,
-    "logoURI": "https://strapi.jumper.exchange/uploads/brett_ca2d328cc8.jpeg",
+    "logoURI": "https://coin-images.coingecko.com/coins/images/35529/large/1000050750.png?1709031995",
     "decimals": 18,
     "name": "Brett",
     "symbol": "BRETT"
@@ -138,7 +138,7 @@
   {
     "address": "0x70737489DFDf1A29b7584d40500d3561bD4Fe196",
     "chainId": 8453,
-    "logoURI": "https://strapi.jumper.exchange/uploads/bored_70d2ad205b.webp",
+    "logoURI": "https://coin-images.coingecko.com/coins/images/37050/large/bored.jpeg?1713340233",
     "decimals": 18,
     "name": "BORED",
     "symbol": "BORED"
@@ -146,7 +146,7 @@
   {
     "address": "0xAC1Bd2486aAf3B5C0fc3Fd868558b082a531B2B4",
     "chainId": 8453,
-    "logoURI": "https://strapi.jumper.exchange/uploads/toshi_51fef7e455.webp",
+    "logoURI": "https://coin-images.coingecko.com/coins/images/31126/large/Toshi_Logo_-_Circular.png?1721677476",
     "decimals": 18,
     "name": "Toshi",
     "symbol": "TOSHI"
@@ -154,7 +154,7 @@
   {
     "address": "0x13741C5dF9aB03E7Aa9Fb3Bf1f714551dD5A5F8a",
     "chainId": 8453,
-    "logoURI": "https://strapi.jumper.exchange/uploads/noggles_320fcae2c0.webp",
+    "logoURI": "https://coin-images.coingecko.com/coins/images/37238/large/nogs.jpeg?1713851209",
     "decimals": 18,
     "name": "Noggles",
     "symbol": "NOGS"
@@ -162,7 +162,7 @@
   {
     "address": "0xFF0C532FDB8Cd566Ae169C1CB157ff2Bdc83E105",
     "chainId": 8453,
-    "logoURI": "https://strapi.jumper.exchange/uploads/frenpet_21607d080c.webp",
+    "logoURI": "https://coin-images.coingecko.com/coins/images/33022/large/token.png?1700274697",
     "decimals": 18,
     "name": "Fren Pet",
     "symbol": "Fren Pet"
@@ -170,7 +170,7 @@
   {
     "address": "0x6921B130D297cc43754afba22e5EAc0FBf8Db75b",
     "chainId": 8453,
-    "logoURI": "https://strapi.jumper.exchange/uploads/doginme_2c08ffbeef.png",
+    "logoURI": "https://coin-images.coingecko.com/coins/images/35123/large/doginme-logo1-transparent200.png?1710856784",
     "decimals": 18,
     "name": "doginme",
     "symbol": "doginme"
@@ -178,7 +178,7 @@
   {
     "address": "0x4ed4E862860beD51a9570b96d89aF5E1B0Efefed",
     "chainId": 8453,
-    "logoURI": "https://strapi.jumper.exchange/uploads/degen_38108fbdaa.webp",
+    "logoURI": "https://coin-images.coingecko.com/coins/images/34515/large/android-chrome-512x512.png?1706198225",
     "decimals": 18,
     "name": "Degen",
     "symbol": "DEGEN"
@@ -194,7 +194,7 @@
   {
     "address": "0x3e05D37CFBd8caaad9E3322D35CC727AfaFF63E3",
     "chainId": 8453,
-    "logoURI": "https://strapi.jumper.exchange/uploads/beng_fb10df317b.webp",
+    "logoURI": "https://coin-images.coingecko.com/coins/images/36741/large/0.5_%281%29_%281%29.png?1712211668",
     "decimals": 18,
     "name": "Based Peng",
     "symbol": "BENG"
@@ -202,7 +202,7 @@
   {
     "address": "0xE3086852A4B125803C815a158249ae468A3254Ca",
     "chainId": 8453,
-    "logoURI": "https://strapi.jumper.exchange/uploads/mfercoin_logo_6e4f3a463d.webp",
+    "logoURI": "https://coin-images.coingecko.com/coins/images/36550/large/mfercoin-logo.png?1711876821",
     "decimals": 18,
     "name": "mfercoin",
     "symbol": "$mfer"
@@ -210,7 +210,7 @@
   {
     "address": "0x7d9CE55D54FF3FEddb611fC63fF63ec01F26D15F",
     "chainId": 8453,
-    "logoURI": "https://strapi.jumper.exchange/uploads/fungi_f67f34fe47.webp",
+    "logoURI": "https://coin-images.coingecko.com/coins/images/36690/large/image_2024-03-29_20-10-19_%282%29_%283%29.png?1712091884",
     "decimals": 9,
     "name": "Fungi",
     "symbol": "FUNGI"
@@ -218,7 +218,7 @@
   {
     "address": "0x85E90a5430AF45776548ADB82eE4cD9E33B08077",
     "chainId": 8453,
-    "logoURI": "https://strapi.jumper.exchange/uploads/dino_83f477aa75.webp",
+    "logoURI": "https://coin-images.coingecko.com/coins/images/36637/large/dino_icon_copy.png?1712029544",
     "decimals": 18,
     "name": "DINO",
     "symbol": "DINO"
@@ -226,7 +226,7 @@
   {
     "address": "0x347F500323D51E9350285Daf299ddB529009e6AE",
     "chainId": 8453,
-    "logoURI": "https://strapi.jumper.exchange/uploads/blerf_cbc846af8d.webp",
+    "logoURI": "https://coin-images.coingecko.com/coins/images/36473/large/BLERF.png?1711527025",
     "decimals": 18,
     "name": "BLERF",
     "symbol": "BLERF"
@@ -234,7 +234,7 @@
   {
     "address": "0xfEA9DcDc9E23a9068bF557AD5b186675C61d33eA",
     "chainId": 8453,
-    "logoURI": "https://strapi.jumper.exchange/uploads/based_shiba_inu_08cbdab0a4.webp",
+    "logoURI": "https://coin-images.coingecko.com/coins/images/36092/large/logocg.png?1710478223",
     "decimals": 18,
     "name": "Based Shiba Inu",
     "symbol": "BSHIB"
