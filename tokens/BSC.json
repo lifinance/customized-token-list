@@ -2054,5 +2054,13 @@
     "decimals": 18,
     "name": "Moderna xStock",
     "symbol": "MRNAx"
+  },
+  {
+    "address": "0x5191b13fc0e90026942da71d619d64f4289ddc69",
+    "chainId": 56,
+    "logoURI": "https://assets.coingecko.com/coins/images/102176562/standard/20260828-171534.png",
+    "decimals": 18,
+    "name": "NOXO",
+    "symbol": "NOXO"
   }
 ]
