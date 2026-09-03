@@ -354,7 +354,7 @@
   {
     "address": "0xF9CA0EC182a94f6231Df9b14BD147eF7Fb9FA17C",
     "chainId": 42161,
-    "logoURI": "https://strapi.jumper.exchange/uploads/boner_0d3e84c172.webp",
+    "logoURI": "https://cdn.dexscreener.com/cms/images/0d3fb552b63c4035d32c698a11000b128c905745a92763b8b047a7275c17360d?width=800&height=800&quality=95&format=auto",
     "decimals": 18,
     "name": "Boner",
     "symbol": "BONER"
@@ -362,7 +362,7 @@
   {
     "address": "0x155f0DD04424939368972f4e1838687d6a831151",
     "chainId": 42161,
-    "logoURI": "https://strapi.jumper.exchange/uploads/adoge_364ca65f7d.webp",
+    "logoURI": "https://coin-images.coingecko.com/coins/images/18333/large/Screen-Shot-2021-09-04-at-11-59-16-AM.png?1696517824",
     "decimals": 18,
     "name": "ArbiDoge",
     "symbol": "ADoge"
@@ -370,7 +370,7 @@
   {
     "address": "0x3212dc0F8c834e4DE893532d27CC9B6001684DB0",
     "chainId": 42161,
-    "logoURI": "https://strapi.jumper.exchange/uploads/pear_b24b608ea0.png",
+    "logoURI": "https://coin-images.coingecko.com/coins/images/50484/large/pearlogo.jpg?1727897446",
     "decimals": 18,
     "name": "Pear",
     "symbol": "PEAR"
