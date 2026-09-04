@@ -246,5 +246,197 @@
     "decimals": 18,
     "name": "Moderna xStock",
     "symbol": "MRNAx"
+  },
+  {
+    "name": "Apple (Ondo Tokenized)",
+    "address": "0x81db0DF77669b3BE563e7a0591685a2C8C3EE1c5",
+    "symbol": "AAPLon",
+    "decimals": 18,
+    "chainId": 999,
+    "logoURI": "https://cdn.ondo.finance/tokens/logos/aaplon_160x160.png"
+  },
+  {
+    "name": "AMD (Ondo Tokenized)",
+    "address": "0x33706203A7a7c82B6F6c09dd9Ae4E6e881d36386",
+    "symbol": "AMDon",
+    "decimals": 18,
+    "chainId": 999,
+    "logoURI": "https://cdn.ondo.finance/tokens/logos/amdon_160x160.png"
+  },
+  {
+    "name": "Amazon (Ondo Tokenized)",
+    "address": "0xeD68F063264a01fd7f93087DC19CC1E0D614e8De",
+    "symbol": "AMZNon",
+    "decimals": 18,
+    "chainId": 999,
+    "logoURI": "https://cdn.ondo.finance/tokens/logos/amznon_160x160.png"
+  },
+  {
+    "name": "Alibaba (Ondo Tokenized)",
+    "address": "0x799Bf997B733CAb2e1377D0411b63E35133991eb",
+    "symbol": "BABAon",
+    "decimals": 18,
+    "chainId": 999,
+    "logoURI": "https://cdn.ondo.finance/tokens/logos/babaon_160x160.png"
+  },
+  {
+    "name": "Coinbase (Ondo Tokenized)",
+    "address": "0x639Bcd00422facAcA534063e3d860e8fcf78B46F",
+    "symbol": "COINon",
+    "decimals": 18,
+    "chainId": 999,
+    "logoURI": "https://cdn.ondo.finance/tokens/logos/coinon_160x160.png"
+  },
+  {
+    "name": "Circle Internet Group (Ondo Tokenized)",
+    "address": "0x13a81c5e8b4AB05Fc721DfF7bA95e250b29458F8",
+    "symbol": "CRCLon",
+    "decimals": 18,
+    "chainId": 999,
+    "logoURI": "https://cdn.ondo.finance/tokens/logos/crclon_160x160.png"
+  },
+  {
+    "name": "Alphabet Class A (Ondo Tokenized)",
+    "address": "0x4D34798f18Eb747F7225663F0553eA2D880cf75D",
+    "symbol": "GOOGLon",
+    "decimals": 18,
+    "chainId": 999,
+    "logoURI": "https://cdn.ondo.finance/tokens/logos/googlon_160x160.png"
+  },
+  {
+    "name": "Robinhood Markets (Ondo Tokenized)",
+    "address": "0xF1Df92AC8E22763A16bf4Bd9a966EEBcD70fA5a3",
+    "symbol": "HOODon",
+    "decimals": 18,
+    "chainId": 999,
+    "logoURI": "https://cdn.ondo.finance/tokens/logos/hoodon_160x160.png"
+  },
+  {
+    "name": "iShares Gold Trust (Ondo Tokenized)",
+    "address": "0x83b01AC9e2D1632A70Dd1C813c5B8eDF29cd707f",
+    "symbol": "IAUon",
+    "decimals": 18,
+    "chainId": 999,
+    "logoURI": "https://cdn.ondo.finance/tokens/logos/iauon_160x160.png"
+  },
+  {
+    "name": "Intel (Ondo Tokenized)",
+    "address": "0x7bf529bb5Db370D679F33f4fe5420F48eE234bB7",
+    "symbol": "INTCon",
+    "decimals": 18,
+    "chainId": 999,
+    "logoURI": "https://cdn.ondo.finance/tokens/logos/intcon_160x160.png"
+  },
+  {
+    "name": "iShares Core S&P 500 ETF (Ondo Tokenized)",
+    "address": "0xAd26B6048cc3682f67Fe4C829b7Ac99dbF95920e",
+    "symbol": "IVVon",
+    "decimals": 18,
+    "chainId": 999,
+    "logoURI": "https://cdn.ondo.finance/tokens/logos/ivvon_160x160.png"
+  },
+  {
+    "name": "Meta Platforms (Ondo Tokenized)",
+    "address": "0x46FA18Ffe2707bbecc46D457D40EFBE6B932f711",
+    "symbol": "METAon",
+    "decimals": 18,
+    "chainId": 999,
+    "logoURI": "https://cdn.ondo.finance/tokens/logos/metaon_160x160.png"
+  },
+  {
+    "name": "Microsoft (Ondo Tokenized)",
+    "address": "0xD53471f6D493f7eD766181D88Ba9c2Bfc371399A",
+    "symbol": "MSFTon",
+    "decimals": 18,
+    "chainId": 999,
+    "logoURI": "https://cdn.ondo.finance/tokens/logos/msfton_160x160.png"
+  },
+  {
+    "name": "MicroStrategy (Ondo Tokenized)",
+    "address": "0x8a64FDf0857c1C734A594cd1DB20B3f8E3f133f6",
+    "symbol": "MSTRon",
+    "decimals": 18,
+    "chainId": 999,
+    "logoURI": "https://cdn.ondo.finance/tokens/logos/mstron_160x160.png"
+  },
+  {
+    "name": "Micron Technology (Ondo Tokenized)",
+    "address": "0x0f8E33F5CdefAE9C2E59de8fB61feD347046D046",
+    "symbol": "MUon",
+    "decimals": 18,
+    "chainId": 999,
+    "logoURI": "https://cdn.ondo.finance/tokens/logos/muon_160x160.png"
+  },
+  {
+    "name": "Netflix (Ondo Tokenized)",
+    "address": "0x81Ebb420a81855f1Bf1B0fF95eCa9d3Bd736ea89",
+    "symbol": "NFLXon",
+    "decimals": 18,
+    "chainId": 999,
+    "logoURI": "https://cdn.ondo.finance/tokens/logos/nflxon_160x160.png"
+  },
+  {
+    "name": "NVIDIA (Ondo Tokenized)",
+    "address": "0xB989ad9b91886b1Aaed8DaADb26F028b29b40945",
+    "symbol": "NVDAon",
+    "decimals": 18,
+    "chainId": 999,
+    "logoURI": "https://cdn.ondo.finance/tokens/logos/nvdaon_160x160.png"
+  },
+  {
+    "name": "Oracle (Ondo Tokenized)",
+    "address": "0x4775e99a13651B1D077c2fa04Eb9BF007f684af5",
+    "symbol": "ORCLon",
+    "decimals": 18,
+    "chainId": 999,
+    "logoURI": "https://cdn.ondo.finance/tokens/logos/orclon_160x160.png"
+  },
+  {
+    "name": "Palantir Technologies (Ondo Tokenized)",
+    "address": "0x039358AB6919159f6026Ea4428595a5AaF12A35C",
+    "symbol": "PLTRon",
+    "decimals": 18,
+    "chainId": 999,
+    "logoURI": "https://cdn.ondo.finance/tokens/logos/pltron_160x160.png"
+  },
+  {
+    "name": "Invesco QQQ (Ondo Tokenized)",
+    "address": "0x911e2dCD2b70F44231F3F0f1C6ec9aF75068FD85",
+    "symbol": "QQQon",
+    "decimals": 18,
+    "chainId": 999,
+    "logoURI": "https://cdn.ondo.finance/tokens/logos/qqqon_160x160.png"
+  },
+  {
+    "name": "iShares Silver Trust (Ondo Tokenized)",
+    "address": "0xd53d98d13D93C817011645442c2e4d46E499B460",
+    "symbol": "SLVon",
+    "decimals": 18,
+    "chainId": 999,
+    "logoURI": "https://cdn.ondo.finance/tokens/logos/slvon_160x160.png"
+  },
+  {
+    "name": "SPDR S&P 500 ETF (Ondo Tokenized)",
+    "address": "0x32eC2792aeC02122eDD9f28866B720db1e1c1B54",
+    "symbol": "SPYon",
+    "decimals": 18,
+    "chainId": 999,
+    "logoURI": "https://cdn.ondo.finance/tokens/logos/spyon_160x160.png"
+  },
+  {
+    "name": "Tesla (Ondo Tokenized)",
+    "address": "0x417883b1709545f1211A25b00ad13455fC7F1bc5",
+    "symbol": "TSLAon",
+    "decimals": 18,
+    "chainId": 999,
+    "logoURI": "https://cdn.ondo.finance/tokens/logos/tslaon_160x160.png"
+  },
+  {
+    "name": "Taiwan Semiconductor Manufacturing (Ondo Tokenized)",
+    "address": "0x3254cdffDDEDdb1F61B9eF6f67e178615CCb0E85",
+    "symbol": "TSMon",
+    "decimals": 18,
+    "chainId": 999,
+    "logoURI": "https://cdn.ondo.finance/tokens/logos/tsmon_160x160.png"
   }
 ]

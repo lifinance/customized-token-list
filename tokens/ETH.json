@@ -1294,5 +1294,2405 @@
     "decimals": 18,
     "name": "Apyx Treasury USD unstaked",
     "symbol": "alqUSD"
+  },
+  {
+    "name": "Ondo U.S. Dollar Token",
+    "address": "0xAcE8E719899F6E91831B18AE746C9A965c2119F1",
+    "symbol": "USDon",
+    "decimals": 18,
+    "chainId": 1,
+    "logoURI": "https://cdn.ondo.finance/tokens/logos/usdon_160x160.png"
+  },
+  {
+    "name": "American Airlines Group (Ondo Tokenized)",
+    "address": "0xbe8eb7b51a08f9d52bb6c8c7eca699f0f89bfc02",
+    "symbol": "AALon",
+    "decimals": 18,
+    "chainId": 1,
+    "logoURI": "https://cdn.ondo.finance/tokens/logos/aalon_160x160.png"
+  },
+  {
+    "name": "AbbVie (Ondo Tokenized)",
+    "address": "0x7c7378143a9c8839e0502e2178f058f46c6ea504",
+    "symbol": "ABBVon",
+    "decimals": 18,
+    "chainId": 1,
+    "logoURI": "https://cdn.ondo.finance/tokens/logos/abbvon_160x160.png"
+  },
+  {
+    "name": "Archer Aviation (Ondo Tokenized)",
+    "address": "0x9cfa08002d606e638fe91941be725e1b970b84a6",
+    "symbol": "ACHRon",
+    "decimals": 18,
+    "chainId": 1,
+    "logoURI": "https://cdn.ondo.finance/tokens/logos/achron_160x160.png"
+  },
+  {
+    "name": "Analog Devices (Ondo Tokenized)",
+    "address": "0x2ddc2391cc89e3e716a938f089ae755174cfdf1f",
+    "symbol": "ADIon",
+    "decimals": 18,
+    "chainId": 1,
+    "logoURI": "https://cdn.ondo.finance/tokens/logos/adion_160x160.png"
+  },
+  {
+    "name": "Albemarle (Ondo Tokenized)",
+    "address": "0x1b468d5535Ed7C19Ce42f0073db7Fdf441028131",
+    "symbol": "ALBon",
+    "decimals": 18,
+    "chainId": 1,
+    "logoURI": "https://cdn.ondo.finance/tokens/logos/albon_160x160.png"
+  },
+  {
+    "name": "Applied Materials (Ondo Tokenized)",
+    "address": "0x6be935eadc71c49c414b1175985946ee40365c67",
+    "symbol": "AMATon",
+    "decimals": 18,
+    "chainId": 1,
+    "logoURI": "https://cdn.ondo.finance/tokens/logos/amaton_160x160.png"
+  },
+  {
+    "name": "AMC Entertainment (Ondo Tokenized)",
+    "address": "0x592643a667633bca51cb2387c98b6de6ce549a45",
+    "symbol": "AMCon",
+    "decimals": 18,
+    "chainId": 1,
+    "logoURI": "https://cdn.ondo.finance/tokens/logos/amcon_160x160.png"
+  },
+  {
+    "name": "Amgen (Ondo Tokenized)",
+    "address": "0x1c5fa55eade69ae98571059332520f73733c2d82",
+    "symbol": "AMGNon",
+    "decimals": 18,
+    "chainId": 1,
+    "logoURI": "https://cdn.ondo.finance/tokens/logos/amgnon_160x160.png"
+  },
+  {
+    "name": "Arista Networks (Ondo Tokenized)",
+    "address": "0x20e113e9235df6a2a9bfc6f244c2ccc380c8f546",
+    "symbol": "ANETon",
+    "decimals": 18,
+    "chainId": 1,
+    "logoURI": "https://cdn.ondo.finance/tokens/logos/aneton_160x160.png"
+  },
+  {
+    "name": "Applied Digital (Ondo Tokenized)",
+    "address": "0x318Dcb4f07C3e6ccEcc12A252100Fb3Bf76Eeb02",
+    "symbol": "APLDon",
+    "decimals": 18,
+    "chainId": 1,
+    "logoURI": "https://cdn.ondo.finance/tokens/logos/apldon_160x160.png"
+  },
+  {
+    "name": "AST SpaceMobile (Ondo Tokenized)",
+    "address": "0x0D1fa4E1E3719945899Ef7b02840627Df46aF44A",
+    "symbol": "ASTSon",
+    "decimals": 18,
+    "chainId": 1,
+    "logoURI": "https://cdn.ondo.finance/tokens/logos/astson_160x160.png"
+  },
+  {
+    "name": "Bank of America (Ondo Tokenized)",
+    "address": "0x576e9ca70e3a040c00d8139b0665a2b7b7b64844",
+    "symbol": "BACon",
+    "decimals": 18,
+    "chainId": 1,
+    "logoURI": "https://cdn.ondo.finance/tokens/logos/bacon_160x160.png"
+  },
+  {
+    "name": "BigBear.ai Holdings (Ondo Tokenized)",
+    "address": "0x1b8d3e59b31981385c066ee0916ec964628ff1f9",
+    "symbol": "BBAIon",
+    "decimals": 18,
+    "chainId": 1,
+    "logoURI": "https://cdn.ondo.finance/tokens/logos/bbaion_160x160.png"
+  },
+  {
+    "name": "Bilibili (Ondo Tokenized)",
+    "address": "0x7e08ce07aca80cefe61ebbfa0cedfe5c7b07edb9",
+    "symbol": "BILIon",
+    "decimals": 18,
+    "chainId": 1,
+    "logoURI": "https://cdn.ondo.finance/tokens/logos/bilion_160x160.png"
+  },
+  {
+    "name": "iShares Flexible Income Active ETF (Ondo Tokenized)",
+    "address": "0x88703c1e71f44a2d329c99e8e112f7a4e7dd6312",
+    "symbol": "BINCon",
+    "decimals": 18,
+    "chainId": 1,
+    "logoURI": "https://cdn.ondo.finance/tokens/logos/bincon_160x160.png"
+  },
+  {
+    "name": "Bullish (Ondo Tokenized)",
+    "address": "0x334ccd8df4013bac99af8c5c61d3605b315302a0",
+    "symbol": "BLSHon",
+    "decimals": 18,
+    "chainId": 1,
+    "logoURI": "https://cdn.ondo.finance/tokens/logos/blshon_160x160.png"
+  },
+  {
+    "name": "BitMine Immersion Technologies (Ondo Tokenized)",
+    "address": "0x33483a58079b4225b10e57958ca28ad7b9cdbaf7",
+    "symbol": "BMNRon",
+    "decimals": 18,
+    "chainId": 1,
+    "logoURI": "https://cdn.ondo.finance/tokens/logos/bmnron_160x160.png"
+  },
+  {
+    "name": "US Brent Oil Fund (Ondo Tokenized)",
+    "address": "0x9ddb2524782684942FAD28b44E76552cB7f3F548",
+    "symbol": "BNOon",
+    "decimals": 18,
+    "chainId": 1,
+    "logoURI": "https://cdn.ondo.finance/tokens/logos/bnoon_160x160.png"
+  },
+  {
+    "name": "B2Gold (Ondo Tokenized)",
+    "address": "0x8ac6ad49b3344024834f373f3ca491f22ceb952e",
+    "symbol": "BTGon",
+    "decimals": 18,
+    "chainId": 1,
+    "logoURI": "https://cdn.ondo.finance/tokens/logos/btgon_160x160.png"
+  },
+  {
+    "name": "BitGo Holdings (Ondo Tokenized)",
+    "address": "0x510Dd21055188Eda378714DE3bb5591Ffa0CC468",
+    "symbol": "BTGOon",
+    "decimals": 18,
+    "chainId": 1,
+    "logoURI": "https://cdn.ondo.finance/tokens/logos/btgoon_160x160.png"
+  },
+  {
+    "name": "Kanzhun (Ondo Tokenized)",
+    "address": "0x858e985126543b5a066c4e8a5dab0249c1d683f7",
+    "symbol": "BZon",
+    "decimals": 18,
+    "chainId": 1,
+    "logoURI": "https://cdn.ondo.finance/tokens/logos/bzon_160x160.png"
+  },
+  {
+    "name": "Capricor Therapeutics (Ondo Tokenized)",
+    "address": "0x70Ec0f5B23404C0cD6f29ce88f4af00A0b0d895D",
+    "symbol": "CAPRon",
+    "decimals": 18,
+    "chainId": 1,
+    "logoURI": "https://cdn.ondo.finance/tokens/logos/capron_160x160.png"
+  },
+  {
+    "name": "First Trust NASDAQ Cybersecurity ETF (Ondo Tokenized)",
+    "address": "0x42d6E274B8631e5289a8F853E8d1A7bAEff3C8d1",
+    "symbol": "CIBRon",
+    "decimals": 18,
+    "chainId": 1,
+    "logoURI": "https://cdn.ondo.finance/tokens/logos/cibron_160x160.png"
+  },
+  {
+    "name": "Cipher Mining (Ondo Tokenized)",
+    "address": "0x24e5bc45d5b6cef6f38989ac33df587a3fc850cf",
+    "symbol": "CIFRon",
+    "decimals": 18,
+    "chainId": 1,
+    "logoURI": "https://cdn.ondo.finance/tokens/logos/cifron_160x160.png"
+  },
+  {
+    "name": "VanEck CLO ETF (Ondo Tokenized)",
+    "address": "0xe8b09e8175aecb35a171fa059647434fe47f114c",
+    "symbol": "CLOIon",
+    "decimals": 18,
+    "chainId": 1,
+    "logoURI": "https://cdn.ondo.finance/tokens/logos/cloion_160x160.png"
+  },
+  {
+    "name": "Coherent (Ondo Tokenized)",
+    "address": "0x2B7727076B9C9B1834a2f95B81f12EEdD30db9f1",
+    "symbol": "COHRon",
+    "decimals": 18,
+    "chainId": 1,
+    "logoURI": "https://cdn.ondo.finance/tokens/logos/cohron_160x160.png"
+  },
+  {
+    "name": "ConocoPhillips (Ondo Tokenized)",
+    "address": "0x8e6a5338eac4b6fe8d51a7653fad3b9da755eea6",
+    "symbol": "COPon",
+    "decimals": 18,
+    "chainId": 1,
+    "logoURI": "https://cdn.ondo.finance/tokens/logos/copon_160x160.png"
+  },
+  {
+    "name": "Global X Copper Miners ETF (Ondo Tokenized)",
+    "address": "0x423a63dfe8d82cd9c6568c92210aa537d8ef6885",
+    "symbol": "COPXon",
+    "decimals": 18,
+    "chainId": 1,
+    "logoURI": "https://cdn.ondo.finance/tokens/logos/copxon_160x160.png"
+  },
+  {
+    "name": "Coupang (Ondo Tokenized)",
+    "address": "0xfa9f0bf8baa9a3d5e0a8e5c0aeaf186acabef63d",
+    "symbol": "CPNGon",
+    "decimals": 18,
+    "chainId": 1,
+    "logoURI": "https://cdn.ondo.finance/tokens/logos/cpngon_160x160.png"
+  },
+  {
+    "name": "CrowdStrike (Ondo Tokenized)",
+    "address": "0xcac9aafb2cf51645ae1ab4fb1f35f07d42437f80",
+    "symbol": "CRWDon",
+    "decimals": 18,
+    "chainId": 1,
+    "logoURI": "https://cdn.ondo.finance/tokens/logos/crwdon_160x160.png"
+  },
+  {
+    "name": "CoreWeave (Ondo Tokenized)",
+    "address": "0x66908813cd7676269494B2c6F6DBAB8B4f9E95df",
+    "symbol": "CRWVon",
+    "decimals": 18,
+    "chainId": 1,
+    "logoURI": "https://cdn.ondo.finance/tokens/logos/crwvon_160x160.png"
+  },
+  {
+    "name": "Carvana (Ondo Tokenized)",
+    "address": "0xfe4ec50e0413148021d2f50d114cc44de6ffbf23",
+    "symbol": "CVNAon",
+    "decimals": 18,
+    "chainId": 1,
+    "logoURI": "https://cdn.ondo.finance/tokens/logos/cvnaon_160x160.png"
+  },
+  {
+    "name": "Invesco DB Commodity Index Tracking Fund (Ondo Tokenized)",
+    "address": "0x20224080ad516769723c9a4a18325fc4e8c9ab5d",
+    "symbol": "DBCon",
+    "decimals": 18,
+    "chainId": 1,
+    "logoURI": "https://cdn.ondo.finance/tokens/logos/dbcon_160x160.png"
+  },
+  {
+    "name": "Deere (Ondo Tokenized)",
+    "address": "0x32d7c413fd3477e86b8ec6b0bb8f3ac510eafaae",
+    "symbol": "DEon",
+    "decimals": 18,
+    "chainId": 1,
+    "logoURI": "https://cdn.ondo.finance/tokens/logos/deon_160x160.png"
+  },
+  {
+    "name": "WisdomTree US Quality Dividend Growth Fund (Ondo Tokenized)",
+    "address": "0x81eb954936a7062d1758fc0e6e3b88d42d9c361c",
+    "symbol": "DGRWon",
+    "decimals": 18,
+    "chainId": 1,
+    "logoURI": "https://cdn.ondo.finance/tokens/logos/dgrwon_160x160.png"
+  },
+  {
+    "name": "Denison Mines (Ondo Tokenized)",
+    "address": "0x7aa59a63d1d0c435a08bc96e11bef2e95ab66c40",
+    "symbol": "DNNon",
+    "decimals": 18,
+    "chainId": 1,
+    "logoURI": "https://cdn.ondo.finance/tokens/logos/dnnon_160x160.png"
+  },
+  {
+    "name": "iShares MSCI Chile ETF (Ondo Tokenized)",
+    "address": "0x74C8f41f57948Bfd8aa0D48C882d69d12d1Cc579",
+    "symbol": "ECHon",
+    "decimals": 18,
+    "chainId": 1,
+    "logoURI": "https://cdn.ondo.finance/tokens/logos/echon_160x160.png"
+  },
+  {
+    "name": "Enlivex Therapeutics (Ondo Tokenized)",
+    "address": "0xc4e6E80295154D3968519851F73f8Dc1a227286F",
+    "symbol": "ENLVon",
+    "decimals": 18,
+    "chainId": 1,
+    "logoURI": "https://cdn.ondo.finance/tokens/logos/enlvon_160x160.png"
+  },
+  {
+    "name": "Enphase Energy (Ondo Tokenized)",
+    "address": "0x4F3B49aC895a29c0908c57538932967Cdc8e3c80",
+    "symbol": "ENPHon",
+    "decimals": 18,
+    "chainId": 1,
+    "logoURI": "https://cdn.ondo.finance/tokens/logos/enphon_160x160.png"
+  },
+  {
+    "name": "iShares Ethereum Trust (Ondo Tokenized)",
+    "address": "0x98284FbC11eDD7540E29b896a49817Bbe52DdCBd",
+    "symbol": "ETHAon",
+    "decimals": 18,
+    "chainId": 1,
+    "logoURI": "https://cdn.ondo.finance/tokens/logos/ethaon_160x160.png"
+  },
+  {
+    "name": "Eaton (Ondo Tokenized)",
+    "address": "0x9b56f5ED5A94Ae3266b7FF21953e6626F94008F1",
+    "symbol": "ETNon",
+    "decimals": 18,
+    "chainId": 1,
+    "logoURI": "https://cdn.ondo.finance/tokens/logos/etnon_160x160.png"
+  },
+  {
+    "name": "iShares MSCI Japan ETF (Ondo Tokenized)",
+    "address": "0x625Fb557cAD6D4638dae420626F3F08A485b43a8",
+    "symbol": "EWJon",
+    "decimals": 18,
+    "chainId": 1,
+    "logoURI": "https://cdn.ondo.finance/tokens/logos/ewjon_160x160.png"
+  },
+  {
+    "name": "iShares MSCI South Korea ETF (Ondo Tokenized)",
+    "address": "0xbd660e96D45e7C175512d1ed0cCc119Cb980b81a",
+    "symbol": "EWYon",
+    "decimals": 18,
+    "chainId": 1,
+    "logoURI": "https://cdn.ondo.finance/tokens/logos/ewyon_160x160.png"
+  },
+  {
+    "name": "iShares MSCI Brazil ETF (Ondo Tokenized)",
+    "address": "0x54021fDe36B7c4C4F9C35b02fb9A153eD8F5938A",
+    "symbol": "EWZon",
+    "decimals": 18,
+    "chainId": 1,
+    "logoURI": "https://cdn.ondo.finance/tokens/logos/ewzon_160x160.png"
+  },
+  {
+    "name": "Exodus Movement (Ondo Tokenized)",
+    "address": "0x185E5FA1B84F94D46ef2A33052aD39bD5f326fd8",
+    "symbol": "EXODon",
+    "decimals": 18,
+    "chainId": 1,
+    "logoURI": "https://cdn.ondo.finance/tokens/logos/exodon_160x160.png"
+  },
+  {
+    "name": "Freeport-McMoRan (Ondo Tokenized)",
+    "address": "0xeb08d539Be0f6a6C90eA24276196E348f5688A02",
+    "symbol": "FCXon",
+    "decimals": 18,
+    "chainId": 1,
+    "logoURI": "https://cdn.ondo.finance/tokens/logos/fcxon_160x160.png"
+  },
+  {
+    "name": "Franklin Focused Growth ETF (Ondo Tokenized)",
+    "address": "0x70B4082F4e3F9067dB9A2aA7520C77719E8626EE",
+    "symbol": "FFOGon",
+    "decimals": 18,
+    "chainId": 1,
+    "logoURI": "https://cdn.ondo.finance/tokens/logos/ffogon_160x160.png"
+  },
+  {
+    "name": "Franklin Responsibly Sourced Gold ETF (Ondo Tokenized)",
+    "address": "0x1cB673005fc58447D881486919c14D8e7C741Bb1",
+    "symbol": "FGDLon",
+    "decimals": 18,
+    "chainId": 1,
+    "logoURI": "https://cdn.ondo.finance/tokens/logos/fgdlon_160x160.png"
+  },
+  {
+    "name": "Franklin High Yield Corporate ETF (Ondo Tokenized)",
+    "address": "0x54C1Ff361b402f66c13107421E6A431C3375EF24",
+    "symbol": "FLHYon",
+    "decimals": 18,
+    "chainId": 1,
+    "logoURI": "https://cdn.ondo.finance/tokens/logos/flhyon_160x160.png"
+  },
+  {
+    "name": "Franklin US Large Cap Multifactor Index ETF (Ondo Tokenized)",
+    "address": "0xC53D2e7321aB83B28aF2360559Aa303676a23f98",
+    "symbol": "FLQLon",
+    "decimals": 18,
+    "chainId": 1,
+    "logoURI": "https://cdn.ondo.finance/tokens/logos/flqlon_160x160.png"
+  },
+  {
+    "name": "Fidelity Solana Fund (Ondo Tokenized)",
+    "address": "0x224B381CFAe8CCAf2e4d32D827467C2331Ce04bE",
+    "symbol": "FSOLon",
+    "decimals": 18,
+    "chainId": 1,
+    "logoURI": "https://cdn.ondo.finance/tokens/logos/fsolon_160x160.png"
+  },
+  {
+    "name": "First Trust Global Tactical Commodity Strategy Fund (Ondo Tokenized)",
+    "address": "0xacf3fecaa787f268351a86409c3bd3b96ef924fb",
+    "symbol": "FTGCon",
+    "decimals": 18,
+    "chainId": 1,
+    "logoURI": "https://cdn.ondo.finance/tokens/logos/ftgcon_160x160.png"
+  },
+  {
+    "name": "iShares China Large-Cap ETF (Ondo Tokenized)",
+    "address": "0x2dD57b497c777D9825A5902114BE81dF98eDE958",
+    "symbol": "FXIon",
+    "decimals": 18,
+    "chainId": 1,
+    "logoURI": "https://cdn.ondo.finance/tokens/logos/fxion_160x160.png"
+  },
+  {
+    "name": "Gemini Space Station (Ondo Tokenized)",
+    "address": "0xb51db25c920c16f2865c37011c3eec91db946b07",
+    "symbol": "GEMIon",
+    "decimals": 18,
+    "chainId": 1,
+    "logoURI": "https://cdn.ondo.finance/tokens/logos/gemion_160x160.png"
+  },
+  {
+    "name": "GE Vernova (Ondo Tokenized)",
+    "address": "0xA043FDc5A6E2E381e3532d5A97404b82fb7A0af8",
+    "symbol": "GEVon",
+    "decimals": 18,
+    "chainId": 1,
+    "logoURI": "https://cdn.ondo.finance/tokens/logos/gevon_160x160.png"
+  },
+  {
+    "name": "abrdn Physical Precious Metals Basket Shares ETF (Ondo Tokenized)",
+    "address": "0xD0a265a32D0211a7f61F11de014B854F7ce716F8",
+    "symbol": "GLTRon",
+    "decimals": 18,
+    "chainId": 1,
+    "logoURI": "https://cdn.ondo.finance/tokens/logos/gltron_160x160.png"
+  },
+  {
+    "name": "Galaxy Digital (Ondo Tokenized)",
+    "address": "0xE668e08a6f5792CEF0e63E9D98524968fDB5882f",
+    "symbol": "GLXYon",
+    "decimals": 18,
+    "chainId": 1,
+    "logoURI": "https://cdn.ondo.finance/tokens/logos/glxyon_160x160.png"
+  },
+  {
+    "name": "Grab Holdings (Ondo Tokenized)",
+    "address": "0x1c174711f3fd63c4165d6f296b3eb19d17fde94a",
+    "symbol": "GRABon",
+    "decimals": 18,
+    "chainId": 1,
+    "logoURI": "https://cdn.ondo.finance/tokens/logos/grabon_160x160.png"
+  },
+  {
+    "name": "Home Depot (Ondo Tokenized)",
+    "address": "0x7dbd435aa4ecab5471cfcef4527a022fef0b7e1c",
+    "symbol": "HDon",
+    "decimals": 18,
+    "chainId": 1,
+    "logoURI": "https://cdn.ondo.finance/tokens/logos/hdon_160x160.png"
+  },
+  {
+    "name": "PIMCO 0-5 Year High Yield Corporate Bond Index ETF (Ondo Tokenized)",
+    "address": "0xEc169F9Ac2161723a2D4febd9748BB529D6C12B5",
+    "symbol": "HYSon",
+    "decimals": 18,
+    "chainId": 1,
+    "logoURI": "https://cdn.ondo.finance/tokens/logos/hyson_160x160.png"
+  },
+  {
+    "name": "iShares Bitcoin Trust (Ondo Tokenized)",
+    "address": "0x122940c4C5F9cCFAe7Fa86455a42D3EC140855cE",
+    "symbol": "IBITon",
+    "decimals": 18,
+    "chainId": 1,
+    "logoURI": "https://cdn.ondo.finance/tokens/logos/ibiton_160x160.png"
+  },
+  {
+    "name": "iShares 7-10 Year Treasury Bond ETF (Ondo Tokenized)",
+    "address": "0xA2eC76139028F279A1C790d323c57Cc4158098d6",
+    "symbol": "IEFon",
+    "decimals": 18,
+    "chainId": 1,
+    "logoURI": "https://cdn.ondo.finance/tokens/logos/iefon_160x160.png"
+  },
+  {
+    "name": "Franklin Income Equity Focus ETF (Ondo Tokenized)",
+    "address": "0xfA690b2B6f6b4dA518035F1d0aa8B968c23341bb",
+    "symbol": "INCEon",
+    "decimals": 18,
+    "chainId": 1,
+    "logoURI": "https://cdn.ondo.finance/tokens/logos/inceon_160x160.png"
+  },
+  {
+    "name": "iShares MSCI India ETF (Ondo Tokenized)",
+    "address": "0xa6CdB19b22B03e03EA89e133A8a46aDc3017aa6d",
+    "symbol": "INDAon",
+    "decimals": 18,
+    "chainId": 1,
+    "logoURI": "https://cdn.ondo.finance/tokens/logos/indaon_160x160.png"
+  },
+  {
+    "name": "IonQ (Ondo Tokenized)",
+    "address": "0x2F2e4b09B99fbf018F600e031aAfD9Da6347Cc75",
+    "symbol": "IONQon",
+    "decimals": 18,
+    "chainId": 1,
+    "logoURI": "https://cdn.ondo.finance/tokens/logos/ionqon_160x160.png"
+  },
+  {
+    "name": "Iren (Ondo Tokenized)",
+    "address": "0x0b59fdb1a233a7477ea14061004b9dd776e73cb3",
+    "symbol": "IRENon",
+    "decimals": 18,
+    "chainId": 1,
+    "logoURI": "https://cdn.ondo.finance/tokens/logos/irenon_160x160.png"
+  },
+  {
+    "name": "Intuitive Surgical (Ondo Tokenized)",
+    "address": "0x2691b13fca1e02322685b9554b5ae0f5f3f05c55",
+    "symbol": "ISRGon",
+    "decimals": 18,
+    "chainId": 1,
+    "logoURI": "https://cdn.ondo.finance/tokens/logos/isrgon_160x160.png"
+  },
+  {
+    "name": "iShares US Aerospace and Defense ETF (Ondo Tokenized)",
+    "address": "0x68622855dcf14ced1B0Cc2A69cc34843708e2E0f",
+    "symbol": "ITAon",
+    "decimals": 18,
+    "chainId": 1,
+    "logoURI": "https://cdn.ondo.finance/tokens/logos/itaon_160x160.png"
+  },
+  {
+    "name": "Janus Henderson AAA CLO ETF (Ondo Tokenized)",
+    "address": "0x219a1b27baa08d72fac836665a3b752f3c9acbbc",
+    "symbol": "JAAAon",
+    "decimals": 18,
+    "chainId": 1,
+    "logoURI": "https://cdn.ondo.finance/tokens/logos/jaaaon_160x160.png"
+  },
+  {
+    "name": "Johnson & Johnson (Ondo Tokenized)",
+    "address": "0xdd0e1e6162666a210905ffe8d368661b313c00e9",
+    "symbol": "JNJon",
+    "decimals": 18,
+    "chainId": 1,
+    "logoURI": "https://cdn.ondo.finance/tokens/logos/jnjon_160x160.png"
+  },
+  {
+    "name": "KLA (Ondo Tokenized)",
+    "address": "0xa637ae510cb50e61236a89ac480b93b8c3bccc46",
+    "symbol": "KLACon",
+    "decimals": 18,
+    "chainId": 1,
+    "logoURI": "https://cdn.ondo.finance/tokens/logos/klacon_160x160.png"
+  },
+  {
+    "name": "KraneShares CSI China Internet ETF (Ondo Tokenized)",
+    "address": "0xeAA2287290544eD9F481012aa348619A4D2F9e51",
+    "symbol": "KWEBon",
+    "decimals": 18,
+    "chainId": 1,
+    "logoURI": "https://cdn.ondo.finance/tokens/logos/kwebon_160x160.png"
+  },
+  {
+    "name": "Lowe's (Ondo Tokenized)",
+    "address": "0x84328d8b85019fdcecf4c82fbe076bf350fc0cab",
+    "symbol": "LOWon",
+    "decimals": 18,
+    "chainId": 1,
+    "logoURI": "https://cdn.ondo.finance/tokens/logos/lowon_160x160.png"
+  },
+  {
+    "name": "Lam Research (Ondo Tokenized)",
+    "address": "0x21be23f5bf87a749670c088f6dee26760f1ab80f",
+    "symbol": "LRCXon",
+    "decimals": 18,
+    "chainId": 1,
+    "logoURI": "https://cdn.ondo.finance/tokens/logos/lrcxon_160x160.png"
+  },
+  {
+    "name": "Intuitive Machines (Ondo Tokenized)",
+    "address": "0x58a2EDF0169eDE82904e47a0E2a3a4008eDebB60",
+    "symbol": "LUNRon",
+    "decimals": 18,
+    "chainId": 1,
+    "logoURI": "https://cdn.ondo.finance/tokens/logos/lunron_160x160.png"
+  },
+  {
+    "name": "Merck (Ondo Tokenized)",
+    "address": "0xdc8a7db05ea704227d56f5d4a4b77a2d1bba29c0",
+    "symbol": "MRKon",
+    "decimals": 18,
+    "chainId": 1,
+    "logoURI": "https://cdn.ondo.finance/tokens/logos/mrkon_160x160.png"
+  },
+  {
+    "name": "Moderna (Ondo Tokenized)",
+    "address": "0xa2c1c0b4683a871187d4565eb63abf9aef5947ee",
+    "symbol": "MRNAon",
+    "decimals": 18,
+    "chainId": 1,
+    "logoURI": "https://cdn.ondo.finance/tokens/logos/mrnaon_160x160.png"
+  },
+  {
+    "name": "MasTec (Ondo Tokenized)",
+    "address": "0x5cb95099a2c7e3c8187fbca6efe5ba222b5ba820",
+    "symbol": "MTZon",
+    "decimals": 18,
+    "chainId": 1,
+    "logoURI": "https://cdn.ondo.finance/tokens/logos/mtzon_160x160.png"
+  },
+  {
+    "name": "Nebius Group (Ondo Tokenized)",
+    "address": "0xE4babaa960bA7D37860f3fe00D7b95D3868e8EDc",
+    "symbol": "NBISon",
+    "decimals": 18,
+    "chainId": 1,
+    "logoURI": "https://cdn.ondo.finance/tokens/logos/nbison_160x160.png"
+  },
+  {
+    "name": "NextEra Energy (Ondo Tokenized)",
+    "address": "0xf46ba88694cd7933ca28be84ee787ad5732e856b",
+    "symbol": "NEEon",
+    "decimals": 18,
+    "chainId": 1,
+    "logoURI": "https://cdn.ondo.finance/tokens/logos/neeon_160x160.png"
+  },
+  {
+    "name": "Newmont (Ondo Tokenized)",
+    "address": "0x0C802aCB21Cb2AadB2EB5E5090868E1361B26B69",
+    "symbol": "NEMon",
+    "decimals": 18,
+    "chainId": 1,
+    "logoURI": "https://cdn.ondo.finance/tokens/logos/nemon_160x160.png"
+  },
+  {
+    "name": "Sprott Nickel Miners ETF (Ondo Tokenized)",
+    "address": "0xbf54eb503bb350583d11f4348086dc3608fa245c",
+    "symbol": "NIKLon",
+    "decimals": 18,
+    "chainId": 1,
+    "logoURI": "https://cdn.ondo.finance/tokens/logos/niklon_160x160.png"
+  },
+  {
+    "name": "Northrop Grumman (Ondo Tokenized)",
+    "address": "0x8Ce34F749796F82A6990fFa2d80622ef75CA7aD5",
+    "symbol": "NOCon",
+    "decimals": 18,
+    "chainId": 1,
+    "logoURI": "https://cdn.ondo.finance/tokens/logos/nocon_160x160.png"
+  },
+  {
+    "name": "VanEck Oil Services ETF (Ondo Tokenized)",
+    "address": "0xBcA31049ab4782f0FfA9CfFCB2cF48e8D6dE4fb8",
+    "symbol": "OIHon",
+    "decimals": 18,
+    "chainId": 1,
+    "logoURI": "https://cdn.ondo.finance/tokens/logos/oihon_160x160.png"
+  },
+  {
+    "name": "ON Semiconductor (Ondo Tokenized)",
+    "address": "0xa52b2d6ca1cd9b1e8b931645428380c340caef9a",
+    "symbol": "ONon",
+    "decimals": 18,
+    "chainId": 1,
+    "logoURI": "https://cdn.ondo.finance/tokens/logos/onon_160x160.png"
+  },
+  {
+    "name": "Opendoor Technologies (Ondo Tokenized)",
+    "address": "0xb22d83e228c4266075ec75c32acc3bc059b6f248",
+    "symbol": "OPENon",
+    "decimals": 18,
+    "chainId": 1,
+    "logoURI": "https://cdn.ondo.finance/tokens/logos/openon_160x160.png"
+  },
+  {
+    "name": "Opera (Ondo Tokenized)",
+    "address": "0xb40afd1d55ea61fc1a6fbe093b817b673c8e78d7",
+    "symbol": "OPRAon",
+    "decimals": 18,
+    "chainId": 1,
+    "logoURI": "https://cdn.ondo.finance/tokens/logos/opraon_160x160.png"
+  },
+  {
+    "name": "Oscar Health (Ondo Tokenized)",
+    "address": "0x244efb92f76a57da49b5f71045dce3e546e13106",
+    "symbol": "OSCRon",
+    "decimals": 18,
+    "chainId": 1,
+    "logoURI": "https://cdn.ondo.finance/tokens/logos/oscron_160x160.png"
+  },
+  {
+    "name": "Occidental Petroleum (Ondo Tokenized)",
+    "address": "0xeedc48205852e9d83ea5ca92fa8656597788601f",
+    "symbol": "OXYon",
+    "decimals": 18,
+    "chainId": 1,
+    "logoURI": "https://cdn.ondo.finance/tokens/logos/oxyon_160x160.png"
+  },
+  {
+    "name": "abrdn Physical Palladium Shares ETF (Ondo Tokenized)",
+    "address": "0x0ce36d199bd6851788e03392568849394cbde722",
+    "symbol": "PALLon",
+    "decimals": 18,
+    "chainId": 1,
+    "logoURI": "https://cdn.ondo.finance/tokens/logos/pallon_160x160.png"
+  },
+  {
+    "name": "Global X US Infrastructure Development ETF (Ondo Tokenized)",
+    "address": "0xD4c6CCE0Cadf2fe4C0AF9eE6777989EFD8fB7670",
+    "symbol": "PAVEon",
+    "decimals": 18,
+    "chainId": 1,
+    "logoURI": "https://cdn.ondo.finance/tokens/logos/paveon_160x160.png"
+  },
+  {
+    "name": "PG&E (Ondo Tokenized)",
+    "address": "0x193fdf644451cc394b28b9cec2f5d32e2b4de515",
+    "symbol": "PCGon",
+    "decimals": 18,
+    "chainId": 1,
+    "logoURI": "https://cdn.ondo.finance/tokens/logos/pcgon_160x160.png"
+  },
+  {
+    "name": "Invesco Optimum Yld Dvsfd Cmd Str No K-1 ETF (Ondo Tokenized)",
+    "address": "0x46c0a02a877c1412cb32b57028b2f771c0364a7e",
+    "symbol": "PDBCon",
+    "decimals": 18,
+    "chainId": 1,
+    "logoURI": "https://cdn.ondo.finance/tokens/logos/pdbcon_160x160.png"
+  },
+  {
+    "name": "abrdn Physical Platinum Shares ETF (Ondo Tokenized)",
+    "address": "0xf1883461Ec7BD883A3668749c5CF5f351080d059",
+    "symbol": "PPLTon",
+    "decimals": 18,
+    "chainId": 1,
+    "logoURI": "https://cdn.ondo.finance/tokens/logos/pplton_160x160.png"
+  },
+  {
+    "name": "ProShares Short QQQ (Ondo Tokenized)",
+    "address": "0x9ebd34d99cc3a45b39cafc14ad7994263fa2be56",
+    "symbol": "PSQon",
+    "decimals": 18,
+    "chainId": 1,
+    "logoURI": "https://cdn.ondo.finance/tokens/logos/psqon_160x160.png"
+  },
+  {
+    "name": "Quantum Computing (Ondo Tokenized)",
+    "address": "0xc95c9e3fA311664b5e744B3C2716547BEc2Ba7dA",
+    "symbol": "QUBTon",
+    "decimals": 18,
+    "chainId": 1,
+    "logoURI": "https://cdn.ondo.finance/tokens/logos/qubton_160x160.png"
+  },
+  {
+    "name": "Redwire (Ondo Tokenized)",
+    "address": "0x3a16aF9Ef328D087cc781053A2a2a27549aE6768",
+    "symbol": "RDWon",
+    "decimals": 18,
+    "chainId": 1,
+    "logoURI": "https://cdn.ondo.finance/tokens/logos/rdwon_160x160.png"
+  },
+  {
+    "name": "Regeneron Pharmaceuticals (Ondo Tokenized)",
+    "address": "0x33aC34DA58168De69cE74a66fbaD81a88F974BD5",
+    "symbol": "REGNon",
+    "decimals": 18,
+    "chainId": 1,
+    "logoURI": "https://cdn.ondo.finance/tokens/logos/regnon_160x160.png"
+  },
+  {
+    "name": "Rigetti Computing (Ondo Tokenized)",
+    "address": "0xfdfdf5db2f4a72cb754ffa8896ea012dc2cc0f5e",
+    "symbol": "RGTIon",
+    "decimals": 18,
+    "chainId": 1,
+    "logoURI": "https://cdn.ondo.finance/tokens/logos/rgtion_160x160.png"
+  },
+  {
+    "name": "Rocket Lab (Ondo Tokenized)",
+    "address": "0x36E3b8d9aAd0e51aC08E56a75A8f6005bF68535B",
+    "symbol": "RKLBon",
+    "decimals": 18,
+    "chainId": 1,
+    "logoURI": "https://cdn.ondo.finance/tokens/logos/rklbon_160x160.png"
+  },
+  {
+    "name": "Southern Copper (Ondo Tokenized)",
+    "address": "0xdA81DA76070a7377eAEEB2978F0E13C5d57FaDb7",
+    "symbol": "SCCOon",
+    "decimals": 18,
+    "chainId": 1,
+    "logoURI": "https://cdn.ondo.finance/tokens/logos/sccoon_160x160.png"
+  },
+  {
+    "name": "Charles Schwab (Ondo Tokenized)",
+    "address": "0xe737f948bdfe3beae9423292853ec0579173cebb",
+    "symbol": "SCHWon",
+    "decimals": 18,
+    "chainId": 1,
+    "logoURI": "https://cdn.ondo.finance/tokens/logos/schwon_160x160.png"
+  },
+  {
+    "name": "SolarEdge Technologies (Ondo Tokenized)",
+    "address": "0x8E82a0d7347329703FB6c6A745B1C2b3aBB1658c",
+    "symbol": "SEDGon",
+    "decimals": 18,
+    "chainId": 1,
+    "logoURI": "https://cdn.ondo.finance/tokens/logos/sedgon_160x160.png"
+  },
+  {
+    "name": "iShares 0-3 Month Treasury Bond ETF (Ondo Tokenized)",
+    "address": "0x8de5d49725550f7b318b2fa0f1b1f118e98e8d0f",
+    "symbol": "SGOVon",
+    "decimals": 18,
+    "chainId": 1,
+    "logoURI": "https://cdn.ondo.finance/tokens/logos/sgovon_160x160.png"
+  },
+  {
+    "name": "iShares 1-3 Year Treasury Bond ETF (Ondo Tokenized)",
+    "address": "0x5C424B9b60383FCE7fE7069D2a2B1047BCd04a73",
+    "symbol": "SHYon",
+    "decimals": 18,
+    "chainId": 1,
+    "logoURI": "https://cdn.ondo.finance/tokens/logos/shyon_160x160.png"
+  },
+  {
+    "name": "SanDisk (Ondo Tokenized)",
+    "address": "0x71E2400CF1Cb83204f33794eD326636A71a9AAfC",
+    "symbol": "SNDKon",
+    "decimals": 18,
+    "chainId": 1,
+    "logoURI": "https://cdn.ondo.finance/tokens/logos/sndkon_160x160.png"
+  },
+  {
+    "name": "SoundHound AI (Ondo Tokenized)",
+    "address": "0x966db065199a3edea2228c6e5eb6ac49ff251acc",
+    "symbol": "SOUNon",
+    "decimals": 18,
+    "chainId": 1,
+    "logoURI": "https://cdn.ondo.finance/tokens/logos/sounon_160x160.png"
+  },
+  {
+    "name": "iShares Semiconductor ETF (Ondo Tokenized)",
+    "address": "0x1fE2126bC05E4BB0468C4a198e930c889e1054a3",
+    "symbol": "SOXXon",
+    "decimals": 18,
+    "chainId": 1,
+    "logoURI": "https://cdn.ondo.finance/tokens/logos/soxxon_160x160.png"
+  },
+  {
+    "name": "Seagate (Ondo Tokenized)",
+    "address": "0xB53894f82a6B2d3B7365f24932B5bDE1c5Fb51FF",
+    "symbol": "STXon",
+    "decimals": 18,
+    "chainId": 1,
+    "logoURI": "https://cdn.ondo.finance/tokens/logos/stxon_160x160.png"
+  },
+  {
+    "name": "AT&T (Ondo Tokenized)",
+    "address": "0x3361a73262199873b74d6835760a59b8817fa592",
+    "symbol": "Ton",
+    "decimals": 18,
+    "chainId": 1,
+    "logoURI": "https://cdn.ondo.finance/tokens/logos/ton_160x160.png"
+  },
+  {
+    "name": "Texas Instruments (Ondo Tokenized)",
+    "address": "0x58fc9d573ea773ef9a25c3de66f990b87ee5f50e",
+    "symbol": "TXNon",
+    "decimals": 18,
+    "chainId": 1,
+    "logoURI": "https://cdn.ondo.finance/tokens/logos/txnon_160x160.png"
+  },
+  {
+    "name": "Uranium Energy (Ondo Tokenized)",
+    "address": "0x0F8887772262c449793890DCD3Bf320308dB423B",
+    "symbol": "UECon",
+    "decimals": 18,
+    "chainId": 1,
+    "logoURI": "https://cdn.ondo.finance/tokens/logos/uecon_160x160.png"
+  },
+  {
+    "name": "US Natural Gas Fund (Ondo Tokenized)",
+    "address": "0x7C488cFc874Ca9F34e7bdBd0410C27CE6d6af5f9",
+    "symbol": "UNGon",
+    "decimals": 18,
+    "chainId": 1,
+    "logoURI": "https://cdn.ondo.finance/tokens/logos/ungon_160x160.png"
+  },
+  {
+    "name": "Union Pacific Corporation (Ondo Tokenized)",
+    "address": "0x39930751d4569F7DD45d1bA46E82CD3680EC2e0a",
+    "symbol": "UNPon",
+    "decimals": 18,
+    "chainId": 1,
+    "logoURI": "https://cdn.ondo.finance/tokens/logos/unpon_160x160.png"
+  },
+  {
+    "name": "Global X Uranium ETF (Ondo Tokenized)",
+    "address": "0xf98Ec282300892b3518B5cB996012b18d9B7D435",
+    "symbol": "URAon",
+    "decimals": 18,
+    "chainId": 1,
+    "logoURI": "https://cdn.ondo.finance/tokens/logos/uraon_160x160.png"
+  },
+  {
+    "name": "WisdomTree Floating Rate Treasury Fund (Ondo Tokenized)",
+    "address": "0xfb82561a955bf59b9263301126af490d3799e231",
+    "symbol": "USFRon",
+    "decimals": 18,
+    "chainId": 1,
+    "logoURI": "https://cdn.ondo.finance/tokens/logos/usfron_160x160.png"
+  },
+  {
+    "name": "United States Oil Fund (Ondo Tokenized)",
+    "address": "0x1f5fc5c3c8b0f15c7e21af623936ff2b210b6415",
+    "symbol": "USOon",
+    "decimals": 18,
+    "chainId": 1,
+    "logoURI": "https://cdn.ondo.finance/tokens/logos/usoon_160x160.png"
+  },
+  {
+    "name": "VinFast Auto (Ondo Tokenized)",
+    "address": "0xBFe6e76A2FE099392064fbB3E868558C82bEb917",
+    "symbol": "VFSon",
+    "decimals": 18,
+    "chainId": 1,
+    "logoURI": "https://cdn.ondo.finance/tokens/logos/vfson_160x160.png"
+  },
+  {
+    "name": "Vanguard Real Estate ETF (Ondo Tokenized)",
+    "address": "0xcCAe8843E26259278C200C6506F6E5A3bdD524cd",
+    "symbol": "VNQon",
+    "decimals": 18,
+    "chainId": 1,
+    "logoURI": "https://cdn.ondo.finance/tokens/logos/vnqon_160x160.png"
+  },
+  {
+    "name": "Vertex Pharmaceuticals (Ondo Tokenized)",
+    "address": "0xFC003a764a7B5054Cc6fDb6b511F35deC8022751",
+    "symbol": "VRTXon",
+    "decimals": 18,
+    "chainId": 1,
+    "logoURI": "https://cdn.ondo.finance/tokens/logos/vrtxon_160x160.png"
+  },
+  {
+    "name": "Verizon (Ondo Tokenized)",
+    "address": "0x0e3d889d5b857c3e6eb361b9c9ae35bb7ddbd254",
+    "symbol": "VZon",
+    "decimals": 18,
+    "chainId": 1,
+    "logoURI": "https://cdn.ondo.finance/tokens/logos/vzon_160x160.png"
+  },
+  {
+    "name": "Western Digital (Ondo Tokenized)",
+    "address": "0x44e89d34601b8D0155e16634d2553EF7F54DBab2",
+    "symbol": "WDCon",
+    "decimals": 18,
+    "chainId": 1,
+    "logoURI": "https://cdn.ondo.finance/tokens/logos/wdcon_160x160.png"
+  },
+  {
+    "name": "Waste Management (Ondo Tokenized)",
+    "address": "0x1fb5a8DCd70bE750a97Eaf8a47bBe74Ab7d3183e",
+    "symbol": "WMon",
+    "decimals": 18,
+    "chainId": 1,
+    "logoURI": "https://cdn.ondo.finance/tokens/logos/wmon_160x160.png"
+  },
+  {
+    "name": "Terawulf (Ondo Tokenized)",
+    "address": "0x110cae53912c2ed9bf279cd70b3b699e26c79e58",
+    "symbol": "WULFon",
+    "decimals": 18,
+    "chainId": 1,
+    "logoURI": "https://cdn.ondo.finance/tokens/logos/wulfon_160x160.png"
+  },
+  {
+    "name": "Exxon Mobil (Ondo Tokenized)",
+    "address": "0xf05ad9840924ea6f977ebccb3b1da87e31dcd0b4",
+    "symbol": "XOMon",
+    "decimals": 18,
+    "chainId": 1,
+    "logoURI": "https://cdn.ondo.finance/tokens/logos/xomon_160x160.png"
+  },
+  {
+    "name": "Block (Ondo Tokenized)",
+    "address": "0x6cc41275ef02b4eeccc04fc4424849a96f3272aa",
+    "symbol": "XYZon",
+    "decimals": 18,
+    "chainId": 1,
+    "logoURI": "https://cdn.ondo.finance/tokens/logos/xyzon_160x160.png"
+  },
+  {
+    "name": "Corning (Ondo Tokenized)",
+    "address": "0xE45575b8895664DEdf7bEfFEe98b078F2Cf1A192",
+    "symbol": "GLWon",
+    "decimals": 18,
+    "chainId": 1,
+    "logoURI": "https://cdn.ondo.finance/tokens/logos/glwon_160x160.png"
+  },
+  {
+    "name": "Lumentum Holdings (Ondo Tokenized)",
+    "address": "0xbF5ab848efff75D897a3DBE4647B939C59D3cdb0",
+    "symbol": "LITEon",
+    "decimals": 18,
+    "chainId": 1,
+    "logoURI": "https://cdn.ondo.finance/tokens/logos/liteon_160x160.png"
+  },
+  {
+    "name": "Applied Optoelectronics (Ondo Tokenized)",
+    "address": "0x99888f2CCD08258eD5F66e94bA59d7E75016900F",
+    "symbol": "AAOIon",
+    "decimals": 18,
+    "chainId": 1,
+    "logoURI": "https://cdn.ondo.finance/tokens/logos/aaoion_160x160.png"
+  },
+  {
+    "name": "AXT (Ondo Tokenized)",
+    "address": "0x6a3E77d984e22bed6A036D3DA79D7857936a593f",
+    "symbol": "AXTIon",
+    "decimals": 18,
+    "chainId": 1,
+    "logoURI": "https://cdn.ondo.finance/tokens/logos/axtion_160x160.png"
+  },
+  {
+    "name": "nVent Electric (Ondo Tokenized)",
+    "address": "0x38cBBBF83Ab583E231960B5c112145324Bef55ae",
+    "symbol": "NVTon",
+    "decimals": 18,
+    "chainId": 1,
+    "logoURI": "https://cdn.ondo.finance/tokens/logos/nvton_160x160.png"
+  },
+  {
+    "name": "nLIGHT (Ondo Tokenized)",
+    "address": "0x62D5854E309E7F7fC27ff6EbEfb54D2b235A0E9B",
+    "symbol": "LASRon",
+    "decimals": 18,
+    "chainId": 1,
+    "logoURI": "https://cdn.ondo.finance/tokens/logos/lasron_160x160.png"
+  },
+  {
+    "name": "FormFactor (Ondo Tokenized)",
+    "address": "0x6401365aA495ca96Bcfcf9c6c47Bd4a590336b00",
+    "symbol": "FORMon",
+    "decimals": 18,
+    "chainId": 1,
+    "logoURI": "https://cdn.ondo.finance/tokens/logos/formon_160x160.png"
+  },
+  {
+    "name": "MKS Inc. (Ondo Tokenized)",
+    "address": "0xDc4F9c9CAa96046816255Bc6c10fd6433863128E",
+    "symbol": "MKSIon",
+    "decimals": 18,
+    "chainId": 1,
+    "logoURI": "https://cdn.ondo.finance/tokens/logos/mksion_160x160.png"
+  },
+  {
+    "name": "Ichor Holdings (Ondo Tokenized)",
+    "address": "0xdFCa97fB2A3163011f3b5B3198F63D9Ab8F04A98",
+    "symbol": "ICHRon",
+    "decimals": 18,
+    "chainId": 1,
+    "logoURI": "https://cdn.ondo.finance/tokens/logos/ichron_160x160.png"
+  },
+  {
+    "name": "Aehr Test Systems (Ondo Tokenized)",
+    "address": "0xeB48e68F01c0C76735dc6F1dcC0F151A973BD9d2",
+    "symbol": "AEHRon",
+    "decimals": 18,
+    "chainId": 1,
+    "logoURI": "https://cdn.ondo.finance/tokens/logos/aehron_160x160.png"
+  },
+  {
+    "name": "Camtek (Ondo Tokenized)",
+    "address": "0xC087EA645a1eFE021577c19413FBE39d617A3196",
+    "symbol": "CAMTon",
+    "decimals": 18,
+    "chainId": 1,
+    "logoURI": "https://cdn.ondo.finance/tokens/logos/camton_160x160.png"
+  },
+  {
+    "name": "Wolfspeed (Ondo Tokenized)",
+    "address": "0x995584539633F7d28757B6329A42439BD8aeCEde",
+    "symbol": "WOLFon",
+    "decimals": 18,
+    "chainId": 1,
+    "logoURI": "https://cdn.ondo.finance/tokens/logos/wolfon_160x160.png"
+  },
+  {
+    "name": "Power Integrations (Ondo Tokenized)",
+    "address": "0xE172Fb6B867F873Db7Cb2D7435B95a07e5deFE81",
+    "symbol": "POWIon",
+    "decimals": 18,
+    "chainId": 1,
+    "logoURI": "https://cdn.ondo.finance/tokens/logos/powion_160x160.png"
+  },
+  {
+    "name": "TE Connectivity (Ondo Tokenized)",
+    "address": "0x7C17a5423200246EAFdd9fa0f5d70eAde3067Dd6",
+    "symbol": "TELon",
+    "decimals": 18,
+    "chainId": 1,
+    "logoURI": "https://cdn.ondo.finance/tokens/logos/telon_160x160.png"
+  },
+  {
+    "name": "Hubbell (Ondo Tokenized)",
+    "address": "0x24e7504246DFdd7E866936e2816BFbEa73bd890a",
+    "symbol": "HUBBon",
+    "decimals": 18,
+    "chainId": 1,
+    "logoURI": "https://cdn.ondo.finance/tokens/logos/hubbon_160x160.png"
+  },
+  {
+    "name": "Worthington Steel (Ondo Tokenized)",
+    "address": "0x7F24e4f5dc9ce7D00170C91Ce18326E01d702242",
+    "symbol": "WSon",
+    "decimals": 18,
+    "chainId": 1,
+    "logoURI": "https://cdn.ondo.finance/tokens/logos/wson_160x160.png"
+  },
+  {
+    "name": "Atkore (Ondo Tokenized)",
+    "address": "0xB50A8bd8883Dfe59eAF1a8b1130acD97CEd9AC84",
+    "symbol": "ATKRon",
+    "decimals": 18,
+    "chainId": 1,
+    "logoURI": "https://cdn.ondo.finance/tokens/logos/atkron_160x160.png"
+  },
+  {
+    "name": "Cloudflare (Ondo Tokenized)",
+    "address": "0x4f5A3B3E184b1424816D9107448314ba0aAd63e1",
+    "symbol": "NETon",
+    "decimals": 18,
+    "chainId": 1,
+    "logoURI": "https://cdn.ondo.finance/tokens/logos/neton_160x160.png"
+  },
+  {
+    "name": "USA Rare Earth (Ondo Tokenized)",
+    "address": "0xE2c149FA719d43912BfE584c71c9a6a018a5e916",
+    "symbol": "USARon",
+    "decimals": 18,
+    "chainId": 1,
+    "logoURI": "https://cdn.ondo.finance/tokens/logos/usaron_160x160.png"
+  },
+  {
+    "name": "Himax Technologies (Ondo Tokenized)",
+    "address": "0xabC32C14CE8502Ff6B63Adc2907B9458c06A6856",
+    "symbol": "HIMXon",
+    "decimals": 18,
+    "chainId": 1,
+    "logoURI": "https://cdn.ondo.finance/tokens/logos/himxon_160x160.png"
+  },
+  {
+    "name": "MaxLinear (Ondo Tokenized)",
+    "address": "0xD1C3bF5DdE6ee17Ae2a472a8C4f0258e0B350cb4",
+    "symbol": "MXLon",
+    "decimals": 18,
+    "chainId": 1,
+    "logoURI": "https://cdn.ondo.finance/tokens/logos/mxlon_160x160.png"
+  },
+  {
+    "name": "Onto Innovation (Ondo Tokenized)",
+    "address": "0xC29FF16a7B0a895E9fE05c32Ce3f26c44e8eca3D",
+    "symbol": "ONTOon",
+    "decimals": 18,
+    "chainId": 1,
+    "logoURI": "https://cdn.ondo.finance/tokens/logos/ontoon_160x160.png"
+  },
+  {
+    "name": "Ouster (Ondo Tokenized)",
+    "address": "0x67A47353D5449fC24088190c44247d4D4E296073",
+    "symbol": "OUSTon",
+    "decimals": 18,
+    "chainId": 1,
+    "logoURI": "https://cdn.ondo.finance/tokens/logos/ouston_160x160.png"
+  },
+  {
+    "name": "Teradyne (Ondo Tokenized)",
+    "address": "0x1d1b9ae25722d0B27dB23171CFeE0C269B203695",
+    "symbol": "TERon",
+    "decimals": 18,
+    "chainId": 1,
+    "logoURI": "https://cdn.ondo.finance/tokens/logos/teron_160x160.png"
+  },
+  {
+    "name": "Nokia (Ondo Tokenized)",
+    "address": "0x01E7eaF05Be1d0c2D1834fC65080188376026d07",
+    "symbol": "NOKon",
+    "decimals": 18,
+    "chainId": 1,
+    "logoURI": "https://cdn.ondo.finance/tokens/logos/nokon_160x160.png"
+  },
+  {
+    "name": "Planet Labs (Ondo Tokenized)",
+    "address": "0xa656C5Dd6B64b3AcB6E32aF8A876a48B5748f858",
+    "symbol": "PLon",
+    "decimals": 18,
+    "chainId": 1,
+    "logoURI": "https://cdn.ondo.finance/tokens/logos/plon_160x160.png"
+  },
+  {
+    "name": "Enbridge (Ondo Tokenized)",
+    "address": "0xB2e9Ec5c62f78596cA4a21a21570b9a00c6D226c",
+    "symbol": "ENBon",
+    "decimals": 18,
+    "chainId": 1,
+    "logoURI": "https://cdn.ondo.finance/tokens/logos/enbon_160x160.png"
+  },
+  {
+    "name": "MYR Group (Ondo Tokenized)",
+    "address": "0x1DB23e5C0da6b960D0cf3D9939Cbf50A2514bfC2",
+    "symbol": "MYRGon",
+    "decimals": 18,
+    "chainId": 1,
+    "logoURI": "https://cdn.ondo.finance/tokens/logos/myrgon_160x160.png"
+  },
+  {
+    "name": "Entegris (Ondo Tokenized)",
+    "address": "0x44Abf03ca01B8e7877bC3Dbc37b132F6f25E9450",
+    "symbol": "ENTGon",
+    "decimals": 18,
+    "chainId": 1,
+    "logoURI": "https://cdn.ondo.finance/tokens/logos/entgon_160x160.png"
+  },
+  {
+    "name": "Hewlett Packard Enterprise (Ondo Tokenized)",
+    "address": "0xE67AbcA57E1504a26bd2eD209F2e0C09543Fd7Eb",
+    "symbol": "HPEon",
+    "decimals": 18,
+    "chainId": 1,
+    "logoURI": "https://cdn.ondo.finance/tokens/logos/hpeon_160x160.png"
+  },
+  {
+    "name": "RoboStrategy (Ondo Tokenized)",
+    "address": "0x0e05BA0756C504B69AAA642f7379CD1AF7C63969",
+    "symbol": "BOTon",
+    "decimals": 18,
+    "chainId": 1,
+    "logoURI": "https://cdn.ondo.finance/tokens/logos/boton_160x160.png"
+  },
+  {
+    "name": "Alpha and Omega Semiconductor (Ondo Tokenized)",
+    "address": "0x55025c1e2acFE5A7092CF32f7A4F351a9FD21e1c",
+    "symbol": "AOSLon",
+    "decimals": 18,
+    "chainId": 1,
+    "logoURI": "https://cdn.ondo.finance/tokens/logos/aoslon_160x160.png"
+  },
+  {
+    "name": "Bloom Energy (Ondo Tokenized)",
+    "address": "0x92e04b1fCC2b16347820241D226853Cf01C9eBAB",
+    "symbol": "BEon",
+    "decimals": 18,
+    "chainId": 1,
+    "logoURI": "https://cdn.ondo.finance/tokens/logos/beon_160x160.png"
+  },
+  {
+    "name": "NuScale Power (Ondo Tokenized)",
+    "address": "0x0a600856eEDCe367eD49C3cd399775DC95d8BB5a",
+    "symbol": "SMRon",
+    "decimals": 18,
+    "chainId": 1,
+    "logoURI": "https://cdn.ondo.finance/tokens/logos/smron_160x160.png"
+  },
+  {
+    "name": "STMicroelectronics (Ondo Tokenized)",
+    "address": "0xF5852886Fff060dF3Af99a4246456fCa26445e8c",
+    "symbol": "STMon",
+    "decimals": 18,
+    "chainId": 1,
+    "logoURI": "https://cdn.ondo.finance/tokens/logos/stmon_160x160.png"
+  },
+  {
+    "name": "EQT (Ondo Tokenized)",
+    "address": "0x05d2d23398756821dC3DE359ffCe8EBbD50af8c5",
+    "symbol": "EQTon",
+    "decimals": 18,
+    "chainId": 1,
+    "logoURI": "https://cdn.ondo.finance/tokens/logos/eqton_160x160.png"
+  },
+  {
+    "name": "SAP (Ondo Tokenized)",
+    "address": "0xCAfD1c0EE8B392cb446e3E745A4ADEfF7A861995",
+    "symbol": "SAPon",
+    "decimals": 18,
+    "chainId": 1,
+    "logoURI": "https://cdn.ondo.finance/tokens/logos/sapon_160x160.png"
+  },
+  {
+    "name": "Williams (Ondo Tokenized)",
+    "address": "0xfB6d594CccfDEd3606e1500b92a26b8B43a35071",
+    "symbol": "WMBon",
+    "decimals": 18,
+    "chainId": 1,
+    "logoURI": "https://cdn.ondo.finance/tokens/logos/wmbon_160x160.png"
+  },
+  {
+    "name": "NANO Nuclear Energy (Ondo Tokenized)",
+    "address": "0xb5dd7ff8E2e4019cA7a55f10C13282071a5775D4",
+    "symbol": "NNEon",
+    "decimals": 18,
+    "chainId": 1,
+    "logoURI": "https://cdn.ondo.finance/tokens/logos/nneon_160x160.png"
+  },
+  {
+    "name": "Fluence Energy (Ondo Tokenized)",
+    "address": "0xf6C9C6b33BD3df0d761702db7075f89e561A54D8",
+    "symbol": "FLNCon",
+    "decimals": 18,
+    "chainId": 1,
+    "logoURI": "https://cdn.ondo.finance/tokens/logos/flncon_160x160.png"
+  },
+  {
+    "name": "Cerebras Systems (Ondo Tokenized)",
+    "address": "0x61882Bb63aF8e6A39531175CdfDe1Fcd98346503",
+    "symbol": "CBRSon",
+    "decimals": 18,
+    "chainId": 1,
+    "logoURI": "https://cdn.ondo.finance/tokens/logos/cbrson_160x160.png"
+  },
+  {
+    "name": "Dell Technologies (Ondo Tokenized)",
+    "address": "0xeE9f43476C5b7292b114bA1b280A42A8746792d4",
+    "symbol": "DELLon",
+    "decimals": 18,
+    "chainId": 1,
+    "logoURI": "https://cdn.ondo.finance/tokens/logos/dellon_160x160.png"
+  },
+  {
+    "name": "Tower Semiconductor (Ondo Tokenized)",
+    "address": "0xEbe0D1B1d50bC68458Fcdc45C3c276d57CDC422B",
+    "symbol": "TSEMon",
+    "decimals": 18,
+    "chainId": 1,
+    "logoURI": "https://cdn.ondo.finance/tokens/logos/tsemon_160x160.png"
+  },
+  {
+    "name": "Ciena (Ondo Tokenized)",
+    "address": "0x1ffAc2Df9696868D06F9fe8d72fEE9e1452eeF76",
+    "symbol": "CIENon",
+    "decimals": 18,
+    "chainId": 1,
+    "logoURI": "https://cdn.ondo.finance/tokens/logos/cienon_160x160.png"
+  },
+  {
+    "name": "Fabrinet (Ondo Tokenized)",
+    "address": "0x93A96721a624822A6aB6461A7891a5C6b154102F",
+    "symbol": "FNon",
+    "decimals": 18,
+    "chainId": 1,
+    "logoURI": "https://cdn.ondo.finance/tokens/logos/fnon_160x160.png"
+  },
+  {
+    "name": "Arqit Quantum (Ondo Tokenized)",
+    "address": "0x45583545BE579cc96409903597c5e17B3fd7ceFf",
+    "symbol": "ARQQon",
+    "decimals": 18,
+    "chainId": 1,
+    "logoURI": "https://cdn.ondo.finance/tokens/logos/arqqon_160x160.png"
+  },
+  {
+    "name": "Astera Labs (Ondo Tokenized)",
+    "address": "0xd6D09189B6fD611A75435e4a123e373A56Ab0e41",
+    "symbol": "ALABon",
+    "decimals": 18,
+    "chainId": 1,
+    "logoURI": "https://cdn.ondo.finance/tokens/logos/alabon_160x160.png"
+  },
+  {
+    "name": "Credo Technology Group Holding (Ondo Tokenized)",
+    "address": "0xB348a4Bce7FaE890d2d37Ea104e59fb3881757c2",
+    "symbol": "CRDOon",
+    "decimals": 18,
+    "chainId": 1,
+    "logoURI": "https://cdn.ondo.finance/tokens/logos/crdoon_160x160.png"
+  },
+  {
+    "name": "MACOM Technology Solutions Holdings (Ondo Tokenized)",
+    "address": "0x6e9C4BcEDDd057D66b65794A0093ad95c5fa0Cc4",
+    "symbol": "MTSIon",
+    "decimals": 18,
+    "chainId": 1,
+    "logoURI": "https://cdn.ondo.finance/tokens/logos/mtsion_160x160.png"
+  },
+  {
+    "name": "Lightwave Logic (Ondo Tokenized)",
+    "address": "0x5bC56F5A324BB572B934cED4448055e30ec11c0c",
+    "symbol": "LWLGon",
+    "decimals": 18,
+    "chainId": 1,
+    "logoURI": "https://cdn.ondo.finance/tokens/logos/lwlgon_160x160.png"
+  },
+  {
+    "name": "Penguin Solutions (Ondo Tokenized)",
+    "address": "0x41fA6d32917E17cF29a5e93940471492D7c301C8",
+    "symbol": "PENGon",
+    "decimals": 18,
+    "chainId": 1,
+    "logoURI": "https://cdn.ondo.finance/tokens/logos/pengon_160x160.png"
+  },
+  {
+    "name": "FuelCell Energy (Ondo Tokenized)",
+    "address": "0xb71c4EBB4eDbAd867290206239C19DBb59eD55E1",
+    "symbol": "FCELon",
+    "decimals": 18,
+    "chainId": 1,
+    "logoURI": "https://cdn.ondo.finance/tokens/logos/fcelon_160x160.png"
+  },
+  {
+    "name": "Vishay Precision Group (Ondo Tokenized)",
+    "address": "0x1c4c8a66884F1eeC60AA203C6cB51fD6CB76dbb9",
+    "symbol": "VPGon",
+    "decimals": 18,
+    "chainId": 1,
+    "logoURI": "https://cdn.ondo.finance/tokens/logos/vpgon_160x160.png"
+  },
+  {
+    "name": "LightPath Technologies (Ondo Tokenized)",
+    "address": "0x9A73A9CC7c5889C521423870e896904F71562504",
+    "symbol": "LPTHon",
+    "decimals": 18,
+    "chainId": 1,
+    "logoURI": "https://cdn.ondo.finance/tokens/logos/lpthon_160x160.png"
+  },
+  {
+    "name": "Rockwell Automation (Ondo Tokenized)",
+    "address": "0x4ef7A9145e7B3C92E23A97FB41A9F4E9856288CB",
+    "symbol": "ROKon",
+    "decimals": 18,
+    "chainId": 1,
+    "logoURI": "https://cdn.ondo.finance/tokens/logos/rokon_160x160.png"
+  },
+  {
+    "name": "Mobileye Global (Ondo Tokenized)",
+    "address": "0xc4Fa11Ed5141195cCBa19180628fa5091f53790b",
+    "symbol": "MBLYon",
+    "decimals": 18,
+    "chainId": 1,
+    "logoURI": "https://cdn.ondo.finance/tokens/logos/mblyon_160x160.png"
+  },
+  {
+    "name": "Aurora Innovation (Ondo Tokenized)",
+    "address": "0xFc9D0eBBd17d3aAa336a50488795806c69EA4b32",
+    "symbol": "AURon",
+    "decimals": 18,
+    "chainId": 1,
+    "logoURI": "https://cdn.ondo.finance/tokens/logos/auron_160x160.png"
+  },
+  {
+    "name": "Celestica (Ondo Tokenized)",
+    "address": "0x1630281079eBaC2E873FB1F1cB41df3D0e451E23",
+    "symbol": "CLSon",
+    "decimals": 18,
+    "chainId": 1,
+    "logoURI": "https://cdn.ondo.finance/tokens/logos/clson_160x160.png"
+  },
+  {
+    "name": "Kopin (Ondo Tokenized)",
+    "address": "0xD569Ff7f1560F71874Bc52D4728Fb2921e3DcE05",
+    "symbol": "KOPNon",
+    "decimals": 18,
+    "chainId": 1,
+    "logoURI": "https://cdn.ondo.finance/tokens/logos/kopnon_160x160.png"
+  },
+  {
+    "name": "Generac Holdings (Ondo Tokenized)",
+    "address": "0xD120f60FeC8189ed4a2346E10107B0F1F61354Cb",
+    "symbol": "GNRCon",
+    "decimals": 18,
+    "chainId": 1,
+    "logoURI": "https://cdn.ondo.finance/tokens/logos/gnrcon_160x160.png"
+  },
+  {
+    "name": "Trane Technologies (Ondo Tokenized)",
+    "address": "0x26E78f7170d8Cc3bd3865d37CE4c554B65B1C9ba",
+    "symbol": "TTon",
+    "decimals": 18,
+    "chainId": 1,
+    "logoURI": "https://cdn.ondo.finance/tokens/logos/tton_160x160.png"
+  },
+  {
+    "name": "Fundrise Innovation Fund (Ondo Tokenized)",
+    "address": "0x8B935EB2c98B597577359dEF9B18b4ae1523E6Cf",
+    "symbol": "VCXon",
+    "decimals": 18,
+    "chainId": 1,
+    "logoURI": "https://cdn.ondo.finance/tokens/logos/vcxon_160x160.png"
+  },
+  {
+    "name": "GlobalFoundries (Ondo Tokenized)",
+    "address": "0xB326821B68313082F00A1A4d6Fa3f924D3E826Dc",
+    "symbol": "GFSon",
+    "decimals": 18,
+    "chainId": 1,
+    "logoURI": "https://cdn.ondo.finance/tokens/logos/gfson_160x160.png"
+  },
+  {
+    "name": "Energy Fuels (Ondo Tokenized)",
+    "address": "0xF14d47AeD45e16BF1f6E06904ac7f852FCe6cdf4",
+    "symbol": "UUUUon",
+    "decimals": 18,
+    "chainId": 1,
+    "logoURI": "https://cdn.ondo.finance/tokens/logos/uuuuon_160x160.png"
+  },
+  {
+    "name": "Quanta Services (Ondo Tokenized)",
+    "address": "0xB4d71137656150E97f3ed2C18d4a30bE138D8f2e",
+    "symbol": "PWRon",
+    "decimals": 18,
+    "chainId": 1,
+    "logoURI": "https://cdn.ondo.finance/tokens/logos/pwron_160x160.png"
+  },
+  {
+    "name": "Core Scientific (Ondo Tokenized)",
+    "address": "0xddAf7945093ad7457228c185783FDf6aB25022B2",
+    "symbol": "CORZon",
+    "decimals": 18,
+    "chainId": 1,
+    "logoURI": "https://cdn.ondo.finance/tokens/logos/corzon_160x160.png"
+  },
+  {
+    "name": "Hut 8 (Ondo Tokenized)",
+    "address": "0xdf3F2315D124F7F8b714Ba031d6e69aA16a61FA2",
+    "symbol": "HUTon",
+    "decimals": 18,
+    "chainId": 1,
+    "logoURI": "https://cdn.ondo.finance/tokens/logos/huton_160x160.png"
+  },
+  {
+    "name": "Vicor (Ondo Tokenized)",
+    "address": "0x6c51001149c7782820c107ADcE650692aB6c5378",
+    "symbol": "VICRon",
+    "decimals": 18,
+    "chainId": 1,
+    "logoURI": "https://cdn.ondo.finance/tokens/logos/vicron_160x160.png"
+  },
+  {
+    "name": "Amphenol (Ondo Tokenized)",
+    "address": "0xD9C1b5df94063177CF168680b695A417919aE1ae",
+    "symbol": "APHon",
+    "decimals": 18,
+    "chainId": 1,
+    "logoURI": "https://cdn.ondo.finance/tokens/logos/aphon_160x160.png"
+  },
+  {
+    "name": "Powell Industries (Ondo Tokenized)",
+    "address": "0x1b8085e78877dfBA98692Cb918809b35f6280015",
+    "symbol": "POWLon",
+    "decimals": 18,
+    "chainId": 1,
+    "logoURI": "https://cdn.ondo.finance/tokens/logos/powlon_160x160.png"
+  },
+  {
+    "name": "Cleveland-Cliffs (Ondo Tokenized)",
+    "address": "0xa95837130Bcbc0AD99e188E22F674E4eC6925be2",
+    "symbol": "CLFon",
+    "decimals": 18,
+    "chainId": 1,
+    "logoURI": "https://cdn.ondo.finance/tokens/logos/clfon_160x160.png"
+  },
+  {
+    "name": "Cameco (Ondo Tokenized)",
+    "address": "0xA9F9BE37b19F261AB067C5f7DEDA2c969Ec66944",
+    "symbol": "CCJon",
+    "decimals": 18,
+    "chainId": 1,
+    "logoURI": "https://cdn.ondo.finance/tokens/logos/ccjon_160x160.png"
+  },
+  {
+    "name": "Navitas Semiconductor (Ondo Tokenized)",
+    "address": "0x2D9fc6C5dD136658ab6190f356ae3186c4Daa7D5",
+    "symbol": "NVTSon",
+    "decimals": 18,
+    "chainId": 1,
+    "logoURI": "https://cdn.ondo.finance/tokens/logos/nvtson_160x160.png"
+  },
+  {
+    "name": "iShares Floating Rate Loan Active ETF (Ondo Tokenized)",
+    "address": "0xfcBa0eEBbb946FF933C91D2DDB2991845a400F39",
+    "symbol": "BRLNon",
+    "decimals": 18,
+    "chainId": 1,
+    "logoURI": "https://cdn.ondo.finance/tokens/logos/brlnon_160x160.png"
+  },
+  {
+    "name": "iShares Investment Grade Systematic Bond ETF (Ondo Tokenized)",
+    "address": "0x65513b741541025731124408DEb1A714699E3ee8",
+    "symbol": "IGEBon",
+    "decimals": 18,
+    "chainId": 1,
+    "logoURI": "https://cdn.ondo.finance/tokens/logos/igebon_160x160.png"
+  },
+  {
+    "name": "iShares Aaa - A Rated Corporate Bond ETF (Ondo Tokenized)",
+    "address": "0xD175B950B71f623BcD31c430C23e3e4a3487BDa3",
+    "symbol": "QLTAon",
+    "decimals": 18,
+    "chainId": 1,
+    "logoURI": "https://cdn.ondo.finance/tokens/logos/qltaon_160x160.png"
+  },
+  {
+    "name": "iShares High Yield Active ETF (Ondo Tokenized)",
+    "address": "0xaeB2C4f3540a162045cC3Bd82d367AC38C2F4Da6",
+    "symbol": "BRHYon",
+    "decimals": 18,
+    "chainId": 1,
+    "logoURI": "https://cdn.ondo.finance/tokens/logos/brhyon_160x160.png"
+  },
+  {
+    "name": "iShares Large Cap Core Active ETF (Ondo Tokenized)",
+    "address": "0x08D777b6a82c8dee715848702F72dAD4c2504687",
+    "symbol": "BLCRon",
+    "decimals": 18,
+    "chainId": 1,
+    "logoURI": "https://cdn.ondo.finance/tokens/logos/blcron_160x160.png"
+  },
+  {
+    "name": "iShares US Industry Rotation Active ETF (Ondo Tokenized)",
+    "address": "0xcafC59d86FAD601ea321c44439fE9D5B8F02ef0F",
+    "symbol": "INROon",
+    "decimals": 18,
+    "chainId": 1,
+    "logoURI": "https://cdn.ondo.finance/tokens/logos/inroon_160x160.png"
+  },
+  {
+    "name": "iShares US Equity Factor Rotation Active ETF (Ondo Tokenized)",
+    "address": "0xa32847395b007ee4a40407E3DD2f8F9bF56Ca6aB",
+    "symbol": "DYNFon",
+    "decimals": 18,
+    "chainId": 1,
+    "logoURI": "https://cdn.ondo.finance/tokens/logos/dynfon_160x160.png"
+  },
+  {
+    "name": "iShares A.I. Innovation and Tech Active ETF (Ondo Tokenized)",
+    "address": "0x9463b0EE32c1b40B7fdA6459e815F0790159bC3A",
+    "symbol": "BAIon",
+    "decimals": 18,
+    "chainId": 1,
+    "logoURI": "https://cdn.ondo.finance/tokens/logos/baion_160x160.png"
+  },
+  {
+    "name": "iShares International Country Rotation Active ETF (Ondo Tokenized)",
+    "address": "0x744f87836d961E08b9305c690d663577718a0d0A",
+    "symbol": "COROon",
+    "decimals": 18,
+    "chainId": 1,
+    "logoURI": "https://cdn.ondo.finance/tokens/logos/coroon_160x160.png"
+  },
+  {
+    "name": "iShares Total Return Active ETF (Ondo Tokenized)",
+    "address": "0x3d45D340a30f49F036142e5e4D8993b9ad4e3F9a",
+    "symbol": "BRTRon",
+    "decimals": 18,
+    "chainId": 1,
+    "logoURI": "https://cdn.ondo.finance/tokens/logos/brtron_160x160.png"
+  },
+  {
+    "name": "iShares Systematic Alternatives Active ETF (Ondo Tokenized)",
+    "address": "0x9ED446b5CC93803291BfDa5346a5b634a93A500C",
+    "symbol": "IALTon",
+    "decimals": 18,
+    "chainId": 1,
+    "logoURI": "https://cdn.ondo.finance/tokens/logos/ialton_160x160.png"
+  },
+  {
+    "name": "Oceaneering International (Ondo Tokenized)",
+    "address": "0x5673154DAe5Dab8ca6Bd3ee42c3245dbFedC6611",
+    "symbol": "OIIon",
+    "decimals": 18,
+    "chainId": 1,
+    "logoURI": "https://cdn.ondo.finance/tokens/logos/oiion_160x160.png"
+  },
+  {
+    "name": "Iridium Communications (Ondo Tokenized)",
+    "address": "0xd0E60D2EF0841E49700772D9889123b9886194c7",
+    "symbol": "IRDMon",
+    "decimals": 18,
+    "chainId": 1,
+    "logoURI": "https://cdn.ondo.finance/tokens/logos/irdmon_160x160.png"
+  },
+  {
+    "name": "Leonardo DRS (Ondo Tokenized)",
+    "address": "0x448550De96bCBEF1d8ccd755b5BC842f58485b46",
+    "symbol": "DRSon",
+    "decimals": 18,
+    "chainId": 1,
+    "logoURI": "https://cdn.ondo.finance/tokens/logos/drson_160x160.png"
+  },
+  {
+    "name": "Huntington Ingalls Industries (Ondo Tokenized)",
+    "address": "0x10bd54f1F4DC19bE0c46B1Ea7E5f38FD2eaFeE26",
+    "symbol": "HIIon",
+    "decimals": 18,
+    "chainId": 1,
+    "logoURI": "https://cdn.ondo.finance/tokens/logos/hiion_160x160.png"
+  },
+  {
+    "name": "General Dynamics (Ondo Tokenized)",
+    "address": "0xD68fa0978C257aace5BEc5246b201B56E838D45d",
+    "symbol": "GDon",
+    "decimals": 18,
+    "chainId": 1,
+    "logoURI": "https://cdn.ondo.finance/tokens/logos/gdon_160x160.png"
+  },
+  {
+    "name": "Vanguard Energy ETF (Ondo Tokenized)",
+    "address": "0x241Aa03de25Bd3A6B6254258BEF7F287AF94b93C",
+    "symbol": "VDEon",
+    "decimals": 18,
+    "chainId": 1,
+    "logoURI": "https://cdn.ondo.finance/tokens/logos/vdeon_160x160.png"
+  },
+  {
+    "name": "Sprott Uranium Miners ETF (Ondo Tokenized)",
+    "address": "0xa65db7879774BD6758ABaF583A91177AfD96D5A3",
+    "symbol": "URNMon",
+    "decimals": 18,
+    "chainId": 1,
+    "logoURI": "https://cdn.ondo.finance/tokens/logos/urnmon_160x160.png"
+  },
+  {
+    "name": "US Copper Index Fund (Ondo Tokenized)",
+    "address": "0x22a684E0A3cc9B74596719F722cf4e597AAFA3bA",
+    "symbol": "CPERon",
+    "decimals": 18,
+    "chainId": 1,
+    "logoURI": "https://cdn.ondo.finance/tokens/logos/cperon_160x160.png"
+  },
+  {
+    "name": "First Majestic Silver (Ondo Tokenized)",
+    "address": "0xaa26e62e51bc5da24ED2B6Fc6491e137d68824B9",
+    "symbol": "AGon",
+    "decimals": 18,
+    "chainId": 1,
+    "logoURI": "https://cdn.ondo.finance/tokens/logos/agon_160x160.png"
+  },
+  {
+    "name": "SLB (Ondo Tokenized)",
+    "address": "0xCEA4290d6578f0253308304F7184eA2E8F5EB0E4",
+    "symbol": "SLBon",
+    "decimals": 18,
+    "chainId": 1,
+    "logoURI": "https://cdn.ondo.finance/tokens/logos/slbon_160x160.png"
+  },
+  {
+    "name": "Halliburton (Ondo Tokenized)",
+    "address": "0x596b790CceE1032F6658Ac2c78a119cCE69727FC",
+    "symbol": "HALon",
+    "decimals": 18,
+    "chainId": 1,
+    "logoURI": "https://cdn.ondo.finance/tokens/logos/halon_160x160.png"
+  },
+  {
+    "name": "Defiance Quantum ETF (Ondo Tokenized)",
+    "address": "0x4c26BeBd3EC5B0329f24dfeD0de10a7AD205D8c3",
+    "symbol": "QTUMon",
+    "decimals": 18,
+    "chainId": 1,
+    "logoURI": "https://cdn.ondo.finance/tokens/logos/qtumon_160x160.png"
+  },
+  {
+    "name": "Skyworks Solutions (Ondo Tokenized)",
+    "address": "0xC15F11599828b0afB0C071994679EF9E685F9E2E",
+    "symbol": "SWKSon",
+    "decimals": 18,
+    "chainId": 1,
+    "logoURI": "https://cdn.ondo.finance/tokens/logos/swkson_160x160.png"
+  },
+  {
+    "name": "United Microelectronics (Ondo Tokenized)",
+    "address": "0x9784508a0758cBb43eCb9b62F4CF4b1b3a36480c",
+    "symbol": "UMCon",
+    "decimals": 18,
+    "chainId": 1,
+    "logoURI": "https://cdn.ondo.finance/tokens/logos/umcon_160x160.png"
+  },
+  {
+    "name": "Jabil (Ondo Tokenized)",
+    "address": "0xD9584f80CCE13afC96BfD0188fd5C81E08f18C85",
+    "symbol": "JBLon",
+    "decimals": 18,
+    "chainId": 1,
+    "logoURI": "https://cdn.ondo.finance/tokens/logos/jblon_160x160.png"
+  },
+  {
+    "name": "Flex (Ondo Tokenized)",
+    "address": "0x4493E670F5a077D46Eb3389fFA9Af19999Ea54eD",
+    "symbol": "FLEXon",
+    "decimals": 18,
+    "chainId": 1,
+    "logoURI": "https://cdn.ondo.finance/tokens/logos/flexon_160x160.png"
+  },
+  {
+    "name": "Invesco PHLX Semiconductor ETF (Ondo Tokenized)",
+    "address": "0x4032d3076974b89238adfe61085EC57fC4522646",
+    "symbol": "SOXQon",
+    "decimals": 18,
+    "chainId": 1,
+    "logoURI": "https://cdn.ondo.finance/tokens/logos/soxqon_160x160.png"
+  },
+  {
+    "name": "Direxion Daily Semi Bull 3X ETF (Ondo Tokenized)",
+    "address": "0xd318bBBE6B6E83F74e7aCAEb5e94C08ddbDb44c0",
+    "symbol": "SOXLon",
+    "decimals": 18,
+    "chainId": 1,
+    "logoURI": "https://cdn.ondo.finance/tokens/logos/soxlon_160x160.png"
+  },
+  {
+    "name": "Direxion Daily Semi Bear 3X ETF (Ondo Tokenized)",
+    "address": "0x01eb2eE6Ec05C304666210133B762088FF9965aC",
+    "symbol": "SOXSon",
+    "decimals": 18,
+    "chainId": 1,
+    "logoURI": "https://cdn.ondo.finance/tokens/logos/soxson_160x160.png"
+  },
+  {
+    "name": "Ultra Clean Holdings (Ondo Tokenized)",
+    "address": "0x77ADB9F3ff7aAcBA0eEcE50d1bBf51adA182d174",
+    "symbol": "UCTTon",
+    "decimals": 18,
+    "chainId": 1,
+    "logoURI": "https://cdn.ondo.finance/tokens/logos/uctton_160x160.png"
+  },
+  {
+    "name": "Axcelis Technologies (Ondo Tokenized)",
+    "address": "0x6785cE8060655b1F4991C3893dc41814154A1808",
+    "symbol": "ACLSon",
+    "decimals": 18,
+    "chainId": 1,
+    "logoURI": "https://cdn.ondo.finance/tokens/logos/aclson_160x160.png"
+  },
+  {
+    "name": "Cohu (Ondo Tokenized)",
+    "address": "0x948B03e4A1F1330d86Ea3adE02482639B5cCe720",
+    "symbol": "COHUon",
+    "decimals": 18,
+    "chainId": 1,
+    "logoURI": "https://cdn.ondo.finance/tokens/logos/cohuon_160x160.png"
+  },
+  {
+    "name": "Keysight Technologies (Ondo Tokenized)",
+    "address": "0x1E328BBCd67e1bbEE198bb3F90e764812e6E0AC9",
+    "symbol": "KEYSon",
+    "decimals": 18,
+    "chainId": 1,
+    "logoURI": "https://cdn.ondo.finance/tokens/logos/keyson_160x160.png"
+  },
+  {
+    "name": "iShares Expanded Tech-Software ETF (Ondo Tokenized)",
+    "address": "0xa9E5c59f34397fe6Baa9E4dA139bA4E63Bd84324",
+    "symbol": "IGVon",
+    "decimals": 18,
+    "chainId": 1,
+    "logoURI": "https://cdn.ondo.finance/tokens/logos/igvon_160x160.png"
+  },
+  {
+    "name": "VeriSign (Ondo Tokenized)",
+    "address": "0xc5a72B01Cc9e2721DC6dE1A35Ab8d92A6AA273e6",
+    "symbol": "VRSNon",
+    "decimals": 18,
+    "chainId": 1,
+    "logoURI": "https://cdn.ondo.finance/tokens/logos/vrsnon_160x160.png"
+  },
+  {
+    "name": "Vishay Intertechnology (Ondo Tokenized)",
+    "address": "0x6987F17A188c3B64F4892f0E31C2ccd88F54FCFd",
+    "symbol": "VSHon",
+    "decimals": 18,
+    "chainId": 1,
+    "logoURI": "https://cdn.ondo.finance/tokens/logos/vshon_160x160.png"
+  },
+  {
+    "name": "Methode Electronics (Ondo Tokenized)",
+    "address": "0x84601fdB21e3e892104e1Fe4a8269E7acA7C0E1A",
+    "symbol": "MEIon",
+    "decimals": 18,
+    "chainId": 1,
+    "logoURI": "https://cdn.ondo.finance/tokens/logos/meion_160x160.png"
+  },
+  {
+    "name": "Rambus (Ondo Tokenized)",
+    "address": "0xae1c6E353cdc9Dc3CC01124FFB62a0d0Ce64a401",
+    "symbol": "RMBSon",
+    "decimals": 18,
+    "chainId": 1,
+    "logoURI": "https://cdn.ondo.finance/tokens/logos/rmbson_160x160.png"
+  },
+  {
+    "name": "Arteris (Ondo Tokenized)",
+    "address": "0x0D8EF471a11036Bc6dDa1536069457f7e97daB66",
+    "symbol": "AIPon",
+    "decimals": 18,
+    "chainId": 1,
+    "logoURI": "https://cdn.ondo.finance/tokens/logos/aipon_160x160.png"
+  },
+  {
+    "name": "Extreme Networks (Ondo Tokenized)",
+    "address": "0x04c8381e17b6A9245aBBF2e62c544eaEE4030D1b",
+    "symbol": "EXTRon",
+    "decimals": 18,
+    "chainId": 1,
+    "logoURI": "https://cdn.ondo.finance/tokens/logos/extron_160x160.png"
+  },
+  {
+    "name": "WhiteFiber (Ondo Tokenized)",
+    "address": "0xceb37aD46957047E22f726A7B25B134fC53AD753",
+    "symbol": "WYFIon",
+    "decimals": 18,
+    "chainId": 1,
+    "logoURI": "https://cdn.ondo.finance/tokens/logos/wyfion_160x160.png"
+  },
+  {
+    "name": "Digi Power X (Ondo Tokenized)",
+    "address": "0xC76E008965b2f0E37896F52A2FEEe66EF2926ae8",
+    "symbol": "DGXXon",
+    "decimals": 18,
+    "chainId": 1,
+    "logoURI": "https://cdn.ondo.finance/tokens/logos/dgxxon_160x160.png"
+  },
+  {
+    "name": "Bitdeer Technologies (Ondo Tokenized)",
+    "address": "0x0683154c33B7563ed39951B4d7C0470EA28D93e9",
+    "symbol": "BTDRon",
+    "decimals": 18,
+    "chainId": 1,
+    "logoURI": "https://cdn.ondo.finance/tokens/logos/btdron_160x160.png"
+  },
+  {
+    "name": "Keel Infrastructure (Ondo Tokenized)",
+    "address": "0x96c662b152BEC886fAcab388bd98470FD3Aa9737",
+    "symbol": "KEELon",
+    "decimals": 18,
+    "chainId": 1,
+    "logoURI": "https://cdn.ondo.finance/tokens/logos/keelon_160x160.png"
+  },
+  {
+    "name": "HIVE Digital Technologies (Ondo Tokenized)",
+    "address": "0x823cf9cCa5b8EAe0AE08fF3C6CD5102D2859DB4D",
+    "symbol": "HIVEon",
+    "decimals": 18,
+    "chainId": 1,
+    "logoURI": "https://cdn.ondo.finance/tokens/logos/hiveon_160x160.png"
+  },
+  {
+    "name": "TTM Technologies (Ondo Tokenized)",
+    "address": "0xDEbb8E6F581655759e3D64f769247a007AF0aE36",
+    "symbol": "TTMIon",
+    "decimals": 18,
+    "chainId": 1,
+    "logoURI": "https://cdn.ondo.finance/tokens/logos/ttmion_160x160.png"
+  },
+  {
+    "name": "Primoris Services (Ondo Tokenized)",
+    "address": "0xBa6FF85f4595a3E71F3a965E6B528bBcf51A2c79",
+    "symbol": "PRIMon",
+    "decimals": 18,
+    "chainId": 1,
+    "logoURI": "https://cdn.ondo.finance/tokens/logos/primon_160x160.png"
+  },
+  {
+    "name": "Lincoln Electric (Ondo Tokenized)",
+    "address": "0xD62C0Bf1e1dD6F4FEe1b3D042A9E479Ad1Fb1BCb",
+    "symbol": "LECOon",
+    "decimals": 18,
+    "chainId": 1,
+    "logoURI": "https://cdn.ondo.finance/tokens/logos/lecoon_160x160.png"
+  },
+  {
+    "name": "AMETEK (Ondo Tokenized)",
+    "address": "0x113faE6e1103A4C09250C8697a6a4BE6Ca987d06",
+    "symbol": "AMEon",
+    "decimals": 18,
+    "chainId": 1,
+    "logoURI": "https://cdn.ondo.finance/tokens/logos/ameon_160x160.png"
+  },
+  {
+    "name": "Forgent Power Solutions (Ondo Tokenized)",
+    "address": "0x410e7D6B6303E531753D4fbe3e50e35EfBcFf53c",
+    "symbol": "FPSon",
+    "decimals": 18,
+    "chainId": 1,
+    "logoURI": "https://cdn.ondo.finance/tokens/logos/fpson_160x160.png"
+  },
+  {
+    "name": "WESCO International (Ondo Tokenized)",
+    "address": "0xF87efCA06f6Af53Cb096847bA092ccd04395A192",
+    "symbol": "WCCon",
+    "decimals": 18,
+    "chainId": 1,
+    "logoURI": "https://cdn.ondo.finance/tokens/logos/wccon_160x160.png"
+  },
+  {
+    "name": "Breakwave Tanker Shipping ETF (Ondo Tokenized)",
+    "address": "0xEcA55ac71f83931B7e074228AEBc9104F13d8c02",
+    "symbol": "BWETon",
+    "decimals": 18,
+    "chainId": 1,
+    "logoURI": "https://cdn.ondo.finance/tokens/logos/bweton_160x160.png"
+  },
+  {
+    "name": "Scorpio Tankers (Ondo Tokenized)",
+    "address": "0xf25a149151033FcfAf069C1d007C3c2d2429bE8e",
+    "symbol": "STNGon",
+    "decimals": 18,
+    "chainId": 1,
+    "logoURI": "https://cdn.ondo.finance/tokens/logos/stngon_160x160.png"
+  },
+  {
+    "name": "Teekay Tankers (Ondo Tokenized)",
+    "address": "0x90c06Bccb5bd20c5a84cBD59A43Aa22cA96E588D",
+    "symbol": "TNKon",
+    "decimals": 18,
+    "chainId": 1,
+    "logoURI": "https://cdn.ondo.finance/tokens/logos/tnkon_160x160.png"
+  },
+  {
+    "name": "International Seaways (Ondo Tokenized)",
+    "address": "0x3f696db88acA815c150fEb9baAa9870F85b77494",
+    "symbol": "INSWon",
+    "decimals": 18,
+    "chainId": 1,
+    "logoURI": "https://cdn.ondo.finance/tokens/logos/inswon_160x160.png"
+  },
+  {
+    "name": "Tsakos Energy Navigation (Ondo Tokenized)",
+    "address": "0xdb2e166F0c76b05BC07700CbF74cC36Ae2603624",
+    "symbol": "TENon",
+    "decimals": 18,
+    "chainId": 1,
+    "logoURI": "https://cdn.ondo.finance/tokens/logos/tenon_160x160.png"
+  },
+  {
+    "name": "Nordic American Tankers (Ondo Tokenized)",
+    "address": "0x64b84731cEC441370C90c1b06d66A17EAdfAcd0F",
+    "symbol": "NATon",
+    "decimals": 18,
+    "chainId": 1,
+    "logoURI": "https://cdn.ondo.finance/tokens/logos/naton_160x160.png"
+  },
+  {
+    "name": "Okeanis Eco Tankers (Ondo Tokenized)",
+    "address": "0xD081B43E3C334B1a101981efC1D98F1E82df076E",
+    "symbol": "ECOon",
+    "decimals": 18,
+    "chainId": 1,
+    "logoURI": "https://cdn.ondo.finance/tokens/logos/ecoon_160x160.png"
+  },
+  {
+    "name": "Westlake (Ondo Tokenized)",
+    "address": "0xEad51EE313a7187fc1a155C381270c764DA42770",
+    "symbol": "WLKon",
+    "decimals": 18,
+    "chainId": 1,
+    "logoURI": "https://cdn.ondo.finance/tokens/logos/wlkon_160x160.png"
+  },
+  {
+    "name": "Nucor (Ondo Tokenized)",
+    "address": "0x167f8D6B357FA9fff9B1286E519Bd32d4504757E",
+    "symbol": "NUEon",
+    "decimals": 18,
+    "chainId": 1,
+    "logoURI": "https://cdn.ondo.finance/tokens/logos/nueon_160x160.png"
+  },
+  {
+    "name": "Steel Dynamics (Ondo Tokenized)",
+    "address": "0xf9D5aF26E1B96625dBC86609463A06602bE42966",
+    "symbol": "STLDon",
+    "decimals": 18,
+    "chainId": 1,
+    "logoURI": "https://cdn.ondo.finance/tokens/logos/stldon_160x160.png"
+  },
+  {
+    "name": "Lattice Semiconductor (Ondo Tokenized)",
+    "address": "0xa0Db1eCa4AaEBCa03A3c04ed221b036Dd3CcB025",
+    "symbol": "LSCCon",
+    "decimals": 18,
+    "chainId": 1,
+    "logoURI": "https://cdn.ondo.finance/tokens/logos/lsccon_160x160.png"
+  },
+  {
+    "name": "CEVA (Ondo Tokenized)",
+    "address": "0xC4881Ce8269744B9255b926B76728eAdcB240A3B",
+    "symbol": "CEVAon",
+    "decimals": 18,
+    "chainId": 1,
+    "logoURI": "https://cdn.ondo.finance/tokens/logos/cevaon_160x160.png"
+  },
+  {
+    "name": "Emerson Electric (Ondo Tokenized)",
+    "address": "0x26719965000A3DCAcc1451F836FbB9c883CCDe85",
+    "symbol": "EMRon",
+    "decimals": 18,
+    "chainId": 1,
+    "logoURI": "https://cdn.ondo.finance/tokens/logos/emron_160x160.png"
+  },
+  {
+    "name": "Symbotic (Ondo Tokenized)",
+    "address": "0x41d022C6008FbF431c5E5E88246A948B9E941EA3",
+    "symbol": "SYMon",
+    "decimals": 18,
+    "chainId": 1,
+    "logoURI": "https://cdn.ondo.finance/tokens/logos/symon_160x160.png"
+  },
+  {
+    "name": "TaskUs (Ondo Tokenized)",
+    "address": "0x85bD7B075A9e0f6D7099dd750CEcd65CE57d4F44",
+    "symbol": "TASKon",
+    "decimals": 18,
+    "chainId": 1,
+    "logoURI": "https://cdn.ondo.finance/tokens/logos/taskon_160x160.png"
+  },
+  {
+    "name": "Innodata (Ondo Tokenized)",
+    "address": "0x1C99a152e00a5dc40f8c3e893C1d04b0F6a48B0f",
+    "symbol": "INODon",
+    "decimals": 18,
+    "chainId": 1,
+    "logoURI": "https://cdn.ondo.finance/tokens/logos/inodon_160x160.png"
+  },
+  {
+    "name": "Hesai Group (Ondo Tokenized)",
+    "address": "0xdC7E54dd476812F7cf1d77066f523aFE50eDAb1b",
+    "symbol": "HSAIon",
+    "decimals": 18,
+    "chainId": 1,
+    "logoURI": "https://cdn.ondo.finance/tokens/logos/hsaion_160x160.png"
+  },
+  {
+    "name": "United States Antimony (Ondo Tokenized)",
+    "address": "0x084A613FEd04B5d26672E38dc9c3aa13f3C1AE58",
+    "symbol": "UAMYon",
+    "decimals": 18,
+    "chainId": 1,
+    "logoURI": "https://cdn.ondo.finance/tokens/logos/uamyon_160x160.png"
+  },
+  {
+    "name": "REalloys (Ondo Tokenized)",
+    "address": "0x4cDd1099146f28a9b428CD85F36B562B6d05c8c8",
+    "symbol": "ALOYon",
+    "decimals": 18,
+    "chainId": 1,
+    "logoURI": "https://cdn.ondo.finance/tokens/logos/aloyon_160x160.png"
+  },
+  {
+    "name": "ACM Research (Ondo Tokenized)",
+    "address": "0x8379c5595b8148A9968bEE6D8110B2b4a627a9Dd",
+    "symbol": "ACMRon",
+    "decimals": 18,
+    "chainId": 1,
+    "logoURI": "https://cdn.ondo.finance/tokens/logos/acmron_160x160.png"
+  },
+  {
+    "name": "Nova (Ondo Tokenized)",
+    "address": "0x80d04221eC124850C4B9ba8f625b9a12AD609200",
+    "symbol": "NVMIon",
+    "decimals": 18,
+    "chainId": 1,
+    "logoURI": "https://cdn.ondo.finance/tokens/logos/nvmion_160x160.png"
+  },
+  {
+    "name": "Amkor Technology (Ondo Tokenized)",
+    "address": "0xF02b8309df07641dDcFd1DABCeFFDde3d30915De",
+    "symbol": "AMKRon",
+    "decimals": 18,
+    "chainId": 1,
+    "logoURI": "https://cdn.ondo.finance/tokens/logos/amkron_160x160.png"
+  },
+  {
+    "name": "AAON (Ondo Tokenized)",
+    "address": "0x6E9C573e5b8A59CEC47D8E317C148E4b0595FB39",
+    "symbol": "AAONon",
+    "decimals": 18,
+    "chainId": 1,
+    "logoURI": "https://cdn.ondo.finance/tokens/logos/aaonon_160x160.png"
+  },
+  {
+    "name": "Harmonic (Ondo Tokenized)",
+    "address": "0xa4daA3f53405BEa3B1E5701b6Db2DDC0efc4C8b2",
+    "symbol": "HLITon",
+    "decimals": 18,
+    "chainId": 1,
+    "logoURI": "https://cdn.ondo.finance/tokens/logos/hliton_160x160.png"
+  },
+  {
+    "name": "Roundhill Memory ETF (Ondo Tokenized)",
+    "address": "0xdB5a8f5B4C17f2Ee2e7192A150687E48eB3C415d",
+    "symbol": "DRAMon",
+    "decimals": 18,
+    "chainId": 1,
+    "logoURI": "https://cdn.ondo.finance/tokens/logos/dramon_160x160.png"
+  },
+  {
+    "name": "Global X MSCI Argentina ETF (Ondo Tokenized)",
+    "address": "0xfb1b703B26957C344aAb03BBE11EC9C23E9eDdf5",
+    "symbol": "ARGTon",
+    "decimals": 18,
+    "chainId": 1,
+    "logoURI": "https://cdn.ondo.finance/tokens/logos/argton_160x160.png"
+  },
+  {
+    "name": "Hyperliquid Strategies (Ondo Tokenized)",
+    "address": "0x211d1d372E6A782e9786b045004382834bDB224e",
+    "symbol": "PURRon",
+    "decimals": 18,
+    "chainId": 1,
+    "logoURI": "https://cdn.ondo.finance/tokens/logos/purron_160x160.png"
+  },
+  {
+    "name": "Global X Defense Tech ETF (Ondo Tokenized)",
+    "address": "0xFb4Aa24c9c4E65f82d57d268dA8a65a0dE0DC43B",
+    "symbol": "SHLDon",
+    "decimals": 18,
+    "chainId": 1,
+    "logoURI": "https://cdn.ondo.finance/tokens/logos/shldon_160x160.png"
+  },
+  {
+    "name": "Global X Robotics & Artificial Intelligence ETF (Ondo Tokenized)",
+    "address": "0x7AbeC847A3f9820397C82E1DAd231721Bf5a6732",
+    "symbol": "BOTZon",
+    "decimals": 18,
+    "chainId": 1,
+    "logoURI": "https://cdn.ondo.finance/tokens/logos/botzon_160x160.png"
+  },
+  {
+    "name": "Global X Lithium & Battery Tech ETF (Ondo Tokenized)",
+    "address": "0x3EB4293B73080214012DeF05244eC291094C6C14",
+    "symbol": "LITon",
+    "decimals": 18,
+    "chainId": 1,
+    "logoURI": "https://cdn.ondo.finance/tokens/logos/liton_160x160.png"
+  },
+  {
+    "name": "Global X Data Center & Digital Infrastructure ETF (Ondo Tokenized)",
+    "address": "0x4D9216151Dad1AF871A6EeC623e2F04E7a2717b3",
+    "symbol": "DTCRon",
+    "decimals": 18,
+    "chainId": 1,
+    "logoURI": "https://cdn.ondo.finance/tokens/logos/dtcron_160x160.png"
+  },
+  {
+    "name": "Global X Space Tech ETF (Ondo Tokenized)",
+    "address": "0xf8fd3698cA42c07f502150C19DD1D96B687f53Cd",
+    "symbol": "ORBXon",
+    "decimals": 18,
+    "chainId": 1,
+    "logoURI": "https://cdn.ondo.finance/tokens/logos/orbxon_160x160.png"
+  },
+  {
+    "name": "iShares Euro High Yield Corporate Bond USD Hedged ETF (Ondo Tokenized)",
+    "address": "0x34B33399a629fEd8EDC216EEb76C8309024C8987",
+    "symbol": "EUHYon",
+    "decimals": 18,
+    "chainId": 1,
+    "logoURI": "https://cdn.ondo.finance/tokens/logos/euhyon_160x160.png"
+  },
+  {
+    "name": "iShares J.P. Morgan EM Local Currency Bond ETF (Ondo Tokenized)",
+    "address": "0xd9E7C53205048F83859815852616cd65D87AA83E",
+    "symbol": "LEMBon",
+    "decimals": 18,
+    "chainId": 1,
+    "logoURI": "https://cdn.ondo.finance/tokens/logos/lembon_160x160.png"
+  },
+  {
+    "name": "iShares Defense Industrials Active ETF (Ondo Tokenized)",
+    "address": "0x927dB66Cd5B55E9Df22d1D2207fBF059915240bB",
+    "symbol": "IDEFon",
+    "decimals": 18,
+    "chainId": 1,
+    "logoURI": "https://cdn.ondo.finance/tokens/logos/idefon_160x160.png"
+  },
+  {
+    "name": "iShares Global Government Bond USD Hedged Active ETF (Ondo Tokenized)",
+    "address": "0xfBd7880EBC5c2b1B871a8CE188C05311015139F4",
+    "symbol": "GGOVon",
+    "decimals": 18,
+    "chainId": 1,
+    "logoURI": "https://cdn.ondo.finance/tokens/logos/ggovon_160x160.png"
+  },
+  {
+    "name": "Global X NASDAQ 100 Covered Call ETF (Ondo Tokenized)",
+    "address": "0xA7776B3d801A6626807E0Db357C7EE2a8962903b",
+    "symbol": "QYLDon",
+    "decimals": 18,
+    "chainId": 1,
+    "logoURI": "https://cdn.ondo.finance/tokens/logos/qyldon_160x160.png"
+  },
+  {
+    "name": "Global X Silver Miners ETF (Ondo Tokenized)",
+    "address": "0x603E505799511155A9216D37cF9e051171240b4c",
+    "symbol": "SILon",
+    "decimals": 18,
+    "chainId": 1,
+    "logoURI": "https://cdn.ondo.finance/tokens/logos/silon_160x160.png"
+  },
+  {
+    "name": "Global X Artificial Intelligence & Technology ETF (Ondo Tokenized)",
+    "address": "0x2A5ae1BdE731cb8732fD762073DD0bBE151360B9",
+    "symbol": "AIQon",
+    "decimals": 18,
+    "chainId": 1,
+    "logoURI": "https://cdn.ondo.finance/tokens/logos/aiqon_160x160.png"
+  },
+  {
+    "name": "Global X Blockchain ETF (Ondo Tokenized)",
+    "address": "0xDd00b1046692aA2780ef04849829609Fc4F90fD7",
+    "symbol": "BKCHon",
+    "decimals": 18,
+    "chainId": 1,
+    "logoURI": "https://cdn.ondo.finance/tokens/logos/bkchon_160x160.png"
+  },
+  {
+    "name": "iShares MSCI EAFE Value ETF (Ondo Tokenized)",
+    "address": "0x1252c5fa0a4031F6843D5Cf8d4986Ba99a8A9b42",
+    "symbol": "EFVon",
+    "decimals": 18,
+    "chainId": 1,
+    "logoURI": "https://cdn.ondo.finance/tokens/logos/efvon_160x160.png"
+  },
+  {
+    "name": "iShares S&P Small-Cap 600 Value ETF (Ondo Tokenized)",
+    "address": "0xc0e1F30E45da2dced2c35D89947C20bffBa6f529",
+    "symbol": "IJSon",
+    "decimals": 18,
+    "chainId": 1,
+    "logoURI": "https://cdn.ondo.finance/tokens/logos/ijson_160x160.png"
+  },
+  {
+    "name": "iShares US Technology ETF (Ondo Tokenized)",
+    "address": "0x1577D4ae114B6F217453b754AeaC164db44832DA",
+    "symbol": "IYWon",
+    "decimals": 18,
+    "chainId": 1,
+    "logoURI": "https://cdn.ondo.finance/tokens/logos/iywon_160x160.png"
+  },
+  {
+    "name": "Global X S&P 500 Covered Call ETF (Ondo Tokenized)",
+    "address": "0x034c9ffeC64597E0a0622ca5B9eAF00839052e0a",
+    "symbol": "XYLDon",
+    "decimals": 18,
+    "chainId": 1,
+    "logoURI": "https://cdn.ondo.finance/tokens/logos/xyldon_160x160.png"
+  },
+  {
+    "name": "SPDR Bloomberg 1-3 Month T-Bill ETF (Ondo Tokenized)",
+    "address": "0x2710E30d84B376c34a3B3036aa196b26a83A321b",
+    "symbol": "BILon",
+    "decimals": 18,
+    "chainId": 1,
+    "logoURI": "https://cdn.ondo.finance/tokens/logos/bilon_160x160.png"
+  },
+  {
+    "name": "iShares 3-7 Year Treasury Bond ETF (Ondo Tokenized)",
+    "address": "0xe905C437A30AE6d8c0576E0D9F6360B93B94976D",
+    "symbol": "IEIon",
+    "decimals": 18,
+    "chainId": 1,
+    "logoURI": "https://cdn.ondo.finance/tokens/logos/ieion_160x160.png"
+  },
+  {
+    "name": "AB Ultra Short Income ETF (Ondo Tokenized)",
+    "address": "0x5f24DD5DDb74bFe2BFE592aD91DBA09347031afd",
+    "symbol": "YEARon",
+    "decimals": 18,
+    "chainId": 1,
+    "logoURI": "https://cdn.ondo.finance/tokens/logos/yearon_160x160.png"
+  },
+  {
+    "name": "Strive Preferred (Ondo Tokenized)",
+    "address": "0x141196732cE4BB20010E4149704C0F278d5d3CEA",
+    "symbol": "SATAon",
+    "decimals": 18,
+    "chainId": 1,
+    "logoURI": "https://cdn.ondo.finance/tokens/logos/sataon_160x160.png"
   }
 ]
