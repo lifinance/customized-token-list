@@ -1206,5 +1206,13 @@
     "decimals": 18,
     "name": "Coinbase Wrapped Hyperliquid",
     "symbol": "cbHYPE"
+  },
+  {
+    "address": "0x1e925De1c68ef83bD98eE3E130eF14a50309C01B",
+    "chainId": 8453,
+    "logoURI": "https://static.debank.com/image/base_token/logo_url/0x1e925de1c68ef83bd98ee3e130ef14a50309c01b/9e1509f0b8052333cd80efc4b7c1a80c.png",
+    "decimals": 18,
+    "name": "exactly",
+    "symbol": "EXA"
   }
 ]
