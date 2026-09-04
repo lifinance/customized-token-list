@@ -393,5 +393,10 @@
     "chainId": 1,
     "address": "0xE4aB0bE415e277d82C38625B72BD7DeA232C2E7d",
     "reason": "Fee-on-transfer / deflationary token (XRP20, ~0.1% burn). Bitavo reports swap-out simulation failures with ERC20: transfer amount exceeds balance."
+  },
+  {
+    "chainId": 1,
+    "address": "0x677ddbd918637E5F2c79e164D402454dE7dA8619",
+    "reason": "Deprecation in favor of Vetro USD"
   }
 ]
