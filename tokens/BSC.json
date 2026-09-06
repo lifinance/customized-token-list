@@ -552,7 +552,7 @@
     "logoURI": "https://assets.coingecko.com/coins/images/68596/standard/spgion_160x160.png"
   },
   {
-    "name": "Petr\u00f3leo Brasileiro S.A.",
+    "name": "Petróleo Brasileiro S.A.",
     "address": "0x2b1d5cdecc356530a746c5754231efaeaca64022",
     "symbol": "PBRon",
     "chainId": 56,
@@ -2066,7 +2066,7 @@
   {
     "address": "0x290A5779a419Cb9cB22fa087CDD1CD16dA2D95F1",
     "chainId": 56,
-    "logoURI": "https://pc.am/brand/wpcn-round-256.png\n\n(256\u00d7256 PNG, transparent background, served from our own domain \u2014 permanent, no signing or expiry. An SVG source is at https://pc.am/brand/wpcn-round.svg and 32/64/128/512 px variants exist at the same path pattern.)",
+    "logoURI": "https://pc.am/brand/wpcn-round-256.png\n\n(256×256 PNG, transparent background, served from our own domain — permanent, no signing or expiry. An SVG source is at https://pc.am/brand/wpcn-round.svg and 32/64/128/512 px variants exist at the same path pattern.)",
     "decimals": 8,
     "name": "Wrapped PCoin",
     "symbol": "wPCN"
@@ -4630,5 +4630,37 @@
     "decimals": 18,
     "chainId": 56,
     "logoURI": "https://cdn.ondo.finance/tokens/logos/hygwon_160x160.png"
+  },
+  {
+    "address": "0x10061d0593441Ff74536158592e1Be3F4C7B180C",
+    "chainId": 56,
+    "logoURI": "https://static.vetro.org/brand/tokens/VUSD/vetro-token-VUSD.png",
+    "decimals": 18,
+    "name": "Vetro USD",
+    "symbol": "VUSD"
+  },
+  {
+    "address": "0xC141B66eE4262Ba46Ea29578955C274fD4A96515",
+    "chainId": 56,
+    "logoURI": "https://static.vetro.org/brand/tokens/sVUSD-VUSDx/vetro-token-sVUSD-VUSDx.png",
+    "decimals": 18,
+    "name": "Staked Vetro USD",
+    "symbol": "sVUSD"
+  },
+  {
+    "address": "0xD46ac62F9C145B64146AFadB848476B209b6b420",
+    "chainId": 56,
+    "logoURI": "https://static.vetro.org/brand/tokens/vetBTC/vetro-token-vetBTC.png",
+    "decimals": 18,
+    "name": "Vetro BTC",
+    "symbol": "vetBTC"
+  },
+  {
+    "address": "0x37D8C0AFeeF48AA9D925475CF6c73E4D8c74d931",
+    "chainId": 56,
+    "logoURI": "https://static.vetro.org/brand/tokens/svetBTC-vetBTCx/vetro-token-svetBTC-vetBTCx.png",
+    "decimals": 18,
+    "name": "Staked Vetro BTC",
+    "symbol": "svetBTC"
   }
 ]

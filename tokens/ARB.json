@@ -646,5 +646,37 @@
     "decimals": 18,
     "name": "Monerium GBPe",
     "symbol": "GBPe"
+  },
+  {
+    "address": "0xCE2c108fB49551f6d27BBb529Ad1938835ac3574",
+    "chainId": 42161,
+    "logoURI": "https://static.vetro.org/brand/tokens/VUSD/vetro-token-VUSD.png",
+    "decimals": 18,
+    "name": "Vetro USD",
+    "symbol": "VUSD"
+  },
+  {
+    "address": "0x50c580227764b621c0433bB6Ab756C781c495ce7",
+    "chainId": 42161,
+    "logoURI": "https://static.vetro.org/brand/tokens/sVUSD-VUSDx/vetro-token-sVUSD-VUSDx.png",
+    "decimals": 18,
+    "name": "Staked Vetro USD",
+    "symbol": "sVUSD"
+  },
+  {
+    "address": "0x0b874b240eF6D9d9543dBDEB224CDDC4BA71FD0f",
+    "chainId": 42161,
+    "logoURI": "https://static.vetro.org/brand/tokens/vetBTC/vetro-token-vetBTC.png",
+    "decimals": 18,
+    "name": "Vetro BTC",
+    "symbol": "vetBTC"
+  },
+  {
+    "address": "0x54181404A037757eb5271Ee4a02CA51844f25eaA",
+    "chainId": 42161,
+    "logoURI": "https://static.vetro.org/brand/tokens/svetBTC-vetBTCx/vetro-token-svetBTC-vetBTCx.png",
+    "decimals": 18,
+    "name": "Staked Vetro BTC",
+    "symbol": "svetBTC"
   }
 ]
