@@ -950,5 +950,13 @@
     "decimals": 18,
     "name": "Early Retirement",
     "symbol": "401K"
+  },
+  {
+    "address": "0xdD052C2Aac0b84454A30A27ADfEe29F3b66e1785",
+    "chainId": 4663,
+    "logoURI": "https://hoodbtc.cc/hoodBTC-logo.png",
+    "decimals": 18,
+    "name": "HoodBTC",
+    "symbol": "HoodBTC"
   }
 ]
