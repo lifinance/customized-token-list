@@ -1214,5 +1214,37 @@
     "decimals": 18,
     "name": "exactly",
     "symbol": "EXA"
+  },
+  {
+    "address": "0x8a654093e21703afc8d038FF253A3c974C5C2957",
+    "chainId": 8453,
+    "logoURI": "https://static.vetro.org/brand/tokens/VUSD/vetro-token-VUSD.png",
+    "decimals": 18,
+    "name": "Vetro USD",
+    "symbol": "VUSD"
+  },
+  {
+    "address": "0xb174750002068862Dfe7DF38F974a950F189386a",
+    "chainId": 8453,
+    "logoURI": "https://static.vetro.org/brand/tokens/sVUSD-VUSDx/vetro-token-sVUSD-VUSDx.png",
+    "decimals": 18,
+    "name": "Staked Vetro USD",
+    "symbol": "sVUSD"
+  },
+  {
+    "address": "0x605EDFDA1EA02cE9d2d2702e31064867F67aF043",
+    "chainId": 8453,
+    "logoURI": "https://static.vetro.org/brand/tokens/vetBTC/vetro-token-vetBTC.png",
+    "decimals": 18,
+    "name": "Vetro BTC",
+    "symbol": "vetBTC"
+  },
+  {
+    "address": "0x781aea37b81F3CF3Fb9a97E9568BdAF36d2DEF3d",
+    "chainId": 8453,
+    "logoURI": "https://static.vetro.org/brand/tokens/svetBTC-vetBTCx/vetro-token-svetBTC-vetBTCx.png",
+    "decimals": 18,
+    "name": "Staked Vetro BTC",
+    "symbol": "svetBTC"
   }
 ]

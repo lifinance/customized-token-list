@@ -6,5 +6,37 @@
     "chainId": 43111,
     "decimals": 8,
     "logoURI": "https://storage.googleapis.com/merkl-static-assets/tokens/hemiBTC.svg"
+  },
+  {
+    "address": "0xD3599AE62EE280709A22268a46d23164214e345B",
+    "chainId": 43111,
+    "logoURI": "https://static.vetro.org/brand/tokens/VUSD/vetro-token-VUSD.png",
+    "decimals": 18,
+    "name": "Vetro USD",
+    "symbol": "VUSD"
+  },
+  {
+    "address": "0xfe875CC86cC6BC2E93ab330D6b2c408C3Cd79710",
+    "chainId": 43111,
+    "logoURI": "https://static.vetro.org/brand/tokens/sVUSD-VUSDx/vetro-token-sVUSD-VUSDx.png",
+    "decimals": 18,
+    "name": "Staked Vetro USD",
+    "symbol": "sVUSD"
+  },
+  {
+    "address": "0xfF16E26B7fFCf24c378D57DF536dC5eC104a7dE4",
+    "chainId": 43111,
+    "logoURI": "https://static.vetro.org/brand/tokens/vetBTC/vetro-token-vetBTC.png",
+    "decimals": 18,
+    "name": "Vetro BTC",
+    "symbol": "vetBTC"
+  },
+  {
+    "address": "0xD8D63De3b64bd06d99F8F5AD8B78Ed2fE7525eC0",
+    "chainId": 43111,
+    "logoURI": "https://static.vetro.org/brand/tokens/svetBTC-vetBTCx/vetro-token-svetBTC-vetBTCx.png",
+    "decimals": 18,
+    "name": "Staked Vetro BTC",
+    "symbol": "svetBTC"
   }
 ]
