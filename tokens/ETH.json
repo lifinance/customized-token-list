@@ -3734,5 +3734,13 @@
     "decimals": 9,
     "name": "Book of Pepe",
     "symbol": "BOPE"
+  },
+  {
+    "address": "0x4e09AC09Eb332F4dD167b8BFB90c7f247f7350AC",
+    "chainId": 1,
+    "logoURI": "https://assets.coingecko.com/coins/images/51416/standard/miko200.png?1731141435=",
+    "decimals": 18,
+    "name": "MemeCoinGirl",
+    "symbol": "MIKO"
   }
 ]
