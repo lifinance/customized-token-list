@@ -3726,5 +3726,13 @@
     "decimals": 18,
     "name": "Staked Vetro BTC",
     "symbol": "svetBTC"
+  },
+  {
+    "address": "0x599955AA9fBc197a1b717d8da6a7012CAFe70ab3",
+    "chainId": 1,
+    "logoURI": "https://assets.coingecko.com/coins/images/36314/standard/1240A08A-6ABE-4913-9B52-05EC784212B7.jpeg?1711092031=",
+    "decimals": 9,
+    "name": "Book of Pepe",
+    "symbol": "BOPE"
   }
 ]
