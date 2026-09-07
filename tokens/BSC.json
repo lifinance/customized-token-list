@@ -2066,7 +2066,7 @@
   {
     "address": "0x290A5779a419Cb9cB22fa087CDD1CD16dA2D95F1",
     "chainId": 56,
-    "logoURI": "https://pc.am/brand/wpcn-round-256.png\n\n(256×256 PNG, transparent background, served from our own domain — permanent, no signing or expiry. An SVG source is at https://pc.am/brand/wpcn-round.svg and 32/64/128/512 px variants exist at the same path pattern.)",
+    "logoURI": "https://pc.am/brand/wpcn-round-256.png",
     "decimals": 8,
     "name": "Wrapped PCoin",
     "symbol": "wPCN"
