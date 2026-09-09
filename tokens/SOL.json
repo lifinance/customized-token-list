@@ -3430,5 +3430,13 @@
     "decimals": 9,
     "name": "C3.ai (Ondo Tokenized)",
     "logoURI": "https://cdn.ondo.finance/tokens/logos/aion_160x160.png"
+  },
+  {
+    "address": "CatEvkKVmK2fsiVJZ3EzEBuCW8bmNoHKxsXvbBggdebp",
+    "chainId": 1151111081099710,
+    "symbol": "GTR",
+    "decimals": 9,
+    "name": "GETTR Token",
+    "logoURI": "https://assets.geckoterminal.com/hz68retmny0xesnfpvs56ciewjzq"
   }
 ]
