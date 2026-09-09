@@ -1246,5 +1246,13 @@
     "decimals": 18,
     "name": "Staked Vetro BTC",
     "symbol": "svetBTC"
+  },
+  {
+    "address": "0xB095274743941e953c746F9C228DA9c18Bb6ec29",
+    "chainId": 8453,
+    "logoURI": "https://assets.coingecko.com/coins/images/102176837/standard/Laptop_Logo.png",
+    "decimals": 18,
+    "name": "LAPTOP",
+    "symbol": "LAPTOP"
   }
 ]
