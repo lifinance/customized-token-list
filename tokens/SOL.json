@@ -3366,5 +3366,69 @@
     "decimals": 9,
     "chainId": 1151111081099710,
     "logoURI": "https://cdn.ondo.finance/tokens/logos/hygwon_160x160.png"
+  },
+  {
+    "address": "71VH3YQkjqqGxzwYvGhsCsJNQYzkMo9Rg72aVxqondo",
+    "chainId": 1151111081099710,
+    "symbol": "HYDBon",
+    "decimals": 9,
+    "name": "iShares High Yield Systematic Bond ETF (Ondo Tokenized)",
+    "logoURI": "https://cdn.ondo.finance/tokens/logos/hydbon_160x160.png"
+  },
+  {
+    "address": "aau4XCAZR6p9uC4vgdHdh4ip3oW5pr5PrNs3FJ8ondo",
+    "chainId": 1151111081099710,
+    "symbol": "USHYon",
+    "decimals": 9,
+    "name": "iShares Broad USD High Yield Corporate Bond ETF (Ondo Tokenized)",
+    "logoURI": "https://cdn.ondo.finance/tokens/logos/ushyon_160x160.png"
+  },
+  {
+    "address": "bD6TafGhPo8NaeKEyge1DrZGAPB5wxK3x4fCpqjondo",
+    "chainId": 1151111081099710,
+    "symbol": "NEARon",
+    "decimals": 9,
+    "name": "iShares Short Duration Bond Active ETF (Ondo Tokenized)",
+    "logoURI": "https://cdn.ondo.finance/tokens/logos/nearon_160x160.png"
+  },
+  {
+    "address": "jcA9zXHWuTuDFDDDDYJTNhersed1B5etkuB6X9Eondo",
+    "chainId": 1151111081099710,
+    "symbol": "GOOGon",
+    "decimals": 9,
+    "name": "Alphabet Inc. Class C (Ondo Tokenized)",
+    "logoURI": "https://cdn.ondo.finance/tokens/logos/googon_160x160.png"
+  },
+  {
+    "address": "q16ZLSbANUhpcq15pRUXRxNFfEqgpde9mSBwRcyondo",
+    "chainId": 1151111081099710,
+    "symbol": "RXRXon",
+    "decimals": 9,
+    "name": "Recursion Pharmaceuticals (Ondo Tokenized)",
+    "logoURI": "https://cdn.ondo.finance/tokens/logos/rxrxon_160x160.png"
+  },
+  {
+    "address": "QApMAZTHvfhX2dTDzM8AMyAHVyhmPVwj4oY8Jveondo",
+    "chainId": 1151111081099710,
+    "symbol": "HTZon",
+    "decimals": 9,
+    "name": "Hertz Global Holdings (Ondo Tokenized)",
+    "logoURI": "https://cdn.ondo.finance/tokens/logos/htzon_160x160.png"
+  },
+  {
+    "address": "QwJ619MuDRvT1f29RH7tMdaqsUnaSNcvBEJAZkHondo",
+    "chainId": 1151111081099710,
+    "symbol": "WENon",
+    "decimals": 9,
+    "name": "Wendy's (Ondo Tokenized)",
+    "logoURI": "https://cdn.ondo.finance/tokens/logos/wenon_160x160.png"
+  },
+  {
+    "address": "rVMtUyy1ohurejV9qd81y9cPRHNA1A2QqWAErqfondo",
+    "chainId": 1151111081099710,
+    "symbol": "AIon",
+    "decimals": 9,
+    "name": "C3.ai (Ondo Tokenized)",
+    "logoURI": "https://cdn.ondo.finance/tokens/logos/aion_160x160.png"
   }
 ]
