@@ -4662,5 +4662,69 @@
     "decimals": 18,
     "name": "Staked Vetro BTC",
     "symbol": "svetBTC"
+  },
+  {
+    "address": "0x97B2FD5fC2F3e0dfD72D45734e360961528B6c63",
+    "chainId": 56,
+    "symbol": "HYDBon",
+    "decimals": 18,
+    "name": "iShares High Yield Systematic Bond ETF (Ondo Tokenized)",
+    "logoURI": "https://cdn.ondo.finance/tokens/logos/hydbon_160x160.png"
+  },
+  {
+    "address": "0xc992e5f8dA1b99cB941B0a259bE9014CFfE89Ccf",
+    "chainId": 56,
+    "symbol": "USHYon",
+    "decimals": 18,
+    "name": "iShares Broad USD High Yield Corporate Bond ETF (Ondo Tokenized)",
+    "logoURI": "https://cdn.ondo.finance/tokens/logos/ushyon_160x160.png"
+  },
+  {
+    "address": "0x031d85943ba7ca0304323195e7086a76c35366fB",
+    "chainId": 56,
+    "symbol": "NEARon",
+    "decimals": 18,
+    "name": "iShares Short Duration Bond Active ETF (Ondo Tokenized)",
+    "logoURI": "https://cdn.ondo.finance/tokens/logos/nearon_160x160.png"
+  },
+  {
+    "address": "0x817f1f6780F99BCaAc394A59CB0261962df5Da8b",
+    "chainId": 56,
+    "symbol": "GOOGon",
+    "decimals": 18,
+    "name": "Alphabet Inc. Class C (Ondo Tokenized)",
+    "logoURI": "https://cdn.ondo.finance/tokens/logos/googon_160x160.png"
+  },
+  {
+    "address": "0xCB6D74afF24AFc94514727eE0FCDA6bb6B64f3F9",
+    "chainId": 56,
+    "symbol": "RXRXon",
+    "decimals": 18,
+    "name": "Recursion Pharmaceuticals (Ondo Tokenized)",
+    "logoURI": "https://cdn.ondo.finance/tokens/logos/rxrxon_160x160.png"
+  },
+  {
+    "address": "0xB18C6A83490DDDbc9A83b011173b5B2Fb5dC1272",
+    "chainId": 56,
+    "symbol": "HTZon",
+    "decimals": 18,
+    "name": "Hertz Global Holdings (Ondo Tokenized)",
+    "logoURI": "https://cdn.ondo.finance/tokens/logos/htzon_160x160.png"
+  },
+  {
+    "address": "0x79ed7f4d9668E8e7AaadD12A711d19064840B9A5",
+    "chainId": 56,
+    "symbol": "WENon",
+    "decimals": 18,
+    "name": "Wendy's (Ondo Tokenized)",
+    "logoURI": "https://cdn.ondo.finance/tokens/logos/wenon_160x160.png"
+  },
+  {
+    "address": "0xBb8c10f7E828E3279df8CC3397A5212F845C509b",
+    "chainId": 56,
+    "symbol": "AIon",
+    "decimals": 18,
+    "name": "C3.ai (Ondo Tokenized)",
+    "logoURI": "https://cdn.ondo.finance/tokens/logos/aion_160x160.png"
   }
 ]
