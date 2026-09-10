@@ -958,5 +958,13 @@
     "decimals": 18,
     "name": "HoodBTC",
     "symbol": "HoodBTC"
+  },
+  {
+    "address": "0xb8aD6bD5f9Fe4BBd03EbAF9E2f60BFd82dc92c0e",
+    "chainId": 4663,
+    "logoURI": "https://cdn.dexscreener.com/cms/images/Ss33XemfoL2XTBkh?width=800&height=800&quality=95&format=auto",
+    "decimals": 18,
+    "name": "Clarity Act",
+    "symbol": "CLARITY"
   }
 ]
