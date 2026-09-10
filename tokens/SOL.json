@@ -3438,5 +3438,13 @@
     "decimals": 9,
     "name": "GETTR Token",
     "logoURI": "https://assets.geckoterminal.com/hz68retmny0xesnfpvs56ciewjzq"
+  },
+  {
+    "name": "Wrapped 0G",
+    "address": "gNyJyS9pQt33o4y4L3gdWZAF2XHgPrCBRQuaiCZStMe",
+    "symbol": "W0G",
+    "decimals": 9,
+    "chainId": 1151111081099710,
+    "logoURI": "https://arweave.net/WouRoKxTv3LtESHGqdFrdjDqHpZxWxgdhHPTIUqLv60"
   }
 ]
