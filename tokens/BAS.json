@@ -1254,5 +1254,13 @@
     "decimals": 18,
     "name": "LAPTOP",
     "symbol": "LAPTOP"
+  },
+  {
+    "address": "0xD080eD3c74a20250a2c9821885203034ACD2D5ae",
+    "chainId": 8453,
+    "logoURI": "https://zyf.ai/Zyfai-logo-png.png",
+    "decimals": 18,
+    "name": "Zyfai",
+    "symbol": "ZFI"
   }
 ]

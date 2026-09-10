@@ -54,5 +54,13 @@
     "decimals": 18,
     "name": "USDe",
     "logoURI": "https://ethena.fi/shared/usde.svg"
+  },
+  {
+    "address": "0x5d0d7BCa050e2E98Fd4A5e8d3bA823B49f39868d",
+    "chainId": 324,
+    "logoURI": "https://zyf.ai/Zyfai-logo-png.png",
+    "decimals": 18,
+    "name": "Zyfai",
+    "symbol": "ZFI"
   }
 ]
