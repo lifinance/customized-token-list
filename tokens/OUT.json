@@ -958,5 +958,13 @@
     "decimals": 18,
     "name": "HoodBTC",
     "symbol": "HoodBTC"
+  },
+  {
+    "address": "0xd5BF43f29BF7Aa5bb42Ae9e217b84B86EB7a4B94",
+    "chainId": 4663,
+    "logoURI": "https://hoodlock.tech/assets/lock-logo.png",
+    "decimals": 18,
+    "name": "HoodLock",
+    "symbol": "LOCK"
   }
 ]
