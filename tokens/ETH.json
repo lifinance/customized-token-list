@@ -3806,5 +3806,13 @@
     "decimals": 18,
     "name": "C3.ai (Ondo Tokenized)",
     "logoURI": "https://cdn.ondo.finance/tokens/logos/aion_160x160.png"
+  },
+  {
+    "name": "Circle Wrapped Bitcoin",
+    "address": "0x72DFB2E44f59C5AD2bAFE84314E5b99a7cd5075E",
+    "symbol": "cirBTC",
+    "decimals": 8,
+    "chainId": 1,
+    "logoURI": "https://coin-images.coingecko.com/coins/images/102172745/large/cirbtc.jpg?1775204071"
   }
 ]
