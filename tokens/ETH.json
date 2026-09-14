@@ -3814,5 +3814,13 @@
     "decimals": 8,
     "chainId": 1,
     "logoURI": "https://coin-images.coingecko.com/coins/images/102172745/large/cirbtc.jpg?1775204071"
+  },
+  {
+    "address": "0xBd965230588EAA536dE6aA45E8ebbc01638535e0",
+    "chainId": 1,
+    "logoURI": "https://motoswap.org/tokens/moto.svg",
+    "decimals": 18,
+    "name": "Motoswap",
+    "symbol": "MOTO"
   }
 ]
