@@ -1,0 +1,114 @@
+[
+  {
+    "name": "Circle Internet Group • Arc Token",
+    "address": "0x2ba0f44bdfc17fba30eda9cdbecb908ca45b043b",
+    "symbol": "CRCL",
+    "decimals": 18,
+    "chainId": 5042,
+    "logoURI": "https://assets.geckoterminal.com/8zb30c2aj7sbcnxtev0kgfhvcx5u"
+  },
+  {
+    "name": "LONG",
+    "address": "0x2164bb17a2d38c1b5170e987b2c0416df1efc752",
+    "symbol": "LONG",
+    "decimals": 18,
+    "chainId": 5042,
+    "logoURI": "https://coin-images.coingecko.com/coins/images/102178399/large/long_400x400.jpg?1789480339"
+  },
+  {
+    "name": "Argus",
+    "address": "0xece5ca8bf9220718e5727754026757512212cb3c",
+    "symbol": "ARGUS",
+    "decimals": 18,
+    "chainId": 5042,
+    "logoURI": "https://coin-images.coingecko.com/coins/images/102178392/large/argus-token.png?1789463380"
+  },
+  {
+    "name": "usdc is cool",
+    "address": "0xeb64987643db71c76b2a2be7e723decc995e5b37",
+    "symbol": "COOL",
+    "decimals": 18,
+    "chainId": 5042,
+    "logoURI": "https://coin-images.coingecko.com/coins/images/102178397/large/cool.webp?1789479035"
+  },
+  {
+    "name": "Tolly",
+    "address": "0xbc43ce8dec648ea298c4275559b81d6261c90b67",
+    "symbol": "TOLLY",
+    "decimals": 18,
+    "chainId": 5042,
+    "logoURI": "https://coin-images.coingecko.com/coins/images/102178398/large/tolly.webp?1789479311"
+  },
+  {
+    "name": "Architects",
+    "address": "0x8bcb94279fc2c984ec34e0c1f2192df8c69ea4f0",
+    "symbol": "Architects",
+    "decimals": 18,
+    "chainId": 5042,
+    "logoURI": "https://assets.geckoterminal.com/uv8uy1eqpgajhxs4j7tgpujwnoci"
+  },
+  {
+    "name": "Bean Cat",
+    "address": "0x41c8a71f630c636294009fa4fb0cc4c3bbe674fe",
+    "symbol": "BEANCAT",
+    "decimals": 18,
+    "chainId": 5042,
+    "logoURI": "https://assets.geckoterminal.com/748frarquy0a95fk11whlor7fz8i"
+  },
+  {
+    "name": "ARCASH",
+    "address": "0x0bffa97f774824e9da843699aedd2835cb1b8022",
+    "symbol": "ARCASH",
+    "decimals": 18,
+    "chainId": 5042,
+    "logoURI": "https://assets.geckoterminal.com/j5wsfp6n5aqijk2ultacfglwcq72"
+  },
+  {
+    "name": "Arcanine",
+    "address": "0xf3715bf5c2de299f08b81180ffb739a8372a175f",
+    "symbol": "ARCANINE",
+    "decimals": 18,
+    "chainId": 5042,
+    "logoURI": "https://assets.geckoterminal.com/ra4h5e8vhs3a8fv66bzp4euc0abv"
+  },
+  {
+    "name": "Longcat",
+    "address": "0x79e4561ede9f21f5cb7d9445e0f8b20b9ad05a31",
+    "symbol": "LONGCAT",
+    "decimals": 18,
+    "chainId": 5042,
+    "logoURI": "https://assets.geckoterminal.com/aetpv2ywo4uh62echkg7zqs8nhsl"
+  },
+  {
+    "name": "Peg",
+    "address": "0x4c2800b81d66f2a4e2da6de00d45b9d64f1ca51e",
+    "symbol": "PEG",
+    "decimals": 18,
+    "chainId": 5042,
+    "logoURI": "https://assets.geckoterminal.com/meix2dx3a3wox2gb54ll1fyuw3ap"
+  },
+  {
+    "name": "BUILDOG",
+    "address": "0x4cb8382b9daf7992d3b27d32f7db650c57881daa",
+    "symbol": "BUILDOG",
+    "decimals": 18,
+    "chainId": 5042,
+    "logoURI": "https://assets.geckoterminal.com/9j2pbmaw77nwavvskkktk1e218y5"
+  },
+  {
+    "name": "ARC BAT",
+    "address": "0xbe0cad585ea2d13de2f4e36376be755c0afd8b97",
+    "symbol": "ARCBAT",
+    "decimals": 18,
+    "chainId": 5042,
+    "logoURI": "https://assets.geckoterminal.com/f13cvp3sx9g3ud6n8t1ifd0l3xbo"
+  },
+  {
+    "name": "ARC Investor",
+    "address": "0xcac4098684cc7fc6bea101d9b9c641cfa7d783ea",
+    "symbol": "AI",
+    "decimals": 18,
+    "chainId": 5042,
+    "logoURI": "https://assets.geckoterminal.com/wtyrxg355gxtbl7l3h2kpl5w5zgy"
+  }
+]
