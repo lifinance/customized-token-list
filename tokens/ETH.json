@@ -3822,5 +3822,13 @@
     "decimals": 18,
     "name": "Motoswap",
     "symbol": "MOTO"
+  },
+  {
+    "address": "0x0F38F1CE62776d4A0038Bc6caC66877a5687383B",
+    "chainId": 1,
+    "logoURI": "https://raw.githubusercontent.com/Taler-Finance/brand-kit/main/tokens/TLO.png",
+    "decimals": 8,
+    "name": "TAU Lending Optimizer on Taler",
+    "symbol": "TLO"
   }
 ]
