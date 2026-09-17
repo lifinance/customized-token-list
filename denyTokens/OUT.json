@@ -28,5 +28,30 @@
     "chainId": 4663,
     "address": "0xcD26A6AA5BB008240A998E242F51232FE98B12Cb",
     "reason": "Orbit standard-gateway wrapper of Ethereum wstETH, not the official Robinhood Chain wstETH (0x2dC99af320BC317c567f24eE95811dcbd5983DfD). No price feed and no liquidity."
+  },
+  {
+    "chainId": 4663,
+    "address": "0x3d5F8D8f7491647d7B259330c0111f173996b2F4",
+    "reason": "Honeypot (CME). CurvePumpTokenUpgradeableV2 _transfer requires !isBlacklisted[from]; token owner 0xa30a13fa69f1880c5d3493ac871be4aef5906467 blacklists every buyer before their first inbound transfer. 4307 blacklisted, 0 un-blacklisted, 0 blacklisted holders have ever transferred out. Sells revert as TransferFromFailed()."
+  },
+  {
+    "chainId": 4663,
+    "address": "0x94722fad6cf83A488A74Ec8cFd2A737d34B978eD",
+    "reason": "Honeypot (musebook). Same CurvePumpTokenUpgradeableV2 blacklist pattern as CME: 4412 buyers blacklisted, 0 un-blacklisted, no blacklisted holder has ever transferred out. Sells revert as TransferFromFailed()."
+  },
+  {
+    "chainId": 4663,
+    "address": "0x9261E120400445635590C15E632D6514dFE8FEa8",
+    "reason": "Honeypot (CME, redeployed under the same ticker). CurvePumpTokenUpgradeableV2 blacklist pattern: 1206 of 1255 holders blacklisted, none has ever transferred out. Sells revert as TransferFromFailed()."
+  },
+  {
+    "chainId": 4663,
+    "address": "0xc191505485cEd70983268eaDCe25beda4460dAD0",
+    "reason": "Honeypot (musebook, redeployed under the same ticker). CurvePumpTokenUpgradeableV2 blacklist pattern: 2096 of 2151 receivers blacklisted, none has ever transferred out. Sells revert as TransferFromFailed()."
+  },
+  {
+    "chainId": 4663,
+    "address": "0xB099446DEB291FAB3838C928f9eFF4A9E6D0422E",
+    "reason": "Honeypot squatting the JUGGERNAUT ticker (real JUGGERNAUT is 0xd7321801caae694090694ff55a9323139f043b88). CurvePumpTokenUpgradeableV2 blacklist pattern: 1508 of 1555 holders blacklisted, none has ever transferred out. Sells revert as TransferFromFailed()."
   }
 ]
