@@ -398,5 +398,10 @@
     "chainId": 1,
     "address": "0x677ddbd918637E5F2c79e164D402454dE7dA8619",
     "reason": "Deprecation in favor of Vetro USD"
+  },
+  {
+    "chainId": 1,
+    "address": "0x3231Cb76718CDeF2155FC47b5286d82e6eDA273f",
+    "reason": "Deprecated Monerium EURe v1. Partner migrated to a new contract (#713 / #716)."
   }
 ]
