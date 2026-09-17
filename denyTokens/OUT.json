@@ -28,5 +28,15 @@
     "chainId": 4663,
     "address": "0xcD26A6AA5BB008240A998E242F51232FE98B12Cb",
     "reason": "Orbit standard-gateway wrapper of Ethereum wstETH, not the official Robinhood Chain wstETH (0x2dC99af320BC317c567f24eE95811dcbd5983DfD). No price feed and no liquidity."
+  },
+  {
+    "chainId": 4663,
+    "address": "0x3d5F8D8f7491647d7B259330c0111f173996b2F4",
+    "reason": "Honeypot (CME). CurvePumpTokenUpgradeableV2 _transfer requires !isBlacklisted[from]; token owner 0xa30a13fa69f1880c5d3493ac871be4aef5906467 blacklists every buyer before their first inbound transfer. 4307 blacklisted, 0 un-blacklisted, 0 blacklisted holders have ever transferred out. Sells revert as TransferFromFailed()."
+  },
+  {
+    "chainId": 4663,
+    "address": "0x94722fad6cf83A488A74Ec8cFd2A737d34B978eD",
+    "reason": "Honeypot (musebook). Same CurvePumpTokenUpgradeableV2 blacklist pattern as CME: 4412 buyers blacklisted, 0 un-blacklisted, no blacklisted holder has ever transferred out. Sells revert as TransferFromFailed()."
   }
 ]
