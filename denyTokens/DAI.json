@@ -70,5 +70,10 @@
   {
     "chainId": 100,
     "address": "0x87960b512f296c3681795bcadf4c58579809115c"
+  },
+  {
+    "chainId": 100,
+    "address": "0xcB444e90D8198415266c6a2724b7900fb12FC56E",
+    "reason": "Deprecated Monerium EURe v1. Partner migrated to a new contract (#713 / #716)."
   }
 ]
