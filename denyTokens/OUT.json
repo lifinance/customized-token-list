@@ -53,5 +53,10 @@
     "chainId": 4663,
     "address": "0xB099446DEB291FAB3838C928f9eFF4A9E6D0422E",
     "reason": "Honeypot squatting the JUGGERNAUT ticker (real JUGGERNAUT is 0xd7321801caae694090694ff55a9323139f043b88). CurvePumpTokenUpgradeableV2 blacklist pattern: 1508 of 1555 holders blacklisted, none has ever transferred out. Sells revert as TransferFromFailed()."
+  },
+  {
+    "chainId": 4663,
+    "address": "0x73faA4F2f36BB48489e4250efaF0932dB0833832",
+    "reason": "Honeypot squatting the musebook ticker (third live contract, after 0x94722fad6cf83A488A74Ec8cFd2A737d34B978eD and 0xc191505485cEd70983268eaDCe25beda4460dAD0). Same CurvePumpTokenUpgradeableV2 blacklist pattern: sells revert as TransferFromFailed() (0x7939f424) while buys succeed. Reported by Robinhood 2026-09-18; still quoted via fly and kyberswap after the earlier clones were denied."
   }
 ]
