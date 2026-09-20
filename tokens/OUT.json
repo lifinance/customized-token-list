@@ -974,5 +974,13 @@
     "decimals": 18,
     "chainId": 4663,
     "logoURI": "https://assets.coingecko.com/coins/images/69681/standard/0g.png"
+  },
+  {
+    "address": "0xa156048AA84d13b1DE40dFa8288D28B2593fc35c",
+    "chainId": 4663,
+    "logoURI": "https://assets.coingecko.com/coins/images/102178475/standard/2026-09-12_10.09.08_4.png",
+    "decimals": 18,
+    "name": "Crossbow Finance",
+    "symbol": "$XBOW"
   }
 ]
