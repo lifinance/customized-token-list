@@ -110,5 +110,13 @@
     "decimals": 18,
     "chainId": 5042,
     "logoURI": "https://assets.geckoterminal.com/wtyrxg355gxtbl7l3h2kpl5w5zgy"
+  },
+  {
+    "address": "0xcaaD9713114A3c26131594E7e3a908f41e7d4549",
+    "chainId": 5042,
+    "logoURI": "https://www.arcade.trading/arcade-token.png",
+    "decimals": 18,
+    "name": "Arcade",
+    "symbol": "ARCADE"
   }
 ]
