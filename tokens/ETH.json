@@ -3830,5 +3830,13 @@
     "decimals": 8,
     "name": "TAU Lending Optimizer on Taler",
     "symbol": "TLO"
+  },
+  {
+    "address": "0xB1cDa04D7cD5584048ab48B42b629aEC34D3b562",
+    "chainId": 1,
+    "logoURI": "https://www.bureauofinternetculture.art/token/bic-256.png",
+    "decimals": 18,
+    "name": "Bureau of Internet Culture",
+    "symbol": "BIC"
   }
 ]
