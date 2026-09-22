@@ -982,5 +982,13 @@
     "decimals": 18,
     "name": "Crossbow Finance",
     "symbol": "$XBOW"
+  },
+  {
+    "address": "0x81Bdc42baa5373281a0ADeaA234e4Fcaf627538B",
+    "chainId": 4663,
+    "logoURI": "https://printonhood.lol/icon-512.png",
+    "decimals": 18,
+    "name": "Print",
+    "symbol": "PRINT"
   }
 ]
