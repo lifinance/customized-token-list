@@ -3446,5 +3446,13 @@
     "decimals": 9,
     "chainId": 1151111081099710,
     "logoURI": "https://arweave.net/WouRoKxTv3LtESHGqdFrdjDqHpZxWxgdhHPTIUqLv60"
+  },
+  {
+    "address": "Az9eyxEaiZD9AX4j5nP19Cm79eyfNriTuddMSQmLNEBm",
+    "chainId": 1151111081099710,
+    "logoURI": "https://tetradg.com/wp-content/uploads/2026/07/Jul3__CADD_Option4_DeepMaple_GradientBevel.svg",
+    "decimals": 6,
+    "name": "CAD Digital Inc",
+    "symbol": "CADD"
   }
 ]

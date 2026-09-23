@@ -1262,5 +1262,13 @@
     "decimals": 18,
     "name": "Zyfai",
     "symbol": "ZFI"
+  },
+  {
+    "address": "0x16F93eBC5320C89EfC8701577efe49d14A276a06",
+    "chainId": 8453,
+    "logoURI": "https://tetradg.com/wp-content/uploads/2026/07/Jul3__CADD_Option4_DeepMaple_GradientBevel.svg",
+    "decimals": 18,
+    "name": "CAD Digital Inc",
+    "symbol": "CADD"
   }
 ]
