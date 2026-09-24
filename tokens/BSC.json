@@ -4726,5 +4726,61 @@
     "decimals": 18,
     "name": "C3.ai (Ondo Tokenized)",
     "logoURI": "https://cdn.ondo.finance/tokens/logos/aion_160x160.png"
+  },
+  {
+    "name": "Ondo High Income Powered by BlackRock",
+    "address": "0xf78155dC15B838b7577002bc53bBe1041cA48622",
+    "symbol": "BLKHIon",
+    "decimals": 18,
+    "chainId": 56,
+    "logoURI": "https://cdn.ondo.finance/tokens/logos/blkhion_160x160.png"
+  },
+  {
+    "name": "Ondo Diversified Growth Powered by BlackRock",
+    "address": "0xe658C62195f32bc53226e7E2642e3D76B4382FB8",
+    "symbol": "BLKDIGon",
+    "decimals": 18,
+    "chainId": 56,
+    "logoURI": "https://cdn.ondo.finance/tokens/logos/blkdigon_160x160.png"
+  },
+  {
+    "name": "Ondo High Growth Powered by BlackRock",
+    "address": "0xE4Bd77247671746CaA3119E9FEAA146F8a4EE237",
+    "symbol": "BLKGRWon",
+    "decimals": 18,
+    "chainId": 56,
+    "logoURI": "https://cdn.ondo.finance/tokens/logos/blkgrwon_160x160.png"
+  },
+  {
+    "name": "Ondo Magnificent 7 and Crypto Portfolio",
+    "address": "0x50436eC45316A98E72b03Ead5752E8543f11ec09",
+    "symbol": "MAG7Xon",
+    "decimals": 18,
+    "chainId": 56,
+    "logoURI": "https://cdn.ondo.finance/tokens/logos/mag7xon_160x160.png"
+  },
+  {
+    "name": "Ondo AI Leaders Portfolio",
+    "address": "0x0574e53f8214d0402C8388B4402113a74354d1b0",
+    "symbol": "BRAINon",
+    "decimals": 18,
+    "chainId": 56,
+    "logoURI": "https://cdn.ondo.finance/tokens/logos/brainon_160x160.png"
+  },
+  {
+    "name": "Ondo 5 Targeted Income TR Portfolio",
+    "address": "0x0Cfd1030E2431E0fA15D4cc3F3E43076FE93F8f9",
+    "symbol": "YLD5on",
+    "decimals": 18,
+    "chainId": 56,
+    "logoURI": "https://cdn.ondo.finance/tokens/logos/yld5on_160x160.png"
+  },
+  {
+    "name": "Ondo 8 Targeted Income TR Portfolio",
+    "address": "0x2f20d5dfbAFfa3e6351E06B8b18059747CD7ee72",
+    "symbol": "YLD8on",
+    "decimals": 18,
+    "chainId": 56,
+    "logoURI": "https://cdn.ondo.finance/tokens/logos/yld8on_160x160.png"
   }
 ]
