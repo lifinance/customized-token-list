@@ -58,5 +58,20 @@
     "chainId": 4663,
     "address": "0x73faA4F2f36BB48489e4250efaF0932dB0833832",
     "reason": "Honeypot squatting the musebook ticker (third live contract, after 0x94722fad6cf83A488A74Ec8cFd2A737d34B978eD and 0xc191505485cEd70983268eaDCe25beda4460dAD0). Same CurvePumpTokenUpgradeableV2 blacklist pattern: sells revert as TransferFromFailed() (0x7939f424) while buys succeed. Reported by Robinhood 2026-09-18; still quoted via fly and kyberswap after the earlier clones were denied."
+  },
+  {
+    "chainId": 4663,
+    "address": "0x378F906eAD242F0C3aa9ed45AA07612A2C088030",
+    "reason": "Impersonates USDC (symbol \"USDC\", name \"Universal Stable Digital Coin\", 18 decimals; real USDC is 6). Minimal-proxy clone deployed 2026-08-11, fixed 1e9 supply. Its only market is Uniswap V3 pool 0x225078c334a31c42e67184755ecfc928d52e1f4a (WETH pair), which held 0.000193 WETH (~$0.51) at block 67438571, immediately before a partner user bought 296,435 units for 940.9 USDG in 0x008358ff8ed258dfc705f9036183c803874eb99809673bdae327ee5a22c8a0e0. At block 67501150 address 0x114d574247342eafea95b7a9234e62984d48cd9e sold 18,519 units and withdrew that WETH again; the pool holds ~0.00051 WETH today against 900M tokens. Priced only from that pool, so quoted price tracks execution price and price impact reads ~0%."
+  },
+  {
+    "chainId": 4663,
+    "address": "0x49D9face26A98C5e124f31FDCF387884fa659ec8",
+    "reason": "Impersonates USDC (symbol \"USDC\", name \"Circle USD\", 18 decimals; real USDC is 6 and Circle does not issue on 4663). Quoted at $1.087 by /v1/token, which makes it read as a genuine dollar stablecoin, while its only WETH pool 0xd603b0baaee8564cab4b5fd5f50020e90ad6f5e6 holds 0.0000114 WETH (~$0.03)."
+  },
+  {
+    "chainId": 4663,
+    "address": "0x551613f623B142f1Bc95a6A70c719f13152505e1",
+    "reason": "Impersonates USDC (symbol \"USDC\", name \"USD Coin\", 18 decimals; real USDC is 6). Quoted at $1.49 by /v1/token, so it reads as a genuine dollar stablecoin, while its only WETH pool 0xcb4968890393305e3c2be863774e2e280131abc4 holds 0.00012 WETH (~$0.32)."
   }
 ]
