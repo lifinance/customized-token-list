@@ -3454,5 +3454,13 @@
     "decimals": 6,
     "name": "CAD Digital Inc",
     "symbol": "CADD"
+  },
+  {
+    "address": "9BB6NFEcjBCtnNLFko2FqVQBq8HHM13kCyYcdQbgpump",
+    "chainId": 1151111081099710,
+    "logoURI": "https://s2.coinmarketcap.com/static/img/coins/64x64/33597.png",
+    "decimals": 6,
+    "name": "Fartcoin",
+    "symbol": "Fartcoin"
   }
 ]
