@@ -3902,5 +3902,13 @@
     "decimals": 18,
     "chainId": 1,
     "logoURI": "https://cdn.ondo.finance/tokens/logos/yld8on_160x160.png"
+  },
+  {
+    "address": "0x18162F5cf35647be0910F30B4466bE39295E4878",
+    "chainId": 1,
+    "logoURI": "https://raw.githubusercontent.com/lmeowdeployer/token-list/lmeow-assets/images/lmeow-256.png",
+    "decimals": 18,
+    "name": "lmeow",
+    "symbol": "LMEOW"
   }
 ]
