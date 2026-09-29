@@ -4782,5 +4782,13 @@
     "decimals": 18,
     "chainId": 56,
     "logoURI": "https://cdn.ondo.finance/tokens/logos/yld8on_160x160.png"
+  },
+  {
+    "address": "0x72edc8A6Bd089cA9Ec20B21A40e119f08A844e0f",
+    "chainId": 56,
+    "logoURI": "https://raw.githubusercontent.com/llmorchestrator/everweekend256/refs/heads/main/transparent-background.png",
+    "decimals": 18,
+    "name": "everyweekend",
+    "symbol": "evww"
   }
 ]
