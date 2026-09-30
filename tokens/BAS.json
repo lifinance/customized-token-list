@@ -1270,5 +1270,13 @@
     "decimals": 18,
     "name": "CAD Digital Inc",
     "symbol": "CADD"
+  },
+  {
+    "address": "0x9Aa9c5a24e976096A6A7aB44986DAE8230fa5b27",
+    "chainId": 8453,
+    "logoURI": "https://st0x.io/images/state_street.png",
+    "decimals": 18,
+    "name": "Wrapped State Street SPDR S&P 500 ETF Trust ST0x",
+    "symbol": "wtSPY"
   }
 ]
