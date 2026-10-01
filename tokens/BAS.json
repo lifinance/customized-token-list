@@ -1286,5 +1286,13 @@
     "decimals": 18,
     "name": "Wrapped SenesTech, Inc. ST0x",
     "symbol": "wtSNES"
+  },
+  {
+    "address": "0xBc2029b41cedf44CFdD7BaeE9c50B02bf0c8f79C",
+    "chainId": 8453,
+    "logoURI": "https://tpro.network/assets/brand/token/tpro-token-icon-256.png",
+    "decimals": 18,
+    "name": "TPRO Network",
+    "symbol": "TPRO"
   }
 ]
