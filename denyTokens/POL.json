@@ -767,5 +767,10 @@
     "chainId": 137,
     "address": "0x18ec0A6E18E5bc3784fDd3a3634b31245ab704F6",
     "reason": "Deprecated Monerium EURe v1. Partner migrated to a new contract (#713 / #716)."
+  },
+  {
+    "chainId": 137,
+    "address": "0xD24157Aa1097486DC9d7Cf094A7e15026E566b5D",
+    "reason": "Retired contract (bridged copy of the Ethereum token): TPRO migrated 1:1 to Base on 22 September 2026"
   }
 ]
