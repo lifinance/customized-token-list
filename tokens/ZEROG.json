@@ -22,5 +22,13 @@
     "decimals": 8,
     "chainId": 16661,
     "logoURI": "https://assets.coingecko.com/coins/images/7598/standard/wrapped_bitcoin_wbtc.png"
+  },
+  {
+    "name": "Ascend Staked 0G",
+    "symbol": "a0G",
+    "address": "0x4b3c2f55fa67679b382c979a082df1b32079b4cb",
+    "decimals": 18,
+    "chainId": 16661,
+    "logoURI": "https://ascend.finance/imgs/a0g.svg"
   }
 ]
