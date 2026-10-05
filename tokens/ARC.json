@@ -118,5 +118,13 @@
     "decimals": 18,
     "name": "Arcade",
     "symbol": "ARCADE"
+  },
+  {
+    "address": "0xa3B2eB502006369581eDD898d22ca559e64f8c07",
+    "chainId": 5042,
+    "logoURI": "https://www.taifoon.io/brand/token/ticp-256.png",
+    "decimals": 8,
+    "name": "ICP Taifoon",
+    "symbol": "tICP"
   }
 ]
