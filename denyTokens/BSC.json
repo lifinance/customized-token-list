@@ -313,5 +313,10 @@
     "chainId": 56,
     "address": "0x55ad16Bd573B3365f43A9dAeB0Cc66A73821b4a5",
     "reason": "Fee-on-transfer token (OKZOO / AIOT). Bitavo reports swap-out failures with transfer amount exceeds balance."
+  },
+  {
+    "chainId": 56,
+    "address": "0xaA88FD757Fa81EbbBcE0EB1F324172d0E446093E",
+    "reason": "Scam token (REIGN / Reign of Terror). Routed through a Uniswap V4 USDT/REIGN pool with a fixed ~90% LP fee; upgradeable proxy. Jumper user lost ~97% of value on a buy (tx 0x8ee3d3f5...31cb)."
   }
 ]
