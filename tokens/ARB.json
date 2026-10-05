@@ -678,5 +678,13 @@
     "decimals": 18,
     "name": "Staked Vetro BTC",
     "symbol": "svetBTC"
+  },
+  {
+    "address": "0x1114982539A2Bfb84e8B9e4e320bbC04532a9e44",
+    "chainId": 42161,
+    "logoURI": "https://www.t3rn.io/tokens/trn.png",
+    "decimals": 18,
+    "name": "t3rn",
+    "symbol": "TRN"
   }
 ]
