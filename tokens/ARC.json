@@ -134,5 +134,13 @@
     "decimals": 18,
     "name": "t3rn",
     "symbol": "TRN"
+  },
+  {
+    "address": "0x5127593D5cf46a830B85E804DB9032f2B20AC3B6",
+    "chainId": 5042,
+    "logoURI": "https://www.t3rn.io/tokens/trn.png",
+    "decimals": 18,
+    "name": "t3rn",
+    "symbol": "TRN"
   }
 ]
