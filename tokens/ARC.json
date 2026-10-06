@@ -134,5 +134,13 @@
     "decimals": 18,
     "name": "t3rn",
     "symbol": "TRN"
+  },
+  {
+    "address": "0x60CaC3229c022dcc059e1F4352695127Dc96bC0d",
+    "chainId": 5042,
+    "logoURI": "https://www.taifoon.io/brand/token/ticp-256.png",
+    "decimals": 8,
+    "name": "ICP Taifoon",
+    "symbol": "tICP"
   }
 ]
