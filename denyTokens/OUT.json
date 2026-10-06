@@ -73,5 +73,10 @@
     "chainId": 4663,
     "address": "0x551613f623B142f1Bc95a6A70c719f13152505e1",
     "reason": "Impersonates USDC (symbol \"USDC\", name \"USD Coin\", 18 decimals; real USDC is 6). Quoted at $1.49 by /v1/token, so it reads as a genuine dollar stablecoin, while its only WETH pool 0xcb4968890393305e3c2be863774e2e280131abc4 holds 0.00012 WETH (~$0.32)."
+  },
+  {
+    "chainId": 4663,
+    "address": "0xa3B2eB502006369581eDD898d22ca559e64f8c07",
+    "reason": "Retired tICP (Taifoon): replaced by 0x60CaC3229c022dcc059e1F4352695127Dc96bC0d; old contract no longer mints and only redeems"
   }
 ]

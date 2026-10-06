@@ -68,5 +68,10 @@
     "chainId": 8453,
     "address": "0x051fb509e4A775FABd257611eeA1efaed8F91359",
     "reason": "Fee-on-transfer token (CateCoin / CATE). Bitavo reports swap-out failures with transfer amount exceeds balance."
+  },
+  {
+    "chainId": 8453,
+    "address": "0xa3B2eB502006369581eDD898d22ca559e64f8c07",
+    "reason": "Retired tICP (Taifoon): replaced by 0x60CaC3229c022dcc059e1F4352695127Dc96bC0d; old contract no longer mints and only redeems"
   }
 ]
