@@ -1296,14 +1296,6 @@
     "symbol": "TPRO"
   },
   {
-    "address": "0xa3B2eB502006369581eDD898d22ca559e64f8c07",
-    "chainId": 8453,
-    "logoURI": "https://www.taifoon.io/brand/token/ticp-256.png",
-    "decimals": 8,
-    "name": "ICP Taifoon",
-    "symbol": "tICP"
-  },
-  {
     "address": "0x3B4d49903C157f635F325711F42b06AE23C96405",
     "chainId": 8453,
     "logoURI": "https://www.t3rn.io/tokens/trn.png",

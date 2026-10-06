@@ -992,14 +992,6 @@
     "symbol": "PRINT"
   },
   {
-    "address": "0xa3B2eB502006369581eDD898d22ca559e64f8c07",
-    "chainId": 4663,
-    "logoURI": "https://www.taifoon.io/brand/token/ticp-256.png",
-    "decimals": 8,
-    "name": "ICP Taifoon",
-    "symbol": "tICP"
-  },
-  {
     "address": "0xE0D89D2a965b824D95D7dFcD23208548A003f8D9",
     "chainId": 4663,
     "logoURI": "https://www.t3rn.io/tokens/trn.png",

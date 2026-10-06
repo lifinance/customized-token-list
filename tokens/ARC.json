@@ -120,14 +120,6 @@
     "symbol": "ARCADE"
   },
   {
-    "address": "0xa3B2eB502006369581eDD898d22ca559e64f8c07",
-    "chainId": 5042,
-    "logoURI": "https://www.taifoon.io/brand/token/ticp-256.png",
-    "decimals": 8,
-    "name": "ICP Taifoon",
-    "symbol": "tICP"
-  },
-  {
     "address": "0x5127593D5cf46a830B85E804DB9032f2B20AC3B6",
     "chainId": 5042,
     "logoURI": "https://www.t3rn.io/tokens/trn.png",
