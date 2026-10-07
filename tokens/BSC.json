@@ -4790,5 +4790,13 @@
     "decimals": 18,
     "name": "everyweekend",
     "symbol": "evww"
+  },
+  {
+    "address": "0x7AB8d02CBb51Ff7223fDe700eAaa2a91Bf750314",
+    "chainId": 56,
+    "logoURI": "https://tartswap.com/tart-logo-256.png",
+    "decimals": 9,
+    "name": "TartSwap",
+    "symbol": "TART"
   }
 ]
