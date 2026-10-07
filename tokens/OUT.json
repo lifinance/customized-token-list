@@ -1006,5 +1006,13 @@
     "decimals": 8,
     "name": "ICP Taifoon",
     "symbol": "tICP"
+  },
+  {
+    "address": "0xB9d3824149aD8ac984153CeEc91D5a2405d1FB95",
+    "chainId": 4663,
+    "logoURI": "https://nlyra.xyz/desk2/dual-core.png",
+    "decimals": 18,
+    "name": "Neron Lyra",
+    "symbol": "NLYRA"
   }
 ]
