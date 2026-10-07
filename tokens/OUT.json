@@ -1022,5 +1022,13 @@
     "decimals": 18,
     "name": "crow with knife",
     "symbol": "CAW"
+  },
+  {
+    "address": "0x2a13008CC2F5A853F6Fb21cbD90841806C64b247",
+    "chainId": 4663,
+    "logoURI": "https://cdn.dexscreener.com/cms/images/XawWrcwfce-wOxDy?width=800&height=800&quality=95&format=auto",
+    "decimals": 18,
+    "name": "Troll in Hood",
+    "symbol": "TROLL"
   }
 ]
