@@ -1,0 +1,18 @@
+[
+  {
+    "chainId": 1201081091099710,
+    "address": "CBI7UCH5KGSVQRO5H4SUCZUTZABCITZLRHQQZTWL2TK4RZ72TAR6IHRV",
+    "symbol": "deJTRSY",
+    "name": "deJTRSY",
+    "decimals": 18,
+    "logoURI": "https://centrifuge.mypinata.cloud/ipfs/bafkreieracb5e57bhg7bphd7sp4hxf3yhbm3cxinst3o5mennfosagkxuu"
+  },
+  {
+    "chainId": 1201081091099710,
+    "address": "CC64WBDGS6QQP22QTTIACYIXT3WF7BBQEYOQPLTP7GTKYY7PZ74QYGSL",
+    "symbol": "deJAAA",
+    "name": "deJAAA",
+    "decimals": 18,
+    "logoURI": "https://centrifuge.mypinata.cloud/ipfs/bafkreifp5ww5lpbgrny36oxgzg2kjw2226lmj2vmekp4nqemm5ewhhtmwi"
+  }
+]
