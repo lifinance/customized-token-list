@@ -120,14 +120,6 @@
     "logoURI": "https://static.debank.com/image/project/logo_url/stargate/3c6fbbbb1e62793ee34effb91d8769e7.png"
   },
   {
-    "address": "0x2f85d372Bef829e866f8917378Ff20A88E7FC403",
-    "chainId": 8453,
-    "decimals": 10,
-    "name": "CoolCoin",
-    "symbol": "$COOL",
-    "logoURI": "https://strapi.jumper.exchange/uploads/coolcoin_b7e2f7f32f.webp"
-  },
-  {
     "address": "0x532f27101965dd16442E59d40670FaF5eBB142E4",
     "chainId": 8453,
     "logoURI": "https://coin-images.coingecko.com/coins/images/35529/large/1000050750.png?1709031995",
