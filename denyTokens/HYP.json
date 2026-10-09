@@ -1,0 +1,7 @@
+[
+  {
+    "chainId": 999,
+    "address": "0xb9cd945141F7D99Fd562a6222AcCDe5043350AD4",
+    "reason": "Fee-on-transfer token (PSTR / PaperStrategy). 10% tax on pool buys/sells and on transfers into the LI.FI Diamond; HyperEVM is outside the tax-check coverage, so buy quotes are overstated (hyperflow step simulation fails minTotalAmountOut) and sells fail with TRANSFER_FROM_FAILED."
+  }
+]
