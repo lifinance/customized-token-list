@@ -1030,5 +1030,13 @@
     "decimals": 18,
     "name": "Troll in Hood",
     "symbol": "TROLL"
+  },
+  {
+    "address": "0x1FE841737D302468fE8f90Bf469Ef8674daD34ED",
+    "chainId": 4663,
+    "logoURI": "https://app.quantumpools.io/assets/tokens/UPPERS.png",
+    "decimals": 18,
+    "name": "UPPERS",
+    "symbol": "UPPERS"
   }
 ]
