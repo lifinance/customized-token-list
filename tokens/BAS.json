@@ -1310,5 +1310,189 @@
     "decimals": 18,
     "name": "Liquid Mercury",
     "symbol": "MERC"
+  },
+  {
+    "address": "0xB2000000000000000000000d8Ce462E99ee7A47B",
+    "chainId": 8453,
+    "logoURI": "https://financialmodelingprep.com/image-stock/AMD.png",
+    "decimals": 8,
+    "name": "Advanced Micro Devices, Inc.",
+    "symbol": "AMDc"
+  },
+  {
+    "address": "0xB200000000000000000000B1a29cF17A1819288a",
+    "chainId": 8453,
+    "logoURI": "https://financialmodelingprep.com/image-stock/ASTS.png",
+    "decimals": 8,
+    "name": "AST SpaceMobile, Inc.",
+    "symbol": "ASTSc"
+  },
+  {
+    "address": "0xB200000000000000000000Fc737aeA6196aB5a4c",
+    "chainId": 8453,
+    "logoURI": "https://financialmodelingprep.com/image-stock/AVGO.png",
+    "decimals": 8,
+    "name": "Broadcom Inc.",
+    "symbol": "AVGOc"
+  },
+  {
+    "address": "0xb20000000000000000000016f9dfe862feBA122b",
+    "chainId": 8453,
+    "logoURI": "https://financialmodelingprep.com/image-stock/BE.png",
+    "decimals": 8,
+    "name": "Bloom Energy Corporation",
+    "symbol": "BEc"
+  },
+  {
+    "address": "0xb200000000000000000000428E3a3eebBb20692B",
+    "chainId": 8453,
+    "logoURI": "https://financialmodelingprep.com/image-stock/DJT.png",
+    "decimals": 8,
+    "name": "Trump Media & Technology Group Corp.",
+    "symbol": "DJTc"
+  },
+  {
+    "address": "0xb200000000000000000000A613D12dEAfBBb1Db7",
+    "chainId": 8453,
+    "logoURI": "https://financialmodelingprep.com/image-stock/DUOL.png",
+    "decimals": 8,
+    "name": "Duolingo, Inc.",
+    "symbol": "DUOLc"
+  },
+  {
+    "address": "0xb2000000000000000000007790ed6E48e06eD935",
+    "chainId": 8453,
+    "logoURI": "https://financialmodelingprep.com/image-stock/GME.png",
+    "decimals": 8,
+    "name": "GameStop Corp.",
+    "symbol": "GMEc"
+  },
+  {
+    "address": "0xB20000000000000000000043a599976181Bcf336",
+    "chainId": 8453,
+    "logoURI": "https://financialmodelingprep.com/image-stock/HIMS.png",
+    "decimals": 8,
+    "name": "Hims & Hers Health, Inc.",
+    "symbol": "HIMSc"
+  },
+  {
+    "address": "0xb2000000000000000000002601C5C94F435da168",
+    "chainId": 8453,
+    "logoURI": "https://financialmodelingprep.com/image-stock/HTZ.png",
+    "decimals": 8,
+    "name": "Hertz Global Holdings, Inc.",
+    "symbol": "HTZc"
+  },
+  {
+    "address": "0xB200000000000000000000f1a0F91e34892E4718",
+    "chainId": 8453,
+    "logoURI": "https://financialmodelingprep.com/image-stock/LLY.png",
+    "decimals": 8,
+    "name": "Eli Lilly & Co",
+    "symbol": "LLYc"
+  },
+  {
+    "address": "0xB200000000000000000000e215e9B76ecBA02468",
+    "chainId": 8453,
+    "logoURI": "https://financialmodelingprep.com/image-stock/MRNA.png",
+    "decimals": 8,
+    "name": "Moderna, Inc.",
+    "symbol": "MRNAc"
+  },
+  {
+    "address": "0xB200000000000000000000eC3c4c7395Cc609813",
+    "chainId": 8453,
+    "logoURI": "https://financialmodelingprep.com/image-stock/MRVL.png",
+    "decimals": 8,
+    "name": "Marvell Technology, Inc.",
+    "symbol": "MRVLc"
+  },
+  {
+    "address": "0xb20000000000000000000058B8c947e44011dFE6",
+    "chainId": 8453,
+    "logoURI": "https://financialmodelingprep.com/image-stock/NFLX.png",
+    "decimals": 8,
+    "name": "Netflix Inc",
+    "symbol": "NFLXc"
+  },
+  {
+    "address": "0xb200000000000000000000347AFbA223D7B6b63C",
+    "chainId": 8453,
+    "logoURI": "https://financialmodelingprep.com/image-stock/ORCL.png",
+    "decimals": 8,
+    "name": "Oracle Corporation",
+    "symbol": "ORCLc"
+  },
+  {
+    "address": "0xB20000000000000000000018FE7eC7d6DfeeB528",
+    "chainId": 8453,
+    "logoURI": "https://financialmodelingprep.com/image-stock/PFE.png",
+    "decimals": 8,
+    "name": "Pfizer Inc",
+    "symbol": "PFEc"
+  },
+  {
+    "address": "0xB2000000000000000000009272A491812842Aa84",
+    "chainId": 8453,
+    "logoURI": "https://financialmodelingprep.com/image-stock/PTON.png",
+    "decimals": 8,
+    "name": "Peloton Interactive, Inc.",
+    "symbol": "PTONc"
+  },
+  {
+    "address": "0xb200000000000000000000450ad3abE5d4846c6E",
+    "chainId": 8453,
+    "logoURI": "https://financialmodelingprep.com/image-stock/PYPL.png",
+    "decimals": 8,
+    "name": "PayPal Holdings, Inc.",
+    "symbol": "PYPLc"
+  },
+  {
+    "address": "0xb200000000000000000000CA425ab42e07C35bC3",
+    "chainId": 8453,
+    "logoURI": "https://financialmodelingprep.com/image-stock/QUBT.png",
+    "decimals": 8,
+    "name": "Quantum Computing Inc.",
+    "symbol": "QUBTc"
+  },
+  {
+    "address": "0xB2000000000000000000005bd7AE89b9E6189Bb5",
+    "chainId": 8453,
+    "logoURI": "https://financialmodelingprep.com/image-stock/RBLX.png",
+    "decimals": 8,
+    "name": "Roblox Corporation",
+    "symbol": "RBLXc"
+  },
+  {
+    "address": "0xb20000000000000000000066242d4067724cB7A1",
+    "chainId": 8453,
+    "logoURI": "https://financialmodelingprep.com/image-stock/RDDT.png",
+    "decimals": 8,
+    "name": "Reddit, Inc.",
+    "symbol": "RDDTc"
+  },
+  {
+    "address": "0xB2000000000000000000002137743D4a01Fe4e88",
+    "chainId": 8453,
+    "logoURI": "https://financialmodelingprep.com/image-stock/SOUN.png",
+    "decimals": 8,
+    "name": "SoundHound AI, Inc.",
+    "symbol": "SOUNc"
+  },
+  {
+    "address": "0xB200000000000000000000f720C26062Bc3067Da",
+    "chainId": 8453,
+    "logoURI": "https://financialmodelingprep.com/image-stock/TTWO.png",
+    "decimals": 8,
+    "name": "Take-Two Interactive Software, Inc.",
+    "symbol": "TTWOc"
+  },
+  {
+    "address": "0xB20000000000000000000044E3CD7a0E1028E57a",
+    "chainId": 8453,
+    "logoURI": "https://financialmodelingprep.com/image-stock/WEN.png",
+    "decimals": 8,
+    "name": "Wendy's Co",
+    "symbol": "WENc"
   }
 ]
