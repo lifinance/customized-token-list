@@ -1302,5 +1302,13 @@
     "decimals": 8,
     "name": "ICP Taifoon",
     "symbol": "tICP"
+  },
+  {
+    "address": "0x8923947EAfaf4aD68F1f0C9eb5463eC876D79058",
+    "chainId": 8453,
+    "logoURI": "https://merc.liquidmercury.com/merc-logo.svg",
+    "decimals": 18,
+    "name": "Liquid Mercury",
+    "symbol": "MERC"
   }
 ]
