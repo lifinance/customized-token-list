@@ -3910,5 +3910,13 @@
     "decimals": 18,
     "name": "lmeow",
     "symbol": "LMEOW"
+  },
+  {
+    "address": "0x6EE2f71049DDE9a93B7c0EE1091b72aCf9b46810",
+    "chainId": 1,
+    "logoURI": "https://merc.liquidmercury.com/merc-logo.svg",
+    "decimals": 18,
+    "name": "Liquid Mercury",
+    "symbol": "MERC"
   }
 ]
