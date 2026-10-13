@@ -686,5 +686,37 @@
     "decimals": 18,
     "name": "t3rn",
     "symbol": "TRN"
+  },
+  {
+    "address": "0x5181b7dd097b42d7787ee78efab86f43d4e12f44",
+    "chainId": 42161,
+    "logoURI": "https://arbiscan.io/token/images/reality_rSPCX.svg",
+    "decimals": 18,
+    "name": "SpaceX (Reality Tokenized)",
+    "symbol": "rSPCX"
+  },
+  {
+    "address": "0xaba5e0c80e9f58e391214689fb342049c0d31892",
+    "chainId": 42161,
+    "logoURI": "https://arbiscan.io/token/images/reality_rAAPL.svg",
+    "decimals": 18,
+    "name": "Apple (Reality Tokenized)",
+    "symbol": "rAAPL"
+  },
+  {
+    "address": "0x861a85a78c371bc0a02675bbe00a4cbc0826b421",
+    "chainId": 42161,
+    "logoURI": "https://arbiscan.io/token/images/reality_rCRCL.svg",
+    "decimals": 18,
+    "name": "Circle (Reality Tokenized)",
+    "symbol": "rCRCL"
+  },
+  {
+    "address": "0x485cb1ed5662a911eba7f8547eb9e253cf43b8ae",
+    "chainId": 42161,
+    "logoURI": "https://arbiscan.io/token/images/reality_rHOOD.svg",
+    "decimals": 18,
+    "name": "Robinhood (Reality Tokenized)",
+    "symbol": "rHOOD"
   }
 ]
