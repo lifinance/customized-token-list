@@ -134,5 +134,13 @@
     "decimals": 8,
     "name": "ICP Taifoon",
     "symbol": "tICP"
+  },
+  {
+    "name": "Virtuals Protocol",
+    "address": "0x8c4252c87081c88c6ad57d6dd97e1cafebf842b7",
+    "symbol": "VIRTUAL",
+    "decimals": 18,
+    "chainId": 5042,
+    "logoURI": "https://coin-images.coingecko.com/coins/images/34057/large/LOGOMARK.png?1708356054"
   }
 ]
