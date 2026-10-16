@@ -78,5 +78,10 @@
     "chainId": 4663,
     "address": "0xa3B2eB502006369581eDD898d22ca559e64f8c07",
     "reason": "Retired tICP (Taifoon): replaced by 0x60CaC3229c022dcc059e1F4352695127Dc96bC0d; old contract no longer mints and only redeems"
+  },
+  {
+    "chainId": 4663,
+    "address": "0x2F3d4466bbF87B4707a96623bdf00820243976D0",
+    "reason": "Flagged malicious by Blockaid (PRIORS, \"Priors Agents\"). ERC-1967 upgradeable proxy, owner 0x4b3c2c75679a661d54a98c4b6f18c7e3517c4042, implementation 0xaed3d9264bc65d01df007e15d34fb9b88582b664 exposes setBlacklist/setBlacklistBatch/isBlacklisted, setSellTargets/setSellTarget/isSellTarget, upgradeToSellGate, upgradeToBlacklist, setGlobalBalance and emitTransferBatch: an owner-controlled sell gate plus balance and Transfer-event spoofing. Same honeypot family as the CurvePump clones above (different implementation). 137 of 139 robinhood /v1/quote requests in the 7 days to 2026-10-16 were sells."
   }
 ]
