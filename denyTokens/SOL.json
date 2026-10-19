@@ -38,5 +38,10 @@
     "chainId": 1151111081099710,
     "address": "USDvuSdHZUcj67tKfvVzByG9MaBAJRyeRrBSDLmMg75",
     "reason": "Scam token impersonating Ondo USDY (Ondo US Dollar Yield). Vanity mint spoofs the USDY symbol/name and has an active freeze authority (Bw1EuXufEzbwRqbDDetbjWHAXRdU2s5TaURWgnH1vTm) that can freeze holder accounts and lock funds (honeypot)."
+  },
+  {
+    "chainId": 1151111081099710,
+    "address": "CP7QmFuZEzCuygHQQxMkmvKzxnkQS7sSvRdbhoGudBmH",
+    "reason": "Impersonates USDG on Solana and does not let users swap out of the token"
   }
 ]
