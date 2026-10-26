@@ -1502,5 +1502,13 @@
     "decimals": 18,
     "name": "Aquari",
     "symbol": "AQUARI"
+  },
+  {
+    "address": "0x0DC4F92879B7670e5f4e4e6e3c801D229129D90D",
+    "chainId": 8453,
+    "logoURI": "https://coin-images.coingecko.com/coins/images/70846/large/world_logos_wars_logo_3.png?1764176749",
+    "decimals": 18,
+    "name": "Peso Argentino",
+    "symbol": "wARS"
   }
 ]
