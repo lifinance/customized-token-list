@@ -83,5 +83,10 @@
     "chainId": 4663,
     "address": "0x2F3d4466bbF87B4707a96623bdf00820243976D0",
     "reason": "Flagged malicious by Blockaid (PRIORS, \"Priors Agents\"). ERC-1967 upgradeable proxy, owner 0x4b3c2c75679a661d54a98c4b6f18c7e3517c4042, implementation 0xaed3d9264bc65d01df007e15d34fb9b88582b664 exposes setBlacklist/setBlacklistBatch/isBlacklisted, setSellTargets/setSellTarget/isSellTarget, upgradeToSellGate, upgradeToBlacklist, setGlobalBalance and emitTransferBatch: an owner-controlled sell gate plus balance and Transfer-event spoofing. Same honeypot family as the CurvePump clones above (different implementation). 137 of 139 robinhood /v1/quote requests in the 7 days to 2026-10-16 were sells."
+  },
+  {
+    "chainId": 4663,
+    "address": "0xf5133e31D36E9e876Df83584ae7b415Aa416b14C",
+    "reason": "Blacklist-capable token (swordcat). ERC-1967 upgradeable proxy, owner 0x915A0C3EE1D8bB4489203EFCC8524d00b57E0d8c, implementation 0xd386150424448669cbee19bec62702bb36b71214 exposes setBlacklist/setBlacklistBatch/isBlacklisted and upgradeToAndCall: an owner-controlled blacklist, and transfers from a blacklisted address revert with \"blacklisted\". Holder 0xA408069a9d01d6a21a14801949De85974F4E6766 is blacklisted and its sells revert as TransferFromFailed(): 81 failed step simulations for integrator Web3-Wallet on 2026-10-25/26."
   }
 ]
