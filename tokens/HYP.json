@@ -438,5 +438,1253 @@
     "decimals": 18,
     "chainId": 999,
     "logoURI": "https://cdn.ondo.finance/tokens/logos/tsmon_160x160.png"
+  },
+  {
+    "address": "0x7B430c5842ce7dBa29b910c018369FA2Fa0ac2e3",
+    "chainId": 999,
+    "logoURI": "https://bounce.tech/leveraged-tokens/BTC3L.png",
+    "decimals": 18,
+    "name": "BTC 3x Long",
+    "symbol": "BTC3L"
+  },
+  {
+    "address": "0xa18E0878d47b2c22B4b84832c04544C02Fd4991A",
+    "chainId": 999,
+    "logoURI": "https://bounce.tech/leveraged-tokens/BTC2L.png",
+    "decimals": 18,
+    "name": "BTC 2x Long",
+    "symbol": "BTC2L"
+  },
+  {
+    "address": "0xab5A9525afb6F25382B48Bf18b3817B0c7cE713d",
+    "chainId": 999,
+    "logoURI": "https://bounce.tech/leveraged-tokens/BTC2S.png",
+    "decimals": 18,
+    "name": "BTC 2x Short",
+    "symbol": "BTC2S"
+  },
+  {
+    "address": "0x225AA40ab60e69DAba3496c5422eeEd0B5f5bf8a",
+    "chainId": 999,
+    "logoURI": "https://bounce.tech/leveraged-tokens/BTC3S.png",
+    "decimals": 18,
+    "name": "BTC 3x Short",
+    "symbol": "BTC3S"
+  },
+  {
+    "address": "0xBe4e97a8FceeB1b82D64349FbA6Ff29B65Ad3B7d",
+    "chainId": 999,
+    "logoURI": "https://bounce.tech/leveraged-tokens/BTC5L.png",
+    "decimals": 18,
+    "name": "BTC 5x Long",
+    "symbol": "BTC5L"
+  },
+  {
+    "address": "0x42E4E7E81bcbb648282D5fa261b2c0840747C8f3",
+    "chainId": 999,
+    "logoURI": "https://bounce.tech/leveraged-tokens/BTC5S.png",
+    "decimals": 18,
+    "name": "BTC 5x Short",
+    "symbol": "BTC5S"
+  },
+  {
+    "address": "0x14bD1DAC6b9D8FCF4B4d16102f1057012d74E647",
+    "chainId": 999,
+    "logoURI": "https://bounce.tech/leveraged-tokens/ETH2L.png",
+    "decimals": 18,
+    "name": "ETH 2x Long",
+    "symbol": "ETH2L"
+  },
+  {
+    "address": "0x03C4f10995B2D502a2320c9b5b694dBa3cB64977",
+    "chainId": 999,
+    "logoURI": "https://bounce.tech/leveraged-tokens/ETH2S.png",
+    "decimals": 18,
+    "name": "ETH 2x Short",
+    "symbol": "ETH2S"
+  },
+  {
+    "address": "0x6019caD7d5A8D4d90eCed36576d23F6198aed156",
+    "chainId": 999,
+    "logoURI": "https://bounce.tech/leveraged-tokens/ETH3L.png",
+    "decimals": 18,
+    "name": "ETH 3x Long",
+    "symbol": "ETH3L"
+  },
+  {
+    "address": "0xB5A5EcA6Ddc738943A6CaF716D4185B3680dE4b7",
+    "chainId": 999,
+    "logoURI": "https://bounce.tech/leveraged-tokens/ETH3S.png",
+    "decimals": 18,
+    "name": "ETH 3x Short",
+    "symbol": "ETH3S"
+  },
+  {
+    "address": "0x6ce8B325252805d2b4b5A6d03eA197d95E0dd582",
+    "chainId": 999,
+    "logoURI": "https://bounce.tech/leveraged-tokens/ETH5L.png",
+    "decimals": 18,
+    "name": "ETH 5x Long",
+    "symbol": "ETH5L"
+  },
+  {
+    "address": "0x6501791028227a3c6DB582a681A644ff489871c9",
+    "chainId": 999,
+    "logoURI": "https://bounce.tech/leveraged-tokens/ETH5S.png",
+    "decimals": 18,
+    "name": "ETH 5x Short",
+    "symbol": "ETH5S"
+  },
+  {
+    "address": "0xd29f674061208214330a86554E841eaC5F74CB79",
+    "chainId": 999,
+    "logoURI": "https://bounce.tech/leveraged-tokens/SOL2L.png",
+    "decimals": 18,
+    "name": "SOL 2x Long",
+    "symbol": "SOL2L"
+  },
+  {
+    "address": "0x04Ffb6985A6508ab8e9f82dDDB8BeeAB7c3347c0",
+    "chainId": 999,
+    "logoURI": "https://bounce.tech/leveraged-tokens/SOL2S.png",
+    "decimals": 18,
+    "name": "SOL 2x Short",
+    "symbol": "SOL2S"
+  },
+  {
+    "address": "0x633A1f5221A0146Ea37067E83c53BB64401e53d2",
+    "chainId": 999,
+    "logoURI": "https://bounce.tech/leveraged-tokens/SOL3L.png",
+    "decimals": 18,
+    "name": "SOL 3x Long",
+    "symbol": "SOL3L"
+  },
+  {
+    "address": "0xF445EB1c08CA4c300994450a120994062b0A1A84",
+    "chainId": 999,
+    "logoURI": "https://bounce.tech/leveraged-tokens/SOL3S.png",
+    "decimals": 18,
+    "name": "SOL 3x Short",
+    "symbol": "SOL3S"
+  },
+  {
+    "address": "0x7600c7e9C21118c69367bc476873A412E0e58215",
+    "chainId": 999,
+    "logoURI": "https://bounce.tech/leveraged-tokens/SOL5L.png",
+    "decimals": 18,
+    "name": "SOL 5x Long",
+    "symbol": "SOL5L"
+  },
+  {
+    "address": "0x8Ad5EB8f4535F277A2b5eD9CB9F54Bf9a6f9B41D",
+    "chainId": 999,
+    "logoURI": "https://bounce.tech/leveraged-tokens/SOL5S.png",
+    "decimals": 18,
+    "name": "SOL 5x Short",
+    "symbol": "SOL5S"
+  },
+  {
+    "address": "0x0f8db745e9C28275F8B6e2BAF6BAA8eE7431b557",
+    "chainId": 999,
+    "logoURI": "https://bounce.tech/leveraged-tokens/HYPE2L.png",
+    "decimals": 18,
+    "name": "HYPE 2x Long",
+    "symbol": "HYPE2L"
+  },
+  {
+    "address": "0xbA9f0f6f2B6d1E639cbe93327E588c01cE28A2d9",
+    "chainId": 999,
+    "logoURI": "https://bounce.tech/leveraged-tokens/HYPE2S.png",
+    "decimals": 18,
+    "name": "HYPE 2x Short",
+    "symbol": "HYPE2S"
+  },
+  {
+    "address": "0x9A51b0DC3545cb8e9b0382b42c91F9e39a92eFD6",
+    "chainId": 999,
+    "logoURI": "https://bounce.tech/leveraged-tokens/HYPE3L.png",
+    "decimals": 18,
+    "name": "HYPE 3x Long",
+    "symbol": "HYPE3L"
+  },
+  {
+    "address": "0x176fe1F384F1b0fC2A0a270c56485eA3efc6c727",
+    "chainId": 999,
+    "logoURI": "https://bounce.tech/leveraged-tokens/HYPE3S.png",
+    "decimals": 18,
+    "name": "HYPE 3x Short",
+    "symbol": "HYPE3S"
+  },
+  {
+    "address": "0x18b8539261cF9e760E7fEc4a8a73c50F0AE7baBE",
+    "chainId": 999,
+    "logoURI": "https://bounce.tech/leveraged-tokens/HYPE5L.png",
+    "decimals": 18,
+    "name": "HYPE 5x Long",
+    "symbol": "HYPE5L"
+  },
+  {
+    "address": "0x0315f272b9f9b14822Ce9C4b15a711C0Dbb6aEC3",
+    "chainId": 999,
+    "logoURI": "https://bounce.tech/leveraged-tokens/HYPE5S.png",
+    "decimals": 18,
+    "name": "HYPE 5x Short",
+    "symbol": "HYPE5S"
+  },
+  {
+    "address": "0x9E9cf0b7DB133e79549E7374838e7e8190460667",
+    "chainId": 999,
+    "logoURI": "https://bounce.tech/leveraged-tokens/xyz:BB5S.png",
+    "decimals": 18,
+    "name": "xyz:BB 5x Short",
+    "symbol": "xyz:BB5S"
+  },
+  {
+    "address": "0x90Ffe279dbCE1c3f9c2cBE82c7A38bee17F27964",
+    "chainId": 999,
+    "logoURI": "https://bounce.tech/leveraged-tokens/xyz:BB3S.png",
+    "decimals": 18,
+    "name": "xyz:BB 3x Short",
+    "symbol": "xyz:BB3S"
+  },
+  {
+    "address": "0x1BE10C62e03640D0DDD935A3c9349F8907640a30",
+    "chainId": 999,
+    "logoURI": "https://bounce.tech/leveraged-tokens/xyz:BB2S.png",
+    "decimals": 18,
+    "name": "xyz:BB 2x Short",
+    "symbol": "xyz:BB2S"
+  },
+  {
+    "address": "0xE75E64824db6D75Efc763dFfAaA3989d5eaa2788",
+    "chainId": 999,
+    "logoURI": "https://bounce.tech/leveraged-tokens/xyz:BB5L.png",
+    "decimals": 18,
+    "name": "xyz:BB 5x Long",
+    "symbol": "xyz:BB5L"
+  },
+  {
+    "address": "0x2f19B676f7143489B49Fa8343B200d9128893345",
+    "chainId": 999,
+    "logoURI": "https://bounce.tech/leveraged-tokens/xyz:BB3L.png",
+    "decimals": 18,
+    "name": "xyz:BB 3x Long",
+    "symbol": "xyz:BB3L"
+  },
+  {
+    "address": "0x6bC9b5A92495133A283f931d54D846AFeEcac22d",
+    "chainId": 999,
+    "logoURI": "https://bounce.tech/leveraged-tokens/xyz:BB2L.png",
+    "decimals": 18,
+    "name": "xyz:BB 2x Long",
+    "symbol": "xyz:BB2L"
+  },
+  {
+    "address": "0xBF8A077C425754e88D5F7A2E1c24dE89891D21c5",
+    "chainId": 999,
+    "logoURI": "https://bounce.tech/leveraged-tokens/HYPE1S.png",
+    "decimals": 18,
+    "name": "HYPE 1x Short",
+    "symbol": "HYPE1S"
+  },
+  {
+    "address": "0x76c37Ff62355A4d3Fa6EA08Ffc6763024f514437",
+    "chainId": 999,
+    "logoURI": "https://bounce.tech/leveraged-tokens/ZEC2L.png",
+    "decimals": 18,
+    "name": "ZEC 2x Long",
+    "symbol": "ZEC2L"
+  },
+  {
+    "address": "0xb3DfAbFd7C7ad5fbfc8614a863aCB333275F2aa2",
+    "chainId": 999,
+    "logoURI": "https://bounce.tech/leveraged-tokens/ZEC2S.png",
+    "decimals": 18,
+    "name": "ZEC 2x Short",
+    "symbol": "ZEC2S"
+  },
+  {
+    "address": "0xA0C783162F24CE76f4e50a02cD65AD013553E76D",
+    "chainId": 999,
+    "logoURI": "https://bounce.tech/leveraged-tokens/ZEC3L.png",
+    "decimals": 18,
+    "name": "ZEC 3x Long",
+    "symbol": "ZEC3L"
+  },
+  {
+    "address": "0xc58693596B751e192941b32f1A7fd70957a76F11",
+    "chainId": 999,
+    "logoURI": "https://bounce.tech/leveraged-tokens/ZEC3S.png",
+    "decimals": 18,
+    "name": "ZEC 3x Short",
+    "symbol": "ZEC3S"
+  },
+  {
+    "address": "0x310512917B68B79068ACaF7c14c6a847CDbBc2C2",
+    "chainId": 999,
+    "logoURI": "https://bounce.tech/leveraged-tokens/ZEC5L.png",
+    "decimals": 18,
+    "name": "ZEC 5x Long",
+    "symbol": "ZEC5L"
+  },
+  {
+    "address": "0x51BCf6341bFd48ED1858700aD3b5ad6B8b31CE08",
+    "chainId": 999,
+    "logoURI": "https://bounce.tech/leveraged-tokens/ZEC5S.png",
+    "decimals": 18,
+    "name": "ZEC 5x Short",
+    "symbol": "ZEC5S"
+  },
+  {
+    "address": "0x1d055c5E01279339c726ea987943885fa9Bc4a54",
+    "chainId": 999,
+    "logoURI": "https://bounce.tech/leveraged-tokens/xyz:SP5002L.png",
+    "decimals": 18,
+    "name": "xyz:SP500 2x Long",
+    "symbol": "xyz:SP5002L"
+  },
+  {
+    "address": "0x4C833056bcfFDab43eB6580b4A8BD507A4fe808b",
+    "chainId": 999,
+    "logoURI": "https://bounce.tech/leveraged-tokens/xyz:SP5002S.png",
+    "decimals": 18,
+    "name": "xyz:SP500 2x Short",
+    "symbol": "xyz:SP5002S"
+  },
+  {
+    "address": "0xb4dDD43AB136900bF440b8ee1B33d57Eb8E21B2F",
+    "chainId": 999,
+    "logoURI": "https://bounce.tech/leveraged-tokens/xyz:SP5003L.png",
+    "decimals": 18,
+    "name": "xyz:SP500 3x Long",
+    "symbol": "xyz:SP5003L"
+  },
+  {
+    "address": "0x6Bd50548b3D5650c43424510E2d91DB73d448f2B",
+    "chainId": 999,
+    "logoURI": "https://bounce.tech/leveraged-tokens/xyz:SP5003S.png",
+    "decimals": 18,
+    "name": "xyz:SP500 3x Short",
+    "symbol": "xyz:SP5003S"
+  },
+  {
+    "address": "0xFE7dc5e224DDD9a21CF30975Cae5A09050A89391",
+    "chainId": 999,
+    "logoURI": "https://bounce.tech/leveraged-tokens/xyz:SP5005L.png",
+    "decimals": 18,
+    "name": "xyz:SP500 5x Long",
+    "symbol": "xyz:SP5005L"
+  },
+  {
+    "address": "0x04de1Ef694923844BAE419d4F832196F21767F86",
+    "chainId": 999,
+    "logoURI": "https://bounce.tech/leveraged-tokens/xyz:SP5005S.png",
+    "decimals": 18,
+    "name": "xyz:SP500 5x Short",
+    "symbol": "xyz:SP5005S"
+  },
+  {
+    "address": "0x9aB663429e400666F10f7a8188B62197806E8634",
+    "chainId": 999,
+    "logoURI": "https://bounce.tech/leveraged-tokens/xyz:CL2L.png",
+    "decimals": 18,
+    "name": "xyz:CL 2x Long",
+    "symbol": "xyz:CL2L"
+  },
+  {
+    "address": "0xBb929056c2283400762a528a99a2a0f09fB8a24B",
+    "chainId": 999,
+    "logoURI": "https://bounce.tech/leveraged-tokens/xyz:CL2S.png",
+    "decimals": 18,
+    "name": "xyz:CL 2x Short",
+    "symbol": "xyz:CL2S"
+  },
+  {
+    "address": "0x8385357286009F50578D1C6CD7C03e68c50C0d28",
+    "chainId": 999,
+    "logoURI": "https://bounce.tech/leveraged-tokens/xyz:CL3L.png",
+    "decimals": 18,
+    "name": "xyz:CL 3x Long",
+    "symbol": "xyz:CL3L"
+  },
+  {
+    "address": "0x185e2001c8e8290bEc82daeE1EB76F107f229bA3",
+    "chainId": 999,
+    "logoURI": "https://bounce.tech/leveraged-tokens/xyz:CL3S.png",
+    "decimals": 18,
+    "name": "xyz:CL 3x Short",
+    "symbol": "xyz:CL3S"
+  },
+  {
+    "address": "0x318c3c7ed0bC09023119352ACb99632C007a531e",
+    "chainId": 999,
+    "logoURI": "https://bounce.tech/leveraged-tokens/xyz:CL5L.png",
+    "decimals": 18,
+    "name": "xyz:CL 5x Long",
+    "symbol": "xyz:CL5L"
+  },
+  {
+    "address": "0x8eA68E49C3aabFC2cf5c4f5b92Eb55EfeCfA9461",
+    "chainId": 999,
+    "logoURI": "https://bounce.tech/leveraged-tokens/xyz:CL5S.png",
+    "decimals": 18,
+    "name": "xyz:CL 5x Short",
+    "symbol": "xyz:CL5S"
+  },
+  {
+    "address": "0xecfdBABf00CE5236FE8b68263cdef16686E25c5F",
+    "chainId": 999,
+    "logoURI": "https://bounce.tech/leveraged-tokens/kPEPE2L.png",
+    "decimals": 18,
+    "name": "kPEPE 2x Long",
+    "symbol": "kPEPE2L"
+  },
+  {
+    "address": "0x85992b848B282901b309057F05bA41A9e47C2133",
+    "chainId": 999,
+    "logoURI": "https://bounce.tech/leveraged-tokens/kPEPE2S.png",
+    "decimals": 18,
+    "name": "kPEPE 2x Short",
+    "symbol": "kPEPE2S"
+  },
+  {
+    "address": "0x1DB5129E4dF622a6C7fCcA71ec1d85Cd58DEc933",
+    "chainId": 999,
+    "logoURI": "https://bounce.tech/leveraged-tokens/kPEPE3L.png",
+    "decimals": 18,
+    "name": "kPEPE 3x Long",
+    "symbol": "kPEPE3L"
+  },
+  {
+    "address": "0x023232A2e6C8a8db7952b5eD4d0414E32CEc50f6",
+    "chainId": 999,
+    "logoURI": "https://bounce.tech/leveraged-tokens/kPEPE3S.png",
+    "decimals": 18,
+    "name": "kPEPE 3x Short",
+    "symbol": "kPEPE3S"
+  },
+  {
+    "address": "0xbAed16A9DF137a1c5B0002aae54A9936165dA332",
+    "chainId": 999,
+    "logoURI": "https://bounce.tech/leveraged-tokens/kPEPE5L.png",
+    "decimals": 18,
+    "name": "kPEPE 5x Long",
+    "symbol": "kPEPE5L"
+  },
+  {
+    "address": "0x5128289C6E15349AC80Ba38b3759B1d371EaFC5C",
+    "chainId": 999,
+    "logoURI": "https://bounce.tech/leveraged-tokens/kPEPE5S.png",
+    "decimals": 18,
+    "name": "kPEPE 5x Short",
+    "symbol": "kPEPE5S"
+  },
+  {
+    "address": "0x8BD484d2584D163fbE18BA5eD979A1d41B6ad5D4",
+    "chainId": 999,
+    "logoURI": "https://bounce.tech/leveraged-tokens/xyz:SILVER2L.png",
+    "decimals": 18,
+    "name": "xyz:SILVER 2x Long",
+    "symbol": "xyz:SILVER2L"
+  },
+  {
+    "address": "0x0D34899e5Ec134cC67A645DF1caCFf76E45f4B0a",
+    "chainId": 999,
+    "logoURI": "https://bounce.tech/leveraged-tokens/xyz:SILVER2S.png",
+    "decimals": 18,
+    "name": "xyz:SILVER 2x Short",
+    "symbol": "xyz:SILVER2S"
+  },
+  {
+    "address": "0xeD276c1170640358c012b0b2cf6E771173C8c8C3",
+    "chainId": 999,
+    "logoURI": "https://bounce.tech/leveraged-tokens/xyz:SILVER3L.png",
+    "decimals": 18,
+    "name": "xyz:SILVER 3x Long",
+    "symbol": "xyz:SILVER3L"
+  },
+  {
+    "address": "0xa377316E90e269ba0F0ba2CbE9b63c5d8Abe15c0",
+    "chainId": 999,
+    "logoURI": "https://bounce.tech/leveraged-tokens/xyz:SILVER3S.png",
+    "decimals": 18,
+    "name": "xyz:SILVER 3x Short",
+    "symbol": "xyz:SILVER3S"
+  },
+  {
+    "address": "0x556CA8a41EA69d1727BcFCc5F4ba0b66B6206236",
+    "chainId": 999,
+    "logoURI": "https://bounce.tech/leveraged-tokens/xyz:SILVER5L.png",
+    "decimals": 18,
+    "name": "xyz:SILVER 5x Long",
+    "symbol": "xyz:SILVER5L"
+  },
+  {
+    "address": "0x4797f886687501B576845fb7187BFd40705Fdc09",
+    "chainId": 999,
+    "logoURI": "https://bounce.tech/leveraged-tokens/xyz:SILVER5S.png",
+    "decimals": 18,
+    "name": "xyz:SILVER 5x Short",
+    "symbol": "xyz:SILVER5S"
+  },
+  {
+    "address": "0xa0990f47541180C6f4364E74f2F9Bfb6e66AcEBe",
+    "chainId": 999,
+    "logoURI": "https://bounce.tech/leveraged-tokens/xyz:XYZ1002L.png",
+    "decimals": 18,
+    "name": "xyz:XYZ100 2x Long",
+    "symbol": "xyz:XYZ1002L"
+  },
+  {
+    "address": "0x32fFECcc06E499C2212DCEfF2d5F3939FD65A9fe",
+    "chainId": 999,
+    "logoURI": "https://bounce.tech/leveraged-tokens/xyz:XYZ1002S.png",
+    "decimals": 18,
+    "name": "xyz:XYZ100 2x Short",
+    "symbol": "xyz:XYZ1002S"
+  },
+  {
+    "address": "0x8430A272E027d1352B2E0DB3837Eb1b439fb6a5C",
+    "chainId": 999,
+    "logoURI": "https://bounce.tech/leveraged-tokens/xyz:XYZ1003L.png",
+    "decimals": 18,
+    "name": "xyz:XYZ100 3x Long",
+    "symbol": "xyz:XYZ1003L"
+  },
+  {
+    "address": "0x7Db3A92eAc6B05e1a22D22cF2f73902d7C447eCd",
+    "chainId": 999,
+    "logoURI": "https://bounce.tech/leveraged-tokens/xyz:XYZ1003S.png",
+    "decimals": 18,
+    "name": "xyz:XYZ100 3x Short",
+    "symbol": "xyz:XYZ1003S"
+  },
+  {
+    "address": "0x747482e4786c7977116082AC7ac83b608F8988fD",
+    "chainId": 999,
+    "logoURI": "https://bounce.tech/leveraged-tokens/xyz:XYZ1005L.png",
+    "decimals": 18,
+    "name": "xyz:XYZ100 5x Long",
+    "symbol": "xyz:XYZ1005L"
+  },
+  {
+    "address": "0x97dd340c112B78303e77aC4fc0d07589bCE7bcfc",
+    "chainId": 999,
+    "logoURI": "https://bounce.tech/leveraged-tokens/xyz:XYZ1005S.png",
+    "decimals": 18,
+    "name": "xyz:XYZ100 5x Short",
+    "symbol": "xyz:XYZ1005S"
+  },
+  {
+    "address": "0x6832D44C6C0921A1394aba712a68bb175089a8BC",
+    "chainId": 999,
+    "logoURI": "https://bounce.tech/leveraged-tokens/xyz:BRENTOIL2L.png",
+    "decimals": 18,
+    "name": "xyz:BRENTOIL 2x Long",
+    "symbol": "xyz:BRENTOIL2L"
+  },
+  {
+    "address": "0x66D7B733ced887B9c3455cbE346Ee2B912F331Af",
+    "chainId": 999,
+    "logoURI": "https://bounce.tech/leveraged-tokens/xyz:BRENTOIL2S.png",
+    "decimals": 18,
+    "name": "xyz:BRENTOIL 2x Short",
+    "symbol": "xyz:BRENTOIL2S"
+  },
+  {
+    "address": "0x6211CC784ba1BEB1e94890e553986212f8d63bea",
+    "chainId": 999,
+    "logoURI": "https://bounce.tech/leveraged-tokens/xyz:BRENTOIL3L.png",
+    "decimals": 18,
+    "name": "xyz:BRENTOIL 3x Long",
+    "symbol": "xyz:BRENTOIL3L"
+  },
+  {
+    "address": "0xaDaeF1C953EAD2b9EBc144AE26Acf77409A03c2D",
+    "chainId": 999,
+    "logoURI": "https://bounce.tech/leveraged-tokens/xyz:BRENTOIL3S.png",
+    "decimals": 18,
+    "name": "xyz:BRENTOIL 3x Short",
+    "symbol": "xyz:BRENTOIL3S"
+  },
+  {
+    "address": "0x06C90D0b7dbc654407045300117cF7a86B5743DB",
+    "chainId": 999,
+    "logoURI": "https://bounce.tech/leveraged-tokens/xyz:BRENTOIL5L.png",
+    "decimals": 18,
+    "name": "xyz:BRENTOIL 5x Long",
+    "symbol": "xyz:BRENTOIL5L"
+  },
+  {
+    "address": "0xfbB451d901555C100CE697c54B72D20FE6A174de",
+    "chainId": 999,
+    "logoURI": "https://bounce.tech/leveraged-tokens/xyz:BRENTOIL5S.png",
+    "decimals": 18,
+    "name": "xyz:BRENTOIL 5x Short",
+    "symbol": "xyz:BRENTOIL5S"
+  },
+  {
+    "address": "0x6C59aF8094bDd2CEA4C583021C70B32D4DbBDdE5",
+    "chainId": 999,
+    "logoURI": "https://bounce.tech/leveraged-tokens/DOGE2L.png",
+    "decimals": 18,
+    "name": "DOGE 2x Long",
+    "symbol": "DOGE2L"
+  },
+  {
+    "address": "0xA432e77Ee0685857057D225d340A4178c9eCc54e",
+    "chainId": 999,
+    "logoURI": "https://bounce.tech/leveraged-tokens/DOGE2S.png",
+    "decimals": 18,
+    "name": "DOGE 2x Short",
+    "symbol": "DOGE2S"
+  },
+  {
+    "address": "0x4c14ccC0Ab1E5ABb64F00572E170D9Af9617E04b",
+    "chainId": 999,
+    "logoURI": "https://bounce.tech/leveraged-tokens/DOGE3L.png",
+    "decimals": 18,
+    "name": "DOGE 3x Long",
+    "symbol": "DOGE3L"
+  },
+  {
+    "address": "0x4eB10F1723Efe2c150DB1973303a4E843C6b7122",
+    "chainId": 999,
+    "logoURI": "https://bounce.tech/leveraged-tokens/DOGE3S.png",
+    "decimals": 18,
+    "name": "DOGE 3x Short",
+    "symbol": "DOGE3S"
+  },
+  {
+    "address": "0x91b5Ce266DE9906b8589dA41EAeedA8e418e677d",
+    "chainId": 999,
+    "logoURI": "https://bounce.tech/leveraged-tokens/DOGE5L.png",
+    "decimals": 18,
+    "name": "DOGE 5x Long",
+    "symbol": "DOGE5L"
+  },
+  {
+    "address": "0x5979e15e4Bb7eB115C4A75458b9e66014C5b6418",
+    "chainId": 999,
+    "logoURI": "https://bounce.tech/leveraged-tokens/DOGE5S.png",
+    "decimals": 18,
+    "name": "DOGE 5x Short",
+    "symbol": "DOGE5S"
+  },
+  {
+    "address": "0x2B049ABA69897aB4AfF0563E1905987bb7bFe6fa",
+    "chainId": 999,
+    "logoURI": "https://bounce.tech/leveraged-tokens/xyz:NVDA2L.png",
+    "decimals": 18,
+    "name": "xyz:NVDA 2x Long",
+    "symbol": "xyz:NVDA2L"
+  },
+  {
+    "address": "0x2a3469759b4D4eFa41F426f89C864Ae8a19f29E5",
+    "chainId": 999,
+    "logoURI": "https://bounce.tech/leveraged-tokens/xyz:NVDA2S.png",
+    "decimals": 18,
+    "name": "xyz:NVDA 2x Short",
+    "symbol": "xyz:NVDA2S"
+  },
+  {
+    "address": "0x2b7505C020DEe0cF3610366ba500b8851bbCdd9A",
+    "chainId": 999,
+    "logoURI": "https://bounce.tech/leveraged-tokens/xyz:NVDA3L.png",
+    "decimals": 18,
+    "name": "xyz:NVDA 3x Long",
+    "symbol": "xyz:NVDA3L"
+  },
+  {
+    "address": "0x064934ae6218d028A01635552E99cE548aACf583",
+    "chainId": 999,
+    "logoURI": "https://bounce.tech/leveraged-tokens/xyz:NVDA3S.png",
+    "decimals": 18,
+    "name": "xyz:NVDA 3x Short",
+    "symbol": "xyz:NVDA3S"
+  },
+  {
+    "address": "0xaE3782E28f34Dd4d12395187f2E0cb3444fCc3c8",
+    "chainId": 999,
+    "logoURI": "https://bounce.tech/leveraged-tokens/xyz:NVDA5L.png",
+    "decimals": 18,
+    "name": "xyz:NVDA 5x Long",
+    "symbol": "xyz:NVDA5L"
+  },
+  {
+    "address": "0x7905D8B60DA6C8e8e2d88D0443433338FDaD481B",
+    "chainId": 999,
+    "logoURI": "https://bounce.tech/leveraged-tokens/xyz:NVDA5S.png",
+    "decimals": 18,
+    "name": "xyz:NVDA 5x Short",
+    "symbol": "xyz:NVDA5S"
+  },
+  {
+    "address": "0xeB975Cb0fDc4F7C1A8572b8b5c435703E1C34E7A",
+    "chainId": 999,
+    "logoURI": "https://bounce.tech/leveraged-tokens/xyz:GOLD2L.png",
+    "decimals": 18,
+    "name": "xyz:GOLD 2x Long",
+    "symbol": "xyz:GOLD2L"
+  },
+  {
+    "address": "0x3410732F0b3338a81B134246699Da4D49Ca9bed9",
+    "chainId": 999,
+    "logoURI": "https://bounce.tech/leveraged-tokens/xyz:GOLD2S.png",
+    "decimals": 18,
+    "name": "xyz:GOLD 2x Short",
+    "symbol": "xyz:GOLD2S"
+  },
+  {
+    "address": "0x53382cf8e34896135947901b4752686e1E25e95F",
+    "chainId": 999,
+    "logoURI": "https://bounce.tech/leveraged-tokens/xyz:GOLD3L.png",
+    "decimals": 18,
+    "name": "xyz:GOLD 3x Long",
+    "symbol": "xyz:GOLD3L"
+  },
+  {
+    "address": "0xB21E6Eb6A5fb874439A2c7dA465fEAFfc508A9F8",
+    "chainId": 999,
+    "logoURI": "https://bounce.tech/leveraged-tokens/xyz:GOLD3S.png",
+    "decimals": 18,
+    "name": "xyz:GOLD 3x Short",
+    "symbol": "xyz:GOLD3S"
+  },
+  {
+    "address": "0x06286fd8030a8d6F40827Ab9F2c0d386b19ccE18",
+    "chainId": 999,
+    "logoURI": "https://bounce.tech/leveraged-tokens/xyz:GOLD5L.png",
+    "decimals": 18,
+    "name": "xyz:GOLD 5x Long",
+    "symbol": "xyz:GOLD5L"
+  },
+  {
+    "address": "0x03674067281574a4d450A6C32f1766fE5D34eD48",
+    "chainId": 999,
+    "logoURI": "https://bounce.tech/leveraged-tokens/xyz:GOLD5S.png",
+    "decimals": 18,
+    "name": "xyz:GOLD 5x Short",
+    "symbol": "xyz:GOLD5S"
+  },
+  {
+    "address": "0x33689a4a83981E2bF3553Bd32D2C025Ed56b417b",
+    "chainId": 999,
+    "logoURI": "https://bounce.tech/leveraged-tokens/xyz:TSLA2L.png",
+    "decimals": 18,
+    "name": "xyz:TSLA 2x Long",
+    "symbol": "xyz:TSLA2L"
+  },
+  {
+    "address": "0xa8e45230f5EF9cff73ec0754b29323C4c2Bbd8b0",
+    "chainId": 999,
+    "logoURI": "https://bounce.tech/leveraged-tokens/xyz:TSLA2S.png",
+    "decimals": 18,
+    "name": "xyz:TSLA 2x Short",
+    "symbol": "xyz:TSLA2S"
+  },
+  {
+    "address": "0xe3fda24cF43e0F0102680000839eAcD32A86c820",
+    "chainId": 999,
+    "logoURI": "https://bounce.tech/leveraged-tokens/xyz:TSLA3L.png",
+    "decimals": 18,
+    "name": "xyz:TSLA 3x Long",
+    "symbol": "xyz:TSLA3L"
+  },
+  {
+    "address": "0xc81D9b0Cb04F1750d65885dCa4364D324aBbBde1",
+    "chainId": 999,
+    "logoURI": "https://bounce.tech/leveraged-tokens/xyz:TSLA3S.png",
+    "decimals": 18,
+    "name": "xyz:TSLA 3x Short",
+    "symbol": "xyz:TSLA3S"
+  },
+  {
+    "address": "0x3E9d63EA22E5A79f2c16E73d6C06Ab4aaEc71820",
+    "chainId": 999,
+    "logoURI": "https://bounce.tech/leveraged-tokens/xyz:TSLA5L.png",
+    "decimals": 18,
+    "name": "xyz:TSLA 5x Long",
+    "symbol": "xyz:TSLA5L"
+  },
+  {
+    "address": "0x7324b2625FA07eF7CBb8415d60B5D118306EB2F5",
+    "chainId": 999,
+    "logoURI": "https://bounce.tech/leveraged-tokens/xyz:TSLA5S.png",
+    "decimals": 18,
+    "name": "xyz:TSLA 5x Short",
+    "symbol": "xyz:TSLA5S"
+  },
+  {
+    "address": "0x0fC7C415a8aF6B289B4E8C16192De8Ae99C595B7",
+    "chainId": 999,
+    "logoURI": "https://bounce.tech/leveraged-tokens/FARTCOIN2L.png",
+    "decimals": 18,
+    "name": "FARTCOIN 2x Long",
+    "symbol": "FARTCOIN2L"
+  },
+  {
+    "address": "0xAebC07E97c62a552fD7dc6D29a50CFc6E3e0a4eF",
+    "chainId": 999,
+    "logoURI": "https://bounce.tech/leveraged-tokens/FARTCOIN2S.png",
+    "decimals": 18,
+    "name": "FARTCOIN 2x Short",
+    "symbol": "FARTCOIN2S"
+  },
+  {
+    "address": "0xed084e9Cae35eA28F2f38F15dB528762D0bA8F2A",
+    "chainId": 999,
+    "logoURI": "https://bounce.tech/leveraged-tokens/FARTCOIN3L.png",
+    "decimals": 18,
+    "name": "FARTCOIN 3x Long",
+    "symbol": "FARTCOIN3L"
+  },
+  {
+    "address": "0x779C1a0612f22e6FD40ca12b0461B3AD9F251166",
+    "chainId": 999,
+    "logoURI": "https://bounce.tech/leveraged-tokens/FARTCOIN3S.png",
+    "decimals": 18,
+    "name": "FARTCOIN 3x Short",
+    "symbol": "FARTCOIN3S"
+  },
+  {
+    "address": "0x57042C698727B5d027f7324f2bB8d738Be8F61F7",
+    "chainId": 999,
+    "logoURI": "https://bounce.tech/leveraged-tokens/FARTCOIN5L.png",
+    "decimals": 18,
+    "name": "FARTCOIN 5x Long",
+    "symbol": "FARTCOIN5L"
+  },
+  {
+    "address": "0x915B99913F0990baf18Eb5E293A739dbCd1e2A5A",
+    "chainId": 999,
+    "logoURI": "https://bounce.tech/leveraged-tokens/FARTCOIN5S.png",
+    "decimals": 18,
+    "name": "FARTCOIN 5x Short",
+    "symbol": "FARTCOIN5S"
+  },
+  {
+    "address": "0x9d48112223696fFaa13e1284CB9062bA7836dCef",
+    "chainId": 999,
+    "logoURI": "https://bounce.tech/leveraged-tokens/xyz:CBRS2L.png",
+    "decimals": 18,
+    "name": "xyz:CBRS 2x Long",
+    "symbol": "xyz:CBRS2L"
+  },
+  {
+    "address": "0x24378989d639CFD485Cb32446187Bf317e81B30d",
+    "chainId": 999,
+    "logoURI": "https://bounce.tech/leveraged-tokens/xyz:CBRS2S.png",
+    "decimals": 18,
+    "name": "xyz:CBRS 2x Short",
+    "symbol": "xyz:CBRS2S"
+  },
+  {
+    "address": "0xf1879D5f12257211d6f5E61D14ca396ad4fE96ba",
+    "chainId": 999,
+    "logoURI": "https://bounce.tech/leveraged-tokens/xyz:CBRS3L.png",
+    "decimals": 18,
+    "name": "xyz:CBRS 3x Long",
+    "symbol": "xyz:CBRS3L"
+  },
+  {
+    "address": "0x603bD649D2017F4b62299b4FFf17F10E4F5e5198",
+    "chainId": 999,
+    "logoURI": "https://bounce.tech/leveraged-tokens/xyz:CBRS3S.png",
+    "decimals": 18,
+    "name": "xyz:CBRS 3x Short",
+    "symbol": "xyz:CBRS3S"
+  },
+  {
+    "address": "0x7De2e1ccdDc8855C8d2a9f455Cf9Ef36a67525E2",
+    "chainId": 999,
+    "logoURI": "https://bounce.tech/leveraged-tokens/xyz:CBRS5L.png",
+    "decimals": 18,
+    "name": "xyz:CBRS 5x Long",
+    "symbol": "xyz:CBRS5L"
+  },
+  {
+    "address": "0x42cC335a8C991Bb48c93A8Df112E9Ec46205dEfA",
+    "chainId": 999,
+    "logoURI": "https://bounce.tech/leveraged-tokens/xyz:CBRS5S.png",
+    "decimals": 18,
+    "name": "xyz:CBRS 5x Short",
+    "symbol": "xyz:CBRS5S"
+  },
+  {
+    "address": "0xdFdE51b58e6C143ef41659f66bde4614A4a27786",
+    "chainId": 999,
+    "logoURI": "https://bounce.tech/leveraged-tokens/NEAR2L.png",
+    "decimals": 18,
+    "name": "NEAR 2x Long",
+    "symbol": "NEAR2L"
+  },
+  {
+    "address": "0xd799426238d322D1605E9aE91761f99bc9f0D1eC",
+    "chainId": 999,
+    "logoURI": "https://bounce.tech/leveraged-tokens/NEAR3L.png",
+    "decimals": 18,
+    "name": "NEAR 3x Long",
+    "symbol": "NEAR3L"
+  },
+  {
+    "address": "0xE3a0007A2D83da122BDCfb6A03c075eF07F225Ec",
+    "chainId": 999,
+    "logoURI": "https://bounce.tech/leveraged-tokens/NEAR5L.png",
+    "decimals": 18,
+    "name": "NEAR 5x Long",
+    "symbol": "NEAR5L"
+  },
+  {
+    "address": "0x31076842Ce672C61930542B8f438E837f2ff47A7",
+    "chainId": 999,
+    "logoURI": "https://bounce.tech/leveraged-tokens/NEAR2S.png",
+    "decimals": 18,
+    "name": "NEAR 2x Short",
+    "symbol": "NEAR2S"
+  },
+  {
+    "address": "0x79a2BA928F8a01997302DdA32D526679F13b8C49",
+    "chainId": 999,
+    "logoURI": "https://bounce.tech/leveraged-tokens/NEAR3S.png",
+    "decimals": 18,
+    "name": "NEAR 3x Short",
+    "symbol": "NEAR3S"
+  },
+  {
+    "address": "0x2d76E327AEFdF665b8c3B7EcD017021c90d14F2F",
+    "chainId": 999,
+    "logoURI": "https://bounce.tech/leveraged-tokens/NEAR5S.png",
+    "decimals": 18,
+    "name": "NEAR 5x Short",
+    "symbol": "NEAR5S"
+  },
+  {
+    "address": "0xfB1089349DbD991F68aE22771475a729263688B7",
+    "chainId": 999,
+    "logoURI": "https://bounce.tech/leveraged-tokens/xyz:SPCX2L.png",
+    "decimals": 18,
+    "name": "xyz:SPCX 2x Long",
+    "symbol": "xyz:SPCX2L"
+  },
+  {
+    "address": "0xFb6c7157c49A5a90093d378cE2Ea0fe7aaffBDe3",
+    "chainId": 999,
+    "logoURI": "https://bounce.tech/leveraged-tokens/xyz:SPCX3L.png",
+    "decimals": 18,
+    "name": "xyz:SPCX 3x Long",
+    "symbol": "xyz:SPCX3L"
+  },
+  {
+    "address": "0x9028E790cDaa7753AD4e0Fa52Ca322dE34C132aD",
+    "chainId": 999,
+    "logoURI": "https://bounce.tech/leveraged-tokens/xyz:SPCX2S.png",
+    "decimals": 18,
+    "name": "xyz:SPCX 2x Short",
+    "symbol": "xyz:SPCX2S"
+  },
+  {
+    "address": "0x09c0e5aE216FF1ff079fd5CFa9808B2ad84404C1",
+    "chainId": 999,
+    "logoURI": "https://bounce.tech/leveraged-tokens/xyz:SPCX3S.png",
+    "decimals": 18,
+    "name": "xyz:SPCX 3x Short",
+    "symbol": "xyz:SPCX3S"
+  },
+  {
+    "address": "0x60498a65e31C90f4BE6a0b04c3a6E8A4EA2cF10e",
+    "chainId": 999,
+    "logoURI": "https://bounce.tech/leveraged-tokens/LIT2L.png",
+    "decimals": 18,
+    "name": "LIT 2x Long",
+    "symbol": "LIT2L"
+  },
+  {
+    "address": "0x773e17006cCe0295eBf51d892ee240eB09576a70",
+    "chainId": 999,
+    "logoURI": "https://bounce.tech/leveraged-tokens/LIT3L.png",
+    "decimals": 18,
+    "name": "LIT 3x Long",
+    "symbol": "LIT3L"
+  },
+  {
+    "address": "0xE0AF42D331fF5DB8d698c32bd18f6320E996Ed6E",
+    "chainId": 999,
+    "logoURI": "https://bounce.tech/leveraged-tokens/LIT2S.png",
+    "decimals": 18,
+    "name": "LIT 2x Short",
+    "symbol": "LIT2S"
+  },
+  {
+    "address": "0x6AEf30dDf43Ca86c979B8889079BeBcfDBc8272e",
+    "chainId": 999,
+    "logoURI": "https://bounce.tech/leveraged-tokens/LIT3S.png",
+    "decimals": 18,
+    "name": "LIT 3x Short",
+    "symbol": "LIT3S"
+  },
+  {
+    "address": "0x832bd9D809248e575C75e985fae8e27Eef4d93D7",
+    "chainId": 999,
+    "logoURI": "https://bounce.tech/leveraged-tokens/xyz:MU2L.png",
+    "decimals": 18,
+    "name": "xyz:MU 2x Long",
+    "symbol": "xyz:MU2L"
+  },
+  {
+    "address": "0x3e7864b33D336dFF6E18a2DEa6F50D78d4621fDd",
+    "chainId": 999,
+    "logoURI": "https://bounce.tech/leveraged-tokens/xyz:MU3L.png",
+    "decimals": 18,
+    "name": "xyz:MU 3x Long",
+    "symbol": "xyz:MU3L"
+  },
+  {
+    "address": "0x80bEf304Aa8A8e7Be75b9C11e6e13dDf49BDbffb",
+    "chainId": 999,
+    "logoURI": "https://bounce.tech/leveraged-tokens/xyz:MU5L.png",
+    "decimals": 18,
+    "name": "xyz:MU 5x Long",
+    "symbol": "xyz:MU5L"
+  },
+  {
+    "address": "0x2c5028176B942a5dfCFDC741f8F13f85722eB5Bd",
+    "chainId": 999,
+    "logoURI": "https://bounce.tech/leveraged-tokens/xyz:MU2S.png",
+    "decimals": 18,
+    "name": "xyz:MU 2x Short",
+    "symbol": "xyz:MU2S"
+  },
+  {
+    "address": "0x1bbc42A6C72d0878f918Bb9258d40bbD76a49d89",
+    "chainId": 999,
+    "logoURI": "https://bounce.tech/leveraged-tokens/xyz:MU3S.png",
+    "decimals": 18,
+    "name": "xyz:MU 3x Short",
+    "symbol": "xyz:MU3S"
+  },
+  {
+    "address": "0x2c28cC36a58dFDC3a6A73B430b042AD7B2b1b96e",
+    "chainId": 999,
+    "logoURI": "https://bounce.tech/leveraged-tokens/xyz:MU5S.png",
+    "decimals": 18,
+    "name": "xyz:MU 5x Short",
+    "symbol": "xyz:MU5S"
+  },
+  {
+    "address": "0x99bf53aC7320F057Cca3e4757ee4991768d78e79",
+    "chainId": 999,
+    "logoURI": "https://bounce.tech/leveraged-tokens/xyz:SPCX5L.png",
+    "decimals": 18,
+    "name": "xyz:SPCX 5x Long",
+    "symbol": "xyz:SPCX5L"
+  },
+  {
+    "address": "0xf1E2486B9ff7D649F245abdFd6B4e5Cde545fD29",
+    "chainId": 999,
+    "logoURI": "https://bounce.tech/leveraged-tokens/xyz:SPCX5S.png",
+    "decimals": 18,
+    "name": "xyz:SPCX 5x Short",
+    "symbol": "xyz:SPCX5S"
+  },
+  {
+    "address": "0x2BBFb5300F732bcacA1fe5489F6c84c01c94b2E7",
+    "chainId": 999,
+    "logoURI": "https://bounce.tech/leveraged-tokens/xyz:SKHX2L.png",
+    "decimals": 18,
+    "name": "xyz:SKHX 2x Long",
+    "symbol": "xyz:SKHX2L"
+  },
+  {
+    "address": "0xf3bF36A380413b848b1742BdA2F1559e86F00919",
+    "chainId": 999,
+    "logoURI": "https://bounce.tech/leveraged-tokens/xyz:SKHX3L.png",
+    "decimals": 18,
+    "name": "xyz:SKHX 3x Long",
+    "symbol": "xyz:SKHX3L"
+  },
+  {
+    "address": "0xB28B719fc754205F9EdbB86351934D6Da259ff58",
+    "chainId": 999,
+    "logoURI": "https://bounce.tech/leveraged-tokens/xyz:SKHX5L.png",
+    "decimals": 18,
+    "name": "xyz:SKHX 5x Long",
+    "symbol": "xyz:SKHX5L"
+  },
+  {
+    "address": "0x7Ed943cD78Dfe5028346DdD28A76F5CE296fA206",
+    "chainId": 999,
+    "logoURI": "https://bounce.tech/leveraged-tokens/xyz:SKHX2S.png",
+    "decimals": 18,
+    "name": "xyz:SKHX 2x Short",
+    "symbol": "xyz:SKHX2S"
+  },
+  {
+    "address": "0x509ED701F7F6b1481B690F8a7d5b5c0556EDdf4f",
+    "chainId": 999,
+    "logoURI": "https://bounce.tech/leveraged-tokens/xyz:SKHX3S.png",
+    "decimals": 18,
+    "name": "xyz:SKHX 3x Short",
+    "symbol": "xyz:SKHX3S"
+  },
+  {
+    "address": "0x7c99668c65efa930f9F53F3A856649c9b3018Ba4",
+    "chainId": 999,
+    "logoURI": "https://bounce.tech/leveraged-tokens/xyz:SKHX5S.png",
+    "decimals": 18,
+    "name": "xyz:SKHX 5x Short",
+    "symbol": "xyz:SKHX5S"
+  },
+  {
+    "address": "0xDC9E6775ebaD67C9BA673967F90e0fA007722ea0",
+    "chainId": 999,
+    "logoURI": "https://bounce.tech/leveraged-tokens/xyz:CXMT2L.png",
+    "decimals": 18,
+    "name": "xyz:CXMT 2x Long",
+    "symbol": "xyz:CXMT2L"
+  },
+  {
+    "address": "0xa3Fb5052F9149843192D756a74a19b602c5188E0",
+    "chainId": 999,
+    "logoURI": "https://bounce.tech/leveraged-tokens/xyz:CXMT3L.png",
+    "decimals": 18,
+    "name": "xyz:CXMT 3x Long",
+    "symbol": "xyz:CXMT3L"
+  },
+  {
+    "address": "0xcb3C5B38c9A445a69e1c797bcf61902FbAeB0D39",
+    "chainId": 999,
+    "logoURI": "https://bounce.tech/leveraged-tokens/xyz:CXMT5L.png",
+    "decimals": 18,
+    "name": "xyz:CXMT 5x Long",
+    "symbol": "xyz:CXMT5L"
+  },
+  {
+    "address": "0x5643F40444d27B3C3bBC038eeCFea1146A2De029",
+    "chainId": 999,
+    "logoURI": "https://bounce.tech/leveraged-tokens/xyz:CXMT2S.png",
+    "decimals": 18,
+    "name": "xyz:CXMT 2x Short",
+    "symbol": "xyz:CXMT2S"
+  },
+  {
+    "address": "0x27997AED5B57a4fBd91589938E4c2001a01D4622",
+    "chainId": 999,
+    "logoURI": "https://bounce.tech/leveraged-tokens/xyz:CXMT3S.png",
+    "decimals": 18,
+    "name": "xyz:CXMT 3x Short",
+    "symbol": "xyz:CXMT3S"
+  },
+  {
+    "address": "0xd207c6ad3967C5739fe0c0500bea6E52B8e8F251",
+    "chainId": 999,
+    "logoURI": "https://bounce.tech/leveraged-tokens/xyz:CXMT5S.png",
+    "decimals": 18,
+    "name": "xyz:CXMT 5x Short",
+    "symbol": "xyz:CXMT5S"
+  },
+  {
+    "address": "0x69Ae2e77BF2a43Cbfb3A88b53B67DaFEdE2DaacC",
+    "chainId": 999,
+    "logoURI": "https://bounce.tech/leveraged-tokens/PUMP2L.png",
+    "decimals": 18,
+    "name": "PUMP 2x Long",
+    "symbol": "PUMP2L"
+  },
+  {
+    "address": "0x1aaAD0C1f100300Ce67D3c0a65448561550a1b05",
+    "chainId": 999,
+    "logoURI": "https://bounce.tech/leveraged-tokens/PUMP3L.png",
+    "decimals": 18,
+    "name": "PUMP 3x Long",
+    "symbol": "PUMP3L"
+  },
+  {
+    "address": "0xF0f2005908D9d865058b998b464033ec4ee2E7F0",
+    "chainId": 999,
+    "logoURI": "https://bounce.tech/leveraged-tokens/PUMP5L.png",
+    "decimals": 18,
+    "name": "PUMP 5x Long",
+    "symbol": "PUMP5L"
+  },
+  {
+    "address": "0x1b8302D8F16C7DDF09F7AAc49899166bBF8C2B6D",
+    "chainId": 999,
+    "logoURI": "https://bounce.tech/leveraged-tokens/PUMP2S.png",
+    "decimals": 18,
+    "name": "PUMP 2x Short",
+    "symbol": "PUMP2S"
+  },
+  {
+    "address": "0x0e31e80976876FA40f15FA2C2B195820Ba0b214d",
+    "chainId": 999,
+    "logoURI": "https://bounce.tech/leveraged-tokens/PUMP3S.png",
+    "decimals": 18,
+    "name": "PUMP 3x Short",
+    "symbol": "PUMP3S"
+  },
+  {
+    "address": "0x87Ea10D0Be3994f63EB407013A53551f34d93192",
+    "chainId": 999,
+    "logoURI": "https://bounce.tech/leveraged-tokens/PUMP5S.png",
+    "decimals": 18,
+    "name": "PUMP 5x Short",
+    "symbol": "PUMP5S"
+  },
+  {
+    "address": "0xAe65e3C8903DDA957242E8Ea03c4DDda97DEF313",
+    "chainId": 999,
+    "logoURI": "https://bounce.tech/leveraged-tokens/PONS1S.png",
+    "decimals": 18,
+    "name": "PONS 1x Short",
+    "symbol": "PONS1S"
+  },
+  {
+    "address": "0xEa4Cb6A9E7bBf577bCECe9D221C09cF277b27202",
+    "chainId": 999,
+    "logoURI": "https://bounce.tech/leveraged-tokens/ENA2L.png",
+    "decimals": 18,
+    "name": "ENA 2x Long",
+    "symbol": "ENA2L"
+  },
+  {
+    "address": "0x19636544e3254C1ea8703D3533BFaA6135D32260",
+    "chainId": 999,
+    "logoURI": "https://bounce.tech/leveraged-tokens/ENA3L.png",
+    "decimals": 18,
+    "name": "ENA 3x Long",
+    "symbol": "ENA3L"
+  },
+  {
+    "address": "0x08F24AF334e5681d0C242336E1d962c86025e67c",
+    "chainId": 999,
+    "logoURI": "https://bounce.tech/leveraged-tokens/ENA5L.png",
+    "decimals": 18,
+    "name": "ENA 5x Long",
+    "symbol": "ENA5L"
+  },
+  {
+    "address": "0x6fb667D70f8472E8960eE41Eec79C16c2319C8c6",
+    "chainId": 999,
+    "logoURI": "https://bounce.tech/leveraged-tokens/ENA2S.png",
+    "decimals": 18,
+    "name": "ENA 2x Short",
+    "symbol": "ENA2S"
+  },
+  {
+    "address": "0x917afa67155b72A0cfbc1a0991b13E0D62884F47",
+    "chainId": 999,
+    "logoURI": "https://bounce.tech/leveraged-tokens/ENA3S.png",
+    "decimals": 18,
+    "name": "ENA 3x Short",
+    "symbol": "ENA3S"
+  },
+  {
+    "address": "0x35b8080BC42Aecf289088068f9F008973E2dAB70",
+    "chainId": 999,
+    "logoURI": "https://bounce.tech/leveraged-tokens/ENA5S.png",
+    "decimals": 18,
+    "name": "ENA 5x Short",
+    "symbol": "ENA5S"
   }
 ]
