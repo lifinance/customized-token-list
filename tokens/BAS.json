@@ -1494,5 +1494,13 @@
     "decimals": 8,
     "name": "Wendy's Co",
     "symbol": "WENc"
+  },
+  {
+    "address": "0x7F0E9971D3320521Fc88F863E173a4cddBB051bA",
+    "chainId": 8453,
+    "logoURI": "https://assets.aquari.org/logo/aquari-blue.svg",
+    "decimals": 18,
+    "name": "Aquari",
+    "symbol": "AQUARI"
   }
 ]
