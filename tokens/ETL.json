@@ -174,5 +174,13 @@
     "decimals": 18,
     "name": "Palladium",
     "symbol": "xPd"
+  },
+  {
+    "address": "0xAf884014Ca57DD44A0e2429144DD291C97e36034",
+    "chainId": 42793,
+    "logoURI": "https://light-power-29443cc779.media.strapiapp.com/x_Cu_logo_512_dfb1c9cf82.webp",
+    "decimals": 18,
+    "name": "Copper",
+    "symbol": "xCu"
   }
 ]
