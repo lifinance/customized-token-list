@@ -4798,5 +4798,13 @@
     "decimals": 9,
     "name": "TartSwap",
     "symbol": "TART"
+  },
+  {
+    "address": "0x1Ca53AB509757A4FE134709Ee53BBcDA5D4a8A6d",
+    "chainId": 56,
+    "logoURI": "https://raw.githubusercontent.com/Rezlen/token-list/lent-assets/lent/lent-icon-256.png",
+    "decimals": 6,
+    "name": "London Entrepreneurs Network Token",
+    "symbol": "LENT"
   }
 ]
