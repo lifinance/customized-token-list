@@ -3654,5 +3654,61 @@
     "decimals": 9,
     "name": "Caris Life Sciences Inc (Ondo Tokenized)",
     "logoURI": "https://cdn.ondo.finance/tokens/logos/caion_160x160.png"
+  },
+  {
+    "address": "pvC4ogQRN4QtVwEVEB4gW1WADLCFkcTNuxvYVixondo",
+    "chainId": 1151111081099710,
+    "symbol": "MAG7Xon",
+    "decimals": 9,
+    "name": "Ondo Magnificent 7 and Crypto Portfolio",
+    "logoURI": "https://cdn.ondo.finance/tokens/logos/mag7xon_160x160.png"
+  },
+  {
+    "address": "CPcYDPoNoD42Yqvv2kKfB93RqL73vxnXEoRRgqqondo",
+    "chainId": 1151111081099710,
+    "symbol": "BRAINon",
+    "decimals": 9,
+    "name": "Ondo AI Leaders Portfolio",
+    "logoURI": "https://cdn.ondo.finance/tokens/logos/brainon_160x160.png"
+  },
+  {
+    "address": "ofe6mC87qNGYgSr9Ps7wMVVSbUFvpcJDDxskPrqondo",
+    "chainId": 1151111081099710,
+    "symbol": "YLD5on",
+    "decimals": 9,
+    "name": "Ondo 5 Targeted Income TR Portfolio",
+    "logoURI": "https://cdn.ondo.finance/tokens/logos/yld5on_160x160.png"
+  },
+  {
+    "address": "LZ6kyzBEniNHQ57cj8KAbkwtXxYbhQDKBQJo5npondo",
+    "chainId": 1151111081099710,
+    "symbol": "YLD8on",
+    "decimals": 9,
+    "name": "Ondo 8 Targeted Income TR Portfolio",
+    "logoURI": "https://cdn.ondo.finance/tokens/logos/yld8on_160x160.png"
+  },
+  {
+    "address": "bBrSYBsz4GncqiyGzVL4aVrhbmWY3pFHdkxshTpondo",
+    "chainId": 1151111081099710,
+    "symbol": "BLKHIon",
+    "decimals": 9,
+    "name": "Ondo High Income Powered by BlackRock",
+    "logoURI": "https://cdn.ondo.finance/tokens/logos/blkhion_160x160.png"
+  },
+  {
+    "address": "MH63ApKFAH68mTP8M5ofkioN6AomPCV8Ar35dtRondo",
+    "chainId": 1151111081099710,
+    "symbol": "BLKDIGon",
+    "decimals": 9,
+    "name": "Ondo Diversified Growth Powered by BlackRock",
+    "logoURI": "https://cdn.ondo.finance/tokens/logos/blkdigon_160x160.png"
+  },
+  {
+    "address": "qr13tSwtPWKTgYQqf6XM8YoT5LrbFgacpVUupfEondo",
+    "chainId": 1151111081099710,
+    "symbol": "BLKGRWon",
+    "decimals": 9,
+    "name": "Ondo High Growth Powered by BlackRock",
+    "logoURI": "https://cdn.ondo.finance/tokens/logos/blkgrwon_160x160.png"
   }
 ]
