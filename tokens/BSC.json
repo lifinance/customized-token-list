@@ -4806,5 +4806,405 @@
     "decimals": 6,
     "name": "London Entrepreneurs Network Token",
     "symbol": "LENT"
+  },
+  {
+    "address": "0xE1743616f705954620aa351465c8885fBDE5A8A9",
+    "chainId": 56,
+    "symbol": "LINon",
+    "decimals": 18,
+    "name": "Linde plc (Ondo Tokenized)",
+    "logoURI": "https://cdn.ondo.finance/tokens/logos/linon_160x160.png"
+  },
+  {
+    "address": "0xf99F8f3a95257d82006183bd524efa7aaCc9Ef7A",
+    "chainId": 56,
+    "symbol": "PEPon",
+    "decimals": 18,
+    "name": "PepsiCo (Ondo Tokenized)",
+    "logoURI": "https://cdn.ondo.finance/tokens/logos/pepon_160x160.png"
+  },
+  {
+    "address": "0x274b0cB6dB9473245a31Cdea9b789786f4108e4B",
+    "chainId": 56,
+    "symbol": "CATon",
+    "decimals": 18,
+    "name": "Caterpillar (Ondo Tokenized)",
+    "logoURI": "https://cdn.ondo.finance/tokens/logos/caton_160x160.png"
+  },
+  {
+    "address": "0xDAD07d0ca26ED4109BC00893dBEe3eD4cE8ce2A4",
+    "chainId": 56,
+    "symbol": "CIFRon",
+    "decimals": 18,
+    "name": "Cipher Mining (Ondo Tokenized)",
+    "logoURI": "https://cdn.ondo.finance/tokens/logos/cifron_160x160.png"
+  },
+  {
+    "address": "0x4EF383F521e803863a33FCa8F3f861e53EF9ef9B",
+    "chainId": 56,
+    "symbol": "CLOAon",
+    "decimals": 18,
+    "name": "iShares AAA CLO Active ETF (Ondo Tokenized)",
+    "logoURI": "https://cdn.ondo.finance/tokens/logos/cloaon_160x160.png"
+  },
+  {
+    "address": "0x53A8C5fC5643b437779742f494691E6B7C660a8B",
+    "chainId": 56,
+    "symbol": "COFon",
+    "decimals": 18,
+    "name": "Capital One (Ondo Tokenized)",
+    "logoURI": "https://cdn.ondo.finance/tokens/logos/cofon_160x160.png"
+  },
+  {
+    "address": "0x8ddB97556F6ae98B4D408C56b167139fE1Cbe3e8",
+    "chainId": 56,
+    "symbol": "Con",
+    "decimals": 18,
+    "name": "Citigroup (Ondo Tokenized)",
+    "logoURI": "https://cdn.ondo.finance/tokens/logos/con_160x160.png"
+  },
+  {
+    "address": "0x620477782cEA4C4171165396f8014eDef83A13da",
+    "chainId": 56,
+    "symbol": "FIGRon",
+    "decimals": 18,
+    "name": "Figure Technology Solutions (Ondo Tokenized)",
+    "logoURI": "https://cdn.ondo.finance/tokens/logos/figron_160x160.png"
+  },
+  {
+    "address": "0xb1ABa049C42B6Fe811766EBa61f51F11C57ACC4b",
+    "chainId": 56,
+    "symbol": "Fon",
+    "decimals": 18,
+    "name": "Ford Motor (Ondo Tokenized)",
+    "logoURI": "https://cdn.ondo.finance/tokens/logos/fon_160x160.png"
+  },
+  {
+    "address": "0x9810BeAc9Af3C30D14CfB61cdd557E160f60fd50",
+    "chainId": 56,
+    "symbol": "LIon",
+    "decimals": 18,
+    "name": "Li Auto (Ondo Tokenized)",
+    "logoURI": "https://cdn.ondo.finance/tokens/logos/lion_160x160.png"
+  },
+  {
+    "address": "0x4bAf4Dc56CF6a525A0874E25CC6372a6a8915135",
+    "chainId": 56,
+    "symbol": "MPon",
+    "decimals": 18,
+    "name": "MP Materials (Ondo Tokenized)",
+    "logoURI": "https://cdn.ondo.finance/tokens/logos/mpon_160x160.png"
+  },
+  {
+    "address": "0xC6f9EDbEE6042A237D72493bBdA3eE2c3c62F708",
+    "chainId": 56,
+    "symbol": "NIOon",
+    "decimals": 18,
+    "name": "NIO (Ondo Tokenized)",
+    "logoURI": "https://cdn.ondo.finance/tokens/logos/nioon_160x160.png"
+  },
+  {
+    "address": "0x282973969118F9fE39bF2Ff3D8dd1EFEe82ccB11",
+    "chainId": 56,
+    "symbol": "NTESon",
+    "decimals": 18,
+    "name": "NetEase (Ondo Tokenized)",
+    "logoURI": "https://cdn.ondo.finance/tokens/logos/nteson_160x160.png"
+  },
+  {
+    "address": "0xCfD1F0DF84300ea1a4E2Ba5238043A2FA5A7237C",
+    "chainId": 56,
+    "symbol": "PINSon",
+    "decimals": 18,
+    "name": "Pinterest (Ondo Tokenized)",
+    "logoURI": "https://cdn.ondo.finance/tokens/logos/pinson_160x160.png"
+  },
+  {
+    "address": "0x44FdE2C6Bc2C2b54962c69fcef57a2A50121dbD7",
+    "chainId": 56,
+    "symbol": "RTXon",
+    "decimals": 18,
+    "name": "RTX (Ondo Tokenized)",
+    "logoURI": "https://cdn.ondo.finance/tokens/logos/rtxon_160x160.png"
+  },
+  {
+    "address": "0xf325884d9bCAc457271FE7F7b6Be1765348fccA2",
+    "chainId": 56,
+    "symbol": "SNAPon",
+    "decimals": 18,
+    "name": "Snap (Ondo Tokenized)",
+    "logoURI": "https://cdn.ondo.finance/tokens/logos/snapon_160x160.png"
+  },
+  {
+    "address": "0xD7a6353A23Ed2c4fcAc29a63cBBE3f65ffef41F5",
+    "chainId": 56,
+    "symbol": "SOon",
+    "decimals": 18,
+    "name": "Southern (Ondo Tokenized)",
+    "logoURI": "https://cdn.ondo.finance/tokens/logos/soon_160x160.png"
+  },
+  {
+    "address": "0x6459303F58244fF1e7a42b90aa3782Dfb6ca6969",
+    "chainId": 56,
+    "symbol": "TCOMon",
+    "decimals": 18,
+    "name": "Trip.com Group (Ondo Tokenized)",
+    "logoURI": "https://cdn.ondo.finance/tokens/logos/tcomon_160x160.png"
+  },
+  {
+    "address": "0xBbe4dFe7a349fb72AEc6f52D5CD9BDd78ae8F313",
+    "chainId": 56,
+    "symbol": "TLNon",
+    "decimals": 18,
+    "name": "Talen Energy (Ondo Tokenized)",
+    "logoURI": "https://cdn.ondo.finance/tokens/logos/tlnon_160x160.png"
+  },
+  {
+    "address": "0xBCF7D958791152128710565A5FC6f68342ed71c8",
+    "chainId": 56,
+    "symbol": "TMOon",
+    "decimals": 18,
+    "name": "Thermo Fisher Scientific (Ondo Tokenized)",
+    "logoURI": "https://cdn.ondo.finance/tokens/logos/tmoon_160x160.png"
+  },
+  {
+    "address": "0x2588F20bAd92dA8dcCe7fac8311B5F8ab4690E43",
+    "chainId": 56,
+    "symbol": "TMUSon",
+    "decimals": 18,
+    "name": "T-Mobile US (Ondo Tokenized)",
+    "logoURI": "https://cdn.ondo.finance/tokens/logos/tmuson_160x160.png"
+  },
+  {
+    "address": "0x4255279af47cF10EfB9A5c8839F90170F4ef759F",
+    "chainId": 56,
+    "symbol": "Ton",
+    "decimals": 18,
+    "name": "AT&T (Ondo Tokenized)",
+    "logoURI": "https://cdn.ondo.finance/tokens/logos/ton_160x160.png"
+  },
+  {
+    "address": "0x9cEa8a7be1ab0320b709d368aD60D8500F55995f",
+    "chainId": 56,
+    "symbol": "VRTon",
+    "decimals": 18,
+    "name": "Vertiv (Ondo Tokenized)",
+    "logoURI": "https://cdn.ondo.finance/tokens/logos/vrton_160x160.png"
+  },
+  {
+    "address": "0xF2C24C47805F4F72d3919c8674BfDd401505794b",
+    "chainId": 56,
+    "symbol": "VSTon",
+    "decimals": 18,
+    "name": "Vistra (Ondo Tokenized)",
+    "logoURI": "https://cdn.ondo.finance/tokens/logos/vston_160x160.png"
+  },
+  {
+    "address": "0x158734153f354cB326EE690c3D55F810Dcb0fC90",
+    "chainId": 56,
+    "symbol": "VTIon",
+    "decimals": 18,
+    "name": "Vanguard Total Stock Market ETF (Ondo Tokenized)",
+    "logoURI": "https://cdn.ondo.finance/tokens/logos/vtion_160x160.png"
+  },
+  {
+    "address": "0xc2dd31b1b3a2F515CE0D48De712C6744C3475170",
+    "chainId": 56,
+    "symbol": "VTVon",
+    "decimals": 18,
+    "name": "Vanguard Value ETF (Ondo Tokenized)",
+    "logoURI": "https://cdn.ondo.finance/tokens/logos/vtvon_160x160.png"
+  },
+  {
+    "address": "0x7b5D01D315485280e6C4FE620405fB9c2E226a33",
+    "chainId": 56,
+    "symbol": "ZJANon",
+    "decimals": 18,
+    "name": "Innovator ZJAN ETF (Ondo Tokenized)",
+    "logoURI": "https://cdn.ondo.finance/tokens/logos/zjanon_160x160.png"
+  },
+  {
+    "address": "0x6E2BE4514B705c9faD357E6E556c67C710190bb9",
+    "chainId": 56,
+    "symbol": "ZFEBon",
+    "decimals": 18,
+    "name": "Innovator ZFEB ETF (Ondo Tokenized)",
+    "logoURI": "https://cdn.ondo.finance/tokens/logos/zfebon_160x160.png"
+  },
+  {
+    "address": "0xc83075d19dfBA5FB16DfCC7e1901127797B41804",
+    "chainId": 56,
+    "symbol": "ZMARon",
+    "decimals": 18,
+    "name": "Innovator ZMAR ETF (Ondo Tokenized)",
+    "logoURI": "https://cdn.ondo.finance/tokens/logos/zmaron_160x160.png"
+  },
+  {
+    "address": "0x7c2494b59500aeb76EB942579a0f2c080da4bDa0",
+    "chainId": 56,
+    "symbol": "ZAPRon",
+    "decimals": 18,
+    "name": "Innovator ZAPR ETF (Ondo Tokenized)",
+    "logoURI": "https://cdn.ondo.finance/tokens/logos/zapron_160x160.png"
+  },
+  {
+    "address": "0xB41d89c61Aa53097184E2f47aBCB23Cc15aC266e",
+    "chainId": 56,
+    "symbol": "ZMAYon",
+    "decimals": 18,
+    "name": "Innovator ZMAY ETF (Ondo Tokenized)",
+    "logoURI": "https://cdn.ondo.finance/tokens/logos/zmayon_160x160.png"
+  },
+  {
+    "address": "0xC5337e92BB8ec00722985F85287C928961Bd82df",
+    "chainId": 56,
+    "symbol": "ZJUNon",
+    "decimals": 18,
+    "name": "Innovator ZJUN ETF (Ondo Tokenized)",
+    "logoURI": "https://cdn.ondo.finance/tokens/logos/zjunon_160x160.png"
+  },
+  {
+    "address": "0x16b384878990f94Fe3A6A18E5E46a5Eff1A50A08",
+    "chainId": 56,
+    "symbol": "ZJULon",
+    "decimals": 18,
+    "name": "Innovator ZJUL ETF (Ondo Tokenized)",
+    "logoURI": "https://cdn.ondo.finance/tokens/logos/zjulon_160x160.png"
+  },
+  {
+    "address": "0x11b664414291512f3b13C7127768bA16fBEa35a5",
+    "chainId": 56,
+    "symbol": "ZAUGon",
+    "decimals": 18,
+    "name": "Innovator ZAUG ETF (Ondo Tokenized)",
+    "logoURI": "https://cdn.ondo.finance/tokens/logos/zaugon_160x160.png"
+  },
+  {
+    "address": "0x2c4846bB54b2D232D89F9ce763005F0861c72921",
+    "chainId": 56,
+    "symbol": "ZSEPon",
+    "decimals": 18,
+    "name": "Innovator ZSEP ETF (Ondo Tokenized)",
+    "logoURI": "https://cdn.ondo.finance/tokens/logos/zsepon_160x160.png"
+  },
+  {
+    "address": "0x4F1a7E696E2550FFFd3C241FfAFa3cfbe603078a",
+    "chainId": 56,
+    "symbol": "ZOCTon",
+    "decimals": 18,
+    "name": "Innovator ZOCT ETF (Ondo Tokenized)",
+    "logoURI": "https://cdn.ondo.finance/tokens/logos/zocton_160x160.png"
+  },
+  {
+    "address": "0xb041e45025eF1d3d149F37B984191Faf9AF55Dea",
+    "chainId": 56,
+    "symbol": "ZNOVon",
+    "decimals": 18,
+    "name": "Innovator ZNOV ETF (Ondo Tokenized)",
+    "logoURI": "https://cdn.ondo.finance/tokens/logos/znovon_160x160.png"
+  },
+  {
+    "address": "0xB5f44eb9e3f97254fE9Fe4Bbb20A32d683fdC529",
+    "chainId": 56,
+    "symbol": "ZDEKon",
+    "decimals": 18,
+    "name": "Innovator ZDEK ETF (Ondo Tokenized)",
+    "logoURI": "https://cdn.ondo.finance/tokens/logos/zdekon_160x160.png"
+  },
+  {
+    "address": "0x820f09C2EBe7852E14a1310008BF7aF4d29d4F09",
+    "chainId": 56,
+    "symbol": "TWSTon",
+    "decimals": 18,
+    "name": "Twist Bioscience (Ondo Tokenized)",
+    "logoURI": "https://cdn.ondo.finance/tokens/logos/twston_160x160.png"
+  },
+  {
+    "address": "0xaC0919D699eE1725d30d5ceD86cfd553C33DC36A",
+    "chainId": 56,
+    "symbol": "INSMon",
+    "decimals": 18,
+    "name": "Insmed (Ondo Tokenized)",
+    "logoURI": "https://cdn.ondo.finance/tokens/logos/insmon_160x160.png"
+  },
+  {
+    "address": "0x56Bb3F07aB727D9a68c77eB132BCbbF294177222",
+    "chainId": 56,
+    "symbol": "ERASon",
+    "decimals": 18,
+    "name": "Erasca (Ondo Tokenized)",
+    "logoURI": "https://cdn.ondo.finance/tokens/logos/erason_160x160.png"
+  },
+  {
+    "address": "0x0f3931104d9ce770fE33b1032bedF32D67273fE0",
+    "chainId": 56,
+    "symbol": "BNTXon",
+    "decimals": 18,
+    "name": "BioNTech (Ondo Tokenized)",
+    "logoURI": "https://cdn.ondo.finance/tokens/logos/bntxon_160x160.png"
+  },
+  {
+    "address": "0x6a28d66cD0dB1730c1227465F03848E295a34b21",
+    "chainId": 56,
+    "symbol": "PTGXon",
+    "decimals": 18,
+    "name": "Protagonist Therapeutics (Ondo Tokenized)",
+    "logoURI": "https://cdn.ondo.finance/tokens/logos/ptgxon_160x160.png"
+  },
+  {
+    "address": "0x452248f839755c7b777bbC0f6Aa49D7F05EB8020",
+    "chainId": 56,
+    "symbol": "NTRAon",
+    "decimals": 18,
+    "name": "Natera (Ondo Tokenized)",
+    "logoURI": "https://cdn.ondo.finance/tokens/logos/ntraon_160x160.png"
+  },
+  {
+    "address": "0x14315F0Dd6765935EbD9642242aA4F52cB975FEF",
+    "chainId": 56,
+    "symbol": "BMRNon",
+    "decimals": 18,
+    "name": "BioMarin Pharmaceutical (Ondo Tokenized)",
+    "logoURI": "https://cdn.ondo.finance/tokens/logos/bmrnon_160x160.png"
+  },
+  {
+    "address": "0x71C63cB88cc3538437560CD1F87dAcA82Db0Fc79",
+    "chainId": 56,
+    "symbol": "ROIVon",
+    "decimals": 18,
+    "name": "Roivant Sciences (Ondo Tokenized)",
+    "logoURI": "https://cdn.ondo.finance/tokens/logos/roivon_160x160.png"
+  },
+  {
+    "address": "0xa3e7b4Ee9Ae8DFE8c9EB7e4E58FDB042F6D179f9",
+    "chainId": 56,
+    "symbol": "BITAon",
+    "decimals": 18,
+    "name": "iShares Bitcoin Premium Income ETF (Ondo Tokenized)",
+    "logoURI": "https://cdn.ondo.finance/tokens/logos/bitaon_160x160.png"
+  },
+  {
+    "address": "0x80D672ea969ea634345618312C8ccF4322F0675C",
+    "chainId": 56,
+    "symbol": "ASSTon",
+    "decimals": 18,
+    "name": "Strive (Ondo Tokenized)",
+    "logoURI": "https://cdn.ondo.finance/tokens/logos/asston_160x160.png"
+  },
+  {
+    "address": "0x3A5cC5222ea69bCB47CbEb5dA2427568244A1f69",
+    "chainId": 56,
+    "symbol": "SATSon",
+    "decimals": 18,
+    "name": "Strive SATS Preferred (Ondo Tokenized)",
+    "logoURI": "https://cdn.ondo.finance/tokens/logos/satson_160x160.png"
+  },
+  {
+    "address": "0x3f41bCF043a07Ca9DC734f24b0a77C01CBfA0E8D",
+    "chainId": 56,
+    "symbol": "CAIon",
+    "decimals": 18,
+    "name": "Caris Life Sciences (Ondo Tokenized)",
+    "logoURI": "https://cdn.ondo.finance/tokens/logos/caion_160x160.png"
   }
 ]

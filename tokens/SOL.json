@@ -3462,5 +3462,197 @@
     "decimals": 6,
     "name": "Fartcoin",
     "symbol": "Fartcoin"
+  },
+  {
+    "address": "65ojqsRXJfZ6jsyvwYgCSJDx6eSJDF4TyKEKU8Uondo",
+    "chainId": 1151111081099710,
+    "symbol": "ZJANon",
+    "decimals": 9,
+    "name": "Innovator ZJAN ETF (Ondo Tokenized)",
+    "logoURI": "https://cdn.ondo.finance/tokens/logos/zjanon_160x160.png"
+  },
+  {
+    "address": "8xNG9FjTsaoheLy6fqRnGrpGfArchnvZHDbxmfbondo",
+    "chainId": 1151111081099710,
+    "symbol": "ZFEBon",
+    "decimals": 9,
+    "name": "Innovator ZFEB ETF (Ondo Tokenized)",
+    "logoURI": "https://cdn.ondo.finance/tokens/logos/zfebon_160x160.png"
+  },
+  {
+    "address": "9UK3oCkkoF19bx7hiEZi52PEkNRQDL5dVoxAr6gondo",
+    "chainId": 1151111081099710,
+    "symbol": "ZMARon",
+    "decimals": 9,
+    "name": "Innovator ZMAR ETF (Ondo Tokenized)",
+    "logoURI": "https://cdn.ondo.finance/tokens/logos/zmaron_160x160.png"
+  },
+  {
+    "address": "Az8xE1QxMWxm7YVfawqcpp5x4fUCgA7P78TWJSPondo",
+    "chainId": 1151111081099710,
+    "symbol": "ZAPRon",
+    "decimals": 9,
+    "name": "Innovator ZAPR ETF (Ondo Tokenized)",
+    "logoURI": "https://cdn.ondo.finance/tokens/logos/zapron_160x160.png"
+  },
+  {
+    "address": "CrsCirE2pnFWAyYVHBKo2pfMW7HcZLC3K5xxPFMondo",
+    "chainId": 1151111081099710,
+    "symbol": "ZMAYon",
+    "decimals": 9,
+    "name": "Innovator ZMAY ETF (Ondo Tokenized)",
+    "logoURI": "https://cdn.ondo.finance/tokens/logos/zmayon_160x160.png"
+  },
+  {
+    "address": "HZL3NitvYh26d4MQ7Eqe7UCLZd7zqssQTixJCGxondo",
+    "chainId": 1151111081099710,
+    "symbol": "ZJUNon",
+    "decimals": 9,
+    "name": "Innovator ZJUN ETF (Ondo Tokenized)",
+    "logoURI": "https://cdn.ondo.finance/tokens/logos/zjunon_160x160.png"
+  },
+  {
+    "address": "JoZo1z7ztGadz3XiV768VTkNrvv2962SUSwDpQ4ondo",
+    "chainId": 1151111081099710,
+    "symbol": "ZJULon",
+    "decimals": 9,
+    "name": "Innovator ZJUL ETF (Ondo Tokenized)",
+    "logoURI": "https://cdn.ondo.finance/tokens/logos/zjulon_160x160.png"
+  },
+  {
+    "address": "LZxoG2t3bXxBy3LuDKmNedspMwhGqMPkM7W69K2ondo",
+    "chainId": 1151111081099710,
+    "symbol": "ZAUGon",
+    "decimals": 9,
+    "name": "Innovator ZAUG ETF (Ondo Tokenized)",
+    "logoURI": "https://cdn.ondo.finance/tokens/logos/zaugon_160x160.png"
+  },
+  {
+    "address": "MrA5KLWafSN7o4xU7DKeqbGsckh2SFM9gE7kqU2ondo",
+    "chainId": 1151111081099710,
+    "symbol": "ZSEPon",
+    "decimals": 9,
+    "name": "Innovator ZSEP ETF (Ondo Tokenized)",
+    "logoURI": "https://cdn.ondo.finance/tokens/logos/zsepon_160x160.png"
+  },
+  {
+    "address": "QVaBGHknDyzoL4QZSoNBPbLf7azTJD5RLEBeck9ondo",
+    "chainId": 1151111081099710,
+    "symbol": "ZOCTon",
+    "decimals": 9,
+    "name": "Innovator ZOCT ETF (Ondo Tokenized)",
+    "logoURI": "https://cdn.ondo.finance/tokens/logos/zocton_160x160.png"
+  },
+  {
+    "address": "TNwcyDng8B8MQpXP9Xt7puwLB1C3Gd3JDURUmjeondo",
+    "chainId": 1151111081099710,
+    "symbol": "ZNOVon",
+    "decimals": 9,
+    "name": "Innovator ZNOV ETF (Ondo Tokenized)",
+    "logoURI": "https://cdn.ondo.finance/tokens/logos/znovon_160x160.png"
+  },
+  {
+    "address": "TZE6DkWMb9LbJpmbz3w8kcQhajbgCjNv6rW4acJondo",
+    "chainId": 1151111081099710,
+    "symbol": "ZDEKon",
+    "decimals": 9,
+    "name": "Innovator ZDEK ETF (Ondo Tokenized)",
+    "logoURI": "https://cdn.ondo.finance/tokens/logos/zdekon_160x160.png"
+  },
+  {
+    "address": "U3wHHv4MXUc3W3zpSfMhSLSjopQCJXqFjkuRUSaondo",
+    "chainId": 1151111081099710,
+    "symbol": "TWSTon",
+    "decimals": 9,
+    "name": "Twist Bioscience Corporation (Ondo Tokenized)",
+    "logoURI": "https://cdn.ondo.finance/tokens/logos/twston_160x160.png"
+  },
+  {
+    "address": "WA4B7zirRCmz52ybWN1L3KkVtqjviyDnDpU81L7ondo",
+    "chainId": 1151111081099710,
+    "symbol": "INSMon",
+    "decimals": 9,
+    "name": "Insmed Incorporated (Ondo Tokenized)",
+    "logoURI": "https://cdn.ondo.finance/tokens/logos/insmon_160x160.png"
+  },
+  {
+    "address": "YDH6FLNKUGYbanUeXgTLavXzT7Cfr1rf8feuJ1fondo",
+    "chainId": 1151111081099710,
+    "symbol": "ERASon",
+    "decimals": 9,
+    "name": "Erasca, Inc. (Ondo Tokenized)",
+    "logoURI": "https://cdn.ondo.finance/tokens/logos/erason_160x160.png"
+  },
+  {
+    "address": "YwZcfm1Cd5fpfK7h7KYkZBMUGG6c5NePeb2xM4Hondo",
+    "chainId": 1151111081099710,
+    "symbol": "BNTXon",
+    "decimals": 9,
+    "name": "BioNTech SE (Ondo Tokenized)",
+    "logoURI": "https://cdn.ondo.finance/tokens/logos/bntxon_160x160.png"
+  },
+  {
+    "address": "a2vHV6BstDDyZTkiQtEKTWrdcQNE6AAvcjj7dwMondo",
+    "chainId": 1151111081099710,
+    "symbol": "PTGXon",
+    "decimals": 9,
+    "name": "Protagonist Therapeutics, Inc. (Ondo Tokenized)",
+    "logoURI": "https://cdn.ondo.finance/tokens/logos/ptgxon_160x160.png"
+  },
+  {
+    "address": "e6aqDTAJ7hoPHLsZwb4mthh2ktusriQBqERnCe6ondo",
+    "chainId": 1151111081099710,
+    "symbol": "NTRAon",
+    "decimals": 9,
+    "name": "Natera, Inc. (Ondo Tokenized)",
+    "logoURI": "https://cdn.ondo.finance/tokens/logos/ntraon_160x160.png"
+  },
+  {
+    "address": "hqoDJ7e5K31JqPgV4w9WuWVo8VbZJmbxzKuBNDBondo",
+    "chainId": 1151111081099710,
+    "symbol": "BMRNon",
+    "decimals": 9,
+    "name": "BioMarin Pharmaceutical Inc. (Ondo Tokenized)",
+    "logoURI": "https://cdn.ondo.finance/tokens/logos/bmrnon_160x160.png"
+  },
+  {
+    "address": "iBnKsRTZ5NpiwhsL3XdViUoem2RLcLfqbPndeumondo",
+    "chainId": 1151111081099710,
+    "symbol": "ROIVon",
+    "decimals": 9,
+    "name": "Roivant Sciences Ltd. (Ondo Tokenized)",
+    "logoURI": "https://cdn.ondo.finance/tokens/logos/roivon_160x160.png"
+  },
+  {
+    "address": "k7Ge7hCyqrvJi2qeMKxF1Tz8M5iVWZmpyB3z68Tondo",
+    "chainId": 1151111081099710,
+    "symbol": "BITAon",
+    "decimals": 9,
+    "name": "iShares Bitcoin Premium Income ETF (Ondo Tokenized)",
+    "logoURI": "https://cdn.ondo.finance/tokens/logos/bitaon_160x160.png"
+  },
+  {
+    "address": "qe2YvLAnZ2SjwQahVRPiaJPMWwemEZ9GFamxdeMondo",
+    "chainId": 1151111081099710,
+    "symbol": "ASSTon",
+    "decimals": 9,
+    "name": "Strive (Ondo Tokenized)",
+    "logoURI": "https://cdn.ondo.finance/tokens/logos/asston_160x160.png"
+  },
+  {
+    "address": "tuePqnZobDMppUTvzxiLeR56DkivaDjdnUcK1W1ondo",
+    "chainId": 1151111081099710,
+    "symbol": "SATSon",
+    "decimals": 9,
+    "name": "Strive SATS Preferred (Ondo Tokenized)",
+    "logoURI": "https://cdn.ondo.finance/tokens/logos/satson_160x160.png"
+  },
+  {
+    "address": "wRdUjREc11BwkxavdLycKR2Z5eMLyoxAsN9nRSPondo",
+    "chainId": 1151111081099710,
+    "symbol": "CAIon",
+    "decimals": 9,
+    "name": "Caris Life Sciences Inc (Ondo Tokenized)",
+    "logoURI": "https://cdn.ondo.finance/tokens/logos/caion_160x160.png"
   }
 ]
