@@ -1,0 +1,90 @@
+[
+  {
+    "name": "Kinetiq Governance Token",
+    "address": "0xe45a355d9e9cAd2aD85F2d03E3eE3102A036acF0",
+    "symbol": "KNTQ",
+    "chainId": 99901,
+    "decimals": 18,
+    "logoURI": "https://static.debank.com/image/hyper_token/logo_url/0x000000000000780555bd0bca3791f89f9542c2d6/c854a21fa87b323a4929f7ef685ae158.png"
+  },
+  {
+    "name": "Unit Bitcoin",
+    "address": "0xE9C29585EAe4B9a55b02a9605AEa892B40d972E8",
+    "symbol": "UBTC",
+    "chainId": 99901,
+    "decimals": 8,
+    "logoURI": "https://static.debank.com/image/hyper_token/logo_url/0x9fdbda0a5e284c32744d2f17ee5c74b284993463/0e625d069e829a7e3aa6ef5ea569ae59.png"
+  },
+  {
+    "name": "Unit Ethereum",
+    "address": "0x7A66A75fe41Bc26867C17fe1bc7D1C076EBd4eCd",
+    "symbol": "UETH",
+    "chainId": 99901,
+    "decimals": 18,
+    "logoURI": "https://static.debank.com/image/hyper_token/logo_url/0xbe6727b535545c67d5caa73dea54865b92cf7907/c3d23de18dc7c3c3c77208c886e8e392.png"
+  },
+  {
+    "name": "Purr",
+    "address": "0x46b131573Ca7c2674b652BbeB7FC16D530396aEC",
+    "symbol": "PURR",
+    "chainId": 99901,
+    "decimals": 18,
+    "logoURI": "https://static.debank.com/image/hyper_token/logo_url/0x9b498c3c8a0b8cd8ba1d9851d40d186f1872b44e/f24d47ea475bd86c3f1c8289191c1b64.png"
+  },
+  {
+    "name": "Unit Solana",
+    "address": "0xd78eC40Ac7412069cA0f223413c7E5E1d18f4315",
+    "symbol": "USOL",
+    "chainId": 99901,
+    "decimals": 9,
+    "logoURI": "https://app.hyperliquid.xyz/coins/SOL_USDC.svg"
+  },
+  {
+    "name": "NEAR Protocol",
+    "address": "0x00ec1a9a4aA8775EA6DB430cE9998c5703862969",
+    "symbol": "ONEAR",
+    "chainId": 99901,
+    "decimals": 18,
+    "logoURI": "https://app.hyperliquid.xyz/coins/NEAR.svg"
+  },
+  {
+    "name": "Unit Pump",
+    "address": "0x5A7de8B5ACD66291617E790EBC7234a4860821cf",
+    "symbol": "UPUMP",
+    "chainId": 99901,
+    "decimals": 6,
+    "logoURI": "https://static.debank.com/image/hyper_token/logo_url/0x27ec642013bcb3d80ca3706599d3cda04f6f4452/50158085a2010a751ec4400cf99a4075.png"
+  },
+  {
+    "name": "Kinetiq Staked HYPE",
+    "address": "0x248888D396A546A69A188f3Deb476964e581E9d0",
+    "symbol": "kHYPE",
+    "chainId": 99901,
+    "decimals": 18,
+    "logoURI": "https://static.debank.com/image/hyper_token/logo_url/0xfd739d4e423301ce9385c1fb8850539d657c296d/c80ab8cb672513f5d9831c6a538f4cf5.png"
+  },
+  {
+    "name": "Kinetiq Earn Vault",
+    "address": "0x119e8ab9F722295DC32F284Ef8D4cf95671C485E",
+    "symbol": "vkHYPE",
+    "chainId": 99901,
+    "decimals": 18,
+    "logoURI": "https://static.debank.com/image/hyper_token/logo_url/0x9ba2edc44e0a4632eb4723e81d4142353e1bb160/fdfdade6f69aae63eaaa743d13103614.png"
+  },
+  {
+    "name": "Kinetiq Markets LST",
+    "address": "0xa60a69b0508500a0181C299Ba4EAC4B81E19aC96",
+    "symbol": "kmHYPE",
+    "chainId": 99901,
+    "decimals": 18,
+    "logoURI": "https://imgur.com/a/E0234xk"
+  },
+  {
+    "name": "Staked KNTQ",
+    "address": "0xF2012a08B042c6a555880025A2e36bBAe7F8AECd",
+    "symbol": "sKNTQ",
+    "chainId": 99901,
+    "decimals": 18,
+    "logoURI": "https://static.debank.com/image/hyper_token/logo_url/0x696238e0ca31c94e24ca4cbe7921754e172e4d0f/6079021f25066d7533875828b39158ec.png"
+  }
+]
