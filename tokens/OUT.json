@@ -1038,5 +1038,29 @@
     "decimals": 18,
     "name": "UPPERS",
     "symbol": "UPPERS"
+  },
+  {
+    "address": "0x7df3ad1ecc10dbf0296d05f91a697e4a059771c2",
+    "chainId": 4663,
+    "logoURI": "https://assets.coingecko.com/coins/images/102172666/standard/SPLG.png?1774599381",
+    "decimals": 18,
+    "name": "Wrapped State Street SPDR Portfolio S&P 500 ETF ST0x",
+    "symbol": "wtSPYM"
+  },
+  {
+    "address": "0x06b17e431a957dd8522bf106653bac6b39f437e6",
+    "chainId": 4663,
+    "logoURI": "https://assets.coingecko.com/coins/images/102174008/standard/WTSGOV_256.png?1781775656",
+    "decimals": 18,
+    "name": "Wrapped iShares 0-3 Month Treasury Bond ETF ST0x",
+    "symbol": "wtSGOV"
+  },
+  {
+    "address": "0xa3d1be1ab9f4e72309cb9bfeaa14afe46d012e36",
+    "chainId": 4663,
+    "logoURI": "https://assets.coingecko.com/coins/images/102172258/standard/coinbase-logo-icon.PNG?1772558782",
+    "decimals": 18,
+    "name": "Wrapped Coinbase Global Inc ST0x",
+    "symbol": "wtCOIN"
   }
 ]
