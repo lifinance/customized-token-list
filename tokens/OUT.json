@@ -1062,5 +1062,13 @@
     "decimals": 18,
     "name": "Wrapped Coinbase Global Inc ST0x",
     "symbol": "wtCOIN"
+  },
+  {
+    "address": "0xca678d0d69f9e815d1a4f4df05c904b2dde017f8",
+    "chainId": 4663,
+    "logoURI": "https://st0x.io/icons/HOOD.png",
+    "decimals": 18,
+    "name": "Wrapped Robinhood Markets, Inc. ST0x",
+    "symbol": "wtHOOD"
   }
 ]
