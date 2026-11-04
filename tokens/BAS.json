@@ -1510,5 +1510,13 @@
     "decimals": 18,
     "name": "Peso Argentino",
     "symbol": "wARS"
+  },
+  {
+    "address": "0xb783f2d2e031a7c4aa48aedac4c58be85bfa04d3",
+    "chainId": 8453,
+    "logoURI": "https://assets.coingecko.com/coins/images/12882/standard/Other_200x200.png?1738782212",
+    "decimals": 18,
+    "name": "Injective",
+    "symbol": "INJ"
   }
 ]
