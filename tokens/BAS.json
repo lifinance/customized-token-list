@@ -653,7 +653,7 @@
     "symbol": "wtCOIN",
     "decimals": 18,
     "chainId": 8453,
-    "logoURI": "https://platform.st0x.io/images/COIN.png"
+    "logoURI": "https://assets.coingecko.com/coins/images/102172258/standard/coinbase-logo-icon.PNG?1772558782"
   },
   {
     "name": "Wrapped MicroStrategy Incorporated ST0x",
@@ -669,7 +669,7 @@
     "symbol": "wtSPYM",
     "decimals": 18,
     "chainId": 8453,
-    "logoURI": "https://platform.st0x.io/images/SPLG.png"
+    "logoURI": "https://assets.coingecko.com/coins/images/102172666/standard/SPLG.png?1774599381"
   },
   {
     "address": "0xD993935E13851dd7517af10687EC7e5022127228",
@@ -754,7 +754,7 @@
   {
     "address": "0x78c31580c97101694C70022c83D570150c11e935",
     "chainId": 8453,
-    "logoURI": "https://platform.st0x.io/images/ishares.png",
+    "logoURI": "https://assets.coingecko.com/coins/images/102174008/standard/WTSGOV_256.png?1781775656",
     "decimals": 18,
     "name": "Wrapped iShares 0-3 Month Treasury Bond ETF ST0x",
     "symbol": "wtSGOV"
