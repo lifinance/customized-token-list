@@ -7,7 +7,7 @@ runs:
     - name: Setup Node.js
       uses: actions/setup-node@v4
       with:
-        node-version: lts/*
+        node-version: 26
 
     - name: Fix URLs in pnpm-lock.yaml
       shell: bash

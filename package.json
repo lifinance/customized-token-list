@@ -28,7 +28,7 @@
     "@lifi/types": "^18.15.0",
     "@types/jest": "^29.5.3",
     "@types/lodash": "^4.17.20",
-    "@types/node": "^22.10.2",
+    "@types/node": "^26.6.6",
     "ajv": "^8.12.0",
     "eslint": "^9.17.0",
     "eslint-config-prettier": "^9.1.0",
