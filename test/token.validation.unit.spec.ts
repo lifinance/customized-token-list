@@ -6,6 +6,7 @@ import Ajv from 'ajv'
 import { ChainId } from '@lifi/types'
 import { reduceTokens, tokensInEachFile } from './utils'
 import { Token, DenyToken, ApprovalResetToken } from './type'
+import { describe, expect, it } from 'vitest'
 
 /**
  * Token validation including schema validation and chainId validation
