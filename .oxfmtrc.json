@@ -1,14 +1,16 @@
 {
+  "$schema": "./node_modules/oxfmt/configuration_schema.json",
   "printWidth": 100,
   "semi": false,
   "singleQuote": true,
   "trailingComma": "es5",
   "arrowParens": "always",
+  "sortPackageJson": false,
+  "ignorePatterns": [".github"],
   "overrides": [
     {
-      "files": "*.json",
+      "files": ["*.json"],
       "options": {
-        "parser": "json",
         "bracketSpacing": true,
         "bracketSameLine": true,
         "singleQuote": false

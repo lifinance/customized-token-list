@@ -60,6 +60,7 @@ When an authorised internal comments `/add-token` or `/deny-token` on a labelled
    - **Deny flow:** [`scripts/apply-deny-token.mjs`](./.github/scripts/apply-deny-token.mjs) appends new entries to `denyTokens/<CHAIN_KEY>.json`.
 
    Both scripts scan their target directory at runtime to build a `chainId → filename` map (so they stay in sync with the repo — no hard-coded chain table to maintain) and refuse on duplicate addresses or unsupported chain IDs. **Atomic semantics:** if any one entry in a bulk submission fails validation, the whole batch is rejected with per-entry error messages posted back to the issue.
+
 6. On success the bot opens a branch, commits, pushes, and opens a PR — all in the bot's identity, never using your personal credentials. The reporter/partner and your handle are credited in the PR body and commit trailer.
 7. The PR is assigned to you. CI runs ([`lint.yml`](./.github/workflows/lint.yml) + [`validate.yml`](./.github/workflows/validate.yml)). Once green, you merge — and merging closes the originating issue automatically (`Closes #<n>` in the PR body).
 
@@ -69,15 +70,15 @@ The bot **never merges** — a human always pulls the trigger.
 
 ## 📦 What lives in this repo
 
-| Path | Purpose |
-|---|---|
-| [`tokens/<CHAIN_KEY>.json`](./tokens) | One file per supported chain, containing a JSON array of `{address, chainId, logoURI, decimals, name, symbol}` entries. The filename uses LI.FI's internal chain key; the canonical identifier inside each entry is `chainId`. |
-| [`denyTokens/<CHAIN_KEY>.json`](./denyTokens) | Blocked tokens (scams, etc.) per chain. |
-| [`approvalResetTokens/<CHAIN_KEY>.json`](./approvalResetTokens) | Legacy ERC-20 tokens that require an approval reset before setting a new allowance (e.g. USDT on Ethereum). |
-| [`schema/`](./schema) | JSON schemas defining the expected structure of each entry type. |
-| [`.github/ISSUE_TEMPLATE/add-token.yml`](./.github/ISSUE_TEMPLATE/add-token.yml) | The structured form for "add a token" requests (`token-request` label). |
-| [`.github/ISSUE_TEMPLATE/add-deny-token.yml`](./.github/ISSUE_TEMPLATE/add-deny-token.yml) | The structured form for "report a scam token" requests (`deny-request` label). |
-| [`.github/workflows/process-token-issue.yml`](./.github/workflows/process-token-issue.yml) | The unified `/add-token` + `/deny-token` issue-to-PR converter (label-routed). |
+| Path                                                                                       | Purpose                                                                                                                                                                                                                        |
+| ------------------------------------------------------------------------------------------ | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
+| [`tokens/<CHAIN_KEY>.json`](./tokens)                                                      | One file per supported chain, containing a JSON array of `{address, chainId, logoURI, decimals, name, symbol}` entries. The filename uses LI.FI's internal chain key; the canonical identifier inside each entry is `chainId`. |
+| [`denyTokens/<CHAIN_KEY>.json`](./denyTokens)                                              | Blocked tokens (scams, etc.) per chain.                                                                                                                                                                                        |
+| [`approvalResetTokens/<CHAIN_KEY>.json`](./approvalResetTokens)                            | Legacy ERC-20 tokens that require an approval reset before setting a new allowance (e.g. USDT on Ethereum).                                                                                                                    |
+| [`schema/`](./schema)                                                                      | JSON schemas defining the expected structure of each entry type.                                                                                                                                                               |
+| [`.github/ISSUE_TEMPLATE/add-token.yml`](./.github/ISSUE_TEMPLATE/add-token.yml)           | The structured form for "add a token" requests (`token-request` label).                                                                                                                                                        |
+| [`.github/ISSUE_TEMPLATE/add-deny-token.yml`](./.github/ISSUE_TEMPLATE/add-deny-token.yml) | The structured form for "report a scam token" requests (`deny-request` label).                                                                                                                                                 |
+| [`.github/workflows/process-token-issue.yml`](./.github/workflows/process-token-issue.yml) | The unified `/add-token` + `/deny-token` issue-to-PR converter (label-routed).                                                                                                                                                 |
 
 Chain IDs (the canonical numeric identifier inside each entry, and what the issue form asks partners for) can be looked up at <https://chainlist.org> or via LI.FI's [`/chains` API](https://li.quest/v1/chains). The 3-letter filename keys (`ETH`, `ARB`, `BAS`, …) are LI.FI's internal convention; partners never need to know them.
 
