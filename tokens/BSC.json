@@ -5206,5 +5206,13 @@
     "decimals": 18,
     "name": "Caris Life Sciences (Ondo Tokenized)",
     "logoURI": "https://cdn.ondo.finance/tokens/logos/caion_160x160.png"
+  },
+  {
+    "address": "0xf5cB7cc90040aa717a16887C8b7D7c10a7c60984",
+    "chainId": 56,
+    "logoURI": "https://coin-images.coingecko.com/coins/images/68867/large/Warden_Icon_Lime.png?1756841513",
+    "decimals": 18,
+    "name": "Warden",
+    "symbol": "WARD"
   }
 ]
