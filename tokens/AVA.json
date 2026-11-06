@@ -270,5 +270,13 @@
     "chainId": 43114,
     "decimals": 6,
     "logoURI": "https://assets.coingecko.com/coins/images/70268/standard/1000331462.png?1761335326"
+  },
+  {
+    "address": "0xf0549FE8C622fe46e93eFcAE8A1A1c3c9EbceC4A",
+    "chainId": 43114,
+    "logoURI": "https://openplaza.io/aaptm-256.png",
+    "decimals": 18,
+    "name": "Apertum APTM",
+    "symbol": "aAPTM"
   }
 ]
