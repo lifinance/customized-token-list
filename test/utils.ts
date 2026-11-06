@@ -62,7 +62,7 @@ const checkImages = async (tokens: Token[]): Promise<ImageCheckResult[]> => {
         address: token.address,
         exists,
       }
-    } catch (error) {
+    } catch {
       return {
         url: token.logoURI,
         chainId: token.chainId,

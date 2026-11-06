@@ -1518,5 +1518,13 @@
     "decimals": 18,
     "name": "Injective",
     "symbol": "INJ"
+  },
+  {
+    "address": "0x174a0de0FA1c4771cA980A42553C0041016E5A67",
+    "chainId": 8453,
+    "logoURI": "https://coin-images.coingecko.com/coins/images/68867/large/Warden_Icon_Lime.png?1756841513",
+    "decimals": 18,
+    "name": "Warden",
+    "symbol": "WARD"
   }
 ]
