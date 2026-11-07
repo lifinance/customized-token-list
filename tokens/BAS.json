@@ -1526,5 +1526,13 @@
     "decimals": 18,
     "name": "Warden",
     "symbol": "WARD"
+  },
+  {
+    "address": "0x00000000001C77283FDB79c1D012930C3c987cbc",
+    "chainId": 8453,
+    "logoURI": "https://sdbr.soliditybrasil.com.br/sdbr-logo-256.png",
+    "decimals": 9,
+    "name": "Solidity Brasil",
+    "symbol": "SDBR"
   }
 ]

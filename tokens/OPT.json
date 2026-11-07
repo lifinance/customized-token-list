@@ -254,5 +254,13 @@
     "decimals": 18,
     "name": "exactly",
     "symbol": "EXA"
+  },
+  {
+    "address": "0x00000000001C77283FDB79c1D012930C3c987cbc",
+    "chainId": 10,
+    "logoURI": "https://sdbr.soliditybrasil.com.br/sdbr-logo-256.png",
+    "decimals": 9,
+    "name": "Solidity Brasil",
+    "symbol": "SDBR"
   }
 ]
