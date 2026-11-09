@@ -756,14 +756,6 @@
     "chainId": 137
   },
   {
-    "address": "0xcf928f74c24478a4bf87fd9f88fa3287d3e010e8",
-    "chainId": 137
-  },
-  {
-    "address": "0xf3dba9047ec6f29e882651636b02ff483c2b0351",
-    "chainId": 137
-  },
-  {
     "chainId": 137,
     "address": "0x18ec0A6E18E5bc3784fDd3a3634b31245ab704F6",
     "reason": "Deprecated Monerium EURe v1. Partner migrated to a new contract (#713 / #716)."

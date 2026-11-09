@@ -144,14 +144,6 @@
     "logoURI": "https://assets.coingecko.com/coins/images/27266/small/Bob-logo.png?1663073030"
   },
   {
-    "name": "AllianceBlock Nexera",
-    "address": "0x644192291cc835A93d6330b24EA5f5FEdD0eEF9e",
-    "symbol": "NXRA",
-    "decimals": 18,
-    "chainId": 56,
-    "logoURI": "https://i.imgur.com/voD8CiS.png"
-  },
-  {
     "name": "Own a fraction",
     "address": "0xbd80cfa9d93a87d1bb895f810ea348e496611cd4",
     "symbol": "FRACTION",
@@ -174,14 +166,6 @@
     "decimals": 4,
     "chainId": 56,
     "logoURI": "https://assets.coingecko.com/coins/images/8472/small/MicrosoftTeams-image_%286%29.png?1674480131"
-  },
-  {
-    "name": "Wombat Token",
-    "address": "0xAD6742A35fB341A9Cc6ad674738Dd8da98b94Fb1",
-    "symbol": "WOM",
-    "decimals": 18,
-    "chainId": 56,
-    "logoURI": "https://bscscan.com/token/images/wombatex_32.png"
   },
   {
     "name": "Copiosa Coin",
@@ -1096,15 +1080,7 @@
     "logoURI": "https://cdn.ondo.finance/tokens/logos/gldon_160x160.png"
   },
   {
-    "name": "Sprott Nickel Miners",
-    "address": "0x3fcd741646a9790635b938cdb69af5df356cbaab",
-    "symbol": "NIKLon",
-    "decimals": 18,
-    "chainId": 56,
-    "logoURI": "https://cdn.ondo.finance/tokens/logos/niklon_160x160.png"
-  },
-  {
-    "name": "abrdn Physical Palladium Shares",
+    "name": "abrdn Physical Palladium Shares ETF (Ondo Tokenized)",
     "address": "0x3fcd741646a9790635b938cdb69af5df356cbaab",
     "symbol": "PALLon",
     "decimals": 18,
@@ -1430,14 +1406,6 @@
     "decimals": 18,
     "name": "SpaceX (Ondo Tokenized)",
     "symbol": "SPCXon"
-  },
-  {
-    "address": "0x68fa48B1C2FE52b3D776E1953e0E782b5044Ce28",
-    "chainId": 56,
-    "logoURI": "https://coin-images.coingecko.com/coins/images/102173688/large/SPCXx.png",
-    "decimals": 18,
-    "name": "SpaceX xStock",
-    "symbol": "SPCXx"
   },
   {
     "address": "0x86713f2Bf1969e41A5E003a97934801Acd291De7",
