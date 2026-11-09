@@ -144,14 +144,6 @@
     "logoURI": "https://static.debank.com/image/matic_token/logo_url/0xe5417af564e4bfda1c483642db72007871397896/9dc1bb50d224f58fb2e52c58785f1d59.png"
   },
   {
-    "name": "AllianceBlock Nexera",
-    "address": "0x644192291cc835A93d6330b24EA5f5FEdD0eEF9e",
-    "symbol": "NXRA",
-    "decimals": 18,
-    "chainId": 137,
-    "logoURI": "https://i.imgur.com/voD8CiS.png"
-  },
-  {
     "name": "Relay Token",
     "address": "0x904371845Bc56dCbBcf0225ef84a669b2fD6bd0d",
     "symbol": "RELAY",

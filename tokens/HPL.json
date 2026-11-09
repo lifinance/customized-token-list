@@ -49,7 +49,7 @@
   },
   {
     "name": "Unit Ethereum",
-    "address": "0x2ff71b802a6788a052c7f1a58ec863af00000000",
+    "address": "0xe1edd30daaf5caac3fe63569e24748da00000000",
     "symbol": "UETH",
     "chainId": 1337,
     "decimals": 9,

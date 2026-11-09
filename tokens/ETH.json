@@ -184,14 +184,6 @@
     "logoURI": "https://static.debank.com/image/eth_token/logo_url/0x745407c86df8db893011912d3ab28e68b62e49b0/99948ee1cfc4ab1e5a88c50090e36206.png"
   },
   {
-    "name": "AllianceBlock Nexera",
-    "address": "0x644192291cc835A93d6330b24EA5f5FEdD0eEF9e",
-    "symbol": "NXRA",
-    "decimals": 18,
-    "chainId": 1,
-    "logoURI": "https://i.imgur.com/voD8CiS.png"
-  },
-  {
     "name": "Relay Token",
     "address": "0x5d843fa9495d23de997c394296ac7b4d721e841c",
     "symbol": "RELAY",
@@ -736,7 +728,7 @@
     "logoURI": "https://raw.githubusercontent.com/parallel-protocol/parallel-brand-kit/main/Tokens/PRL/sPRL.svg"
   },
   {
-    "name": "Stake 20WETH-80PRL Aura Deposit Vault ",
+    "name": "Stake 20WETH-80PRL Aura Deposit Vault",
     "address": "0xE8A2d848fE656E34A6caA35f375B42979e322135",
     "symbol": "sPRL2",
     "chainId": 1,
@@ -926,14 +918,6 @@
     "decimals": 18,
     "name": "apxUSD",
     "symbol": "apxUSD"
-  },
-  {
-    "address": "0x38EEb52F0771140d10c4E9a9a72349A329Fe8a6A",
-    "chainId": 1,
-    "logoURI": "https://assets.apyx.fi/tokens/apyUSD.png",
-    "decimals": 18,
-    "name": "apyUSD",
-    "symbol": "apyUSD"
   },
   {
     "name": "USDai",
