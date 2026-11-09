@@ -5246,5 +5246,13 @@
     "decimals": 18,
     "name": "Caris Life Sciences (Ondo Tokenized)",
     "logoURI": "https://cdn.ondo.finance/tokens/logos/caion_160x160.png"
+  },
+  {
+    "address": "0x0000000000109de411eabC9f04906d79F06FDa0e",
+    "chainId": 1,
+    "logoURI": "https://agl-token.vercel.app/agl-logo-256.png",
+    "decimals": 9,
+    "name": "AgroLastro",
+    "symbol": "AGL"
   }
 ]

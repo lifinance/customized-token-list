@@ -286,5 +286,13 @@
     "decimals": 9,
     "name": "Solidity Brasil",
     "symbol": "SDBR"
+  },
+  {
+    "address": "0x0000000000109de411eabC9f04906d79F06FDa0e",
+    "chainId": 43114,
+    "logoURI": "https://agl-token.vercel.app/agl-logo-256.png",
+    "decimals": 9,
+    "name": "AgroLastro",
+    "symbol": "AGL"
   }
 ]
