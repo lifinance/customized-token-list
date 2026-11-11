@@ -5238,5 +5238,29 @@
     "decimals": 9,
     "name": "AgroLastro",
     "symbol": "AGL"
+  },
+  {
+    "address": "0x7E13B43065380aCdeC1c2d138c579cbBbafA0731",
+    "chainId": 1,
+    "logoURI": "https://telcoin.network/images/logos/tel.png",
+    "decimals": 18,
+    "name": "Telcoin",
+    "symbol": "TEL"
+  },
+  {
+    "address": "0x14913815bCFDE78BAeAd2111F463D038Ac9C2949",
+    "chainId": 1,
+    "logoURI": "https://www.telcoin.network/images/logos/eusd.png",
+    "decimals": 6,
+    "name": "eUSD",
+    "symbol": "eUSD"
+  },
+  {
+    "address": "0x467Bccd9d29f223BcE8043b84E8C8B282827790F",
+    "chainId": 1,
+    "logoURI": "https://tel3.telcoin.network/images/logos/telcoin-gray-logo.svg",
+    "decimals": 2,
+    "name": "Telcoin [OLD]",
+    "symbol": "TEL"
   }
 ]
