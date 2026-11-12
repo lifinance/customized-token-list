@@ -3718,5 +3718,21 @@
     "decimals": 6,
     "name": "Brazilian Real Stablecoin",
     "symbol": "BRS"
+  },
+  {
+    "address": "BYN1GKCoFEfJKY2B2C989aMoyeXXbLe2BQv1exeondo",
+    "chainId": 1151111081099710,
+    "symbol": "SPYSHIELDon",
+    "decimals": 9,
+    "name": "Ondo US 500 Capital Shielded Portfolio",
+    "logoURI": "https://cdn.ondo.finance/tokens/logos/spyshieldon_160x160.png"
+  },
+  {
+    "address": "h3g2ZG8a74eVw6j9AxRmXRJACjyGvUUbozGfco9ondo",
+    "chainId": 1151111081099710,
+    "symbol": "BIG5on",
+    "decimals": 9,
+    "name": "Ondo Big 5 Core Allocation Portfolio",
+    "logoURI": "https://cdn.ondo.finance/tokens/logos/big5on_160x160.png"
   }
 ]
