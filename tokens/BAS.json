@@ -1566,5 +1566,13 @@
     "decimals": 2,
     "name": "Telcoin [OLD]",
     "symbol": "TEL"
+  },
+  {
+    "address": "0x0000006238e3C7797Ae71827da303560bae1B125",
+    "chainId": 8453,
+    "logoURI": "https://static.nora.finance/brs/icon.png",
+    "decimals": 6,
+    "name": "Brazilian Real Stablecoin",
+    "symbol": "BRS"
   }
 ]
