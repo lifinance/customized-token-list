@@ -3710,5 +3710,13 @@
     "decimals": 9,
     "name": "Ondo High Growth Powered by BlackRock",
     "logoURI": "https://cdn.ondo.finance/tokens/logos/blkgrwon_160x160.png"
+  },
+  {
+    "address": "BRSxQRUaGswjLs7ewcH7uXj3r7SgmfKSSLLXyCKHZtUo",
+    "chainId": 1151111081099710,
+    "logoURI": "https://static.nora.finance/brs/icon.png",
+    "decimals": 6,
+    "name": "Brazilian Real Stablecoin",
+    "symbol": "BRS"
   }
 ]
