@@ -726,5 +726,13 @@
     "decimals": 9,
     "name": "AgroLastro",
     "symbol": "AGL"
+  },
+  {
+    "address": "0x0419e8bfbbb2623728c3a6129090da4ff4e48113",
+    "chainId": 42161,
+    "logoURI": "https://tel3.telcoin.network/images/logos/telcoin-gray-logo.svg",
+    "decimals": 2,
+    "name": "Telcoin [OLD]",
+    "symbol": "TEL"
   }
 ]
