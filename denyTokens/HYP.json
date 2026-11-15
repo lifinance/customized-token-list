@@ -3,5 +3,20 @@
     "chainId": 999,
     "address": "0xb9cd945141F7D99Fd562a6222AcCDe5043350AD4",
     "reason": "Fee-on-transfer token (PSTR / PaperStrategy). 10% tax on pool buys/sells and on transfers into the LI.FI Diamond; HyperEVM is outside the tax-check coverage, so buy quotes are overstated (hyperflow step simulation fails minTotalAmountOut) and sells fail with TRANSFER_FROM_FAILED."
+  },
+  {
+    "chainId": 999,
+    "address": "0xD948F78d3316228aF5DfE2576A64Fd822CE08888",
+    "reason": "USDT impersonator (name \"Tether\", symbol \"USDT\", 18 decimals, 100 total supply). Plain ERC-20 copying Tether's branding; canonical USDT on HyperEVM is USD₮0 0xB8CE59FC3717ada4C02eaDF9682A9e934F625ebb (6 decimals). Reported by Ambire, flagged on hyperevmscan for impersonation, Hypernative deny after rescreen 2026-11-15."
+  },
+  {
+    "chainId": 999,
+    "address": "0xF5FD5C45B9c2BEe1126FB49AF6ba1abA06eF0507",
+    "reason": "USDC impersonator (symbol \"USDC\", 18 decimals, 1B total supply, priced ~$2.7B per token). Canonical USDC on HyperEVM is 0xb88339CB7199b77E23DB6E890353E22632Ba630f (6 decimals). Bytecode identical to the WBTC impersonator 0xf28f…72e4. Hypernative deny after rescreen 2026-11-15."
+  },
+  {
+    "chainId": 999,
+    "address": "0xf28f9F37B58d282A86e71758e8B4Fa264A0B72e4",
+    "reason": "WBTC impersonator (symbol \"WBTC\", 18 decimals, 21M total supply, priced ~$15). Real wrapped BTC uses 8 decimals. Bytecode identical to the USDC impersonator 0xF5FD…0507. Hypernative deny after rescreen 2026-11-15."
   }
 ]
