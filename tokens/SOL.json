@@ -3734,5 +3734,13 @@
     "decimals": 9,
     "name": "Ondo Big 5 Core Allocation Portfolio",
     "logoURI": "https://cdn.ondo.finance/tokens/logos/big5on_160x160.png"
+  },
+  {
+    "address": "H1X6eyg5fNwaFg1q1jJ3JvAqR46QhjqmUKAbq4Sc9ray",
+    "chainId": 1151111081099710,
+    "logoURI": "https://blockspot.io/wp-content/uploads/stompr-stompr-coin-logo-1d73b7d8.png",
+    "decimals": 6,
+    "name": "STOMPR",
+    "symbol": "STOMPR"
   }
 ]
