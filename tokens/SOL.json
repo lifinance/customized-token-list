@@ -3742,5 +3742,13 @@
     "decimals": 6,
     "name": "STOMPR",
     "symbol": "STOMPR"
+  },
+  {
+    "address": "EpZLWwpzB53GocCRTQkouaZbBroLgaA86bMTPAXgyray",
+    "chainId": 1151111081099710,
+    "logoURI": "https://monopolyhasboro.com/assets/portrait.png",
+    "decimals": 6,
+    "name": "MONOPOLY",
+    "symbol": "MONO"
   }
 ]
