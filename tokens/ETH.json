@@ -5278,5 +5278,13 @@
     "decimals": 6,
     "name": "CAD Coin",
     "symbol": "CADC"
+  },
+  {
+    "address": "0x43a0943893474F246aA58e9921d975aD60Adee59",
+    "chainId": 1,
+    "symbol": "ANTon",
+    "decimals": 18,
+    "name": "Anthropic (Ondo Tokenized)",
+    "logoURI": "https://cdn.ondo.finance/tokens/logos/anton_160x160.png"
   }
 ]
