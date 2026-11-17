@@ -422,5 +422,13 @@
     "decimals": 6,
     "name": "Brazilian Real Stablecoin",
     "symbol": "BRS"
+  },
+  {
+    "address": "0x74D9423a2886618522F7C992Edf647ea707A38eb",
+    "chainId": 137,
+    "logoURI": "https://migrate.loon.finance/cadc-logo.svg",
+    "decimals": 6,
+    "name": "CAD Coin",
+    "symbol": "CADC"
   }
 ]

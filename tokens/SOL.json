@@ -3750,5 +3750,13 @@
     "decimals": 6,
     "name": "MONOPOLY",
     "symbol": "MONO"
+  },
+  {
+    "address": "52spLAAFjKMwhNJ3TL2PUAUGYGgXsbvipP4whRtBp82S",
+    "chainId": 1151111081099710,
+    "logoURI": "https://migrate.loon.finance/cadc-logo.svg",
+    "decimals": 6,
+    "name": "CAD Coin",
+    "symbol": "CADC"
   }
 ]
