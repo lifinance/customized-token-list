@@ -5198,5 +5198,13 @@
     "decimals": 9,
     "name": "AgroLastro",
     "symbol": "AGL"
+  },
+  {
+    "address": "0x343ccbc9f8409f862008b7abebFFf20ECf935C75",
+    "chainId": 56,
+    "symbol": "ANTon",
+    "decimals": 18,
+    "name": "Anthropic (Ondo Tokenized)",
+    "logoURI": "https://cdn.ondo.finance/tokens/logos/anton_160x160.png"
   }
 ]
