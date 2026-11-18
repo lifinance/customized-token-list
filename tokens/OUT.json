@@ -1070,5 +1070,13 @@
     "decimals": 18,
     "name": "Wrapped Robinhood Markets, Inc. ST0x",
     "symbol": "wtHOOD"
+  },
+  {
+    "address": "0x0088CE7905025c4B5ea1d49aB6179B6aaADB3B9C",
+    "chainId": 4663,
+    "logoURI": "https://www.flyaiworld.com/assets/flyai-400.png",
+    "decimals": 18,
+    "name": "fly.ai",
+    "symbol": "FLYAI"
   }
 ]
