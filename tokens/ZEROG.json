@@ -30,5 +30,13 @@
     "decimals": 18,
     "chainId": 16661,
     "logoURI": "https://ascend.finance/imgs/a0g.svg"
+  },
+  {
+    "name": "USDZ",
+    "symbol": "USDZ",
+    "address": "0xd4d54bd7379E799417563B1BB42426c9bD4cCB2a",
+    "decimals": 6,
+    "chainId": 16661,
+    "logoURI": "https://usdz.finance/images/usdz-logo.svg"
   }
 ]
