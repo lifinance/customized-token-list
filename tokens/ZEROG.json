@@ -38,5 +38,13 @@
     "decimals": 6,
     "chainId": 16661,
     "logoURI": "https://usdz.finance/images/usdz-logo.svg"
+  },
+  {
+    "address": "0xc77fbd3824cc68e612b26114d176879addc29463",
+    "chainId": 16661,
+    "logoURI": "https://iai.finance/icon.svg",
+    "decimals": 18,
+    "name": "Infinite AI",
+    "symbol": "iAI"
   }
 ]
