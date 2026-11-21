@@ -38,6 +38,7 @@
     "oxlint": "^1.91.0",
     "ts-node": "^10.9.2",
     "typescript": "^5.1.6",
+    "vite": "^8.3.7",
     "vitest": "^5.1.0"
   },
   "dependencies": {
