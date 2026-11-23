@@ -1990,5 +1990,13 @@
     "decimals": 8,
     "name": "Anthropic, PBC",
     "symbol": "ANTc"
+  },
+  {
+    "address": "0x98233f8449A07c98157CB68cf394a052a99a67F0",
+    "chainId": 8453,
+    "logoURI": "https://www.faractionradar.com/faro/faro-logo-256.png",
+    "decimals": 18,
+    "name": "Faro",
+    "symbol": "FARO"
   }
 ]
