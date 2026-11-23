@@ -6,5 +6,293 @@
     "decimals": 18,
     "chainId": 196,
     "logoURI": "https://assets.coingecko.com/coins/images/68279/standard/xdog.png"
+  },
+  {
+    "address": "0xc845b2894dbddd03858fd2d643b4ef725fe0849d",
+    "chainId": 196,
+    "logoURI": "https://xstocks-metadata.backed.fi/logos/tokens/NVDAx.png",
+    "decimals": 18,
+    "name": "NVIDIA xStock",
+    "symbol": "NVDAx"
+  },
+  {
+    "address": "0x909369940f22dc1c143ac78753a33f41597138b1",
+    "chainId": 196,
+    "logoURI": "https://xstocks-metadata.backed.fi/logos/tokens/ANTx.png",
+    "decimals": 18,
+    "name": "Anthropic xStock",
+    "symbol": "ANTx"
+  },
+  {
+    "address": "0x68fa48b1c2fe52b3d776e1953e0e782b5044ce28",
+    "chainId": 196,
+    "logoURI": "https://xstocks-metadata.backed.fi/logos/tokens/SPCXx.png",
+    "decimals": 18,
+    "name": "SpaceX xStock",
+    "symbol": "SPCXx"
+  },
+  {
+    "address": "0x90a2a4c76b5d8c0bc892a69ea28aa775a8f2dd48",
+    "chainId": 196,
+    "logoURI": "https://xstocks-metadata.backed.fi/logos/tokens/SPYx.png",
+    "decimals": 18,
+    "name": "SP500 xStock",
+    "symbol": "SPYx"
+  },
+  {
+    "address": "0xb63efbc28860c8097e341de1fcf59456161e9d98",
+    "chainId": 196,
+    "logoURI": "https://xstocks-metadata.backed.fi/logos/tokens/SNDKx.png",
+    "decimals": 18,
+    "name": "Sandisk Corporation xStock",
+    "symbol": "SNDKx"
+  },
+  {
+    "address": "0x8ad3c73f833d3f9a523ab01476625f269aeb7cf0",
+    "chainId": 196,
+    "logoURI": "https://xstocks-metadata.backed.fi/logos/tokens/TSLAx.png",
+    "decimals": 18,
+    "name": "Tesla xStock",
+    "symbol": "TSLAx"
+  },
+  {
+    "address": "0xae2f842ef90c0d5213259ab82639d5bbf649b08e",
+    "chainId": 196,
+    "logoURI": "https://xstocks-metadata.backed.fi/logos/tokens/MSTRx.png",
+    "decimals": 18,
+    "name": "MicroStrategy xStock",
+    "symbol": "MSTRx"
+  },
+  {
+    "address": "0xe92f673ca36c5e2efd2de7628f815f84807e803f",
+    "chainId": 196,
+    "logoURI": "https://xstocks-metadata.backed.fi/logos/tokens/GOOGLx.png",
+    "decimals": 18,
+    "name": "Alphabet xStock",
+    "symbol": "GOOGLx"
+  },
+  {
+    "address": "0x3234421fa54ddf0eb750ae04680cc0c4d2de2721",
+    "chainId": 196,
+    "logoURI": "https://xstocks-metadata.backed.fi/logos/tokens/TTWOx.png",
+    "decimals": 18,
+    "name": "Take-Two Interactive Software xStock",
+    "symbol": "TTWOx"
+  },
+  {
+    "address": "0x96702be57cd9777f835117a809c7124fe4ec989a",
+    "chainId": 196,
+    "logoURI": "https://xstocks-metadata.backed.fi/logos/tokens/METAx.png",
+    "decimals": 18,
+    "name": "Meta xStock",
+    "symbol": "METAx"
+  },
+  {
+    "address": "0x3557ba345b01efa20a1bddc61f573bfd87195081",
+    "chainId": 196,
+    "logoURI": "https://xstocks-metadata.backed.fi/logos/tokens/AMZNx.png",
+    "decimals": 18,
+    "name": "Amazon.com xStock",
+    "symbol": "AMZNx"
+  },
+  {
+    "address": "0xa753a7395cae905cd615da0b82a53e0560f250af",
+    "chainId": 196,
+    "logoURI": "https://xstocks-metadata.backed.fi/logos/tokens/QQQx.png",
+    "decimals": 18,
+    "name": "Nasdaq xStock",
+    "symbol": "QQQx"
+  },
+  {
+    "address": "0x9d275685dc284c8eb1c79f6aba7a63dc75ec890a",
+    "chainId": 196,
+    "logoURI": "https://xstocks-metadata.backed.fi/logos/tokens/AAPLx.png",
+    "decimals": 18,
+    "name": "Apple xStock",
+    "symbol": "AAPLx"
+  },
+  {
+    "address": "0x5621737f42dae558b81269fcb9e9e70c19aa6b35",
+    "chainId": 196,
+    "logoURI": "https://xstocks-metadata.backed.fi/logos/tokens/MSFTx.png",
+    "decimals": 18,
+    "name": "Microsoft xStock",
+    "symbol": "MSFTx"
+  },
+  {
+    "address": "0x58100046a4afcd4ee4fadbd4244f3f895a341c56",
+    "chainId": 196,
+    "logoURI": "https://xstocks-metadata.backed.fi/logos/tokens/SKHYx.png",
+    "decimals": 18,
+    "name": "SK hynix xStock",
+    "symbol": "SKHYx"
+  },
+  {
+    "address": "0xf6a873bae4ba1b304e45df52a4b7d176e1c6a8c4",
+    "chainId": 196,
+    "logoURI": "https://xstocks-metadata.backed.fi/logos/tokens/MUx.png",
+    "decimals": 18,
+    "name": "Micron Technology xStock",
+    "symbol": "MUx"
+  },
+  {
+    "address": "0xfebded1b0986a8ee107f5ab1a1c5a813491deceb",
+    "chainId": 196,
+    "logoURI": "https://xstocks-metadata.backed.fi/logos/tokens/CRCLx.png",
+    "decimals": 18,
+    "name": "Circle xStock",
+    "symbol": "CRCLx"
+  },
+  {
+    "address": "0x3522513e5f146a2006e2901b05f16b2821485e19",
+    "chainId": 196,
+    "logoURI": "https://xstocks-metadata.backed.fi/logos/tokens/AMDx.png",
+    "decimals": 18,
+    "name": "AMD xStock",
+    "symbol": "AMDx"
+  },
+  {
+    "address": "0x2380f2673c640fb67e2d6b55b44c62f0e0e69da9",
+    "chainId": 196,
+    "logoURI": "https://xstocks-metadata.backed.fi/logos/tokens/GLDx.png",
+    "decimals": 18,
+    "name": "Gold xStock",
+    "symbol": "GLDx"
+  },
+  {
+    "address": "0xf8a80d1cb9cfd70d03d655d9df42339846f3b3c8",
+    "chainId": 196,
+    "logoURI": "https://xstocks-metadata.backed.fi/logos/tokens/INTCx.png",
+    "decimals": 18,
+    "name": "Intel xStock",
+    "symbol": "INTCx"
+  },
+  {
+    "address": "0x364f210f430ec2448fc68a49203040f6124096f0",
+    "chainId": 196,
+    "logoURI": "https://xstocks-metadata.backed.fi/logos/tokens/COINx.png",
+    "decimals": 18,
+    "name": "Coinbase xStock",
+    "symbol": "COINx"
+  },
+  {
+    "address": "0x6d482cec5f9dd1f05ccee9fd3ff79b246170f8e2",
+    "chainId": 196,
+    "logoURI": "https://xstocks-metadata.backed.fi/logos/tokens/PLTRx.png",
+    "decimals": 18,
+    "name": "Palantir xStock",
+    "symbol": "PLTRx"
+  },
+  {
+    "address": "0xe5f6d3b2405abdfe6f660e63202b25d23763160d",
+    "chainId": 196,
+    "logoURI": "https://xstocks-metadata.backed.fi/logos/tokens/GMEx.png",
+    "decimals": 18,
+    "name": "Gamestop xStock",
+    "symbol": "GMEx"
+  },
+  {
+    "address": "0xe1385fdd5ffb10081cd52c56584f25efa9084015",
+    "chainId": 196,
+    "logoURI": "https://xstocks-metadata.backed.fi/logos/tokens/HOODx.png",
+    "decimals": 18,
+    "name": "Robinhood xStock",
+    "symbol": "HOODx"
+  },
+  {
+    "address": "0xf44234dec21985feb41e37b86fda923cb046f114",
+    "chainId": 196,
+    "logoURI": "https://xstocks-metadata.backed.fi/logos/tokens/DRAMx.png",
+    "decimals": 18,
+    "name": "Storage ETF (Roundhill) xStock",
+    "symbol": "DRAMx"
+  },
+  {
+    "address": "0x4833e7f4f0460f4b72a3a5879a6c9841bcc5b58b",
+    "chainId": 196,
+    "logoURI": "https://xstocks-metadata.backed.fi/logos/tokens/SLVx.png",
+    "decimals": 18,
+    "name": "iShares Silver Trust xStock",
+    "symbol": "SLVx"
+  },
+  {
+    "address": "0x53ee7f58cf031ea4d897fdfcdafad124b3160689",
+    "chainId": 196,
+    "logoURI": "https://xstocks-metadata.backed.fi/logos/tokens/SOXLx.png",
+    "decimals": 18,
+    "name": "Direxion Semiconductor Bull 3X xStock",
+    "symbol": "SOXLx"
+  },
+  {
+    "address": "0x80a77a372c1e12accda84299492f404902e2da67",
+    "chainId": 196,
+    "logoURI": "https://xstocks-metadata.backed.fi/logos/tokens/MCDx.png",
+    "decimals": 18,
+    "name": "McDonald's xStock",
+    "symbol": "MCDx"
+  },
+  {
+    "address": "0xdcf5f4a677514c293474556133dcfd3276f5e998",
+    "chainId": 196,
+    "logoURI": "https://xstocks-metadata.backed.fi/logos/tokens/BEx.png",
+    "decimals": 18,
+    "name": "Bloom Energy xStock",
+    "symbol": "BEx"
+  },
+  {
+    "address": "0x1aad217b8f78dba5e6693460e8470f8b1a3977f3",
+    "chainId": 196,
+    "logoURI": "https://xstocks-metadata.backed.fi/logos/tokens/STRCx.png",
+    "decimals": 18,
+    "name": "Strategy PP Variable xStock",
+    "symbol": "STRCx"
+  },
+  {
+    "address": "0xa6a65ac27e76cd53cb790473e4345c46e5ebf961",
+    "chainId": 196,
+    "logoURI": "https://xstocks-metadata.backed.fi/logos/tokens/NFLXx.png",
+    "decimals": 18,
+    "name": "Netflix xStock",
+    "symbol": "NFLXx"
+  },
+  {
+    "address": "0x1f2c8792148e4dc81a86109504810f2d5f2f26e4",
+    "chainId": 196,
+    "logoURI": "https://xstocks-metadata.backed.fi/logos/tokens/BOTx.png",
+    "decimals": 18,
+    "name": "RoboStrategy xStock",
+    "symbol": "BOTx"
+  },
+  {
+    "address": "0xeaad46f4146ded5a47b55aa7f6c48c191deaec88",
+    "chainId": 196,
+    "logoURI": "https://xstocks-metadata.backed.fi/logos/tokens/MRVLx.png",
+    "decimals": 18,
+    "name": "Marvell xStock",
+    "symbol": "MRVLx"
+  },
+  {
+    "address": "0x90216e923d43b8840d7164634aa9267313058e42",
+    "chainId": 196,
+    "logoURI": "https://xstocks-metadata.backed.fi/logos/tokens/DJTx.png",
+    "decimals": 18,
+    "name": "Trump Media & Technology Group xStock",
+    "symbol": "DJTx"
+  },
+  {
+    "address": "0x0782a5fae365eba67a6f6b688e415211c618f8d4",
+    "chainId": 196,
+    "logoURI": "https://xstocks-metadata.backed.fi/logos/tokens/SOXSx.png",
+    "decimals": 18,
+    "name": "3x Short Semiconductor ETF xStock",
+    "symbol": "SOXSx"
+  },
+  {
+    "address": "0x2dafa4732c8c1b25701a33b05f10f437f9599326",
+    "chainId": 196,
+    "logoURI": "https://xstocks-metadata.backed.fi/logos/tokens/SGOVx.png",
+    "decimals": 18,
+    "name": "iShares 0-3 Month Treasury Bond ETF xStock",
+    "symbol": "SGOVx"
   }
 ]
