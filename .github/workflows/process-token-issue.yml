@@ -1,6 +1,6 @@
 # process-token-issue — unified handler for /add-token and /deny-token
 #
-# Triggered when a member of @lifinance/fullstack or @lifinance/techsupport
+# Triggered when a member of @lifinance/contributors or @lifinance/techsupport
 # comments either `/add-token` or `/deny-token` on an issue created from
 # one of the two token-related issue templates:
 #
@@ -51,21 +51,21 @@ jobs:
           app-id: ${{ secrets.TOKENLIST_BOT_APP_ID }}
           private-key: ${{ secrets.TOKENLIST_BOT_PRIVATE_KEY }}
 
-      - name: Verify commenter is in fullstack or techsupport
+      - name: Verify commenter is in contributors or techsupport
         id: gate
         env:
           GH_TOKEN: ${{ steps.app-token.outputs.token }}
           ACTOR: ${{ github.event.comment.user.login }}
         run: |
           set -e
-          for team in fullstack techsupport; do
+          for team in contributors techsupport; do
             if gh api "/orgs/lifinance/teams/$team/memberships/$ACTOR" --silent 2>/dev/null; then
               echo "authorized=true" >> "$GITHUB_OUTPUT"
               echo "✅ $ACTOR is in @lifinance/$team"
               exit 0
             fi
           done
-          echo "❌ $ACTOR is not a member of fullstack or techsupport. Ignoring command."
+          echo "❌ $ACTOR is not a member of contributors or techsupport. Ignoring command."
           # React with a 👎 so the commenter knows the command was seen and rejected.
           gh api -X POST "/repos/${{ github.repository }}/issues/comments/${{ github.event.comment.id }}/reactions" \
             -f content='-1' || true
