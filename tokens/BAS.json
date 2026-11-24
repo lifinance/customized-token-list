@@ -1998,5 +1998,13 @@
     "decimals": 18,
     "name": "Faro",
     "symbol": "FARO"
+  },
+  {
+    "address": "0xf912a4A0c374a33f192d0657719cE107194573F1",
+    "chainId": 8453,
+    "logoURI": "https://hormuz.meme/token/hormuz-256.png",
+    "decimals": 18,
+    "name": "HORMUZ",
+    "symbol": "HORMUZ"
   }
 ]
