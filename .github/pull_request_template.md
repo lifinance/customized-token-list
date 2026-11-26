@@ -1,5 +1,5 @@
 <!--
-  PRs are restricted to members of @lifinance/fullstack / @lifinance/contributors or @lifinance/techsupport / @lifinance/tech-support.
+  PRs are restricted to members of @lifinance/contributors or @lifinance/tech-support.
   External contributors: please open an issue using the "Add a token" template instead.
   See README.md for the full process.
 -->

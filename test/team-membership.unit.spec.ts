@@ -47,28 +47,32 @@ describe('token issue team gate', () => {
     expect(script).toBeDefined()
   })
 
-  it.each(['fullstack', 'contributors', 'techsupport', 'tech-support'])(
-    'authorizes an active member of %s',
-    async (team) => {
-      const gate = runGate({ [team]: 'active' })
-      await gate.execute()
-      expect(gate.outputs.authorized).toBe('true')
-      expect(gate.reactions).toEqual([])
-    }
-  )
+  it.each(['contributors', 'tech-support'])('authorizes an active member of %s', async (team) => {
+    const gate = runGate({ [team]: 'active' })
+    await gate.execute()
+    expect(gate.outputs.authorized).toBe('true')
+    expect(gate.reactions).toEqual([])
+  })
+
+  it.each(['fullstack', 'techsupport'])('does not authorize a retired %s team', async (team) => {
+    const gate = runGate({ [team]: 'active' })
+    await gate.execute()
+    expect(gate.outputs.authorized).toBe('false')
+    expect(gate.calls).toEqual(['contributors', 'tech-support'])
+  })
 
   it('does not authorize pending membership', async () => {
-    const gate = runGate({ fullstack: 'pending' })
+    const gate = runGate({ contributors: 'pending' })
     await gate.execute()
     expect(gate.outputs.authorized).toBe('false')
     expect(gate.reactions).toEqual(['-1'])
   })
 
-  it('continues past absent old slugs after the rename', async () => {
+  it('tries support when contributors membership is absent', async () => {
     const gate = runGate({ 'tech-support': 'active' })
     await gate.execute()
     expect(gate.outputs.authorized).toBe('true')
-    expect(gate.calls).toEqual(['fullstack', 'contributors', 'techsupport', 'tech-support'])
+    expect(gate.calls).toEqual(['contributors', 'tech-support'])
   })
 
   it('rejects non-members without failing the workflow', async () => {
@@ -79,10 +83,10 @@ describe('token issue team gate', () => {
   })
 
   it.each([401, 403, 429, 500])('fails closed on API status %s', async (status) => {
-    const gate = runGate({ fullstack: status, contributors: 'active' })
+    const gate = runGate({ contributors: status, 'tech-support': 'active' })
     await expect(gate.execute()).rejects.toThrow('API failure')
     expect(gate.outputs.authorized).toBe('false')
-    expect(gate.calls).toEqual(['fullstack'])
+    expect(gate.calls).toEqual(['contributors'])
     expect(gate.reactions).toEqual([])
   })
 })

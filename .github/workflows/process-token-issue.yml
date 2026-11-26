@@ -59,8 +59,7 @@ jobs:
           script: |
             core.setOutput('authorized', 'false');
             const actor = context.payload.comment.user.login;
-            // Both names are accepted while the existing teams are renamed in place.
-            const teams = ['fullstack', 'contributors', 'techsupport', 'tech-support'];
+            const teams = ['contributors', 'tech-support'];
             for (const team of teams) {
               let membership;
               try {
