@@ -5286,5 +5286,13 @@
     "decimals": 18,
     "name": "Anthropic (Ondo Tokenized)",
     "logoURI": "https://cdn.ondo.finance/tokens/logos/anton_160x160.png"
+  },
+  {
+    "address": "0x5422374B27757da72d5265cC745ea906E0446634",
+    "chainId": 1,
+    "symbol": "USDCV",
+    "decimals": 18,
+    "name": "USD CoinVertible",
+    "logoURI": "https://coin-images.coingecko.com/coins/images/69726/large/usd-coinvertible.png"
   }
 ]
