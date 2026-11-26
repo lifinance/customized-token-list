@@ -213,7 +213,7 @@ jobs:
                   "type": "section",
                   "text": {
                     "type": "mrkdwn",
-                    "text": ${{ toJSON(format('Please convert it to a PR by commenting `{0}` under the issue. A bot will create a PR from the submitted data that you can review and merge immediately. Members of `@lifinance/fullstack` or `@lifinance/techsupport` can do this.', steps.parse.outputs.command || '/add-token or /deny-token')) }}
+                    "text": ${{ toJSON(format('Please convert it to a PR by commenting `{0}` under the issue. A bot will create a PR from the submitted data that you can review and merge immediately. Members of `@lifinance/fullstack` / `@lifinance/contributors` or `@lifinance/techsupport` / `@lifinance/tech-support` can do this.', steps.parse.outputs.command || '/add-token or /deny-token')) }}
                   }
                 },
                 {

@@ -36,7 +36,9 @@ Both forms support **bulk submissions** — see the "Additional tokens / Additio
 
 > ⚠️ **Do not open pull requests from forks.** Fork PRs are auto-closed by a workflow with a pointer back to the issue templates. The templates capture everything we need and are a faster path to merge.
 
-### 🛠️ Internal team members (`@lifinance/fullstack` or `@lifinance/techsupport`)
+### 🛠️ Internal team members (`@lifinance/fullstack` / `@lifinance/contributors` or `@lifinance/techsupport` / `@lifinance/tech-support`)
+
+During the team rename, the automation accepts both the old and new team names. The same teams keep their IDs; no parallel access groups are created.
 
 You have two ways to ship a change, depending on where the request came from:
 
@@ -52,7 +54,7 @@ You have two ways to ship a change, depending on where the request came from:
 When an authorised internal comments `/add-token` or `/deny-token` on a labelled issue, the [`process-token-issue` workflow](./.github/workflows/process-token-issue.yml) runs:
 
 1. A GitHub App (`lifi-customizedtokenlist-bot`) mints a short-lived installation token.
-2. The workflow verifies the commenter is a member of `@lifinance/fullstack` or `@lifinance/techsupport`. Non-members get a 👎 reaction; nothing else happens.
+2. The workflow verifies the commenter is an active member of `@lifinance/fullstack` / `@lifinance/contributors` or `@lifinance/techsupport` / `@lifinance/tech-support`. Non-members get a 👎 reaction; nothing else happens.
 3. The bot reads the issue's label to determine the flow: `token-request` → add-flow, `deny-request` → deny-flow. Issues with neither label get a friendly 👎 explanation.
 4. The bot parses the structured fields (the form for add-flow has different fields from deny-flow) and any optional "additional entries" from the bulk-paste textarea.
 5. The appropriate apply script runs:
@@ -86,7 +88,7 @@ Chain IDs (the canonical numeric identifier inside each entry, and what the issu
 
 ## 👥 For internal team members
 
-> The sections below are for members of `@lifinance/fullstack` or `@lifinance/techsupport`. External contributors should use the [issue form](#-external-contributors-partners-projects-community) — these manual paths require write access to the repo.
+> The sections below are for members of `@lifinance/fullstack` / `@lifinance/contributors` or `@lifinance/techsupport` / `@lifinance/tech-support`. External contributors should use the [issue form](#-external-contributors-partners-projects-community) — these manual paths require write access to the repo.
 
 ### How to add a new chain
 
@@ -150,7 +152,7 @@ When querying available token-swapping routes or quotes, if the source token is 
 - The bot is a GitHub App named `lifi-customizedtokenlist-bot`, installed on this repo only.
 - It has the minimum permissions needed: read/write on contents, issues, and pull requests; read on org members (to check team membership).
 - It does **not** receive webhooks and has **no** OAuth user-authentication flow — it only mints short-lived installation tokens inside Actions workflows.
-- Branch protection on `main` restricts pushes to `@lifinance/fullstack`, `@lifinance/techsupport`, and the bot. If this isn't yet enforced on a fresh repo, see Settings → Branches.
+- Branch protection on `main` restricts pushes to the Fullstack team (renamed `contributors`), the support team (renamed `tech-support`), and the bot. These grants are managed in `lifinance/lifi-infrastructure`.
 
 ---
 

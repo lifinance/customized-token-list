@@ -1,6 +1,6 @@
 # process-token-issue — unified handler for /add-token and /deny-token
 #
-# Triggered when a member of @lifinance/fullstack or @lifinance/techsupport
+# Triggered when an active member of an authorised team
 # comments either `/add-token` or `/deny-token` on an issue created from
 # one of the two token-related issue templates:
 #
@@ -13,7 +13,7 @@
 #
 # Flow:
 #   1. Mint a short-lived installation token from the lifi-customizedtokenlist-bot GitHub App.
-#   2. Verify the commenter is in one of the two authorized teams (defence in depth on top of
+#   2. Verify the commenter is in an authorised team (defence in depth on top of
 #      branch protection — stops bogus runs early).
 #   3. React 👀 to acknowledge.
 #   4. Parse the Issue Form body — branch on the issue's label to pick the right field set
@@ -51,28 +51,44 @@ jobs:
           app-id: ${{ secrets.TOKENLIST_BOT_APP_ID }}
           private-key: ${{ secrets.TOKENLIST_BOT_PRIVATE_KEY }}
 
-      - name: Verify commenter is in fullstack or techsupport
+      - name: Verify active team membership
         id: gate
-        env:
-          GH_TOKEN: ${{ steps.app-token.outputs.token }}
-          ACTOR: ${{ github.event.comment.user.login }}
-        run: |
-          set -e
-          for team in fullstack techsupport; do
-            if gh api "/orgs/lifinance/teams/$team/memberships/$ACTOR" --silent 2>/dev/null; then
-              echo "authorized=true" >> "$GITHUB_OUTPUT"
-              echo "✅ $ACTOR is in @lifinance/$team"
-              exit 0
-            fi
-          done
-          echo "❌ $ACTOR is not a member of fullstack or techsupport. Ignoring command."
-          # React with a 👎 so the commenter knows the command was seen and rejected.
-          gh api -X POST "/repos/${{ github.repository }}/issues/comments/${{ github.event.comment.id }}/reactions" \
-            -f content='-1' || true
-          # exit 0 so the run shows green: the unauthorised case is the system
-          # behaving as designed, not a failure. The 👎 reaction is the user-
-          # visible signal.
-          exit 0
+        uses: actions/github-script@f28e40c7f34bde8b3046d885e986cb6290c5673b # v7.1.0
+        with:
+          github-token: ${{ steps.app-token.outputs.token }}
+          script: |
+            core.setOutput('authorized', 'false');
+            const actor = context.payload.comment.user.login;
+            // Both names are accepted while the existing teams are renamed in place.
+            const teams = ['fullstack', 'contributors', 'techsupport', 'tech-support'];
+            for (const team of teams) {
+              let membership;
+              try {
+                membership = await github.rest.teams.getMembershipForUserInOrg({
+                  org: context.repo.owner,
+                  team_slug: team,
+                  username: actor,
+                });
+              } catch (error) {
+                if (error.status === 404) continue;
+                throw error;
+              }
+              if (membership.data.state === 'active') {
+                core.setOutput('authorized', 'true');
+                core.info(actor + ' is an active member of @' + context.repo.owner + '/' + team);
+                return;
+              }
+            }
+            core.info(actor + ' has no active membership of an authorised team. Ignoring command.');
+            try {
+              await github.rest.reactions.createForIssueComment({
+                ...context.repo,
+                comment_id: context.payload.comment.id,
+                content: '-1',
+              });
+            } catch (error) {
+              core.warning('Could not react to the rejected command: ' + error.message);
+            }
 
       - name: React 👀 to comment
         if: steps.gate.outputs.authorized == 'true'
