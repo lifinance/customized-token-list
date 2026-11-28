@@ -2006,5 +2006,13 @@
     "decimals": 18,
     "name": "HORMUZ",
     "symbol": "HORMUZ"
+  },
+  {
+    "address": "0xBf8E8f0e8866a7052F948C16508644347c57aba3",
+    "chainId": 8453,
+    "logoURI": "https://token-media.defined.fi/8453_0xbf8e8f0e8866a7052f948c16508644347c57aba3_large_36567c0184b3.png",
+    "decimals": 18,
+    "name": "aeon",
+    "symbol": "aeon"
   }
 ]
